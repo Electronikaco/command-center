@@ -29,6 +29,9 @@ $EXISTING_CRON
 
 # DosMentes Orchestrator — Claude Opus recoge tareas cada 5 min (WORKER_AGENT=$WORKER_AGENT)
 $OPUS_CRON_LINE
+
+# Command Center — refresh snapshot GitHub Pages cada 30 min (vista para jefes)
+*/30 * * * * $ORCH_DIR/scripts/trigger-pages-refresh.sh
 EOF
 )
 
