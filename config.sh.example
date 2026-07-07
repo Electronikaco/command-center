@@ -1,0 +1,48 @@
+#!/bin/bash
+# config.sh.example — plantilla de configuración del orquestador
+# Copiar a config.sh y ajustar valores para tu entorno:
+#   cp config.sh.example config.sh
+
+ORCH_DIR="/home/claude/dosmentes/.orchestrator"
+REPO_DIR="/home/claude/dosmentes/dosmentes-front"
+CONTRACTS_DIR="/home/claude/dosmentes/dm-api-contracts"
+CONTRACTS_GH_REPO="electronikatm/dm-api-contracts"
+CONTRACTS_BASE_BRANCH="main"
+
+CURSOR="/path/to/cursor-agent"
+SLACK_WEBHOOK="https://hooks.slack.com/services/XXX/YYY/ZZZ"
+
+SUPERVISOR_AGENT="cursor"
+WORKER_AGENT="opus"
+TASK_SOURCE="backlog"
+CLOSE_GITHUB_ISSUES="false"
+GH_REPO="electronikatm/dosmentes-front"
+
+PROGRAM_PHASE="phase2"
+
+LOG="$ORCH_DIR/log.jsonl"
+STATUS_FILE="$ORCH_DIR/status.md"
+NEXT_TASK="$ORCH_DIR/next-task.md"
+LOCK="$ORCH_DIR/opus.lock"
+
+EPIC_ORDER=(
+  "epic/A-evaluacion-forense:docs/backlog/EPIC-A-evaluacion-forense.md"
+  "epic/B-metodologia-entrevista:docs/backlog/EPIC-B-metodologia-entrevista.md"
+  "epic/C-metapericia:docs/backlog/EPIC-C-metapericia.md"
+  "epic/D-transcripcion-visor:docs/backlog/EPIC-D-transcripcion-visor.md"
+  "epic/E-biblioteca:docs/backlog/EPIC-E-biblioteca.md"
+  "epic/F-piloto-observabilidad:docs/backlog/EPIC-F-piloto-observabilidad.md"
+  "epic/J-consolidacion-pre-backend:docs/backlog/EPIC-J-consolidacion-pre-backend.md"
+  "epic/G-consolidados-tenant:docs/backlog/EPIC-G-consolidados-tenant.md"
+  "epic/I-integracion-dashboard:docs/backlog/EPIC-I-integracion-dashboard.md"
+)
+
+EPIC_PAUSED=(
+)
+
+AUTO_EPIC_CLOSE_TASK="true"
+AUTO_EPIC_CLOSE_INCLUDES_CONTRACT="true"
+AUTO_RESUME_ON_PROCESADO="true"
+COORDINATION_BRANCHES=(develop main)
+
+BASE_BRANCH="develop"

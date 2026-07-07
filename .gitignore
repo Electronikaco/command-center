@@ -1,0 +1,18 @@
+# Dependencias
+dashboard/node_modules/
+dashboard/dist/
+
+# Estado runtime del orquestador (permanece solo en el VPS)
+status.md
+next-task.md
+next-task-done-*.md
+opus.lock
+opus-output-*.log
+log.jsonl
+status-api.json
+notifications.log
+cron-*.log
+crontab.backup.*
+
+# Secretos locales (usar config.sh.example como plantilla)
+config.sh
