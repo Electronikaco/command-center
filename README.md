@@ -2,6 +2,18 @@
 
 Orquestador de desarrollo asistido por IA (Cursor supervisor + Claude Opus worker) y dashboard de monitoreo en tiempo casi real.
 
+## Este repo tiene dos partes
+
+- **La raíz** (`supervisor.sh`, `opus-worker.sh`, `lib-*.sh`, `dashboard/`...)
+  es la **instancia real de DosMentes**, corriendo en producción ahora mismo.
+  Sirve como referencia funcionando, pero está atada a ese proyecto
+  específico (rutas, convención `UC-DM-Sx`, repo `dosmentes-front`).
+- **[`template/`](template/README.md)** es la versión **genérica**, lista
+  para que cualquier compañero del equipo la copie a su propio proyecto y
+  levante el mismo pipeline con su propio repo. Incluye además el skill
+  `generar-epics` para redactar el backlog inicial. **Si vas a montar esto en
+  un proyecto que no es DosMentes, empezá por ahí, no por la raíz.**
+
 ## Contenido
 
 | Componente | Descripción |

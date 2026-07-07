@@ -1,0 +1,91 @@
+#!/bin/bash
+# config.sh.example — plantilla de configuración del orquestador.
+# Copiar a config.sh (NO versionar config.sh — va en .gitignore) y ajustar:
+#   cp config.sh.example config.sh
+#   chmod +x config.sh
+#
+# Basado en el orquestador de DosMentes (.orchestrator/), generalizado para
+# cualquier proyecto. Ver README.md de esta carpeta para la guía de puesta
+# en marcha completa y qué significa cada bloque.
+
+# ─── Identidad del proyecto ───────────────────────────────────────────────
+PROJECT_NAME="Mi Proyecto"          # Aparece en notificaciones Slack y status-check.sh
+STACK_DESCRIPTION="<describe tu stack: lenguaje, framework, gestor de paquetes, patrón de arquitectura>"
+RULES_FILE="AGENTS.md"              # Archivo de reglas del repo que el worker debe leer antes de implementar (AGENTS.md, CLAUDE.md, CONTRIBUTING.md...)
+
+# ─── Rutas ─────────────────────────────────────────────────────────────────
+ORCH_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"   # No cambiar salvo que muevas config.sh
+REPO_DIR="/ruta/absoluta/a/tu/repo"
+
+# ─── Repo secundario opcional (specs/contratos en repo aparte) ────────────
+# Deja estas 4 líneas COMENTADAS si tu proyecto vive en un solo repo.
+# Descoméntalas solo si, como DosMentes con dm-api-contracts, cierras cada
+# épica generando/actualizando specs en un segundo repositorio con merge
+# manual (ver lib-contracts.sh y la sección "Repo secundario" del README).
+# SECONDARY_REPO_DIR="/ruta/absoluta/al/repo/de/contratos"
+# SECONDARY_REPO_GH="org/repo-contratos"
+# SECONDARY_REPO_BASE_BRANCH="main"
+# SECONDARY_REPO_BRANCH_MARKER="feat/contract-"   # prefijo que identifica ramas de ese repo, para que el supervisor nunca las trate como ramas del repo principal
+
+# ─── Agentes ────────────────────────────────────────────────────────────────
+CURSOR=""                # Ruta a un CLI headless opcional (p.ej. cursor-agent) que el supervisor
+                          # invoca SOLO para redactar la instrucción correctiva cuando el worker
+                          # queda "blocked"/"error". Vacío = usa un mensaje genérico de fallback.
+SLACK_WEBHOOK=""          # Vacío = las notificaciones solo quedan en notifications.log, no se envían.
+
+SUPERVISOR_AGENT="cron"   # Quién ejerce de supervisor. Informativo (aparece en notificaciones/status).
+WORKER_AGENT="opus"       # "opus" activa el cron de opus-worker.sh. Cualquier otro valor lo desactiva
+                          # (útil si el "worker" sos vos mismo en una sesión interactiva, ver README).
+
+WORKER_CLI="claude"                  # Binario CLI headless que implementa las tareas
+WORKER_MODEL="claude-opus-4-8"       # Vacío = usa el modelo por defecto del CLI
+WORKER_PERMISSION_MODE="bypassPermissions"  # Modo de permisos para correr sin prompts interactivos en cron
+LOCK_MAX_AGE_MIN="90"                # Minutos tras los cuales un lock se considera huérfano
+
+# ─── Fuente de tareas ────────────────────────────────────────────────────────
+TASK_SOURCE="backlog"     # "backlog" = lee docs/backlog/EPIC-*.md del repo (recomendado — es el
+                           #   mismo formato que produce el skill "generar-epics").
+                           # "issues"  = lee GitHub Issues con labels "uc"/"epic" + "feature:<slug>".
+CLOSE_GITHUB_ISSUES="false"   # true = el supervisor cierra la issue de GitHub al mergear (solo aplica
+                               # si además llevás issues espejo; no requerido en modo "backlog").
+GH_REPO="org/mi-repo"          # owner/repo de GitHub del repo principal
+
+# UC_CODE_REGEX: patrón para extraer el código de caso de uso de un nombre de
+# rama (p.ej. "UC-01", "PROJ-123", "UC-DM-S3-01"). Ajustalo a tu convención.
+UC_CODE_REGEX='[A-Z][A-Z0-9]*-[0-9]+(-[0-9]+)?'
+
+# VERIFY_CMD: comando(s) que corre el worker antes de marcar una épica como
+# cerrada (typecheck/test/build). Ajustalo a tu stack.
+VERIFY_CMD="echo 'TODO: define VERIFY_CMD en config.sh (ej: npm run typecheck && npm test && npm run build)'"
+
+AUDIT_DIR="docs/audits"   # Carpeta donde el worker deja la auditoría de cierre de cada épica
+
+# ─── Archivos de coordinación (no tocar salvo que muevas la carpeta) ───────
+LOG="$ORCH_DIR/log.jsonl"
+STATUS_FILE="$ORCH_DIR/status.md"
+NEXT_TASK="$ORCH_DIR/next-task.md"
+LOCK="$ORCH_DIR/worker.lock"
+
+# ─── Backlog: orden canónico de épicas ─────────────────────────────────────
+# Un elemento por épica: "rama-epica:ruta/al/doc.md" (ruta relativa a REPO_DIR).
+# El orden del array ES el orden de ejecución — al cerrar una épica, el
+# supervisor arranca automáticamente la siguiente.
+EPIC_ORDER=(
+  "epic/A-nombre-descriptivo:docs/backlog/EPIC-A-nombre-descriptivo.md"
+  "epic/B-nombre-descriptivo:docs/backlog/EPIC-B-nombre-descriptivo.md"
+)
+
+EPIC_PAUSED=(
+  # "epic/B-nombre-descriptivo"   # ejemplo: pausar una épica sin sacarla de EPIC_ORDER
+)
+
+AUTO_EPIC_CLOSE_TASK="true"               # false → el pipeline espera que un humano marque epic_done
+AUTO_EPIC_CLOSE_INCLUDES_CONTRACT="false" # true solo si usás el repo secundario (ver arriba)
+AUTO_RESUME_ON_PROCESADO="true"           # false → el pipeline se detiene tras cada tarea, sin auto-encolar
+COORDINATION_BRANCHES=(main)              # ramas tratadas como "sin flujo PR" si aparecen en status.md
+
+BASE_BRANCH="main"   # rama base del repo principal (a la que mergean las épicas)
+
+# ─── Horarios de cron (usados por install-cron.sh) ─────────────────────────
+CRON_SUPERVISOR_SCHEDULE="*/10 * * * *"
+CRON_WORKER_SCHEDULE="*/5 * * * *"
