@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T19:32:55.398Z",
+  "generatedAt": "2026-07-07T20:00:24.007Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-07T19:30:01Z",
-      "lastRunAgeSec": 174,
+      "lastRun": "2026-07-07T20:00:02Z",
+      "lastRunAgeSec": 22,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-07T19:25:01Z",
-      "lastRunAgeSec": 474,
+      "lastRun": "2026-07-07T19:55:01Z",
+      "lastRunAgeSec": 323,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -27,14 +27,14 @@
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
-    "lastOpusStart": "2026-07-07T19:25:01Z",
-    "lastOpusDone": "2026-07-07T19:25:01Z",
+    "lastOpusStart": "2026-07-07T19:55:01Z",
+    "lastOpusDone": "2026-07-07T19:55:01Z",
     "lastOutputTail": [
-      "**Contrato (UC-DM-INFRA-01):** EPIC-J **no genera contrato OpenAPI propio** (nota de integración del backlog). Su salida habilita `UC-DM-INFRA-13` (contrato admin unificado), frente INFRA dual-repo fuera de `EPIC_ORDER`. **No hay PR en `dm-api-contracts`** en este cierre → no aplica merge manual.",
+      "**Contrato OpenAPI:** EPIC-J **no genera contrato propio**. Su salida (fuente de verdad única de usuarios + endpoint `/team`) habilita `UC-DM-INFRA-13` (contrato admin unificado), frente INFRA dual-repo fuera de `EPIC_ORDER`. Por tanto **no hay PR en `dm-api-contracts`** en este cierre — no aplica merge manual.",
       "",
-      "**status.md** actualizado con `Estado: epic_done`, `Rama: epic/J-consolidacion-pre-backend`, PR de contrato documentado como N/A, higiene de ramas señalada al supervisor. Bloqueos: ninguno.",
+      "**`status.md`** actualizado con `Estado: epic_done`, `Rama: epic/J-consolidacion-pre-backend`. La higiene de ramas (candidatas a poda de `uc/S11-03/04/05` y la ambigua `uc/UC-DM-S8-05`) queda señalada para el supervisor. No creé ramas `uc/UC-DM-INFRA-01-*` ni `epic/H-*` en dosmentes-front, según las reglas.",
       "",
-      "El documento de auditoría queda untracked para que el supervisor lo commitee junto al merge `epic/J → develop` (yo no hago commit/PR/merge por convención). No había `next-task.md` pendiente que mover: el worker ya lo renombró a `next-task-done-20260707_192501.md`."
+      "El supervisor cron mergeará `epic/J-consolidacion-pre-backend` → `develop` y encolará la siguiente épica."
     ]
   },
   "buddy": {
@@ -58,11 +58,11 @@
       },
       {
         "key": "CHAOS",
-        "value": 45
+        "value": 42
       },
       {
         "key": "WISDOM",
-        "value": 95
+        "value": 89
       },
       {
         "key": "SNARK",
@@ -72,8 +72,8 @@
   },
   "program": {
     "totalUcs": 60,
-    "doneUcs": 60,
-    "percent": 100,
+    "doneUcs": 52,
+    "percent": 87,
     "epics": [
       {
         "branch": "epic/A-evaluacion-forense",
@@ -87,37 +87,51 @@
           {
             "code": "UC-DM-S3-01",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S3-02",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S3-03",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S3-04",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S3-05",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S3-06",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S3-07",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           }
         ]
       },
@@ -133,37 +147,51 @@
           {
             "code": "UC-DM-S4-01",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S4-02",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S4-03",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S4-04",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S6-06",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S4-05",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S4-06",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           }
         ]
       },
@@ -179,42 +207,58 @@
           {
             "code": "UC-DM-S5-01",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S5-02",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S5-03",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S5-04",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S5-05",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S5-06",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S5-07",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S5-08",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           }
         ]
       },
@@ -230,32 +274,44 @@
           {
             "code": "UC-DM-S6-01",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S6-02",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S6-03",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S6-04",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S6-05",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S6-06",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           }
         ]
       },
@@ -271,27 +327,37 @@
           {
             "code": "UC-DM-S7-01",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S7-02",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S7-03",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S7-04",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S7-05",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           }
         ]
       },
@@ -307,27 +373,37 @@
           {
             "code": "UC-DM-S8-01",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S8-02",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S8-03",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S8-04",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S8-05",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           }
         ]
       },
@@ -336,74 +412,113 @@
         "letter": "J",
         "label": "consolidacion pre backend",
         "totalUcs": 13,
-        "doneUcs": 13,
-        "percent": 100,
-        "status": "done",
+        "doneUcs": 5,
+        "percent": 38,
+        "status": "active",
         "ucs": [
           {
             "code": "UC-DM-INFRA-09",
-            "done": true,
-            "active": false
+            "done": false,
+            "active": false,
+            "issueNumber": 135,
+            "issueOpen": true,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S11-01",
             "done": true,
-            "active": false
+            "active": false,
+            "issueNumber": 129,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S11-02",
             "done": true,
-            "active": false
+            "active": false,
+            "issueNumber": 130,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S11-03",
             "done": true,
-            "active": false
+            "active": false,
+            "issueNumber": 131,
+            "issueOpen": true,
+            "staleIssue": true
           },
           {
             "code": "UC-DM-S11-04",
             "done": true,
-            "active": false
+            "active": false,
+            "issueNumber": 132,
+            "issueOpen": true,
+            "staleIssue": true
           },
           {
             "code": "UC-DM-S11-05",
             "done": true,
-            "active": false
+            "active": false,
+            "issueNumber": 133,
+            "issueOpen": true,
+            "staleIssue": true
           },
           {
             "code": "UC-DM-INFRA-01",
-            "done": true,
-            "active": false
+            "done": false,
+            "active": false,
+            "issueNumber": 60,
+            "issueOpen": true,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-INFRA-08",
-            "done": true,
-            "active": false
+            "done": false,
+            "active": false,
+            "issueNumber": 134,
+            "issueOpen": true,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-INFRA-10",
-            "done": true,
-            "active": false
+            "done": false,
+            "active": false,
+            "issueNumber": 136,
+            "issueOpen": true,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-INFRA-11",
-            "done": true,
-            "active": false
+            "done": false,
+            "active": false,
+            "issueNumber": 137,
+            "issueOpen": true,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-INFRA-12",
-            "done": true,
-            "active": false
+            "done": false,
+            "active": false,
+            "issueNumber": 138,
+            "issueOpen": true,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-INFRA-13",
-            "done": true,
-            "active": false
+            "done": false,
+            "active": false,
+            "issueNumber": 139,
+            "issueOpen": true,
+            "staleIssue": false
           },
           {
             "code": "GATE-140",
-            "done": true,
-            "active": false
+            "done": false,
+            "active": false,
+            "issueNumber": 140,
+            "issueOpen": true,
+            "staleIssue": false
           }
         ]
       },
@@ -419,17 +534,23 @@
           {
             "code": "UC-DM-S9-01",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S9-02",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S9-03",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           }
         ]
       },
@@ -445,45 +566,270 @@
           {
             "code": "UC-DM-S10-01",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S10-02",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S10-03",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S10-04",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S10-05",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S8-01",
             "done": true,
-            "active": false
+            "active": false,
+            "issueOpen": false,
+            "staleIssue": false
           }
         ]
       }
     ],
-    "activeEpic": null
+    "activeEpic": {
+      "branch": "epic/J-consolidacion-pre-backend",
+      "letter": "J",
+      "label": "consolidacion pre backend",
+      "totalUcs": 13,
+      "doneUcs": 5,
+      "percent": 38,
+      "status": "active",
+      "ucs": [
+        {
+          "code": "UC-DM-INFRA-09",
+          "done": false,
+          "active": false,
+          "issueNumber": 135,
+          "issueOpen": true,
+          "staleIssue": false
+        },
+        {
+          "code": "UC-DM-S11-01",
+          "done": true,
+          "active": false,
+          "issueNumber": 129,
+          "issueOpen": false,
+          "staleIssue": false
+        },
+        {
+          "code": "UC-DM-S11-02",
+          "done": true,
+          "active": false,
+          "issueNumber": 130,
+          "issueOpen": false,
+          "staleIssue": false
+        },
+        {
+          "code": "UC-DM-S11-03",
+          "done": true,
+          "active": false,
+          "issueNumber": 131,
+          "issueOpen": true,
+          "staleIssue": true
+        },
+        {
+          "code": "UC-DM-S11-04",
+          "done": true,
+          "active": false,
+          "issueNumber": 132,
+          "issueOpen": true,
+          "staleIssue": true
+        },
+        {
+          "code": "UC-DM-S11-05",
+          "done": true,
+          "active": false,
+          "issueNumber": 133,
+          "issueOpen": true,
+          "staleIssue": true
+        },
+        {
+          "code": "UC-DM-INFRA-01",
+          "done": false,
+          "active": false,
+          "issueNumber": 60,
+          "issueOpen": true,
+          "staleIssue": false
+        },
+        {
+          "code": "UC-DM-INFRA-08",
+          "done": false,
+          "active": false,
+          "issueNumber": 134,
+          "issueOpen": true,
+          "staleIssue": false
+        },
+        {
+          "code": "UC-DM-INFRA-10",
+          "done": false,
+          "active": false,
+          "issueNumber": 136,
+          "issueOpen": true,
+          "staleIssue": false
+        },
+        {
+          "code": "UC-DM-INFRA-11",
+          "done": false,
+          "active": false,
+          "issueNumber": 137,
+          "issueOpen": true,
+          "staleIssue": false
+        },
+        {
+          "code": "UC-DM-INFRA-12",
+          "done": false,
+          "active": false,
+          "issueNumber": 138,
+          "issueOpen": true,
+          "staleIssue": false
+        },
+        {
+          "code": "UC-DM-INFRA-13",
+          "done": false,
+          "active": false,
+          "issueNumber": 139,
+          "issueOpen": true,
+          "staleIssue": false
+        },
+        {
+          "code": "GATE-140",
+          "done": false,
+          "active": false,
+          "issueNumber": 140,
+          "issueOpen": true,
+          "staleIssue": false
+        }
+      ]
+    },
+    "githubBacklog": {
+      "openCount": 13,
+      "trackedOpenCount": 11,
+      "pendingCount": 8,
+      "staleCount": 3,
+      "items": [
+        {
+          "number": 140,
+          "title": "GATE · Validación del frontend completo con Jorge Quiroz (go/no-go backend)",
+          "code": "GATE-140",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/140",
+          "kind": "pending"
+        },
+        {
+          "number": 139,
+          "title": "UC-DM-INFRA-13 · Contrato retroactivo: administración (usuarios + accesos RBAC unificados)",
+          "code": "UC-DM-INFRA-13",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/139",
+          "kind": "pending"
+        },
+        {
+          "number": 138,
+          "title": "UC-DM-INFRA-12 · Contrato retroactivo: calidad y doble codificación (IRR)",
+          "code": "UC-DM-INFRA-12",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/138",
+          "kind": "pending"
+        },
+        {
+          "number": 137,
+          "title": "UC-DM-INFRA-11 · Contrato retroactivo: cadena de salida S2 (informes, paquete, entrega, cierre)",
+          "code": "UC-DM-INFRA-11",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/137",
+          "kind": "pending"
+        },
+        {
+          "number": 136,
+          "title": "UC-DM-INFRA-10 · Contrato retroactivo: pipeline de credibilidad S2 (SVA, CBCA, RM, consistencias, síntesis)",
+          "code": "UC-DM-INFRA-10",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/136",
+          "kind": "pending"
+        },
+        {
+          "number": 135,
+          "title": "UC-DM-INFRA-09 · Contrato retroactivo: fundaciones S1 (intake, expediente, personas, timeline, evidencia, anotaciones, auditoría)",
+          "code": "UC-DM-INFRA-09",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/135",
+          "kind": "pending"
+        },
+        {
+          "number": 134,
+          "title": "UC-DM-INFRA-08 · Empaquetado multi-spec de dm-api-contracts + lint OpenAPI + migración del front al paquete",
+          "code": "UC-DM-INFRA-08",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/134",
+          "kind": "pending"
+        },
+        {
+          "number": 60,
+          "title": "UC-DM-INFRA-01 · Contrato OpenAPI por módulo (recurrente al cierre)",
+          "code": "UC-DM-INFRA-01",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/60",
+          "kind": "pending"
+        },
+        {
+          "number": 133,
+          "title": "UC-DM-S11-05 · Limpieza: código muerto, warnings de lint e higiene de ramas",
+          "code": "UC-DM-S11-05",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/133",
+          "kind": "stale"
+        },
+        {
+          "number": 132,
+          "title": "UC-DM-S11-04 · Copy prudente en metapericia (veredicto → clasificación orientativa)",
+          "code": "UC-DM-S11-04",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/132",
+          "kind": "stale"
+        },
+        {
+          "number": 131,
+          "title": "UC-DM-S11-03 · Endpoint de equipo vía apiClient (retirar imports directos de team.mock)",
+          "code": "UC-DM-S11-03",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/131",
+          "kind": "stale"
+        },
+        {
+          "number": 128,
+          "title": "[EPIC] Consolidación técnica pre-backend (UC-DM-S11)",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/128",
+          "kind": "other"
+        },
+        {
+          "number": 19,
+          "title": "[EPIC] Contratos por módulo (vigente) + backend multi-tenant (DIFERIDO) (UC-DM-INFRA)",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/19",
+          "kind": "other"
+        }
+      ]
+    }
   },
   "orchestrator": {
-    "estado": "epic_done",
+    "estado": "procesado",
     "rama": "epic/J-consolidacion-pre-backend",
     "tarea": "Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI",
-    "resumen": "Cierre formal de EPIC-J (S11) — veredicto **APTO, sin remediación**. Auditoría en `docs/casos/_audit/EPIC-J_CONSOLIDACION_PRE_BACKEND-CIERRE.md`. Las 5 UCs mergeadas a la rama épica: S11-01 (#144, fuente de verdad única de usuarios: `features/admin-users` eliminada → `features/access` + ADR `docs/config/ADR-UC-DM-S11-01-fuente-verdad-usuarios.md`), S11-02 (#145, pares legacy decididos en `docs/casos/CASOS-PARES-LEGACY.md`: convivencia con CBCA-checklist deprecado solo-lectura), S11-03 (#147, endpoint `/team` + feature `features/team` con `useTeam`/`useTeamResolver`; 0 imports de `team.mock` fuera de `src/mocks/`), S11-04 (#148, \"veredicto\" proscrito en metapericia, solo en lista de copy prohibido de `constants.ts`), S11-05 (#149, código muerto `canManage` retirado + `mockServiceWorker.js` en `globalIgnores`). Front cambiado en este cierre: **solo** `docs/casos/_audit/EPIC-J_CONSOLIDACION_PRE_BACKEND-CIERRE.md` (doc, sin código). Verificación local re-ejecutada en HEAD `457a3f0`: `pnpm exec tsc --noEmit` OK · `pnpm lint` 0 errores / 1 warning esperado (react-compiler/TanStack en `data-table.tsx:133`) · `pnpm test --run` **491 pass (37 files)** · `pnpm build` ✓ Compiled successfully. Afirmaciones de auditoría re-verificadas por grep: `admin-users` inexistente, `access` presente, 0 imports de `team.mock` en UI, sin \"veredicto\" en metapericia fuera de copy-prohibido. No-orfandad EPIC-I verificada (Resumen/Dashboard resuelven roster vía `/team`, sin regresión). **Contrato:** EPIC-J **NO genera contrato OpenAPI propio** (nota de integración del backlog `EPIC-J-consolidacion-pre-backend.md`): su salida (fuente de verdad única de usuarios + endpoint `/team`) **habilita `UC-DM-INFRA-13`** (contrato admin unificado), frente **INFRA dual-repo fuera de `EPIC_ORDER`**. Por tanto **no hay PR de contrato en dm-api-contracts en este cierre** (no aplica merge manual).",
+    "resumen": "Cierre formal de EPIC-J (S11) — veredicto **APTO, sin remediación**. Auditoría en `docs/casos/_audit/EPIC-J_CONSOLIDACION_PRE_BACKEND-CIERRE.md` (untracked — la commitea el supervisor). Las 5 UCs mergeadas a la rama épica (HEAD `457a3f0`): S11-01 (#144, fuente de verdad única de usuarios: `features/admin-users` eliminada → `features/access` + ADR `docs/config/ADR-UC-DM-S11-01-fuente-verdad-usuarios.md`), S11-02 (#145, pares legacy decididos en `docs/casos/CASOS-PARES-LEGACY.md`: convivencia con CBCA-checklist deprecado solo-lectura), S11-03 (#147, endpoint `/team` + feature `features/team` con `useTeam`/`useTeamResolver`; 0 imports de `team.mock` fuera de `src/mocks/`), S11-04 (#148, \"veredicto\" proscrito en metapericia, solo en lista de copy prohibido de `constants.ts`), S11-05 (#149, código muerto `canManage` retirado + `mockServiceWorker.js` en `globalIgnores`). Front cambiado en este cierre: **solo** el doc de auditoría (sin código). **Verificación local re-ejecutada en HEAD `457a3f0`:** `pnpm exec tsc --noEmit` OK · `pnpm test --run` **491 pass (37 files)** · `pnpm build` ✓ Compiled successfully in 16.8s. Afirmaciones de auditoría re-verificadas por grep: `src/features/admin-users` inexistente, `features/access` presente, 0 imports de `team.mock` en UI. No-orfandad EPIC-I confirmada (Resumen/Dashboard resuelven roster vía `/team`, sin regresión). **Contrato:** EPIC-J **NO genera contrato OpenAPI propio** (nota de integración del backlog `EPIC-J-consolidacion-pre-backend.md`): su salida (fuente de verdad única de usuarios + endpoint `/team`) **habilita `UC-DM-INFRA-13`** (contrato admin unificado), frente **INFRA dual-repo fuera de `EPIC_ORDER`**. Por tanto **no hay PR de contrato en dm-api-contracts en este cierre** (no aplica merge manual).",
     "bloqueos": "ninguno",
-    "timestamp": "2026-07-07T19:30:34Z",
+    "timestamp": "2026-07-07T19:59:28Z",
     "currentUc": null
   },
   "queue": {
@@ -495,6 +841,132 @@
     "activeBranches": 8
   },
   "timeline": [
+    {
+      "ts": "2026-07-07T20:00:02Z",
+      "event": "supervisor_no_issues",
+      "agent": "supervisor",
+      "msg": "Sin issues uc abiertos para epic/G-consolidados-tenant"
+    },
+    {
+      "ts": "2026-07-07T20:00:02Z",
+      "event": "supervisor_epic_manual",
+      "agent": "supervisor",
+      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada manualmente — saltando flujo git"
+    },
+    {
+      "ts": "2026-07-07T20:00:02Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-07T20:00:02Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=epic_done | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI"
+    },
+    {
+      "ts": "2026-07-07T20:00:02Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-07T19:55:01Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-07T19:55:01Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Cierre de épica — J-consolidacion-pre-backend (+ contrato OpenAPI)  **Emitida por:** Supervisor (2026-07-07T19:50:01Z)"
+    },
+    {
+      "ts": "2026-07-07T19:50:01Z",
+      "event": "supervisor_auto_epic_close",
+      "agent": "supervisor",
+      "msg": "Cierre épica epic/J-consolidacion-pre-backend encolado (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-07T19:50:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-07T19:50:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-07T19:50:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI"
+    },
+    {
+      "ts": "2026-07-07T19:50:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-07T19:50:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-07T19:45:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-07T19:40:01Z",
+      "event": "supervisor_no_issues",
+      "agent": "supervisor",
+      "msg": "Sin issues uc abiertos para epic/G-consolidados-tenant"
+    },
+    {
+      "ts": "2026-07-07T19:40:01Z",
+      "event": "supervisor_epic_manual",
+      "agent": "supervisor",
+      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada manualmente — saltando flujo git"
+    },
+    {
+      "ts": "2026-07-07T19:40:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-07T19:40:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-07T19:40:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=epic_done | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI"
+    },
+    {
+      "ts": "2026-07-07T19:40:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-07T19:35:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
     {
       "ts": "2026-07-07T19:25:01Z",
       "event": "opus_done",
@@ -668,132 +1140,6 @@
       "event": "supervisor_start",
       "agent": "supervisor",
       "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-07T18:55:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-07T18:45:01Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-07T18:50:01Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=procesado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-07T18:50:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=uc/UC-DM-S11-05-limpieza-codigo-muerto-warnings-de-lint- | Tarea=UC-DM-S11-05 — Limpieza: código muerto, warnings de lint e higiene de ramas (hallazgo A-3 + §1.2)"
-    },
-    {
-      "ts": "2026-07-07T18:50:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-07T18:45:01Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Cierre de épica — J-consolidacion-pre-backend (+ contrato OpenAPI)  **Emitida por:** Supervisor (2026-07-07T18:40:01Z)"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "supervisor_end",
-      "agent": "supervisor",
-      "msg": "Ciclo completado"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "supervisor_epic_close_queued",
-      "agent": "supervisor",
-      "msg": "Cierre épica epic/J-consolidacion-pre-backend encolado tras última UC"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "supervisor_epic_check",
-      "agent": "supervisor",
-      "msg": "No hay UCs pendientes en backlog para epic/J-consolidacion-pre-backend"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "supervisor_epic_check",
-      "agent": "supervisor",
-      "msg": "No hay PRs uc/ pendientes en epic/J-consolidacion-pre-backend — consultando GitHub Issues"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "supervisor_branch_deleted",
-      "agent": "supervisor",
-      "msg": "Rama local uc/UC-DM-S11-05-limpieza-codigo-muerto-warnings-de-lint- eliminada"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "supervisor_pr_merged",
-      "agent": "supervisor",
-      "msg": "PR #149 mergeada y rama remota eliminada"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "supervisor_pr_created",
-      "agent": "supervisor",
-      "msg": "PR #149: uc/UC-DM-S11-05-limpieza-codigo-muerto-warnings-de-lint- → epic/J-consolidacion-pre-backend"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "supervisor_committed",
-      "agent": "supervisor",
-      "msg": "Commit y push directos en uc/UC-DM-S11-05-limpieza-codigo-muerto-warnings-de-lint-"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "supervisor_commit_needed",
-      "agent": "supervisor",
-      "msg": "Hay 4 archivos sin commitear — el supervisor ejecuta git (no Opus)"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-S11-05-limpieza-codigo-muerto-warnings-de-lint-"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-S11-05-limpieza-codigo-muerto-warnings-de-lint- | Tarea=UC-DM-S11-05 — Limpieza: código muerto, warnings de lint e higiene de ramas (hallazgo A-3 + §1.2)"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-07T18:40:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-07T18:35:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-07T18:25:02Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
     }
   ],
   "health": "ok"
