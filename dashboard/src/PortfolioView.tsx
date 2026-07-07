@@ -58,7 +58,7 @@ export default function PortfolioView() {
           Vista gerencial multi-proyecto · sync{" "}
           {new Date(data.generatedAt).toLocaleString("es")}
           {lastFetch && ` · fetch ${lastFetch.toLocaleTimeString("es")}`}
-          {isStatic && " · snapshot GitHub Pages"}
+          {isStatic && " · snapshot GitHub Pages · datos cada ~15 min · auto-refresh 5 min"}
         </p>
       </header>
 

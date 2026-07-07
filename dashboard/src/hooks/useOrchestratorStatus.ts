@@ -2,9 +2,10 @@ import { useCallback, useEffect, useState } from "react";
 import type { OrchestratorSnapshot } from "../../shared/types";
 
 const STATIC = import.meta.env.VITE_STATIC_PORTFOLIO === "1";
+const STATIC_POLL_MS = 5 * 60_000;
 
 function statusUrl(): string {
-  if (STATIC) return `${import.meta.env.BASE_URL}data/status.json`;
+  if (STATIC) return `${import.meta.env.BASE_URL}data/status.json?t=${Date.now()}`;
   return "/api/status";
 }
 
@@ -31,8 +32,8 @@ export function useOrchestratorStatus(intervalMs: number) {
 
   useEffect(() => {
     fetchStatus();
-    if (STATIC) return;
-    const id = setInterval(fetchStatus, intervalMs);
+    const pollMs = STATIC ? STATIC_POLL_MS : intervalMs;
+    const id = setInterval(fetchStatus, pollMs);
     return () => clearInterval(id);
   }, [fetchStatus, intervalMs]);
 

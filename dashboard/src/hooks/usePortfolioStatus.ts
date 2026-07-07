@@ -2,10 +2,11 @@ import { useCallback, useEffect, useState } from "react";
 import type { PortfolioSnapshot } from "../shared/types";
 
 const STATIC_PORTFOLIO = import.meta.env.VITE_STATIC_PORTFOLIO === "1";
+const STATIC_POLL_MS = 5 * 60_000; // GitHub Pages: re-fetch JSON cada 5 min (evita caché CDN)
 
 function portfolioUrl(): string {
   if (STATIC_PORTFOLIO) {
-    return `${import.meta.env.BASE_URL}data/portfolio.json`;
+    return `${import.meta.env.BASE_URL}data/portfolio.json?t=${Date.now()}`;
   }
   return "/api/portfolio";
 }
@@ -33,8 +34,8 @@ export function usePortfolioStatus(intervalMs: number) {
 
   useEffect(() => {
     fetchPortfolio();
-    if (STATIC_PORTFOLIO) return;
-    const id = setInterval(fetchPortfolio, intervalMs);
+    const pollMs = STATIC_PORTFOLIO ? STATIC_POLL_MS : intervalMs;
+    const id = setInterval(fetchPortfolio, pollMs);
     return () => clearInterval(id);
   }, [fetchPortfolio, intervalMs]);
 

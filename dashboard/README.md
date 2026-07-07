@@ -83,7 +83,9 @@ El collector DosMentes escribe además `../status-api.json` en `.orchestrator/`.
 
 URL pública: **https://electronikaco.github.io/command-center/**
 
-El workflow [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) genera un snapshot estático cada 30 min (y en cada push a `main`).
+El workflow [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) regenera el snapshot **cada 15 min** (cron GitHub) y el VPS dispara un refresh de respaldo **cada 30 min**.
+
+La UI en Pages **re-consulta el JSON cada 5 min** (con cache-bust) si dejas la pestaña abierta.
 
 ### Configuración única (admin del repo)
 

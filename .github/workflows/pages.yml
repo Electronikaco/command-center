@@ -9,8 +9,8 @@ on:
       - "config.sh.example"
   workflow_dispatch:
   schedule:
-    # Actualiza el snapshot cada 30 minutos para jefes / stakeholders
-    - cron: "*/30 * * * *"
+    # GitHub puede retrasar crons; el VPS también dispara refresh vía trigger-pages-refresh.sh
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: read
