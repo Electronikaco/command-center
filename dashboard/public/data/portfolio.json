@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T19:32:54.129Z",
+  "generatedAt": "2026-07-07T20:00:18.737Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,10 +13,10 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-07T19:30:34Z",
+      "lastActivityAt": "2026-07-07T19:59:28Z",
       "progress": {
-        "percent": 100,
-        "label": "Programa 60/60 UCs"
+        "percent": 87,
+        "label": "Programa 52/60 UCs"
       },
       "highlights": [
         "2 PR(s) abierto(s)"
@@ -28,8 +28,8 @@
       "orchestratorSummary": {
         "estado": "epic_done",
         "currentUc": null,
-        "programPercent": 100,
-        "activeEpic": null,
+        "programPercent": 87,
+        "activeEpic": "EPIC-J consolidacion pre backend",
         "agentLabel": "Opus implementando"
       }
     },
