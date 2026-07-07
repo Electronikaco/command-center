@@ -24,6 +24,8 @@ concurrency:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -66,15 +68,9 @@ jobs:
             > status.md
           touch log.jsonl
 
-      - name: Autenticar gh (repos multi-org)
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: echo "$GH_TOKEN" | gh auth login --with-token
-
       - name: Generar snapshots JSON
         working-directory: dashboard
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           ORCH_DIR: ${{ github.workspace }}
           REPO_DIR: ${{ github.workspace }}/dosmentes-front
           PROJECTS_REGISTRY: ${{ github.workspace }}/dashboard/projects.registry.yaml
