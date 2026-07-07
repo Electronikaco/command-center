@@ -56,10 +56,10 @@ app.get("/api/health", (_req, res) => {
     });
 });
 if (isProd) {
-    const dist = path.join(__dirname, "../../dist");
-    app.use(express.static(dist));
-    app.use((_req, res) => {
-        res.sendFile(path.join(dist, "index.html"));
+    const dist = path.resolve(__dirname, "../../dist");
+    app.use(express.static(dist, { index: false }));
+    app.get(/^(?!\/api).*/, (_req, res) => {
+        res.sendFile("index.html", { root: dist });
     });
 }
 app.listen(PORT, "127.0.0.1", () => {
