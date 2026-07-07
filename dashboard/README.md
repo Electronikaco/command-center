@@ -96,6 +96,7 @@ El workflow [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) gene
 | Modo | URL | Actualización |
 |------|-----|----------------|
 | **Snapshot (jefes)** | https://electronikaco.github.io/command-center/ | Cada 30 min vía GitHub Actions |
+| **DosMentes detalle (Pages)** | https://electronikaco.github.io/command-center/#/project/dosmentes | Snapshot estático |
 | **En vivo (VPS)** | túnel SSH → `localhost:3099` | Cada 30–60 s |
 
 Los jefes no necesitan SSH; solo abrir el enlace de GitHub Pages.
