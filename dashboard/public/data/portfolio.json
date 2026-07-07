@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T21:00:16.348Z",
+  "generatedAt": "2026-07-07T21:30:15.212Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,12 +13,13 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-07T20:58:33Z",
+      "lastActivityAt": "2026-07-07T21:17:25Z",
       "progress": {
         "percent": 87,
         "label": "Programa 52/60 UCs"
       },
       "highlights": [
+        "En cola: UC-DM-INFRA-01",
         "2 PR(s) abierto(s)"
       ],
       "detailRoute": "/project/dosmentes",
@@ -26,8 +27,8 @@
         "github": "https://github.com/electronikatm/dosmentes-front"
       },
       "orchestratorSummary": {
-        "estado": "epic_done",
-        "currentUc": null,
+        "estado": "procesado",
+        "currentUc": "UC-DM-INFRA-01",
         "programPercent": 87,
         "activeEpic": "EPIC-J consolidacion pre backend",
         "agentLabel": "Opus implementando"
@@ -41,11 +42,11 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 14,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-06T19:32:41Z",
+      "lastActivityAt": "2026-07-07T21:13:30Z",
       "progress": {
         "percent": 42,
         "label": "Fase 1 · Migración por servicio: 8/19"
@@ -109,6 +110,6 @@
     "healthy": 4,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 3
   }
 }
