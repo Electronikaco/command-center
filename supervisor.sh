@@ -231,7 +231,7 @@ if echo "$RAMA_TRABAJO" | grep -q "^uc/"; then
   UC_BLOCK=$(echo "$RAMA_TRABAJO" | grep -oP 'UC-DM-S\K[0-9]+' | head -1 || echo "")
   for entry in "${EPIC_ORDER[@]}"; do
     BRANCH="${entry%%:*}"
-    # Mapeo bloque → epic: S3→A, S4→B, S5→C, S6→D, S7→E, S8→F, S9→G
+    # Mapeo bloque → epic: S3→A, S4→B, S5→C, S6→D, S7→E, S8→F, S9→G, S10→I, S11→J
     case "$UC_BLOCK" in
       3) [[ "$BRANCH" == epic/A* ]] && PARENT_EPIC="$BRANCH" ;;
       4) [[ "$BRANCH" == epic/B* ]] && PARENT_EPIC="$BRANCH" ;;
@@ -241,6 +241,7 @@ if echo "$RAMA_TRABAJO" | grep -q "^uc/"; then
       8) [[ "$BRANCH" == epic/F* ]] && PARENT_EPIC="$BRANCH" ;;
       9) [[ "$BRANCH" == epic/G* ]] && PARENT_EPIC="$BRANCH" ;;
       10) [[ "$BRANCH" == epic/I* ]] && PARENT_EPIC="$BRANCH" ;;
+      11) [[ "$BRANCH" == epic/J* ]] && PARENT_EPIC="$BRANCH" ;;
     esac
   done
   # UC-DM-INFRA-* NUNCA se crea en dosmentes-front (ver config.sh) — no se

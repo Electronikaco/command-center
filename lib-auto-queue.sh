@@ -26,6 +26,7 @@ resolve_epic_from_rama() {
         8) [[ "$branch" == epic/F* ]] && epic="$branch" ;;
         9) [[ "$branch" == epic/G* ]] && epic="$branch" ;;
         10) [[ "$branch" == epic/I* ]] && epic="$branch" ;;
+        11) [[ "$branch" == epic/J* ]] && epic="$branch" ;;
       esac
     done
   fi
