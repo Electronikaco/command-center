@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T22:30:17.615Z",
+  "generatedAt": "2026-07-07T23:00:18.251Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-07T22:30:02Z",
-      "lastRunAgeSec": 15,
+      "lastRun": "2026-07-07T23:00:01Z",
+      "lastRunAgeSec": 17,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-07T22:30:02Z",
-      "lastRunAgeSec": 15,
+      "lastRun": "2026-07-07T22:55:01Z",
+      "lastRunAgeSec": 317,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -27,14 +27,10 @@
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
-    "lastOpusStart": "2026-07-07T22:15:01Z",
-    "lastOpusDone": "2026-07-07T22:15:01Z",
+    "lastOpusStart": "2026-07-07T22:55:01Z",
+    "lastOpusDone": "2026-07-07T22:35:01Z",
     "lastOutputTail": [
-      "**Coordinación**",
-      "- `status.md` actualizado a `Estado: epic_done`, `Rama: epic/J-consolidacion-pre-backend`, con detalle de higiene de ramas para el supervisor.",
-      "- No había `next-task.md` que archivar (ya consumido en un ciclo previo).",
-      "",
-      "**Sin cambios de código** en `dosmentes-front`. El supervisor mergeará `epic/J` → `develop` y encolará la siguiente épica."
+      ""
     ]
   },
   "buddy": {
@@ -824,23 +820,143 @@
     }
   },
   "orchestrator": {
-    "estado": "procesado",
+    "estado": "epic_done",
     "rama": "epic/J-consolidacion-pre-backend",
     "tarea": "Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI (UC-DM-INFRA-01)",
-    "resumen": "Re-confirmación de cierre EPIC-J (S11) sobre HEAD `457a3f0` — veredicto **APTO, sin remediación obligatoria** (no se creó rama `fix/`). **Part A:** auditoría en `docs/casos/_audit/EPIC-J_CONSOLIDACION_PRE_BACKEND-CIERRE.md` (untracked — la commitea el supervisor), sin cambios de código. Las 5 UCs mergeadas a la rama épica: S11-01 (#144, fuente de verdad única de usuarios: `features/admin-users` eliminada → `features/access` + ADR `docs/config/ADR-UC-DM-S11-01-fuente-verdad-usuarios.md`), S11-02 (#145, pares legacy decididos en `docs/casos/CASOS-PARES-LEGACY.md`: convivencia con CBCA-checklist deprecado solo-lectura), S11-03 (#147, endpoint `/team` + feature `features/team` con `useTeam`/`useTeamResolver`; 0 imports de `team.mock` fuera de `src/mocks/`), S11-04 (#148, \"veredicto\" proscrito en metapericia, solo en lista de copy prohibido de `constants.ts`), S11-05 (#149, código muerto `canManage` retirado + `mockServiceWorker.js` en `globalIgnores`). **Part B re-ejecutada en HEAD `457a3f0` (2026-07-07T22:18Z):** `pnpm exec tsc --noEmit` OK · `pnpm test --run` **491 pass (37 files)** · `pnpm build` ✓ Compiled successfully. **Contrato:** EPIC-J **NO genera contrato OpenAPI propio** (nota de integración del backlog `EPIC-J-consolidacion-pre-backend.md`): su salida (fuente de verdad única de usuarios + endpoint `/team`) **habilita `UC-DM-INFRA-13`** (contrato admin unificado), frente **INFRA dual-repo fuera de `EPIC_ORDER`**. Por tanto **no hay PR de contrato en dm-api-contracts en este cierre** (no aplica merge manual).",
+    "resumen": "Cierre formal EPIC-J (S11) sobre HEAD `457a3f0`. Veredicto **APTO — sin remediación obligatoria** (no se creó rama `fix/`). **Part A:** auditoría en `docs/casos/_audit/EPIC-J_CONSOLIDACION_PRE_BACKEND-CIERRE.md` (untracked — la commitea el supervisor); sin cambios de código front en este cierre. Las 5 UCs mergeadas a la rama épica: S11-01 (#144, fuente de verdad única de usuarios: `features/admin-users` eliminada → `features/access` + ADR `docs/config/ADR-UC-DM-S11-01-fuente-verdad-usuarios.md`), S11-02 (#145, pares legacy decididos en `docs/casos/CASOS-PARES-LEGACY.md`: convivencia con CBCA-checklist deprecado solo-lectura), S11-03 (#147, endpoint `/team` + feature `features/team` con `useTeam`/`useTeamResolver`; 0 imports de `team.mock` fuera de `src/mocks/`), S11-04 (#148, \"veredicto\" proscrito en metapericia, solo en lista de copy prohibido de `constants.ts`), S11-05 (#149, código muerto `canManage` retirado + `mockServiceWorker.js` en `globalIgnores`). **Part B re-verificada en esta sesión sobre HEAD `457a3f0` (2026-07-07T22:59Z):** `pnpm exec tsc --noEmit` OK · `pnpm lint` OK (0 errores, 1 warning esperado `data-table.tsx:133` react-hooks/incompatible-library) · `pnpm test --run` **491 pass (37 files)** · `pnpm build` ✓ Compiled successfully. Afirmaciones del doc revalidadas por grep: `features/admin-users` ausente + `features/access` presente, 0 imports de `mocks/data/team.mock` fuera de `src/mocks/`, \"veredicto\" solo en lista de copy prohibido. **Contrato:** EPIC-J **NO genera contrato OpenAPI propio** (nota de integración del backlog `EPIC-J-consolidacion-pre-backend.md` §118-121): su salida (fuente de verdad única de usuarios + endpoint `/team`) **habilita `UC-DM-INFRA-13`** (contrato admin unificado), frente **INFRA dual-repo fuera de `EPIC_ORDER`**. Por tanto **no hay PR de contrato en dm-api-contracts en este cierre** (no aplica merge manual).",
     "bloqueos": "ninguno",
-    "timestamp": "2026-07-07T22:18:46Z",
+    "timestamp": "2026-07-07T22:59:31Z",
     "currentUc": "UC-DM-INFRA-01"
   },
   "queue": {
-    "hasNextTask": true,
-    "nextUc": "UC-DM-INFRA-01"
+    "hasNextTask": false,
+    "nextUc": null
   },
   "git": {
     "openPrs": 2,
     "activeBranches": 8
   },
   "timeline": [
+    {
+      "ts": "2026-07-07T23:00:01Z",
+      "event": "supervisor_skip",
+      "agent": "supervisor",
+      "msg": "Estado=procesado — Opus aún en progreso"
+    },
+    {
+      "ts": "2026-07-07T23:00:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-07T23:00:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI (UC-DM-INFRA-01)"
+    },
+    {
+      "ts": "2026-07-07T23:00:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-07T22:55:01Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Cierre de épica — J-consolidacion-pre-backend (+ contrato OpenAPI)  **Emitida por:** Supervisor (2026-07-07T22:50:02Z)"
+    },
+    {
+      "ts": "2026-07-07T22:50:02Z",
+      "event": "supervisor_auto_epic_close",
+      "agent": "supervisor",
+      "msg": "Cierre épica epic/J-consolidacion-pre-backend encolado (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-07T22:50:02Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-07T22:50:02Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-07T22:50:02Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI (UC-DM-INFRA-01)"
+    },
+    {
+      "ts": "2026-07-07T22:50:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-07T22:50:02Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-07T22:45:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-07T22:40:01Z",
+      "event": "supervisor_no_issues",
+      "agent": "supervisor",
+      "msg": "Sin issues uc abiertos para epic/G-consolidados-tenant"
+    },
+    {
+      "ts": "2026-07-07T22:40:01Z",
+      "event": "supervisor_epic_manual",
+      "agent": "supervisor",
+      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada manualmente — saltando flujo git"
+    },
+    {
+      "ts": "2026-07-07T22:40:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-07T22:40:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=epic_done | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI (UC-DM-INFRA-01)"
+    },
+    {
+      "ts": "2026-07-07T22:40:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-07T22:40:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-07T22:35:01Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-07T22:35:01Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Cierre de épica — J-consolidacion-pre-backend (+ contrato OpenAPI)  **Emitida por:** Supervisor (2026-07-07T22:30:02Z)"
+    },
     {
       "ts": "2026-07-07T22:30:02Z",
       "event": "supervisor_auto_epic_close",
@@ -1020,126 +1136,6 @@
       "event": "opus_start",
       "agent": "opus-worker",
       "msg": "Iniciando: # Cierre de épica — J-consolidacion-pre-backend (+ contrato OpenAPI)  **Emitida por:** Supervisor (2026-07-07T21:50:01Z)"
-    },
-    {
-      "ts": "2026-07-07T21:50:01Z",
-      "event": "supervisor_auto_epic_close",
-      "agent": "supervisor",
-      "msg": "Cierre épica epic/J-consolidacion-pre-backend encolado (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-07T21:50:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-07T21:50:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-07T21:50:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI"
-    },
-    {
-      "ts": "2026-07-07T21:50:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-07T21:50:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-07T21:45:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-07T21:40:01Z",
-      "event": "supervisor_no_issues",
-      "agent": "supervisor",
-      "msg": "Sin issues uc abiertos para epic/G-consolidados-tenant"
-    },
-    {
-      "ts": "2026-07-07T21:40:01Z",
-      "event": "supervisor_epic_manual",
-      "agent": "supervisor",
-      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada manualmente — saltando flujo git"
-    },
-    {
-      "ts": "2026-07-07T21:40:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-07T21:40:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=epic_done | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI"
-    },
-    {
-      "ts": "2026-07-07T21:40:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-07T21:40:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-07T21:35:01Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-07T21:35:01Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Cierre de épica — J-consolidacion-pre-backend (+ contrato OpenAPI)  **Emitida por:** Supervisor (2026-07-07T21:30:01Z)"
-    },
-    {
-      "ts": "2026-07-07T21:30:01Z",
-      "event": "supervisor_auto_epic_close",
-      "agent": "supervisor",
-      "msg": "Cierre épica epic/J-consolidacion-pre-backend encolado (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-07T21:30:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-07T21:30:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-07T21:30:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI"
-    },
-    {
-      "ts": "2026-07-07T21:30:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
     }
   ],
   "health": "ok"
