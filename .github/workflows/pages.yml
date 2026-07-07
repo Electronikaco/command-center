@@ -83,7 +83,10 @@ jobs:
         env:
           VITE_BASE: /command-center/
           VITE_STATIC_PORTFOLIO: "1"
-        run: pnpm build
+        run: |
+          pnpm build
+          cp dist/index.html dist/404.html
+          touch dist/.nojekyll
 
       - uses: actions/configure-pages@v5
 

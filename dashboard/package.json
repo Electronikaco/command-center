@@ -9,7 +9,7 @@
     "collector:once": "tsx server/collector.ts",
     "collector:portfolio:once": "tsx server/portfolio-collector.ts",
     "prepare:pages-data": "mkdir -p public/data && tsx server/portfolio-collector.ts > public/data/portfolio.json && tsx server/collector.ts > public/data/status.json",
-    "build:pages": "pnpm prepare:pages-data && VITE_BASE=/command-center/ VITE_STATIC_PORTFOLIO=1 vite build"
+    "build:pages": "pnpm prepare:pages-data && VITE_BASE=/command-center/ VITE_STATIC_PORTFOLIO=1 vite build && cp dist/index.html dist/404.html && touch dist/.nojekyll"
   },
   "dependencies": {
     "express": "^5.1.0",
