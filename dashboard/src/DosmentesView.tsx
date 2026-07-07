@@ -39,7 +39,7 @@ export default function DosmentesView() {
             Orquestador · sync{" "}
             {new Date(data.generatedAt).toLocaleString("es")}
             {lastFetch && ` · fetch ${lastFetch.toLocaleTimeString("es")}`}
-            {isStatic && " · snapshot (actualización cada 30 min)"}
+            {isStatic && " · snapshot VPS · publicado cada ~30 min · auto-refresh 5 min"}
           </p>
         </div>
       </header>

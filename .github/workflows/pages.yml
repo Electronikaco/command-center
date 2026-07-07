@@ -9,8 +9,8 @@ on:
       - "config.sh.example"
   workflow_dispatch:
   schedule:
-    # GitHub puede retrasar crons; el VPS también dispara refresh vía trigger-pages-refresh.sh
-    - cron: "*/15 * * * *"
+    # Respaldo; la fuente canónica es el VPS (trigger-pages-refresh.sh cada 30 min)
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: read
@@ -33,13 +33,6 @@ jobs:
       - name: Checkout command-center
         uses: actions/checkout@v4
 
-      - name: Checkout dosmentes-front (progreso épicas)
-        uses: actions/checkout@v4
-        with:
-          repository: electronikatm/dosmentes-front
-          path: dosmentes-front
-          token: ${{ secrets.GH_TOKEN }}
-
       - uses: pnpm/action-setup@v4
         with:
           version: 10
@@ -50,10 +43,35 @@ jobs:
           cache: pnpm
           cache-dependency-path: dashboard/pnpm-lock.yaml
 
-      - name: Instalar GitHub CLI
+      - name: Resolver snapshots (VPS preferido)
+        id: snapshots
+        working-directory: dashboard
+        run: |
+          pnpm install --frozen-lockfile
+          if [ -f public/data/status.json ] && [ -s public/data/status.json ]; then
+            echo "source=vps" >> "$GITHUB_OUTPUT"
+            echo "Usando snapshots del VPS en el repo:"
+            jq -r '"  status: \(.generatedAt) · \(.program.doneUcs)/\(.program.totalUcs) UCs · \(.orchestrator.estado)"' public/data/status.json
+            jq -r '"  portfolio: \(.generatedAt)"' public/data/portfolio.json
+          else
+            echo "source=ci" >> "$GITHUB_OUTPUT"
+            echo "Sin snapshots VPS — se generará en CI (fallback)"
+          fi
+
+      - name: Checkout dosmentes-front (solo fallback CI)
+        if: steps.snapshots.outputs.source == 'ci'
+        uses: actions/checkout@v4
+        with:
+          repository: electronikatm/dosmentes-front
+          path: dosmentes-front
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Instalar GitHub CLI (solo fallback CI)
+        if: steps.snapshots.outputs.source == 'ci'
         run: sudo apt-get update && sudo apt-get install -y gh
 
-      - name: Configurar orquestador para CI
+      - name: Configurar orquestador para CI (solo fallback)
+        if: steps.snapshots.outputs.source == 'ci'
         run: |
           cp config.sh.example config.sh
           sed -i "s|^ORCH_DIR=.*|ORCH_DIR=${{ github.workspace }}|" config.sh
@@ -61,22 +79,21 @@ jobs:
           printf '%s\n' \
             '**Estado:** idle' \
             '**Rama:** develop' \
-            '**Tarea:** Snapshot GitHub Pages' \
+            '**Tarea:** Snapshot GitHub Pages (CI fallback)' \
             '**Resumen:** Vista gerencial publicada automáticamente' \
             '**Bloqueos:** ninguno' \
             "**Timestamp:** $(date -u +%Y-%m-%dT%H:%M:%SZ)" \
             > status.md
           touch log.jsonl
 
-      - name: Generar snapshots JSON
+      - name: Generar snapshots en CI (fallback)
+        if: steps.snapshots.outputs.source == 'ci'
         working-directory: dashboard
         env:
           ORCH_DIR: ${{ github.workspace }}
           REPO_DIR: ${{ github.workspace }}/dosmentes-front
           PROJECTS_REGISTRY: ${{ github.workspace }}/dashboard/projects.registry.yaml
-        run: |
-          pnpm install --frozen-lockfile
-          pnpm prepare:pages-data
+        run: pnpm prepare:pages-data
 
       - name: Build sitio estático
         working-directory: dashboard
@@ -87,6 +104,7 @@ jobs:
           pnpm build
           cp dist/index.html dist/404.html
           touch dist/.nojekyll
+          echo "Deploy status.json generatedAt: $(jq -r .generatedAt dist/data/status.json)"
 
       - uses: actions/configure-pages@v5
 
