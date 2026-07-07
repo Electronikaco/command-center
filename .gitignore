@@ -1,6 +1,7 @@
 # Dependencias
 dashboard/node_modules/
 dashboard/dist/
+dashboard/public/data/*.json
 
 # Estado runtime del orquestador (permanece solo en el VPS)
 status.md

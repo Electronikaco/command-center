@@ -34,3 +34,11 @@ Ver [dashboard/README.md](dashboard/README.md).
 ## Nota
 
 Los archivos de estado runtime (`status.md`, `log.jsonl`, etc.) no se versionan — permanecen solo en el VPS de despliegue.
+
+## GitHub Pages (vista para jefes)
+
+- **URL:** https://electronikaco.github.io/command-center/
+- **Workflow:** `.github/workflows/pages.yml`
+- **Secret requerido:** `GH_TOKEN` (PAT con acceso `repo` a todas las organizaciones monitorizadas)
+
+Ver [dashboard/README.md](dashboard/README.md) para detalles de configuración.

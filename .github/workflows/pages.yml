@@ -1,0 +1,99 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "dashboard/**"
+      - ".github/workflows/pages.yml"
+      - "config.sh.example"
+  workflow_dispatch:
+  schedule:
+    # Actualiza el snapshot cada 30 minutos para jefes / stakeholders
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout command-center
+        uses: actions/checkout@v4
+
+      - name: Checkout dosmentes-front (progreso épicas)
+        uses: actions/checkout@v4
+        with:
+          repository: electronikatm/dosmentes-front
+          path: dosmentes-front
+          token: ${{ secrets.GH_TOKEN }}
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: dashboard/pnpm-lock.yaml
+
+      - name: Instalar GitHub CLI
+        run: sudo apt-get update && sudo apt-get install -y gh
+
+      - name: Configurar orquestador para CI
+        run: |
+          cp config.sh.example config.sh
+          sed -i "s|^ORCH_DIR=.*|ORCH_DIR=${{ github.workspace }}|" config.sh
+          sed -i "s|^REPO_DIR=.*|REPO_DIR=${{ github.workspace }}/dosmentes-front|" config.sh
+          printf '%s\n' \
+            '**Estado:** idle' \
+            '**Rama:** develop' \
+            '**Tarea:** Snapshot GitHub Pages' \
+            '**Resumen:** Vista gerencial publicada automáticamente' \
+            '**Bloqueos:** ninguno' \
+            "**Timestamp:** $(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            > status.md
+          touch log.jsonl
+
+      - name: Autenticar gh (repos multi-org)
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: echo "$GH_TOKEN" | gh auth login --with-token
+
+      - name: Generar snapshots JSON
+        working-directory: dashboard
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          ORCH_DIR: ${{ github.workspace }}
+          REPO_DIR: ${{ github.workspace }}/dosmentes-front
+          PROJECTS_REGISTRY: ${{ github.workspace }}/dashboard/projects.registry.yaml
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm prepare:pages-data
+
+      - name: Build sitio estático
+        working-directory: dashboard
+        env:
+          VITE_BASE: /command-center/
+          VITE_STATIC_PORTFOLIO: "1"
+        run: pnpm build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard/dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

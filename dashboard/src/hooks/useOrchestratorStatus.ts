@@ -1,6 +1,13 @@
 import { useCallback, useEffect, useState } from "react";
 import type { OrchestratorSnapshot } from "../../shared/types";
 
+const STATIC = import.meta.env.VITE_STATIC_PORTFOLIO === "1";
+
+function statusUrl(): string {
+  if (STATIC) return `${import.meta.env.BASE_URL}data/status.json`;
+  return "/api/status";
+}
+
 export function useOrchestratorStatus(intervalMs: number) {
   const [data, setData] = useState<OrchestratorSnapshot | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -9,7 +16,7 @@ export function useOrchestratorStatus(intervalMs: number) {
 
   const fetchStatus = useCallback(async () => {
     try {
-      const res = await fetch("/api/status");
+      const res = await fetch(statusUrl());
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = (await res.json()) as OrchestratorSnapshot;
       setData(json);
@@ -24,9 +31,10 @@ export function useOrchestratorStatus(intervalMs: number) {
 
   useEffect(() => {
     fetchStatus();
+    if (STATIC) return;
     const id = setInterval(fetchStatus, intervalMs);
     return () => clearInterval(id);
   }, [fetchStatus, intervalMs]);
 
-  return { data, error, loading, lastFetch, refresh: fetchStatus };
+  return { data, error, loading, lastFetch, refresh: fetchStatus, isStatic: STATIC };
 }

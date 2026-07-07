@@ -2,25 +2,58 @@ import express from "express";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { collect } from "./collector.js";
+import { collectPortfolio, collectProjectById } from "./portfolio-collector.js";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PORT = Number(process.env.PORT ?? "3099");
-const POLL_MS = Number(process.env.POLL_SEC ?? "30") * 1000;
+const STATUS_POLL_MS = Number(process.env.POLL_SEC ?? "30") * 1000;
+const PORTFOLIO_POLL_MS = Number(process.env.PORTFOLIO_POLL_SEC ?? "60") * 1000;
 const isProd = process.env.NODE_ENV === "production";
 const app = express();
-let latest = collect();
+let latestStatus = collect();
+let latestPortfolio = collectPortfolio(undefined, latestStatus);
 setInterval(() => {
     try {
-        latest = collect();
+        latestStatus = collect();
     }
     catch (err) {
         console.error("[collector]", err);
     }
-}, POLL_MS);
+}, STATUS_POLL_MS);
+setInterval(() => {
+    try {
+        latestPortfolio = collectPortfolio(undefined, latestStatus);
+    }
+    catch (err) {
+        console.error("[portfolio-collector]", err);
+    }
+}, PORTFOLIO_POLL_MS);
 app.get("/api/status", (_req, res) => {
-    res.json(latest);
+    res.json(latestStatus);
+});
+app.get("/api/portfolio", (_req, res) => {
+    res.json(latestPortfolio);
+});
+app.get("/api/projects/:id", (req, res) => {
+    try {
+        const project = collectProjectById(req.params.id, latestStatus);
+        if (!project) {
+            res.status(404).json({ error: "Proyecto no encontrado" });
+            return;
+        }
+        res.json(project);
+    }
+    catch (err) {
+        res.status(500).json({
+            error: err instanceof Error ? err.message : "Error al recolectar proyecto",
+        });
+    }
 });
 app.get("/api/health", (_req, res) => {
-    res.json({ ok: true, generatedAt: latest.generatedAt });
+    res.json({
+        ok: true,
+        generatedAt: latestPortfolio.generatedAt,
+        statusAt: latestStatus.generatedAt,
+    });
 });
 if (isProd) {
     const dist = path.join(__dirname, "../../dist");
@@ -30,5 +63,5 @@ if (isProd) {
     });
 }
 app.listen(PORT, "127.0.0.1", () => {
-    console.log(`[orchestrator-dashboard] http://127.0.0.1:${PORT}  poll=${POLL_MS}ms`);
+    console.log(`[orchestrator-dashboard] http://127.0.0.1:${PORT}  status=${STATUS_POLL_MS}ms portfolio=${PORTFOLIO_POLL_MS}ms`);
 });

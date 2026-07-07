@@ -1,0 +1,61 @@
+projects:
+  - id: dosmentes
+    name: DosMentes
+    org: electronikatm
+    ghRepo: electronikatm/dosmentes-front
+    type: orchestrator
+    orchDir: /home/claude/dosmentes/.orchestrator
+    repoDir: /home/claude/dosmentes/dosmentes-front
+    detailRoute: /project/dosmentes
+
+  - id: civok-back
+    name: Civok Back
+    org: Electronikaco
+    ghRepo: Electronikaco/civok-back
+    type: github
+    baseBranch: main
+    description: Backend SaaS — migración Express+Prisma por microservicio
+    progress:
+      mode: milestones
+      showActivePhase: true
+    labels:
+      epic: epic
+    health:
+      stalePrDays: 7
+      inactiveDays: 14
+    links:
+      github: https://github.com/Electronikaco/civok-back
+
+  - id: miliia-back
+    name: Miliia Back
+    org: ia-saas
+    ghRepo: ia-saas/miliia_back
+    type: github
+    baseBranch: main
+    description: Backend Miliia — IA, WhatsApp, voz
+    progress:
+      mode: activity
+      activityWindowDays: 7
+    health:
+      stalePrDays: 7
+      inactiveDays: 14
+    links:
+      github: https://github.com/ia-saas/miliia_back
+      issues: https://github.com/ia-saas/miliia_back/issues
+
+  - id: civok-agentik
+    name: Civok Agentik
+    org: electronikatm
+    ghRepo: electronikatm/civok-agentik
+    type: github
+    baseBranch: main
+    trackBranch: develop
+    description: Frontend agente IA — Next.js + Firebase
+    progress:
+      mode: activity
+      activityWindowDays: 7
+    health:
+      stalePrDays: 7
+      inactiveDays: 7
+    links:
+      github: https://github.com/electronikatm/civok-agentik
