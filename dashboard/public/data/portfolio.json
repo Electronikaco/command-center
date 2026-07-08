@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T01:00:19.779Z",
+  "generatedAt": "2026-07-08T01:30:16.186Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-07T19:35:00Z",
+      "lastActivityAt": "2026-07-08T01:01:31Z",
       "progress": {
         "percent": 87,
         "label": "Programa 52/60 UCs"
@@ -26,8 +26,8 @@
         "github": "https://github.com/electronikatm/dosmentes-front"
       },
       "orchestratorSummary": {
-        "estado": "procesado",
-        "currentUc": "UC-DM-INFRA-09",
+        "estado": "done",
+        "currentUc": "UC-DM-INFRA-08",
         "programPercent": 87,
         "activeEpic": "EPIC-J consolidacion pre backend",
         "agentLabel": "Opus implementando"
