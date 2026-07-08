@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T07:30:17.459Z",
+  "generatedAt": "2026-07-08T08:00:17.405Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,14 +8,14 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-08T07:30:01Z",
+      "lastRun": "2026-07-08T08:00:01Z",
       "lastRunAgeSec": 16,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-08T07:30:01Z",
+      "lastRun": "2026-07-08T08:00:01Z",
       "lastRunAgeSec": 16,
       "healthy": true,
       "label": "En ejecución"
@@ -842,6 +842,114 @@
   },
   "timeline": [
     {
+      "ts": "2026-07-08T08:00:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al crear PR de uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio → epic/J-consolidacion-pre-backend"
+    },
+    {
+      "ts": "2026-07-08T08:00:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio"
+    },
+    {
+      "ts": "2026-07-08T08:00:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T08:00:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
+    },
+    {
+      "ts": "2026-07-08T08:00:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T07:55:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T07:50:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al crear PR de uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio → epic/J-consolidacion-pre-backend"
+    },
+    {
+      "ts": "2026-07-08T07:50:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio"
+    },
+    {
+      "ts": "2026-07-08T07:50:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
+    },
+    {
+      "ts": "2026-07-08T07:50:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T07:50:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T07:45:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T07:40:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al crear PR de uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio → epic/J-consolidacion-pre-backend"
+    },
+    {
+      "ts": "2026-07-08T07:40:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio"
+    },
+    {
+      "ts": "2026-07-08T07:40:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
+    },
+    {
+      "ts": "2026-07-08T07:40:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T07:40:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T07:35:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
       "ts": "2026-07-08T07:30:01Z",
       "event": "supervisor_error",
       "agent": "supervisor",
@@ -1029,114 +1137,6 @@
     },
     {
       "ts": "2026-07-08T06:40:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio"
-    },
-    {
-      "ts": "2026-07-08T06:40:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
-    },
-    {
-      "ts": "2026-07-08T06:40:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T06:40:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T06:35:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T06:30:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Error al crear PR de uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio → epic/J-consolidacion-pre-backend"
-    },
-    {
-      "ts": "2026-07-08T06:30:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio"
-    },
-    {
-      "ts": "2026-07-08T06:30:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
-    },
-    {
-      "ts": "2026-07-08T06:30:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T06:30:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T06:25:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T06:20:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Error al crear PR de uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio → epic/J-consolidacion-pre-backend"
-    },
-    {
-      "ts": "2026-07-08T06:20:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio"
-    },
-    {
-      "ts": "2026-07-08T06:20:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
-    },
-    {
-      "ts": "2026-07-08T06:20:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T06:20:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T06:15:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T06:10:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Error al crear PR de uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio → epic/J-consolidacion-pre-backend"
-    },
-    {
-      "ts": "2026-07-08T06:10:01Z",
       "event": "supervisor_git_start",
       "agent": "supervisor",
       "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio"
