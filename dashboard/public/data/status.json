@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T01:30:18.070Z",
+  "generatedAt": "2026-07-08T02:00:19.603Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-08T01:30:01Z",
-      "lastRunAgeSec": 17,
+      "lastRun": "2026-07-08T02:00:01Z",
+      "lastRunAgeSec": 18,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-08T01:30:01Z",
-      "lastRunAgeSec": 17,
+      "lastRun": "2026-07-08T02:00:01Z",
+      "lastRunAgeSec": 18,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -27,8 +27,8 @@
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
-    "lastOpusStart": "2026-07-08T00:55:01Z",
-    "lastOpusDone": "2026-07-08T00:55:01Z",
+    "lastOpusStart": null,
+    "lastOpusDone": null,
     "lastOutputTail": [
       "- **PR #9** `fix/ci-pack-and-validate` queda **superado** por #11; recomendable cerrarlo al mergear #11.",
       "- No hubo `next-task.md` en disco que mover (el contenido llegó inline; el orquestador ya lo consumió).",
@@ -842,6 +842,186 @@
   },
   "timeline": [
     {
+      "ts": "2026-07-08T02:00:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al crear PR de épica epic/J-consolidacion-pre-backend → develop"
+    },
+    {
+      "ts": "2026-07-08T02:00:01Z",
+      "event": "supervisor_branch_deleted",
+      "agent": "supervisor",
+      "msg": "Rama local epic/J-consolidacion-pre-backend eliminada"
+    },
+    {
+      "ts": "2026-07-08T02:00:01Z",
+      "event": "supervisor_pr_merged",
+      "agent": "supervisor",
+      "msg": "PR #156 mergeada y rama remota eliminada"
+    },
+    {
+      "ts": "2026-07-08T02:00:01Z",
+      "event": "supervisor_pr_created",
+      "agent": "supervisor",
+      "msg": "PR #156: epic/J-consolidacion-pre-backend → develop"
+    },
+    {
+      "ts": "2026-07-08T02:00:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en epic/J-consolidacion-pre-backend"
+    },
+    {
+      "ts": "2026-07-08T02:00:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #11 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-08T02:00:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-08 — Empaquetado multi-spec + lint OpenAPI en CI + migración del front al paquete multi-spec (verificación end-to-end)"
+    },
+    {
+      "ts": "2026-07-08T02:00:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T02:00:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T01:55:02Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T01:50:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al crear PR de épica epic/J-consolidacion-pre-backend → develop"
+    },
+    {
+      "ts": "2026-07-08T01:50:01Z",
+      "event": "supervisor_branch_deleted",
+      "agent": "supervisor",
+      "msg": "Rama local epic/J-consolidacion-pre-backend eliminada"
+    },
+    {
+      "ts": "2026-07-08T01:50:01Z",
+      "event": "supervisor_pr_merged",
+      "agent": "supervisor",
+      "msg": "PR #155 mergeada y rama remota eliminada"
+    },
+    {
+      "ts": "2026-07-08T01:50:01Z",
+      "event": "supervisor_pr_created",
+      "agent": "supervisor",
+      "msg": "PR #155: epic/J-consolidacion-pre-backend → develop"
+    },
+    {
+      "ts": "2026-07-08T01:50:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en epic/J-consolidacion-pre-backend"
+    },
+    {
+      "ts": "2026-07-08T01:50:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #11 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-08T01:50:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-08 — Empaquetado multi-spec + lint OpenAPI en CI + migración del front al paquete multi-spec (verificación end-to-end)"
+    },
+    {
+      "ts": "2026-07-08T01:50:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T01:50:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T01:45:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T01:40:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al crear PR de épica epic/J-consolidacion-pre-backend → develop"
+    },
+    {
+      "ts": "2026-07-08T01:40:01Z",
+      "event": "supervisor_branch_deleted",
+      "agent": "supervisor",
+      "msg": "Rama local epic/J-consolidacion-pre-backend eliminada"
+    },
+    {
+      "ts": "2026-07-08T01:40:01Z",
+      "event": "supervisor_pr_merged",
+      "agent": "supervisor",
+      "msg": "PR #154 mergeada y rama remota eliminada"
+    },
+    {
+      "ts": "2026-07-08T01:40:01Z",
+      "event": "supervisor_pr_created",
+      "agent": "supervisor",
+      "msg": "PR #154: epic/J-consolidacion-pre-backend → develop"
+    },
+    {
+      "ts": "2026-07-08T01:40:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en epic/J-consolidacion-pre-backend"
+    },
+    {
+      "ts": "2026-07-08T01:40:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #11 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-08T01:40:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-08 — Empaquetado multi-spec + lint OpenAPI en CI + migración del front al paquete multi-spec (verificación end-to-end)"
+    },
+    {
+      "ts": "2026-07-08T01:40:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T01:40:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T01:35:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
       "ts": "2026-07-08T01:30:01Z",
       "event": "supervisor_error",
       "agent": "supervisor",
@@ -960,186 +1140,6 @@
       "event": "opus_tick",
       "agent": "opus-worker",
       "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T01:10:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Error al crear PR de épica epic/J-consolidacion-pre-backend → develop"
-    },
-    {
-      "ts": "2026-07-08T01:10:01Z",
-      "event": "supervisor_branch_deleted",
-      "agent": "supervisor",
-      "msg": "Rama local epic/J-consolidacion-pre-backend eliminada"
-    },
-    {
-      "ts": "2026-07-08T01:10:01Z",
-      "event": "supervisor_pr_merged",
-      "agent": "supervisor",
-      "msg": "PR #151 mergeada y rama remota eliminada"
-    },
-    {
-      "ts": "2026-07-08T01:10:01Z",
-      "event": "supervisor_pr_created",
-      "agent": "supervisor",
-      "msg": "PR #151: epic/J-consolidacion-pre-backend → develop"
-    },
-    {
-      "ts": "2026-07-08T01:10:01Z",
-      "event": "supervisor_committed",
-      "agent": "supervisor",
-      "msg": "Commit y push directos en epic/J-consolidacion-pre-backend"
-    },
-    {
-      "ts": "2026-07-08T01:10:01Z",
-      "event": "supervisor_commit_needed",
-      "agent": "supervisor",
-      "msg": "Hay 1 archivos sin commitear — el supervisor ejecuta git (no Opus)"
-    },
-    {
-      "ts": "2026-07-08T01:10:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en epic/J-consolidacion-pre-backend"
-    },
-    {
-      "ts": "2026-07-08T01:10:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #11 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T01:10:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-08 — Empaquetado multi-spec + lint OpenAPI en CI + migración del front al paquete multi-spec (verificación end-to-end)"
-    },
-    {
-      "ts": "2026-07-08T01:10:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T01:10:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T01:05:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T00:55:01Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-08T01:00:02Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=procesado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-08T01:00:02Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #12 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T01:00:02Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=develop | Tarea=UC-DM-INFRA-09 — foundations.openapi.yaml (S1 retroactivo)"
-    },
-    {
-      "ts": "2026-07-08T01:00:02Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T00:55:01Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Fase 2 — UC-DM-INFRA-08 (contratos retroactivos)  **Emitida por:** Cursor Orquestador (tarea coordinación completada)"
-    },
-    {
-      "ts": "2026-07-08T00:50:01Z",
-      "event": "supervisor_phase2_queued",
-      "agent": "supervisor",
-      "msg": "Encolado UC-DM-INFRA-08 (issue #134) — tarea coordinación completada"
-    },
-    {
-      "ts": "2026-07-08T00:50:01Z",
-      "event": "supervisor_coord_done",
-      "agent": "supervisor",
-      "msg": "Tarea coordinación en develop — sin flujo git"
-    },
-    {
-      "ts": "2026-07-08T00:50:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #12 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T00:50:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=develop | Tarea=UC-DM-INFRA-09 — foundations.openapi.yaml (S1 retroactivo)"
-    },
-    {
-      "ts": "2026-07-08T00:50:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T00:50:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T00:45:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T00:25:01Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-08T00:40:02Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=procesado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-08T00:40:02Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #11 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T00:40:02Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=develop | Tarea=UC-DM-INFRA-09 — foundations.openapi.yaml S1 retroactivo (Fase 2)"
-    },
-    {
-      "ts": "2026-07-08T00:40:02Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
     }
   ],
   "health": "ok"
