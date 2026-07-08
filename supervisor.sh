@@ -206,7 +206,13 @@ if echo "$ESTADO" | grep -qi "^epic_done"; then
           "No encontré UCs pendientes en el backlog para \`$NEXT_BRANCH\`" \
           "Revisa \`docs/backlog/EPIC-$(echo "$NEXT_BRANCH" | sed 's|epic/||' | tr '[:lower:]' '[:upper:]' | cut -c1).md\` antes de continuar."
         log "supervisor_no_issues" "Sin issues uc abiertos para $NEXT_BRANCH"
+        auto_queue_phase2_infra "post-épica mergeada (sin UCs en $NEXT_BRANCH)" || true
       fi
+    fi
+
+    # Épica mergeada pero sin siguiente épica front → encolar Fase 2 INFRA
+    if [ ! -f "$NEXT_TASK" ]; then
+      auto_queue_phase2_infra "post-épica mergeada (fin EPIC_ORDER front)" || true
     fi
 
     sed -i 's/^\*\*Estado:\*\* epic_done/**Estado:** procesado/' "$STATUS_FILE" 2>/dev/null || true
@@ -337,6 +343,22 @@ if [ "$BRANCH_TYPE" = "uc" ]; then
   PR_TITLE="$TAREA"
   PR_BODY="UC completado. Mergeado automáticamente por el orquestador desde \`$RAMA_TRABAJO\` → \`$PR_BASE\`."
 elif [ "$BRANCH_TYPE" = "epic" ]; then
+  if ! echo "$ESTADO" | grep -qi "^epic_done"; then
+    # Commit intermedio directo en la rama épica (Estado=done, no epic_done):
+    # ya quedó commiteado y pusheado en los Pasos 1-2. La épica no cierra
+    # todavía, así que NO hay PR/merge a develop aquí — eso es responsabilidad
+    # exclusiva del bloque de cierre de épica (Estado=epic_done, más abajo).
+    # Sin este corte, este mismo commit se mergeaba a develop en cada ciclo
+    # de cron (cada 10 min) porque el bloque de cierre volvía a intentarlo
+    # sobre una rama que el flujo genérico ya había borrado, y el error
+    # abortaba antes de marcar Estado: procesado (incidente 2026-07-08, PRs
+    # duplicadas #150-#159).
+    log "supervisor_epic_wip" "Commit intermedio en $RAMA_TRABAJO (Estado=$ESTADO) — sin PR/merge a $BASE_BRANCH"
+    sed -i 's/^\*\*Estado:\*\* done/**Estado:** procesado/' "$STATUS_FILE" 2>/dev/null || true
+    auto_queue_next_work "$RAMA_TRABAJO" "commit intermedio en rama épica" || true
+    log "supervisor_end" "Ciclo completado (commit intermedio en épica, sin merge)"
+    exit 0
+  fi
   PR_BASE="$BASE_BRANCH"
   PR_TITLE="[EPIC] $(echo "$RAMA_TRABAJO" | sed 's|epic/||')"
   PR_BODY="Épica completada. Mergeada automáticamente por el orquestador desde \`$RAMA_TRABAJO\` → \`$BASE_BRANCH\`."
@@ -430,7 +452,11 @@ fi
 
 # ─── Si la épica está done → merge epic → develop ─────────────────────────────
 
-if [ "$BRANCH_TYPE" = "epic" ] || echo "$ESTADO" | grep -qi "epic_done"; then
+if [ "$BRANCH_TYPE" = "uc" ] && echo "$ESTADO" | grep -qi "epic_done"; then
+  # Solo dispara para: última UC de la épica trae Estado=epic_done directamente
+  # (uc → parent epic ya se mergeó arriba; aquí además cerramos epic → develop).
+  # Si BRANCH_TYPE="epic", el cierre epic → develop ya lo hizo el bloque de
+  # arriba — repetirlo aquí es lo que causaba el bucle de PRs duplicadas.
   EPIC_BRANCH="${PARENT_EPIC:-$RAMA_TRABAJO}"
 
   # Crea PR epic → develop
