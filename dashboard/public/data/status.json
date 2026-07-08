@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T00:30:16.039Z",
+  "generatedAt": "2026-07-08T01:00:21.549Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-08T00:30:01Z",
-      "lastRunAgeSec": 15,
+      "lastRun": "2026-07-08T01:00:02Z",
+      "lastRunAgeSec": 19,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-08T00:25:01Z",
-      "lastRunAgeSec": 315,
+      "lastRun": "2026-07-08T00:55:01Z",
+      "lastRunAgeSec": 320,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -27,8 +27,8 @@
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
-    "lastOpusStart": "2026-07-08T00:25:01Z",
-    "lastOpusDone": "2026-07-08T00:00:44Z",
+    "lastOpusStart": "2026-07-08T00:55:01Z",
+    "lastOpusDone": "2026-07-08T00:25:01Z",
     "lastOutputTail": [
       ""
     ]
@@ -822,21 +822,123 @@
   "orchestrator": {
     "estado": "procesado",
     "rama": "develop",
-    "tarea": "UC-DM-INFRA-09 — foundations.openapi.yaml S1 retroactivo (Fase 2)",
-    "resumen": "INFRA-08 completado — PR #11 https://github.com/electronikatm/dm-api-contracts/pull/11 (merge manual pendiente). Cola corregida: supervisor había re-encolado S11-01 por error; fix lib-auto-queue prioriza Fase 2 INFRA en develop. Siguiente: INFRA-09 (#135).",
+    "tarea": "UC-DM-INFRA-09 — foundations.openapi.yaml (S1 retroactivo)",
+    "resumen": "Contrato retroactivo del núcleo del expediente (S1) en dm-api-contracts rama `feat/contract-infra-09-retroactive` — PR #12 https://github.com/electronikatm/dm-api-contracts/pull/12 (base `main`, **merge manual**). `foundations.openapi.yaml` (1 archivo, 28 operaciones) espeja los handlers MSW + Zod/dominio del front con paridad 1:1: expediente/cases (list paginado, stats, alta desde intake, detalle, edición, completeness), solicitud/intake-request (GET/PATCH, status derivado), personas (CRUD soft-delete + contacto principal + PERSON_LAST_ACTIVE), timeline (eventos manuales; automáticos inmutables AUTO_EVENT_IMMUTABLE), evidencia (hash de integridad inmutable), anotaciones (citas + vínculos + fuentes; 404 ANNOTATION_NOT_FOUND/SOURCE_NOT_FOUND), auditoría (append-only, filtros module/action/from/to). Errores y códigos exactos por endpoint; `x-tenant-id` + bearerAuth por operación; enums de dominio (runtime) donde el Zod legado estaba desactualizado (completeness 12 ids, timeline type 14/status 7, evidence, personas). Verificación: `openapi-typescript@7.13` sin error (1925 líneas de tipos) · `redocly lint --config redocly.lint.yaml` **válido** (0 errores; 10 warnings operation-4xx-response, regla en `warn` por diseño). CI de `main` (build openapi.yaml + loop openapi-typescript por spec + verificación de empaquetado) pasa con este spec. Sin cambios en dosmentes-front (INFRA-09 es entregable de contrato; el front consume specs vía el hook multi-spec de INFRA-08). **Pendiente heredado:** INFRA-08 PR #11 (multi-spec packaging + lint CI) sigue con merge manual pendiente contra `main`, y sus cambios front (`package.json`, `scripts/build-contract-types.mjs`) siguen sin commitear para el supervisor.",
     "bloqueos": "ninguno",
-    "timestamp": "2026-07-08T00:40:00Z",
+    "timestamp": "2026-07-07T19:35:00Z",
     "currentUc": "UC-DM-INFRA-09"
   },
   "queue": {
-    "hasNextTask": true,
-    "nextUc": "UC-DM-INFRA-09"
+    "hasNextTask": false,
+    "nextUc": null
   },
   "git": {
     "openPrs": 2,
     "activeBranches": 8
   },
   "timeline": [
+    {
+      "ts": "2026-07-08T01:00:02Z",
+      "event": "supervisor_skip",
+      "agent": "supervisor",
+      "msg": "Estado=procesado — Opus aún en progreso"
+    },
+    {
+      "ts": "2026-07-08T01:00:02Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #12 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-08T01:00:02Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=develop | Tarea=UC-DM-INFRA-09 — foundations.openapi.yaml (S1 retroactivo)"
+    },
+    {
+      "ts": "2026-07-08T01:00:02Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T00:55:01Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Fase 2 — UC-DM-INFRA-08 (contratos retroactivos)  **Emitida por:** Cursor Orquestador (tarea coordinación completada)"
+    },
+    {
+      "ts": "2026-07-08T00:50:01Z",
+      "event": "supervisor_phase2_queued",
+      "agent": "supervisor",
+      "msg": "Encolado UC-DM-INFRA-08 (issue #134) — tarea coordinación completada"
+    },
+    {
+      "ts": "2026-07-08T00:50:01Z",
+      "event": "supervisor_coord_done",
+      "agent": "supervisor",
+      "msg": "Tarea coordinación en develop — sin flujo git"
+    },
+    {
+      "ts": "2026-07-08T00:50:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #12 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-08T00:50:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=develop | Tarea=UC-DM-INFRA-09 — foundations.openapi.yaml (S1 retroactivo)"
+    },
+    {
+      "ts": "2026-07-08T00:50:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T00:50:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T00:45:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T00:25:01Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-08T00:40:02Z",
+      "event": "supervisor_skip",
+      "agent": "supervisor",
+      "msg": "Estado=procesado — Opus aún en progreso"
+    },
+    {
+      "ts": "2026-07-08T00:40:02Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #11 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-08T00:40:02Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=develop | Tarea=UC-DM-INFRA-09 — foundations.openapi.yaml S1 retroactivo (Fase 2)"
+    },
+    {
+      "ts": "2026-07-08T00:40:02Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
     {
       "ts": "2026-07-08T00:30:01Z",
       "event": "supervisor_skip",
@@ -1034,108 +1136,6 @@
       "event": "supervisor_read",
       "agent": "supervisor",
       "msg": "Estado=epic_done | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI (UC-DM-INFRA-01)"
-    },
-    {
-      "ts": "2026-07-08T00:00:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T00:00:02Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-07T23:55:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-07T23:45:01Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-07T23:50:02Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=procesado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-07T23:50:02Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-07T23:50:02Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI (UC-DM-INFRA-01)"
-    },
-    {
-      "ts": "2026-07-07T23:50:02Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-07T23:45:01Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Cierre de épica — J-consolidacion-pre-backend (+ contrato OpenAPI)  **Emitida por:** Supervisor (2026-07-07T23:40:01Z)"
-    },
-    {
-      "ts": "2026-07-07T23:40:01Z",
-      "event": "supervisor_auto_epic_close",
-      "agent": "supervisor",
-      "msg": "Cierre épica epic/J-consolidacion-pre-backend encolado (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-07T23:40:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-07T23:40:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-07T23:40:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI (UC-DM-INFRA-01)"
-    },
-    {
-      "ts": "2026-07-07T23:40:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-07T23:40:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-07T23:35:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-07T23:30:01Z",
-      "event": "supervisor_no_issues",
-      "agent": "supervisor",
-      "msg": "Sin issues uc abiertos para epic/G-consolidados-tenant"
     }
   ],
   "health": "ok"
