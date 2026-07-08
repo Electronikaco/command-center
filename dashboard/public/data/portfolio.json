@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T12:00:17.763Z",
+  "generatedAt": "2026-07-08T12:30:15.659Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-08T06:47:30Z",
+      "lastActivityAt": "2026-07-08T07:27:00Z",
       "progress": {
         "percent": 87,
         "label": "Programa 52/60 UCs"
