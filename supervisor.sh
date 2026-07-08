@@ -370,6 +370,27 @@ else
   die "Rama no reconocida para flujo git: $RAMA_TRABAJO (esperado uc/, epic/, fix/, hotfix/ o docs/)"
 fi
 
+# Si la rama no aporta commits únicos frente a su base (p.ej. sesión de
+# re-verificación que confirma "no dupliques trabajo" sin escribir cambios
+# nuevos), no hay nada que mergear. `gh pr create` falla ahí con "No commits
+# between X and Y" y sin este corte el ciclo se repetía cada 10 min sin
+# avanzar (incidente 2026-07-08: UC-DM-S11-01 re-verificada, 0 commits
+# únicos contra epic/J-consolidacion-pre-backend).
+UNIQUE_COMMITS=$(git rev-list --count "origin/$PR_BASE".."$RAMA_TRABAJO" 2>/dev/null || echo "0")
+if [ "$UNIQUE_COMMITS" -eq 0 ]; then
+  log "supervisor_noop_branch" "$RAMA_TRABAJO sin commits únicos frente a $PR_BASE — sin PR/merge, limpiando rama"
+  bash "$NOTIFY" info \
+    "Sin cambios que mergear en \`$RAMA_TRABAJO\`" \
+    "La tarea confirmó que ya estaba implementada (0 commits nuevos vs \`$PR_BASE\`). Rama eliminada, continuando con la siguiente."
+  git push origin --delete "$RAMA_TRABAJO" 2>/dev/null || true
+  git checkout "$PR_BASE" 2>/dev/null || git checkout "$BASE_BRANCH" 2>/dev/null || true
+  git branch -D "$RAMA_TRABAJO" 2>/dev/null || true
+  sed -i 's/^\*\*Estado:\*\* done/**Estado:** procesado/' "$STATUS_FILE" 2>/dev/null || true
+  auto_queue_next_work "$RAMA_TRABAJO" "rama sin diff (ya implementado)" || true
+  log "supervisor_end" "Ciclo completado (rama sin diff, limpiada)"
+  exit 0
+fi
+
 # Verifica si ya existe PR abierta para esta rama
 EXISTING_PR=$(gh pr list --head "$RAMA_TRABAJO" --base "$PR_BASE" --state open --json number --jq '.[0].number' 2>/dev/null || echo "")
 
