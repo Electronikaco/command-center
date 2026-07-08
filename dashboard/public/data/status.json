@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T01:00:21.549Z",
+  "generatedAt": "2026-07-08T01:30:18.070Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-08T01:00:02Z",
-      "lastRunAgeSec": 19,
+      "lastRun": "2026-07-08T01:30:01Z",
+      "lastRunAgeSec": 17,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-08T00:55:01Z",
-      "lastRunAgeSec": 320,
+      "lastRun": "2026-07-08T01:30:01Z",
+      "lastRunAgeSec": 17,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -28,9 +28,13 @@
     "lockActive": false,
     "lockAgeMin": null,
     "lastOpusStart": "2026-07-08T00:55:01Z",
-    "lastOpusDone": "2026-07-08T00:25:01Z",
+    "lastOpusDone": "2026-07-08T00:55:01Z",
     "lastOutputTail": [
-      ""
+      "- **PR #9** `fix/ci-pack-and-validate` queda **superado** por #11; recomendable cerrarlo al mergear #11.",
+      "- No hubo `next-task.md` en disco que mover (el contenido llegó inline; el orquestador ya lo consumió).",
+      "- Sin cambios de producto. `status.md` actualizado a `done`.",
+      "",
+      "El supervisor debe: commitear los cambios front y hacer merge manual de PR #11 contra `main` (al mergear, `publish.yml` publica `@electronikaco/dm-api-contracts@1.1.0` con todos los specs)."
     ]
   },
   "buddy": {
@@ -38,9 +42,9 @@
     "species": "Claude Code Bot",
     "rarity": "Epic",
     "mood": "working",
-    "moodLabel": "Implementando INFRA-09",
+    "moodLabel": "Implementando INFRA-08",
     "statusBadge": {
-      "label": "Implementando INFRA-09",
+      "label": "Implementando INFRA-08",
       "variant": "active"
     },
     "stats": [
@@ -471,7 +475,7 @@
           {
             "code": "UC-DM-INFRA-08",
             "done": false,
-            "active": false,
+            "active": true,
             "issueNumber": 134,
             "issueOpen": true,
             "staleIssue": false
@@ -672,7 +676,7 @@
         {
           "code": "UC-DM-INFRA-08",
           "done": false,
-          "active": false,
+          "active": true,
           "issueNumber": 134,
           "issueOpen": true,
           "staleIssue": false
@@ -820,13 +824,13 @@
     }
   },
   "orchestrator": {
-    "estado": "procesado",
-    "rama": "develop",
-    "tarea": "UC-DM-INFRA-09 — foundations.openapi.yaml (S1 retroactivo)",
-    "resumen": "Contrato retroactivo del núcleo del expediente (S1) en dm-api-contracts rama `feat/contract-infra-09-retroactive` — PR #12 https://github.com/electronikatm/dm-api-contracts/pull/12 (base `main`, **merge manual**). `foundations.openapi.yaml` (1 archivo, 28 operaciones) espeja los handlers MSW + Zod/dominio del front con paridad 1:1: expediente/cases (list paginado, stats, alta desde intake, detalle, edición, completeness), solicitud/intake-request (GET/PATCH, status derivado), personas (CRUD soft-delete + contacto principal + PERSON_LAST_ACTIVE), timeline (eventos manuales; automáticos inmutables AUTO_EVENT_IMMUTABLE), evidencia (hash de integridad inmutable), anotaciones (citas + vínculos + fuentes; 404 ANNOTATION_NOT_FOUND/SOURCE_NOT_FOUND), auditoría (append-only, filtros module/action/from/to). Errores y códigos exactos por endpoint; `x-tenant-id` + bearerAuth por operación; enums de dominio (runtime) donde el Zod legado estaba desactualizado (completeness 12 ids, timeline type 14/status 7, evidence, personas). Verificación: `openapi-typescript@7.13` sin error (1925 líneas de tipos) · `redocly lint --config redocly.lint.yaml` **válido** (0 errores; 10 warnings operation-4xx-response, regla en `warn` por diseño). CI de `main` (build openapi.yaml + loop openapi-typescript por spec + verificación de empaquetado) pasa con este spec. Sin cambios en dosmentes-front (INFRA-09 es entregable de contrato; el front consume specs vía el hook multi-spec de INFRA-08). **Pendiente heredado:** INFRA-08 PR #11 (multi-spec packaging + lint CI) sigue con merge manual pendiente contra `main`, y sus cambios front (`package.json`, `scripts/build-contract-types.mjs`) siguen sin commitear para el supervisor.",
+    "estado": "done",
+    "rama": "epic/J-consolidacion-pre-backend",
+    "tarea": "UC-DM-INFRA-08 — Empaquetado multi-spec + lint OpenAPI en CI + migración del front al paquete multi-spec (verificación end-to-end)",
+    "resumen": "El entregable de INFRA-08 ya estaba implementado en sesión previa; esta sesión lo **verifica end-to-end** y confirma que no requiere reimplementación (regla \"no dupliques trabajo\"). Contrato en dm-api-contracts rama `feat/contract-multispec-infra08` — PR #11 https://github.com/electronikatm/dm-api-contracts/pull/11 (base `main`, **merge manual**, MERGEABLE, CI `validate` SUCCESS). Contenido del PR #11: `package.json` publica TODOS los specs (`files: *.openapi.yaml` + `openapi.yaml` + `dist`), `exports` con subpaths de specs/tipos, versión 1.0.1→1.1.0; `build` vía `scripts/build-types.mjs` (API programática de openapi-typescript, sin globs de shell) que genera un `dist/<spec>.d.ts` por spec + barrel `dist/index.d.ts` (namespace por spec + re-export plano de auth para compat); `lint` = `redocly lint --config redocly.lint.yaml` (nombre de config NO estándar a propósito para no romper el auto-descubrimiento de openapi-typescript); CI (`ci.yml`/`publish.yml`) añade lint + verificación de que el tarball incluye cada spec junto a su `.d.ts`. Correcciones de validez que reveló el lint: case-metapericia (comas en flow-mappings YAML → entrecomilladas), dashboard-integration (`type: \"null\"` 3.1 → `allOf`+`nullable` 3.0), openapi.yaml auth (bloque `servers`). **Verificación local ejecutada esta sesión (rama multispec):** `pnpm install --frozen-lockfile` OK · `pnpm run lint` 9 specs válidos (0 errores, 19 warnings operation-4xx-response por diseño) · `pnpm run build` 8 specs + barrel · `pnpm pack` incluye los 7 specs modulares + openapi.yaml + sus `.d.ts` + `dist/index.d.ts` · `openapi-typescript` CLI por spec (8/8) sin error. **Front (rama `epic/J-consolidacion-pre-backend`, cambios en working tree SIN commitear para el supervisor):** `package.json` migra `contracts:build` a `node scripts/build-contract-types.mjs` (nuevo, untracked en `scripts/`) — hook multi-spec robusto que descubre los specs del paquete instalado y tolera tanto el paquete multi-spec como el antiguo solo-auth. Verificación front simulando el paquete publicado (specs de multispec copiados a node_modules): hook genera 8 specs + barrel · `tsc --noEmit` OK · `test` 491/491 · `build` OK. Con `main` actual (aún solo `openapi.yaml`) el hook genera 1 spec sin romper (tolerante). PR #9 `fix/ci-pack-and-validate` queda **superado** por #11 (empaquetado/CI más completo); recomendable cerrarlo al mergear #11. Sin cambios de producto; solo empaquetado/CI del contrato + hook de tipos del front.",
     "bloqueos": "ninguno",
-    "timestamp": "2026-07-07T19:35:00Z",
-    "currentUc": "UC-DM-INFRA-09"
+    "timestamp": "2026-07-08T01:01:31Z",
+    "currentUc": "UC-DM-INFRA-08"
   },
   "queue": {
     "hasNextTask": false,
@@ -837,6 +841,204 @@
     "activeBranches": 8
   },
   "timeline": [
+    {
+      "ts": "2026-07-08T01:30:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al crear PR de épica epic/J-consolidacion-pre-backend → develop"
+    },
+    {
+      "ts": "2026-07-08T01:30:01Z",
+      "event": "supervisor_branch_deleted",
+      "agent": "supervisor",
+      "msg": "Rama local epic/J-consolidacion-pre-backend eliminada"
+    },
+    {
+      "ts": "2026-07-08T01:30:01Z",
+      "event": "supervisor_pr_merged",
+      "agent": "supervisor",
+      "msg": "PR #153 mergeada y rama remota eliminada"
+    },
+    {
+      "ts": "2026-07-08T01:30:01Z",
+      "event": "supervisor_pr_created",
+      "agent": "supervisor",
+      "msg": "PR #153: epic/J-consolidacion-pre-backend → develop"
+    },
+    {
+      "ts": "2026-07-08T01:30:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en epic/J-consolidacion-pre-backend"
+    },
+    {
+      "ts": "2026-07-08T01:30:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #11 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-08T01:30:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-08 — Empaquetado multi-spec + lint OpenAPI en CI + migración del front al paquete multi-spec (verificación end-to-end)"
+    },
+    {
+      "ts": "2026-07-08T01:30:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T01:30:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T01:25:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T01:20:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al crear PR de épica epic/J-consolidacion-pre-backend → develop"
+    },
+    {
+      "ts": "2026-07-08T01:20:01Z",
+      "event": "supervisor_branch_deleted",
+      "agent": "supervisor",
+      "msg": "Rama local epic/J-consolidacion-pre-backend eliminada"
+    },
+    {
+      "ts": "2026-07-08T01:20:01Z",
+      "event": "supervisor_pr_merged",
+      "agent": "supervisor",
+      "msg": "PR #152 mergeada y rama remota eliminada"
+    },
+    {
+      "ts": "2026-07-08T01:20:01Z",
+      "event": "supervisor_pr_created",
+      "agent": "supervisor",
+      "msg": "PR #152: epic/J-consolidacion-pre-backend → develop"
+    },
+    {
+      "ts": "2026-07-08T01:20:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en epic/J-consolidacion-pre-backend"
+    },
+    {
+      "ts": "2026-07-08T01:20:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #11 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-08T01:20:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-08 — Empaquetado multi-spec + lint OpenAPI en CI + migración del front al paquete multi-spec (verificación end-to-end)"
+    },
+    {
+      "ts": "2026-07-08T01:20:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T01:20:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T01:15:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T01:10:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al crear PR de épica epic/J-consolidacion-pre-backend → develop"
+    },
+    {
+      "ts": "2026-07-08T01:10:01Z",
+      "event": "supervisor_branch_deleted",
+      "agent": "supervisor",
+      "msg": "Rama local epic/J-consolidacion-pre-backend eliminada"
+    },
+    {
+      "ts": "2026-07-08T01:10:01Z",
+      "event": "supervisor_pr_merged",
+      "agent": "supervisor",
+      "msg": "PR #151 mergeada y rama remota eliminada"
+    },
+    {
+      "ts": "2026-07-08T01:10:01Z",
+      "event": "supervisor_pr_created",
+      "agent": "supervisor",
+      "msg": "PR #151: epic/J-consolidacion-pre-backend → develop"
+    },
+    {
+      "ts": "2026-07-08T01:10:01Z",
+      "event": "supervisor_committed",
+      "agent": "supervisor",
+      "msg": "Commit y push directos en epic/J-consolidacion-pre-backend"
+    },
+    {
+      "ts": "2026-07-08T01:10:01Z",
+      "event": "supervisor_commit_needed",
+      "agent": "supervisor",
+      "msg": "Hay 1 archivos sin commitear — el supervisor ejecuta git (no Opus)"
+    },
+    {
+      "ts": "2026-07-08T01:10:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en epic/J-consolidacion-pre-backend"
+    },
+    {
+      "ts": "2026-07-08T01:10:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #11 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-08T01:10:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-08 — Empaquetado multi-spec + lint OpenAPI en CI + migración del front al paquete multi-spec (verificación end-to-end)"
+    },
+    {
+      "ts": "2026-07-08T01:10:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T01:10:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T01:05:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T00:55:01Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
     {
       "ts": "2026-07-08T01:00:02Z",
       "event": "supervisor_skip",
@@ -938,204 +1140,6 @@
       "event": "supervisor_start",
       "agent": "supervisor",
       "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T00:30:01Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=procesado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-08T00:30:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #11 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T00:30:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=develop | Tarea=UC-DM-INFRA-09 — foundations.openapi.yaml S1 retroactivo (Fase 2)"
-    },
-    {
-      "ts": "2026-07-08T00:30:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T00:25:01Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Próxima tarea — J-consolidacion-pre-backend  **Emitida por:** Cursor Supervisor (tarea coordinación completada)"
-    },
-    {
-      "ts": "2026-07-08T00:21:46Z",
-      "event": "supervisor_auto_queued",
-      "agent": "supervisor",
-      "msg": "Encolada UC UC-DM-S11-01 en epic/J-consolidacion-pre-backend (tarea coordinación completada)"
-    },
-    {
-      "ts": "2026-07-08T00:21:46Z",
-      "event": "supervisor_coord_done",
-      "agent": "supervisor",
-      "msg": "Tarea coordinación en develop — sin flujo git"
-    },
-    {
-      "ts": "2026-07-08T00:21:46Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #11 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T00:21:46Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=develop | Tarea=UC-DM-INFRA-08 — Empaquetado multi-spec dm-api-contracts + migración front"
-    },
-    {
-      "ts": "2026-07-08T00:21:46Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T00:00:44Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-08T00:20:01Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=procesado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-08T00:20:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T00:20:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=develop | Tarea=UC-DM-INFRA-08 — Empaquetado multi-spec dm-api-contracts + migración front (Fase 2)"
-    },
-    {
-      "ts": "2026-07-08T00:20:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T00:10:01Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=procesado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-08T00:10:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T00:10:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=develop | Tarea=UC-DM-INFRA-08 — Empaquetado multi-spec dm-api-contracts + migración front (Fase 2)"
-    },
-    {
-      "ts": "2026-07-08T00:10:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T00:03:59Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=procesado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-08T00:03:59Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T00:03:59Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=develop | Tarea=UC-DM-INFRA-08 — Empaquetado multi-spec dm-api-contracts + migración front (Fase 2)"
-    },
-    {
-      "ts": "2026-07-08T00:03:59Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T00:00:44Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Fase 2 — UC-DM-INFRA-08 (contratos retroactivos)  **Emitida por:** Cursor Orquestador (arranque Fase 2 post EPIC-J)"
-    },
-    {
-      "ts": "2026-07-08T00:00:33Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=procesado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-08T00:00:33Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T00:00:33Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=develop | Tarea=UC-DM-INFRA-08 — Empaquetado multi-spec dm-api-contracts + migración front (Fase 2)"
-    },
-    {
-      "ts": "2026-07-08T00:00:33Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T00:00:02Z",
-      "event": "supervisor_phase2_queued",
-      "agent": "supervisor",
-      "msg": "Encolado UC-DM-INFRA-08 (issue #134) — post-épica mergeada (sin UCs en epic/G-consolidados-tenant)"
-    },
-    {
-      "ts": "2026-07-08T00:00:02Z",
-      "event": "supervisor_no_issues",
-      "agent": "supervisor",
-      "msg": "Sin issues uc abiertos para epic/G-consolidados-tenant"
-    },
-    {
-      "ts": "2026-07-08T00:00:02Z",
-      "event": "supervisor_epic_manual",
-      "agent": "supervisor",
-      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada manualmente — saltando flujo git"
-    },
-    {
-      "ts": "2026-07-08T00:00:02Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: contrato documentado (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T00:00:02Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=epic_done | Rama=epic/J-consolidacion-pre-backend | Tarea=Épica J-consolidacion-pre-backend completa — auditoría + contrato OpenAPI (UC-DM-INFRA-01)"
     }
   ],
   "health": "ok"
