@@ -130,7 +130,20 @@ function deriveAgentState(
   lockAgeMin: number | null,
   opusActive: boolean,
 ): { state: AgentVisualState; label: string } {
-  if (opusActive || (lockAgeMin !== null && lockAgeMin < 90)) {
+  const lastOpusStart = lastEventMatching(timeline, (e) => e.event === "opus_start");
+  const lastOpusDone = lastEventMatching(timeline, (e) => e.event === "opus_done");
+  const estadoProcesado = /^procesado$/i.test(estado);
+  const opusWindowOpen =
+    !!lastOpusStart &&
+    (!lastOpusDone || new Date(lastOpusStart.ts) > new Date(lastOpusDone.ts)) &&
+    Date.now() - new Date(lastOpusStart.ts).getTime() < 90 * 60 * 1000;
+  const trustOpusWindow = !estadoProcesado || hasNextTask;
+
+  if (
+    (lockAgeMin !== null && lockAgeMin < 90) ||
+    (opusWindowOpen && trustOpusWindow) ||
+    (opusActive && hasNextTask)
+  ) {
     return { state: "running", label: "Opus implementando" };
   }
 
@@ -318,8 +331,8 @@ export function collect(): OrchestratorSnapshot {
 
   const epicMatch = rama.match(/^epic\/[^/]+/) ?? tarea.match(/epic\/[^\s`]+/);
   const activeEpicBranch = epicMatch?.[0] ?? null;
-  const currentUc =
-    extractUc(tarea) ?? extractUc(nextTaskContent) ?? extractUc(rama);
+  const nextUc = extractUc(nextTaskContent);
+  const currentUc = nextUc ?? (/^procesado$/i.test(estado) ? null : extractUc(tarea) ?? extractUc(rama));
 
   const program = buildProgramProgress({
     configPath: PATHS.config,
@@ -334,7 +347,7 @@ export function collect(): OrchestratorSnapshot {
     estado,
     bloqueos,
     currentUc,
-    nextUc: extractUc(nextTaskContent),
+    nextUc,
   });
   const cronSupervisor = cronStatus(
     PATHS.cronSupervisor,
@@ -387,7 +400,7 @@ export function collect(): OrchestratorSnapshot {
     },
     queue: {
       hasNextTask,
-      nextUc: extractUc(nextTaskContent),
+      nextUc,
     },
     git: {
       openPrs: countOpenPrs(),
