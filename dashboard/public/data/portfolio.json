@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T13:30:16.026Z",
+  "generatedAt": "2026-07-08T13:45:39.018Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -27,10 +27,10 @@
       },
       "orchestratorSummary": {
         "estado": "procesado",
-        "currentUc": "UC-DM-S11-01",
+        "currentUc": null,
         "programPercent": 87,
         "activeEpic": "EPIC-J consolidacion pre backend",
-        "agentLabel": "Opus implementando"
+        "agentLabel": "Pipeline al día"
       }
     },
     {
