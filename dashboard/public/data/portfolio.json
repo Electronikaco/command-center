@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T13:00:16.404Z",
+  "generatedAt": "2026-07-08T13:30:16.026Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,13 +13,12 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-08T12:57:05Z",
+      "lastActivityAt": "2026-07-08T13:26:30Z",
       "progress": {
         "percent": 87,
         "label": "Programa 52/60 UCs"
       },
       "highlights": [
-        "En cola: UC-DM-S11-01",
         "2 PR(s) abierto(s)"
       ],
       "detailRoute": "/project/dosmentes",
