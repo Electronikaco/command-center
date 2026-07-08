@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T02:00:17.701Z",
+  "generatedAt": "2026-07-08T02:30:17.382Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,7 +9,7 @@
       "type": "orchestrator",
       "description": "Orquestador DosMentes — épicas y UCs",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 3,
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
@@ -19,7 +19,7 @@
         "label": "Programa 52/60 UCs"
       },
       "highlights": [
-        "2 PR(s) abierto(s)"
+        "3 PR(s) abierto(s)"
       ],
       "detailRoute": "/project/dosmentes",
       "links": {
@@ -109,6 +109,6 @@
     "healthy": 4,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 3
+    "totalOpenPrs": 4
   }
 }
