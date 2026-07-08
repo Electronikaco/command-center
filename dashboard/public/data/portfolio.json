@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T02:30:17.382Z",
+  "generatedAt": "2026-07-08T03:00:17.156Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,17 +9,17 @@
       "type": "orchestrator",
       "description": "Orquestador DosMentes — épicas y UCs",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 2,
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-08T01:01:31Z",
+      "lastActivityAt": "2026-07-07T21:57:00Z",
       "progress": {
         "percent": 87,
         "label": "Programa 52/60 UCs"
       },
       "highlights": [
-        "3 PR(s) abierto(s)"
+        "2 PR(s) abierto(s)"
       ],
       "detailRoute": "/project/dosmentes",
       "links": {
@@ -27,7 +27,7 @@
       },
       "orchestratorSummary": {
         "estado": "done",
-        "currentUc": "UC-DM-INFRA-08",
+        "currentUc": "UC-DM-S11-01",
         "programPercent": 87,
         "activeEpic": "EPIC-J consolidacion pre backend",
         "agentLabel": "Opus implementando"
@@ -109,6 +109,6 @@
     "healthy": 4,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 3
   }
 }
