@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T12:00:19.598Z",
+  "generatedAt": "2026-07-08T12:30:17.922Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-08T12:00:01Z",
-      "lastRunAgeSec": 18,
+      "lastRun": "2026-07-08T12:30:01Z",
+      "lastRunAgeSec": 16,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-08T12:00:01Z",
-      "lastRunAgeSec": 18,
+      "lastRun": "2026-07-08T12:30:01Z",
+      "lastRunAgeSec": 16,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -27,14 +27,14 @@
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
-    "lastOpusStart": "2026-07-08T11:55:01Z",
-    "lastOpusDone": "2026-07-08T11:55:01Z",
+    "lastOpusStart": "2026-07-08T12:25:01Z",
+    "lastOpusDone": "2026-07-08T12:25:01Z",
     "lastOutputTail": [
-      "## Situación de coordinación",
       "",
-      "El `status.md` del orquestador ya refleja este cierre (`Estado: procesado`, re-verificado 2026-07-08T06:47Z, PR #144 mergeado, commit `860f4b9` ancestro del HEAD). La tarea me fue re-asignada pero el trabajo ya estaba hecho en una sesión previa. **No hay nada que implementar ni que corregir**; el `status.md` actual es preciso, así que no lo sobrescribo con un timestamp nuevo salvo que me lo pidas.",
+      "- **No creé** la rama `uc/UC-DM-S11-01-*` ni un commit vacío: sería trabajo redundante sobre código ya en main/épica.",
+      "- Actualicé `/home/claude/dosmentes/.orchestrator/status.md` con la re-verificación (`Estado: procesado`, sin bloqueos) para que el supervisor sepa que la re-emisión se procesó sin cambios.",
       "",
-      "¿Quieres que avance con la siguiente UC de la épica J (p. ej. `UC-DM-S11-02 — resolución de pares legacy`, cuya rama ya existe), o prefieres otra cosa?"
+      "Si Cursor quería un cambio *nuevo* bajo este número de UC (no la consolidación ya hecha), avísame con el detalle; tal como está redactado el issue #129, ya está satisfecho."
     ]
   },
   "buddy": {
@@ -827,9 +827,9 @@
     "estado": "procesado",
     "rama": "epic/J-consolidacion-pre-backend",
     "tarea": "UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2",
-    "resumen": "Re-verificado 2026-07-08T06:47Z — sin cambios de código necesarios; working tree limpio. UC **ya implementada y mergeada** (PR #144, commit `860f4b9`, ancestro del HEAD del épico). Re-verificada esta sesión (2026-07-08) contra los 5 criterios de aceptación, todos ✅: (1) **Fuente única** — `src/features/admin-users`, `src/domain/user.ts`, `src/mocks/storage/admin-users-storage.ts` y `src/mocks/handlers/admin-users.handlers.ts` NO EXISTEN; usuarios del tenant viven solo en `access` (`domain/access.ts::AppUser`, `access-storage.ts`, `access.handlers.ts`); sin escrituras dobles. (2) **Hub con una sola entrada** — `administracion/page.tsx` expone solo \"Gestión de accesos\"; ruta legacy `administracion/usuarios/page.tsx` = `redirect(\"/administracion/accesos/usuarios\")`. (3) **Capacidades conservadas** — hard-delete solo `superadmin_plataforma`, soft-delete y 7 roles canónicos en `access`. (4) **Auditoría + tests** — `recordAudit` cubierto; `access.handlers.test.ts` 4/4 passed (incl. hard-delete migrado). (5) **ADR** — `docs/config/ADR-UC-DM-S11-01-fuente-verdad-usuarios.md`. **Consolidación docs esta sesión (docs-only):** corregidos dos documentos que aún contradecían el ADR — `docs/config/UC-DM-CONFIG-01-gestion-accesos.md` (decía admin-users \"se conserva\" → ahora \"se retiró; access es fuente única\") y `docs/backend-handoff-users.md` (banner ⚠️ DEPRECADO apuntando a `backend-handoff-accesos.md` y al ADR; se conserva como historial auditable, no se borra por regla docs/). **Verificación local:** `tsc --noEmit` OK (exit 0) · `eslint` 0 errores (1 warning preexistente no relacionado en `shared/ui/data-table.tsx`) · tests de access/team passed. UC solo-front, sin contrato asociado.",
+    "resumen": "Re-verificado 2026-07-08T06:47Z — sin cambios de código necesarios; working tree limpio. UC **ya implementada y mergeada** (PR #144, commit `860f4b9`, ancestro del HEAD del épico). Re-verificada esta sesión (2026-07-08) contra los 5 criterios de aceptación, todos ✅: (1) **Fuente única** — `src/features/admin-users`, `src/domain/user.ts`, `src/mocks/storage/admin-users-storage.ts` y `src/mocks/handlers/admin-users.handlers.ts` NO EXISTEN; usuarios del tenant viven solo en `access` (`domain/access.ts::AppUser`, `access-storage.ts`, `access.handlers.ts`); sin escrituras dobles. (2) **Hub con una sola entrada** — `administracion/page.tsx` expone solo \"Gestión de accesos\"; ruta legacy `administracion/usuarios/page.tsx` = `redirect(\"/administracion/accesos/usuarios\")`. (3) **Capacidades conservadas** — hard-delete solo `superadmin_plataforma`, soft-delete y 7 roles canónicos en `access`. (4) **Auditoría + tests** — `recordAudit` cubierto; `access.handlers.test.ts` 4/4 passed (incl. hard-delete migrado). (5) **ADR** — `docs/config/ADR-UC-DM-S11-01-fuente-verdad-usuarios.md`. **Consolidación docs esta sesión (docs-only):** corregidos dos documentos que aún contradecían el ADR — `docs/config/UC-DM-CONFIG-01-gestion-accesos.md` (decía admin-users \"se conserva\" → ahora \"se retiró; access es fuente única\") y `docs/backend-handoff-users.md` (banner ⚠️ DEPRECADO apuntando a `backend-handoff-accesos.md` y al ADR; se conserva como historial auditable, no se borra por regla docs/). **Verificación local:** `tsc --noEmit` OK (exit 0) · `eslint` 0 errores (1 warning preexistente no relacionado en `shared/ui/data-table.tsx`) · tests de access/team passed. UC solo-front, sin contrato asociado. **Re-verificación 2026-07-08T07:08Z (nueva sesión):** suite completa `vitest run` → **37 files / 491 tests passed**, `tsc --noEmit` exit 0, `eslint` limpio en áreas tocadas (access, handlers, administracion, domain). Working tree limpio; sin cambios de código necesarios. Se mantiene Estado `procesado` (no se regresa a `done`: PR #144 ya mergeado por el supervisor). **Re-verificación 2026-07-08T07:16Z (nueva sesión):** confirmado de nuevo contra los 5 criterios — `admin-users` (feature/domain `user.ts`/storage/handlers) NO existe; `access` es fuente única; hub con una sola entrada (\"Gestión de accesos\") + legacy `administracion/usuarios/page.tsx` → `redirect(\"/administracion/accesos/usuarios\")` (destino existe); ADR presente. `tsc --noEmit` exit 0, `access.handlers.test.ts` 4/4 passed. Working tree limpio; nada que implementar. Estado se mantiene `procesado`.",
     "bloqueos": "ninguno",
-    "timestamp": "2026-07-08T06:47:30Z",
+    "timestamp": "2026-07-08T07:27:00Z",
     "currentUc": "UC-DM-S11-01"
   },
   "queue": {
@@ -841,6 +841,132 @@
     "activeBranches": 8
   },
   "timeline": [
+    {
+      "ts": "2026-07-08T12:30:01Z",
+      "event": "supervisor_auto_queued",
+      "agent": "supervisor",
+      "msg": "Encolada UC UC-DM-S11-01 en epic/J-consolidacion-pre-backend (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-08T12:30:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-08T12:30:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
+    },
+    {
+      "ts": "2026-07-08T12:30:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T12:30:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T12:25:01Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-08T12:25:01Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Próxima tarea — J-consolidacion-pre-backend  **Emitida por:** Cursor Supervisor (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-08T12:20:01Z",
+      "event": "supervisor_auto_queued",
+      "agent": "supervisor",
+      "msg": "Encolada UC UC-DM-S11-01 en epic/J-consolidacion-pre-backend (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-08T12:20:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-08T12:20:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
+    },
+    {
+      "ts": "2026-07-08T12:20:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T12:20:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T12:15:01Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-08T12:15:01Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Próxima tarea — J-consolidacion-pre-backend  **Emitida por:** Cursor Supervisor (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-08T12:10:01Z",
+      "event": "supervisor_auto_queued",
+      "agent": "supervisor",
+      "msg": "Encolada UC UC-DM-S11-01 en epic/J-consolidacion-pre-backend (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-08T12:10:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-08T12:10:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
+    },
+    {
+      "ts": "2026-07-08T12:10:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T12:10:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T12:05:01Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-08T12:05:01Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Próxima tarea — J-consolidacion-pre-backend  **Emitida por:** Cursor Supervisor (resume tras procesado)"
+    },
     {
       "ts": "2026-07-08T12:00:01Z",
       "event": "supervisor_auto_queued",
@@ -1014,132 +1140,6 @@
       "event": "supervisor_auto_queued",
       "agent": "supervisor",
       "msg": "Encolada UC UC-DM-S11-01 en epic/J-consolidacion-pre-backend (rama sin diff (ya implementado))"
-    },
-    {
-      "ts": "2026-07-08T11:30:01Z",
-      "event": "supervisor_noop_branch",
-      "agent": "supervisor",
-      "msg": "uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio sin commits únicos frente a epic/J-consolidacion-pre-backend — sin PR/merge, limpiando rama"
-    },
-    {
-      "ts": "2026-07-08T11:30:01Z",
-      "event": "supervisor_warn",
-      "agent": "supervisor",
-      "msg": "No se puede hacer checkout a uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio — puede estar solo en remoto"
-    },
-    {
-      "ts": "2026-07-08T11:30:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio"
-    },
-    {
-      "ts": "2026-07-08T11:30:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
-    },
-    {
-      "ts": "2026-07-08T11:30:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T11:30:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T11:25:02Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-08T11:25:02Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Próxima tarea — J-consolidacion-pre-backend  **Emitida por:** Cursor Supervisor (rama sin diff (ya implementado))"
-    },
-    {
-      "ts": "2026-07-08T11:20:01Z",
-      "event": "supervisor_end",
-      "agent": "supervisor",
-      "msg": "Ciclo completado (rama sin diff, limpiada)"
-    },
-    {
-      "ts": "2026-07-08T11:20:01Z",
-      "event": "supervisor_auto_queued",
-      "agent": "supervisor",
-      "msg": "Encolada UC UC-DM-S11-01 en epic/J-consolidacion-pre-backend (rama sin diff (ya implementado))"
-    },
-    {
-      "ts": "2026-07-08T11:20:01Z",
-      "event": "supervisor_noop_branch",
-      "agent": "supervisor",
-      "msg": "uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio sin commits únicos frente a epic/J-consolidacion-pre-backend — sin PR/merge, limpiando rama"
-    },
-    {
-      "ts": "2026-07-08T11:20:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio"
-    },
-    {
-      "ts": "2026-07-08T11:20:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
-    },
-    {
-      "ts": "2026-07-08T11:20:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T11:20:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T11:15:01Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-08T11:15:01Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Próxima tarea — J-consolidacion-pre-backend  **Emitida por:** Cursor Supervisor (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-08T11:10:01Z",
-      "event": "supervisor_auto_queued",
-      "agent": "supervisor",
-      "msg": "Encolada UC UC-DM-S11-01 en epic/J-consolidacion-pre-backend (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-08T11:10:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-08T11:10:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=uc/UC-DM-S11-01-fuente-de-verdad-unica-de-usuarios-fusio | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
-    },
-    {
-      "ts": "2026-07-08T11:10:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
     }
   ],
   "health": "ok"
