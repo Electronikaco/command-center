@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T14:30:17.965Z",
+  "generatedAt": "2026-07-08T15:00:19.791Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-08T14:30:01Z",
-      "lastRunAgeSec": 16,
+      "lastRun": "2026-07-08T15:00:02Z",
+      "lastRunAgeSec": 17,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-08T14:30:01Z",
-      "lastRunAgeSec": 16,
+      "lastRun": "2026-07-08T15:00:02Z",
+      "lastRunAgeSec": 17,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -27,8 +27,8 @@
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
-    "lastOpusStart": "2026-07-08T14:25:01Z",
-    "lastOpusDone": "2026-07-08T14:25:01Z",
+    "lastOpusStart": "2026-07-08T14:55:02Z",
+    "lastOpusDone": "2026-07-08T14:55:02Z",
     "lastOutputTail": [
       "You've hit your session limit · resets 11am (America/Bogota)"
     ]
@@ -838,6 +838,168 @@
   },
   "timeline": [
     {
+      "ts": "2026-07-08T15:00:02Z",
+      "event": "supervisor_phase2_queued",
+      "agent": "supervisor",
+      "msg": "Encolado UC-DM-INFRA-13 (issue #139) — post-épica mergeada (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-08T15:00:02Z",
+      "event": "supervisor_epic_skip_close",
+      "agent": "supervisor",
+      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
+    },
+    {
+      "ts": "2026-07-08T15:00:02Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-08T15:00:02Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #15 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-08T15:00:02Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-12 — quality.openapi.yaml (doble codificación / IRR, S2-13)"
+    },
+    {
+      "ts": "2026-07-08T15:00:02Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T15:00:02Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T14:55:02Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-08T14:55:02Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Fase 2 — UC-DM-INFRA-13 (contratos retroactivos)  **Emitida por:** Cursor Orquestador (post-épica mergeada (resume tras procesado))"
+    },
+    {
+      "ts": "2026-07-08T14:50:01Z",
+      "event": "supervisor_phase2_queued",
+      "agent": "supervisor",
+      "msg": "Encolado UC-DM-INFRA-13 (issue #139) — post-épica mergeada (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-08T14:50:01Z",
+      "event": "supervisor_epic_skip_close",
+      "agent": "supervisor",
+      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
+    },
+    {
+      "ts": "2026-07-08T14:50:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-08T14:50:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #15 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-08T14:50:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-12 — quality.openapi.yaml (doble codificación / IRR, S2-13)"
+    },
+    {
+      "ts": "2026-07-08T14:50:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T14:50:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T14:45:02Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-08T14:45:02Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Fase 2 — UC-DM-INFRA-13 (contratos retroactivos)  **Emitida por:** Cursor Orquestador (post-épica mergeada (resume tras procesado))"
+    },
+    {
+      "ts": "2026-07-08T14:40:01Z",
+      "event": "supervisor_phase2_queued",
+      "agent": "supervisor",
+      "msg": "Encolado UC-DM-INFRA-13 (issue #139) — post-épica mergeada (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-08T14:40:01Z",
+      "event": "supervisor_epic_skip_close",
+      "agent": "supervisor",
+      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
+    },
+    {
+      "ts": "2026-07-08T14:40:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-08T14:40:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #15 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-08T14:40:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-12 — quality.openapi.yaml (doble codificación / IRR, S2-13)"
+    },
+    {
+      "ts": "2026-07-08T14:40:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-08T14:40:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-08T14:35:01Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-08T14:35:01Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Fase 2 — UC-DM-INFRA-13 (contratos retroactivos)  **Emitida por:** Cursor Orquestador (post-épica mergeada (resume tras procesado))"
+    },
+    {
       "ts": "2026-07-08T14:30:01Z",
       "event": "supervisor_phase2_queued",
       "agent": "supervisor",
@@ -974,168 +1136,6 @@
       "event": "supervisor_read",
       "agent": "supervisor",
       "msg": "Estado=done | Rama=develop | Tarea=UC-DM-INFRA-11 — Contrato retroactivo output-chain.openapi.yaml (informes, paquete, entrega, cierre — cadena de salida S2)"
-    },
-    {
-      "ts": "2026-07-08T14:10:02Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T14:10:02Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T13:55:01Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-08T14:00:01Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=procesado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-08T14:00:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #13** (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T14:00:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=develop | Tarea=UC-DM-INFRA-10 — Contrato retroactivo credibility.openapi.yaml (SVA, CBCA, RM, Consistencias, Síntesis — núcleo comercial S2)"
-    },
-    {
-      "ts": "2026-07-08T14:00:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T13:55:01Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Fase 2 — UC-DM-INFRA-11 (contratos retroactivos)  **Emitida por:** Cursor Orquestador (tarea coordinación completada)"
-    },
-    {
-      "ts": "2026-07-08T13:35:01Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-08T13:50:01Z",
-      "event": "supervisor_phase2_queued",
-      "agent": "supervisor",
-      "msg": "Encolado UC-DM-INFRA-11 (issue #137) — tarea coordinación completada"
-    },
-    {
-      "ts": "2026-07-08T13:50:01Z",
-      "event": "supervisor_coord_done",
-      "agent": "supervisor",
-      "msg": "Tarea coordinación en develop — sin flujo git"
-    },
-    {
-      "ts": "2026-07-08T13:50:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #13** (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T13:50:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=develop | Tarea=UC-DM-INFRA-10 — Contrato retroactivo credibility.openapi.yaml (SVA, CBCA, RM, Consistencias, Síntesis — núcleo comercial S2)"
-    },
-    {
-      "ts": "2026-07-08T13:50:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T13:40:01Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=procesado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-08T13:40:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
-    },
-    {
-      "ts": "2026-07-08T13:40:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T13:35:01Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Fase 2 — UC-DM-INFRA-10 (contratos retroactivos)  **Emitida por:** Cursor Orquestador (post-épica mergeada (resume tras procesado))"
-    },
-    {
-      "ts": "2026-07-08T13:30:02Z",
-      "event": "supervisor_phase2_queued",
-      "agent": "supervisor",
-      "msg": "Encolado UC-DM-INFRA-10 (issue #136) — post-épica mergeada (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-08T13:30:02Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-08T13:30:02Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-08T13:30:02Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-S11-01 — Fuente de verdad única de usuarios (fusionar admin-users → access) — hallazgo C-2"
-    },
-    {
-      "ts": "2026-07-08T13:30:02Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T13:30:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T13:25:01Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-08T13:25:01Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Próxima tarea — J-consolidacion-pre-backend  **Emitida por:** Cursor Supervisor (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-08T13:20:01Z",
-      "event": "supervisor_auto_queued",
-      "agent": "supervisor",
-      "msg": "Encolada UC UC-DM-S11-01 en epic/J-consolidacion-pre-backend (resume tras procesado)"
     }
   ],
   "health": "ok"
