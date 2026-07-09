@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T00:00:26.945Z",
+  "generatedAt": "2026-07-09T00:30:16.691Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-09T00:00:01Z",
-      "lastRunAgeSec": 25,
+      "lastRun": "2026-07-09T00:30:01Z",
+      "lastRunAgeSec": 15,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-09T00:00:01Z",
-      "lastRunAgeSec": 25,
+      "lastRun": "2026-07-09T00:30:01Z",
+      "lastRunAgeSec": 15,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -842,6 +842,186 @@
   },
   "timeline": [
     {
+      "ts": "2026-07-09T00:30:01Z",
+      "event": "supervisor_auto_idle",
+      "agent": "supervisor",
+      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-09T00:30:01Z",
+      "event": "supervisor_phase2_complete",
+      "agent": "supervisor",
+      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
+    },
+    {
+      "ts": "2026-07-09T00:30:01Z",
+      "event": "supervisor_phase2_complete",
+      "agent": "supervisor",
+      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
+    },
+    {
+      "ts": "2026-07-09T00:30:01Z",
+      "event": "supervisor_epic_skip_close",
+      "agent": "supervisor",
+      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
+    },
+    {
+      "ts": "2026-07-09T00:30:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-09T00:30:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #16 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-09T00:30:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-13 — admin.openapi.yaml (usuarios + accesos RBAC unificados + team)"
+    },
+    {
+      "ts": "2026-07-09T00:30:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-09T00:30:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-09T00:25:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-09T00:20:01Z",
+      "event": "supervisor_auto_idle",
+      "agent": "supervisor",
+      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-09T00:20:01Z",
+      "event": "supervisor_phase2_complete",
+      "agent": "supervisor",
+      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
+    },
+    {
+      "ts": "2026-07-09T00:20:01Z",
+      "event": "supervisor_phase2_complete",
+      "agent": "supervisor",
+      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
+    },
+    {
+      "ts": "2026-07-09T00:20:01Z",
+      "event": "supervisor_epic_skip_close",
+      "agent": "supervisor",
+      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
+    },
+    {
+      "ts": "2026-07-09T00:20:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-09T00:20:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #16 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-09T00:20:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-13 — admin.openapi.yaml (usuarios + accesos RBAC unificados + team)"
+    },
+    {
+      "ts": "2026-07-09T00:20:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-09T00:20:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-09T00:15:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-09T00:10:01Z",
+      "event": "supervisor_auto_idle",
+      "agent": "supervisor",
+      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-09T00:10:01Z",
+      "event": "supervisor_phase2_complete",
+      "agent": "supervisor",
+      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
+    },
+    {
+      "ts": "2026-07-09T00:10:01Z",
+      "event": "supervisor_phase2_complete",
+      "agent": "supervisor",
+      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
+    },
+    {
+      "ts": "2026-07-09T00:10:01Z",
+      "event": "supervisor_epic_skip_close",
+      "agent": "supervisor",
+      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
+    },
+    {
+      "ts": "2026-07-09T00:10:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-09T00:10:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #16 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-09T00:10:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-13 — admin.openapi.yaml (usuarios + accesos RBAC unificados + team)"
+    },
+    {
+      "ts": "2026-07-09T00:10:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-09T00:10:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-09T00:05:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
       "ts": "2026-07-09T00:00:01Z",
       "event": "supervisor_auto_idle",
       "agent": "supervisor",
@@ -957,186 +1137,6 @@
     },
     {
       "ts": "2026-07-08T23:45:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T23:40:01Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-08T23:40:01Z",
-      "event": "supervisor_phase2_complete",
-      "agent": "supervisor",
-      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
-    },
-    {
-      "ts": "2026-07-08T23:40:01Z",
-      "event": "supervisor_phase2_complete",
-      "agent": "supervisor",
-      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
-    },
-    {
-      "ts": "2026-07-08T23:40:01Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-08T23:40:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-08T23:40:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #16 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T23:40:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-13 — admin.openapi.yaml (usuarios + accesos RBAC unificados + team)"
-    },
-    {
-      "ts": "2026-07-08T23:40:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T23:40:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T23:35:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T23:30:01Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-08T23:30:01Z",
-      "event": "supervisor_phase2_complete",
-      "agent": "supervisor",
-      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
-    },
-    {
-      "ts": "2026-07-08T23:30:01Z",
-      "event": "supervisor_phase2_complete",
-      "agent": "supervisor",
-      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
-    },
-    {
-      "ts": "2026-07-08T23:30:01Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-08T23:30:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-08T23:30:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #16 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T23:30:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-13 — admin.openapi.yaml (usuarios + accesos RBAC unificados + team)"
-    },
-    {
-      "ts": "2026-07-08T23:30:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T23:30:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T23:25:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T23:20:01Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-08T23:20:01Z",
-      "event": "supervisor_phase2_complete",
-      "agent": "supervisor",
-      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
-    },
-    {
-      "ts": "2026-07-08T23:20:01Z",
-      "event": "supervisor_phase2_complete",
-      "agent": "supervisor",
-      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
-    },
-    {
-      "ts": "2026-07-08T23:20:01Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-08T23:20:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-08T23:20:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #16 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-08T23:20:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-13 — admin.openapi.yaml (usuarios + accesos RBAC unificados + team)"
-    },
-    {
-      "ts": "2026-07-08T23:20:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-08T23:20:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-08T23:15:02Z",
       "event": "opus_tick",
       "agent": "opus-worker",
       "msg": "Sin next-task.md — cron activo, nada que implementar"
