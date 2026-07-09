@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T05:30:15.849Z",
+  "generatedAt": "2026-07-09T06:00:16.667Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -45,7 +45,7 @@
       "mergedPrs30d": 25,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-09T05:30:06Z",
+      "lastActivityAt": "2026-07-09T05:30:07Z",
       "progress": {
         "percent": 42,
         "label": "Fase 1 · Migración por servicio: 8/19"
