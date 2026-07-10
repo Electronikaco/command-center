@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T04:30:17.580Z",
+  "generatedAt": "2026-07-10T05:00:22.232Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,39 +8,43 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-10T04:30:01Z",
-      "lastRunAgeSec": 16,
+      "lastRun": "2026-07-10T05:00:01Z",
+      "lastRunAgeSec": 21,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T04:25:01Z",
-      "lastRunAgeSec": 316,
+      "lastRun": "2026-07-10T05:00:01Z",
+      "lastRunAgeSec": 21,
       "healthy": true,
       "label": "En ejecución"
     }
   },
   "agent": {
-    "state": "idle",
-    "label": "Pipeline al día",
+    "state": "done_pending",
+    "label": "Esperando supervisor",
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
     "lastOpusStart": "2026-07-10T04:25:01Z",
-    "lastOpusDone": "2026-07-10T04:05:01Z",
+    "lastOpusDone": "2026-07-10T04:25:01Z",
     "lastOutputTail": [
-      ""
+      "",
+      "## Nota de ramas",
+      "CONFIG-06 (dependencia directa) aún no está mergeada en `epic/K`. Como `epic/K` es ancestro limpio de CONFIG-06, basé esta rama sobre CONFIG-06 para tener `TenantSubscription` disponible. El supervisor gestiona PR/merge.",
+      "",
+      "`status.md` actualizado según la convención."
     ]
   },
   "buddy": {
     "name": "Capito",
     "species": "Claude Code Bot",
     "rarity": "Epic",
-    "mood": "idle",
-    "moodLabel": "Pipeline al día",
+    "mood": "celebrating",
+    "moodLabel": "CONFIG-07 lista para merge",
     "statusBadge": {
-      "label": "Pipeline al día",
+      "label": "CONFIG-07 lista para merge",
       "variant": "success"
     },
     "stats": [
@@ -62,7 +66,7 @@
       },
       {
         "key": "SNARK",
-        "value": 45
+        "value": 30
       }
     ]
   },
@@ -819,23 +823,143 @@
     }
   },
   "orchestrator": {
-    "estado": "procesado",
-    "rama": "uc/UC-DM-CONFIG-06-plan-contratado-y-consumo-de-cupos-del-t",
-    "tarea": "UC-DM-CONFIG-06 — Plan contratado y consumo de cupos del tenant (tarjeta \"Licencias\" del hub)",
-    "resumen": "Nuevo agregado `TenantSubscription` + handler `GET /tenant/subscription` que reutiliza datos existentes SIN duplicar conteos: usuarios activos desde el dominio canónico de `access` (mismo criterio que Gestión de accesos: `status === \"active\"`, S11-01), casos activos (no terminales: closed/archived/custody_hold) desde `cases` vía `listAllCases()`, y almacenamiento mock fijo. Archivos nuevos: `domain/tenant-subscription.ts`, `contracts/schemas/tenant-subscription.schema.ts` (+test), `mocks/data/tenant-subscriptions.mock.ts` (semilla con un tenant por plan → 3 estados visuales), `mocks/handlers/tenant-subscription.handlers.ts` (+test, registrado en handlers/index), `features/billing-plans/hooks/use-tenant-subscription.ts`, `features/billing-plans/components/subscription-summary.tsx`, y primitivo reutilizable `shared/ui/usage-meter.tsx` (barra de consumo con estados normal / alerta≥80% / límite≥100%, exportado en shared/ui/index). Modificados: `endpoints.ts` (tenant.subscription), `query-keys.ts` (tenantKeys.subscription), `billing-plans-service.ts`, `billing-plans/constants.ts` + `lib/format.ts`, `billing-plans-view.tsx` (plan contratado + consumo como bloque principal; comparativa CONFIG-05 ahora colapsable, resaltando el plan REAL de la suscripción en vez del placeholder), y descripción de la tarjeta \"Licencias\" en `administracion/page.tsx` (ya estaba ready:true → /administracion/licencias). El tenant vivo (colpericias, plan Avanzado) ejercita los 3 estados en una sola vista: usuarios 7/5 (límite superado), casos activos ~9/200 (normal), storage 172/200 (alerta 86%). tsc OK · lint 0 errores (1 warning preexistente en data-table.tsx) · build OK · 11 tests nuevos verdes. Sin contrato OpenAPI (no es cierre de épica).",
+    "estado": "done",
+    "rama": "uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po",
+    "tarea": "UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)",
+    "resumen": "Nueva capa de enforcement en `src/features/billing-plans/`: lógica pura `lib/plan-gating.ts` (planHasFeature, resolveUpgradePlan, quotaUsageFor, isQuotaReached, motivos de bloqueo — reutiliza `usageMeterState` de CONFIG-06) + hook `lib/use-plan-gating.ts` (resuelve plan+consumo de CONFIG-06 y catálogo de CONFIG-05). Componentes nuevos: `<PlanGate feature|quota mode=disable|hide>` (guard declarativo, wrapper que corta pointer-events para funcionar también con `<Button asChild>`), `<PlanUpgradeNotice variant=banner|panel>` (aviso + CTA a cambio de plan) y `<PlanQuotaBanner>`. Constante única `PLAN_CHANGE_HREF` (→ aterriza en CONFIG-08). Puntos de aplicación: (a) botón \"Invitar usuario\" en `access-users-view` con `<PlanGate quota=\"users\">` (tenant vivo 7/5 → deshabilitado + tooltip); (b) botón \"Nuevo caso\" en `cases-list-view` con `<PlanGate quota=\"activeCases\">` dentro de `<Can>` + `<PlanQuotaBanner>`; (c) nueva ruta `/administracion/auditoria` con `<PlanGate feature=\"advanced_audit\" mode=\"hide\">` → panel \"Disponible en el plan Empresarial\" con CTA (tarjeta del hub actualizada de \"Próximamente\" a navegable). No interfiere con `<Can>`: composición Can(fuera)+PlanGate(dentro) — sin permiso ve el bloqueo de Can, con permiso pero al tope ve el de PlanGate. Tests: `lib/plan-gating.test.ts` (10 casos). Archivos: nuevos plan-gate/plan-quota-banner/plan-upgrade-notice/plan-gating(.test)/use-plan-gating + ruta auditoria; modificados access-users-view, cases-list-view, billing-plans/constants.ts, billing-plans/index.ts, administracion/page.tsx. Nota: rama basada en la de CONFIG-06 (dependencia directa aún no mergeada en epic/K; epic/K es ancestro limpio de CONFIG-06). tsc OK · 536 tests OK · lint OK · build OK (ruta /administracion/auditoria compilada). Verificación de navegador no ejecutada (requiere aprobación en este entorno; validado con tsc/tests/lint/build). Sin contrato OpenAPI (no es cierre de épica).",
     "bloqueos": "ninguno",
-    "timestamp": "2026-07-10T04:17:42Z",
-    "currentUc": null
+    "timestamp": "2026-07-10T04:40:20Z",
+    "currentUc": "UC-DM-CONFIG-07"
   },
   "queue": {
     "hasNextTask": false,
     "nextUc": null
   },
   "git": {
-    "openPrs": 0,
+    "openPrs": 1,
     "activeBranches": 13
   },
   "timeline": [
+    {
+      "ts": "2026-07-10T05:00:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al mergear PR #172"
+    },
+    {
+      "ts": "2026-07-10T05:00:01Z",
+      "event": "supervisor_pr_existing",
+      "agent": "supervisor",
+      "msg": "PR #172 ya existía"
+    },
+    {
+      "ts": "2026-07-10T05:00:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
+    },
+    {
+      "ts": "2026-07-10T05:00:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po | Tarea=UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)"
+    },
+    {
+      "ts": "2026-07-10T05:00:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T05:00:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T04:55:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T04:50:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al mergear PR #172"
+    },
+    {
+      "ts": "2026-07-10T04:50:01Z",
+      "event": "supervisor_pr_created",
+      "agent": "supervisor",
+      "msg": "PR #172: uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po → epic/K-configuracion-planes-saas"
+    },
+    {
+      "ts": "2026-07-10T04:50:01Z",
+      "event": "supervisor_committed",
+      "agent": "supervisor",
+      "msg": "Commit y push directos en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
+    },
+    {
+      "ts": "2026-07-10T04:50:01Z",
+      "event": "supervisor_commit_needed",
+      "agent": "supervisor",
+      "msg": "Hay 5 archivos sin commitear — el supervisor ejecuta git (no Opus)"
+    },
+    {
+      "ts": "2026-07-10T04:50:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
+    },
+    {
+      "ts": "2026-07-10T04:50:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po | Tarea=UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)"
+    },
+    {
+      "ts": "2026-07-10T04:50:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T04:50:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T04:45:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T04:25:01Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-10T04:40:02Z",
+      "event": "supervisor_skip",
+      "agent": "supervisor",
+      "msg": "Estado=procesado — Opus aún en progreso"
+    },
+    {
+      "ts": "2026-07-10T04:40:02Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=uc/UC-DM-CONFIG-06-plan-contratado-y-consumo-de-cupos-del-t | Tarea=UC-DM-CONFIG-06 — Plan contratado y consumo de cupos del tenant (tarjeta \"Licencias\" del hub)"
+    },
+    {
+      "ts": "2026-07-10T04:40:02Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
     {
       "ts": "2026-07-10T04:30:01Z",
       "event": "supervisor_skip",
@@ -1015,126 +1139,6 @@
       "event": "supervisor_git_start",
       "agent": "supervisor",
       "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-05-catalogo-de-planes-saas"
-    },
-    {
-      "ts": "2026-07-10T04:00:02Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-05-catalogo-de-planes-saas | Tarea=UC-DM-CONFIG-05 — Catálogo de planes SaaS (#164)"
-    },
-    {
-      "ts": "2026-07-10T04:00:02Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T04:00:02Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T03:45:01Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-10T03:50:01Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=delegado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-10T03:50:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=delegado | Rama=epic/K-configuracion-planes-saas | Tarea=UC-DM-CONFIG-05 — Catálogo de planes SaaS (#164)"
-    },
-    {
-      "ts": "2026-07-10T03:50:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T03:45:01Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Próxima tarea — K-configuracion-planes-saas  **Emitida por:** Cursor Supervisor (continuación automática de la épica)"
-    },
-    {
-      "ts": "2026-07-10T03:42:01Z",
-      "event": "supervisor_end",
-      "agent": "supervisor",
-      "msg": "Ciclo completado"
-    },
-    {
-      "ts": "2026-07-10T03:42:01Z",
-      "event": "supervisor_next_uc",
-      "agent": "supervisor",
-      "msg": "Siguiente UC de epic/K-configuracion-planes-saas (UC-DM-CONFIG-05) escrita en next-task.md"
-    },
-    {
-      "ts": "2026-07-10T03:42:01Z",
-      "event": "supervisor_epic_check",
-      "agent": "supervisor",
-      "msg": "No hay PRs uc/ pendientes en epic/K-configuracion-planes-saas — consultando GitHub Issues"
-    },
-    {
-      "ts": "2026-07-10T03:42:01Z",
-      "event": "supervisor_branch_deleted",
-      "agent": "supervisor",
-      "msg": "Rama local uc/UC-DM-CONFIG-02-identidad-y-datos-generales-del-tenant eliminada"
-    },
-    {
-      "ts": "2026-07-10T03:42:01Z",
-      "event": "supervisor_pr_merged",
-      "agent": "supervisor",
-      "msg": "PR #169 mergeada y rama remota eliminada"
-    },
-    {
-      "ts": "2026-07-10T03:42:01Z",
-      "event": "supervisor_pr_created",
-      "agent": "supervisor",
-      "msg": "PR #169: uc/UC-DM-CONFIG-02-identidad-y-datos-generales-del-tenant → epic/K-configuracion-planes-saas"
-    },
-    {
-      "ts": "2026-07-10T03:42:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-02-identidad-y-datos-generales-del-tenant"
-    },
-    {
-      "ts": "2026-07-10T03:42:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-02-identidad-y-datos-generales-del-tenant | Tarea=UC-DM-CONFIG-02 — Identidad y datos generales del tenant (#161)"
-    },
-    {
-      "ts": "2026-07-10T03:42:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T03:40:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T03:35:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T03:30:02Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
     }
   ],
   "health": "ok"
