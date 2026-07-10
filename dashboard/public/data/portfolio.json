@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T16:00:22.298Z",
+  "generatedAt": "2026-07-10T16:30:18.987Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -14,10 +14,10 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-10T15:50:27Z",
+      "lastActivityAt": "2026-07-10T16:26:00Z",
       "progress": {
-        "percent": 97,
-        "label": "Programa 63/65 UCs"
+        "percent": 98,
+        "label": "Programa 64/65 UCs"
       },
       "highlights": [],
       "detailRoute": "/project/dosmentes",
@@ -26,8 +26,8 @@
       },
       "orchestratorSummary": {
         "estado": "done",
-        "currentUc": "UC-DM-CONFIG-03",
-        "programPercent": 97,
+        "currentUc": "UC-DM-CONFIG-04",
+        "programPercent": 98,
         "activeEpic": "EPIC-K configuracion planes saas",
         "agentLabel": "Flujo Git"
       }
@@ -40,18 +40,18 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 3,
-      "mergedPrs30d": 37,
+      "openPrs": 4,
+      "mergedPrs30d": 39,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-10T15:20:02Z",
+      "lastActivityAt": "2026-07-10T16:30:08Z",
       "progress": {
         "percent": 42,
         "label": "Fase 1 · Migración por servicio: 8/19"
       },
       "highlights": [
         "Épicas: 6/13 cerradas",
-        "Global: 29/64 issues"
+        "Global: 30/64 issues"
       ],
       "links": {
         "github": "https://github.com/Electronikaco/civok-back"
@@ -111,6 +111,6 @@
     "healthy": 3,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 5
+    "totalOpenPrs": 6
   }
 }
