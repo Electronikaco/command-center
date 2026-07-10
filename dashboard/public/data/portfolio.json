@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T21:30:18.973Z",
+  "generatedAt": "2026-07-10T22:00:19.852Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -15,8 +15,8 @@
       "commits30d": 0,
       "lastActivityAt": "2026-07-10T20:30:00Z",
       "progress": {
-        "percent": 95,
-        "label": "Programa 63/66 UCs"
+        "percent": 94,
+        "label": "Programa 62/66 UCs"
       },
       "highlights": [],
       "detailRoute": "/project/dosmentes",
@@ -26,7 +26,7 @@
       "orchestratorSummary": {
         "estado": "procesado",
         "currentUc": null,
-        "programPercent": 95,
+        "programPercent": 94,
         "activeEpic": "EPIC-F piloto observabilidad",
         "agentLabel": "Pipeline al día"
       }
@@ -64,11 +64,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 3,
       "mergedPrs30d": 1,
       "commits7d": 4,
       "commits30d": 25,
-      "lastActivityAt": "2026-07-10T15:07:08Z",
+      "lastActivityAt": "2026-07-10T21:33:15Z",
       "progress": {
         "percent": 0,
         "label": "0/14 issues"
@@ -110,6 +110,6 @@
     "healthy": 3,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 5
+    "totalOpenPrs": 6
   }
 }
