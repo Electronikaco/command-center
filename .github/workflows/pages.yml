@@ -19,7 +19,10 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  # true: el deploy más reciente gana. Con false, un job waiting/queued
+  # (p. ej. environment github-pages) bloqueaba todos los deploys siguientes
+  # y Pages quedaba congelado durante horas.
+  cancel-in-progress: true
 
 jobs:
   build-deploy:
