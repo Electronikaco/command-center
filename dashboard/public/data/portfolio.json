@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T14:19:27.337Z",
+  "generatedAt": "2026-07-10T14:27:28.919Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-10T14:18:00Z",
+      "lastActivityAt": "2026-07-10T14:21:35Z",
       "progress": {
         "percent": 94,
         "label": "Programa 61/65 UCs"
@@ -24,11 +24,11 @@
         "github": "https://github.com/electronikatm/dosmentes-front"
       },
       "orchestratorSummary": {
-        "estado": "delegado",
+        "estado": "done",
         "currentUc": "UC-DM-CONFIG-08",
         "programPercent": 94,
         "activeEpic": "EPIC-K configuracion planes saas",
-        "agentLabel": "Opus implementando"
+        "agentLabel": "Esperando supervisor"
       }
     },
     {
@@ -70,10 +70,13 @@
       "commits30d": 25,
       "lastActivityAt": "2026-07-09T20:06:48Z",
       "progress": {
-        "percent": null,
-        "label": "4 commits / 7d"
+        "percent": 0,
+        "label": "0/14 issues"
       },
-      "highlights": [],
+      "highlights": [
+        "Épicas: 0/14 cerradas",
+        "Global: 0/14 issues"
+      ],
       "links": {
         "github": "https://github.com/ia-saas/miliia_back",
         "issues": "https://github.com/ia-saas/miliia_back/issues"

@@ -62,9 +62,9 @@ function fetchMilestones(ghRepo: string): Milestone[] {
 
 function fetchIssues(ghRepo: string, label?: string): IssueItem[] {
   try {
-    const labelArg = label ? ` --label "${label}"` : "";
+    const labelPart = label ? `--label "${label}" ` : "";
     return ghJson<IssueItem[]>(
-      `issue list --repo ${ghRepo} --state all --limit 200 --json state,labels${labelArg}`,
+      `issue list --repo ${ghRepo} ${labelPart}--state all --limit 200 --json state,labels`,
     );
   } catch {
     return [];
@@ -276,6 +276,20 @@ export function collectGithubProject(project: RegistryProject): ProjectSnapshot 
         const label = project.progress?.issueLabel;
         const issues = fetchIssues(ghRepo, label);
         progress = issuesProgress(issues);
+        if (project.labels?.epic) {
+          const epics = fetchIssues(ghRepo, project.labels.epic);
+          const closed = epics.filter((i) => i.state === "CLOSED").length;
+          if (epics.length > 0) {
+            highlights.push(`Épicas: ${closed}/${epics.length} cerradas`);
+          }
+        }
+        if (!label) {
+          const globalIssues = fetchIssues(ghRepo);
+          const gClosed = globalIssues.filter((i) => i.state === "CLOSED").length;
+          if (globalIssues.length > 0) {
+            highlights.push(`Global: ${gClosed}/${globalIssues.length} issues`);
+          }
+        }
         break;
       }
       case "activity":

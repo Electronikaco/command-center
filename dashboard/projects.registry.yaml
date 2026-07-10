@@ -34,8 +34,9 @@ projects:
     baseBranch: main
     description: Backend Miliia — IA, WhatsApp, voz
     progress:
-      mode: activity
-      activityWindowDays: 7
+      mode: issues
+    labels:
+      epic: epic
     health:
       stalePrDays: 7
       inactiveDays: 14
