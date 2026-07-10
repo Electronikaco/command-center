@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T19:30:22.138Z",
+  "generatedAt": "2026-07-10T20:00:28.416Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-10T19:30:01Z",
-      "lastRunAgeSec": 21,
+      "lastRun": "2026-07-10T20:00:01Z",
+      "lastRunAgeSec": 27,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T19:30:01Z",
-      "lastRunAgeSec": 21,
+      "lastRun": "2026-07-10T19:55:01Z",
+      "lastRunAgeSec": 327,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -27,14 +27,10 @@
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
-    "lastOpusStart": null,
-    "lastOpusDone": null,
+    "lastOpusStart": "2026-07-10T19:55:01Z",
+    "lastOpusDone": "2026-07-10T19:34:54Z",
     "lastOutputTail": [
-      "- **PR #17** → https://github.com/electronikatm/dm-api-contracts/pull/17 — **merge manual contra `main`**.",
-      "",
-      "**Coordinación**: `status.md` actualizado (`Estado: epic_done`, `Rama: epic/K-configuracion-planes-saas`) y tarea archivada en `next-task-done-20260710_170949.md`. El supervisor mergeará `epic/K` → `develop` (incluyendo el doc de auditoría) y encolará la siguiente épica.",
-      "",
-      "Una nota de deuda no bloqueante quedó documentada: no se creó una spec `CASOS-CONFIG.md` en `docs/casos/` (la capa de Administración se documenta hoy en el backlog `EPIC-K-*.md`); recomendable consolidarla al retomar el módulo."
+      ""
     ]
   },
   "buddy": {
@@ -715,7 +711,7 @@
       ]
     },
     "githubBacklog": {
-      "openCount": 11,
+      "openCount": 12,
       "trackedOpenCount": 9,
       "pendingCount": 1,
       "staleCount": 8,
@@ -784,6 +780,13 @@
           "kind": "stale"
         },
         {
+          "number": 178,
+          "title": "UC-DM-S10-06 · Banner/widget de consumo de plan (usuarios/casos/almacenamiento) en el Dashboard",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/178",
+          "kind": "other"
+        },
+        {
           "number": 160,
           "title": "[EPIC] Configuración del tenant y Planes SaaS (UC-DM-CONFIG-02..09)",
           "code": null,
@@ -802,11 +805,11 @@
   },
   "orchestrator": {
     "estado": "procesado",
-    "rama": "epic/K-configuracion-planes-saas",
-    "tarea": "Épica K-configuracion-planes-saas completa — auditoría + contrato OpenAPI",
-    "resumen": "Veredicto APTO (sin remediación). Front: nuevo doc docs/casos/_audit/EPIC-K_CONFIGURACION_PLANES_SAAS-CIERRE.md (untracked, para commit del supervisor). Verificadas las 8 UCs (CONFIG-02..09, PRs #169–#176) contra criterios de aceptación; hub de Administración con cero tarjetas ready:false (objetivo de cierre cumplido); PlanGate + auditoría transversal (category) + fuente única de conteo de usuarios confirmados. tsc/lint(0 err, 1 warning esperado)/test(577 passed, 50 files)/build OK. Contrato dm-api-contracts en rama feat/contract-tenant-config-billing-k (nuevo tenant-config-billing.openapi.yaml — perfil/seguridad/planes/suscripción/facturación/auditoría tenant-wide) — PR #17 https://github.com/electronikatm/dm-api-contracts/pull/17. Validado: openapi-typescript OK, redocly lint 0 errores (9 warnings 4xx en GET, esperados). Merge manual del contrato contra main.",
+    "rama": "uc/UC-DM-S10-06-widget-de-consumo-de-plan-en-el-dashboar",
+    "tarea": "UC-DM-S10-06 — Widget de consumo de plan en el Dashboard general (#178)",
+    "resumen": "Nuevo `PlanConsumptionWidget` en `src/features/dashboard/components/plan-consumption-widget.tsx`, montado en `dashboard-view.tsx` (columna derecha) gateado por `<Can module=\"settings_billing\" action=\"view\">` (RBAC, no CSS). Reutiliza la MISMA fuente de consumo que /administracion/licencias: `useTenantSubscription` (CONFIG-06) + `UsageMeter`/`usageMeterState` (@/shared/ui); React Query deduplica la query `tenant/subscription` entre ambas superficies — sin cálculo paralelo. 3 estados (normal/alerta≥80%/límite100%) derivados con nuevo helper puro `aggregateUsageState` en `lib/plan-gating.ts` (reusa `usageMeterState`). CTA \"Cambiar plan\" → `PLAN_CHANGE_HREF` (CONFIG-08), gateada además por `settings_billing.manage`. Barrel de `billing-plans` ampliado (PLAN_CHANGE_HREF, QUOTA_LABELS, USAGE_WARN_THRESHOLD, formatGb, quotaAdviceText, aggregateUsageState) para exponer la fuente única. +4 tests para `aggregateUsageState`. tsc/lint/build OK; 581 tests pasan. Sin cambio de contrato: el widget consume el endpoint existente de EPIC-K.",
     "bloqueos": "ninguno",
-    "timestamp": "2026-07-10T17:18:54Z",
+    "timestamp": "2026-07-10T19:45:51Z",
     "currentUc": null,
     "pipelinePaused": false
   },
@@ -816,9 +819,147 @@
   },
   "git": {
     "openPrs": 0,
-    "activeBranches": 17
+    "activeBranches": 19
   },
   "timeline": [
+    {
+      "ts": "2026-07-10T20:00:01Z",
+      "event": "supervisor_skip",
+      "agent": "supervisor",
+      "msg": "Estado=procesado — Opus aún en progreso"
+    },
+    {
+      "ts": "2026-07-10T20:00:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=uc/UC-DM-S10-06-widget-de-consumo-de-plan-en-el-dashboar | Tarea=UC-DM-S10-06 — Widget de consumo de plan en el Dashboard general (#178)"
+    },
+    {
+      "ts": "2026-07-10T20:00:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T19:55:01Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Cierre de épica — I-integracion-dashboard (+ contrato OpenAPI)  **Emitida por:** Supervisor (2026-07-10T19:50:02Z)"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "supervisor_end",
+      "agent": "supervisor",
+      "msg": "Ciclo completado"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "supervisor_epic_close_queued",
+      "agent": "supervisor",
+      "msg": "Cierre épica epic/I-integracion-dashboard encolado tras última UC"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "supervisor_epic_check",
+      "agent": "supervisor",
+      "msg": "No hay UCs pendientes en backlog para epic/I-integracion-dashboard"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "supervisor_epic_check",
+      "agent": "supervisor",
+      "msg": "No hay PRs uc/ pendientes en epic/I-integracion-dashboard — consultando GitHub Issues"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "supervisor_branch_deleted",
+      "agent": "supervisor",
+      "msg": "Rama local uc/UC-DM-S10-06-widget-de-consumo-de-plan-en-el-dashboar eliminada"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "supervisor_pr_merged",
+      "agent": "supervisor",
+      "msg": "PR #179 mergeada y rama remota eliminada"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "supervisor_pr_created",
+      "agent": "supervisor",
+      "msg": "PR #179: uc/UC-DM-S10-06-widget-de-consumo-de-plan-en-el-dashboar → epic/I-integracion-dashboard"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "supervisor_committed",
+      "agent": "supervisor",
+      "msg": "Commit y push directos en uc/UC-DM-S10-06-widget-de-consumo-de-plan-en-el-dashboar"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "supervisor_commit_needed",
+      "agent": "supervisor",
+      "msg": "Hay 4 archivos sin commitear — el supervisor ejecuta git (no Opus)"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-S10-06-widget-de-consumo-de-plan-en-el-dashboar"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-S10-06-widget-de-consumo-de-plan-en-el-dashboar | Tarea=UC-DM-S10-06 — Widget de consumo de plan en el Dashboard general (#178)"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T19:50:02Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T19:34:54Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-10T19:40:02Z",
+      "event": "supervisor_skip",
+      "agent": "supervisor",
+      "msg": "Estado=delegado — Opus aún en progreso"
+    },
+    {
+      "ts": "2026-07-10T19:40:02Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #17 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-10T19:40:02Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=delegado | Rama=epic/I-integracion-dashboard | Tarea=UC-DM-S10-06 — Widget de consumo de plan en el Dashboard general (#178)"
+    },
+    {
+      "ts": "2026-07-10T19:40:02Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T19:34:54Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Próxima tarea — I-integracion-dashboard  **Emitida por:** Cursor Supervisor (reactivación post-EPIC-K)"
+    },
     {
       "ts": "2026-07-10T19:30:01Z",
       "event": "supervisor_auto_idle",
@@ -980,144 +1121,6 @@
       "event": "supervisor_auto_resume",
       "agent": "supervisor",
       "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-10T19:00:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #17 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-10T19:00:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/K-configuracion-planes-saas | Tarea=Épica K-configuracion-planes-saas completa — auditoría + contrato OpenAPI"
-    },
-    {
-      "ts": "2026-07-10T19:00:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T19:00:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T18:55:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T18:50:01Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-10T18:50:01Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/K-configuracion-planes-saas ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-10T18:50:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-10T18:50:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #17 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-10T18:50:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/K-configuracion-planes-saas | Tarea=Épica K-configuracion-planes-saas completa — auditoría + contrato OpenAPI"
-    },
-    {
-      "ts": "2026-07-10T18:50:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T18:50:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T18:45:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T18:40:01Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-10T18:40:01Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/K-configuracion-planes-saas ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-10T18:40:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-10T18:40:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #17 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-10T18:40:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/K-configuracion-planes-saas | Tarea=Épica K-configuracion-planes-saas completa — auditoría + contrato OpenAPI"
-    },
-    {
-      "ts": "2026-07-10T18:40:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T18:40:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T18:35:02Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T18:30:01Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-10T18:30:01Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/K-configuracion-planes-saas ya mergeada a develop — saltando cierre repetido"
     }
   ],
   "health": "ok"
