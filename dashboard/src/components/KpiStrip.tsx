@@ -56,7 +56,8 @@ export function KpiStrip({ data }: { data: OrchestratorSnapshot }) {
         <span className="kpi-val">{data.program.percent}%</span>
         <span className="kpi-label">Programa</span>
         <span className="kpi-sub">
-          {data.program.doneUcs}/{data.program.totalUcs} UCs
+          {data.program.doneUcs}/{data.program.totalUcs} UCs ·{" "}
+          {data.program.githubBacklog?.pendingCount ?? 0} issues pendientes
         </span>
       </div>
       <div className="kpi">
@@ -93,7 +94,8 @@ export function KpiStrip({ data }: { data: OrchestratorSnapshot }) {
         <span className="kpi-val">{SYSTEM_HEALTH[data.health]}</span>
         <span className="kpi-label">Sistema</span>
         <span className="kpi-sub">
-          {data.git.openPrs} PRs abiertos · {data.git.activeBranches} ramas uc/epic
+          {data.git.openPrs} PRs abiertos · {data.program.githubBacklog?.openCount ?? 0}{" "}
+          issues · {data.git.activeBranches} ramas uc/epic
         </span>
       </div>
       <style>{`

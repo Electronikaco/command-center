@@ -7,15 +7,33 @@ const STATUS_COLOR: Record<string, string> = {
 };
 
 const PHASE1_EPICS = new Set(["A", "B", "C", "D", "E", "F", "G", "I"]);
+const PHASE2_EPICS = new Set(["J"]); // Bloque 2 · EPIC-J + contratos INFRA + gate
+const PHASE25_EPICS = new Set(["K"]); // Bloque 2.5 · EPIC-K config/planes SaaS
 
 function splitByPhase(epics: EpicProgressItem[]) {
   const phase1 = epics.filter((e) => PHASE1_EPICS.has(e.letter));
-  const phase2 = epics.filter((e) => !PHASE1_EPICS.has(e.letter));
+  const phase2 = epics.filter((e) => PHASE2_EPICS.has(e.letter));
+  const phase25 = epics.filter((e) => PHASE25_EPICS.has(e.letter));
+  const other = epics.filter(
+    (e) =>
+      !PHASE1_EPICS.has(e.letter) &&
+      !PHASE2_EPICS.has(e.letter) &&
+      !PHASE25_EPICS.has(e.letter),
+  );
 
-  return [
+  const phases = [
     { key: "phase1", title: "Fase 1 · MVP funcional", epics: phase1 },
     { key: "phase2", title: "Fase 2 · Consolidación pre-backend", epics: phase2 },
+    {
+      key: "phase25",
+      title: "Bloque 2.5 · Configuración + Planes SaaS",
+      epics: phase25,
+    },
   ];
+  if (other.length) {
+    phases.push({ key: "other", title: "Otros hitos", epics: other });
+  }
+  return phases.filter((p) => p.epics.length > 0);
 }
 
 function getPhaseSummary(epics: EpicProgressItem[]) {

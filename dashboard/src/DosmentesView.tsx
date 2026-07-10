@@ -6,6 +6,7 @@ import { ProgramChart } from "./components/ProgramChart";
 import { ActiveEpicPanel } from "./components/ActiveEpicPanel";
 import { PipelineFlow } from "./components/PipelineFlow";
 import { ActivityFeed } from "./components/ActivityFeed";
+import { GitHubBacklogPanel } from "./components/GitHubBacklogPanel";
 import "./App.css";
 
 export default function DosmentesView() {
@@ -54,6 +55,13 @@ export default function DosmentesView() {
             percent={data.program.percent}
           />
           <ActiveEpicPanel epic={data.program.activeEpic} />
+          <GitHubBacklogPanel backlog={data.program.githubBacklog ?? {
+            openCount: 0,
+            trackedOpenCount: 0,
+            pendingCount: 0,
+            staleCount: 0,
+            items: [],
+          }} />
         </div>
       </section>
 

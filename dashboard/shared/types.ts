@@ -55,6 +55,25 @@ export interface UcProgress {
   code: string;
   done: boolean;
   active: boolean;
+  issueNumber?: number;
+  issueOpen?: boolean;
+  staleIssue?: boolean;
+}
+
+export interface GithubBacklogItem {
+  number: number;
+  title: string;
+  code: string | null;
+  url: string;
+  kind: "pending" | "stale" | "other";
+}
+
+export interface GithubBacklog {
+  openCount: number;
+  trackedOpenCount: number;
+  pendingCount: number;
+  staleCount: number;
+  items: GithubBacklogItem[];
 }
 
 export interface EpicProgressItem {
@@ -74,6 +93,7 @@ export interface ProgramProgress {
   percent: number;
   epics: EpicProgressItem[];
   activeEpic: EpicProgressItem | null;
+  githubBacklog: GithubBacklog;
 }
 
 export interface OrchestratorSnapshot {

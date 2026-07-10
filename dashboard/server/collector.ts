@@ -274,7 +274,7 @@ function countActiveBranches(): number {
 }
 
 function extractUc(text: string): string | null {
-  const m = text.match(/UC-DM-(?:S[0-9]+|INFRA)-[0-9]+/);
+  const m = text.match(/UC-DM-(?:S[0-9]+|INFRA|CONFIG)-[0-9]+/);
   return m?.[0] ?? null;
 }
 
