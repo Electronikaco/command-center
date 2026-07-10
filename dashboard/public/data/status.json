@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T21:00:27.433Z",
+  "generatedAt": "2026-07-10T21:30:20.677Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -9,14 +9,14 @@
     "supervisor": {
       "schedule": "cada 10 min",
       "lastRun": "2026-07-10T20:50:01Z",
-      "lastRunAgeSec": 626,
-      "healthy": true,
-      "label": "Al día"
+      "lastRunAgeSec": 2419,
+      "healthy": false,
+      "label": "Retrasado"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T21:00:01Z",
-      "lastRunAgeSec": 26,
+      "lastRun": "2026-07-10T21:30:01Z",
+      "lastRunAgeSec": 19,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -757,6 +757,42 @@
   },
   "timeline": [
     {
+      "ts": "2026-07-10T21:30:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T21:25:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T21:20:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T21:15:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T21:10:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T21:05:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
       "ts": "2026-07-10T21:00:01Z",
       "event": "opus_tick",
       "agent": "opus-worker",
@@ -1019,43 +1055,7 @@
       "event": "supervisor_end",
       "agent": "supervisor",
       "msg": "Ciclo completado"
-    },
-    {
-      "ts": "2026-07-10T19:50:02Z",
-      "event": "supervisor_epic_close_queued",
-      "agent": "supervisor",
-      "msg": "Cierre épica epic/I-integracion-dashboard encolado tras última UC"
-    },
-    {
-      "ts": "2026-07-10T19:50:02Z",
-      "event": "supervisor_epic_check",
-      "agent": "supervisor",
-      "msg": "No hay UCs pendientes en backlog para epic/I-integracion-dashboard"
-    },
-    {
-      "ts": "2026-07-10T19:50:02Z",
-      "event": "supervisor_epic_check",
-      "agent": "supervisor",
-      "msg": "No hay PRs uc/ pendientes en epic/I-integracion-dashboard — consultando GitHub Issues"
-    },
-    {
-      "ts": "2026-07-10T19:50:02Z",
-      "event": "supervisor_branch_deleted",
-      "agent": "supervisor",
-      "msg": "Rama local uc/UC-DM-S10-06-widget-de-consumo-de-plan-en-el-dashboar eliminada"
-    },
-    {
-      "ts": "2026-07-10T19:50:02Z",
-      "event": "supervisor_pr_merged",
-      "agent": "supervisor",
-      "msg": "PR #179 mergeada y rama remota eliminada"
-    },
-    {
-      "ts": "2026-07-10T19:50:02Z",
-      "event": "supervisor_pr_created",
-      "agent": "supervisor",
-      "msg": "PR #179: uc/UC-DM-S10-06-widget-de-consumo-de-plan-en-el-dashboar → epic/I-integracion-dashboard"
     }
   ],
-  "health": "ok"
+  "health": "degraded"
 }
