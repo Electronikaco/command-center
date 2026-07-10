@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T20:00:28.416Z",
+  "generatedAt": "2026-07-10T20:30:23.345Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-10T20:00:01Z",
-      "lastRunAgeSec": 27,
+      "lastRun": "2026-07-10T20:30:01Z",
+      "lastRunAgeSec": 22,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T19:55:01Z",
-      "lastRunAgeSec": 327,
+      "lastRun": "2026-07-10T20:20:01Z",
+      "lastRunAgeSec": 622,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -27,10 +27,14 @@
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
-    "lastOpusStart": "2026-07-10T19:55:01Z",
-    "lastOpusDone": "2026-07-10T19:34:54Z",
+    "lastOpusStart": "2026-07-10T20:20:01Z",
+    "lastOpusDone": "2026-07-10T20:20:01Z",
     "lastOutputTail": [
-      ""
+      "- Memoria guardada ([epic-f-content-already-in-develop](epic-f-content-already-in-develop.md)) por si el supervisor re-emite esta tarea en bucle (patrón conocido, como S11-01).",
+      "",
+      "### Dos cosas que debes decidir",
+      "1. **PR sin cambios de contenido:** #181 es una merge de historia (0 diff). Si prefieres no registrar una merge vacía, la alternativa es cerrarlo y borrar `epic/F` directamente. #181 es la opción que preserva trazabilidad.",
+      "2. **WIP tuyo en stash:** para cambiar de rama limpiamente stasheé tu edición sin commitear de `docs/casos/_audit/EPIC-I-INTEGRACION-DASHBOARD-CIERRE.md` (estaba en `epic/I`). Sigue en `stash@{0}: On epic/I-integracion-dashboard: epic-I audit wip` — recupérala con `git checkout epic/I-integracion-dashboard && git stash pop` cuando vuelvas a esa rama."
     ]
   },
   "buddy": {
@@ -58,7 +62,7 @@
       },
       {
         "key": "WISDOM",
-        "value": 94
+        "value": 93
       },
       {
         "key": "SNARK",
@@ -68,8 +72,8 @@
   },
   "program": {
     "totalUcs": 66,
-    "doneUcs": 64,
-    "percent": 97,
+    "doneUcs": 63,
+    "percent": 95,
     "epics": [
       {
         "branch": "epic/A-evaluacion-forense",
@@ -355,8 +359,8 @@
         "letter": "F",
         "label": "piloto observabilidad",
         "totalUcs": 5,
-        "doneUcs": 3,
-        "percent": 60,
+        "doneUcs": 2,
+        "percent": 40,
         "status": "active",
         "ucs": [
           {
@@ -375,7 +379,7 @@
           },
           {
             "code": "UC-DM-S8-03",
-            "done": true,
+            "done": false,
             "active": false,
             "issueOpen": false,
             "staleIssue": false
@@ -602,64 +606,64 @@
             "done": true,
             "active": false,
             "issueNumber": 161,
-            "issueOpen": true,
-            "staleIssue": true
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-CONFIG-05",
             "done": true,
             "active": false,
             "issueNumber": 164,
-            "issueOpen": true,
-            "staleIssue": true
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-CONFIG-06",
             "done": true,
             "active": false,
             "issueNumber": 165,
-            "issueOpen": true,
-            "staleIssue": true
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-CONFIG-07",
             "done": true,
             "active": false,
             "issueNumber": 166,
-            "issueOpen": true,
-            "staleIssue": true
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-CONFIG-08",
             "done": true,
             "active": false,
             "issueNumber": 167,
-            "issueOpen": true,
-            "staleIssue": true
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-CONFIG-09",
             "done": true,
             "active": false,
             "issueNumber": 168,
-            "issueOpen": true,
-            "staleIssue": true
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-CONFIG-03",
             "done": true,
             "active": false,
             "issueNumber": 162,
-            "issueOpen": true,
-            "staleIssue": true
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-CONFIG-04",
             "done": true,
             "active": false,
             "issueNumber": 163,
-            "issueOpen": true,
-            "staleIssue": true
+            "issueOpen": false,
+            "staleIssue": false
           }
         ]
       }
@@ -669,8 +673,8 @@
       "letter": "F",
       "label": "piloto observabilidad",
       "totalUcs": 5,
-      "doneUcs": 3,
-      "percent": 60,
+      "doneUcs": 2,
+      "percent": 40,
       "status": "active",
       "ucs": [
         {
@@ -689,7 +693,7 @@
         },
         {
           "code": "UC-DM-S8-03",
-          "done": true,
+          "done": false,
           "active": false,
           "issueOpen": false,
           "staleIssue": false
@@ -711,10 +715,10 @@
       ]
     },
     "githubBacklog": {
-      "openCount": 12,
-      "trackedOpenCount": 9,
+      "openCount": 2,
+      "trackedOpenCount": 1,
       "pendingCount": 1,
-      "staleCount": 8,
+      "staleCount": 0,
       "items": [
         {
           "number": 60,
@@ -722,76 +726,6 @@
           "code": "UC-DM-INFRA-01",
           "url": "https://github.com/electronikatm/dosmentes-front/issues/60",
           "kind": "pending"
-        },
-        {
-          "number": 168,
-          "title": "UC-DM-CONFIG-09 · Facturación e historial de pagos (mock)",
-          "code": "UC-DM-CONFIG-09",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/168",
-          "kind": "stale"
-        },
-        {
-          "number": 167,
-          "title": "UC-DM-CONFIG-08 · Cambio de plan (upgrade/downgrade, mock)",
-          "code": "UC-DM-CONFIG-08",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/167",
-          "kind": "stale"
-        },
-        {
-          "number": 166,
-          "title": "UC-DM-CONFIG-07 · Enforcement de cupos y feature-gating por plan",
-          "code": "UC-DM-CONFIG-07",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/166",
-          "kind": "stale"
-        },
-        {
-          "number": 165,
-          "title": "UC-DM-CONFIG-06 · Plan contratado y consumo de cupos del tenant",
-          "code": "UC-DM-CONFIG-06",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/165",
-          "kind": "stale"
-        },
-        {
-          "number": 164,
-          "title": "UC-DM-CONFIG-05 · Catálogo de planes SaaS (Starter/Avanzado/Empresarial)",
-          "code": "UC-DM-CONFIG-05",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/164",
-          "kind": "stale"
-        },
-        {
-          "number": 163,
-          "title": "UC-DM-CONFIG-04 · Auditoría transversal de administración",
-          "code": "UC-DM-CONFIG-04",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/163",
-          "kind": "stale"
-        },
-        {
-          "number": 162,
-          "title": "UC-DM-CONFIG-03 · Seguridad de cuenta y sesión",
-          "code": "UC-DM-CONFIG-03",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/162",
-          "kind": "stale"
-        },
-        {
-          "number": 161,
-          "title": "UC-DM-CONFIG-02 · Identidad y datos generales del tenant",
-          "code": "UC-DM-CONFIG-02",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/161",
-          "kind": "stale"
-        },
-        {
-          "number": 178,
-          "title": "UC-DM-S10-06 · Banner/widget de consumo de plan (usuarios/casos/almacenamiento) en el Dashboard",
-          "code": null,
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/178",
-          "kind": "other"
-        },
-        {
-          "number": 160,
-          "title": "[EPIC] Configuración del tenant y Planes SaaS (UC-DM-CONFIG-02..09)",
-          "code": null,
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/160",
-          "kind": "other"
         },
         {
           "number": 19,
@@ -805,11 +739,11 @@
   },
   "orchestrator": {
     "estado": "procesado",
-    "rama": "uc/UC-DM-S10-06-widget-de-consumo-de-plan-en-el-dashboar",
-    "tarea": "UC-DM-S10-06 — Widget de consumo de plan en el Dashboard general (#178)",
-    "resumen": "Nuevo `PlanConsumptionWidget` en `src/features/dashboard/components/plan-consumption-widget.tsx`, montado en `dashboard-view.tsx` (columna derecha) gateado por `<Can module=\"settings_billing\" action=\"view\">` (RBAC, no CSS). Reutiliza la MISMA fuente de consumo que /administracion/licencias: `useTenantSubscription` (CONFIG-06) + `UsageMeter`/`usageMeterState` (@/shared/ui); React Query deduplica la query `tenant/subscription` entre ambas superficies — sin cálculo paralelo. 3 estados (normal/alerta≥80%/límite100%) derivados con nuevo helper puro `aggregateUsageState` en `lib/plan-gating.ts` (reusa `usageMeterState`). CTA \"Cambiar plan\" → `PLAN_CHANGE_HREF` (CONFIG-08), gateada además por `settings_billing.manage`. Barrel de `billing-plans` ampliado (PLAN_CHANGE_HREF, QUOTA_LABELS, USAGE_WARN_THRESHOLD, formatGb, quotaAdviceText, aggregateUsageState) para exponer la fuente única. +4 tests para `aggregateUsageState`. tsc/lint/build OK; 581 tests pasan. Sin cambio de contrato: el widget consume el endpoint existente de EPIC-K.",
+    "rama": "fix/epic-f-merge-to-develop",
+    "tarea": "UC-DM-EPIC-F-MERGE — integrar epic/F-piloto-observabilidad (S8-01..05) en develop",
+    "resumen": "`git merge origin/epic/F-piloto-observabilidad` sobre `origin/develop`. 11 conflictos resueltos conservando **ambos frentes**; en todos develop (HEAD) era el superconjunto que ya integra piloto/S8 + team/tenant/K → se conservó develop. Archivos: `endpoints.ts`, `query-keys.ts`, `mocks/handlers/index.ts` (team/incidents/tenant), `pilot-baseline/{constants.ts,baseline-capture-dialog.tsx}` (roster canónico S11-03 vía `useTeam()`), `onboarding-beta.handlers.test.ts`, `administracion/page.tsx`, 4 docs de `docs/backlog/`. **HALLAZGO:** el contenido de EPIC-F ya estaba en `develop` (integrado y reconciliado durante J/K/I); el árbol resultante es **idéntico a origin/develop (0 archivos cambiados)**. La merge solo reconcilia el historial: fija la ascendencia de los 5 commits S8 (#123,#124,#126,#142,#143) para que epic/F deje de figurar como huérfana y pueda borrarse. Verificación local: `tsc --noEmit` OK · `test --run` 581/581 (50 suites) · `build` OK. PR a develop: #181 https://github.com/electronikatm/dosmentes-front/pull/181 (0 diff de contenido, merge de historia).",
     "bloqueos": "ninguno",
-    "timestamp": "2026-07-10T19:45:51Z",
+    "timestamp": "2026-07-10T20:30:00Z",
     "currentUc": null,
     "pipelinePaused": false
   },
@@ -822,6 +756,144 @@
     "activeBranches": 19
   },
   "timeline": [
+    {
+      "ts": "2026-07-10T20:20:01Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-10T20:30:01Z",
+      "event": "supervisor_end",
+      "agent": "supervisor",
+      "msg": "Ciclo completado"
+    },
+    {
+      "ts": "2026-07-10T20:30:01Z",
+      "event": "supervisor_branch_deleted",
+      "agent": "supervisor",
+      "msg": "Rama local fix/epic-f-merge-to-develop eliminada"
+    },
+    {
+      "ts": "2026-07-10T20:30:01Z",
+      "event": "supervisor_pr_merged",
+      "agent": "supervisor",
+      "msg": "PR #181 mergeada y rama remota eliminada"
+    },
+    {
+      "ts": "2026-07-10T20:30:01Z",
+      "event": "supervisor_pr_existing",
+      "agent": "supervisor",
+      "msg": "PR #181 ya existía"
+    },
+    {
+      "ts": "2026-07-10T20:30:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en fix/epic-f-merge-to-develop"
+    },
+    {
+      "ts": "2026-07-10T20:30:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=fix/epic-f-merge-to-develop | Tarea=UC-DM-EPIC-F-MERGE — integrar epic/F-piloto-observabilidad (S8-01..05) en develop"
+    },
+    {
+      "ts": "2026-07-10T20:30:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T20:20:01Z",
+      "event": "supervisor_skip",
+      "agent": "supervisor",
+      "msg": "Estado=idle — Opus aún en progreso"
+    },
+    {
+      "ts": "2026-07-10T20:20:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #180). (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-10T20:20:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=idle | Rama=develop | Tarea=Coordinación post Bloque 2.5 — merges e issues pendientes"
+    },
+    {
+      "ts": "2026-07-10T20:20:01Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Tarea para Opus  **UC:** UC-DM-EPIC-F-MERGE (integración git)"
+    },
+    {
+      "ts": "2026-07-10T20:20:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T20:15:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T20:10:01Z",
+      "event": "supervisor_auto_idle",
+      "agent": "supervisor",
+      "msg": "Sin UCs pendientes ni épica para cerrar (epic ya mergeada (idempotencia))"
+    },
+    {
+      "ts": "2026-07-10T20:10:01Z",
+      "event": "supervisor_epic_skip_close",
+      "agent": "supervisor",
+      "msg": "Épica epic/I-integracion-dashboard ya mergeada a develop — saltando cierre repetido"
+    },
+    {
+      "ts": "2026-07-10T20:10:01Z",
+      "event": "supervisor_epic_already_merged",
+      "agent": "supervisor",
+      "msg": "Épica epic/I-integracion-dashboard ya mergeada a develop — saltando cierre repetido"
+    },
+    {
+      "ts": "2026-07-10T20:10:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #8 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-10T20:10:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=epic_done | Rama=epic/I-integracion-dashboard | Tarea=Épica I-integracion-dashboard completa — auditoría + contrato OpenAPI dashboard-integration.openapi.yaml"
+    },
+    {
+      "ts": "2026-07-10T20:10:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T20:10:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T20:05:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T19:55:01Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
     {
       "ts": "2026-07-10T20:00:01Z",
       "event": "supervisor_skip",
@@ -983,144 +1055,6 @@
       "event": "supervisor_contract_noted",
       "agent": "supervisor",
       "msg": "Contrato en Resumen: PR #17 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-10T19:30:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/K-configuracion-planes-saas | Tarea=Épica K-configuracion-planes-saas completa — auditoría + contrato OpenAPI"
-    },
-    {
-      "ts": "2026-07-10T19:30:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T19:30:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T19:25:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T19:20:01Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-10T19:20:01Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/K-configuracion-planes-saas ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-10T19:20:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-10T19:20:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #17 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-10T19:20:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/K-configuracion-planes-saas | Tarea=Épica K-configuracion-planes-saas completa — auditoría + contrato OpenAPI"
-    },
-    {
-      "ts": "2026-07-10T19:20:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T19:20:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T19:15:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T19:10:01Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-10T19:10:01Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/K-configuracion-planes-saas ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-10T19:10:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-10T19:10:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #17 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-10T19:10:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/K-configuracion-planes-saas | Tarea=Épica K-configuracion-planes-saas completa — auditoría + contrato OpenAPI"
-    },
-    {
-      "ts": "2026-07-10T19:10:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T19:10:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T19:05:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T19:00:01Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-10T19:00:01Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/K-configuracion-planes-saas ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-10T19:00:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
     }
   ],
   "health": "ok"
