@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T20:30:21.313Z",
+  "generatedAt": "2026-07-10T21:00:24.718Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -24,11 +24,11 @@
         "github": "https://github.com/electronikatm/dosmentes-front"
       },
       "orchestratorSummary": {
-        "estado": "done",
+        "estado": "procesado",
         "currentUc": null,
         "programPercent": 95,
         "activeEpic": "EPIC-F piloto observabilidad",
-        "agentLabel": "Opus implementando"
+        "agentLabel": "Pipeline al día"
       }
     },
     {
