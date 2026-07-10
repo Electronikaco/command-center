@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T15:30:20.567Z",
+  "generatedAt": "2026-07-10T02:56:18.825Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,22 +8,22 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-09T15:30:01Z",
-      "lastRunAgeSec": 19,
+      "lastRun": "2026-07-10T02:50:01Z",
+      "lastRunAgeSec": 377,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-09T15:30:01Z",
-      "lastRunAgeSec": 19,
+      "lastRun": "2026-07-10T02:55:01Z",
+      "lastRunAgeSec": 77,
       "healthy": true,
       "label": "En ejecución"
     }
   },
   "agent": {
     "state": "idle",
-    "label": "Pipeline al día",
+    "label": "Inactivo",
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
@@ -42,10 +42,10 @@
     "species": "Claude Code Bot",
     "rarity": "Epic",
     "mood": "idle",
-    "moodLabel": "Pipeline al día",
+    "moodLabel": "En espera",
     "statusBadge": {
-      "label": "Pipeline al día",
-      "variant": "success"
+      "label": "En espera",
+      "variant": "info"
     },
     "stats": [
       {
@@ -58,11 +58,11 @@
       },
       {
         "key": "CHAOS",
-        "value": 42
+        "value": 43
       },
       {
         "key": "WISDOM",
-        "value": 89
+        "value": 90
       },
       {
         "key": "SNARK",
@@ -71,9 +71,9 @@
     ]
   },
   "program": {
-    "totalUcs": 60,
-    "doneUcs": 52,
-    "percent": 87,
+    "totalUcs": 65,
+    "doneUcs": 57,
+    "percent": 88,
     "epics": [
       {
         "branch": "epic/A-evaluacion-forense",
@@ -139,8 +139,8 @@
         "branch": "epic/B-metodologia-entrevista",
         "letter": "B",
         "label": "metodologia entrevista",
-        "totalUcs": 7,
-        "doneUcs": 7,
+        "totalUcs": 6,
+        "doneUcs": 6,
         "percent": 100,
         "status": "done",
         "ucs": [
@@ -167,13 +167,6 @@
           },
           {
             "code": "UC-DM-S4-04",
-            "done": true,
-            "active": false,
-            "issueOpen": false,
-            "staleIssue": false
-          },
-          {
-            "code": "UC-DM-S6-06",
             "done": true,
             "active": false,
             "issueOpen": false,
@@ -411,19 +404,11 @@
         "branch": "epic/J-consolidacion-pre-backend",
         "letter": "J",
         "label": "consolidacion pre backend",
-        "totalUcs": 13,
-        "doneUcs": 5,
-        "percent": 38,
-        "status": "active",
+        "totalUcs": 12,
+        "doneUcs": 12,
+        "percent": 100,
+        "status": "done",
         "ucs": [
-          {
-            "code": "UC-DM-INFRA-09",
-            "done": false,
-            "active": false,
-            "issueNumber": 135,
-            "issueOpen": true,
-            "staleIssue": false
-          },
           {
             "code": "UC-DM-S11-01",
             "done": true,
@@ -445,79 +430,79 @@
             "done": true,
             "active": false,
             "issueNumber": 131,
-            "issueOpen": true,
-            "staleIssue": true
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S11-04",
             "done": true,
             "active": false,
             "issueNumber": 132,
-            "issueOpen": true,
-            "staleIssue": true
+            "issueOpen": false,
+            "staleIssue": false
           },
           {
             "code": "UC-DM-S11-05",
             "done": true,
             "active": false,
             "issueNumber": 133,
-            "issueOpen": true,
-            "staleIssue": true
-          },
-          {
-            "code": "UC-DM-INFRA-01",
-            "done": false,
-            "active": false,
-            "issueNumber": 60,
-            "issueOpen": true,
+            "issueOpen": false,
             "staleIssue": false
           },
           {
             "code": "UC-DM-INFRA-08",
-            "done": false,
+            "done": true,
             "active": false,
             "issueNumber": 134,
-            "issueOpen": true,
+            "issueOpen": false,
+            "staleIssue": false
+          },
+          {
+            "code": "UC-DM-INFRA-09",
+            "done": true,
+            "active": false,
+            "issueNumber": 135,
+            "issueOpen": false,
             "staleIssue": false
           },
           {
             "code": "UC-DM-INFRA-10",
-            "done": false,
+            "done": true,
             "active": false,
             "issueNumber": 136,
-            "issueOpen": true,
+            "issueOpen": false,
             "staleIssue": false
           },
           {
             "code": "UC-DM-INFRA-11",
-            "done": false,
+            "done": true,
             "active": false,
             "issueNumber": 137,
-            "issueOpen": true,
+            "issueOpen": false,
             "staleIssue": false
           },
           {
             "code": "UC-DM-INFRA-12",
-            "done": false,
+            "done": true,
             "active": false,
             "issueNumber": 138,
-            "issueOpen": true,
+            "issueOpen": false,
             "staleIssue": false
           },
           {
             "code": "UC-DM-INFRA-13",
-            "done": false,
+            "done": true,
             "active": false,
             "issueNumber": 139,
-            "issueOpen": true,
+            "issueOpen": false,
             "staleIssue": false
           },
           {
             "code": "GATE-140",
-            "done": false,
+            "done": true,
             "active": false,
             "issueNumber": 140,
-            "issueOpen": true,
+            "issueOpen": false,
             "staleIssue": false
           }
         ]
@@ -558,8 +543,8 @@
         "branch": "epic/I-integracion-dashboard",
         "letter": "I",
         "label": "integracion dashboard",
-        "totalUcs": 6,
-        "doneUcs": 6,
+        "totalUcs": 5,
+        "doneUcs": 5,
         "percent": 100,
         "status": "done",
         "ucs": [
@@ -597,185 +582,220 @@
             "active": false,
             "issueOpen": false,
             "staleIssue": false
+          }
+        ]
+      },
+      {
+        "branch": "epic/K-configuracion-planes-saas",
+        "letter": "K",
+        "label": "configuracion planes saas",
+        "totalUcs": 8,
+        "doneUcs": 0,
+        "percent": 0,
+        "status": "active",
+        "ucs": [
+          {
+            "code": "UC-DM-CONFIG-02",
+            "done": false,
+            "active": false,
+            "issueNumber": 161,
+            "issueOpen": true,
+            "staleIssue": false
           },
           {
-            "code": "UC-DM-S8-01",
-            "done": true,
+            "code": "UC-DM-CONFIG-03",
+            "done": false,
             "active": false,
-            "issueOpen": false,
+            "issueNumber": 162,
+            "issueOpen": true,
+            "staleIssue": false
+          },
+          {
+            "code": "UC-DM-CONFIG-04",
+            "done": false,
+            "active": false,
+            "issueNumber": 163,
+            "issueOpen": true,
+            "staleIssue": false
+          },
+          {
+            "code": "UC-DM-CONFIG-05",
+            "done": false,
+            "active": false,
+            "issueNumber": 164,
+            "issueOpen": true,
+            "staleIssue": false
+          },
+          {
+            "code": "UC-DM-CONFIG-06",
+            "done": false,
+            "active": false,
+            "issueNumber": 165,
+            "issueOpen": true,
+            "staleIssue": false
+          },
+          {
+            "code": "UC-DM-CONFIG-07",
+            "done": false,
+            "active": false,
+            "issueNumber": 166,
+            "issueOpen": true,
+            "staleIssue": false
+          },
+          {
+            "code": "UC-DM-CONFIG-08",
+            "done": false,
+            "active": false,
+            "issueNumber": 167,
+            "issueOpen": true,
+            "staleIssue": false
+          },
+          {
+            "code": "UC-DM-CONFIG-09",
+            "done": false,
+            "active": false,
+            "issueNumber": 168,
+            "issueOpen": true,
             "staleIssue": false
           }
         ]
       }
     ],
     "activeEpic": {
-      "branch": "epic/J-consolidacion-pre-backend",
-      "letter": "J",
-      "label": "consolidacion pre backend",
-      "totalUcs": 13,
-      "doneUcs": 5,
-      "percent": 38,
+      "branch": "epic/K-configuracion-planes-saas",
+      "letter": "K",
+      "label": "configuracion planes saas",
+      "totalUcs": 8,
+      "doneUcs": 0,
+      "percent": 0,
       "status": "active",
       "ucs": [
         {
-          "code": "UC-DM-INFRA-09",
+          "code": "UC-DM-CONFIG-02",
           "done": false,
           "active": false,
-          "issueNumber": 135,
+          "issueNumber": 161,
           "issueOpen": true,
           "staleIssue": false
         },
         {
-          "code": "UC-DM-S11-01",
-          "done": true,
-          "active": false,
-          "issueNumber": 129,
-          "issueOpen": false,
-          "staleIssue": false
-        },
-        {
-          "code": "UC-DM-S11-02",
-          "done": true,
-          "active": false,
-          "issueNumber": 130,
-          "issueOpen": false,
-          "staleIssue": false
-        },
-        {
-          "code": "UC-DM-S11-03",
-          "done": true,
-          "active": false,
-          "issueNumber": 131,
-          "issueOpen": true,
-          "staleIssue": true
-        },
-        {
-          "code": "UC-DM-S11-04",
-          "done": true,
-          "active": false,
-          "issueNumber": 132,
-          "issueOpen": true,
-          "staleIssue": true
-        },
-        {
-          "code": "UC-DM-S11-05",
-          "done": true,
-          "active": false,
-          "issueNumber": 133,
-          "issueOpen": true,
-          "staleIssue": true
-        },
-        {
-          "code": "UC-DM-INFRA-01",
+          "code": "UC-DM-CONFIG-03",
           "done": false,
           "active": false,
-          "issueNumber": 60,
+          "issueNumber": 162,
           "issueOpen": true,
           "staleIssue": false
         },
         {
-          "code": "UC-DM-INFRA-08",
+          "code": "UC-DM-CONFIG-04",
           "done": false,
           "active": false,
-          "issueNumber": 134,
+          "issueNumber": 163,
           "issueOpen": true,
           "staleIssue": false
         },
         {
-          "code": "UC-DM-INFRA-10",
+          "code": "UC-DM-CONFIG-05",
           "done": false,
           "active": false,
-          "issueNumber": 136,
+          "issueNumber": 164,
           "issueOpen": true,
           "staleIssue": false
         },
         {
-          "code": "UC-DM-INFRA-11",
+          "code": "UC-DM-CONFIG-06",
           "done": false,
           "active": false,
-          "issueNumber": 137,
+          "issueNumber": 165,
           "issueOpen": true,
           "staleIssue": false
         },
         {
-          "code": "UC-DM-INFRA-12",
+          "code": "UC-DM-CONFIG-07",
           "done": false,
           "active": false,
-          "issueNumber": 138,
+          "issueNumber": 166,
           "issueOpen": true,
           "staleIssue": false
         },
         {
-          "code": "UC-DM-INFRA-13",
+          "code": "UC-DM-CONFIG-08",
           "done": false,
           "active": false,
-          "issueNumber": 139,
+          "issueNumber": 167,
           "issueOpen": true,
           "staleIssue": false
         },
         {
-          "code": "GATE-140",
+          "code": "UC-DM-CONFIG-09",
           "done": false,
           "active": false,
-          "issueNumber": 140,
+          "issueNumber": 168,
           "issueOpen": true,
           "staleIssue": false
         }
       ]
     },
     "githubBacklog": {
-      "openCount": 13,
-      "trackedOpenCount": 11,
-      "pendingCount": 8,
-      "staleCount": 3,
+      "openCount": 11,
+      "trackedOpenCount": 9,
+      "pendingCount": 9,
+      "staleCount": 0,
       "items": [
         {
-          "number": 140,
-          "title": "GATE · Validación del frontend completo con Jorge Quiroz (go/no-go backend)",
-          "code": "GATE-140",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/140",
+          "number": 168,
+          "title": "UC-DM-CONFIG-09 · Facturación e historial de pagos (mock)",
+          "code": "UC-DM-CONFIG-09",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/168",
           "kind": "pending"
         },
         {
-          "number": 139,
-          "title": "UC-DM-INFRA-13 · Contrato retroactivo: administración (usuarios + accesos RBAC unificados)",
-          "code": "UC-DM-INFRA-13",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/139",
+          "number": 167,
+          "title": "UC-DM-CONFIG-08 · Cambio de plan (upgrade/downgrade, mock)",
+          "code": "UC-DM-CONFIG-08",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/167",
           "kind": "pending"
         },
         {
-          "number": 138,
-          "title": "UC-DM-INFRA-12 · Contrato retroactivo: calidad y doble codificación (IRR)",
-          "code": "UC-DM-INFRA-12",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/138",
+          "number": 166,
+          "title": "UC-DM-CONFIG-07 · Enforcement de cupos y feature-gating por plan",
+          "code": "UC-DM-CONFIG-07",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/166",
           "kind": "pending"
         },
         {
-          "number": 137,
-          "title": "UC-DM-INFRA-11 · Contrato retroactivo: cadena de salida S2 (informes, paquete, entrega, cierre)",
-          "code": "UC-DM-INFRA-11",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/137",
+          "number": 165,
+          "title": "UC-DM-CONFIG-06 · Plan contratado y consumo de cupos del tenant",
+          "code": "UC-DM-CONFIG-06",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/165",
           "kind": "pending"
         },
         {
-          "number": 136,
-          "title": "UC-DM-INFRA-10 · Contrato retroactivo: pipeline de credibilidad S2 (SVA, CBCA, RM, consistencias, síntesis)",
-          "code": "UC-DM-INFRA-10",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/136",
+          "number": 164,
+          "title": "UC-DM-CONFIG-05 · Catálogo de planes SaaS (Starter/Avanzado/Empresarial)",
+          "code": "UC-DM-CONFIG-05",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/164",
           "kind": "pending"
         },
         {
-          "number": 135,
-          "title": "UC-DM-INFRA-09 · Contrato retroactivo: fundaciones S1 (intake, expediente, personas, timeline, evidencia, anotaciones, auditoría)",
-          "code": "UC-DM-INFRA-09",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/135",
+          "number": 163,
+          "title": "UC-DM-CONFIG-04 · Auditoría transversal de administración",
+          "code": "UC-DM-CONFIG-04",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/163",
           "kind": "pending"
         },
         {
-          "number": 134,
-          "title": "UC-DM-INFRA-08 · Empaquetado multi-spec de dm-api-contracts + lint OpenAPI + migración del front al paquete",
-          "code": "UC-DM-INFRA-08",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/134",
+          "number": 162,
+          "title": "UC-DM-CONFIG-03 · Seguridad de cuenta y sesión",
+          "code": "UC-DM-CONFIG-03",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/162",
+          "kind": "pending"
+        },
+        {
+          "number": 161,
+          "title": "UC-DM-CONFIG-02 · Identidad y datos generales del tenant",
+          "code": "UC-DM-CONFIG-02",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/161",
           "kind": "pending"
         },
         {
@@ -786,31 +806,10 @@
           "kind": "pending"
         },
         {
-          "number": 133,
-          "title": "UC-DM-S11-05 · Limpieza: código muerto, warnings de lint e higiene de ramas",
-          "code": "UC-DM-S11-05",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/133",
-          "kind": "stale"
-        },
-        {
-          "number": 132,
-          "title": "UC-DM-S11-04 · Copy prudente en metapericia (veredicto → clasificación orientativa)",
-          "code": "UC-DM-S11-04",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/132",
-          "kind": "stale"
-        },
-        {
-          "number": 131,
-          "title": "UC-DM-S11-03 · Endpoint de equipo vía apiClient (retirar imports directos de team.mock)",
-          "code": "UC-DM-S11-03",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/131",
-          "kind": "stale"
-        },
-        {
-          "number": 128,
-          "title": "[EPIC] Consolidación técnica pre-backend (UC-DM-S11)",
+          "number": 160,
+          "title": "[EPIC] Configuración del tenant y Planes SaaS (UC-DM-CONFIG-02..09)",
           "code": null,
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/128",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/160",
           "kind": "other"
         },
         {
@@ -824,12 +823,12 @@
     }
   },
   "orchestrator": {
-    "estado": "procesado",
-    "rama": "epic/J-consolidacion-pre-backend",
-    "tarea": "UC-DM-INFRA-13 — admin.openapi.yaml (usuarios + accesos RBAC unificados + team)",
-    "resumen": "Contrato en dm-api-contracts rama feat/contract-infra-13-retroactive — PR #16 https://github.com/electronikatm/dm-api-contracts/pull/16. Merge manual contra main. Nuevo spec admin.openapi.yaml (módulo Administración): 20 rutas con paridad total vs access.handlers.ts + team.handlers.ts — Usuarios (/settings/users*: list·invite·get·patch·delete[hard, solo superadmin]·deactivate·reactivate·role·effective-permissions), Roles (/settings/roles*: list·create·get·patch·duplicate·archive·permissions get/patch), Permisos (/settings/permissions catálogo + /permissions/simulate), Auditoría (/settings/access-audit), Equipo (GET /team). Esquemas derivados de domain/access.ts + domain/team.ts + contracts/schemas/team.schema.ts (AppUser/UserMembership como fuente de verdad única tras fusión admin-users→access S11-01, AccessRole, Permission/PermissionAssignment, EffectivePermissions, Simulador, AccessAuditEntry, TeamMember). Reglas duras reflejadas: SYSTEM_ROLE_LOCKED, ROLE_ABOVE_ACTOR, CRITICAL_CONFIRMATION_REQUIRED, LAST_ADMIN, HARD_DELETE_FORBIDDEN, NO_PERMISSIONS, ROLE_HAS_USERS, EMAIL_ALREADY_EXISTS. x-tenant-id obligatorio en todas + Authorization Bearer; ApiError en cada ruta con error. pnpm install/build OK; openapi-typescript OK en todos los specs (admin incluido, 1564 líneas de tipos); pnpm pack conserva dist/index.d.ts + openapi.yaml (paridad CI). Sin cambios en dosmentes-front (INFRA-13 no exige migración de imports/types).",
+    "estado": "idle",
+    "rama": "develop",
+    "tarea": "(ninguna) — Bloque 2.5 listo para arrancar (EPIC-K)",
+    "resumen": "Issues EPIC-K creadas (#160 épica, #161-#168 UCs, milestone CONFIG #11). Dashboard actualizado: Fase 1+2 al 100%, Bloque 2.5 (K) 0/8 activo. Cron Pages restaurado. EPIC-I pausada (S10-06 espera CONFIG-06). Primera UC sugerida: CONFIG-05 (catálogo planes) en paralelo con CONFIG-02 (identidad tenant). GATE #140 cerrado en GH — validar si se reabre tras demo con planes. INFRA-01 (#60) y H (#19) abiertas por diseño.",
     "bloqueos": "ninguno",
-    "timestamp": "2026-07-08T16:12:00Z",
+    "timestamp": "2026-07-10T02:55:00Z",
     "currentUc": null
   },
   "queue": {
@@ -837,10 +836,118 @@
     "nextUc": null
   },
   "git": {
-    "openPrs": 2,
+    "openPrs": 0,
     "activeBranches": 8
   },
   "timeline": [
+    {
+      "ts": "2026-07-10T02:55:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T02:50:01Z",
+      "event": "supervisor_auto_queued",
+      "agent": "supervisor",
+      "msg": "Encolada UC UC-DM-S10-06 en epic/I-integracion-dashboard (watchdog: pipeline inactivo)"
+    },
+    {
+      "ts": "2026-07-10T02:50:01Z",
+      "event": "supervisor_watchdog",
+      "agent": "supervisor",
+      "msg": "Estado=idle sin next-task.md ni lock — intentando autorrecuperar"
+    },
+    {
+      "ts": "2026-07-10T02:50:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=idle | Rama=develop | Tarea=(ninguna) — preparar Bloque 2.5 / EPIC-K"
+    },
+    {
+      "ts": "2026-07-10T02:50:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T02:50:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T02:45:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-09T15:45:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-09T15:40:01Z",
+      "event": "supervisor_auto_idle",
+      "agent": "supervisor",
+      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-09T15:40:01Z",
+      "event": "supervisor_phase2_complete",
+      "agent": "supervisor",
+      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
+    },
+    {
+      "ts": "2026-07-09T15:40:01Z",
+      "event": "supervisor_phase2_complete",
+      "agent": "supervisor",
+      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
+    },
+    {
+      "ts": "2026-07-09T15:40:01Z",
+      "event": "supervisor_epic_skip_close",
+      "agent": "supervisor",
+      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
+    },
+    {
+      "ts": "2026-07-09T15:40:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-09T15:40:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #16 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-09T15:40:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-13 — admin.openapi.yaml (usuarios + accesos RBAC unificados + team)"
+    },
+    {
+      "ts": "2026-07-09T15:40:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-09T15:40:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-09T15:35:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
     {
       "ts": "2026-07-09T15:30:01Z",
       "event": "supervisor_auto_idle",
@@ -1032,114 +1139,6 @@
       "event": "supervisor_phase2_complete",
       "agent": "supervisor",
       "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
-    },
-    {
-      "ts": "2026-07-09T15:00:02Z",
-      "event": "supervisor_phase2_complete",
-      "agent": "supervisor",
-      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
-    },
-    {
-      "ts": "2026-07-09T15:00:02Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-09T15:00:02Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-09T15:00:02Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #16 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-09T15:00:02Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-13 — admin.openapi.yaml (usuarios + accesos RBAC unificados + team)"
-    },
-    {
-      "ts": "2026-07-09T15:00:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-09T15:00:02Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-09T14:55:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-09T14:50:01Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-09T14:50:01Z",
-      "event": "supervisor_phase2_complete",
-      "agent": "supervisor",
-      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
-    },
-    {
-      "ts": "2026-07-09T14:50:01Z",
-      "event": "supervisor_phase2_complete",
-      "agent": "supervisor",
-      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
-    },
-    {
-      "ts": "2026-07-09T14:50:01Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-09T14:50:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-09T14:50:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #16 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-09T14:50:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-13 — admin.openapi.yaml (usuarios + accesos RBAC unificados + team)"
-    },
-    {
-      "ts": "2026-07-09T14:50:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-09T14:50:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-09T14:45:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
     }
   ],
   "health": "ok"
