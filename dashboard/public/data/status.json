@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T17:30:20.640Z",
+  "generatedAt": "2026-07-10T18:00:22.463Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-10T17:30:01Z",
-      "lastRunAgeSec": 19,
+      "lastRun": "2026-07-10T18:00:01Z",
+      "lastRunAgeSec": 21,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T17:30:01Z",
-      "lastRunAgeSec": 19,
+      "lastRun": "2026-07-10T18:00:01Z",
+      "lastRunAgeSec": 21,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -820,6 +820,150 @@
   },
   "timeline": [
     {
+      "ts": "2026-07-10T18:00:01Z",
+      "event": "supervisor_auto_idle",
+      "agent": "supervisor",
+      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-10T18:00:01Z",
+      "event": "supervisor_epic_skip_close",
+      "agent": "supervisor",
+      "msg": "Épica epic/K-configuracion-planes-saas ya mergeada a develop — saltando cierre repetido"
+    },
+    {
+      "ts": "2026-07-10T18:00:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-10T18:00:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #17 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-10T18:00:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/K-configuracion-planes-saas | Tarea=Épica K-configuracion-planes-saas completa — auditoría + contrato OpenAPI"
+    },
+    {
+      "ts": "2026-07-10T18:00:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T18:00:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T17:55:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T17:50:01Z",
+      "event": "supervisor_auto_idle",
+      "agent": "supervisor",
+      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-10T17:50:01Z",
+      "event": "supervisor_epic_skip_close",
+      "agent": "supervisor",
+      "msg": "Épica epic/K-configuracion-planes-saas ya mergeada a develop — saltando cierre repetido"
+    },
+    {
+      "ts": "2026-07-10T17:50:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-10T17:50:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #17 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-10T17:50:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/K-configuracion-planes-saas | Tarea=Épica K-configuracion-planes-saas completa — auditoría + contrato OpenAPI"
+    },
+    {
+      "ts": "2026-07-10T17:50:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T17:50:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T17:45:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T17:40:01Z",
+      "event": "supervisor_auto_idle",
+      "agent": "supervisor",
+      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
+    },
+    {
+      "ts": "2026-07-10T17:40:01Z",
+      "event": "supervisor_epic_skip_close",
+      "agent": "supervisor",
+      "msg": "Épica epic/K-configuracion-planes-saas ya mergeada a develop — saltando cierre repetido"
+    },
+    {
+      "ts": "2026-07-10T17:40:01Z",
+      "event": "supervisor_auto_resume",
+      "agent": "supervisor",
+      "msg": "Estado=procesado sin cola — auto-encolando"
+    },
+    {
+      "ts": "2026-07-10T17:40:01Z",
+      "event": "supervisor_contract_noted",
+      "agent": "supervisor",
+      "msg": "Contrato en Resumen: PR #17 (merge manual en main)"
+    },
+    {
+      "ts": "2026-07-10T17:40:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=procesado | Rama=epic/K-configuracion-planes-saas | Tarea=Épica K-configuracion-planes-saas completa — auditoría + contrato OpenAPI"
+    },
+    {
+      "ts": "2026-07-10T17:40:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T17:40:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T17:35:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
       "ts": "2026-07-10T17:30:01Z",
       "event": "supervisor_auto_idle",
       "agent": "supervisor",
@@ -974,150 +1118,6 @@
       "event": "supervisor_epic_check",
       "agent": "supervisor",
       "msg": "No hay PRs uc/ pendientes en epic/K-configuracion-planes-saas — consultando GitHub Issues"
-    },
-    {
-      "ts": "2026-07-10T17:09:49Z",
-      "event": "supervisor_branch_deleted",
-      "agent": "supervisor",
-      "msg": "Rama local uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion eliminada"
-    },
-    {
-      "ts": "2026-07-10T17:09:49Z",
-      "event": "supervisor_pr_merged",
-      "agent": "supervisor",
-      "msg": "PR #176 mergeada y rama remota eliminada"
-    },
-    {
-      "ts": "2026-07-10T17:09:49Z",
-      "event": "supervisor_pr_created",
-      "agent": "supervisor",
-      "msg": "PR #176: uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion → epic/K-configuracion-planes-saas"
-    },
-    {
-      "ts": "2026-07-10T17:09:49Z",
-      "event": "supervisor_committed",
-      "agent": "supervisor",
-      "msg": "Commit y push directos en uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion"
-    },
-    {
-      "ts": "2026-07-10T17:09:49Z",
-      "event": "supervisor_commit_needed",
-      "agent": "supervisor",
-      "msg": "Hay 17 archivos sin commitear — el supervisor ejecuta git (no Opus)"
-    },
-    {
-      "ts": "2026-07-10T17:09:49Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion"
-    },
-    {
-      "ts": "2026-07-10T17:09:49Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion | Tarea=UC-DM-CONFIG-04 — Auditoría transversal de administración (tenant-wide) en /administracion/auditoria (#163)"
-    },
-    {
-      "ts": "2026-07-10T17:09:49Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T17:05:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T17:00:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Hay cambios sin commitear pero HEAD=uc/UC-DM-CONFIG-03-seguridad-de-cuenta-y-sesion ≠ uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion. Documenta un script de handoff en **Resumen:** (scripts/*.sh) o corrige la rama."
-    },
-    {
-      "ts": "2026-07-10T17:00:01Z",
-      "event": "supervisor_commit_needed",
-      "agent": "supervisor",
-      "msg": "Hay 17 archivos sin commitear — el supervisor ejecuta git (no Opus)"
-    },
-    {
-      "ts": "2026-07-10T17:00:01Z",
-      "event": "supervisor_warn",
-      "agent": "supervisor",
-      "msg": "No se puede hacer checkout a uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion — puede estar solo en remoto"
-    },
-    {
-      "ts": "2026-07-10T17:00:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion"
-    },
-    {
-      "ts": "2026-07-10T17:00:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion | Tarea=UC-DM-CONFIG-04 — Auditoría transversal de administración (tenant-wide) en /administracion/auditoria (#163)"
-    },
-    {
-      "ts": "2026-07-10T17:00:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T17:00:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T16:55:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T16:50:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Hay cambios sin commitear pero HEAD=uc/UC-DM-CONFIG-03-seguridad-de-cuenta-y-sesion ≠ uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion. Documenta un script de handoff en **Resumen:** (scripts/*.sh) o corrige la rama."
-    },
-    {
-      "ts": "2026-07-10T16:50:01Z",
-      "event": "supervisor_commit_needed",
-      "agent": "supervisor",
-      "msg": "Hay 17 archivos sin commitear — el supervisor ejecuta git (no Opus)"
-    },
-    {
-      "ts": "2026-07-10T16:50:01Z",
-      "event": "supervisor_warn",
-      "agent": "supervisor",
-      "msg": "No se puede hacer checkout a uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion — puede estar solo en remoto"
-    },
-    {
-      "ts": "2026-07-10T16:50:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion"
-    },
-    {
-      "ts": "2026-07-10T16:50:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion | Tarea=UC-DM-CONFIG-04 — Auditoría transversal de administración (tenant-wide) en /administracion/auditoria (#163)"
-    },
-    {
-      "ts": "2026-07-10T16:50:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T16:50:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
     }
   ],
   "health": "ok"
