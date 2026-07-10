@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T10:30:17.328Z",
+  "generatedAt": "2026-07-10T11:00:24.094Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-10T10:30:01Z",
-      "lastRunAgeSec": 16,
+      "lastRun": "2026-07-10T11:00:02Z",
+      "lastRunAgeSec": 22,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T10:30:01Z",
-      "lastRunAgeSec": 16,
+      "lastRun": "2026-07-10T11:00:01Z",
+      "lastRunAgeSec": 23,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -841,6 +841,132 @@
   },
   "timeline": [
     {
+      "ts": "2026-07-10T11:00:02Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al mergear PR #172"
+    },
+    {
+      "ts": "2026-07-10T11:00:02Z",
+      "event": "supervisor_pr_existing",
+      "agent": "supervisor",
+      "msg": "PR #172 ya existía"
+    },
+    {
+      "ts": "2026-07-10T11:00:02Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
+    },
+    {
+      "ts": "2026-07-10T11:00:02Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po | Tarea=UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)"
+    },
+    {
+      "ts": "2026-07-10T11:00:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T11:00:02Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T10:55:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T10:50:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al mergear PR #172"
+    },
+    {
+      "ts": "2026-07-10T10:50:01Z",
+      "event": "supervisor_pr_existing",
+      "agent": "supervisor",
+      "msg": "PR #172 ya existía"
+    },
+    {
+      "ts": "2026-07-10T10:50:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
+    },
+    {
+      "ts": "2026-07-10T10:50:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po | Tarea=UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)"
+    },
+    {
+      "ts": "2026-07-10T10:50:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T10:50:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T10:45:02Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T10:40:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al mergear PR #172"
+    },
+    {
+      "ts": "2026-07-10T10:40:01Z",
+      "event": "supervisor_pr_existing",
+      "agent": "supervisor",
+      "msg": "PR #172 ya existía"
+    },
+    {
+      "ts": "2026-07-10T10:40:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
+    },
+    {
+      "ts": "2026-07-10T10:40:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po | Tarea=UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)"
+    },
+    {
+      "ts": "2026-07-10T10:40:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T10:40:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T10:35:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
       "ts": "2026-07-10T10:30:01Z",
       "event": "supervisor_error",
       "agent": "supervisor",
@@ -1010,132 +1136,6 @@
     },
     {
       "ts": "2026-07-10T09:50:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Error al mergear PR #172"
-    },
-    {
-      "ts": "2026-07-10T09:50:01Z",
-      "event": "supervisor_pr_existing",
-      "agent": "supervisor",
-      "msg": "PR #172 ya existía"
-    },
-    {
-      "ts": "2026-07-10T09:50:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
-    },
-    {
-      "ts": "2026-07-10T09:50:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T09:50:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po | Tarea=UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)"
-    },
-    {
-      "ts": "2026-07-10T09:50:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T09:45:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T09:40:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Error al mergear PR #172"
-    },
-    {
-      "ts": "2026-07-10T09:40:01Z",
-      "event": "supervisor_pr_existing",
-      "agent": "supervisor",
-      "msg": "PR #172 ya existía"
-    },
-    {
-      "ts": "2026-07-10T09:40:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
-    },
-    {
-      "ts": "2026-07-10T09:40:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po | Tarea=UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)"
-    },
-    {
-      "ts": "2026-07-10T09:40:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T09:40:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T09:35:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T09:30:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Error al mergear PR #172"
-    },
-    {
-      "ts": "2026-07-10T09:30:01Z",
-      "event": "supervisor_pr_existing",
-      "agent": "supervisor",
-      "msg": "PR #172 ya existía"
-    },
-    {
-      "ts": "2026-07-10T09:30:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
-    },
-    {
-      "ts": "2026-07-10T09:30:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po | Tarea=UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)"
-    },
-    {
-      "ts": "2026-07-10T09:30:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T09:30:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T09:25:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T09:20:01Z",
       "event": "supervisor_error",
       "agent": "supervisor",
       "msg": "Error al mergear PR #172"
