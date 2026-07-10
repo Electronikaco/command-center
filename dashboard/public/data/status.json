@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T15:00:23.565Z",
+  "generatedAt": "2026-07-10T15:30:21.746Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,49 +8,45 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-10T15:00:01Z",
-      "lastRunAgeSec": 22,
+      "lastRun": "2026-07-10T15:30:01Z",
+      "lastRunAgeSec": 20,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T15:00:01Z",
-      "lastRunAgeSec": 22,
+      "lastRun": "2026-07-10T15:30:01Z",
+      "lastRunAgeSec": 20,
       "healthy": true,
       "label": "En ejecución"
     }
   },
   "agent": {
-    "state": "done_pending",
-    "label": "Esperando supervisor",
+    "state": "running",
+    "label": "Opus implementando",
     "processActive": true,
-    "lockActive": false,
-    "lockAgeMin": null,
-    "lastOpusStart": "2026-07-10T14:35:01Z",
+    "lockActive": true,
+    "lockAgeMin": 0,
+    "lastOpusStart": "2026-07-10T15:30:01Z",
     "lastOpusDone": "2026-07-10T14:35:01Z",
     "lastOutputTail": [
-      "- `eslint`: limpio",
-      "- **559 tests** (47 archivos), 10 nuevos, todos verdes",
-      "- `pnpm build`: compila OK",
-      "",
-      "`status.md` actualizado con estado `done`. Commit/PR/merge quedan a cargo del supervisor."
+      ""
     ]
   },
   "buddy": {
     "name": "Capito",
     "species": "Claude Code Bot",
     "rarity": "Epic",
-    "mood": "celebrating",
-    "moodLabel": "CONFIG-09 lista para merge",
+    "mood": "working",
+    "moodLabel": "Implementando CONFIG-03",
     "statusBadge": {
-      "label": "CONFIG-09 lista para merge",
-      "variant": "success"
+      "label": "Implementando CONFIG-03",
+      "variant": "active"
     },
     "stats": [
       {
         "key": "DEBUGGING",
-        "value": 84
+        "value": 92
       },
       {
         "key": "PATIENCE",
@@ -62,7 +58,7 @@
       },
       {
         "key": "WISDOM",
-        "value": 93
+        "value": 94
       },
       {
         "key": "SNARK",
@@ -72,8 +68,8 @@
   },
   "program": {
     "totalUcs": 65,
-    "doneUcs": 62,
-    "percent": 95,
+    "doneUcs": 63,
+    "percent": 97,
     "epics": [
       {
         "branch": "epic/A-evaluacion-forense",
@@ -590,8 +586,8 @@
         "letter": "K",
         "label": "configuracion planes saas",
         "totalUcs": 8,
-        "doneUcs": 5,
-        "percent": 63,
+        "doneUcs": 6,
+        "percent": 75,
         "status": "active",
         "ucs": [
           {
@@ -636,16 +632,16 @@
           },
           {
             "code": "UC-DM-CONFIG-09",
-            "done": false,
+            "done": true,
             "active": false,
             "issueNumber": 168,
             "issueOpen": true,
-            "staleIssue": false
+            "staleIssue": true
           },
           {
             "code": "UC-DM-CONFIG-03",
             "done": false,
-            "active": false,
+            "active": true,
             "issueNumber": 162,
             "issueOpen": true,
             "staleIssue": false
@@ -666,8 +662,8 @@
       "letter": "K",
       "label": "configuracion planes saas",
       "totalUcs": 8,
-      "doneUcs": 5,
-      "percent": 63,
+      "doneUcs": 6,
+      "percent": 75,
       "status": "active",
       "ucs": [
         {
@@ -712,16 +708,16 @@
         },
         {
           "code": "UC-DM-CONFIG-09",
-          "done": false,
+          "done": true,
           "active": false,
           "issueNumber": 168,
           "issueOpen": true,
-          "staleIssue": false
+          "staleIssue": true
         },
         {
           "code": "UC-DM-CONFIG-03",
           "done": false,
-          "active": false,
+          "active": true,
           "issueNumber": 162,
           "issueOpen": true,
           "staleIssue": false
@@ -739,16 +735,9 @@
     "githubBacklog": {
       "openCount": 11,
       "trackedOpenCount": 9,
-      "pendingCount": 4,
-      "staleCount": 5,
+      "pendingCount": 3,
+      "staleCount": 6,
       "items": [
-        {
-          "number": 168,
-          "title": "UC-DM-CONFIG-09 · Facturación e historial de pagos (mock)",
-          "code": "UC-DM-CONFIG-09",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/168",
-          "kind": "pending"
-        },
         {
           "number": 163,
           "title": "UC-DM-CONFIG-04 · Auditoría transversal de administración",
@@ -769,6 +758,13 @@
           "code": "UC-DM-INFRA-01",
           "url": "https://github.com/electronikatm/dosmentes-front/issues/60",
           "kind": "pending"
+        },
+        {
+          "number": 168,
+          "title": "UC-DM-CONFIG-09 · Facturación e historial de pagos (mock)",
+          "code": "UC-DM-CONFIG-09",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/168",
+          "kind": "stale"
         },
         {
           "number": 167,
@@ -823,13 +819,13 @@
     }
   },
   "orchestrator": {
-    "estado": "done",
-    "rama": "uc/UC-DM-CONFIG-09-facturacion-e-historial-de-pagos-mock",
-    "tarea": "UC-DM-CONFIG-09 — Facturación e historial de pagos (mock) en /administracion/licencias (#168)",
-    "resumen": "Sección \"Facturación\" del hub de Licencias sobre el modelo mock MSW (frente K · Planes), cierre de la experiencia de punta a punta. Rama creada desde el tip de CONFIG-08 (7994edb, incluye CONFIG-05→08) porque epic/K aún no había recibido el merge de CONFIG-08 y CONFIG-09 es su continuación lineal.",
+    "estado": "delegado",
+    "rama": "epic/K-configuracion-planes-saas",
+    "tarea": "UC-DM-CONFIG-03 — Seguridad de cuenta y sesión (#162)",
+    "resumen": "CONFIG-09 mergeada manualmente (#174, 15:26Z). Epic/K integra CONFIG-02,05–09. Siguiente: CONFIG-03 (seguridad tenant) → CONFIG-04 (auditoría transversal). Opus arranca en próximo tick.",
     "bloqueos": "ninguno",
-    "timestamp": "2026-07-10T09:52:00Z",
-    "currentUc": "UC-DM-CONFIG-09",
+    "timestamp": "2026-07-10T15:30:00Z",
+    "currentUc": "UC-DM-CONFIG-03",
     "pipelinePaused": false
   },
   "queue": {
@@ -837,10 +833,124 @@
     "nextUc": null
   },
   "git": {
-    "openPrs": 1,
+    "openPrs": 0,
     "activeBranches": 15
   },
   "timeline": [
+    {
+      "ts": "2026-07-10T15:30:01Z",
+      "event": "supervisor_skip",
+      "agent": "supervisor",
+      "msg": "Estado=delegado — Opus aún en progreso"
+    },
+    {
+      "ts": "2026-07-10T15:30:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=delegado | Rama=epic/K-configuracion-planes-saas | Tarea=UC-DM-CONFIG-03 — Seguridad de cuenta y sesión (#162)"
+    },
+    {
+      "ts": "2026-07-10T15:30:01Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Próxima tarea — K-configuracion-planes-saas  **Emitida por:** Cursor Supervisor (continuación tras merge manual CONFIG-09 (#174))"
+    },
+    {
+      "ts": "2026-07-10T15:30:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T15:25:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T15:20:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al mergear PR #174"
+    },
+    {
+      "ts": "2026-07-10T15:20:01Z",
+      "event": "supervisor_pr_existing",
+      "agent": "supervisor",
+      "msg": "PR #174 ya existía"
+    },
+    {
+      "ts": "2026-07-10T15:20:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-09-facturacion-e-historial-de-pagos-mock"
+    },
+    {
+      "ts": "2026-07-10T15:20:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-09-facturacion-e-historial-de-pagos-mock | Tarea=UC-DM-CONFIG-09 — Facturación e historial de pagos (mock) en /administracion/licencias (#168)"
+    },
+    {
+      "ts": "2026-07-10T15:20:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T15:20:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T15:15:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T15:10:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Error al mergear PR #174"
+    },
+    {
+      "ts": "2026-07-10T15:10:01Z",
+      "event": "supervisor_pr_existing",
+      "agent": "supervisor",
+      "msg": "PR #174 ya existía"
+    },
+    {
+      "ts": "2026-07-10T15:10:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-09-facturacion-e-historial-de-pagos-mock"
+    },
+    {
+      "ts": "2026-07-10T15:10:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-09-facturacion-e-historial-de-pagos-mock | Tarea=UC-DM-CONFIG-09 — Facturación e historial de pagos (mock) en /administracion/licencias (#168)"
+    },
+    {
+      "ts": "2026-07-10T15:10:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T15:10:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T15:05:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
     {
       "ts": "2026-07-10T15:00:01Z",
       "event": "supervisor_error",
@@ -1026,120 +1136,6 @@
       "event": "opus_done",
       "agent": "opus-worker",
       "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-10T14:20:01Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=delegado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-10T14:20:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=delegado | Rama=epic/K-configuracion-planes-saas | Tarea=UC-DM-CONFIG-08 — Cambio de plan (upgrade/downgrade, mock) (#167)"
-    },
-    {
-      "ts": "2026-07-10T14:20:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T14:10:01Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=delegado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-10T14:10:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=delegado | Rama=epic/K-configuracion-planes-saas | Tarea=UC-DM-CONFIG-08 — Cambio de plan (upgrade/downgrade, mock) (#167)"
-    },
-    {
-      "ts": "2026-07-10T14:10:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T14:02:52Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Próxima tarea — K-configuracion-planes-saas  **Emitida por:** Cursor Supervisor (reanudación manual tras merge conflict resuelto)"
-    },
-    {
-      "ts": "2026-07-10T13:50:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Error al mergear PR #172"
-    },
-    {
-      "ts": "2026-07-10T13:50:01Z",
-      "event": "supervisor_pr_existing",
-      "agent": "supervisor",
-      "msg": "PR #172 ya existía"
-    },
-    {
-      "ts": "2026-07-10T13:50:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
-    },
-    {
-      "ts": "2026-07-10T13:50:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po | Tarea=UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)"
-    },
-    {
-      "ts": "2026-07-10T13:50:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T13:50:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T13:45:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T13:40:02Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Error al mergear PR #172"
-    },
-    {
-      "ts": "2026-07-10T13:40:02Z",
-      "event": "supervisor_pr_existing",
-      "agent": "supervisor",
-      "msg": "PR #172 ya existía"
-    },
-    {
-      "ts": "2026-07-10T13:40:02Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
-    },
-    {
-      "ts": "2026-07-10T13:40:02Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po | Tarea=UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)"
-    },
-    {
-      "ts": "2026-07-10T13:40:02Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
     }
   ],
   "health": "ok"

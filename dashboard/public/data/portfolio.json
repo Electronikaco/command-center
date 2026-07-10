@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T15:00:21.711Z",
+  "generatedAt": "2026-07-10T15:30:20.198Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -8,16 +8,15 @@
       "ghRepo": "electronikatm/dosmentes-front",
       "type": "orchestrator",
       "description": "Orquestador DosMentes — épicas y UCs",
-      "health": "degraded",
-      "healthReason": "Git en curso",
+      "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-10T09:52:00Z",
+      "lastActivityAt": "2026-07-10T15:30:00Z",
       "progress": {
-        "percent": 95,
-        "label": "Programa 62/65 UCs"
+        "percent": 97,
+        "label": "Programa 63/65 UCs"
       },
       "highlights": [],
       "detailRoute": "/project/dosmentes",
@@ -25,11 +24,11 @@
         "github": "https://github.com/electronikatm/dosmentes-front"
       },
       "orchestratorSummary": {
-        "estado": "done",
-        "currentUc": "UC-DM-CONFIG-09",
-        "programPercent": 95,
+        "estado": "delegado",
+        "currentUc": "UC-DM-CONFIG-03",
+        "programPercent": 97,
         "activeEpic": "EPIC-K configuracion planes saas",
-        "agentLabel": "Flujo Git"
+        "agentLabel": "Opus implementando"
       }
     },
     {
@@ -41,10 +40,10 @@
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
       "openPrs": 3,
-      "mergedPrs30d": 36,
+      "mergedPrs30d": 37,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-10T14:48:35Z",
+      "lastActivityAt": "2026-07-10T15:20:02Z",
       "progress": {
         "percent": 42,
         "label": "Fase 1 · Migración por servicio: 8/19"
@@ -65,11 +64,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 2,
       "mergedPrs30d": 1,
       "commits7d": 4,
       "commits30d": 25,
-      "lastActivityAt": "2026-07-09T20:06:48Z",
+      "lastActivityAt": "2026-07-10T15:07:08Z",
       "progress": {
         "percent": 0,
         "label": "0/14 issues"
@@ -93,16 +92,14 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 2,
-      "commits7d": 0,
-      "commits30d": 10,
-      "lastActivityAt": "2026-07-10T14:44:52Z",
+      "commits7d": 3,
+      "commits30d": 13,
+      "lastActivityAt": "2026-07-10T15:14:53Z",
       "progress": {
         "percent": null,
-        "label": "0 commits / 7d (develop)"
+        "label": "3 commits / 7d (develop)"
       },
-      "highlights": [
-        "Sin commits en los últimos 7 días"
-      ],
+      "highlights": [],
       "links": {
         "github": "https://github.com/electronikatm/civok-agentik"
       }
@@ -110,9 +107,9 @@
   ],
   "summary": {
     "totalProjects": 4,
-    "healthy": 3,
-    "degraded": 1,
+    "healthy": 4,
+    "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 5
   }
 }
