@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T17:00:20.841Z",
+  "generatedAt": "2026-07-10T17:30:18.643Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,10 +13,10 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-10T16:26:00Z",
+      "lastActivityAt": "2026-07-10T17:18:54Z",
       "progress": {
-        "percent": 98,
-        "label": "Programa 64/65 UCs"
+        "percent": 97,
+        "label": "Programa 64/66 UCs"
       },
       "highlights": [],
       "detailRoute": "/project/dosmentes",
@@ -24,11 +24,11 @@
         "github": "https://github.com/electronikatm/dosmentes-front"
       },
       "orchestratorSummary": {
-        "estado": "done",
-        "currentUc": "UC-DM-CONFIG-04",
-        "programPercent": 98,
-        "activeEpic": "EPIC-K configuracion planes saas",
-        "agentLabel": "Esperando supervisor"
+        "estado": "epic_done",
+        "currentUc": null,
+        "programPercent": 97,
+        "activeEpic": "EPIC-F piloto observabilidad",
+        "agentLabel": "Inactivo"
       }
     },
     {
