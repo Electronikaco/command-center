@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T14:27:30.918Z",
+  "generatedAt": "2026-07-10T14:30:20.581Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,22 +8,22 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-10T14:20:01Z",
-      "lastRunAgeSec": 449,
+      "lastRun": "2026-07-10T14:30:01Z",
+      "lastRunAgeSec": 19,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T14:25:01Z",
-      "lastRunAgeSec": 149,
+      "lastRun": "2026-07-10T14:30:01Z",
+      "lastRunAgeSec": 19,
       "healthy": true,
       "label": "En ejecución"
     }
   },
   "agent": {
-    "state": "done_pending",
-    "label": "Esperando supervisor",
+    "state": "running",
+    "label": "Opus implementando",
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
@@ -41,16 +41,16 @@
     "name": "Capito",
     "species": "Claude Code Bot",
     "rarity": "Epic",
-    "mood": "celebrating",
-    "moodLabel": "CONFIG-08 lista para merge",
+    "mood": "working",
+    "moodLabel": "Implementando CONFIG-09",
     "statusBadge": {
-      "label": "CONFIG-08 lista para merge",
-      "variant": "success"
+      "label": "Implementando CONFIG-09",
+      "variant": "active"
     },
     "stats": [
       {
         "key": "DEBUGGING",
-        "value": 83
+        "value": 92
       },
       {
         "key": "PATIENCE",
@@ -62,7 +62,7 @@
       },
       {
         "key": "WISDOM",
-        "value": 92
+        "value": 93
       },
       {
         "key": "SNARK",
@@ -72,8 +72,8 @@
   },
   "program": {
     "totalUcs": 65,
-    "doneUcs": 61,
-    "percent": 94,
+    "doneUcs": 62,
+    "percent": 95,
     "epics": [
       {
         "branch": "epic/A-evaluacion-forense",
@@ -590,8 +590,8 @@
         "letter": "K",
         "label": "configuracion planes saas",
         "totalUcs": 8,
-        "doneUcs": 4,
-        "percent": 50,
+        "doneUcs": 5,
+        "percent": 63,
         "status": "active",
         "ucs": [
           {
@@ -628,11 +628,11 @@
           },
           {
             "code": "UC-DM-CONFIG-08",
-            "done": false,
+            "done": true,
             "active": false,
             "issueNumber": 167,
             "issueOpen": true,
-            "staleIssue": false
+            "staleIssue": true
           },
           {
             "code": "UC-DM-CONFIG-09",
@@ -666,8 +666,8 @@
       "letter": "K",
       "label": "configuracion planes saas",
       "totalUcs": 8,
-      "doneUcs": 4,
-      "percent": 50,
+      "doneUcs": 5,
+      "percent": 63,
       "status": "active",
       "ucs": [
         {
@@ -704,11 +704,11 @@
         },
         {
           "code": "UC-DM-CONFIG-08",
-          "done": false,
+          "done": true,
           "active": false,
           "issueNumber": 167,
           "issueOpen": true,
-          "staleIssue": false
+          "staleIssue": true
         },
         {
           "code": "UC-DM-CONFIG-09",
@@ -739,21 +739,14 @@
     "githubBacklog": {
       "openCount": 11,
       "trackedOpenCount": 9,
-      "pendingCount": 5,
-      "staleCount": 4,
+      "pendingCount": 4,
+      "staleCount": 5,
       "items": [
         {
           "number": 168,
           "title": "UC-DM-CONFIG-09 · Facturación e historial de pagos (mock)",
           "code": "UC-DM-CONFIG-09",
           "url": "https://github.com/electronikatm/dosmentes-front/issues/168",
-          "kind": "pending"
-        },
-        {
-          "number": 167,
-          "title": "UC-DM-CONFIG-08 · Cambio de plan (upgrade/downgrade, mock)",
-          "code": "UC-DM-CONFIG-08",
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/167",
           "kind": "pending"
         },
         {
@@ -776,6 +769,13 @@
           "code": "UC-DM-INFRA-01",
           "url": "https://github.com/electronikatm/dosmentes-front/issues/60",
           "kind": "pending"
+        },
+        {
+          "number": 167,
+          "title": "UC-DM-CONFIG-08 · Cambio de plan (upgrade/downgrade, mock)",
+          "code": "UC-DM-CONFIG-08",
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/167",
+          "kind": "stale"
         },
         {
           "number": 166,
@@ -823,24 +823,96 @@
     }
   },
   "orchestrator": {
-    "estado": "done",
+    "estado": "procesado",
     "rama": "uc/UC-DM-CONFIG-08-cambio-de-plan-upgrade-downgrade-mock",
     "tarea": "UC-DM-CONFIG-08 — Cambio de plan (upgrade/downgrade, mock) en /administracion/licencias (#167)",
     "resumen": "Flujo de cambio de plan sobre el modelo mock MSW (frente K · Planes), hermano de CONFIG-06/07. Rama creada desde origin/epic/K (incluye CONFIG-06/07, #171/#172).",
     "bloqueos": "ninguno",
     "timestamp": "2026-07-10T14:21:35Z",
-    "currentUc": "UC-DM-CONFIG-08",
+    "currentUc": "UC-DM-CONFIG-09",
     "pipelinePaused": false
   },
   "queue": {
-    "hasNextTask": false,
-    "nextUc": null
+    "hasNextTask": true,
+    "nextUc": "UC-DM-CONFIG-09"
   },
   "git": {
     "openPrs": 0,
     "activeBranches": 14
   },
   "timeline": [
+    {
+      "ts": "2026-07-10T14:30:01Z",
+      "event": "supervisor_end",
+      "agent": "supervisor",
+      "msg": "Ciclo completado"
+    },
+    {
+      "ts": "2026-07-10T14:30:01Z",
+      "event": "supervisor_next_uc",
+      "agent": "supervisor",
+      "msg": "Siguiente UC de epic/K-configuracion-planes-saas (UC-DM-CONFIG-09) escrita en next-task.md"
+    },
+    {
+      "ts": "2026-07-10T14:30:01Z",
+      "event": "supervisor_epic_check",
+      "agent": "supervisor",
+      "msg": "No hay PRs uc/ pendientes en epic/K-configuracion-planes-saas — consultando GitHub Issues"
+    },
+    {
+      "ts": "2026-07-10T14:30:01Z",
+      "event": "supervisor_branch_deleted",
+      "agent": "supervisor",
+      "msg": "Rama local uc/UC-DM-CONFIG-08-cambio-de-plan-upgrade-downgrade-mock eliminada"
+    },
+    {
+      "ts": "2026-07-10T14:30:01Z",
+      "event": "supervisor_pr_merged",
+      "agent": "supervisor",
+      "msg": "PR #173 mergeada y rama remota eliminada"
+    },
+    {
+      "ts": "2026-07-10T14:30:01Z",
+      "event": "supervisor_pr_created",
+      "agent": "supervisor",
+      "msg": "PR #173: uc/UC-DM-CONFIG-08-cambio-de-plan-upgrade-downgrade-mock → epic/K-configuracion-planes-saas"
+    },
+    {
+      "ts": "2026-07-10T14:30:01Z",
+      "event": "supervisor_committed",
+      "agent": "supervisor",
+      "msg": "Commit y push directos en uc/UC-DM-CONFIG-08-cambio-de-plan-upgrade-downgrade-mock"
+    },
+    {
+      "ts": "2026-07-10T14:30:01Z",
+      "event": "supervisor_commit_needed",
+      "agent": "supervisor",
+      "msg": "Hay 14 archivos sin commitear — el supervisor ejecuta git (no Opus)"
+    },
+    {
+      "ts": "2026-07-10T14:30:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-08-cambio-de-plan-upgrade-downgrade-mock"
+    },
+    {
+      "ts": "2026-07-10T14:30:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-08-cambio-de-plan-upgrade-downgrade-mock | Tarea=UC-DM-CONFIG-08 — Cambio de plan (upgrade/downgrade, mock) en /administracion/licencias (#167)"
+    },
+    {
+      "ts": "2026-07-10T14:30:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T14:30:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
     {
       "ts": "2026-07-10T14:25:01Z",
       "event": "opus_tick",
@@ -1068,78 +1140,6 @@
       "event": "supervisor_error",
       "agent": "supervisor",
       "msg": "Error al mergear PR #172"
-    },
-    {
-      "ts": "2026-07-10T13:10:01Z",
-      "event": "supervisor_pr_existing",
-      "agent": "supervisor",
-      "msg": "PR #172 ya existía"
-    },
-    {
-      "ts": "2026-07-10T13:10:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
-    },
-    {
-      "ts": "2026-07-10T13:10:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po | Tarea=UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)"
-    },
-    {
-      "ts": "2026-07-10T13:10:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T13:10:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T13:05:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T13:00:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Error al mergear PR #172"
-    },
-    {
-      "ts": "2026-07-10T13:00:01Z",
-      "event": "supervisor_pr_existing",
-      "agent": "supervisor",
-      "msg": "PR #172 ya existía"
-    },
-    {
-      "ts": "2026-07-10T13:00:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po"
-    },
-    {
-      "ts": "2026-07-10T13:00:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-07-enforcement-de-cupos-y-feature-gating-po | Tarea=UC-DM-CONFIG-07 — Enforcement de cupos y feature-gating por plan (`<PlanGate>`, hermano de `<Can>`)"
-    },
-    {
-      "ts": "2026-07-10T13:00:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T13:00:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
     }
   ],
   "health": "ok"
