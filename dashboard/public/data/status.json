@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T16:30:20.844Z",
+  "generatedAt": "2026-07-10T17:00:22.584Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-10T16:30:01Z",
-      "lastRunAgeSec": 19,
+      "lastRun": "2026-07-10T17:00:01Z",
+      "lastRunAgeSec": 21,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T16:30:01Z",
-      "lastRunAgeSec": 19,
+      "lastRun": "2026-07-10T17:00:01Z",
+      "lastRunAgeSec": 21,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -842,6 +842,150 @@
   },
   "timeline": [
     {
+      "ts": "2026-07-10T17:00:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Hay cambios sin commitear pero HEAD=uc/UC-DM-CONFIG-03-seguridad-de-cuenta-y-sesion ≠ uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion. Documenta un script de handoff en **Resumen:** (scripts/*.sh) o corrige la rama."
+    },
+    {
+      "ts": "2026-07-10T17:00:01Z",
+      "event": "supervisor_commit_needed",
+      "agent": "supervisor",
+      "msg": "Hay 17 archivos sin commitear — el supervisor ejecuta git (no Opus)"
+    },
+    {
+      "ts": "2026-07-10T17:00:01Z",
+      "event": "supervisor_warn",
+      "agent": "supervisor",
+      "msg": "No se puede hacer checkout a uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion — puede estar solo en remoto"
+    },
+    {
+      "ts": "2026-07-10T17:00:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion"
+    },
+    {
+      "ts": "2026-07-10T17:00:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion | Tarea=UC-DM-CONFIG-04 — Auditoría transversal de administración (tenant-wide) en /administracion/auditoria (#163)"
+    },
+    {
+      "ts": "2026-07-10T17:00:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T17:00:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T16:55:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T16:50:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Hay cambios sin commitear pero HEAD=uc/UC-DM-CONFIG-03-seguridad-de-cuenta-y-sesion ≠ uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion. Documenta un script de handoff en **Resumen:** (scripts/*.sh) o corrige la rama."
+    },
+    {
+      "ts": "2026-07-10T16:50:01Z",
+      "event": "supervisor_commit_needed",
+      "agent": "supervisor",
+      "msg": "Hay 17 archivos sin commitear — el supervisor ejecuta git (no Opus)"
+    },
+    {
+      "ts": "2026-07-10T16:50:01Z",
+      "event": "supervisor_warn",
+      "agent": "supervisor",
+      "msg": "No se puede hacer checkout a uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion — puede estar solo en remoto"
+    },
+    {
+      "ts": "2026-07-10T16:50:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion"
+    },
+    {
+      "ts": "2026-07-10T16:50:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion | Tarea=UC-DM-CONFIG-04 — Auditoría transversal de administración (tenant-wide) en /administracion/auditoria (#163)"
+    },
+    {
+      "ts": "2026-07-10T16:50:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T16:50:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T16:45:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T16:40:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "Hay cambios sin commitear pero HEAD=uc/UC-DM-CONFIG-03-seguridad-de-cuenta-y-sesion ≠ uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion. Documenta un script de handoff en **Resumen:** (scripts/*.sh) o corrige la rama."
+    },
+    {
+      "ts": "2026-07-10T16:40:01Z",
+      "event": "supervisor_commit_needed",
+      "agent": "supervisor",
+      "msg": "Hay 17 archivos sin commitear — el supervisor ejecuta git (no Opus)"
+    },
+    {
+      "ts": "2026-07-10T16:40:01Z",
+      "event": "supervisor_warn",
+      "agent": "supervisor",
+      "msg": "No se puede hacer checkout a uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion — puede estar solo en remoto"
+    },
+    {
+      "ts": "2026-07-10T16:40:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion"
+    },
+    {
+      "ts": "2026-07-10T16:40:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-04-auditoria-transversal-de-administracion | Tarea=UC-DM-CONFIG-04 — Auditoría transversal de administración (tenant-wide) en /administracion/auditoria (#163)"
+    },
+    {
+      "ts": "2026-07-10T16:40:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T16:40:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T16:35:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
       "ts": "2026-07-10T16:30:01Z",
       "event": "supervisor_error",
       "agent": "supervisor",
@@ -996,150 +1140,6 @@
       "event": "supervisor_start",
       "agent": "supervisor",
       "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T16:00:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T15:55:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T15:30:01Z",
-      "event": "opus_done",
-      "agent": "opus-worker",
-      "msg": "Opus terminó correctamente"
-    },
-    {
-      "ts": "2026-07-10T15:50:01Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=delegado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-10T15:50:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=delegado | Rama=epic/K-configuracion-planes-saas | Tarea=UC-DM-CONFIG-03 — Seguridad de cuenta y sesión (#162)"
-    },
-    {
-      "ts": "2026-07-10T15:50:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T15:40:01Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=delegado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-10T15:40:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=delegado | Rama=epic/K-configuracion-planes-saas | Tarea=UC-DM-CONFIG-03 — Seguridad de cuenta y sesión (#162)"
-    },
-    {
-      "ts": "2026-07-10T15:40:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T15:30:01Z",
-      "event": "supervisor_skip",
-      "agent": "supervisor",
-      "msg": "Estado=delegado — Opus aún en progreso"
-    },
-    {
-      "ts": "2026-07-10T15:30:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=delegado | Rama=epic/K-configuracion-planes-saas | Tarea=UC-DM-CONFIG-03 — Seguridad de cuenta y sesión (#162)"
-    },
-    {
-      "ts": "2026-07-10T15:30:01Z",
-      "event": "opus_start",
-      "agent": "opus-worker",
-      "msg": "Iniciando: # Próxima tarea — K-configuracion-planes-saas  **Emitida por:** Cursor Supervisor (continuación tras merge manual CONFIG-09 (#174))"
-    },
-    {
-      "ts": "2026-07-10T15:30:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T15:25:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T15:20:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Error al mergear PR #174"
-    },
-    {
-      "ts": "2026-07-10T15:20:01Z",
-      "event": "supervisor_pr_existing",
-      "agent": "supervisor",
-      "msg": "PR #174 ya existía"
-    },
-    {
-      "ts": "2026-07-10T15:20:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-09-facturacion-e-historial-de-pagos-mock"
-    },
-    {
-      "ts": "2026-07-10T15:20:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-09-facturacion-e-historial-de-pagos-mock | Tarea=UC-DM-CONFIG-09 — Facturación e historial de pagos (mock) en /administracion/licencias (#168)"
-    },
-    {
-      "ts": "2026-07-10T15:20:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T15:20:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T15:15:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T15:10:01Z",
-      "event": "supervisor_error",
-      "agent": "supervisor",
-      "msg": "Error al mergear PR #174"
-    },
-    {
-      "ts": "2026-07-10T15:10:01Z",
-      "event": "supervisor_pr_existing",
-      "agent": "supervisor",
-      "msg": "PR #174 ya existía"
-    },
-    {
-      "ts": "2026-07-10T15:10:01Z",
-      "event": "supervisor_git_start",
-      "agent": "supervisor",
-      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-09-facturacion-e-historial-de-pagos-mock"
     }
   ],
   "health": "ok"

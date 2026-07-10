@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T16:30:18.987Z",
+  "generatedAt": "2026-07-10T17:00:20.841Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -8,8 +8,7 @@
       "ghRepo": "electronikatm/dosmentes-front",
       "type": "orchestrator",
       "description": "Orquestador DosMentes — épicas y UCs",
-      "health": "degraded",
-      "healthReason": "Git en curso",
+      "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 0,
       "commits7d": 0,
@@ -29,7 +28,7 @@
         "currentUc": "UC-DM-CONFIG-04",
         "programPercent": 98,
         "activeEpic": "EPIC-K configuracion planes saas",
-        "agentLabel": "Flujo Git"
+        "agentLabel": "Esperando supervisor"
       }
     },
     {
@@ -40,11 +39,11 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 4,
-      "mergedPrs30d": 39,
+      "openPrs": 3,
+      "mergedPrs30d": 41,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-10T16:30:08Z",
+      "lastActivityAt": "2026-07-10T16:50:08Z",
       "progress": {
         "percent": 42,
         "label": "Fase 1 · Migración por servicio: 8/19"
@@ -108,9 +107,9 @@
   ],
   "summary": {
     "totalProjects": 4,
-    "healthy": 3,
-    "degraded": 1,
+    "healthy": 4,
+    "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 6
+    "totalOpenPrs": 5
   }
 }
