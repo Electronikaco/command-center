@@ -40,6 +40,9 @@ function buildStatusBadge(
         variant: "success",
       };
     case "error": {
+      if (/pausad/i.test(ctx.bloqueos) || /^paused/i.test(ctx.estado)) {
+        return { label: "Pipeline pausado manualmente", variant: "error" };
+      }
       const block = ctx.bloqueos.replace(/^ninguno\.?/i, "").trim();
       return {
         label: block

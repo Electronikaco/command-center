@@ -38,11 +38,12 @@ function activitySub(data: OrchestratorSnapshot): string {
     running: "en curso",
     waiting: "en cola",
     idle: "al día",
-    error: "bloqueado",
+    error: data.orchestrator.pipelinePaused ? "pausado" : "bloqueado",
     git_busy: "mergeando",
     done_pending: "pendiente merge",
   };
   const estado = data.orchestrator.estado?.toLowerCase() ?? "";
+  if (data.agent.state === "running" && /^delegado/.test(estado)) return "delegado";
   return map[data.agent.state] ?? (estado || "—");
 }
 

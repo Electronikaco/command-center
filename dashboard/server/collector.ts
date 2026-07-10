@@ -26,7 +26,12 @@ const PATHS = {
   cronOpus: path.join(ORCH_DIR, "cron-opus.log"),
   config: path.join(ORCH_DIR, "config.sh"),
   statusApi: path.join(ORCH_DIR, "status-api.json"),
+  pipelinePaused: path.join(ORCH_DIR, ".orchestrator-paused"),
 };
+
+function isPipelinePaused(): boolean {
+  return fs.existsSync(PATHS.pipelinePaused);
+}
 
 function readSafe(file: string): string {
   try {
@@ -93,10 +98,20 @@ function hasActiveError(
   timeline: TimelineEntry[],
   estado: string,
   bloqueos: string,
+  opusActive: boolean,
 ): boolean {
-  if (/^(blocked|error)/i.test(estado)) return true;
+  if (isPipelinePaused()) return true;
+
+  if (/^(blocked|error|paused)/i.test(estado)) return true;
+
   const b = bloqueos.trim();
-  if (b && !/^ninguno/i.test(b)) return true;
+  if (b && !/^ninguno/i.test(b)) {
+    // Bloqueos históricos de pausa manual no aplican si el pipeline ya reanudó.
+    if (!/pausad/i.test(b) || isPipelinePaused()) return true;
+  }
+
+  // Delegado + Opus vivo = trabajo en curso, no error operativo.
+  if (/^delegado/i.test(estado) && opusActive) return false;
 
   const errEv = timeline.find(
     (e) =>
@@ -113,6 +128,7 @@ function hasActiveError(
     (e) =>
       new Date(e.ts).getTime() > errTime &&
       (e.event === "supervisor_end" ||
+        e.event === "supervisor_skip" ||
         e.event === "opus_done" ||
         e.event === "opus_start" ||
         e.event.includes("supervisor_pr_merged") ||
@@ -137,12 +153,17 @@ function deriveAgentState(
     !!lastOpusStart &&
     (!lastOpusDone || new Date(lastOpusStart.ts) > new Date(lastOpusDone.ts)) &&
     Date.now() - new Date(lastOpusStart.ts).getTime() < 90 * 60 * 1000;
-  const trustOpusWindow = !estadoProcesado || hasNextTask;
+  const trustOpusWindow = !estadoProcesado || hasNextTask || /^delegado/i.test(estado);
+
+  if (isPipelinePaused()) {
+    return { state: "error", label: "Pipeline pausado" };
+  }
 
   if (
     (lockAgeMin !== null && lockAgeMin < 90) ||
     (opusWindowOpen && trustOpusWindow) ||
-    (opusActive && hasNextTask)
+    (opusActive && (hasNextTask || /^delegado/i.test(estado))) ||
+    (/^delegado/i.test(estado) && opusActive)
   ) {
     return { state: "running", label: "Opus implementando" };
   }
@@ -169,7 +190,7 @@ function deriveAgentState(
     return { state: "done_pending", label: "Esperando supervisor" };
   }
 
-  if (hasActiveError(timeline, estado, bloqueos)) {
+  if (hasActiveError(timeline, estado, bloqueos, opusActive)) {
     return { state: "error", label: "Error o bloqueo" };
   }
 
@@ -397,6 +418,7 @@ export function collect(): OrchestratorSnapshot {
       bloqueos,
       timestamp,
       currentUc,
+      pipelinePaused: isPipelinePaused(),
     },
     queue: {
       hasNextTask,

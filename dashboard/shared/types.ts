@@ -127,6 +127,7 @@ export interface OrchestratorSnapshot {
     bloqueos: string;
     timestamp: string;
     currentUc: string | null;
+    pipelinePaused?: boolean;
   };
   queue: {
     hasNextTask: boolean;
