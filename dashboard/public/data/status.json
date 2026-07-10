@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T02:56:18.825Z",
+  "generatedAt": "2026-07-10T03:00:25.167Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,15 +8,15 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-10T02:50:01Z",
-      "lastRunAgeSec": 377,
+      "lastRun": "2026-07-10T03:00:02Z",
+      "lastRunAgeSec": 23,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T02:55:01Z",
-      "lastRunAgeSec": 77,
+      "lastRun": "2026-07-10T03:00:02Z",
+      "lastRunAgeSec": 23,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -825,10 +825,10 @@
   "orchestrator": {
     "estado": "idle",
     "rama": "develop",
-    "tarea": "(ninguna) — Bloque 2.5 listo para arrancar (EPIC-K)",
-    "resumen": "Issues EPIC-K creadas (#160 épica, #161-#168 UCs, milestone CONFIG #11). Dashboard actualizado: Fase 1+2 al 100%, Bloque 2.5 (K) 0/8 activo. Cron Pages restaurado. EPIC-I pausada (S10-06 espera CONFIG-06). Primera UC sugerida: CONFIG-05 (catálogo planes) en paralelo con CONFIG-02 (identidad tenant). GATE #140 cerrado en GH — validar si se reabre tras demo con planes. INFRA-01 (#60) y H (#19) abiertas por diseño.",
+    "tarea": "(ninguna) — Bloque 2.5 listo; esperar OK para encolar primera UC",
+    "resumen": "Dashboard sincronizado y publicado (57/65 ≈ 88%). Fase 1+2 al 100%. EPIC-K activa 0/8 con issues #161-#168. Cron Pages OK. EPIC-I pausada (S10-06 espera CONFIG-06). Plan de arranque: CONFIG-05 (#164) ∥ CONFIG-02 (#161). No hay next-task.md pendiente.",
     "bloqueos": "ninguno",
-    "timestamp": "2026-07-10T02:55:00Z",
+    "timestamp": "2026-07-10T02:58:00Z",
     "currentUc": null
   },
   "queue": {
@@ -840,6 +840,30 @@
     "activeBranches": 8
   },
   "timeline": [
+    {
+      "ts": "2026-07-10T03:00:02Z",
+      "event": "supervisor_watchdog",
+      "agent": "supervisor",
+      "msg": "Estado=idle sin next-task.md ni lock — intentando autorrecuperar"
+    },
+    {
+      "ts": "2026-07-10T03:00:02Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=idle | Rama=develop | Tarea=(ninguna) — Bloque 2.5 listo; esperar OK para encolar primera UC"
+    },
+    {
+      "ts": "2026-07-10T03:00:02Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T03:00:02Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
     {
       "ts": "2026-07-10T02:55:01Z",
       "event": "opus_tick",
@@ -1115,30 +1139,6 @@
       "event": "opus_tick",
       "agent": "opus-worker",
       "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-09T15:10:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-09T15:05:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-09T15:00:02Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-09T15:00:02Z",
-      "event": "supervisor_phase2_complete",
-      "agent": "supervisor",
-      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
     }
   ],
   "health": "ok"
