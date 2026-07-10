@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T15:30:20.198Z",
+  "generatedAt": "2026-07-10T16:00:22.298Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -8,12 +8,13 @@
       "ghRepo": "electronikatm/dosmentes-front",
       "type": "orchestrator",
       "description": "Orquestador DosMentes — épicas y UCs",
-      "health": "ok",
+      "health": "degraded",
+      "healthReason": "Git en curso",
       "openPrs": 0,
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-10T15:30:00Z",
+      "lastActivityAt": "2026-07-10T15:50:27Z",
       "progress": {
         "percent": 97,
         "label": "Programa 63/65 UCs"
@@ -24,11 +25,11 @@
         "github": "https://github.com/electronikatm/dosmentes-front"
       },
       "orchestratorSummary": {
-        "estado": "delegado",
+        "estado": "done",
         "currentUc": "UC-DM-CONFIG-03",
         "programPercent": 97,
         "activeEpic": "EPIC-K configuracion planes saas",
-        "agentLabel": "Opus implementando"
+        "agentLabel": "Flujo Git"
       }
     },
     {
@@ -107,8 +108,8 @@
   ],
   "summary": {
     "totalProjects": 4,
-    "healthy": 4,
-    "degraded": 0,
+    "healthy": 3,
+    "degraded": 1,
     "error": 0,
     "totalOpenPrs": 5
   }
