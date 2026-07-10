@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T03:01:34.587Z",
+  "generatedAt": "2026-07-10T03:30:15.566Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -8,29 +8,30 @@
       "ghRepo": "electronikatm/dosmentes-front",
       "type": "orchestrator",
       "description": "Orquestador DosMentes — épicas y UCs",
-      "health": "ok",
+      "health": "error",
+      "healthReason": "Error o bloqueo",
       "openPrs": 0,
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-10T02:58:00Z",
+      "lastActivityAt": "2026-07-10T03:30:00Z",
       "progress": {
         "percent": 88,
         "label": "Programa 57/65 UCs"
       },
       "highlights": [
-        "En cola: UC-DM-CONFIG-02"
+        "Bloqueo: rama épica `epic/K-configuracion-planes-saas` inexistente; supervisor pausado an"
       ],
       "detailRoute": "/project/dosmentes",
       "links": {
         "github": "https://github.com/electronikatm/dosmentes-front"
       },
       "orchestratorSummary": {
-        "estado": "idle",
+        "estado": "blocked",
         "currentUc": "UC-DM-CONFIG-02",
         "programPercent": 88,
         "activeEpic": "EPIC-K configuracion planes saas",
-        "agentLabel": "Opus implementando"
+        "agentLabel": "Error o bloqueo"
       }
     },
     {
@@ -110,9 +111,9 @@
   ],
   "summary": {
     "totalProjects": 4,
-    "healthy": 3,
+    "healthy": 2,
     "degraded": 1,
-    "error": 0,
+    "error": 1,
     "totalOpenPrs": 4
   }
 }

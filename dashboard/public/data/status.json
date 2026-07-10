@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T03:01:36.149Z",
+  "generatedAt": "2026-07-10T03:30:17.349Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -8,49 +8,49 @@
   "cron": {
     "supervisor": {
       "schedule": "cada 10 min",
-      "lastRun": "2026-07-10T03:00:02Z",
-      "lastRunAgeSec": 94,
+      "lastRun": "2026-07-10T03:20:01Z",
+      "lastRunAgeSec": 616,
       "healthy": true,
       "label": "Al día"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T03:00:02Z",
-      "lastRunAgeSec": 94,
+      "lastRun": "2026-07-10T03:30:02Z",
+      "lastRunAgeSec": 15,
       "healthy": true,
       "label": "En ejecución"
     }
   },
   "agent": {
-    "state": "running",
-    "label": "Opus implementando",
+    "state": "error",
+    "label": "Error o bloqueo",
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
-    "lastOpusStart": null,
-    "lastOpusDone": null,
+    "lastOpusStart": "2026-07-10T03:05:01Z",
+    "lastOpusDone": "2026-07-10T03:05:01Z",
     "lastOutputTail": [
-      "- `pnpm pack` conserva `dist/index.d.ts` + `openapi.yaml` ✅",
+      "**Hub** — eliminé la tarjeta duplicada \"Tenant\" (ready:false); queda una sola tarjeta activa apuntando a la ruta.",
       "",
-      "**Sin cambios en `dosmentes-front`** — INFRA-13 no exige migración de imports/types (idéntico a INFRA-09..12). El multi-spec packaging es responsabilidad de INFRA-08 en su rama.",
+      "**Verificación** — tsc limpio · lint 0 errores (solo el warning preexistente de `data-table`) · **504/504 tests** (13 nuevos: 7 handler + 6 schema) · build OK con la ruta `/administracion/configuracion` compilando. Verificación de navegador bloqueada en el contenedor, validado con tsc/vitest/lint/build.",
       "",
-      "`status.md` actualizado a `done`. No había `next-task.md` en disco para mover (el orquestador ya lo gestiona)."
+      "`status.md` actualizado a `done`. El supervisor gestiona commit/PR/merge."
     ]
   },
   "buddy": {
     "name": "Capito",
     "species": "Claude Code Bot",
     "rarity": "Epic",
-    "mood": "working",
-    "moodLabel": "Implementando CONFIG-02",
+    "mood": "error",
+    "moodLabel": "rama épica `epic/K-configuracion-planes-saas` in…",
     "statusBadge": {
-      "label": "Implementando CONFIG-02",
-      "variant": "active"
+      "label": "rama épica `epic/K-configuracion-planes-saas` in…",
+      "variant": "error"
     },
     "stats": [
       {
         "key": "DEBUGGING",
-        "value": 92
+        "value": 75
       },
       {
         "key": "PATIENCE",
@@ -58,7 +58,7 @@
       },
       {
         "key": "CHAOS",
-        "value": 43
+        "value": 80
       },
       {
         "key": "WISDOM",
@@ -66,7 +66,7 @@
       },
       {
         "key": "SNARK",
-        "value": 30
+        "value": 70
       }
     ]
   },
@@ -603,22 +603,6 @@
             "staleIssue": false
           },
           {
-            "code": "UC-DM-CONFIG-03",
-            "done": false,
-            "active": false,
-            "issueNumber": 162,
-            "issueOpen": true,
-            "staleIssue": false
-          },
-          {
-            "code": "UC-DM-CONFIG-04",
-            "done": false,
-            "active": false,
-            "issueNumber": 163,
-            "issueOpen": true,
-            "staleIssue": false
-          },
-          {
             "code": "UC-DM-CONFIG-05",
             "done": false,
             "active": false,
@@ -657,6 +641,22 @@
             "issueNumber": 168,
             "issueOpen": true,
             "staleIssue": false
+          },
+          {
+            "code": "UC-DM-CONFIG-03",
+            "done": false,
+            "active": false,
+            "issueNumber": 162,
+            "issueOpen": true,
+            "staleIssue": false
+          },
+          {
+            "code": "UC-DM-CONFIG-04",
+            "done": false,
+            "active": false,
+            "issueNumber": 163,
+            "issueOpen": true,
+            "staleIssue": false
           }
         ]
       }
@@ -675,22 +675,6 @@
           "done": false,
           "active": false,
           "issueNumber": 161,
-          "issueOpen": true,
-          "staleIssue": false
-        },
-        {
-          "code": "UC-DM-CONFIG-03",
-          "done": false,
-          "active": false,
-          "issueNumber": 162,
-          "issueOpen": true,
-          "staleIssue": false
-        },
-        {
-          "code": "UC-DM-CONFIG-04",
-          "done": false,
-          "active": false,
-          "issueNumber": 163,
           "issueOpen": true,
           "staleIssue": false
         },
@@ -731,6 +715,22 @@
           "done": false,
           "active": false,
           "issueNumber": 168,
+          "issueOpen": true,
+          "staleIssue": false
+        },
+        {
+          "code": "UC-DM-CONFIG-03",
+          "done": false,
+          "active": false,
+          "issueNumber": 162,
+          "issueOpen": true,
+          "staleIssue": false
+        },
+        {
+          "code": "UC-DM-CONFIG-04",
+          "done": false,
+          "active": false,
+          "issueNumber": 163,
           "issueOpen": true,
           "staleIssue": false
         }
@@ -823,23 +823,101 @@
     }
   },
   "orchestrator": {
-    "estado": "idle",
-    "rama": "develop",
-    "tarea": "(ninguna) — Bloque 2.5 listo; esperar OK para encolar primera UC",
-    "resumen": "Dashboard sincronizado y publicado (57/65 ≈ 88%). Fase 1+2 al 100%. EPIC-K activa 0/8 con issues #161-#168. Cron Pages OK. EPIC-I pausada (S10-06 espera CONFIG-06). Plan de arranque: CONFIG-05 (#164) ∥ CONFIG-02 (#161). No hay next-task.md pendiente.",
-    "bloqueos": "ninguno",
-    "timestamp": "2026-07-10T02:58:00Z",
+    "estado": "blocked",
+    "rama": "uc/UC-DM-CONFIG-02-identidad-y-datos-generales-del-tenant",
+    "tarea": "UC-DM-CONFIG-02 — Identidad y datos generales del tenant (#161)",
+    "resumen": "Implementación Opus completa (504 tests, tsc/lint/build OK). Push en `uc/UC-DM-CONFIG-02-*`. **Pipeline pausado** por orquestador: falta rama `epic/K-configuracion-planes-saas` (supervisor falló 03:20Z). Supervisor cron detenido (`pause-supervisor.sh`). Para retomar: crear épica desde develop, mergear UC, luego `resume-supervisor.sh` + `AUTO_RESUME_ON_PROCESADO=true`.",
+    "bloqueos": "rama épica `epic/K-configuracion-planes-saas` inexistente; supervisor pausado anti-bucle",
+    "timestamp": "2026-07-10T03:30:00Z",
     "currentUc": "UC-DM-CONFIG-02"
   },
   "queue": {
-    "hasNextTask": true,
-    "nextUc": "UC-DM-CONFIG-02"
+    "hasNextTask": false,
+    "nextUc": null
   },
   "git": {
     "openPrs": 0,
-    "activeBranches": 8
+    "activeBranches": 10
   },
   "timeline": [
+    {
+      "ts": "2026-07-10T03:30:02Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T03:25:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T03:05:01Z",
+      "event": "opus_done",
+      "agent": "opus-worker",
+      "msg": "Opus terminó correctamente"
+    },
+    {
+      "ts": "2026-07-10T03:20:01Z",
+      "event": "supervisor_error",
+      "agent": "supervisor",
+      "msg": "La rama épica epic/K-configuracion-planes-saas no existe ni local ni remotamente. Opus debe crearla (git checkout -b epic/K-configuracion-planes-saas develop) antes de continuar."
+    },
+    {
+      "ts": "2026-07-10T03:20:01Z",
+      "event": "supervisor_committed",
+      "agent": "supervisor",
+      "msg": "Commit y push directos en uc/UC-DM-CONFIG-02-identidad-y-datos-generales-del-tenant"
+    },
+    {
+      "ts": "2026-07-10T03:20:01Z",
+      "event": "supervisor_commit_needed",
+      "agent": "supervisor",
+      "msg": "Hay 9 archivos sin commitear — el supervisor ejecuta git (no Opus)"
+    },
+    {
+      "ts": "2026-07-10T03:20:01Z",
+      "event": "supervisor_git_start",
+      "agent": "supervisor",
+      "msg": "Opus terminó. Iniciando flujo Git en uc/UC-DM-CONFIG-02-identidad-y-datos-generales-del-tenant"
+    },
+    {
+      "ts": "2026-07-10T03:20:01Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=done | Rama=uc/UC-DM-CONFIG-02-identidad-y-datos-generales-del-tenant | Tarea=UC-DM-CONFIG-02 — Identidad y datos generales del tenant (#161)"
+    },
+    {
+      "ts": "2026-07-10T03:20:01Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T03:10:02Z",
+      "event": "supervisor_skip",
+      "agent": "supervisor",
+      "msg": "Estado=delegado — Opus aún en progreso"
+    },
+    {
+      "ts": "2026-07-10T03:10:02Z",
+      "event": "supervisor_read",
+      "agent": "supervisor",
+      "msg": "Estado=delegado | Rama=epic/K-configuracion-planes-saas (por crear si no existe) | Tarea=UC-DM-CONFIG-02 — Identidad y datos generales del tenant (#161)"
+    },
+    {
+      "ts": "2026-07-10T03:10:02Z",
+      "event": "supervisor_start",
+      "agent": "supervisor",
+      "msg": "Ciclo de supervisión iniciado"
+    },
+    {
+      "ts": "2026-07-10T03:05:01Z",
+      "event": "opus_start",
+      "agent": "opus-worker",
+      "msg": "Iniciando: # Próxima tarea — K-configuracion-planes-saas  **Emitida por:** Cursor Supervisor (watchdog: pipeline inactivo)"
+    },
     {
       "ts": "2026-07-10T03:00:02Z",
       "event": "supervisor_auto_queued",
@@ -1061,85 +1139,7 @@
       "event": "supervisor_epic_skip_close",
       "agent": "supervisor",
       "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-09T15:20:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-09T15:20:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #16 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-09T15:20:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-13 — admin.openapi.yaml (usuarios + accesos RBAC unificados + team)"
-    },
-    {
-      "ts": "2026-07-09T15:20:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-09T15:20:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-09T15:15:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-09T15:10:01Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (resume tras procesado)"
-    },
-    {
-      "ts": "2026-07-09T15:10:01Z",
-      "event": "supervisor_phase2_complete",
-      "agent": "supervisor",
-      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
-    },
-    {
-      "ts": "2026-07-09T15:10:01Z",
-      "event": "supervisor_phase2_complete",
-      "agent": "supervisor",
-      "msg": "Todos los INFRA-08..13 completados — pendiente GATE #140 (humano)"
-    },
-    {
-      "ts": "2026-07-09T15:10:01Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/J-consolidacion-pre-backend ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-09T15:10:01Z",
-      "event": "supervisor_auto_resume",
-      "agent": "supervisor",
-      "msg": "Estado=procesado sin cola — auto-encolando"
-    },
-    {
-      "ts": "2026-07-09T15:10:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #16 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-09T15:10:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=procesado | Rama=epic/J-consolidacion-pre-backend | Tarea=UC-DM-INFRA-13 — admin.openapi.yaml (usuarios + accesos RBAC unificados + team)"
     }
   ],
-  "health": "ok"
+  "health": "error"
 }
