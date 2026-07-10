@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T22:30:19.297Z",
+  "generatedAt": "2026-07-10T23:00:21.853Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -9,21 +9,21 @@
     "supervisor": {
       "schedule": "cada 10 min",
       "lastRun": "2026-07-10T20:50:01Z",
-      "lastRunAgeSec": 6018,
+      "lastRunAgeSec": 7820,
       "healthy": false,
       "label": "Retrasado"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T22:30:01Z",
-      "lastRunAgeSec": 18,
+      "lastRun": "2026-07-10T22:40:01Z",
+      "lastRunAgeSec": 1220,
       "healthy": true,
       "label": "En ejecución"
     }
   },
   "agent": {
-    "state": "idle",
-    "label": "Pipeline al día",
+    "state": "error",
+    "label": "Pipeline pausado",
     "processActive": true,
     "lockActive": false,
     "lockAgeMin": null,
@@ -41,16 +41,16 @@
     "name": "Capito",
     "species": "Claude Code Bot",
     "rarity": "Epic",
-    "mood": "idle",
-    "moodLabel": "Pipeline al día",
+    "mood": "error",
+    "moodLabel": "Bloqueo detectado",
     "statusBadge": {
-      "label": "Pipeline al día",
-      "variant": "success"
+      "label": "Bloqueo detectado",
+      "variant": "error"
     },
     "stats": [
       {
         "key": "DEBUGGING",
-        "value": 83
+        "value": 75
       },
       {
         "key": "PATIENCE",
@@ -58,7 +58,7 @@
       },
       {
         "key": "CHAOS",
-        "value": 44
+        "value": 80
       },
       {
         "key": "WISDOM",
@@ -66,7 +66,7 @@
       },
       {
         "key": "SNARK",
-        "value": 45
+        "value": 70
       }
     ]
   },
@@ -743,9 +743,9 @@
     "tarea": "UC-DM-EPIC-F-MERGE — integrar epic/F-piloto-observabilidad (S8-01..05) en develop",
     "resumen": "`git merge origin/epic/F-piloto-observabilidad` sobre `origin/develop`. 11 conflictos resueltos conservando **ambos frentes**; en todos develop (HEAD) era el superconjunto que ya integra piloto/S8 + team/tenant/K → se conservó develop. Archivos: `endpoints.ts`, `query-keys.ts`, `mocks/handlers/index.ts` (team/incidents/tenant), `pilot-baseline/{constants.ts,baseline-capture-dialog.tsx}` (roster canónico S11-03 vía `useTeam()`), `onboarding-beta.handlers.test.ts`, `administracion/page.tsx`, 4 docs de `docs/backlog/`. **HALLAZGO:** el contenido de EPIC-F ya estaba en `develop` (integrado y reconciliado durante J/K/I); el árbol resultante es **idéntico a origin/develop (0 archivos cambiados)**. La merge solo reconcilia el historial: fija la ascendencia de los 5 commits S8 (#123,#124,#126,#142,#143) para que epic/F deje de figurar como huérfana y pueda borrarse. Verificación local: `tsc --noEmit` OK · `test --run` 581/581 (50 suites) · `build` OK. PR a develop: #181 https://github.com/electronikatm/dosmentes-front/pull/181 (0 diff de contenido, merge de historia).",
     "bloqueos": "ninguno",
-    "timestamp": "2026-07-10T20:30:00Z",
+    "timestamp": "2026-07-10T22:41:43Z",
     "currentUc": null,
-    "pipelinePaused": false
+    "pipelinePaused": true
   },
   "queue": {
     "hasNextTask": false,
@@ -756,6 +756,18 @@
     "activeBranches": 19
   },
   "timeline": [
+    {
+      "ts": "2026-07-10T22:40:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T22:35:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
     {
       "ts": "2026-07-10T22:30:01Z",
       "event": "opus_tick",
@@ -1043,19 +1055,7 @@
       "event": "opus_tick",
       "agent": "opus-worker",
       "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T20:10:01Z",
-      "event": "supervisor_auto_idle",
-      "agent": "supervisor",
-      "msg": "Sin UCs pendientes ni épica para cerrar (epic ya mergeada (idempotencia))"
-    },
-    {
-      "ts": "2026-07-10T20:10:01Z",
-      "event": "supervisor_epic_skip_close",
-      "agent": "supervisor",
-      "msg": "Épica epic/I-integracion-dashboard ya mergeada a develop — saltando cierre repetido"
     }
   ],
-  "health": "degraded"
+  "health": "error"
 }
