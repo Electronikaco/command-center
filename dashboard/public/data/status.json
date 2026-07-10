@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T22:00:21.704Z",
+  "generatedAt": "2026-07-10T22:30:19.297Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -9,14 +9,14 @@
     "supervisor": {
       "schedule": "cada 10 min",
       "lastRun": "2026-07-10T20:50:01Z",
-      "lastRunAgeSec": 4220,
+      "lastRunAgeSec": 6018,
       "healthy": false,
       "label": "Retrasado"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
-      "lastRun": "2026-07-10T22:00:01Z",
-      "lastRunAgeSec": 20,
+      "lastRun": "2026-07-10T22:30:01Z",
+      "lastRunAgeSec": 18,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -757,6 +757,42 @@
   },
   "timeline": [
     {
+      "ts": "2026-07-10T22:30:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T22:25:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T22:20:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T22:15:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T22:10:01Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
+      "ts": "2026-07-10T22:05:02Z",
+      "event": "opus_tick",
+      "agent": "opus-worker",
+      "msg": "Sin next-task.md — cron activo, nada que implementar"
+    },
+    {
       "ts": "2026-07-10T22:00:01Z",
       "event": "opus_tick",
       "agent": "opus-worker",
@@ -1019,42 +1055,6 @@
       "event": "supervisor_epic_skip_close",
       "agent": "supervisor",
       "msg": "Épica epic/I-integracion-dashboard ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-10T20:10:01Z",
-      "event": "supervisor_epic_already_merged",
-      "agent": "supervisor",
-      "msg": "Épica epic/I-integracion-dashboard ya mergeada a develop — saltando cierre repetido"
-    },
-    {
-      "ts": "2026-07-10T20:10:01Z",
-      "event": "supervisor_contract_noted",
-      "agent": "supervisor",
-      "msg": "Contrato en Resumen: PR #8 (merge manual en main)"
-    },
-    {
-      "ts": "2026-07-10T20:10:01Z",
-      "event": "supervisor_read",
-      "agent": "supervisor",
-      "msg": "Estado=epic_done | Rama=epic/I-integracion-dashboard | Tarea=Épica I-integracion-dashboard completa — auditoría + contrato OpenAPI dashboard-integration.openapi.yaml"
-    },
-    {
-      "ts": "2026-07-10T20:10:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
-    },
-    {
-      "ts": "2026-07-10T20:10:01Z",
-      "event": "supervisor_start",
-      "agent": "supervisor",
-      "msg": "Ciclo de supervisión iniciado"
-    },
-    {
-      "ts": "2026-07-10T20:05:01Z",
-      "event": "opus_tick",
-      "agent": "opus-worker",
-      "msg": "Sin next-task.md — cron activo, nada que implementar"
     }
   ],
   "health": "degraded"
