@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T14:30:19.027Z",
+  "generatedAt": "2026-07-10T15:00:21.711Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -14,10 +14,10 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-10T14:21:35Z",
+      "lastActivityAt": "2026-07-10T09:52:00Z",
       "progress": {
-        "percent": 94,
-        "label": "Programa 61/65 UCs"
+        "percent": 95,
+        "label": "Programa 62/65 UCs"
       },
       "highlights": [],
       "detailRoute": "/project/dosmentes",
@@ -26,8 +26,8 @@
       },
       "orchestratorSummary": {
         "estado": "done",
-        "currentUc": "UC-DM-CONFIG-08",
-        "programPercent": 94,
+        "currentUc": "UC-DM-CONFIG-09",
+        "programPercent": 95,
         "activeEpic": "EPIC-K configuracion planes saas",
         "agentLabel": "Flujo Git"
       }
@@ -41,17 +41,17 @@
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
       "openPrs": 3,
-      "mergedPrs30d": 35,
+      "mergedPrs30d": 36,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-09T16:20:08Z",
+      "lastActivityAt": "2026-07-10T14:48:35Z",
       "progress": {
         "percent": 42,
         "label": "Fase 1 · Migración por servicio: 8/19"
       },
       "highlights": [
-        "Épicas: 1/7 cerradas",
-        "Global: 8/39 issues"
+        "Épicas: 6/13 cerradas",
+        "Global: 29/64 issues"
       ],
       "links": {
         "github": "https://github.com/Electronikaco/civok-back"
@@ -90,19 +90,17 @@
       "ghRepo": "electronikatm/civok-agentik",
       "type": "github",
       "description": "Frontend agente IA — Next.js + Firebase",
-      "health": "degraded",
-      "healthReason": "Inactivo >7d",
+      "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 2,
       "commits7d": 0,
       "commits30d": 10,
-      "lastActivityAt": "2026-07-01T20:38:56Z",
+      "lastActivityAt": "2026-07-10T14:44:52Z",
       "progress": {
         "percent": null,
         "label": "0 commits / 7d (develop)"
       },
       "highlights": [
-        "Sin actividad hace 8d (umbral 7d)",
         "Sin commits en los últimos 7 días"
       ],
       "links": {
@@ -112,8 +110,8 @@
   ],
   "summary": {
     "totalProjects": 4,
-    "healthy": 2,
-    "degraded": 2,
+    "healthy": 3,
+    "degraded": 1,
     "error": 0,
     "totalOpenPrs": 4
   }
