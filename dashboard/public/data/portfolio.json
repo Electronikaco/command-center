@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T14:30:16.528Z",
+  "generatedAt": "2026-07-11T15:00:20.675Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -42,11 +42,11 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 4,
-      "mergedPrs30d": 48,
+      "openPrs": 3,
+      "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-11T14:30:07Z",
+      "lastActivityAt": "2026-07-11T15:00:07Z",
       "progress": {
         "percent": 95,
         "label": "Fase 1 · Migración por servicio: 18/19"
@@ -113,6 +113,6 @@
     "healthy": 3,
     "degraded": 0,
     "error": 1,
-    "totalOpenPrs": 8
+    "totalOpenPrs": 7
   }
 }
