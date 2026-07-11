@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T23:30:19.960Z",
+  "generatedAt": "2026-07-11T00:00:32.649Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -9,14 +9,14 @@
     "supervisor": {
       "schedule": "cada 10 min",
       "lastRun": "2026-07-10T20:50:01Z",
-      "lastRunAgeSec": 9618,
+      "lastRunAgeSec": 11431,
       "healthy": false,
       "label": "Retrasado"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
       "lastRun": "2026-07-10T22:40:01Z",
-      "lastRunAgeSec": 3018,
+      "lastRunAgeSec": 4831,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -752,7 +752,7 @@
     "nextUc": null
   },
   "git": {
-    "openPrs": 0,
+    "openPrs": 1,
     "activeBranches": 19
   },
   "timeline": [
