@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T02:00:23.276Z",
+  "generatedAt": "2026-07-11T02:30:22.633Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -10,18 +10,16 @@
       "description": "Orquestador DosMentes — épicas y UCs",
       "health": "error",
       "healthReason": "Pipeline pausado",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
       "lastActivityAt": "2026-07-10T22:41:43Z",
       "progress": {
-        "percent": 94,
-        "label": "Programa 62/66 UCs"
+        "percent": 83,
+        "label": "Programa 55/66 UCs"
       },
-      "highlights": [
-        "1 PR(s) abierto(s)"
-      ],
+      "highlights": [],
       "detailRoute": "/project/dosmentes",
       "links": {
         "github": "https://github.com/electronikatm/dosmentes-front"
@@ -29,7 +27,7 @@
       "orchestratorSummary": {
         "estado": "procesado",
         "currentUc": null,
-        "programPercent": 94,
+        "programPercent": 83,
         "activeEpic": "EPIC-F piloto observabilidad",
         "agentLabel": "Pipeline pausado"
       }
@@ -113,6 +111,6 @@
     "healthy": 3,
     "degraded": 0,
     "error": 1,
-    "totalOpenPrs": 7
+    "totalOpenPrs": 6
   }
 }

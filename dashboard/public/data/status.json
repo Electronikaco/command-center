@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T02:00:25.366Z",
+  "generatedAt": "2026-07-11T02:30:25.225Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -9,14 +9,14 @@
     "supervisor": {
       "schedule": "cada 10 min",
       "lastRun": "2026-07-10T20:50:01Z",
-      "lastRunAgeSec": 18624,
+      "lastRunAgeSec": 20424,
       "healthy": false,
       "label": "Retrasado"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
       "lastRun": "2026-07-10T22:40:01Z",
-      "lastRunAgeSec": 12024,
+      "lastRunAgeSec": 13824,
       "healthy": true,
       "label": "En ejecución"
     }
@@ -62,7 +62,7 @@
       },
       {
         "key": "WISDOM",
-        "value": 92
+        "value": 87
       },
       {
         "key": "SNARK",
@@ -72,8 +72,8 @@
   },
   "program": {
     "totalUcs": 66,
-    "doneUcs": 62,
-    "percent": 94,
+    "doneUcs": 55,
+    "percent": 83,
     "epics": [
       {
         "branch": "epic/A-evaluacion-forense",
@@ -260,48 +260,48 @@
         "letter": "D",
         "label": "transcripcion visor",
         "totalUcs": 6,
-        "doneUcs": 6,
-        "percent": 100,
-        "status": "done",
+        "doneUcs": 0,
+        "percent": 0,
+        "status": "pending",
         "ucs": [
           {
             "code": "UC-DM-S6-01",
-            "done": true,
+            "done": false,
             "active": false,
             "issueOpen": false,
             "staleIssue": false
           },
           {
             "code": "UC-DM-S6-02",
-            "done": true,
+            "done": false,
             "active": false,
             "issueOpen": false,
             "staleIssue": false
           },
           {
             "code": "UC-DM-S6-03",
-            "done": true,
+            "done": false,
             "active": false,
             "issueOpen": false,
             "staleIssue": false
           },
           {
             "code": "UC-DM-S6-04",
-            "done": true,
+            "done": false,
             "active": false,
             "issueOpen": false,
             "staleIssue": false
           },
           {
             "code": "UC-DM-S6-05",
-            "done": true,
+            "done": false,
             "active": false,
             "issueOpen": false,
             "staleIssue": false
           },
           {
             "code": "UC-DM-S6-06",
-            "done": true,
+            "done": false,
             "active": false,
             "issueOpen": false,
             "staleIssue": false
@@ -359,8 +359,8 @@
         "letter": "F",
         "label": "piloto observabilidad",
         "totalUcs": 5,
-        "doneUcs": 1,
-        "percent": 20,
+        "doneUcs": 0,
+        "percent": 0,
         "status": "active",
         "ucs": [
           {
@@ -393,7 +393,7 @@
           },
           {
             "code": "UC-DM-S8-05",
-            "done": true,
+            "done": false,
             "active": false,
             "issueOpen": false,
             "staleIssue": false
@@ -673,8 +673,8 @@
       "letter": "F",
       "label": "piloto observabilidad",
       "totalUcs": 5,
-      "doneUcs": 1,
-      "percent": 20,
+      "doneUcs": 0,
+      "percent": 0,
       "status": "active",
       "ucs": [
         {
@@ -707,7 +707,7 @@
         },
         {
           "code": "UC-DM-S8-05",
-          "done": true,
+          "done": false,
           "active": false,
           "issueOpen": false,
           "staleIssue": false
@@ -752,8 +752,8 @@
     "nextUc": null
   },
   "git": {
-    "openPrs": 1,
-    "activeBranches": 19
+    "openPrs": 0,
+    "activeBranches": 21
   },
   "timeline": [
     {
