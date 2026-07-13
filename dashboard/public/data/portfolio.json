@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T14:00:19.959Z",
+  "generatedAt": "2026-07-13T14:30:18.424Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -46,14 +46,14 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-13T04:30:03Z",
+      "lastActivityAt": "2026-07-13T14:30:09Z",
       "progress": {
         "percent": 100,
         "label": "Fase 2 · Infraestructura: 8/8"
       },
       "highlights": [
         "Épicas: 9/13 cerradas",
-        "Global: 52/64 issues"
+        "Global: 53/64 issues"
       ],
       "links": {
         "github": "https://github.com/Electronikaco/civok-back"
