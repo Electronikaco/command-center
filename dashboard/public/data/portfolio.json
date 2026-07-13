@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T18:00:20.408Z",
+  "generatedAt": "2026-07-13T18:30:17.304Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -8,16 +8,15 @@
       "ghRepo": "electronikatm/dosmentes-front",
       "type": "orchestrator",
       "description": "Orquestador DosMentes — épicas y UCs",
-      "health": "error",
-      "healthReason": "Pipeline pausado",
+      "health": "degraded",
       "openPrs": 1,
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-10T22:41:43Z",
+      "lastActivityAt": "2026-07-13T18:30:05.459Z",
       "progress": {
-        "percent": 83,
-        "label": "Programa 55/66 UCs"
+        "percent": 0,
+        "label": "Programa 0/0 UCs"
       },
       "highlights": [
         "1 PR(s) abierto(s)"
@@ -27,11 +26,11 @@
         "github": "https://github.com/electronikatm/dosmentes-front"
       },
       "orchestratorSummary": {
-        "estado": "procesado",
+        "estado": "",
         "currentUc": null,
-        "programPercent": 83,
-        "activeEpic": "EPIC-F piloto observabilidad",
-        "agentLabel": "Pipeline pausado"
+        "programPercent": 0,
+        "activeEpic": null,
+        "agentLabel": "Inactivo"
       }
     },
     {
@@ -42,11 +41,11 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-13T18:00:09Z",
+      "lastActivityAt": "2026-07-13T18:05:24Z",
       "progress": {
         "percent": 100,
         "label": "Fase 2 · Infraestructura: 8/8"
@@ -111,8 +110,8 @@
   "summary": {
     "totalProjects": 4,
     "healthy": 3,
-    "degraded": 0,
-    "error": 1,
-    "totalOpenPrs": 5
+    "degraded": 1,
+    "error": 0,
+    "totalOpenPrs": 4
   }
 }
