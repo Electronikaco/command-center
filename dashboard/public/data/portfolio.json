@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T20:30:18.806Z",
+  "generatedAt": "2026-07-13T21:00:19.203Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-13T20:30:05.901Z",
+      "lastActivityAt": "2026-07-13T21:00:05.637Z",
       "progress": {
         "percent": 0,
         "label": "Programa 0/0 UCs"
@@ -43,16 +43,16 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 29,
+      "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-13T20:30:08Z",
+      "lastActivityAt": "2026-07-13T21:00:08Z",
       "progress": {
         "percent": 100,
         "label": "Fase 2 · Infraestructura: 8/8"
       },
       "highlights": [
         "Épicas: 11/13 cerradas",
-        "Global: 61/64 issues"
+        "Global: 62/64 issues"
       ],
       "links": {
         "github": "https://github.com/Electronikaco/civok-back"
@@ -68,7 +68,7 @@
       "health": "ok",
       "openPrs": 3,
       "mergedPrs30d": 1,
-      "commits7d": 4,
+      "commits7d": 3,
       "commits30d": 23,
       "lastActivityAt": "2026-07-10T21:33:15Z",
       "progress": {
