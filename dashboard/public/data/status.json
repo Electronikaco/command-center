@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T11:00:22.491Z",
+  "generatedAt": "2026-07-13T11:30:18.152Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -9,14 +9,14 @@
     "supervisor": {
       "schedule": "cada 10 min",
       "lastRun": "2026-07-10T20:50:01Z",
-      "lastRunAgeSec": 223821,
+      "lastRunAgeSec": 225617,
       "healthy": false,
       "label": "Retrasado"
     },
     "opusWorker": {
       "schedule": "cada 5 min",
       "lastRun": "2026-07-10T22:40:01Z",
-      "lastRunAgeSec": 217221,
+      "lastRunAgeSec": 219017,
       "healthy": true,
       "label": "En ejecución"
     }
