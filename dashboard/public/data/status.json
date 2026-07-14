@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T21:30:18.365Z",
+  "generatedAt": "2026-07-14T22:00:21.938Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -71,11 +71,221 @@
     "epics": [],
     "activeEpic": null,
     "githubBacklog": {
-      "openCount": 2,
+      "openCount": 32,
       "trackedOpenCount": 0,
       "pendingCount": 0,
       "staleCount": 0,
       "items": [
+        {
+          "number": 227,
+          "title": "UC-FE-001-39 · Frente C — migrar tenant-audit a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/227",
+          "kind": "other"
+        },
+        {
+          "number": 226,
+          "title": "UC-FE-001-38 · Frente C — migrar pilot-baseline a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/226",
+          "kind": "other"
+        },
+        {
+          "number": 225,
+          "title": "UC-FE-001-37 · Frente C — migrar onboarding-beta a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/225",
+          "kind": "other"
+        },
+        {
+          "number": 224,
+          "title": "UC-FE-001-36 · Frente C — migrar interviews a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/224",
+          "kind": "other"
+        },
+        {
+          "number": 223,
+          "title": "UC-FE-001-35 · Frente C — migrar incidents a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/223",
+          "kind": "other"
+        },
+        {
+          "number": 222,
+          "title": "UC-FE-001-34 · Frente C — migrar feedback a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/222",
+          "kind": "other"
+        },
+        {
+          "number": 221,
+          "title": "UC-FE-001-33 · Frente C — migrar case-timeline a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/221",
+          "kind": "other"
+        },
+        {
+          "number": 220,
+          "title": "UC-FE-001-32 · Frente C — migrar case-synthesis a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/220",
+          "kind": "other"
+        },
+        {
+          "number": 219,
+          "title": "UC-FE-001-31 · Frente C — migrar case-sva a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/219",
+          "kind": "other"
+        },
+        {
+          "number": 218,
+          "title": "UC-FE-001-30 · Frente C — migrar case-rm a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/218",
+          "kind": "other"
+        },
+        {
+          "number": 217,
+          "title": "UC-FE-001-29 · Frente C — migrar case-review a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/217",
+          "kind": "other"
+        },
+        {
+          "number": 216,
+          "title": "UC-FE-001-28 · Frente C — migrar case-reports a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/216",
+          "kind": "other"
+        },
+        {
+          "number": 215,
+          "title": "UC-FE-001-27 · Frente C — migrar case-quality-review a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/215",
+          "kind": "other"
+        },
+        {
+          "number": 214,
+          "title": "UC-FE-001-26 · Frente C — migrar case-packages a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/214",
+          "kind": "other"
+        },
+        {
+          "number": 213,
+          "title": "UC-FE-001-25 · Frente C — migrar case-metapericia a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/213",
+          "kind": "other"
+        },
+        {
+          "number": 212,
+          "title": "UC-FE-001-24 · Frente C — migrar case-intake-request a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/212",
+          "kind": "other"
+        },
+        {
+          "number": 211,
+          "title": "UC-FE-001-23 · Frente C — migrar case-file a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/211",
+          "kind": "other"
+        },
+        {
+          "number": 210,
+          "title": "UC-FE-001-22 · Frente C — migrar case-evaluation a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/210",
+          "kind": "other"
+        },
+        {
+          "number": 209,
+          "title": "UC-FE-001-21 · Frente C — migrar case-consistency a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/209",
+          "kind": "other"
+        },
+        {
+          "number": 208,
+          "title": "UC-FE-001-20 · Frente C — migrar case-closure a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/208",
+          "kind": "other"
+        },
+        {
+          "number": 207,
+          "title": "UC-FE-001-19 · Frente C — migrar case-cbca a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/207",
+          "kind": "other"
+        },
+        {
+          "number": 206,
+          "title": "UC-FE-001-18 · Frente C — migrar case-audit a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/206",
+          "kind": "other"
+        },
+        {
+          "number": 205,
+          "title": "UC-FE-001-17 · Frente C — migrar case-annotations a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/205",
+          "kind": "other"
+        },
+        {
+          "number": 204,
+          "title": "UC-FE-001-16 · Frente C — migrar case-analysis a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/204",
+          "kind": "other"
+        },
+        {
+          "number": 203,
+          "title": "UC-FE-001-15 · Frente C — migrar access a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/203",
+          "kind": "other"
+        },
+        {
+          "number": 202,
+          "title": "UC-FE-001-14 · Frente C — dedup z.string().email() residual",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/202",
+          "kind": "other"
+        },
+        {
+          "number": 201,
+          "title": "UC-FE-001-13 · Frente C — migrar evidence a FileField",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/201",
+          "kind": "other"
+        },
+        {
+          "number": 200,
+          "title": "UC-FE-001-12 · Frente C — fix urgente noValidate en tenant-settings",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/200",
+          "kind": "other"
+        },
+        {
+          "number": 199,
+          "title": "UC-FE-001-11 · Frente C — migrar intake a campos tipados",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/199",
+          "kind": "other"
+        },
+        {
+          "number": 198,
+          "title": "[EPIC] L-tipificacion-campos-formulario — Frente C (migración módulo por módulo)",
+          "code": null,
+          "url": "https://github.com/electronikatm/dosmentes-front/issues/198",
+          "kind": "other"
+        },
         {
           "number": 60,
           "title": "UC-DM-INFRA-01 · Contrato OpenAPI por módulo (recurrente al cierre)",
@@ -108,7 +318,7 @@
     "nextUc": null
   },
   "git": {
-    "openPrs": 1,
+    "openPrs": 2,
     "activeBranches": 20
   },
   "timeline": [],

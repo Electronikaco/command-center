@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T21:30:16.698Z",
+  "generatedAt": "2026-07-14T22:00:19.554Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,17 +9,17 @@
       "type": "orchestrator",
       "description": "Orquestador DosMentes — épicas y UCs",
       "health": "degraded",
-      "openPrs": 1,
+      "openPrs": 2,
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-14T21:30:05.073Z",
+      "lastActivityAt": "2026-07-14T22:00:05.708Z",
       "progress": {
         "percent": 0,
         "label": "Programa 0/0 UCs"
       },
       "highlights": [
-        "1 PR(s) abierto(s)"
+        "2 PR(s) abierto(s)"
       ],
       "detailRoute": "/project/dosmentes",
       "links": {
@@ -66,11 +66,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 2,
       "mergedPrs30d": 3,
       "commits7d": 6,
       "commits30d": 27,
-      "lastActivityAt": "2026-07-14T15:12:31Z",
+      "lastActivityAt": "2026-07-14T21:32:21Z",
       "progress": {
         "percent": 0,
         "label": "0/18 issues"
@@ -112,6 +112,6 @@
     "healthy": 3,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 4
   }
 }
