@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T13:30:18.941Z",
+  "generatedAt": "2026-07-14T14:00:21.550Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-14T13:30:07.680Z",
+      "lastActivityAt": "2026-07-14T14:00:08.718Z",
       "progress": {
         "percent": 0,
         "label": "Programa 0/0 UCs"
@@ -41,18 +41,18 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-13T23:41:45Z",
+      "lastActivityAt": "2026-07-14T14:00:09Z",
       "progress": {
         "percent": 100,
         "label": "Fase 1 · Migración por servicio: 19/19"
       },
       "highlights": [
         "Épicas: 13/13 cerradas",
-        "Global: 64/67 issues"
+        "Global: 65/67 issues"
       ],
       "links": {
         "github": "https://github.com/Electronikaco/civok-back"
@@ -112,6 +112,6 @@
     "healthy": 3,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 5
+    "totalOpenPrs": 4
   }
 }
