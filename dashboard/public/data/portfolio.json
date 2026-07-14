@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T14:00:21.550Z",
+  "generatedAt": "2026-07-14T14:30:15.858Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-14T14:00:08.718Z",
+      "lastActivityAt": "2026-07-14T14:30:04.288Z",
       "progress": {
         "percent": 0,
         "label": "Programa 0/0 UCs"
@@ -45,7 +45,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-14T14:00:09Z",
+      "lastActivityAt": "2026-07-14T14:00:11Z",
       "progress": {
         "percent": 100,
         "label": "Fase 1 · Migración por servicio: 19/19"
