@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T20:30:18.017Z",
+  "generatedAt": "2026-07-14T21:00:19.233Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-14T20:30:05.325Z",
+      "lastActivityAt": "2026-07-14T21:00:05.863Z",
       "progress": {
         "percent": 0,
         "label": "Programa 0/0 UCs"
@@ -73,11 +73,11 @@
       "lastActivityAt": "2026-07-14T15:12:31Z",
       "progress": {
         "percent": 0,
-        "label": "0/14 issues"
+        "label": "0/18 issues"
       },
       "highlights": [
         "Épicas: 0/14 cerradas",
-        "Global: 0/14 issues"
+        "Global: 0/18 issues"
       ],
       "links": {
         "github": "https://github.com/ia-saas/miliia_back",
