@@ -208,6 +208,7 @@ export function collectGithubProject(project) {
     const mode = project.progress?.mode ?? "activity";
     let progress = { percent: null, label: "—" };
     const highlights = [];
+    const progressMeters = [];
     let issueBreakdown = null;
     if (!collectorError) {
         switch (mode) {
@@ -220,18 +221,30 @@ export function collectGithubProject(project) {
                     if (activeIssues.length > 0) {
                         issueBreakdown = buildIssueBreakdown(active.title, activeIssues);
                     }
+                    const activeTotal = active.open_issues + active.closed_issues;
+                    if (activeTotal > 0) {
+                        progressMeters.push({
+                            label: "Épica activa",
+                            closed: active.closed_issues,
+                            total: activeTotal,
+                        });
+                    }
                 }
                 if (project.labels?.epic) {
                     const epics = fetchIssues(ghRepo, project.labels.epic);
                     const closed = epics.filter((i) => i.state === "CLOSED").length;
                     if (epics.length > 0) {
-                        highlights.push(`Épicas: ${closed}/${epics.length} cerradas`);
+                        progressMeters.push({ label: "Épicas", closed, total: epics.length });
                     }
                 }
                 const globalIssues = fetchIssues(ghRepo);
                 const gClosed = globalIssues.filter((i) => i.state === "CLOSED").length;
                 if (globalIssues.length > 0) {
-                    highlights.push(`Global: ${gClosed}/${globalIssues.length} issues`);
+                    progressMeters.push({
+                        label: "Global",
+                        closed: gClosed,
+                        total: globalIssues.length,
+                    });
                 }
                 break;
             }
@@ -241,19 +254,31 @@ export function collectGithubProject(project) {
                 progress = issuesProgress(issues);
                 if (issues.length > 0) {
                     issueBreakdown = buildIssueBreakdown(label ?? "Issues", issues);
+                    const closed = issues.filter((i) => i.state === "CLOSED").length;
+                    progressMeters.push({
+                        label: label ? `Issues (${label})` : "Issues",
+                        closed,
+                        total: issues.length,
+                    });
                 }
                 if (project.labels?.epic) {
                     const epics = fetchIssues(ghRepo, project.labels.epic);
                     const closed = epics.filter((i) => i.state === "CLOSED").length;
                     if (epics.length > 0) {
-                        highlights.push(`Épicas: ${closed}/${epics.length} cerradas`);
+                        progressMeters.push({ label: "Épicas", closed, total: epics.length });
                     }
                 }
-                if (!label) {
+                if (label) {
+                    // "Issues" ya arriba mide todo el repo cuando no hay label — un
+                    // meter "Global" aparte solo aporta cuando el principal es un subset.
                     const globalIssues = fetchIssues(ghRepo);
                     const gClosed = globalIssues.filter((i) => i.state === "CLOSED").length;
                     if (globalIssues.length > 0) {
-                        highlights.push(`Global: ${gClosed}/${globalIssues.length} issues`);
+                        progressMeters.push({
+                            label: "Global",
+                            closed: gClosed,
+                            total: globalIssues.length,
+                        });
                     }
                 }
                 break;
@@ -290,6 +315,7 @@ export function collectGithubProject(project) {
         commits30d,
         lastActivityAt,
         progress,
+        progressMeters,
         highlights: [...healthResult.highlights, ...highlights],
         issueBreakdown,
         links: project.links,

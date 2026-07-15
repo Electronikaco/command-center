@@ -44,19 +44,29 @@ export function ProjectCard({ project }: Props) {
       )}
 
       <div className="project-metrics">
-        {project.progress.percent !== null ? (
-          <div className="metric-row">
-            <span className="metric-label">Avance</span>
-            <div className="progress-wrap">
-              <div
-                className="progress-bar"
-                style={{ width: `${project.progress.percent}%` }}
-              />
-            </div>
-            <span className="metric-value">{project.progress.percent}%</span>
+        {project.progressMeters.length > 0 ? (
+          <div className="progress-meters">
+            {project.progressMeters.map((meter) => {
+              const pct =
+                meter.total > 0 ? Math.round((meter.closed / meter.total) * 100) : 0;
+              return (
+                <div className="meter-row" key={meter.label}>
+                  <div className="meter-head">
+                    <span className="meter-label">{meter.label}</span>
+                    <span className="meter-value">
+                      {meter.closed}/{meter.total} · {pct}%
+                    </span>
+                  </div>
+                  <div className="meter-track">
+                    <div className="meter-fill" style={{ width: `${pct}%` }} />
+                  </div>
+                </div>
+              );
+            })}
           </div>
-        ) : null}
-        <p className="progress-label">{project.progress.label}</p>
+        ) : (
+          <p className="progress-label">{project.progress.label}</p>
+        )}
 
         <div className="metric-chips">
           <span className="chip">PRs: {project.openPrs}</span>
