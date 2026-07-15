@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T22:30:23.695Z",
+  "generatedAt": "2026-07-15T23:00:23.024Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -270,7 +270,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-15T21:10:05Z",
+      "lastActivityAt": "2026-07-15T23:00:03Z",
       "progress": {
         "percent": 100,
         "label": "Sin épica activa · 64/64 issues cerradas"
