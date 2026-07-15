@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T19:52:44.648Z",
+  "generatedAt": "2026-07-15T20:05:27.579Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -18,10 +18,24 @@
         "percent": 3,
         "label": "L · Tipificación de campos de formulario (EPIC-L): 1/30"
       },
-      "highlights": [
-        "Épicas: 10/12 cerradas",
-        "Global: 77/108 issues"
+      "progressMeters": [
+        {
+          "label": "Épica activa",
+          "closed": 1,
+          "total": 30
+        },
+        {
+          "label": "Épicas",
+          "closed": 10,
+          "total": 12
+        },
+        {
+          "label": "Global",
+          "closed": 77,
+          "total": 108
+        }
       ],
+      "highlights": [],
       "issueBreakdown": {
         "label": "L · Tipificación de campos de formulario (EPIC-L)",
         "totalIssues": 30,
@@ -261,10 +275,19 @@
         "percent": 100,
         "label": "Sin épica activa · 64/64 issues cerradas"
       },
-      "highlights": [
-        "Épicas: 13/13 cerradas",
-        "Global: 67/67 issues"
+      "progressMeters": [
+        {
+          "label": "Épicas",
+          "closed": 13,
+          "total": 13
+        },
+        {
+          "label": "Global",
+          "closed": 67,
+          "total": 67
+        }
       ],
+      "highlights": [],
       "issueBreakdown": null,
       "links": {
         "github": "https://github.com/Electronikaco/civok-back"
@@ -287,10 +310,19 @@
         "percent": 0,
         "label": "0/18 issues"
       },
-      "highlights": [
-        "Épicas: 0/14 cerradas",
-        "Global: 0/18 issues"
+      "progressMeters": [
+        {
+          "label": "Issues",
+          "closed": 0,
+          "total": 18
+        },
+        {
+          "label": "Épicas",
+          "closed": 0,
+          "total": 14
+        }
       ],
+      "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 18,
@@ -447,6 +479,7 @@
         "percent": null,
         "label": "3 commits / 7d (develop)"
       },
+      "progressMeters": [],
       "highlights": [],
       "issueBreakdown": null,
       "links": {

@@ -37,6 +37,12 @@ export interface ProjectProgress {
   label: string;
 }
 
+export interface ProgressMeter {
+  label: string;
+  closed: number;
+  total: number;
+}
+
 export interface IssueBreakdownItem {
   number: number;
   title: string;
@@ -68,6 +74,7 @@ export interface ProjectSnapshot {
   commits30d: number;
   lastActivityAt: string | null;
   progress: ProjectProgress;
+  progressMeters: ProgressMeter[];
   highlights: string[];
   issueBreakdown?: IssueBreakdown | null;
   links?: Record<string, string>;
