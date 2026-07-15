@@ -1,36 +1,29 @@
 {
-  "generatedAt": "2026-07-15T18:00:21.444Z",
+  "generatedAt": "2026-07-15T18:06:00.331Z",
   "projects": [
     {
       "id": "dosmentes",
       "name": "DosMentes",
       "org": "electronikatm",
       "ghRepo": "electronikatm/dosmentes-front",
-      "type": "orchestrator",
-      "description": "Orquestador DosMentes — épicas y UCs",
-      "health": "degraded",
+      "type": "github",
+      "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
+      "health": "ok",
       "openPrs": 1,
-      "mergedPrs30d": 0,
-      "commits7d": 0,
-      "commits30d": 0,
-      "lastActivityAt": "2026-07-15T18:00:07.725Z",
+      "mergedPrs30d": 50,
+      "commits7d": 17,
+      "commits30d": 30,
+      "lastActivityAt": "2026-07-15T17:43:29Z",
       "progress": {
-        "percent": 0,
-        "label": "Programa 0/0 UCs"
+        "percent": 100,
+        "label": "S8 · Piloto y observabilidad (EPIC-F): 6/6"
       },
       "highlights": [
-        "1 PR(s) abierto(s)"
+        "Épicas: 10/12 cerradas",
+        "Global: 77/108 issues"
       ],
-      "detailRoute": "/project/dosmentes",
       "links": {
         "github": "https://github.com/electronikatm/dosmentes-front"
-      },
-      "orchestratorSummary": {
-        "estado": "",
-        "currentUc": null,
-        "programPercent": 0,
-        "activeEpic": null,
-        "agentLabel": "Inactivo"
       }
     },
     {
@@ -109,8 +102,8 @@
   ],
   "summary": {
     "totalProjects": 4,
-    "healthy": 3,
-    "degraded": 1,
+    "healthy": 4,
+    "degraded": 0,
     "error": 0,
     "totalOpenPrs": 3
   }
