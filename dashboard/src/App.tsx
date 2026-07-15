@@ -1,5 +1,6 @@
 import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 import PortfolioView from "./PortfolioView";
+import "./App.css";
 
 const isStatic = import.meta.env.VITE_STATIC_PORTFOLIO === "1";
 const basename = import.meta.env.BASE_URL.replace(/\/$/, "") || undefined;
