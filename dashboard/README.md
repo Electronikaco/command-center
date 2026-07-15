@@ -1,26 +1,35 @@
-# DosMentes Orchestrator Dashboard
+# Command Center Dashboard
 
-Panel de monitoreo del orquestador (Cursor supervisor + Claude Opus worker) y **vista portfolio** multi-proyecto GitHub.
+Vista portfolio multi-proyecto: estado de salud, PRs abiertos y avance
+(milestones/issues/actividad) de cada repo monitorizado, leído directo de
+GitHub vía `gh`.
 
 - **Puerto:** `3099` (solo `127.0.0.1`)
-- **Refresh:** portfolio 60 s · DosMentes detalle 30 s
+- **Refresh:** portfolio cada 60 s
 - **Stack:** Vite + React + TypeScript + Express
 
 ## Rutas UI
 
 | Ruta | Vista |
 |------|-------|
-| `/` | Portfolio gerencial (4 proyectos) |
-| `/project/dosmentes` | Command Center detallado DosMentes |
+| `/` | Portfolio gerencial (proyectos registrados) |
 
 ## Proyectos monitorizados
 
-Configuración en [`projects.registry.yaml`](projects.registry.yaml):
+Configuración en [`projects.registry.yaml`](projects.registry.yaml). Cada
+entry define `ghRepo`, la rama a trackear y el modo de progreso
+(`milestones`, `issues`, `activity`) que mejor calce con cómo ese equipo
+gestiona su trabajo:
 
-- **DosMentes** — orquestador local + `electronikatm/dosmentes-front`
+- **DosMentes** — `electronikatm/dosmentes-front` (milestones)
 - **Civok Back** — `Electronikaco/civok-back` (milestones)
-- **Miliia Back** — `ia-saas/miliia_back` (actividad commits)
+- **Miliia Back** — `ia-saas/miliia_back` (issues)
 - **Civok Agentik** — `electronikatm/civok-agentik` (actividad en `develop`)
+
+### Agregar un proyecto nuevo
+
+Agregar un entry en `projects.registry.yaml` con `ghRepo`, `type: github` y
+el modo de `progress` que corresponda — no requiere cambios de código.
 
 ## Instalación (VPS)
 
@@ -44,13 +53,10 @@ Abrir en el navegador: http://localhost:3099
 
 ```bash
 # Estado del servicio
-systemctl --user status dosmentes-orchestrator-dashboard
+systemctl --user status command-center-dashboard
 
 # Logs
-journalctl --user -u dosmentes-orchestrator-dashboard -f
-
-# Snapshot DosMentes (escribe status-api.json)
-pnpm collector:once
+journalctl --user -u command-center-dashboard -f
 
 # Snapshot portfolio completo
 pnpm collector:portfolio:once
@@ -65,8 +71,7 @@ pnpm dev
 |----------|-------------|
 | `GET /api/portfolio` | Snapshot agregado de todos los proyectos |
 | `GET /api/projects/:id` | Detalle de un proyecto |
-| `GET /api/status` | Snapshot completo orquestador DosMentes |
-| `GET /api/health` | `{ ok, generatedAt, statusAt }` |
+| `GET /api/health` | `{ ok, generatedAt }` |
 
 ## Variables de entorno
 
@@ -74,16 +79,15 @@ pnpm dev
 |----------|---------|
 | `PROJECTS_REGISTRY` | `./projects.registry.yaml` |
 | `PORTFOLIO_POLL_SEC` | `60` |
-| `POLL_SEC` | `30` |
-| `ORCH_DIR` | `/home/claude/dosmentes/.orchestrator` |
 
-El collector DosMentes escribe además `../status-api.json` en `.orchestrator/`.
-
-## Publicación para jefes (GitHub Pages)
+## Publicación para gerencia (GitHub Pages)
 
 URL pública: **https://electronikaco.github.io/command-center/**
 
-El workflow [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) regenera el snapshot **cada 15 min** (cron GitHub) y el VPS dispara un refresh de respaldo **cada 30 min**.
+El VPS dispara un refresh cada **30 min** (`scripts/trigger-pages-refresh.sh`)
+que publica `portfolio.json` y dispara [`.github/workflows/pages.yml`](../.github/workflows/pages.yml).
+Ese mismo workflow corre además cada 30 min por cron de GitHub como respaldo
+(genera el snapshot en CI si no hay uno reciente del VPS).
 
 La UI en Pages **re-consulta el JSON cada 5 min** (con cache-bust) si dejas la pestaña abierta.
 
@@ -97,8 +101,7 @@ La UI en Pages **re-consulta el JSON cada 5 min** (con cache-bust) si dejas la p
 
 | Modo | URL | Actualización |
 |------|-----|----------------|
-| **Snapshot (jefes)** | https://electronikaco.github.io/command-center/ | Cada 30 min vía GitHub Actions |
-| **DosMentes detalle (Pages)** | https://electronikaco.github.io/command-center/#/project/dosmentes | Snapshot estático |
-| **En vivo (VPS)** | túnel SSH → `localhost:3099` | Cada 30–60 s |
+| **Snapshot (gerencia)** | https://electronikaco.github.io/command-center/ | Cada 30 min vía GitHub Actions |
+| **En vivo (VPS)** | túnel SSH → `localhost:3099` | Cada 60 s |
 
-Los jefes no necesitan SSH; solo abrir el enlace de GitHub Pages.
+Gerencia no necesita SSH; solo abrir el enlace de GitHub Pages.

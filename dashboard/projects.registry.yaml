@@ -3,10 +3,19 @@ projects:
     name: DosMentes
     org: electronikatm
     ghRepo: electronikatm/dosmentes-front
-    type: orchestrator
-    orchDir: /home/claude/dosmentes/.orchestrator
-    repoDir: /home/claude/dosmentes/dosmentes-front
-    detailRoute: /project/dosmentes
+    type: github
+    baseBranch: develop
+    description: Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone
+    progress:
+      mode: milestones
+      showActivePhase: true
+    labels:
+      epic: epic
+    health:
+      stalePrDays: 7
+      inactiveDays: 14
+    links:
+      github: https://github.com/electronikatm/dosmentes-front
 
   - id: civok-back
     name: Civok Back
