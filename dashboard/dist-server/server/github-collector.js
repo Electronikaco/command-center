@@ -1,4 +1,5 @@
 import { daysAgo, formatRelative, ghApiJson, ghJson, isoAfter } from "./gh-utils.js";
+const BREAKDOWN_CAP = 50;
 function countCommitsInWindow(ghRepo, branch, since) {
     try {
         const commits = ghApiJson(`repos/${ghRepo}/commits?sha=${encodeURIComponent(branch)}&per_page=100`);
@@ -20,31 +21,64 @@ function fetchMilestones(ghRepo) {
 function fetchIssues(ghRepo, label) {
     try {
         const labelPart = label ? `--label "${label}" ` : "";
-        return ghJson(`issue list --repo ${ghRepo} ${labelPart}--state all --limit 200 --json state,labels`);
+        return ghJson(`issue list --repo ${ghRepo} ${labelPart}--state all --limit 200 --json number,title,url,updatedAt,state,labels`);
     }
     catch {
         return [];
     }
 }
-function milestoneProgress(milestones, showActivePhase) {
+function fetchMilestoneIssues(ghRepo, milestoneTitle) {
+    try {
+        return ghJson(`issue list --repo ${ghRepo} --milestone "${milestoneTitle}" --state all --limit 200 --json number,title,url,updatedAt,state,labels`);
+    }
+    catch {
+        return [];
+    }
+}
+function buildIssueBreakdown(label, items) {
+    const sorted = [...items].sort((a, b) => {
+        if (a.state !== b.state)
+            return a.state === "OPEN" ? -1 : 1;
+        return new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime();
+    });
+    return {
+        label,
+        totalIssues: items.length,
+        closedIssues: items.filter((i) => i.state === "CLOSED").length,
+        issues: sorted.slice(0, BREAKDOWN_CAP).map((i) => ({
+            number: i.number,
+            title: i.title,
+            state: i.state,
+            url: i.url,
+            updatedAt: i.updatedAt,
+        })),
+        truncated: items.length > BREAKDOWN_CAP,
+    };
+}
+/**
+ * La "épica activa" es el milestone abierto con trabajo pendiente real
+ * (open_issues > 0), no el de mayor % completado — un milestone puede
+ * quedar "open" en GitHub mucho después de que todas sus issues se cerraron.
+ */
+function selectActiveMilestone(milestones, showActivePhase) {
+    if (!showActivePhase)
+        return null;
+    const withPendingWork = milestones
+        .filter((m) => m.state === "open" && m.open_issues > 0)
+        .sort((a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime());
+    return withPendingWork[0] ?? null;
+}
+function milestoneProgress(milestones, active) {
     if (milestones.length === 0) {
         return { percent: null, label: "Sin milestones" };
     }
-    if (showActivePhase) {
-        const open = milestones
-            .filter((m) => m.state === "open")
-            .map((m) => ({
-            ...m,
-            total: m.open_issues + m.closed_issues,
-            pct: m.closed_issues / Math.max(m.open_issues + m.closed_issues, 1),
-        }))
-            .sort((a, b) => b.pct - a.pct);
-        const active = open[0];
-        if (active && active.total > 0) {
-            const pct = Math.round((active.closed_issues / active.total) * 100);
+    if (active) {
+        const total = active.open_issues + active.closed_issues;
+        if (total > 0) {
+            const pct = Math.round((active.closed_issues / total) * 100);
             return {
                 percent: pct,
-                label: `${active.title}: ${active.closed_issues}/${active.total}`,
+                label: `${active.title}: ${active.closed_issues}/${total}`,
             };
         }
     }
@@ -53,6 +87,12 @@ function milestoneProgress(milestones, showActivePhase) {
     const total = totalOpen + totalClosed;
     if (total === 0)
         return { percent: null, label: "Milestones vacíos" };
+    if (totalOpen === 0) {
+        return {
+            percent: 100,
+            label: `Sin épica activa · ${totalClosed}/${total} issues cerradas`,
+        };
+    }
     const pct = Math.round((totalClosed / total) * 100);
     return { percent: pct, label: `${totalClosed}/${total} issues en milestones` };
 }
@@ -168,11 +208,19 @@ export function collectGithubProject(project) {
     const mode = project.progress?.mode ?? "activity";
     let progress = { percent: null, label: "—" };
     const highlights = [];
+    let issueBreakdown = null;
     if (!collectorError) {
         switch (mode) {
             case "milestones": {
                 const milestones = fetchMilestones(ghRepo);
-                progress = milestoneProgress(milestones, project.progress?.showActivePhase ?? false);
+                const active = selectActiveMilestone(milestones, project.progress?.showActivePhase ?? false);
+                progress = milestoneProgress(milestones, active);
+                if (active) {
+                    const activeIssues = fetchMilestoneIssues(ghRepo, active.title);
+                    if (activeIssues.length > 0) {
+                        issueBreakdown = buildIssueBreakdown(active.title, activeIssues);
+                    }
+                }
                 if (project.labels?.epic) {
                     const epics = fetchIssues(ghRepo, project.labels.epic);
                     const closed = epics.filter((i) => i.state === "CLOSED").length;
@@ -191,6 +239,9 @@ export function collectGithubProject(project) {
                 const label = project.progress?.issueLabel;
                 const issues = fetchIssues(ghRepo, label);
                 progress = issuesProgress(issues);
+                if (issues.length > 0) {
+                    issueBreakdown = buildIssueBreakdown(label ?? "Issues", issues);
+                }
                 if (project.labels?.epic) {
                     const epics = fetchIssues(ghRepo, project.labels.epic);
                     const closed = epics.filter((i) => i.state === "CLOSED").length;
@@ -240,6 +291,7 @@ export function collectGithubProject(project) {
         lastActivityAt,
         progress,
         highlights: [...healthResult.highlights, ...highlights],
+        issueBreakdown,
         links: project.links,
     };
 }

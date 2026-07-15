@@ -171,12 +171,6 @@
   color: var(--primary);
 }
 
-.orch-summary {
-  margin: 0.35rem 0 0;
-  font-size: 0.75rem;
-  color: var(--muted);
-}
-
 .metric-chips {
   display: flex;
   flex-wrap: wrap;
@@ -223,14 +217,85 @@
   color: var(--primary);
 }
 
-.header-row .back-link {
-  display: inline-block;
-  font-size: 0.75rem;
-  color: var(--muted);
-  text-decoration: none;
-  margin-bottom: 0.35rem;
+.issue-breakdown {
+  border-top: 1px solid var(--border);
+  padding-top: 0.6rem;
 }
 
-.header-row .back-link:hover {
+.issue-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.75rem;
+  color: var(--muted);
+  cursor: pointer;
+  text-align: left;
+}
+
+.issue-toggle:hover {
+  color: var(--text);
+}
+
+.issue-toggle-arrow {
+  flex-shrink: 0;
+  margin-left: 0.5rem;
+}
+
+.issue-list {
+  list-style: none;
+  margin: 0.6rem 0 0;
+  padding: 0;
+  max-height: 260px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.issue-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+}
+
+.issue-check {
+  flex-shrink: 0;
+  width: 1rem;
+  text-align: center;
+}
+
+.issue-item.issue-closed .issue-check {
+  color: var(--ok);
+}
+
+.issue-item.issue-open .issue-check {
+  color: var(--muted);
+}
+
+.issue-item.issue-closed .issue-link {
+  color: var(--muted);
+  text-decoration: line-through;
+}
+
+.issue-link {
+  color: var(--text);
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.issue-link:hover {
   color: var(--primary);
+}
+
+.issue-item.issue-more .issue-link {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
 }

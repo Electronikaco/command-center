@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T18:06:00.331Z",
+  "generatedAt": "2026-07-15T19:30:51.060Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -15,13 +15,231 @@
       "commits30d": 30,
       "lastActivityAt": "2026-07-15T17:43:29Z",
       "progress": {
-        "percent": 100,
-        "label": "S8 · Piloto y observabilidad (EPIC-F): 6/6"
+        "percent": 3,
+        "label": "L · Tipificación de campos de formulario (EPIC-L): 1/30"
       },
       "highlights": [
         "Épicas: 10/12 cerradas",
         "Global: 77/108 issues"
       ],
+      "issueBreakdown": {
+        "label": "L · Tipificación de campos de formulario (EPIC-L)",
+        "totalIssues": 30,
+        "closedIssues": 1,
+        "issues": [
+          {
+            "number": 200,
+            "title": "UC-FE-001-12 · Frente C — fix urgente noValidate en tenant-settings",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/200",
+            "updatedAt": "2026-07-15T17:28:40Z"
+          },
+          {
+            "number": 198,
+            "title": "[EPIC] L-tipificacion-campos-formulario — Frente C (migración módulo por módulo)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/198",
+            "updatedAt": "2026-07-14T21:39:34Z"
+          },
+          {
+            "number": 227,
+            "title": "UC-FE-001-39 · Frente C — migrar tenant-audit a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/227",
+            "updatedAt": "2026-07-14T21:39:11Z"
+          },
+          {
+            "number": 226,
+            "title": "UC-FE-001-38 · Frente C — migrar pilot-baseline a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/226",
+            "updatedAt": "2026-07-14T21:39:09Z"
+          },
+          {
+            "number": 225,
+            "title": "UC-FE-001-37 · Frente C — migrar onboarding-beta a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/225",
+            "updatedAt": "2026-07-14T21:39:08Z"
+          },
+          {
+            "number": 224,
+            "title": "UC-FE-001-36 · Frente C — migrar interviews a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/224",
+            "updatedAt": "2026-07-14T21:39:06Z"
+          },
+          {
+            "number": 223,
+            "title": "UC-FE-001-35 · Frente C — migrar incidents a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/223",
+            "updatedAt": "2026-07-14T21:39:05Z"
+          },
+          {
+            "number": 222,
+            "title": "UC-FE-001-34 · Frente C — migrar feedback a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/222",
+            "updatedAt": "2026-07-14T21:39:04Z"
+          },
+          {
+            "number": 221,
+            "title": "UC-FE-001-33 · Frente C — migrar case-timeline a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/221",
+            "updatedAt": "2026-07-14T21:39:02Z"
+          },
+          {
+            "number": 220,
+            "title": "UC-FE-001-32 · Frente C — migrar case-synthesis a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/220",
+            "updatedAt": "2026-07-14T21:39:01Z"
+          },
+          {
+            "number": 219,
+            "title": "UC-FE-001-31 · Frente C — migrar case-sva a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/219",
+            "updatedAt": "2026-07-14T21:38:59Z"
+          },
+          {
+            "number": 218,
+            "title": "UC-FE-001-30 · Frente C — migrar case-rm a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/218",
+            "updatedAt": "2026-07-14T21:38:58Z"
+          },
+          {
+            "number": 217,
+            "title": "UC-FE-001-29 · Frente C — migrar case-review a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/217",
+            "updatedAt": "2026-07-14T21:38:57Z"
+          },
+          {
+            "number": 216,
+            "title": "UC-FE-001-28 · Frente C — migrar case-reports a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/216",
+            "updatedAt": "2026-07-14T21:38:55Z"
+          },
+          {
+            "number": 215,
+            "title": "UC-FE-001-27 · Frente C — migrar case-quality-review a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/215",
+            "updatedAt": "2026-07-14T21:38:54Z"
+          },
+          {
+            "number": 214,
+            "title": "UC-FE-001-26 · Frente C — migrar case-packages a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/214",
+            "updatedAt": "2026-07-14T21:38:53Z"
+          },
+          {
+            "number": 213,
+            "title": "UC-FE-001-25 · Frente C — migrar case-metapericia a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/213",
+            "updatedAt": "2026-07-14T21:38:51Z"
+          },
+          {
+            "number": 212,
+            "title": "UC-FE-001-24 · Frente C — migrar case-intake-request a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/212",
+            "updatedAt": "2026-07-14T21:38:50Z"
+          },
+          {
+            "number": 211,
+            "title": "UC-FE-001-23 · Frente C — migrar case-file a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/211",
+            "updatedAt": "2026-07-14T21:38:49Z"
+          },
+          {
+            "number": 210,
+            "title": "UC-FE-001-22 · Frente C — migrar case-evaluation a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/210",
+            "updatedAt": "2026-07-14T21:38:48Z"
+          },
+          {
+            "number": 209,
+            "title": "UC-FE-001-21 · Frente C — migrar case-consistency a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/209",
+            "updatedAt": "2026-07-14T21:38:46Z"
+          },
+          {
+            "number": 208,
+            "title": "UC-FE-001-20 · Frente C — migrar case-closure a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/208",
+            "updatedAt": "2026-07-14T21:38:45Z"
+          },
+          {
+            "number": 207,
+            "title": "UC-FE-001-19 · Frente C — migrar case-cbca a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/207",
+            "updatedAt": "2026-07-14T21:38:44Z"
+          },
+          {
+            "number": 206,
+            "title": "UC-FE-001-18 · Frente C — migrar case-audit a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/206",
+            "updatedAt": "2026-07-14T21:38:43Z"
+          },
+          {
+            "number": 205,
+            "title": "UC-FE-001-17 · Frente C — migrar case-annotations a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/205",
+            "updatedAt": "2026-07-14T21:38:42Z"
+          },
+          {
+            "number": 204,
+            "title": "UC-FE-001-16 · Frente C — migrar case-analysis a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/204",
+            "updatedAt": "2026-07-14T21:38:40Z"
+          },
+          {
+            "number": 203,
+            "title": "UC-FE-001-15 · Frente C — migrar access a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/203",
+            "updatedAt": "2026-07-14T21:38:39Z"
+          },
+          {
+            "number": 202,
+            "title": "UC-FE-001-14 · Frente C — dedup z.string().email() residual",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/202",
+            "updatedAt": "2026-07-14T21:37:31Z"
+          },
+          {
+            "number": 201,
+            "title": "UC-FE-001-13 · Frente C — migrar evidence a FileField",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/201",
+            "updatedAt": "2026-07-14T21:37:29Z"
+          },
+          {
+            "number": 199,
+            "title": "UC-FE-001-11 · Frente C — migrar intake a campos tipados",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/199",
+            "updatedAt": "2026-07-15T16:22:42Z"
+          }
+        ],
+        "truncated": false
+      },
       "links": {
         "github": "https://github.com/electronikatm/dosmentes-front"
       }
@@ -41,12 +259,13 @@
       "lastActivityAt": "2026-07-15T15:00:04Z",
       "progress": {
         "percent": 100,
-        "label": "Fase 1 · Migración por servicio: 19/19"
+        "label": "Sin épica activa · 64/64 issues cerradas"
       },
       "highlights": [
         "Épicas: 13/13 cerradas",
         "Global: 67/67 issues"
       ],
+      "issueBreakdown": null,
       "links": {
         "github": "https://github.com/Electronikaco/civok-back"
       }
@@ -72,6 +291,140 @@
         "Épicas: 0/14 cerradas",
         "Global: 0/18 issues"
       ],
+      "issueBreakdown": {
+        "label": "Issues",
+        "totalIssues": 18,
+        "closedIssues": 0,
+        "issues": [
+          {
+            "number": 5,
+            "title": "[EPIC] Filtros por canal de adquisicion y agente en contactos y conversaciones",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/5",
+            "updatedAt": "2026-07-14T20:35:25Z"
+          },
+          {
+            "number": 22,
+            "title": "EPIC-06-04 · Filtros restantes GET /api/conversations (contact_source, paginacion)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/22",
+            "updatedAt": "2026-07-14T20:33:46Z"
+          },
+          {
+            "number": 21,
+            "title": "EPIC-06-03 · Filtros en GET /api/contacts (source, fechas, tags, interest_level, has_more)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/21",
+            "updatedAt": "2026-07-14T20:33:42Z"
+          },
+          {
+            "number": 20,
+            "title": "EPIC-06-02 · Ampliar ENUM Conversation.channel + agregar contact_id a conversations",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/20",
+            "updatedAt": "2026-07-14T20:32:44Z"
+          },
+          {
+            "number": 19,
+            "title": "EPIC-06-01 · Ampliar ENUM Contact.source a 9 valores + mapeo provider->source",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/19",
+            "updatedAt": "2026-07-14T20:32:39Z"
+          },
+          {
+            "number": 3,
+            "title": "[EPIC] Estados de conversacion + sistema multi-agent con cola y escalacion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/3",
+            "updatedAt": "2026-07-09T20:40:01Z"
+          },
+          {
+            "number": 15,
+            "title": "[EPIC] Integracion con Civok - Miliia (a definir)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/15",
+            "updatedAt": "2026-07-09T20:04:58Z"
+          },
+          {
+            "number": 14,
+            "title": "[EPIC] Integracion con TikTok Business Messaging (mensajeria directa)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/14",
+            "updatedAt": "2026-07-09T20:04:55Z"
+          },
+          {
+            "number": 13,
+            "title": "[EPIC] Dashboard de planes, programa de afiliados, reseller y whitelabel",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/13",
+            "updatedAt": "2026-07-09T20:04:52Z"
+          },
+          {
+            "number": 12,
+            "title": "[EPIC] Sistema de reportes: financieros, CRM, conversaciones y agentes",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/12",
+            "updatedAt": "2026-07-09T20:04:49Z"
+          },
+          {
+            "number": 11,
+            "title": "[EPIC] Modulo de inventario: catalogo, stock, variantes y consulta IA",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/11",
+            "updatedAt": "2026-07-09T20:04:46Z"
+          },
+          {
+            "number": 10,
+            "title": "[EPIC] Integracion con Siigo para facturacion electronica (DIAN/CUFE)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/10",
+            "updatedAt": "2026-07-09T20:04:43Z"
+          },
+          {
+            "number": 9,
+            "title": "[EPIC] Gestion avanzada de citas: reagendar, confirmar, actualizar, notificaciones",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/9",
+            "updatedAt": "2026-07-09T20:04:40Z"
+          },
+          {
+            "number": 8,
+            "title": "[EPIC] Integracion con Microsoft Office 365 Calendar + abstract CalendarProvider",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/8",
+            "updatedAt": "2026-07-09T20:04:37Z"
+          },
+          {
+            "number": 7,
+            "title": "[EPIC] Integracion con Facebook Messenger (paridad con Instagram)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/7",
+            "updatedAt": "2026-07-09T20:04:34Z"
+          },
+          {
+            "number": 6,
+            "title": "[EPIC] Instagram: outbound media, AI auto-respuesta y typing indicators",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/6",
+            "updatedAt": "2026-07-09T20:04:31Z"
+          },
+          {
+            "number": 4,
+            "title": "[EPIC] Recibir y mostrar imagenes, documentos y plantillas en el chat",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/4",
+            "updatedAt": "2026-07-09T20:03:54Z"
+          },
+          {
+            "number": 2,
+            "title": "[EPIC] Pipeline CI/CD para Auth/Config con Docker + GHCR",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/2",
+            "updatedAt": "2026-07-09T20:03:49Z"
+          }
+        ],
+        "truncated": false
+      },
       "links": {
         "github": "https://github.com/ia-saas/miliia_back",
         "issues": "https://github.com/ia-saas/miliia_back/issues"
@@ -95,6 +448,7 @@
         "label": "3 commits / 7d (develop)"
       },
       "highlights": [],
+      "issueBreakdown": null,
       "links": {
         "github": "https://github.com/electronikatm/civok-agentik"
       }
