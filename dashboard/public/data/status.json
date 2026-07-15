@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T17:30:19.625Z",
+  "generatedAt": "2026-07-15T18:00:23.288Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -311,7 +311,7 @@
     "nextUc": null
   },
   "git": {
-    "openPrs": 0,
+    "openPrs": 1,
     "activeBranches": 20
   },
   "timeline": [],
