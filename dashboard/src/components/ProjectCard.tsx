@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import type { HealthLevel, ProjectSnapshot } from "../../shared/types";
 
 const HEALTH_LABEL: Record<HealthLevel, string> = {
@@ -23,7 +22,6 @@ interface Props {
 export function ProjectCard({ project }: Props) {
   const githubUrl =
     project.links?.github ?? `https://github.com/${project.ghRepo}`;
-  const isOrchestrator = project.type === "orchestrator";
 
   return (
     <article className={`project-card health-${project.health}`}>
@@ -57,16 +55,6 @@ export function ProjectCard({ project }: Props) {
         ) : null}
         <p className="progress-label">{project.progress.label}</p>
 
-        {project.orchestratorSummary && (
-          <p className="orch-summary">
-            <strong>{project.orchestratorSummary.estado}</strong>
-            {project.orchestratorSummary.currentUc &&
-              ` · ${project.orchestratorSummary.currentUc}`}
-            {project.orchestratorSummary.activeEpic &&
-              ` · ${project.orchestratorSummary.activeEpic}`}
-          </p>
-        )}
-
         <div className="metric-chips">
           <span className="chip">PRs: {project.openPrs}</span>
           {project.mergedPrs30d > 0 && (
@@ -88,20 +76,14 @@ export function ProjectCard({ project }: Props) {
       )}
 
       <footer className="project-card-footer">
-        {isOrchestrator && project.detailRoute ? (
-          <Link to={project.detailRoute} className="card-link primary">
-            Ver detalle →
-          </Link>
-        ) : (
-          <a
-            href={githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="card-link"
-          >
-            Abrir en GitHub ↗
-          </a>
-        )}
+        <a
+          href={githubUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card-link"
+        >
+          Abrir en GitHub ↗
+        </a>
       </footer>
     </article>
   );

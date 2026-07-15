@@ -1,14 +1,13 @@
 {
-  "name": "dosmentes-orchestrator-dashboard",
+  "name": "command-center-dashboard",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "concurrently \"vite\" \"tsx watch server/index.ts\"",
     "build": "tsc -p tsconfig.server.json && vite build",
     "start": "NODE_ENV=production node dist-server/server/index.js",
-    "collector:once": "tsx server/collector.ts",
     "collector:portfolio:once": "tsx server/portfolio-collector.ts",
-    "prepare:pages-data": "mkdir -p public/data && tsx server/portfolio-collector.ts > public/data/portfolio.json && tsx server/collector.ts > public/data/status.json",
+    "prepare:pages-data": "mkdir -p public/data && tsx server/portfolio-collector.ts > public/data/portfolio.json",
     "build:pages": "pnpm prepare:pages-data && VITE_BASE=/command-center/ VITE_STATIC_PORTFOLIO=1 vite build && cp dist/index.html dist/404.html && touch dist/.nojekyll"
   },
   "dependencies": {

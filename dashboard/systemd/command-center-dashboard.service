@@ -1,5 +1,5 @@
 [Unit]
-Description=DosMentes Orchestrator Dashboard (Vite + Express :3099)
+Description=Command Center Dashboard (Vite + Express :3099)
 After=network.target
 
 [Service]
@@ -7,10 +7,6 @@ Type=simple
 WorkingDirectory=/home/claude/dosmentes/.orchestrator/dashboard
 Environment=NODE_ENV=production
 Environment=PORT=3099
-Environment=POLL_SEC=30
-Environment=ORCH_DIR=/home/claude/dosmentes/.orchestrator
-Environment=REPO_DIR=/home/claude/dosmentes/dosmentes-front
-Environment=GH_REPO=electronikatm/dosmentes-front
 Environment=PROJECTS_REGISTRY=/home/claude/dosmentes/.orchestrator/dashboard/projects.registry.yaml
 Environment=PORTFOLIO_POLL_SEC=60
 ExecStart=/home/claude/.local/node/bin/node dist-server/server/index.js

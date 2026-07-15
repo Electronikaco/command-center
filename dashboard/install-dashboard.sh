@@ -2,7 +2,7 @@
 set -euo pipefail
 
 DASH_DIR="$(cd "$(dirname "$0")" && pwd)"
-SERVICE_NAME="dosmentes-orchestrator-dashboard.service"
+SERVICE_NAME="command-center-dashboard.service"
 USER_UNIT_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/systemd/user"
 
 echo "==> Instalando dependencias (pnpm)..."

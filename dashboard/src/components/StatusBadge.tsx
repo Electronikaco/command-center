@@ -1,7 +1,6 @@
 import type { CSSProperties } from "react";
-import type { ClaudeBuddy as BuddyType } from "../../shared/types";
 
-type Variant = BuddyType["statusBadge"]["variant"];
+type Variant = "success" | "warning" | "error" | "info" | "active";
 
 const VARIANTS: Record<
   Variant,

@@ -1,7 +1,5 @@
 #!/bin/bash
-# trigger-pages-refresh.sh — publica snapshots VIVOS en command-center y despliega Pages
-# Un solo commit (portfolio+status) + un solo workflow_dispatch para no saturar
-# el grupo de concurrencia de pages.yml.
+# trigger-pages-refresh.sh — publica snapshot VIVO de portfolio.json en command-center y despliega Pages
 set -euo pipefail
 
 ORCH_DIR="/home/claude/dosmentes/.orchestrator"
@@ -16,25 +14,23 @@ cd "$DASH"
 log "START prepare:pages-data"
 pnpm prepare:pages-data >>"$LOG" 2>&1
 
-# Un solo commit con ambos JSON (evita 2 pushes que se cancelan entre sí en Pages)
 rm -rf "$WORK"
 git clone --depth 1 "https://github.com/$REPO.git" "$WORK" >>"$LOG" 2>&1
 mkdir -p "$WORK/dashboard/public/data"
 cp public/data/portfolio.json "$WORK/dashboard/public/data/portfolio.json"
-cp public/data/status.json "$WORK/dashboard/public/data/status.json"
 
 cd "$WORK"
-if git diff --quiet -- dashboard/public/data/portfolio.json dashboard/public/data/status.json; then
-  log "SKIP snapshots sin cambios"
+if git diff --quiet -- dashboard/public/data/portfolio.json; then
+  log "SKIP snapshot sin cambios"
 else
   export GIT_AUTHOR_NAME="${GIT_AUTHOR_NAME:-Electronika}"
   export GIT_AUTHOR_EMAIL="${GIT_AUTHOR_EMAIL:-33184090+electronikatm@users.noreply.github.com}"
   export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
   export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
-  git add dashboard/public/data/portfolio.json dashboard/public/data/status.json
+  git add dashboard/public/data/portfolio.json
   git commit -m "chore: snapshot VPS $(date -u +%Y-%m-%dT%H:%MZ)" >>"$LOG" 2>&1
   git push origin HEAD:main >>"$LOG" 2>&1
-  log "OK snapshots pushed (single commit)"
+  log "OK snapshot pushed"
 fi
 
 # Un solo dispatch; el push ya dispara pages.yml, pero el dispatch cubre
