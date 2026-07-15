@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T16:00:25.097Z",
+  "generatedAt": "2026-07-15T16:30:19.492Z",
   "mode": {
     "supervisor": "cursor",
     "worker": "opus",
@@ -71,7 +71,7 @@
     "epics": [],
     "activeEpic": null,
     "githubBacklog": {
-      "openCount": 32,
+      "openCount": 31,
       "trackedOpenCount": 0,
       "pendingCount": 0,
       "staleCount": 0,
@@ -270,13 +270,6 @@
           "title": "UC-FE-001-12 · Frente C — fix urgente noValidate en tenant-settings",
           "code": null,
           "url": "https://github.com/electronikatm/dosmentes-front/issues/200",
-          "kind": "other"
-        },
-        {
-          "number": 199,
-          "title": "UC-FE-001-11 · Frente C — migrar intake a campos tipados",
-          "code": null,
-          "url": "https://github.com/electronikatm/dosmentes-front/issues/199",
           "kind": "other"
         },
         {
