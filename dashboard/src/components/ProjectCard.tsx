@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { HealthLevel, ProjectSnapshot } from "../../shared/types";
 
 const HEALTH_LABEL: Record<HealthLevel, string> = {
@@ -20,8 +21,10 @@ interface Props {
 }
 
 export function ProjectCard({ project }: Props) {
+  const [expanded, setExpanded] = useState(false);
   const githubUrl =
     project.links?.github ?? `https://github.com/${project.ghRepo}`;
+  const breakdown = project.issueBreakdown;
 
   return (
     <article className={`project-card health-${project.health}`}>
@@ -73,6 +76,52 @@ export function ProjectCard({ project }: Props) {
             <li key={h}>{h}</li>
           ))}
         </ul>
+      )}
+
+      {breakdown && breakdown.issues.length > 0 && (
+        <div className="issue-breakdown">
+          <button
+            type="button"
+            className="issue-toggle"
+            onClick={() => setExpanded((e) => !e)}
+            aria-expanded={expanded}
+          >
+            {expanded ? "Ocultar" : "Ver"} {breakdown.closedIssues}/
+            {breakdown.totalIssues} issues · {breakdown.label}{" "}
+            <span className="issue-toggle-arrow">{expanded ? "↑" : "↓"}</span>
+          </button>
+          {expanded && (
+            <ul className="issue-list">
+              {breakdown.issues.map((issue) => (
+                <li key={issue.number} className={`issue-item issue-${issue.state.toLowerCase()}`}>
+                  <span className="issue-check">
+                    {issue.state === "CLOSED" ? "✓" : "○"}
+                  </span>
+                  <a
+                    href={issue.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="issue-link"
+                  >
+                    #{issue.number} {issue.title}
+                  </a>
+                </li>
+              ))}
+              {breakdown.truncated && (
+                <li className="issue-item issue-more">
+                  <a
+                    href={`${githubUrl}/issues`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="issue-link"
+                  >
+                    Ver el resto en GitHub →
+                  </a>
+                </li>
+              )}
+            </ul>
+          )}
+        </div>
       )}
 
       <footer className="project-card-footer">

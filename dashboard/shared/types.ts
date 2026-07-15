@@ -37,6 +37,22 @@ export interface ProjectProgress {
   label: string;
 }
 
+export interface IssueBreakdownItem {
+  number: number;
+  title: string;
+  state: "OPEN" | "CLOSED";
+  url: string;
+  updatedAt: string;
+}
+
+export interface IssueBreakdown {
+  label: string;
+  totalIssues: number;
+  closedIssues: number;
+  issues: IssueBreakdownItem[];
+  truncated: boolean;
+}
+
 export interface ProjectSnapshot {
   id: string;
   name: string;
@@ -53,6 +69,7 @@ export interface ProjectSnapshot {
   lastActivityAt: string | null;
   progress: ProjectProgress;
   highlights: string[];
+  issueBreakdown?: IssueBreakdown | null;
   links?: Record<string, string>;
 }
 
