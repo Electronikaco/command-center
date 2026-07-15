@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T17:00:19.801Z",
+  "generatedAt": "2026-07-15T17:30:18.100Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,18 +9,16 @@
       "type": "orchestrator",
       "description": "Orquestador DosMentes — épicas y UCs",
       "health": "degraded",
-      "openPrs": 2,
+      "openPrs": 0,
       "mergedPrs30d": 0,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-07-15T17:00:06.133Z",
+      "lastActivityAt": "2026-07-15T17:30:05.397Z",
       "progress": {
         "percent": 0,
         "label": "Programa 0/0 UCs"
       },
-      "highlights": [
-        "2 PR(s) abierto(s)"
-      ],
+      "highlights": [],
       "detailRoute": "/project/dosmentes",
       "links": {
         "github": "https://github.com/electronikatm/dosmentes-front"
@@ -43,7 +41,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 29,
+      "commits7d": 27,
       "commits30d": 30,
       "lastActivityAt": "2026-07-15T15:00:04Z",
       "progress": {
@@ -112,6 +110,6 @@
     "healthy": 3,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 2
   }
 }
