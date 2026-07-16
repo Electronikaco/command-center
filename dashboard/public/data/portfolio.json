@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T13:30:22.527Z",
+  "generatedAt": "2026-07-16T14:00:25.413Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 19,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-15T22:19:26Z",
+      "lastActivityAt": "2026-07-16T13:34:45Z",
       "progress": {
         "percent": 7,
         "label": "L · Tipificación de campos de formulario (EPIC-L): 2/30"
@@ -301,24 +301,24 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 2,
-      "mergedPrs30d": 3,
-      "commits7d": 6,
-      "commits30d": 27,
-      "lastActivityAt": "2026-07-15T20:47:05Z",
+      "openPrs": 1,
+      "mergedPrs30d": 4,
+      "commits7d": 11,
+      "commits30d": 30,
+      "lastActivityAt": "2026-07-16T13:52:03Z",
       "progress": {
-        "percent": 0,
-        "label": "0/18 issues"
+        "percent": 6,
+        "label": "1/18 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 0,
+          "closed": 1,
           "total": 18
         },
         {
           "label": "Épicas",
-          "closed": 0,
+          "closed": 1,
           "total": 14
         }
       ],
@@ -326,7 +326,7 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 18,
-        "closedIssues": 0,
+        "closedIssues": 1,
         "issues": [
           {
             "number": 5,
@@ -362,13 +362,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/19",
             "updatedAt": "2026-07-14T20:32:39Z"
-          },
-          {
-            "number": 3,
-            "title": "[EPIC] Estados de conversacion + sistema multi-agent con cola y escalacion",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/3",
-            "updatedAt": "2026-07-09T20:40:01Z"
           },
           {
             "number": 15,
@@ -453,6 +446,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/2",
             "updatedAt": "2026-07-09T20:03:49Z"
+          },
+          {
+            "number": 3,
+            "title": "[EPIC] Estados de conversacion + sistema multi-agent con cola y escalacion",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/3",
+            "updatedAt": "2026-07-16T13:52:04Z"
           }
         ],
         "truncated": false
