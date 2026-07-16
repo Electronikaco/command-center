@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T15:00:25.860Z",
+  "generatedAt": "2026-07-16T15:30:22.173Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 3,
       "mergedPrs30d": 50,
-      "commits7d": 21,
+      "commits7d": 22,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-16T14:48:13Z",
+      "lastActivityAt": "2026-07-16T15:20:08Z",
       "progress": {
         "percent": 7,
         "label": "L · Tipificación de campos de formulario (EPIC-L): 2/30"
@@ -41,6 +41,13 @@
         "totalIssues": 30,
         "closedIssues": 2,
         "issues": [
+          {
+            "number": 203,
+            "title": "UC-FE-001-15 · Frente C — migrar access a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/203",
+            "updatedAt": "2026-07-16T15:20:41Z"
+          },
           {
             "number": 202,
             "title": "UC-FE-001-14 · Frente C — dedup z.string().email() residual",
@@ -231,13 +238,6 @@
             "updatedAt": "2026-07-14T21:38:40Z"
           },
           {
-            "number": 203,
-            "title": "UC-FE-001-15 · Frente C — migrar access a campos tipados",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/203",
-            "updatedAt": "2026-07-14T21:38:39Z"
-          },
-          {
             "number": 200,
             "title": "UC-FE-001-12 · Frente C — fix urgente noValidate en tenant-settings",
             "state": "CLOSED",
@@ -301,19 +301,19 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 1,
-      "mergedPrs30d": 4,
-      "commits7d": 11,
+      "openPrs": 0,
+      "mergedPrs30d": 5,
+      "commits7d": 13,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-16T14:57:50Z",
+      "lastActivityAt": "2026-07-16T15:25:52Z",
       "progress": {
-        "percent": 6,
-        "label": "1/18 issues"
+        "percent": 28,
+        "label": "5/18 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 1,
+          "closed": 5,
           "total": 18
         },
         {
@@ -326,42 +326,14 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 18,
-        "closedIssues": 1,
+        "closedIssues": 5,
         "issues": [
           {
             "number": 5,
             "title": "[EPIC] Filtros por canal de adquisicion y agente en contactos y conversaciones",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/5",
-            "updatedAt": "2026-07-14T20:35:25Z"
-          },
-          {
-            "number": 22,
-            "title": "EPIC-06-04 · Filtros restantes GET /api/conversations (contact_source, paginacion)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/22",
-            "updatedAt": "2026-07-14T20:33:46Z"
-          },
-          {
-            "number": 21,
-            "title": "EPIC-06-03 · Filtros en GET /api/contacts (source, fechas, tags, interest_level, has_more)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/21",
-            "updatedAt": "2026-07-14T20:33:42Z"
-          },
-          {
-            "number": 20,
-            "title": "EPIC-06-02 · Ampliar ENUM Conversation.channel + agregar contact_id a conversations",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/20",
-            "updatedAt": "2026-07-14T20:32:44Z"
-          },
-          {
-            "number": 19,
-            "title": "EPIC-06-01 · Ampliar ENUM Contact.source a 9 valores + mapeo provider->source",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/19",
-            "updatedAt": "2026-07-14T20:32:39Z"
+            "updatedAt": "2026-07-16T15:25:53Z"
           },
           {
             "number": 15,
@@ -446,6 +418,34 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/2",
             "updatedAt": "2026-07-09T20:03:49Z"
+          },
+          {
+            "number": 22,
+            "title": "EPIC-06-04 · Filtros restantes GET /api/conversations (contact_source, paginacion)",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/22",
+            "updatedAt": "2026-07-16T15:25:51Z"
+          },
+          {
+            "number": 21,
+            "title": "EPIC-06-03 · Filtros en GET /api/contacts (source, fechas, tags, interest_level, has_more)",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/21",
+            "updatedAt": "2026-07-16T15:25:51Z"
+          },
+          {
+            "number": 20,
+            "title": "EPIC-06-02 · Ampliar ENUM Conversation.channel + agregar contact_id a conversations",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/20",
+            "updatedAt": "2026-07-16T15:25:50Z"
+          },
+          {
+            "number": 19,
+            "title": "EPIC-06-01 · Ampliar ENUM Contact.source a 9 valores + mapeo provider->source",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/19",
+            "updatedAt": "2026-07-16T15:25:50Z"
           },
           {
             "number": 3,
