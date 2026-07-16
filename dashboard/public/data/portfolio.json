@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T20:00:24.481Z",
+  "generatedAt": "2026-07-16T20:30:21.143Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 5,
+      "openPrs": 2,
       "mergedPrs30d": 50,
-      "commits7d": 22,
+      "commits7d": 28,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-16T19:47:49Z",
+      "lastActivityAt": "2026-07-16T20:29:38Z",
       "progress": {
         "percent": 7,
         "label": "L · Tipificación de campos de formulario (EPIC-L): 2/30"
@@ -32,7 +32,7 @@
         {
           "label": "Global",
           "closed": 78,
-          "total": 108
+          "total": 109
         }
       ],
       "highlights": [],
@@ -41,6 +41,20 @@
         "totalIssues": 30,
         "closedIssues": 2,
         "issues": [
+          {
+            "number": 207,
+            "title": "UC-FE-001-19 · Frente C — migrar case-cbca a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/207",
+            "updatedAt": "2026-07-16T20:18:59Z"
+          },
+          {
+            "number": 206,
+            "title": "UC-FE-001-18 · Frente C — migrar case-audit a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/206",
+            "updatedAt": "2026-07-16T20:06:20Z"
+          },
           {
             "number": 205,
             "title": "UC-FE-001-17 · Frente C — migrar case-annotations a campos tipados",
@@ -224,20 +238,6 @@
             "updatedAt": "2026-07-14T21:38:45Z"
           },
           {
-            "number": 207,
-            "title": "UC-FE-001-19 · Frente C — migrar case-cbca a campos tipados",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/207",
-            "updatedAt": "2026-07-14T21:38:44Z"
-          },
-          {
-            "number": 206,
-            "title": "UC-FE-001-18 · Frente C — migrar case-audit a campos tipados",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/206",
-            "updatedAt": "2026-07-14T21:38:43Z"
-          },
-          {
             "number": 200,
             "title": "UC-FE-001-12 · Frente C — fix urgente noValidate en tenant-settings",
             "state": "CLOSED",
@@ -303,7 +303,7 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 7,
-      "commits7d": 17,
+      "commits7d": 16,
       "commits30d": 30,
       "lastActivityAt": "2026-07-16T19:50:33Z",
       "progress": {
@@ -492,6 +492,6 @@
     "healthy": 4,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 6
+    "totalOpenPrs": 3
   }
 }
