@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T14:30:21.939Z",
+  "generatedAt": "2026-07-16T15:00:25.860Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 2,
       "mergedPrs30d": 50,
-      "commits7d": 20,
+      "commits7d": 21,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-16T14:13:06Z",
+      "lastActivityAt": "2026-07-16T14:48:13Z",
       "progress": {
         "percent": 7,
         "label": "L · Tipificación de campos de formulario (EPIC-L): 2/30"
@@ -41,6 +41,13 @@
         "totalIssues": 30,
         "closedIssues": 2,
         "issues": [
+          {
+            "number": 202,
+            "title": "UC-FE-001-14 · Frente C — dedup z.string().email() residual",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/202",
+            "updatedAt": "2026-07-16T14:51:37Z"
+          },
           {
             "number": 201,
             "title": "UC-FE-001-13 · Frente C — migrar evidence a FileField",
@@ -231,13 +238,6 @@
             "updatedAt": "2026-07-14T21:38:39Z"
           },
           {
-            "number": 202,
-            "title": "UC-FE-001-14 · Frente C — dedup z.string().email() residual",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/202",
-            "updatedAt": "2026-07-14T21:37:31Z"
-          },
-          {
             "number": 200,
             "title": "UC-FE-001-12 · Frente C — fix urgente noValidate en tenant-settings",
             "state": "CLOSED",
@@ -305,7 +305,7 @@
       "mergedPrs30d": 4,
       "commits7d": 11,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-16T14:12:32Z",
+      "lastActivityAt": "2026-07-16T14:57:50Z",
       "progress": {
         "percent": 6,
         "label": "1/18 issues"
@@ -492,6 +492,6 @@
     "healthy": 4,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 3
   }
 }
