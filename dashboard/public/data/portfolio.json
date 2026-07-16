@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T21:30:23.618Z",
+  "generatedAt": "2026-07-16T22:00:23.232Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-16T21:14:20Z",
+      "lastActivityAt": "2026-07-16T21:56:55Z",
       "progress": {
         "percent": 30,
         "label": "L · Tipificación de campos de formulario (EPIC-L): 9/30"
@@ -41,6 +41,13 @@
         "totalIssues": 30,
         "closedIssues": 9,
         "issues": [
+          {
+            "number": 209,
+            "title": "UC-FE-001-21 · Frente C — migrar case-consistency a campos tipados",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/209",
+            "updatedAt": "2026-07-16T21:57:12Z"
+          },
           {
             "number": 208,
             "title": "UC-FE-001-20 · Frente C — migrar case-closure a campos tipados",
@@ -180,13 +187,6 @@
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/210",
             "updatedAt": "2026-07-14T21:38:48Z"
-          },
-          {
-            "number": 209,
-            "title": "UC-FE-001-21 · Frente C — migrar case-consistency a campos tipados",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/209",
-            "updatedAt": "2026-07-14T21:38:46Z"
           },
           {
             "number": 207,
