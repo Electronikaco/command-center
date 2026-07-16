@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T17:00:21.938Z",
+  "generatedAt": "2026-07-16T17:30:26.130Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -301,11 +301,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 7,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-16T15:50:35Z",
+      "lastActivityAt": "2026-07-16T17:25:03Z",
       "progress": {
         "percent": 28,
         "label": "5/18 issues"
@@ -492,6 +492,6 @@
     "healthy": 4,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 3
+    "totalOpenPrs": 4
   }
 }
