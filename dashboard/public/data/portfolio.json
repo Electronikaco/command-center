@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T14:00:25.413Z",
+  "generatedAt": "2026-07-16T14:30:21.939Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,9 +11,9 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 19,
+      "commits7d": 20,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-16T13:34:45Z",
+      "lastActivityAt": "2026-07-16T14:13:06Z",
       "progress": {
         "percent": 7,
         "label": "L · Tipificación de campos de formulario (EPIC-L): 2/30"
@@ -305,7 +305,7 @@
       "mergedPrs30d": 4,
       "commits7d": 11,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-16T13:52:03Z",
+      "lastActivityAt": "2026-07-16T14:12:32Z",
       "progress": {
         "percent": 6,
         "label": "1/18 issues"
