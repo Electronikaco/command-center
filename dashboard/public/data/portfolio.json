@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T21:00:23.881Z",
+  "generatedAt": "2026-07-17T21:30:23.187Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-17T20:56:38Z",
+      "lastActivityAt": "2026-07-17T21:27:08Z",
       "progress": {
         "percent": 97,
         "label": "L · Tipificación de campos de formulario (EPIC-L): 29/30"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 105,
+          "closed": 106,
           "total": 109
         }
       ],
@@ -46,7 +46,7 @@
             "title": "[EPIC] L-tipificacion-campos-formulario — Frente C (migración módulo por módulo)",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/198",
-            "updatedAt": "2026-07-14T21:39:34Z"
+            "updatedAt": "2026-07-17T21:00:59Z"
           },
           {
             "number": 227,
