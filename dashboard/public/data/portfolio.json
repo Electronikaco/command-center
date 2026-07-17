@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T15:30:20.750Z",
+  "generatedAt": "2026-07-17T16:00:24.494Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,15 +13,15 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-17T15:21:35Z",
+      "lastActivityAt": "2026-07-17T15:57:01Z",
       "progress": {
-        "percent": 50,
-        "label": "L · Tipificación de campos de formulario (EPIC-L): 15/30"
+        "percent": 57,
+        "label": "L · Tipificación de campos de formulario (EPIC-L): 17/30"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 15,
+          "closed": 17,
           "total": 30
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 91,
+          "closed": 93,
           "total": 109
         }
       ],
@@ -39,14 +39,14 @@
       "issueBreakdown": {
         "label": "L · Tipificación de campos de formulario (EPIC-L)",
         "totalIssues": 30,
-        "closedIssues": 15,
+        "closedIssues": 17,
         "issues": [
           {
-            "number": 214,
-            "title": "UC-FE-001-26 · Frente C — migrar case-packages a campos tipados",
+            "number": 216,
+            "title": "UC-FE-001-28 · Frente C — migrar case-reports a campos tipados",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/214",
-            "updatedAt": "2026-07-17T15:16:20Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/216",
+            "updatedAt": "2026-07-17T15:49:19Z"
           },
           {
             "number": 198,
@@ -133,18 +133,18 @@
             "updatedAt": "2026-07-14T21:38:57Z"
           },
           {
-            "number": 216,
-            "title": "UC-FE-001-28 · Frente C — migrar case-reports a campos tipados",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/216",
-            "updatedAt": "2026-07-14T21:38:55Z"
-          },
-          {
             "number": 215,
             "title": "UC-FE-001-27 · Frente C — migrar case-quality-review a campos tipados",
-            "state": "OPEN",
+            "state": "CLOSED",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/215",
-            "updatedAt": "2026-07-14T21:38:54Z"
+            "updatedAt": "2026-07-17T15:49:12Z"
+          },
+          {
+            "number": 214,
+            "title": "UC-FE-001-26 · Frente C — migrar case-packages a campos tipados",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/214",
+            "updatedAt": "2026-07-17T15:32:13Z"
           },
           {
             "number": 213,
