@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T14:30:22.032Z",
+  "generatedAt": "2026-07-17T15:00:21.492Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,15 +13,15 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-17T14:26:07Z",
+      "lastActivityAt": "2026-07-17T14:59:16Z",
       "progress": {
-        "percent": 40,
-        "label": "L · Tipificación de campos de formulario (EPIC-L): 12/30"
+        "percent": 47,
+        "label": "L · Tipificación de campos de formulario (EPIC-L): 14/30"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 12,
+          "closed": 14,
           "total": 30
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 88,
+          "closed": 90,
           "total": 109
         }
       ],
@@ -39,14 +39,14 @@
       "issueBreakdown": {
         "label": "L · Tipificación de campos de formulario (EPIC-L)",
         "totalIssues": 30,
-        "closedIssues": 12,
+        "closedIssues": 14,
         "issues": [
           {
-            "number": 211,
-            "title": "UC-FE-001-23 · Frente C — migrar case-file a campos tipados",
+            "number": 213,
+            "title": "UC-FE-001-25 · Frente C — migrar case-metapericia a campos tipados",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/211",
-            "updatedAt": "2026-07-17T14:26:18Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/213",
+            "updatedAt": "2026-07-17T14:59:25Z"
           },
           {
             "number": 198,
@@ -154,18 +154,18 @@
             "updatedAt": "2026-07-14T21:38:53Z"
           },
           {
-            "number": 213,
-            "title": "UC-FE-001-25 · Frente C — migrar case-metapericia a campos tipados",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/213",
-            "updatedAt": "2026-07-14T21:38:51Z"
-          },
-          {
             "number": 212,
             "title": "UC-FE-001-24 · Frente C — migrar case-intake-request a campos tipados",
-            "state": "OPEN",
+            "state": "CLOSED",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/212",
-            "updatedAt": "2026-07-14T21:38:50Z"
+            "updatedAt": "2026-07-17T14:59:18Z"
+          },
+          {
+            "number": 211,
+            "title": "UC-FE-001-23 · Frente C — migrar case-file a campos tipados",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/211",
+            "updatedAt": "2026-07-17T14:42:12Z"
           },
           {
             "number": 210,
@@ -268,7 +268,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 30,
+      "commits7d": 29,
       "commits30d": 30,
       "lastActivityAt": "2026-07-16T17:50:04Z",
       "progress": {
@@ -472,12 +472,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 2,
-      "commits7d": 3,
+      "commits7d": 2,
       "commits30d": 13,
       "lastActivityAt": "2026-07-10T15:14:53Z",
       "progress": {
         "percent": null,
-        "label": "3 commits / 7d (develop)"
+        "label": "2 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
