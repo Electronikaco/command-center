@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T20:30:20.196Z",
+  "generatedAt": "2026-07-17T20:47:08.963Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -489,11 +489,35 @@
       "links": {
         "github": "https://github.com/electronikatm/civok-agentik"
       }
+    },
+    {
+      "id": "civok-hub",
+      "name": "Civok Hub",
+      "org": "Electronikaco",
+      "ghRepo": "Electronikaco/civok-hub",
+      "type": "github",
+      "description": "Base del ecosistema de las apps de civok",
+      "health": "ok",
+      "openPrs": 0,
+      "mergedPrs30d": 0,
+      "commits7d": 0,
+      "commits30d": 0,
+      "lastActivityAt": "2026-07-15T16:30:34Z",
+      "progress": {
+        "percent": null,
+        "label": "0 commits / 7d"
+      },
+      "progressMeters": [],
+      "highlights": [],
+      "issueBreakdown": null,
+      "links": {
+        "github": "https://github.com/Electronikaco/civok-hub"
+      }
     }
   ],
   "summary": {
-    "totalProjects": 4,
-    "healthy": 3,
+    "totalProjects": 5,
+    "healthy": 4,
     "degraded": 1,
     "error": 0,
     "totalOpenPrs": 0
