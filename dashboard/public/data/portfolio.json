@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T17:00:25.405Z",
+  "generatedAt": "2026-07-18T17:30:20.609Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,243 +13,89 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-17T21:27:08Z",
+      "lastActivityAt": "2026-07-18T17:10:08Z",
       "progress": {
-        "percent": 97,
-        "label": "L · Tipificación de campos de formulario (EPIC-L): 29/30"
+        "percent": 75,
+        "label": "INFRA · Contratos y backend (EPIC-H): 6/8"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 29,
-          "total": 30
+          "closed": 6,
+          "total": 8
         },
         {
           "label": "Épicas",
-          "closed": 10,
+          "closed": 11,
           "total": 12
         },
         {
           "label": "Global",
-          "closed": 106,
+          "closed": 108,
           "total": 117
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "L · Tipificación de campos de formulario (EPIC-L)",
-        "totalIssues": 30,
-        "closedIssues": 29,
+        "label": "INFRA · Contratos y backend (EPIC-H)",
+        "totalIssues": 8,
+        "closedIssues": 6,
         "issues": [
           {
-            "number": 198,
-            "title": "[EPIC] L-tipificacion-campos-formulario — Frente C (migración módulo por módulo)",
+            "number": 19,
+            "title": "[EPIC] Contratos por módulo (vigente) + backend multi-tenant (DIFERIDO) (UC-DM-INFRA)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/198",
-            "updatedAt": "2026-07-17T21:00:59Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/19",
+            "updatedAt": "2026-07-07T03:59:57Z"
           },
           {
-            "number": 227,
-            "title": "UC-FE-001-39 · Frente C — migrar tenant-audit a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/227",
-            "updatedAt": "2026-07-17T20:56:43Z"
+            "number": 60,
+            "title": "UC-DM-INFRA-01 · Contrato OpenAPI por módulo (recurrente al cierre)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/60",
+            "updatedAt": "2026-07-02T15:40:26Z"
           },
           {
-            "number": 226,
-            "title": "UC-FE-001-38 · Frente C — migrar pilot-baseline a campos tipados",
+            "number": 139,
+            "title": "UC-DM-INFRA-13 · Contrato retroactivo: administración (usuarios + accesos RBAC unificados)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/226",
-            "updatedAt": "2026-07-17T20:28:51Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/139",
+            "updatedAt": "2026-07-10T01:56:39Z"
           },
           {
-            "number": 225,
-            "title": "UC-FE-001-37 · Frente C — migrar onboarding-beta a campos tipados",
+            "number": 138,
+            "title": "UC-DM-INFRA-12 · Contrato retroactivo: calidad y doble codificación (IRR)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/225",
-            "updatedAt": "2026-07-17T18:32:13Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/138",
+            "updatedAt": "2026-07-10T01:56:38Z"
           },
           {
-            "number": 224,
-            "title": "UC-FE-001-36 · Frente C — migrar interviews a campos tipados",
+            "number": 137,
+            "title": "UC-DM-INFRA-11 · Contrato retroactivo: cadena de salida S2 (informes, paquete, entrega, cierre)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/224",
-            "updatedAt": "2026-07-17T18:15:13Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/137",
+            "updatedAt": "2026-07-10T01:56:36Z"
           },
           {
-            "number": 223,
-            "title": "UC-FE-001-35 · Frente C — migrar incidents a campos tipados",
+            "number": 136,
+            "title": "UC-DM-INFRA-10 · Contrato retroactivo: pipeline de credibilidad S2 (SVA, CBCA, RM, consistencias, síntesis)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/223",
-            "updatedAt": "2026-07-17T17:59:13Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/136",
+            "updatedAt": "2026-07-10T01:56:35Z"
           },
           {
-            "number": 222,
-            "title": "UC-FE-001-34 · Frente C — migrar feedback a campos tipados",
+            "number": 135,
+            "title": "UC-DM-INFRA-09 · Contrato retroactivo: fundaciones S1 (intake, expediente, personas, timeline, evidencia, anotaciones, auditoría)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/222",
-            "updatedAt": "2026-07-17T17:43:13Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/135",
+            "updatedAt": "2026-07-10T01:56:34Z"
           },
           {
-            "number": 221,
-            "title": "UC-FE-001-33 · Frente C — migrar case-timeline a campos tipados",
+            "number": 134,
+            "title": "UC-DM-INFRA-08 · Empaquetado multi-spec de dm-api-contracts + lint OpenAPI + migración del front al paquete",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/221",
-            "updatedAt": "2026-07-17T17:28:18Z"
-          },
-          {
-            "number": 220,
-            "title": "UC-FE-001-32 · Frente C — migrar case-synthesis a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/220",
-            "updatedAt": "2026-07-17T17:12:21Z"
-          },
-          {
-            "number": 219,
-            "title": "UC-FE-001-31 · Frente C — migrar case-sva a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/219",
-            "updatedAt": "2026-07-17T16:56:16Z"
-          },
-          {
-            "number": 218,
-            "title": "UC-FE-001-30 · Frente C — migrar case-rm a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/218",
-            "updatedAt": "2026-07-17T16:39:11Z"
-          },
-          {
-            "number": 217,
-            "title": "UC-FE-001-29 · Frente C — migrar case-review a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/217",
-            "updatedAt": "2026-07-17T16:24:12Z"
-          },
-          {
-            "number": 216,
-            "title": "UC-FE-001-28 · Frente C — migrar case-reports a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/216",
-            "updatedAt": "2026-07-17T16:07:12Z"
-          },
-          {
-            "number": 215,
-            "title": "UC-FE-001-27 · Frente C — migrar case-quality-review a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/215",
-            "updatedAt": "2026-07-17T15:49:12Z"
-          },
-          {
-            "number": 214,
-            "title": "UC-FE-001-26 · Frente C — migrar case-packages a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/214",
-            "updatedAt": "2026-07-17T15:32:13Z"
-          },
-          {
-            "number": 213,
-            "title": "UC-FE-001-25 · Frente C — migrar case-metapericia a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/213",
-            "updatedAt": "2026-07-17T15:16:13Z"
-          },
-          {
-            "number": 212,
-            "title": "UC-FE-001-24 · Frente C — migrar case-intake-request a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/212",
-            "updatedAt": "2026-07-17T14:59:18Z"
-          },
-          {
-            "number": 211,
-            "title": "UC-FE-001-23 · Frente C — migrar case-file a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/211",
-            "updatedAt": "2026-07-17T14:42:12Z"
-          },
-          {
-            "number": 210,
-            "title": "UC-FE-001-22 · Frente C — migrar case-evaluation a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/210",
-            "updatedAt": "2026-07-17T14:26:09Z"
-          },
-          {
-            "number": 209,
-            "title": "UC-FE-001-21 · Frente C — migrar case-consistency a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/209",
-            "updatedAt": "2026-07-17T14:10:20Z"
-          },
-          {
-            "number": 208,
-            "title": "UC-FE-001-20 · Frente C — migrar case-closure a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/208",
-            "updatedAt": "2026-07-17T13:44:16Z"
-          },
-          {
-            "number": 207,
-            "title": "UC-FE-001-19 · Frente C — migrar case-cbca a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/207",
-            "updatedAt": "2026-07-16T21:14:24Z"
-          },
-          {
-            "number": 206,
-            "title": "UC-FE-001-18 · Frente C — migrar case-audit a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/206",
-            "updatedAt": "2026-07-16T20:54:48Z"
-          },
-          {
-            "number": 205,
-            "title": "UC-FE-001-17 · Frente C — migrar case-annotations a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/205",
-            "updatedAt": "2026-07-16T20:54:47Z"
-          },
-          {
-            "number": 204,
-            "title": "UC-FE-001-16 · Frente C — migrar case-analysis a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/204",
-            "updatedAt": "2026-07-16T20:54:45Z"
-          },
-          {
-            "number": 203,
-            "title": "UC-FE-001-15 · Frente C — migrar access a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/203",
-            "updatedAt": "2026-07-16T20:54:44Z"
-          },
-          {
-            "number": 202,
-            "title": "UC-FE-001-14 · Frente C — dedup z.string().email() residual",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/202",
-            "updatedAt": "2026-07-16T20:54:43Z"
-          },
-          {
-            "number": 201,
-            "title": "UC-FE-001-13 · Frente C — migrar evidence a FileField",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/201",
-            "updatedAt": "2026-07-16T20:54:41Z"
-          },
-          {
-            "number": 200,
-            "title": "UC-FE-001-12 · Frente C — fix urgente noValidate en tenant-settings",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/200",
-            "updatedAt": "2026-07-15T22:14:53Z"
-          },
-          {
-            "number": 199,
-            "title": "UC-FE-001-11 · Frente C — migrar intake a campos tipados",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/199",
-            "updatedAt": "2026-07-15T16:22:42Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/134",
+            "updatedAt": "2026-07-10T01:56:32Z"
           }
         ],
         "truncated": false
