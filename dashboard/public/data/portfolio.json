@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T15:00:25.752Z",
+  "generatedAt": "2026-07-19T15:30:24.972Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -279,7 +279,7 @@
       },
       "progressMeters": [],
       "highlights": [
-        "Sin actividad hace 8d (umbral 7d)",
+        "Sin actividad hace 9d (umbral 7d)",
         "Sin commits en los últimos 7 días"
       ],
       "issueBreakdown": null,
