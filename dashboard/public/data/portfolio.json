@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T01:30:22.848Z",
+  "generatedAt": "2026-07-19T02:00:34.047Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-19T00:24:33Z",
+      "lastActivityAt": "2026-07-19T01:55:51Z",
       "progress": {
         "percent": 0,
         "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q): 0/1"
@@ -317,6 +317,6 @@
     "healthy": 4,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 1
+    "totalOpenPrs": 0
   }
 }
