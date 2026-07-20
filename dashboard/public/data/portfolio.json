@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T18:00:28.586Z",
+  "generatedAt": "2026-07-20T18:30:26.121Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-20T17:56:19Z",
+      "lastActivityAt": "2026-07-20T18:28:11Z",
       "progress": {
         "percent": 60,
         "label": "BE0 · Plataforma de microservicios (EPIC-M): 6/10"
