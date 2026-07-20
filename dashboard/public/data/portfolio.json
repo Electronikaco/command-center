@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T16:00:28.784Z",
+  "generatedAt": "2026-07-20T16:30:27.847Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,16 +13,16 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-19T04:58:06Z",
+      "lastActivityAt": "2026-07-20T16:29:40Z",
       "progress": {
-        "percent": 0,
-        "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q): 0/1"
+        "percent": 50,
+        "label": "BE0 · Plataforma de microservicios (EPIC-M): 5/10"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 0,
-          "total": 1
+          "closed": 5,
+          "total": 10
         },
         {
           "label": "Épicas",
@@ -31,22 +31,85 @@
         },
         {
           "label": "Global",
-          "closed": 115,
+          "closed": 120,
           "total": 138
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q)",
-        "totalIssues": 1,
-        "closedIssues": 0,
+        "label": "BE0 · Plataforma de microservicios (EPIC-M)",
+        "totalIssues": 10,
+        "closedIssues": 5,
         "issues": [
           {
-            "number": 303,
-            "title": "[EPIC-Q] Servicio knowledge-library",
+            "number": 289,
+            "title": "UC-DM-BE-06 · Manifiestos K8s base (namespace, Ingress, Deployment+Service)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/303",
-            "updatedAt": "2026-07-19T00:23:20Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/289",
+            "updatedAt": "2026-07-20T16:27:12Z"
+          },
+          {
+            "number": 283,
+            "title": "[EPIC-M] Plataforma de microservicios — monorepo, Docker, K8s, CI/CD, patrón RLS",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/283",
+            "updatedAt": "2026-07-19T00:22:01Z"
+          },
+          {
+            "number": 292,
+            "title": "UC-DM-BE-09 · Validación del patrón con un servicio piloto (identity-tenant)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/292",
+            "updatedAt": "2026-07-19T00:21:50Z"
+          },
+          {
+            "number": 291,
+            "title": "UC-DM-BE-08 · Backup automatizado de Postgres",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/291",
+            "updatedAt": "2026-07-19T00:21:48Z"
+          },
+          {
+            "number": 290,
+            "title": "UC-DM-BE-07 · CI/CD selectivo (GitHub Actions + Turborepo + GHCR)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/290",
+            "updatedAt": "2026-07-19T00:21:47Z"
+          },
+          {
+            "number": 288,
+            "title": "UC-DM-BE-05 · Postgres compartido con bases de datos lógicas por servicio",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/288",
+            "updatedAt": "2026-07-20T16:27:11Z"
+          },
+          {
+            "number": 287,
+            "title": "UC-DM-BE-04 · Dockerización estándar por servicio",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/287",
+            "updatedAt": "2026-07-20T16:27:10Z"
+          },
+          {
+            "number": 286,
+            "title": "UC-DM-BE-03 · Patrón RLS + Prisma multi-tenant (db-tenant-context)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/286",
+            "updatedAt": "2026-07-20T16:27:08Z"
+          },
+          {
+            "number": 285,
+            "title": "UC-DM-BE-02 · Paquetes compartidos base (types, eslint-config, tsconfig)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/285",
+            "updatedAt": "2026-07-20T16:27:06Z"
+          },
+          {
+            "number": 284,
+            "title": "UC-DM-BE-01 · Scaffold del monorepo (Turborepo + pnpm workspaces)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/284",
+            "updatedAt": "2026-07-20T16:27:04Z"
           }
         ],
         "truncated": false
