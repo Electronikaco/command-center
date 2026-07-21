@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T21:00:29.971Z",
+  "generatedAt": "2026-07-21T21:30:27.549Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,15 +13,15 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-21T20:12:56Z",
+      "lastActivityAt": "2026-07-21T21:12:09Z",
       "progress": {
-        "percent": 70,
-        "label": "BE0 · Plataforma de microservicios (EPIC-M): 7/10"
+        "percent": 80,
+        "label": "BE0 · Plataforma de microservicios (EPIC-M): 8/10"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 7,
+          "closed": 8,
           "total": 10
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 122,
+          "closed": 123,
           "total": 138
         }
       ],
@@ -39,14 +39,14 @@
       "issueBreakdown": {
         "label": "BE0 · Plataforma de microservicios (EPIC-M)",
         "totalIssues": 10,
-        "closedIssues": 7,
+        "closedIssues": 8,
         "issues": [
           {
-            "number": 291,
-            "title": "UC-DM-BE-08 · Backup automatizado de Postgres",
+            "number": 292,
+            "title": "UC-DM-BE-09 · Validación del patrón con un servicio piloto (identity-tenant)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/291",
-            "updatedAt": "2026-07-20T18:39:04Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/292",
+            "updatedAt": "2026-07-21T21:12:14Z"
           },
           {
             "number": 283,
@@ -56,11 +56,11 @@
             "updatedAt": "2026-07-19T00:22:01Z"
           },
           {
-            "number": 292,
-            "title": "UC-DM-BE-09 · Validación del patrón con un servicio piloto (identity-tenant)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/292",
-            "updatedAt": "2026-07-19T00:21:50Z"
+            "number": 291,
+            "title": "UC-DM-BE-08 · Backup automatizado de Postgres",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/291",
+            "updatedAt": "2026-07-21T21:13:51Z"
           },
           {
             "number": 290,
@@ -165,7 +165,7 @@
       "mergedPrs30d": 13,
       "commits7d": 26,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-21T21:00:17Z",
+      "lastActivityAt": "2026-07-21T21:03:36Z",
       "progress": {
         "percent": 43,
         "label": "10/23 issues"
