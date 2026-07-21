@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:00:29.785Z",
+  "generatedAt": "2026-07-21T15:30:30.403Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -163,7 +163,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 9,
-      "commits7d": 21,
+      "commits7d": 18,
       "commits30d": 30,
       "lastActivityAt": "2026-07-17T20:21:09Z",
       "progress": {
@@ -342,7 +342,7 @@
       },
       "progressMeters": [],
       "highlights": [
-        "Sin actividad hace 10d (umbral 7d)",
+        "Sin actividad hace 11d (umbral 7d)",
         "Sin commits en los últimos 7 días"
       ],
       "issueBreakdown": null,
