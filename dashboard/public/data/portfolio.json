@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:30:30.403Z",
+  "generatedAt": "2026-07-21T16:00:31.173Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -167,14 +167,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-07-17T20:21:09Z",
       "progress": {
-        "percent": 33,
-        "label": "6/18 issues"
+        "percent": 29,
+        "label": "6/21 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 6,
-          "total": 18
+          "total": 21
         },
         {
           "label": "Épicas",
@@ -185,9 +185,30 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 18,
+        "totalIssues": 21,
         "closedIssues": 6,
         "issues": [
+          {
+            "number": 30,
+            "title": "Unificación WhatsApp↔DDD Nivel 3: Migración completa (InboundMessagePipeline + eliminar legacy)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/30",
+            "updatedAt": "2026-07-21T15:43:11Z"
+          },
+          {
+            "number": 29,
+            "title": "Unificación WhatsApp↔DDD Nivel 2: Migración parcial (CredentialService + ContactResolution + OutboundPipeline)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/29",
+            "updatedAt": "2026-07-21T15:43:08Z"
+          },
+          {
+            "number": 28,
+            "title": "Unificación WhatsApp↔DDD Nivel 1: Puente (ChannelAccount + ContactIdentity + contactId + AssistantChannelLink)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/28",
+            "updatedAt": "2026-07-21T15:43:05Z"
+          },
           {
             "number": 5,
             "title": "[EPIC] Filtros por canal de adquisicion y agente en contactos y conversaciones",
