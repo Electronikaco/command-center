@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T17:30:24.046Z",
+  "generatedAt": "2026-07-21T18:00:29.748Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -161,19 +161,19 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 1,
-      "mergedPrs30d": 9,
-      "commits7d": 18,
+      "openPrs": 0,
+      "mergedPrs30d": 10,
+      "commits7d": 20,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-21T16:15:03Z",
+      "lastActivityAt": "2026-07-21T17:53:38Z",
       "progress": {
-        "percent": 29,
-        "label": "6/21 issues"
+        "percent": 33,
+        "label": "7/21 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 6,
+          "closed": 7,
           "total": 21
         },
         {
@@ -186,7 +186,7 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 21,
-        "closedIssues": 6,
+        "closedIssues": 7,
         "issues": [
           {
             "number": 30,
@@ -201,13 +201,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/29",
             "updatedAt": "2026-07-21T15:43:08Z"
-          },
-          {
-            "number": 28,
-            "title": "Unificación WhatsApp↔DDD Nivel 1: Puente (ChannelAccount + ContactIdentity + contactId + AssistantChannelLink)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/28",
-            "updatedAt": "2026-07-21T15:43:05Z"
           },
           {
             "number": 5,
@@ -292,6 +285,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/2",
             "updatedAt": "2026-07-09T20:03:49Z"
+          },
+          {
+            "number": 28,
+            "title": "Unificación WhatsApp↔DDD Nivel 1: Puente (ChannelAccount + ContactIdentity + contactId + AssistantChannelLink)",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/28",
+            "updatedAt": "2026-07-21T17:53:39Z"
           },
           {
             "number": 4,
@@ -401,6 +401,6 @@
     "healthy": 4,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 3
   }
 }
