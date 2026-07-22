@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T18:30:25.112Z",
+  "generatedAt": "2026-07-22T19:00:25.347Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,15 +13,15 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-22T17:42:14Z",
+      "lastActivityAt": "2026-07-22T18:51:19Z",
       "progress": {
-        "percent": 5,
-        "label": "BE2 · Servicio casos — núcleo pericial (EPIC-O): 1/21"
+        "percent": 10,
+        "label": "BE2 · Servicio casos — núcleo pericial (EPIC-O): 2/21"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 1,
+          "closed": 2,
           "total": 21
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 135,
+          "closed": 136,
           "total": 158
         }
       ],
@@ -39,14 +39,14 @@
       "issueBreakdown": {
         "label": "BE2 · Servicio casos — núcleo pericial (EPIC-O)",
         "totalIssues": 21,
-        "closedIssues": 1,
+        "closedIssues": 2,
         "issues": [
           {
-            "number": 332,
-            "title": "UC-DM-BE-21 · Endpoints Case core + timeline + intake-request",
+            "number": 333,
+            "title": "UC-DM-BE-22 · Personas + evidencia (modelo + endpoints)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/332",
-            "updatedAt": "2026-07-22T17:42:24Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/333",
+            "updatedAt": "2026-07-22T18:51:27Z"
           },
           {
             "number": 301,
@@ -175,11 +175,11 @@
             "updatedAt": "2026-07-22T16:02:56Z"
           },
           {
-            "number": 333,
-            "title": "UC-DM-BE-22 · Personas + evidencia (modelo + endpoints)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/333",
-            "updatedAt": "2026-07-22T16:02:55Z"
+            "number": 332,
+            "title": "UC-DM-BE-21 · Endpoints Case core + timeline + intake-request",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/332",
+            "updatedAt": "2026-07-22T18:51:21Z"
           },
           {
             "number": 331,
