@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T13:30:26.221Z",
+  "generatedAt": "2026-07-22T14:00:26.452Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-22T04:14:10Z",
+      "lastActivityAt": "2026-07-22T13:33:38Z",
       "progress": {
         "percent": 88,
         "label": "BE1 · Servicio identity-tenant (EPIC-N): 7/8"
