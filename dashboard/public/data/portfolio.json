@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T01:00:32.676Z",
+  "generatedAt": "2026-07-22T01:30:27.487Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,15 +13,15 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-22T00:55:09Z",
+      "lastActivityAt": "2026-07-22T01:29:10Z",
       "progress": {
-        "percent": 50,
-        "label": "BE1 · Servicio identity-tenant (EPIC-N): 4/8"
+        "percent": 63,
+        "label": "BE1 · Servicio identity-tenant (EPIC-N): 5/8"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 4,
+          "closed": 5,
           "total": 8
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 128,
+          "closed": 129,
           "total": 138
         }
       ],
@@ -39,14 +39,14 @@
       "issueBreakdown": {
         "label": "BE1 · Servicio identity-tenant (EPIC-N)",
         "totalIssues": 8,
-        "closedIssues": 4,
+        "closedIssues": 5,
         "issues": [
           {
-            "number": 298,
-            "title": "UC-DM-BE-15 · Auditoría transversal persistida",
+            "number": 299,
+            "title": "UC-DM-BE-16 · Conmutación del front al servicio real (dominio auth/admin)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/298",
-            "updatedAt": "2026-07-22T00:56:05Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/299",
+            "updatedAt": "2026-07-22T01:29:53Z"
           },
           {
             "number": 293,
@@ -63,11 +63,11 @@
             "updatedAt": "2026-07-19T00:22:52Z"
           },
           {
-            "number": 299,
-            "title": "UC-DM-BE-16 · Conmutación del front al servicio real (dominio auth/admin)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/299",
-            "updatedAt": "2026-07-19T00:22:51Z"
+            "number": 298,
+            "title": "UC-DM-BE-15 · Auditoría transversal persistida",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/298",
+            "updatedAt": "2026-07-22T01:29:11Z"
           },
           {
             "number": 297,
