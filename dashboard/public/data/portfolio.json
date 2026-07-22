@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T16:00:31.452Z",
+  "generatedAt": "2026-07-22T16:30:25.860Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,20 +9,20 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-22T15:53:08Z",
+      "lastActivityAt": "2026-07-22T16:02:12Z",
       "progress": {
-        "percent": 88,
-        "label": "INFRA · Contratos y backend (EPIC-H): 7/8"
+        "percent": 0,
+        "label": "BE2 · Servicio casos — núcleo pericial (EPIC-O): 0/21"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 7,
-          "total": 8
+          "closed": 0,
+          "total": 21
         },
         {
           "label": "Épicas",
@@ -32,70 +32,161 @@
         {
           "label": "Global",
           "closed": 134,
-          "total": 138
+          "total": 158
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "INFRA · Contratos y backend (EPIC-H)",
-        "totalIssues": 8,
-        "closedIssues": 7,
+        "label": "BE2 · Servicio casos — núcleo pericial (EPIC-O)",
+        "totalIssues": 21,
+        "closedIssues": 0,
         "issues": [
           {
-            "number": 19,
-            "title": "[EPIC] Contratos por módulo (vigente) + backend multi-tenant (DIFERIDO) (UC-DM-INFRA)",
+            "number": 331,
+            "title": "UC-DM-BE-20 · Scaffold del servicio casos + modelo de datos núcleo (Case)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/19",
-            "updatedAt": "2026-07-22T13:31:37Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/331",
+            "updatedAt": "2026-07-22T16:05:06Z"
           },
           {
-            "number": 60,
-            "title": "UC-DM-INFRA-01 · Contrato OpenAPI por módulo (recurrente al cierre)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/60",
-            "updatedAt": "2026-07-22T15:27:48Z"
+            "number": 301,
+            "title": "[EPIC-O] Servicio casos — núcleo pericial",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/301",
+            "updatedAt": "2026-07-22T16:04:54Z"
           },
           {
-            "number": 139,
-            "title": "UC-DM-INFRA-13 · Contrato retroactivo: administración (usuarios + accesos RBAC unificados)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/139",
-            "updatedAt": "2026-07-10T01:56:39Z"
+            "number": 350,
+            "title": "UC-DM-BE-38 · Conmutación del front al servicio real (dominio casos)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/350",
+            "updatedAt": "2026-07-22T16:04:35Z"
           },
           {
-            "number": 138,
-            "title": "UC-DM-INFRA-12 · Contrato retroactivo: calidad y doble codificación (IRR)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/138",
-            "updatedAt": "2026-07-10T01:56:38Z"
+            "number": 349,
+            "title": "UC-DM-BE-39 · Pruebas de aislamiento multi-tenant end-to-end (casos)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/349",
+            "updatedAt": "2026-07-22T16:04:19Z"
           },
           {
-            "number": 137,
-            "title": "UC-DM-INFRA-11 · Contrato retroactivo: cadena de salida S2 (informes, paquete, entrega, cierre)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/137",
-            "updatedAt": "2026-07-10T01:56:36Z"
+            "number": 348,
+            "title": "UC-DM-BE-37 · Auditoría transversal persistida (casos)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/348",
+            "updatedAt": "2026-07-22T16:04:16Z"
           },
           {
-            "number": 136,
-            "title": "UC-DM-INFRA-10 · Contrato retroactivo: pipeline de credibilidad S2 (SVA, CBCA, RM, consistencias, síntesis)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/136",
-            "updatedAt": "2026-07-10T01:56:35Z"
+            "number": 347,
+            "title": "UC-DM-BE-36 · Vistas consolidadas de tenant + integración de dashboard",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/347",
+            "updatedAt": "2026-07-22T16:04:01Z"
           },
           {
-            "number": 135,
-            "title": "UC-DM-INFRA-09 · Contrato retroactivo: fundaciones S1 (intake, expediente, personas, timeline, evidencia, anotaciones, auditoría)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/135",
-            "updatedAt": "2026-07-10T01:56:34Z"
+            "number": 346,
+            "title": "UC-DM-BE-35 · Metodología, entrevistas, metapericia y transcripción",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/346",
+            "updatedAt": "2026-07-22T16:03:59Z"
           },
           {
-            "number": 134,
-            "title": "UC-DM-INFRA-08 · Empaquetado multi-spec de dm-api-contracts + lint OpenAPI + migración del front al paquete",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/134",
-            "updatedAt": "2026-07-10T01:56:32Z"
+            "number": 345,
+            "title": "UC-DM-BE-34 · Evaluación psicológica forense (núcleo de evaluación)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/345",
+            "updatedAt": "2026-07-22T16:03:57Z"
+          },
+          {
+            "number": 344,
+            "title": "UC-DM-BE-33 · Doble codificación / IRR (calidad)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/344",
+            "updatedAt": "2026-07-22T16:03:55Z"
+          },
+          {
+            "number": 343,
+            "title": "UC-DM-BE-32 · Cierre y custodia (modelo + endpoints)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/343",
+            "updatedAt": "2026-07-22T16:03:39Z"
+          },
+          {
+            "number": 342,
+            "title": "UC-DM-BE-31 · Entrega controlada (modelo + endpoints)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/342",
+            "updatedAt": "2026-07-22T16:03:37Z"
+          },
+          {
+            "number": 341,
+            "title": "UC-DM-BE-30 · Paquete pericial (modelo + endpoints)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/341",
+            "updatedAt": "2026-07-22T16:03:35Z"
+          },
+          {
+            "number": 340,
+            "title": "UC-DM-BE-29 · Informes periciales (modelo + endpoints)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/340",
+            "updatedAt": "2026-07-22T16:03:33Z"
+          },
+          {
+            "number": 339,
+            "title": "UC-DM-BE-28 · Síntesis técnica (modelo + endpoints)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/339",
+            "updatedAt": "2026-07-22T16:03:31Z"
+          },
+          {
+            "number": 338,
+            "title": "UC-DM-BE-27 · Mapas de consistencia (modelo + endpoints)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/338",
+            "updatedAt": "2026-07-22T16:03:16Z"
+          },
+          {
+            "number": 337,
+            "title": "UC-DM-BE-26 · RM (modelo + endpoints, incl. comparación con CBCA)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/337",
+            "updatedAt": "2026-07-22T16:03:14Z"
+          },
+          {
+            "number": 336,
+            "title": "UC-DM-BE-25 · CBCA (modelo + endpoints)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/336",
+            "updatedAt": "2026-07-22T16:03:12Z"
+          },
+          {
+            "number": 335,
+            "title": "UC-DM-BE-24 · SVA (modelo + endpoints)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/335",
+            "updatedAt": "2026-07-22T16:03:11Z"
+          },
+          {
+            "number": 334,
+            "title": "UC-DM-BE-23 · Trazabilidad: anotaciones, fuentes, auditoría, búsqueda, análisis legacy y revisiones",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/334",
+            "updatedAt": "2026-07-22T16:02:56Z"
+          },
+          {
+            "number": 333,
+            "title": "UC-DM-BE-22 · Personas + evidencia (modelo + endpoints)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/333",
+            "updatedAt": "2026-07-22T16:02:55Z"
+          },
+          {
+            "number": 332,
+            "title": "UC-DM-BE-21 · Endpoints Case core + timeline + intake-request",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/332",
+            "updatedAt": "2026-07-22T16:02:53Z"
           }
         ],
         "truncated": false
@@ -147,20 +238,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 14,
       "commits7d": 26,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-21T23:06:26Z",
+      "lastActivityAt": "2026-07-22T16:28:34Z",
       "progress": {
-        "percent": 43,
-        "label": "10/23 issues"
+        "percent": 42,
+        "label": "10/24 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 10,
-          "total": 23
+          "total": 24
         },
         {
           "label": "Épicas",
@@ -171,9 +262,16 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 23,
+        "totalIssues": 24,
         "closedIssues": 10,
         "issues": [
+          {
+            "number": 38,
+            "title": "fix(epic-07): visión IA no respeta el handoff humano (responde sobre imágenes durante turno de asesor)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/38",
+            "updatedAt": "2026-07-22T16:16:38Z"
+          },
           {
             "number": 30,
             "title": "Unificación WhatsApp↔DDD Nivel 3: Migración completa (InboundMessagePipeline + eliminar legacy)",
