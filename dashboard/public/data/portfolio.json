@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T15:00:29.422Z",
+  "generatedAt": "2026-07-22T15:30:23.901Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -16,7 +16,7 @@
       "lastActivityAt": "2026-07-22T13:33:38Z",
       "progress": {
         "percent": 88,
-        "label": "BE1 · Servicio identity-tenant (EPIC-N): 7/8"
+        "label": "INFRA · Contratos y backend (EPIC-H): 7/8"
       },
       "progressMeters": [
         {
@@ -31,71 +31,71 @@
         },
         {
           "label": "Global",
-          "closed": 131,
+          "closed": 132,
           "total": 138
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "BE1 · Servicio identity-tenant (EPIC-N)",
+        "label": "INFRA · Contratos y backend (EPIC-H)",
         "totalIssues": 8,
         "closedIssues": 7,
         "issues": [
           {
-            "number": 293,
-            "title": "[EPIC-N] Servicio identity-tenant — auth real, tenants, usuarios y RBAC",
+            "number": 19,
+            "title": "[EPIC] Contratos por módulo (vigente) + backend multi-tenant (DIFERIDO) (UC-DM-INFRA)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/293",
-            "updatedAt": "2026-07-19T00:23:02Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/19",
+            "updatedAt": "2026-07-22T13:31:37Z"
           },
           {
-            "number": 300,
-            "title": "UC-DM-BE-17 · Pruebas de aislamiento multi-tenant end-to-end",
+            "number": 60,
+            "title": "UC-DM-INFRA-01 · Contrato OpenAPI por módulo (recurrente al cierre)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/300",
-            "updatedAt": "2026-07-22T04:03:12Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/60",
+            "updatedAt": "2026-07-22T15:27:48Z"
           },
           {
-            "number": 299,
-            "title": "UC-DM-BE-16 · Conmutación del front al servicio real (dominio auth/admin)",
+            "number": 139,
+            "title": "UC-DM-INFRA-13 · Contrato retroactivo: administración (usuarios + accesos RBAC unificados)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/299",
-            "updatedAt": "2026-07-22T03:35:12Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/139",
+            "updatedAt": "2026-07-10T01:56:39Z"
           },
           {
-            "number": 298,
-            "title": "UC-DM-BE-15 · Auditoría transversal persistida",
+            "number": 138,
+            "title": "UC-DM-INFRA-12 · Contrato retroactivo: calidad y doble codificación (IRR)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/298",
-            "updatedAt": "2026-07-22T01:29:11Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/138",
+            "updatedAt": "2026-07-10T01:56:38Z"
           },
           {
-            "number": 297,
-            "title": "UC-DM-BE-14 · Endpoints de administración (usuarios + accesos RBAC + team)",
+            "number": 137,
+            "title": "UC-DM-INFRA-11 · Contrato retroactivo: cadena de salida S2 (informes, paquete, entrega, cierre)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/297",
-            "updatedAt": "2026-07-22T00:55:11Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/137",
+            "updatedAt": "2026-07-10T01:56:36Z"
           },
           {
-            "number": 296,
-            "title": "UC-DM-BE-13 · Endpoints de autenticación",
+            "number": 136,
+            "title": "UC-DM-INFRA-10 · Contrato retroactivo: pipeline de credibilidad S2 (SVA, CBCA, RM, consistencias, síntesis)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/296",
-            "updatedAt": "2026-07-22T00:00:28Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/136",
+            "updatedAt": "2026-07-10T01:56:35Z"
           },
           {
-            "number": 295,
-            "title": "UC-DM-BE-12 · Modelo de datos: tenants, usuarios, roles y permisos",
+            "number": 135,
+            "title": "UC-DM-INFRA-09 · Contrato retroactivo: fundaciones S1 (intake, expediente, personas, timeline, evidencia, anotaciones, auditoría)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/295",
-            "updatedAt": "2026-07-21T22:57:10Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/135",
+            "updatedAt": "2026-07-10T01:56:34Z"
           },
           {
-            "number": 294,
-            "title": "UC-DM-BE-11 · Scaffold del servicio identity-tenant",
+            "number": 134,
+            "title": "UC-DM-INFRA-08 · Empaquetado multi-spec de dm-api-contracts + lint OpenAPI + migración del front al paquete",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/294",
-            "updatedAt": "2026-07-21T22:19:12Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/134",
+            "updatedAt": "2026-07-10T01:56:32Z"
           }
         ],
         "truncated": false
