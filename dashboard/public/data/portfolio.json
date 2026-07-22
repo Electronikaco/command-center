@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T16:30:25.860Z",
+  "generatedAt": "2026-07-22T17:00:35.744Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -238,20 +238,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 1,
-      "mergedPrs30d": 14,
-      "commits7d": 26,
+      "openPrs": 0,
+      "mergedPrs30d": 16,
+      "commits7d": 28,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-22T16:28:34Z",
+      "lastActivityAt": "2026-07-22T16:52:30Z",
       "progress": {
-        "percent": 42,
-        "label": "10/24 issues"
+        "percent": 48,
+        "label": "12/25 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 10,
-          "total": 24
+          "closed": 12,
+          "total": 25
         },
         {
           "label": "Épicas",
@@ -262,16 +262,9 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 24,
-        "closedIssues": 10,
+        "totalIssues": 25,
+        "closedIssues": 12,
         "issues": [
-          {
-            "number": 38,
-            "title": "fix(epic-07): visión IA no respeta el handoff humano (responde sobre imágenes durante turno de asesor)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/38",
-            "updatedAt": "2026-07-22T16:16:38Z"
-          },
           {
             "number": 30,
             "title": "Unificación WhatsApp↔DDD Nivel 3: Migración completa (InboundMessagePipeline + eliminar legacy)",
@@ -364,6 +357,20 @@
             "updatedAt": "2026-07-09T20:03:49Z"
           },
           {
+            "number": 40,
+            "title": "chore(epic-07): documentar MEDIA_WORKER_ENABLED y activarlo por entorno (media inbound off silencioso)",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/40",
+            "updatedAt": "2026-07-22T16:52:22Z"
+          },
+          {
+            "number": 38,
+            "title": "fix(epic-07): visión IA no respeta el handoff humano (responde sobre imágenes durante turno de asesor)",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/38",
+            "updatedAt": "2026-07-22T16:51:52Z"
+          },
+          {
             "number": 34,
             "title": "EPIC-08-01 (follow-up) · Media outbound Instagram end-to-end (pipeline + operador dashboard)",
             "state": "CLOSED",
@@ -450,18 +457,16 @@
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 2,
-      "commits7d": 0,
-      "commits30d": 10,
-      "lastActivityAt": "2026-07-22T14:47:51Z",
+      "mergedPrs30d": 4,
+      "commits7d": 3,
+      "commits30d": 13,
+      "lastActivityAt": "2026-07-22T16:54:36Z",
       "progress": {
         "percent": null,
-        "label": "0 commits / 7d (develop)"
+        "label": "3 commits / 7d (develop)"
       },
       "progressMeters": [],
-      "highlights": [
-        "Sin commits en los últimos 7 días"
-      ],
+      "highlights": [],
       "issueBreakdown": null,
       "links": {
         "github": "https://github.com/electronikatm/civok-agentik"
@@ -497,6 +502,6 @@
     "healthy": 5,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 3
+    "totalOpenPrs": 2
   }
 }
