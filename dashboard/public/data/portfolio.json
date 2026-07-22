@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T23:00:27.067Z",
+  "generatedAt": "2026-07-22T23:30:25.157Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,19 +9,19 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-22T22:56:01Z",
+      "lastActivityAt": "2026-07-22T23:05:21Z",
       "progress": {
-        "percent": 29,
-        "label": "BE2 · Servicio casos — núcleo pericial (EPIC-O): 6/21"
+        "percent": 33,
+        "label": "BE2 · Servicio casos — núcleo pericial (EPIC-O): 7/21"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 6,
+          "closed": 7,
           "total": 21
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 140,
+          "closed": 141,
           "total": 158
         }
       ],
@@ -39,14 +39,14 @@
       "issueBreakdown": {
         "label": "BE2 · Servicio casos — núcleo pericial (EPIC-O)",
         "totalIssues": 21,
-        "closedIssues": 6,
+        "closedIssues": 7,
         "issues": [
           {
-            "number": 337,
-            "title": "UC-DM-BE-26 · RM (modelo + endpoints, incl. comparación con CBCA)",
+            "number": 338,
+            "title": "UC-DM-BE-27 · Mapas de consistencia (modelo + endpoints)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/337",
-            "updatedAt": "2026-07-22T22:18:23Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/338",
+            "updatedAt": "2026-07-22T23:05:44Z"
           },
           {
             "number": 301,
@@ -140,11 +140,11 @@
             "updatedAt": "2026-07-22T16:03:31Z"
           },
           {
-            "number": 338,
-            "title": "UC-DM-BE-27 · Mapas de consistencia (modelo + endpoints)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/338",
-            "updatedAt": "2026-07-22T16:03:16Z"
+            "number": 337,
+            "title": "UC-DM-BE-26 · RM (modelo + endpoints, incl. comparación con CBCA)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/337",
+            "updatedAt": "2026-07-22T23:05:32Z"
           },
           {
             "number": 336,
@@ -502,6 +502,6 @@
     "healthy": 5,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 3
   }
 }
