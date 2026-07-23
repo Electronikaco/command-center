@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T06:00:26.699Z",
+  "generatedAt": "2026-07-23T06:30:22.953Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-23T04:59:11Z",
+      "lastActivityAt": "2026-07-23T06:20:12Z",
       "progress": {
         "percent": 57,
         "label": "BE2 · Servicio casos — núcleo pericial (EPIC-O): 12/21"
@@ -502,6 +502,6 @@
     "healthy": 5,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 3
+    "totalOpenPrs": 4
   }
 }
