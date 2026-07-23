@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T16:00:33.963Z",
+  "generatedAt": "2026-07-23T16:30:27.526Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -303,7 +303,7 @@
       "mergedPrs30d": 17,
       "commits7d": 23,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-23T15:08:38Z",
+      "lastActivityAt": "2026-07-23T16:01:33Z",
       "progress": {
         "percent": 48,
         "label": "12/25 issues"
@@ -542,13 +542,13 @@
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 1,
-      "commits7d": 8,
-      "commits30d": 8,
-      "lastActivityAt": "2026-07-23T15:03:14Z",
+      "mergedPrs30d": 2,
+      "commits7d": 19,
+      "commits30d": 19,
+      "lastActivityAt": "2026-07-23T16:06:11Z",
       "progress": {
         "percent": null,
-        "label": "8 commits / 7d"
+        "label": "19 commits / 7d"
       },
       "progressMeters": [],
       "highlights": [],
