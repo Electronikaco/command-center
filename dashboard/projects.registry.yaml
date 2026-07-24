@@ -78,8 +78,8 @@ projects:
     baseBranch: main
     description: Base del ecosistema de las apps de civok
     progress:
-      mode: activity
-      activityWindowDays: 7
+      mode: milestones
+      showActivePhase: true
     health:
       stalePrDays: 7
       inactiveDays: 14
