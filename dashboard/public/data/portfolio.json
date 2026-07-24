@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T18:30:29.631Z",
+  "generatedAt": "2026-07-24T19:00:41.548Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -258,63 +258,7 @@
         }
       ],
       "highlights": [],
-      "issueBreakdown": {
-        "label": "Fase 7 · Convergencia con Cívok Hub",
-        "totalIssues": 7,
-        "closedIssues": 0,
-        "issues": [
-          {
-            "number": 145,
-            "title": "[EPIC] Fase 7 — Convergencia con Cívok Hub (tracking)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/145",
-            "updatedAt": "2026-07-23T13:59:05Z"
-          },
-          {
-            "number": 151,
-            "title": "[EPIC] Convergencia · Sincronización / Eventos / Identificadores / Envelope / Retención",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/151",
-            "updatedAt": "2026-07-23T13:58:47Z"
-          },
-          {
-            "number": 150,
-            "title": "[EPIC] Convergencia · Licenciamiento (consumir Hub, planes/add-ons/paquetes/contrato)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/150",
-            "updatedAt": "2026-07-23T13:58:46Z"
-          },
-          {
-            "number": 149,
-            "title": "[EPIC] Convergencia · Personas / Consentimientos",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/149",
-            "updatedAt": "2026-07-23T13:58:45Z"
-          },
-          {
-            "number": 148,
-            "title": "[EPIC] Convergencia · Organización / Workspace / Territorio / Tenancy",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/148",
-            "updatedAt": "2026-07-23T13:58:43Z"
-          },
-          {
-            "number": 147,
-            "title": "[EPIC] Convergencia · Autorización / Roles / ABAC",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/147",
-            "updatedAt": "2026-07-23T13:58:42Z"
-          },
-          {
-            "number": 146,
-            "title": "[EPIC] Convergencia · Identidad / Auth / Sesiones (JWT, sesión única, MFA)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/146",
-            "updatedAt": "2026-07-23T13:58:40Z"
-          }
-        ],
-        "truncated": false
-      },
+      "issueBreakdown": null,
       "links": {
         "github": "https://github.com/Electronikaco/civok-back"
       }
