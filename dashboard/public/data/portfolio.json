@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T17:00:41.020Z",
+  "generatedAt": "2026-07-24T17:30:29.252Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -329,9 +329,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 21,
-      "commits7d": 28,
+      "commits7d": 26,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-24T16:46:06Z",
+      "lastActivityAt": "2026-07-24T17:29:01Z",
       "progress": {
         "percent": 48,
         "label": "12/25 issues"
@@ -546,13 +546,13 @@
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 4,
-      "commits7d": 3,
-      "commits30d": 13,
-      "lastActivityAt": "2026-07-22T16:54:36Z",
+      "mergedPrs30d": 6,
+      "commits7d": 5,
+      "commits30d": 15,
+      "lastActivityAt": "2026-07-24T17:18:39Z",
       "progress": {
         "percent": null,
-        "label": "3 commits / 7d (develop)"
+        "label": "5 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
@@ -569,11 +569,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 3,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-24T13:51:57Z",
+      "lastActivityAt": "2026-07-24T17:10:12Z",
       "progress": {
         "percent": null,
         "label": "30 commits / 7d"
@@ -591,6 +591,6 @@
     "healthy": 5,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 3
   }
 }
