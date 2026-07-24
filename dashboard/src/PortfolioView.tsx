@@ -32,7 +32,7 @@ function PortfolioSummary({ data }: { data: PortfolioSnapshot }) {
 }
 
 export default function PortfolioView() {
-  const { data, error, loading, lastFetch, isStatic } = usePortfolioStatus(60_000);
+  const { data, error, loading, isStatic } = usePortfolioStatus(60_000);
 
   if (loading && !data) {
     return <div className="loading">Cargando portfolio…</div>;
@@ -53,12 +53,15 @@ export default function PortfolioView() {
   return (
     <div className="app portfolio-app">
       <header className="header">
-        <h1>Portfolio · Command Center</h1>
+        <h1>Dashboard de Seguimiento del Equipo de Desarrollo</h1>
+        <p className="welcome">
+          Bienvenido — aquí puedes ver de un vistazo el avance de todos los
+          proyectos en desarrollo, su estado de salud y el progreso de cada
+          iniciativa.
+        </p>
         <p className="subtitle">
-          Vista gerencial multi-proyecto · sync{" "}
-          {new Date(data.generatedAt).toLocaleString("es")}
-          {lastFetch && ` · fetch ${lastFetch.toLocaleTimeString("es")}`}
-          {isStatic && " · snapshot GitHub Pages · datos cada ~15 min · auto-refresh 5 min"}
+          Última actualización: {new Date(data.generatedAt).toLocaleString("es")}
+          {isStatic && " · se actualiza automáticamente cada ~15 minutos"}
         </p>
       </header>
 
