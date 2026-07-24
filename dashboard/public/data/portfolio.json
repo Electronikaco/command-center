@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T20:00:31.924Z",
+  "generatedAt": "2026-07-24T20:30:28.361Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -15,14 +15,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-07-24T17:52:14Z",
       "progress": {
-        "percent": 92,
-        "label": "BE2 · Servicio casos — núcleo pericial (EPIC-O): 23/25"
+        "percent": 9,
+        "label": "BE3 · Servicio facturación (EPIC-P): 1/11"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 23,
-          "total": 25
+          "closed": 1,
+          "total": 11
         },
         {
           "label": "Épicas",
@@ -31,190 +31,92 @@
         },
         {
           "label": "Global",
-          "closed": 157,
-          "total": 162
+          "closed": 159,
+          "total": 173
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "BE2 · Servicio casos — núcleo pericial (EPIC-O)",
-        "totalIssues": 25,
-        "closedIssues": 23,
+        "label": "BE3 · Servicio facturación (EPIC-P)",
+        "totalIssues": 11,
+        "closedIssues": 1,
         "issues": [
           {
-            "number": 370,
-            "title": "Verificación manual en navegador — conmutación del front a services/casos real (BE-38)",
+            "number": 302,
+            "title": "[EPIC-P] Servicio facturación",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/370",
-            "updatedAt": "2026-07-24T04:41:34Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/302",
+            "updatedAt": "2026-07-24T20:12:50Z"
           },
           {
-            "number": 301,
-            "title": "[EPIC-O] Servicio casos — núcleo pericial",
+            "number": 388,
+            "title": "UC-DM-BE-48 · Pruebas de aislamiento multi-tenant end-to-end (facturación) — cierre de EPIC-P",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/301",
-            "updatedAt": "2026-07-22T16:04:54Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/388",
+            "updatedAt": "2026-07-24T20:12:43Z"
           },
           {
-            "number": 373,
-            "title": "Staleness de permisos del fat JWT — sin mecanismo de revocación (BE-20 #331)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/373",
-            "updatedAt": "2026-07-24T17:52:29Z"
+            "number": 387,
+            "title": "UC-DM-BE-47 · Conmutación del front al servicio real (dominio facturación)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/387",
+            "updatedAt": "2026-07-24T20:12:42Z"
           },
           {
-            "number": 372,
-            "title": "hasPermission no aplica scope — perito/supervisor operan sobre cualquier caso del tenant (BE-24 #335)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/372",
-            "updatedAt": "2026-07-24T16:51:27Z"
+            "number": 386,
+            "title": "UC-DM-BE-46 · Auditoría transversal tenant-wide (cross-service)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/386",
+            "updatedAt": "2026-07-24T20:12:40Z"
           },
           {
-            "number": 371,
-            "title": "Portar fixes de seguridad ya corregidos en backend al mock del front (consistency/synthesis/packages/closure)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/371",
-            "updatedAt": "2026-07-24T04:41:26Z"
+            "number": 385,
+            "title": "UC-DM-BE-45 · Facturación mock (historial de facturas + recibo)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/385",
+            "updatedAt": "2026-07-24T20:12:39Z"
           },
           {
-            "number": 349,
-            "title": "UC-DM-BE-39 · Pruebas de aislamiento multi-tenant end-to-end (casos)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/349",
-            "updatedAt": "2026-07-24T01:15:39Z"
+            "number": 384,
+            "title": "UC-DM-BE-44 · Cambio de plan (upgrade/downgrade con bloqueo por cupo)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/384",
+            "updatedAt": "2026-07-24T20:12:38Z"
           },
           {
-            "number": 350,
-            "title": "UC-DM-BE-38 · Conmutación del front al servicio real (dominio casos)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/350",
-            "updatedAt": "2026-07-23T23:58:28Z"
+            "number": 383,
+            "title": "UC-DM-BE-43 · Suscripción del tenant + consumo real de cupos (cross-service)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/383",
+            "updatedAt": "2026-07-24T20:12:36Z"
           },
           {
-            "number": 348,
-            "title": "UC-DM-BE-37 · Auditoría transversal persistida (casos)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/348",
-            "updatedAt": "2026-07-23T22:37:26Z"
+            "number": 382,
+            "title": "UC-DM-BE-42 · Catálogo de planes SaaS",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/382",
+            "updatedAt": "2026-07-24T20:12:35Z"
           },
           {
-            "number": 347,
-            "title": "UC-DM-BE-36 · Vistas consolidadas de tenant + integración de dashboard",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/347",
-            "updatedAt": "2026-07-23T18:24:28Z"
+            "number": 381,
+            "title": "UC-DM-BE-41 · Seguridad de cuenta: política, sesiones activas e historial de accesos",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/381",
+            "updatedAt": "2026-07-24T20:12:33Z"
           },
           {
-            "number": 346,
-            "title": "UC-DM-BE-35 · Metodología, entrevistas, metapericia y transcripción",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/346",
-            "updatedAt": "2026-07-23T17:05:29Z"
+            "number": 380,
+            "title": "UC-DM-BE-40 · Scaffold del servicio facturación + Perfil del tenant",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/380",
+            "updatedAt": "2026-07-24T20:12:32Z"
           },
           {
-            "number": 345,
-            "title": "UC-DM-BE-34 · Evaluación psicológica forense (núcleo de evaluación)",
+            "number": 379,
+            "title": "TEST MILESTONE",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/345",
-            "updatedAt": "2026-07-23T15:04:26Z"
-          },
-          {
-            "number": 344,
-            "title": "UC-DM-BE-33 · Doble codificación / IRR (calidad)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/344",
-            "updatedAt": "2026-07-23T13:28:41Z"
-          },
-          {
-            "number": 343,
-            "title": "UC-DM-BE-32 · Cierre y custodia (modelo + endpoints)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/343",
-            "updatedAt": "2026-07-23T06:33:23Z"
-          },
-          {
-            "number": 342,
-            "title": "UC-DM-BE-31 · Entrega controlada (modelo + endpoints)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/342",
-            "updatedAt": "2026-07-23T04:59:24Z"
-          },
-          {
-            "number": 341,
-            "title": "UC-DM-BE-30 · Paquete pericial (modelo + endpoints)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/341",
-            "updatedAt": "2026-07-23T03:28:22Z"
-          },
-          {
-            "number": 340,
-            "title": "UC-DM-BE-29 · Informes periciales (modelo + endpoints)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/340",
-            "updatedAt": "2026-07-23T02:13:21Z"
-          },
-          {
-            "number": 339,
-            "title": "UC-DM-BE-28 · Síntesis técnica (modelo + endpoints)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/339",
-            "updatedAt": "2026-07-23T01:09:23Z"
-          },
-          {
-            "number": 338,
-            "title": "UC-DM-BE-27 · Mapas de consistencia (modelo + endpoints)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/338",
-            "updatedAt": "2026-07-23T00:05:21Z"
-          },
-          {
-            "number": 337,
-            "title": "UC-DM-BE-26 · RM (modelo + endpoints, incl. comparación con CBCA)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/337",
-            "updatedAt": "2026-07-22T23:05:32Z"
-          },
-          {
-            "number": 336,
-            "title": "UC-DM-BE-25 · CBCA (modelo + endpoints)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/336",
-            "updatedAt": "2026-07-22T22:18:15Z"
-          },
-          {
-            "number": 335,
-            "title": "UC-DM-BE-24 · SVA (modelo + endpoints)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/335",
-            "updatedAt": "2026-07-22T21:38:15Z"
-          },
-          {
-            "number": 334,
-            "title": "UC-DM-BE-23 · Trazabilidad: anotaciones, fuentes, auditoría, búsqueda, análisis legacy y revisiones",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/334",
-            "updatedAt": "2026-07-22T20:43:15Z"
-          },
-          {
-            "number": 333,
-            "title": "UC-DM-BE-22 · Personas + evidencia (modelo + endpoints)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/333",
-            "updatedAt": "2026-07-22T19:54:14Z"
-          },
-          {
-            "number": 332,
-            "title": "UC-DM-BE-21 · Endpoints Case core + timeline + intake-request",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/332",
-            "updatedAt": "2026-07-22T18:51:21Z"
-          },
-          {
-            "number": 331,
-            "title": "UC-DM-BE-20 · Scaffold del servicio casos + modelo de datos núcleo (Case)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/331",
-            "updatedAt": "2026-07-22T17:42:16Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/379",
+            "updatedAt": "2026-07-24T20:11:51Z"
           }
         ],
         "truncated": false
@@ -329,7 +231,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 21,
-      "commits7d": 26,
+      "commits7d": 25,
       "commits30d": 30,
       "lastActivityAt": "2026-07-24T17:29:01Z",
       "progress": {
@@ -569,11 +471,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 4,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-24T19:24:52Z",
+      "lastActivityAt": "2026-07-24T20:17:21Z",
       "progress": {
         "percent": 0,
         "label": "M7 · Integración piloto con Turno: 0/5"
@@ -644,6 +546,6 @@
     "healthy": 5,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 3
   }
 }
