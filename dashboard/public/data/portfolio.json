@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T19:30:30.864Z",
+  "generatedAt": "2026-07-27T19:39:54.021Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -504,11 +504,65 @@
       "links": {
         "github": "https://github.com/Electronikaco/civok-hub"
       }
+    },
+    {
+      "id": "civok-frontend",
+      "name": "Civok Frontend",
+      "org": "Electronikaco",
+      "ghRepo": "Electronikaco/civok-frontend",
+      "type": "github",
+      "description": "Monorepo de frontends civok — FSD, hub-console primero",
+      "health": "ok",
+      "openPrs": 0,
+      "mergedPrs30d": 0,
+      "commits7d": 1,
+      "commits30d": 1,
+      "lastActivityAt": "2026-07-27T19:24:14Z",
+      "progress": {
+        "percent": 0,
+        "label": "M6 · Hub Console: cierre R1-front: 0/1"
+      },
+      "progressMeters": [
+        {
+          "label": "Épica activa",
+          "closed": 0,
+          "total": 1
+        },
+        {
+          "label": "Épicas",
+          "closed": 0,
+          "total": 4
+        },
+        {
+          "label": "Global",
+          "closed": 0,
+          "total": 27
+        }
+      ],
+      "highlights": [],
+      "issueBreakdown": {
+        "label": "M6 · Hub Console: cierre R1-front",
+        "totalIssues": 1,
+        "closedIssues": 0,
+        "issues": [
+          {
+            "number": 27,
+            "title": "EPIC · Cierre R1-front: flags, API keys, sesiones y plantilla (fase H5)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/27",
+            "updatedAt": "2026-07-27T19:22:05Z"
+          }
+        ],
+        "truncated": false
+      },
+      "links": {
+        "github": "https://github.com/Electronikaco/civok-frontend"
+      }
     }
   ],
   "summary": {
-    "totalProjects": 5,
-    "healthy": 5,
+    "totalProjects": 6,
+    "healthy": 6,
     "degraded": 0,
     "error": 0,
     "totalOpenPrs": 3
