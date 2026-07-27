@@ -85,3 +85,21 @@ projects:
       inactiveDays: 14
     links:
       github: https://github.com/Electronikaco/civok-hub
+
+  - id: civok-frontend
+    name: Civok Frontend
+    org: Electronikaco
+    ghRepo: Electronikaco/civok-frontend
+    type: github
+    baseBranch: main
+    description: Monorepo de frontends civok — FSD, hub-console primero
+    progress:
+      mode: milestones
+      showActivePhase: true
+    labels:
+      epic: epic
+    health:
+      stalePrDays: 7
+      inactiveDays: 14
+    links:
+      github: https://github.com/Electronikaco/civok-frontend
