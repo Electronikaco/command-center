@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T14:00:31.767Z",
+  "generatedAt": "2026-07-27T14:30:33.475Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -569,11 +569,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
-      "mergedPrs30d": 7,
+      "openPrs": 0,
+      "mergedPrs30d": 8,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-25T14:46:41Z",
+      "lastActivityAt": "2026-07-27T14:11:51Z",
       "progress": {
         "percent": 0,
         "label": "M7 · Integración piloto con Turno: 0/5"
@@ -586,7 +586,7 @@
         },
         {
           "label": "Global",
-          "closed": 78,
+          "closed": 90,
           "total": 97
         }
       ],
@@ -644,6 +644,6 @@
     "healthy": 5,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 3
+    "totalOpenPrs": 2
   }
 }
