@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T20:30:35.395Z",
+  "generatedAt": "2026-07-27T21:00:35.120Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,15 +13,15 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-27T20:10:39Z",
+      "lastActivityAt": "2026-07-27T20:51:20Z",
       "progress": {
-        "percent": 50,
-        "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q): 3/6"
+        "percent": 67,
+        "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q): 4/6"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 3,
+          "closed": 4,
           "total": 6
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 174,
+          "closed": 175,
           "total": 181
         }
       ],
@@ -39,21 +39,14 @@
       "issueBreakdown": {
         "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q)",
         "totalIssues": 6,
-        "closedIssues": 3,
+        "closedIssues": 4,
         "issues": [
-          {
-            "number": 406,
-            "title": "UC-DM-BE-53 · Conmutación del front al servicio real (dominio knowledge-library)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/406",
-            "updatedAt": "2026-07-27T20:11:04Z"
-          },
           {
             "number": 407,
             "title": "UC-DM-BE-54 · Pruebas de aislamiento multi-tenant end-to-end (knowledge-library) — cierre de EPIC-Q",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/407",
-            "updatedAt": "2026-07-27T15:17:06Z"
+            "updatedAt": "2026-07-27T20:51:45Z"
           },
           {
             "number": 303,
@@ -61,6 +54,13 @@
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/303",
             "updatedAt": "2026-07-27T15:16:18Z"
+          },
+          {
+            "number": 406,
+            "title": "UC-DM-BE-53 · Conmutación del front al servicio real (dominio knowledge-library)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/406",
+            "updatedAt": "2026-07-27T20:51:35Z"
           },
           {
             "number": 405,
@@ -195,10 +195,10 @@
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 22,
-      "commits7d": 28,
+      "mergedPrs30d": 23,
+      "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-27T17:37:31Z",
+      "lastActivityAt": "2026-07-27T20:45:02Z",
       "progress": {
         "percent": 48,
         "label": "12/25 issues"
