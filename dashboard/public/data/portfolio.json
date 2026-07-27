@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T21:30:44.993Z",
+  "generatedAt": "2026-07-27T22:00:38.000Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,15 +13,15 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-27T20:51:20Z",
+      "lastActivityAt": "2026-07-27T21:55:14Z",
       "progress": {
-        "percent": 67,
-        "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q): 4/6"
+        "percent": 83,
+        "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q): 5/6"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 4,
+          "closed": 5,
           "total": 6
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 175,
+          "closed": 176,
           "total": 181
         }
       ],
@@ -39,21 +39,21 @@
       "issueBreakdown": {
         "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q)",
         "totalIssues": 6,
-        "closedIssues": 4,
+        "closedIssues": 5,
         "issues": [
-          {
-            "number": 407,
-            "title": "UC-DM-BE-54 · Pruebas de aislamiento multi-tenant end-to-end (knowledge-library) — cierre de EPIC-Q",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/407",
-            "updatedAt": "2026-07-27T20:51:45Z"
-          },
           {
             "number": 303,
             "title": "[EPIC-Q] Servicio knowledge-library",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/303",
             "updatedAt": "2026-07-27T15:16:18Z"
+          },
+          {
+            "number": 407,
+            "title": "UC-DM-BE-54 · Pruebas de aislamiento multi-tenant end-to-end (knowledge-library) — cierre de EPIC-Q",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/407",
+            "updatedAt": "2026-07-27T21:44:34Z"
           },
           {
             "number": 406,
@@ -194,11 +194,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 23,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-27T20:45:02Z",
+      "lastActivityAt": "2026-07-27T21:37:17Z",
       "progress": {
         "percent": 48,
         "label": "12/25 issues"
@@ -513,11 +513,11 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 3,
       "commits7d": 13,
       "commits30d": 13,
-      "lastActivityAt": "2026-07-27T21:20:44Z",
+      "lastActivityAt": "2026-07-27T21:39:25Z",
       "progress": {
         "percent": 50,
         "label": "M0 · Decisiones y andamiaje del monorepo: 5/10"
@@ -628,6 +628,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 4
   }
 }
