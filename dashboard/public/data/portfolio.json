@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T20:00:33.752Z",
+  "generatedAt": "2026-07-27T20:30:35.395Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,19 +9,19 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-27T19:59:42Z",
+      "lastActivityAt": "2026-07-27T20:10:39Z",
       "progress": {
-        "percent": 33,
-        "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q): 2/6"
+        "percent": 50,
+        "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q): 3/6"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 2,
+          "closed": 3,
           "total": 6
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 173,
+          "closed": 174,
           "total": 181
         }
       ],
@@ -39,14 +39,14 @@
       "issueBreakdown": {
         "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q)",
         "totalIssues": 6,
-        "closedIssues": 2,
+        "closedIssues": 3,
         "issues": [
           {
-            "number": 405,
-            "title": "UC-DM-BE-52 · Auditoría persistida (knowledge-library)",
+            "number": 406,
+            "title": "UC-DM-BE-53 · Conmutación del front al servicio real (dominio knowledge-library)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/405",
-            "updatedAt": "2026-07-27T19:22:15Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/406",
+            "updatedAt": "2026-07-27T20:11:04Z"
           },
           {
             "number": 407,
@@ -56,18 +56,18 @@
             "updatedAt": "2026-07-27T15:17:06Z"
           },
           {
-            "number": 406,
-            "title": "UC-DM-BE-53 · Conmutación del front al servicio real (dominio knowledge-library)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/406",
-            "updatedAt": "2026-07-27T15:17:04Z"
-          },
-          {
             "number": 303,
             "title": "[EPIC-Q] Servicio knowledge-library",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/303",
             "updatedAt": "2026-07-27T15:16:18Z"
+          },
+          {
+            "number": 405,
+            "title": "UC-DM-BE-52 · Auditoría persistida (knowledge-library)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/405",
+            "updatedAt": "2026-07-27T20:10:52Z"
           },
           {
             "number": 404,
@@ -504,13 +504,123 @@
       "links": {
         "github": "https://github.com/Electronikaco/civok-hub"
       }
+    },
+    {
+      "id": "civok-frontend",
+      "name": "Civok Frontend",
+      "org": "Electronikaco",
+      "ghRepo": "Electronikaco/civok-frontend",
+      "type": "github",
+      "description": "Monorepo de frontends civok — FSD, hub-console primero",
+      "health": "ok",
+      "openPrs": 2,
+      "mergedPrs30d": 0,
+      "commits7d": 1,
+      "commits30d": 1,
+      "lastActivityAt": "2026-07-27T20:29:33Z",
+      "progress": {
+        "percent": 0,
+        "label": "M8 · Migración Turno: dashboard (8101): 0/9"
+      },
+      "progressMeters": [
+        {
+          "label": "Épica activa",
+          "closed": 0,
+          "total": 9
+        },
+        {
+          "label": "Épicas",
+          "closed": 0,
+          "total": 11
+        },
+        {
+          "label": "Global",
+          "closed": 0,
+          "total": 42
+        }
+      ],
+      "highlights": [],
+      "issueBreakdown": {
+        "label": "M8 · Migración Turno: dashboard (8101)",
+        "totalIssues": 9,
+        "closedIssues": 0,
+        "issues": [
+          {
+            "number": 44,
+            "title": "DASH-08 · i18n: extraer strings hardcodeados",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/44",
+            "updatedAt": "2026-07-27T20:30:18Z"
+          },
+          {
+            "number": 43,
+            "title": "DASH-07 · FSD + troceo de páginas monolíticas + naming",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/43",
+            "updatedAt": "2026-07-27T20:30:17Z"
+          },
+          {
+            "number": 42,
+            "title": "DASH-06 · Formularios: RHF + zod (FormField-kit)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/42",
+            "updatedAt": "2026-07-27T20:30:15Z"
+          },
+          {
+            "number": 41,
+            "title": "DASH-05 · Datos: TanStack Query + hooks por entidad sobre el BFF",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/41",
+            "updatedAt": "2026-07-27T20:30:14Z"
+          },
+          {
+            "number": 40,
+            "title": "DASH-04 · UI: consumir @civok/ui, retirar shadcn/radix sueltos, DataTable, lucide",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/40",
+            "updatedAt": "2026-07-27T20:30:12Z"
+          },
+          {
+            "number": 39,
+            "title": "DASH-03 · Estilo: preset de @civok/tokens y erradicar hex",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/39",
+            "updatedAt": "2026-07-27T20:30:11Z"
+          },
+          {
+            "number": 38,
+            "title": "DASH-02 · Adoptar @civok/config (ESLint FSD+anti-hex) y tsconfig compartido",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/38",
+            "updatedAt": "2026-07-27T20:30:10Z"
+          },
+          {
+            "number": 37,
+            "title": "DASH-01 · 🔴 D7: sacar secretos del bundle (public/config.ts) — BLOQUEANTE",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/37",
+            "updatedAt": "2026-07-27T20:30:08Z"
+          },
+          {
+            "number": 29,
+            "title": "EPIC · Dashboard de Turno a FSD (8101)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/29",
+            "updatedAt": "2026-07-27T19:57:51Z"
+          }
+        ],
+        "truncated": false
+      },
+      "links": {
+        "github": "https://github.com/Electronikaco/civok-frontend"
+      }
     }
   ],
   "summary": {
-    "totalProjects": 5,
-    "healthy": 5,
+    "totalProjects": 6,
+    "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 3
+    "totalOpenPrs": 4
   }
 }
