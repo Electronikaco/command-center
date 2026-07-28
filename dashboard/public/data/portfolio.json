@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T21:30:33.066Z",
+  "generatedAt": "2026-07-28T22:00:38.122Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -528,10 +528,10 @@
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 9,
+      "mergedPrs30d": 10,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-28T21:16:23Z",
+      "lastActivityAt": "2026-07-28T21:34:01Z",
       "progress": {
         "percent": 50,
         "label": "M0 · Decisiones y andamiaje del monorepo: 5/10"
