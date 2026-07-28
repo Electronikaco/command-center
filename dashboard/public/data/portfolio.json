@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T21:00:35.552Z",
+  "generatedAt": "2026-07-28T21:30:33.066Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -430,7 +430,7 @@
       "mergedPrs30d": 6,
       "commits7d": 7,
       "commits30d": 13,
-      "lastActivityAt": "2026-07-27T22:09:54Z",
+      "lastActivityAt": "2026-07-28T21:05:37Z",
       "progress": {
         "percent": null,
         "label": "7 commits / 7d (develop)"
@@ -451,10 +451,10 @@
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 16,
+      "mergedPrs30d": 17,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-28T20:56:53Z",
+      "lastActivityAt": "2026-07-28T21:14:15Z",
       "progress": {
         "percent": 40,
         "label": "M7 · Integración piloto con Turno: 2/5"
@@ -528,10 +528,10 @@
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 8,
-      "commits7d": 29,
-      "commits30d": 29,
-      "lastActivityAt": "2026-07-28T20:44:16Z",
+      "mergedPrs30d": 9,
+      "commits7d": 30,
+      "commits30d": 30,
+      "lastActivityAt": "2026-07-28T21:16:23Z",
       "progress": {
         "percent": 50,
         "label": "M0 · Decisiones y andamiaje del monorepo: 5/10"
