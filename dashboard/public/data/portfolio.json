@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T16:30:35.294Z",
+  "generatedAt": "2026-07-28T17:00:38.271Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-28T16:07:57Z",
+      "lastActivityAt": "2026-07-28T16:54:23Z",
       "progress": {
         "percent": 83,
         "label": "BE4 · Servicio biblioteca de conocimiento (EPIC-Q): 5/6"
