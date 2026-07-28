@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T22:00:38.122Z",
+  "generatedAt": "2026-07-28T22:30:35.211Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-28T20:12:30Z",
+      "lastActivityAt": "2026-07-28T22:05:30Z",
       "progress": {
         "percent": 88,
         "label": "INFRA · Contratos y backend (EPIC-H): 7/8"
@@ -451,10 +451,10 @@
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 17,
+      "mergedPrs30d": 18,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-28T21:14:15Z",
+      "lastActivityAt": "2026-07-28T22:11:48Z",
       "progress": {
         "percent": 40,
         "label": "M7 · Integración piloto con Turno: 2/5"
@@ -528,10 +528,10 @@
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 10,
+      "mergedPrs30d": 14,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-28T21:34:01Z",
+      "lastActivityAt": "2026-07-28T22:12:52Z",
       "progress": {
         "percent": 50,
         "label": "M0 · Decisiones y andamiaje del monorepo: 5/10"
