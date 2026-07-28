@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T18:00:43.208Z",
+  "generatedAt": "2026-07-28T18:30:36.200Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -198,7 +198,7 @@
       "mergedPrs30d": 28,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-28T17:46:58Z",
+      "lastActivityAt": "2026-07-28T18:07:00Z",
       "progress": {
         "percent": 48,
         "label": "12/25 issues"
