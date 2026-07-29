@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T18:00:38.922Z",
+  "generatedAt": "2026-07-29T18:30:34.868Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-29T17:27:45Z",
+      "lastActivityAt": "2026-07-29T18:19:12Z",
       "progress": {
         "percent": 88,
         "label": "INFRA · Contratos y backend (EPIC-H): 7/8"
@@ -426,11 +426,11 @@
       "type": "github",
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 2,
       "mergedPrs30d": 8,
       "commits7d": 16,
       "commits30d": 25,
-      "lastActivityAt": "2026-07-29T17:17:51Z",
+      "lastActivityAt": "2026-07-29T18:04:19Z",
       "progress": {
         "percent": null,
         "label": "16 commits / 7d (develop)"
@@ -642,6 +642,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 3
   }
 }
