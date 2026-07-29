@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T16:30:31.407Z",
+  "generatedAt": "2026-07-29T17:00:37.457Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-29T16:13:52Z",
+      "lastActivityAt": "2026-07-29T16:54:07Z",
       "progress": {
         "percent": 88,
         "label": "INFRA · Contratos y backend (EPIC-H): 7/8"
@@ -208,11 +208,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 1,
-      "mergedPrs30d": 31,
+      "openPrs": 0,
+      "mergedPrs30d": 32,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-29T15:46:27Z",
+      "lastActivityAt": "2026-07-29T16:36:42Z",
       "progress": {
         "percent": 48,
         "label": "12/25 issues"
@@ -426,14 +426,14 @@
       "type": "github",
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "ok",
-      "openPrs": 0,
-      "mergedPrs30d": 6,
-      "commits7d": 6,
-      "commits30d": 13,
-      "lastActivityAt": "2026-07-29T16:20:41Z",
+      "openPrs": 1,
+      "mergedPrs30d": 8,
+      "commits7d": 16,
+      "commits30d": 25,
+      "lastActivityAt": "2026-07-29T16:54:39Z",
       "progress": {
         "percent": null,
-        "label": "6 commits / 7d (develop)"
+        "label": "16 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
@@ -642,6 +642,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 1
+    "totalOpenPrs": 2
   }
 }
