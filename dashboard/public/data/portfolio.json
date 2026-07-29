@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T15:30:34.581Z",
+  "generatedAt": "2026-07-29T16:00:41.516Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -15,13 +15,13 @@
       "commits30d": 30,
       "lastActivityAt": "2026-07-29T14:03:07Z",
       "progress": {
-        "percent": 75,
-        "label": "INFRA · Contratos y backend (EPIC-H): 6/8"
+        "percent": 88,
+        "label": "INFRA · Contratos y backend (EPIC-H): 7/8"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 6,
+          "closed": 7,
           "total": 8
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 180,
+          "closed": 182,
           "total": 185
         }
       ],
@@ -39,21 +39,21 @@
       "issueBreakdown": {
         "label": "INFRA · Contratos y backend (EPIC-H)",
         "totalIssues": 8,
-        "closedIssues": 6,
+        "closedIssues": 7,
         "issues": [
-          {
-            "number": 60,
-            "title": "UC-DM-INFRA-01 · Contrato OpenAPI por módulo (recurrente al cierre)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/60",
-            "updatedAt": "2026-07-29T14:41:56Z"
-          },
           {
             "number": 19,
             "title": "[EPIC] Contratos por módulo (vigente) + backend multi-tenant (DIFERIDO) (UC-DM-INFRA)",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/19",
             "updatedAt": "2026-07-22T13:31:37Z"
+          },
+          {
+            "number": 60,
+            "title": "UC-DM-INFRA-01 · Contrato OpenAPI por módulo (recurrente al cierre)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/60",
+            "updatedAt": "2026-07-29T15:40:38Z"
           },
           {
             "number": 139,
@@ -208,11 +208,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 31,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-29T13:33:57Z",
+      "lastActivityAt": "2026-07-29T15:46:27Z",
       "progress": {
         "percent": 48,
         "label": "12/25 issues"
@@ -642,6 +642,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 0
+    "totalOpenPrs": 1
   }
 }
