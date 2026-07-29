@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T14:30:38.593Z",
+  "generatedAt": "2026-07-29T15:00:44.502Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -15,13 +15,13 @@
       "commits30d": 30,
       "lastActivityAt": "2026-07-29T14:03:07Z",
       "progress": {
-        "percent": 88,
-        "label": "INFRA · Contratos y backend (EPIC-H): 7/8"
+        "percent": 75,
+        "label": "INFRA · Contratos y backend (EPIC-H): 6/8"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 7,
+          "closed": 6,
           "total": 8
         },
         {
@@ -31,29 +31,29 @@
         },
         {
           "label": "Global",
-          "closed": 181,
-          "total": 182
+          "closed": 180,
+          "total": 185
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "INFRA · Contratos y backend (EPIC-H)",
         "totalIssues": 8,
-        "closedIssues": 7,
+        "closedIssues": 6,
         "issues": [
+          {
+            "number": 60,
+            "title": "UC-DM-INFRA-01 · Contrato OpenAPI por módulo (recurrente al cierre)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/60",
+            "updatedAt": "2026-07-29T14:41:56Z"
+          },
           {
             "number": 19,
             "title": "[EPIC] Contratos por módulo (vigente) + backend multi-tenant (DIFERIDO) (UC-DM-INFRA)",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/19",
             "updatedAt": "2026-07-22T13:31:37Z"
-          },
-          {
-            "number": 60,
-            "title": "UC-DM-INFRA-01 · Contrato OpenAPI por módulo (recurrente al cierre)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/60",
-            "updatedAt": "2026-07-22T15:27:48Z"
           },
           {
             "number": 139,
@@ -428,12 +428,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 6,
-      "commits7d": 7,
+      "commits7d": 6,
       "commits30d": 13,
-      "lastActivityAt": "2026-07-28T21:05:37Z",
+      "lastActivityAt": "2026-07-29T14:52:26Z",
       "progress": {
         "percent": null,
-        "label": "7 commits / 7d (develop)"
+        "label": "6 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
