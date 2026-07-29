@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T18:30:34.868Z",
+  "generatedAt": "2026-07-29T19:00:37.670Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-29T18:19:12Z",
+      "lastActivityAt": "2026-07-29T18:41:21Z",
       "progress": {
         "percent": 88,
         "label": "INFRA · Contratos y backend (EPIC-H): 7/8"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 185,
+          "closed": 186,
           "total": 187
         }
       ],
@@ -642,6 +642,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 3
+    "totalOpenPrs": 2
   }
 }
