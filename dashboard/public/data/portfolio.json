@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T17:00:37.457Z",
+  "generatedAt": "2026-07-29T17:30:35.590Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-29T16:54:07Z",
+      "lastActivityAt": "2026-07-29T17:27:45Z",
       "progress": {
         "percent": 88,
         "label": "INFRA · Contratos y backend (EPIC-H): 7/8"
@@ -31,8 +31,8 @@
         },
         {
           "label": "Global",
-          "closed": 184,
-          "total": 186
+          "closed": 185,
+          "total": 187
         }
       ],
       "highlights": [],
@@ -430,7 +430,7 @@
       "mergedPrs30d": 8,
       "commits7d": 16,
       "commits30d": 25,
-      "lastActivityAt": "2026-07-29T16:54:39Z",
+      "lastActivityAt": "2026-07-29T17:17:51Z",
       "progress": {
         "percent": null,
         "label": "16 commits / 7d (develop)"
