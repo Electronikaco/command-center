@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T19:30:36.478Z",
+  "generatedAt": "2026-07-30T20:00:42.362Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -119,13 +119,13 @@
       "lastActivityAt": "2026-07-30T18:10:03Z",
       "progress": {
         "percent": 0,
-        "label": "Fase 7 · Convergencia con Cívok Hub: 0/7"
+        "label": "Fase 7 · Convergencia con Cívok Hub: 0/55"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
           "closed": 0,
-          "total": 7
+          "total": 55
         },
         {
           "label": "Épicas",
@@ -135,66 +135,367 @@
         {
           "label": "Global",
           "closed": 67,
-          "total": 74
+          "total": 122
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Fase 7 · Convergencia con Cívok Hub",
-        "totalIssues": 7,
+        "totalIssues": 55,
         "closedIssues": 0,
         "issues": [
           {
-            "number": 145,
-            "title": "[EPIC] Fase 7 — Convergencia con Cívok Hub (tracking)",
+            "number": 150,
+            "title": "[EPIC] Convergencia · Licenciamiento (consumir Hub, planes/add-ons/paquetes/contrato)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/145",
-            "updatedAt": "2026-07-23T13:59:05Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/150",
+            "updatedAt": "2026-07-30T19:43:17Z"
+          },
+          {
+            "number": 199,
+            "title": "CONV · Licencias · UID UUIDv7 + ID funcional LIC-/CTR-/PLN-/PKG-/ADD- (D3/D9)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/199",
+            "updatedAt": "2026-07-30T19:43:09Z"
+          },
+          {
+            "number": 198,
+            "title": "CONV · Licencias · Unificar fuente de verdad del contrato (quitar copia en service-auth) (D18)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/198",
+            "updatedAt": "2026-07-30T19:43:07Z"
+          },
+          {
+            "number": 197,
+            "title": "CONV · Licencias · Feature flags licenciado ∧ flag por catálogo (D15)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/197",
+            "updatedAt": "2026-07-30T19:43:05Z"
+          },
+          {
+            "number": 196,
+            "title": "CONV · Licencias · Contrato 1→N licencias + ciclo consecutivo, cobro delegado (D18)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/196",
+            "updatedAt": "2026-07-30T19:43:04Z"
+          },
+          {
+            "number": 195,
+            "title": "CONV · Licencias · Separar Plan / Add-on / Paquete (D27)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/195",
+            "updatedAt": "2026-07-30T19:43:02Z"
+          },
+          {
+            "number": 194,
+            "title": "CONV · Licencias · Límites hard/soft con enforcement real (D16)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/194",
+            "updatedAt": "2026-07-30T19:43:01Z"
+          },
+          {
+            "number": 193,
+            "title": "CONV · Licencias · Degradación a Free + bloqueo total tras gracia (D14)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/193",
+            "updatedAt": "2026-07-30T19:42:59Z"
+          },
+          {
+            "number": 192,
+            "title": "CONV · Licencias · Máquina de estados de licencia (Borrador→…→Free) (D14)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/192",
+            "updatedAt": "2026-07-30T19:42:57Z"
+          },
+          {
+            "number": 191,
+            "title": "CONV · Licencias · Invertir propiedad: consumir Licencia sincronizada desde Hub (D14-D18/D27)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/191",
+            "updatedAt": "2026-07-30T19:42:56Z"
           },
           {
             "number": 151,
             "title": "[EPIC] Convergencia · Sincronización / Eventos / Identificadores / Envelope / Retención",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/151",
-            "updatedAt": "2026-07-23T13:58:47Z"
+            "updatedAt": "2026-07-30T19:42:11Z"
           },
           {
-            "number": 150,
-            "title": "[EPIC] Convergencia · Licenciamiento (consumir Hub, planes/add-ons/paquetes/contrato)",
+            "number": 190,
+            "title": "CONV · Sync/Eventos · Contrato oficial de consulta de auditoría (federación) (D19)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/150",
-            "updatedAt": "2026-07-23T13:58:46Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/190",
+            "updatedAt": "2026-07-30T19:42:04Z"
           },
           {
-            "number": 149,
-            "title": "[EPIC] Convergencia · Personas / Consentimientos",
+            "number": 189,
+            "title": "CONV · Sync/Eventos · Retención 2 meses + reporte mensual + purga 2 años (D25)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/149",
-            "updatedAt": "2026-07-23T13:58:45Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/189",
+            "updatedAt": "2026-07-30T19:42:02Z"
+          },
+          {
+            "number": 188,
+            "title": "CONV · Sync/Eventos · Envelope canónico {success, data, meta} + helper en packages/types (D10)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/188",
+            "updatedAt": "2026-07-30T19:42:01Z"
+          },
+          {
+            "number": 187,
+            "title": "CONV · Sync/Eventos · ID funcional PREFIJO-NNNNNN (6 díg.) (D9)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/187",
+            "updatedAt": "2026-07-30T19:42:00Z"
+          },
+          {
+            "number": 186,
+            "title": "CONV · Sync/Eventos · UUIDv7 + CHAR(36) ascii_bin en identificadores (D3)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/186",
+            "updatedAt": "2026-07-30T19:41:58Z"
+          },
+          {
+            "number": 185,
+            "title": "CONV · Sync/Eventos · Extender el patrón outbox al resto de productores (D4)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/185",
+            "updatedAt": "2026-07-30T19:41:57Z"
+          },
+          {
+            "number": 184,
+            "title": "CONV · Sync/Eventos · Endurecer relay outbox: FOR UPDATE SKIP LOCKED + idempotencia por versión (D4)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/184",
+            "updatedAt": "2026-07-30T19:41:55Z"
+          },
+          {
+            "number": 183,
+            "title": "CONV · Sync/Eventos · Topología de colas hub-{recurso}.{app} con fan-out (D2)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/183",
+            "updatedAt": "2026-07-30T19:41:54Z"
           },
           {
             "number": 148,
             "title": "[EPIC] Convergencia · Organización / Workspace / Territorio / Tenancy",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/148",
-            "updatedAt": "2026-07-23T13:58:43Z"
+            "updatedAt": "2026-07-30T19:41:15Z"
+          },
+          {
+            "number": 182,
+            "title": "CONV · Org/Tenancy · Normalizar tipo del discriminador a CHAR(36) ascii_bin (D11)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/182",
+            "updatedAt": "2026-07-30T19:41:09Z"
+          },
+          {
+            "number": 181,
+            "title": "CONV · Org/Tenancy · UUIDv7 + ID funcional ORG-/WSP- (D3/D9)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/181",
+            "updatedAt": "2026-07-30T19:41:07Z"
+          },
+          {
+            "number": 180,
+            "title": "CONV · Org/Tenancy · Jerarquía Ciudad → (Territorio) → Sede (D-R1)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/180",
+            "updatedAt": "2026-07-30T19:41:06Z"
+          },
+          {
+            "number": 179,
+            "title": "CONV · Org/Tenancy · countryCode NOT NULL + displayName editable + description (D17)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/179",
+            "updatedAt": "2026-07-30T19:41:04Z"
+          },
+          {
+            "number": 178,
+            "title": "CONV · Org/Tenancy · Unicidad país↔workspace (orgUid, countryCode) (D17)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/178",
+            "updatedAt": "2026-07-30T19:41:03Z"
+          },
+          {
+            "number": 177,
+            "title": "CONV · Org/Tenancy · Extensión de Prisma que inyecta filtro de tenant + suite CI (D11)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/177",
+            "updatedAt": "2026-07-30T19:41:02Z"
+          },
+          {
+            "number": 176,
+            "title": "CONV · Org/Tenancy · Discriminador orgUid + workspaceUid en todas las tablas (D11)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/176",
+            "updatedAt": "2026-07-30T19:41:01Z"
+          },
+          {
+            "number": 149,
+            "title": "[EPIC] Convergencia · Personas / Consentimientos",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/149",
+            "updatedAt": "2026-07-30T19:40:24Z"
+          },
+          {
+            "number": 175,
+            "title": "CONV · Personas · Normalizar nombre físico del consentimiento de publicidad (D29)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/175",
+            "updatedAt": "2026-07-30T19:40:18Z"
+          },
+          {
+            "number": 174,
+            "title": "CONV · Personas · Trazabilidad de consentimiento (habeas data) (D29)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/174",
+            "updatedAt": "2026-07-30T19:40:17Z"
+          },
+          {
+            "number": 173,
+            "title": "CONV · Personas · Filtrado por campo (campos sensibles por app) (D8)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/173",
+            "updatedAt": "2026-07-30T19:40:15Z"
+          },
+          {
+            "number": 172,
+            "title": "CONV · Personas · Visibilidad por interacción (personUid, orgUid) (D8/D29)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/172",
+            "updatedAt": "2026-07-30T19:40:14Z"
+          },
+          {
+            "number": 171,
+            "title": "CONV · Personas · Relación Persona–Organización de primera clase (consentimientos) (D29)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/171",
+            "updatedAt": "2026-07-30T19:40:13Z"
+          },
+          {
+            "number": 170,
+            "title": "CONV · Personas · Turno como consumidor del maestro de Personas de Hub (D8/D29)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/170",
+            "updatedAt": "2026-07-30T19:40:11Z"
+          },
+          {
+            "number": 169,
+            "title": "CONV · Personas · personUid (UUIDv7) como identidad global (D3/D29)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/169",
+            "updatedAt": "2026-07-30T19:40:10Z"
           },
           {
             "number": 147,
             "title": "[EPIC] Convergencia · Autorización / Roles / ABAC",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/147",
-            "updatedAt": "2026-07-23T13:58:42Z"
+            "updatedAt": "2026-07-30T19:39:34Z"
+          },
+          {
+            "number": 168,
+            "title": "CONV · Roles/ABAC · Verificar que el rol NO viaja en el JWT (D5/D28)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/168",
+            "updatedAt": "2026-07-30T19:39:28Z"
+          },
+          {
+            "number": 167,
+            "title": "CONV · Roles/ABAC · Equipos con herencia de roles (conjunto de roles) (D21)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/167",
+            "updatedAt": "2026-07-30T19:39:27Z"
+          },
+          {
+            "number": 166,
+            "title": "CONV · Roles/ABAC · Granularidad por módulo en roles/permisos de app (D22)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/166",
+            "updatedAt": "2026-07-30T19:39:26Z"
+          },
+          {
+            "number": 165,
+            "title": "CONV · Roles/ABAC · Alinear vocabulario de roles ROL-* con D20 (D20)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/165",
+            "updatedAt": "2026-07-30T19:39:25Z"
+          },
+          {
+            "number": 164,
+            "title": "CONV · Roles/ABAC · Reconciliar catálogo de roles divergente auth ↔ users (D22/D28)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/164",
+            "updatedAt": "2026-07-30T19:39:23Z"
+          },
+          {
+            "number": 163,
+            "title": "CONV · Roles/ABAC · Entidad Permiso atada a Rol (D21)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/163",
+            "updatedAt": "2026-07-30T19:39:22Z"
+          },
+          {
+            "number": 162,
+            "title": "CONV · Roles/ABAC · Roles como copia sincronizada desde Hub, no catálogo propio (D22/D28)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/162",
+            "updatedAt": "2026-07-30T19:39:21Z"
           },
           {
             "number": 146,
             "title": "[EPIC] Convergencia · Identidad / Auth / Sesiones (JWT, sesión única, MFA)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/146",
-            "updatedAt": "2026-07-23T13:58:40Z"
+            "updatedAt": "2026-07-30T19:38:42Z"
+          },
+          {
+            "number": 161,
+            "title": "CONV · Auth/Sesión · Reconciliar solapamiento identity service-auth ↔ service-users (D22)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/161",
+            "updatedAt": "2026-07-30T19:38:33Z"
+          },
+          {
+            "number": 160,
+            "title": "CONV · Auth/Sesión · Canjear API Key de servicio por token de servicio corto (D7)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/160",
+            "updatedAt": "2026-07-30T19:38:32Z"
+          },
+          {
+            "number": 159,
+            "title": "CONV · Auth/Sesión · Modelo de creación genérico vs no genérico real (D22)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/159",
+            "updatedAt": "2026-07-30T19:38:31Z"
+          },
+          {
+            "number": 158,
+            "title": "CONV · Auth/Sesión · Username único por organización (D22)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/158",
+            "updatedAt": "2026-07-30T19:38:30Z"
+          },
+          {
+            "number": 157,
+            "title": "CONV · Auth/Sesión · MFA email obligatorio + TOTP/SMS opt-in (D24)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/157",
+            "updatedAt": "2026-07-30T19:38:29Z"
+          },
+          {
+            "number": 156,
+            "title": "CONV · Auth/Sesión · Sesión única: el login revoca la sesión anterior (D23)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/156",
+            "updatedAt": "2026-07-30T19:38:27Z"
           }
         ],
-        "truncated": false
+        "truncated": true
       },
       "links": {
         "github": "https://github.com/Electronikaco/civok-back"
@@ -212,7 +513,7 @@
       "mergedPrs30d": 38,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-30T19:15:33Z",
+      "lastActivityAt": "2026-07-30T19:36:40Z",
       "progress": {
         "percent": 52,
         "label": "13/25 issues"
@@ -482,21 +783,21 @@
             "title": "INT-04 · Prueba de degradación con Hub caído — **criterio de salida de R1**",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/96",
-            "updatedAt": "2026-07-18T23:53:34Z"
+            "updatedAt": "2026-07-30T19:38:24Z"
           },
           {
             "number": 95,
             "title": "INT-03 · Autorización local en Turno, sin consultar a Hub por operación",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/95",
-            "updatedAt": "2026-07-18T23:53:33Z"
+            "updatedAt": "2026-07-30T19:38:23Z"
           },
           {
             "number": 94,
             "title": "INT-02 · Integración del SDK en Turno y sincronización inicial completa",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/94",
-            "updatedAt": "2026-07-18T23:53:32Z"
+            "updatedAt": "2026-07-30T19:38:22Z"
           },
           {
             "number": 97,
@@ -533,14 +834,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-07-30T16:30:12Z",
       "progress": {
-        "percent": 17,
-        "label": "M1 · Base compartida: @civok/ui v0: 1/6"
+        "percent": 0,
+        "label": "M8 · Migración Turno: dashboard (8101): 0/10"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 1,
-          "total": 6
+          "closed": 0,
+          "total": 10
         },
         {
           "label": "Épicas",
@@ -550,56 +851,84 @@
         {
           "label": "Global",
           "closed": 6,
-          "total": 42
+          "total": 43
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "M1 · Base compartida: @civok/ui v0",
-        "totalIssues": 6,
-        "closedIssues": 1,
+        "label": "M8 · Migración Turno: dashboard (8101)",
+        "totalIssues": 10,
+        "closedIssues": 0,
         "issues": [
           {
-            "number": 16,
-            "title": "UI-06 · Showcase del design system (criterio de salida de M1)",
+            "number": 37,
+            "title": "DASH-01 · 🔴 D7: sacar secretos del bundle (public/config.ts) — BLOQUEANTE",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/16",
-            "updatedAt": "2026-07-27T17:16:16Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/37",
+            "updatedAt": "2026-07-30T19:38:39Z"
           },
           {
-            "number": 15,
-            "title": "UI-05 · Kit de estados: PageHeader, KpiCard, EmptyState, ErrorDisplay, Skeleton",
+            "number": 44,
+            "title": "DASH-08 · i18n: extraer strings hardcodeados",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/15",
-            "updatedAt": "2026-07-27T17:16:14Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/44",
+            "updatedAt": "2026-07-30T19:38:32Z"
           },
           {
-            "number": 14,
-            "title": "UI-04 · AppShell parametrizable: sidebar + header + breadcrumbs + command palette",
+            "number": 43,
+            "title": "DASH-07 · FSD + troceo de páginas monolíticas + naming",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/14",
-            "updatedAt": "2026-07-27T17:16:12Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/43",
+            "updatedAt": "2026-07-30T19:38:30Z"
           },
           {
-            "number": 13,
-            "title": "UI-03 · DataTable: promoción de unified-tanstack-table como tabla oficial",
+            "number": 42,
+            "title": "DASH-06 · Formularios: RHF + zod (FormField-kit)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/13",
-            "updatedAt": "2026-07-27T17:16:11Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/42",
+            "updatedAt": "2026-07-30T19:38:28Z"
           },
           {
-            "number": 12,
-            "title": "UI-02 · FormField-kit: patrón único de formularios RHF + zod",
+            "number": 41,
+            "title": "DASH-05 · Datos: TanStack Query + hooks por entidad sobre el BFF",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/12",
-            "updatedAt": "2026-07-27T17:16:09Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/41",
+            "updatedAt": "2026-07-30T19:38:26Z"
           },
           {
-            "number": 11,
-            "title": "UI-01 · Extracción de primitivas shadcn a @civok/ui + variantes brand/success/warning/info",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/11",
-            "updatedAt": "2026-07-30T16:56:49Z"
+            "number": 40,
+            "title": "DASH-04 · UI: consumir @civok/ui, retirar shadcn/radix sueltos, DataTable, lucide",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/40",
+            "updatedAt": "2026-07-30T19:38:23Z"
+          },
+          {
+            "number": 39,
+            "title": "DASH-03 · Estilo: preset de @civok/tokens y erradicar hex",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/39",
+            "updatedAt": "2026-07-30T19:38:21Z"
+          },
+          {
+            "number": 38,
+            "title": "DASH-02 · Adoptar @civok/config (ESLint FSD+anti-hex) y tsconfig compartido",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/38",
+            "updatedAt": "2026-07-30T19:38:19Z"
+          },
+          {
+            "number": 58,
+            "title": "chore · Arreglar verify roto: import colgante DataDebugger en apps/dashboard",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/58",
+            "updatedAt": "2026-07-30T19:37:58Z"
+          },
+          {
+            "number": 29,
+            "title": "EPIC · Dashboard de Turno a FSD (8101)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/29",
+            "updatedAt": "2026-07-27T19:57:51Z"
           }
         ],
         "truncated": false
