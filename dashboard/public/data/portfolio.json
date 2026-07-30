@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T16:30:38.844Z",
+  "generatedAt": "2026-07-30T17:00:39.979Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -208,11 +208,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 35,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-30T16:28:46Z",
+      "lastActivityAt": "2026-07-30T16:59:44Z",
       "progress": {
         "percent": 52,
         "label": "13/25 issues"
@@ -533,14 +533,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-07-30T16:30:12Z",
       "progress": {
-        "percent": 50,
-        "label": "M0 · Decisiones y andamiaje del monorepo: 5/10"
+        "percent": 17,
+        "label": "M1 · Base compartida: @civok/ui v0: 1/6"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 5,
-          "total": 10
+          "closed": 1,
+          "total": 6
         },
         {
           "label": "Épicas",
@@ -549,85 +549,57 @@
         },
         {
           "label": "Global",
-          "closed": 5,
+          "closed": 6,
           "total": 42
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "M0 · Decisiones y andamiaje del monorepo",
-        "totalIssues": 10,
-        "closedIssues": 5,
+        "label": "M1 · Base compartida: @civok/ui v0",
+        "totalIssues": 6,
+        "closedIssues": 1,
         "issues": [
           {
-            "number": 5,
-            "title": "DEC-05 · Login federado con Google vía identity-providers del Hub (HD6)",
+            "number": 16,
+            "title": "UI-06 · Showcase del design system (criterio de salida de M1)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/5",
-            "updatedAt": "2026-07-27T19:57:00Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/16",
+            "updatedAt": "2026-07-27T17:16:16Z"
           },
           {
-            "number": 4,
-            "title": "DEC-04 · Contratos con hub-api: ¿SDK oficial del Hub o cliente propio? (HD4)",
+            "number": 15,
+            "title": "UI-05 · Kit de estados: PageHeader, KpiCard, EmptyState, ErrorDisplay, Skeleton",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/4",
-            "updatedAt": "2026-07-27T19:57:00Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/15",
+            "updatedAt": "2026-07-27T17:16:14Z"
           },
           {
-            "number": 3,
-            "title": "DEC-03 · Estrategia de dominios/subdominios con el equipo Hub (HD2) + CORS",
+            "number": 14,
+            "title": "UI-04 · AppShell parametrizable: sidebar + header + breadcrumbs + command palette",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/3",
-            "updatedAt": "2026-07-27T19:56:59Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/14",
+            "updatedAt": "2026-07-27T17:16:12Z"
           },
           {
-            "number": 2,
-            "title": "DEC-02 · Puerto y basePath de Hub Console en la serie 8100 (D9/HD5)",
+            "number": 13,
+            "title": "UI-03 · DataTable: promoción de unified-tanstack-table como tabla oficial",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/2",
-            "updatedAt": "2026-07-27T17:15:00Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/13",
+            "updatedAt": "2026-07-27T17:16:11Z"
           },
           {
-            "number": 1,
-            "title": "DEC-01 · Ratificar decisiones del plan base aplicables al monorepo (D5, D6, D8)",
+            "number": 12,
+            "title": "UI-02 · FormField-kit: patrón único de formularios RHF + zod",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/1",
-            "updatedAt": "2026-07-27T17:14:59Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/12",
+            "updatedAt": "2026-07-27T17:16:09Z"
           },
           {
-            "number": 10,
-            "title": "DOC-01 · Ratificar la gobernanza inicial: README, CONTRIBUTING y estándares",
+            "number": 11,
+            "title": "UI-01 · Extracción de primitivas shadcn a @civok/ui + variantes brand/success/warning/info",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/10",
-            "updatedAt": "2026-07-27T21:20:46Z"
-          },
-          {
-            "number": 9,
-            "title": "TOK-01 · @civok/tokens v0: marca #4A51A3, semánticos, dark mode y contrato --brand-*",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/9",
-            "updatedAt": "2026-07-27T21:18:53Z"
-          },
-          {
-            "number": 8,
-            "title": "INF-03 · CI: lint + typecheck + test + build por PR con cache de Turbo",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/8",
-            "updatedAt": "2026-07-27T21:18:53Z"
-          },
-          {
-            "number": 7,
-            "title": "INF-02 · packages/config: ESLint con reglas FSD y anti-hex, tsconfig y prettier compartidos",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/7",
-            "updatedAt": "2026-07-27T21:18:53Z"
-          },
-          {
-            "number": 6,
-            "title": "INF-01 · Andamiaje Turborepo + pnpm workspaces",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/6",
-            "updatedAt": "2026-07-27T21:18:52Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/11",
+            "updatedAt": "2026-07-30T16:56:49Z"
           }
         ],
         "truncated": false
@@ -642,6 +614,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 0
+    "totalOpenPrs": 1
   }
 }
