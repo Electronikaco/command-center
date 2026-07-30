@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T20:00:42.362Z",
+  "generatedAt": "2026-07-30T20:30:35.304Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -116,7 +116,7 @@
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-30T18:10:03Z",
+      "lastActivityAt": "2026-07-30T20:09:18Z",
       "progress": {
         "percent": 0,
         "label": "Fase 7 · Convergencia con Cívok Hub: 0/55"
@@ -752,10 +752,10 @@
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 18,
+      "mergedPrs30d": 19,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-28T22:11:48Z",
+      "lastActivityAt": "2026-07-30T20:29:01Z",
       "progress": {
         "percent": 40,
         "label": "M7 · Integración piloto con Turno: 2/5"
@@ -768,7 +768,7 @@
         },
         {
           "label": "Global",
-          "closed": 92,
+          "closed": 93,
           "total": 98
         }
       ],
