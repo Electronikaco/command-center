@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T14:30:36.848Z",
+  "generatedAt": "2026-07-30T15:00:37.621Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -209,23 +209,23 @@
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 32,
+      "mergedPrs30d": 33,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-29T16:36:42Z",
+      "lastActivityAt": "2026-07-30T14:48:00Z",
       "progress": {
-        "percent": 48,
-        "label": "12/25 issues"
+        "percent": 52,
+        "label": "13/25 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 12,
+          "closed": 13,
           "total": 25
         },
         {
           "label": "Épicas",
-          "closed": 3,
+          "closed": 4,
           "total": 14
         }
       ],
@@ -233,7 +233,7 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 25,
-        "closedIssues": 12,
+        "closedIssues": 13,
         "issues": [
           {
             "number": 30,
@@ -313,18 +313,18 @@
             "updatedAt": "2026-07-09T20:04:37Z"
           },
           {
-            "number": 7,
-            "title": "[EPIC] Integracion con Facebook Messenger (paridad con Instagram)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/7",
-            "updatedAt": "2026-07-09T20:04:34Z"
-          },
-          {
             "number": 2,
             "title": "[EPIC] Pipeline CI/CD para Auth/Config con Docker + GHCR",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/2",
             "updatedAt": "2026-07-09T20:03:49Z"
+          },
+          {
+            "number": 7,
+            "title": "[EPIC] Integracion con Facebook Messenger (paridad con Instagram)",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/7",
+            "updatedAt": "2026-07-30T14:47:58Z"
           },
           {
             "number": 40,
