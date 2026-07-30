@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T21:30:37.208Z",
+  "generatedAt": "2026-07-30T22:00:36.633Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -779,18 +779,18 @@
         "closedIssues": 3,
         "issues": [
           {
+            "number": 95,
+            "title": "INT-03 · Autorización local en Turno, sin consultar a Hub por operación",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/95",
+            "updatedAt": "2026-07-30T21:59:58Z"
+          },
+          {
             "number": 96,
             "title": "INT-04 · Prueba de degradación con Hub caído — **criterio de salida de R1**",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/96",
             "updatedAt": "2026-07-30T21:07:19Z"
-          },
-          {
-            "number": 95,
-            "title": "INT-03 · Autorización local en Turno, sin consultar a Hub por operación",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/95",
-            "updatedAt": "2026-07-30T21:07:18Z"
           },
           {
             "number": 94,
