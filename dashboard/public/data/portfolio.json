@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T16:00:44.473Z",
+  "generatedAt": "2026-07-30T16:30:38.844Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -209,10 +209,10 @@
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 33,
+      "mergedPrs30d": 35,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-30T14:48:00Z",
+      "lastActivityAt": "2026-07-30T16:28:46Z",
       "progress": {
         "percent": 52,
         "label": "13/25 issues"
@@ -528,10 +528,10 @@
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 14,
+      "mergedPrs30d": 15,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-30T15:51:43Z",
+      "lastActivityAt": "2026-07-30T16:30:12Z",
       "progress": {
         "percent": 50,
         "label": "M0 · Decisiones y andamiaje del monorepo: 5/10"
