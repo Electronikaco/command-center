@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T18:00:40.987Z",
+  "generatedAt": "2026-07-30T18:30:38.071Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -114,9 +114,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 0,
+      "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-21T14:34:48Z",
+      "lastActivityAt": "2026-07-30T18:10:03Z",
       "progress": {
         "percent": 0,
         "label": "Fase 7 · Convergencia con Cívok Hub: 0/7"
