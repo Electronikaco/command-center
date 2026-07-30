@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T20:30:35.304Z",
+  "generatedAt": "2026-07-30T21:00:38.803Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -116,15 +116,15 @@
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-30T20:09:18Z",
+      "lastActivityAt": "2026-07-30T20:49:20Z",
       "progress": {
-        "percent": 0,
-        "label": "Fase 7 · Convergencia con Cívok Hub: 0/55"
+        "percent": 2,
+        "label": "Fase 7 · Convergencia con Cívok Hub: 1/55"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 0,
+          "closed": 1,
           "total": 55
         },
         {
@@ -134,7 +134,7 @@
         },
         {
           "label": "Global",
-          "closed": 67,
+          "closed": 68,
           "total": 122
         }
       ],
@@ -142,8 +142,15 @@
       "issueBreakdown": {
         "label": "Fase 7 · Convergencia con Cívok Hub",
         "totalIssues": 55,
-        "closedIssues": 0,
+        "closedIssues": 1,
         "issues": [
+          {
+            "number": 153,
+            "title": "CONV · Auth · Quitar rol y ámbito territorial del JWT (D5/D28)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/153",
+            "updatedAt": "2026-07-30T20:53:29Z"
+          },
           {
             "number": 150,
             "title": "[EPIC] Convergencia · Licenciamiento (consumir Hub, planes/add-ons/paquetes/contrato)",
@@ -486,13 +493,6 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/157",
             "updatedAt": "2026-07-30T19:38:29Z"
-          },
-          {
-            "number": 156,
-            "title": "CONV · Auth/Sesión · Sesión única: el login revoca la sesión anterior (D23)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/156",
-            "updatedAt": "2026-07-30T19:38:27Z"
           }
         ],
         "truncated": true
@@ -828,11 +828,11 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 0,
-      "mergedPrs30d": 15,
+      "openPrs": 1,
+      "mergedPrs30d": 16,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-30T16:30:12Z",
+      "lastActivityAt": "2026-07-30T20:58:31Z",
       "progress": {
         "percent": 0,
         "label": "M8 · Migración Turno: dashboard (8101): 0/10"
@@ -943,6 +943,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 0
+    "totalOpenPrs": 1
   }
 }
