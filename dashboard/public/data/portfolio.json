@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T17:30:40.744Z",
+  "generatedAt": "2026-07-31T18:00:41.348Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -829,10 +829,10 @@
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 33,
+      "mergedPrs30d": 35,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-31T17:04:22Z",
+      "lastActivityAt": "2026-07-31T17:58:17Z",
       "progress": {
         "percent": 10,
         "label": "M8 · Migración Turno: dashboard (8101): 1/10"
