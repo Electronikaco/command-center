@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T15:00:41.182Z",
+  "generatedAt": "2026-07-31T15:30:43.038Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -509,11 +509,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 1,
-      "mergedPrs30d": 38,
+      "openPrs": 0,
+      "mergedPrs30d": 39,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-31T15:00:23Z",
+      "lastActivityAt": "2026-07-31T15:00:43Z",
       "progress": {
         "percent": 52,
         "label": "13/25 issues"
@@ -752,10 +752,10 @@
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 21,
+      "mergedPrs30d": 22,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-31T13:31:38Z",
+      "lastActivityAt": "2026-07-31T15:07:11Z",
       "progress": {
         "percent": 60,
         "label": "M7 · Integración piloto con Turno: 3/5"
@@ -829,10 +829,10 @@
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 25,
+      "mergedPrs30d": 26,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-31T14:08:21Z",
+      "lastActivityAt": "2026-07-31T15:12:45Z",
       "progress": {
         "percent": 10,
         "label": "M8 · Migración Turno: dashboard (8101): 1/10"
@@ -943,6 +943,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 1
+    "totalOpenPrs": 0
   }
 }
