@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T20:00:36.534Z",
+  "generatedAt": "2026-08-03T20:30:32.554Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 18,
+      "commits7d": 17,
       "commits30d": 30,
       "lastActivityAt": "2026-07-29T21:02:54Z",
       "progress": {
@@ -751,11 +751,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
-      "mergedPrs30d": 26,
+      "openPrs": 0,
+      "mergedPrs30d": 28,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-03T19:55:37Z",
+      "lastActivityAt": "2026-08-03T20:17:02Z",
       "progress": {
         "percent": 60,
         "label": "M7 · Integración piloto con Turno: 3/5"
@@ -768,7 +768,7 @@
         },
         {
           "label": "Global",
-          "closed": 95,
+          "closed": 97,
           "total": 107
         }
       ],
@@ -783,14 +783,14 @@
             "title": "INT-04 · Prueba de degradación con Hub caído — **criterio de salida de R1**",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/96",
-            "updatedAt": "2026-07-30T22:01:20Z"
+            "updatedAt": "2026-08-03T20:25:23Z"
           },
           {
             "number": 95,
             "title": "INT-03 · Autorización local en Turno, sin consultar a Hub por operación",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/95",
-            "updatedAt": "2026-07-30T21:59:58Z"
+            "updatedAt": "2026-08-03T20:25:20Z"
           },
           {
             "number": 94,
@@ -943,6 +943,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 1
+    "totalOpenPrs": 0
   }
 }
