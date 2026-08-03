@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T13:30:35.555Z",
+  "generatedAt": "2026-08-03T14:00:34.778Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -755,7 +755,7 @@
       "mergedPrs30d": 24,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-01T16:35:51Z",
+      "lastActivityAt": "2026-08-03T13:36:32Z",
       "progress": {
         "percent": 60,
         "label": "M7 · Integración piloto con Turno: 3/5"
