@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T21:00:38.656Z",
+  "generatedAt": "2026-08-03T21:30:35.121Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -755,7 +755,7 @@
       "mergedPrs30d": 29,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-03T20:52:06Z",
+      "lastActivityAt": "2026-08-03T21:22:28Z",
       "progress": {
         "percent": 60,
         "label": "M7 · Integración piloto con Turno: 3/5"
@@ -832,7 +832,7 @@
       "mergedPrs30d": 38,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-03T15:05:55Z",
+      "lastActivityAt": "2026-08-03T21:10:49Z",
       "progress": {
         "percent": 10,
         "label": "M8 · Migración Turno: dashboard (8101): 1/10"
