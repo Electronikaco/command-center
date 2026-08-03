@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T15:00:41.056Z",
+  "generatedAt": "2026-08-03T15:30:32.135Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 23,
+      "commits7d": 20,
       "commits30d": 30,
       "lastActivityAt": "2026-07-29T21:02:54Z",
       "progress": {
@@ -769,7 +769,7 @@
         {
           "label": "Global",
           "closed": 94,
-          "total": 98
+          "total": 104
         }
       ],
       "highlights": [],
@@ -832,7 +832,7 @@
       "mergedPrs30d": 38,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-01T16:54:57Z",
+      "lastActivityAt": "2026-08-03T15:05:55Z",
       "progress": {
         "percent": 10,
         "label": "M8 · Migración Turno: dashboard (8101): 1/10"
@@ -845,13 +845,13 @@
         },
         {
           "label": "Épicas",
-          "closed": 0,
+          "closed": 2,
           "total": 11
         },
         {
           "label": "Global",
-          "closed": 13,
-          "total": 43
+          "closed": 20,
+          "total": 44
         }
       ],
       "highlights": [],
