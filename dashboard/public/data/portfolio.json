@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T01:30:37.546Z",
+  "generatedAt": "2026-08-04T02:00:51.143Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,17 +11,17 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 17,
+      "commits7d": 19,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T01:17:24Z",
+      "lastActivityAt": "2026-08-04T01:37:44Z",
       "progress": {
-        "percent": 0,
-        "label": "BE5 · Infra documental: MinIO + Gotenberg (EPIC-S): 0/6"
+        "percent": 33,
+        "label": "BE5 · Infra documental: MinIO + Gotenberg (EPIC-S): 2/6"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 0,
+          "closed": 2,
           "total": 6
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 184,
+          "closed": 186,
           "total": 200
         }
       ],
@@ -39,22 +39,8 @@
       "issueBreakdown": {
         "label": "BE5 · Infra documental: MinIO + Gotenberg (EPIC-S)",
         "totalIssues": 6,
-        "closedIssues": 0,
+        "closedIssues": 2,
         "issues": [
-          {
-            "number": 449,
-            "title": "UC-DM-BE-56 · Gotenberg en docker-compose como motor de render PDF",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/449",
-            "updatedAt": "2026-08-04T01:16:46Z"
-          },
-          {
-            "number": 448,
-            "title": "UC-DM-BE-55 · MinIO en docker-compose como object storage compartido (buckets por dominio)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/448",
-            "updatedAt": "2026-08-04T01:16:45Z"
-          },
           {
             "number": 452,
             "title": "UC-DM-BE-59 · Piloto de render PDF: consentimiento (Formato 5) vía Gotenberg con doble modo",
@@ -82,6 +68,20 @@
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/435",
             "updatedAt": "2026-08-04T01:03:25Z"
+          },
+          {
+            "number": 449,
+            "title": "UC-DM-BE-56 · Gotenberg en docker-compose como motor de render PDF",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/449",
+            "updatedAt": "2026-08-04T01:38:22Z"
+          },
+          {
+            "number": 448,
+            "title": "UC-DM-BE-55 · MinIO en docker-compose como object storage compartido (buckets por dominio)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/448",
+            "updatedAt": "2026-08-04T01:38:19Z"
           }
         ],
         "truncated": false
