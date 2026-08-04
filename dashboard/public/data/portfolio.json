@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T22:30:36.368Z",
+  "generatedAt": "2026-08-04T23:00:38.685Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -151,15 +151,15 @@
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T22:26:00Z",
+      "lastActivityAt": "2026-08-04T22:57:52Z",
       "progress": {
-        "percent": 53,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 45/85"
+        "percent": 64,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 54/85"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 45,
+          "closed": 54,
           "total": 85
         },
         {
@@ -169,7 +169,7 @@
         },
         {
           "label": "Global",
-          "closed": 112,
+          "closed": 121,
           "total": 156
         }
       ],
@@ -177,7 +177,7 @@
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
         "totalIssues": 85,
-        "closedIssues": 45,
+        "closedIssues": 54,
         "issues": [
           {
             "number": 258,
@@ -192,69 +192,6 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/257",
             "updatedAt": "2026-08-04T22:27:37Z"
-          },
-          {
-            "number": 256,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-connectors (rollout #177)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/256",
-            "updatedAt": "2026-08-04T22:27:35Z"
-          },
-          {
-            "number": 255,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-storage (rollout #177)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/255",
-            "updatedAt": "2026-08-04T22:27:34Z"
-          },
-          {
-            "number": 254,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-kiosk (rollout #177)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/254",
-            "updatedAt": "2026-08-04T22:27:33Z"
-          },
-          {
-            "number": 253,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-video-attention (rollout #177)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/253",
-            "updatedAt": "2026-08-04T22:27:31Z"
-          },
-          {
-            "number": 252,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-devices (rollout #177)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/252",
-            "updatedAt": "2026-08-04T22:27:30Z"
-          },
-          {
-            "number": 251,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-attention (rollout #177)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/251",
-            "updatedAt": "2026-08-04T22:27:29Z"
-          },
-          {
-            "number": 250,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-reservations (rollout #177)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/250",
-            "updatedAt": "2026-08-04T22:27:28Z"
-          },
-          {
-            "number": 249,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-reports (rollout #177)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/249",
-            "updatedAt": "2026-08-04T22:27:26Z"
-          },
-          {
-            "number": 248,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-config (rollout #177)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/248",
-            "updatedAt": "2026-08-04T22:27:25Z"
           },
           {
             "number": 185,
@@ -458,6 +395,69 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/153",
             "updatedAt": "2026-07-30T20:53:29Z"
+          },
+          {
+            "number": 256,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-connectors (rollout #177)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/256",
+            "updatedAt": "2026-08-04T22:57:54Z"
+          },
+          {
+            "number": 255,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-storage (rollout #177)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/255",
+            "updatedAt": "2026-08-04T22:53:47Z"
+          },
+          {
+            "number": 254,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-kiosk (rollout #177)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/254",
+            "updatedAt": "2026-08-04T22:50:53Z"
+          },
+          {
+            "number": 253,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-video-attention (rollout #177)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/253",
+            "updatedAt": "2026-08-04T22:48:02Z"
+          },
+          {
+            "number": 252,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-devices (rollout #177)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/252",
+            "updatedAt": "2026-08-04T22:45:17Z"
+          },
+          {
+            "number": 251,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-attention (rollout #177)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/251",
+            "updatedAt": "2026-08-04T22:42:40Z"
+          },
+          {
+            "number": 250,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-reservations (rollout #177)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/250",
+            "updatedAt": "2026-08-04T22:39:40Z"
+          },
+          {
+            "number": 249,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-reports (rollout #177)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/249",
+            "updatedAt": "2026-08-04T22:36:37Z"
+          },
+          {
+            "number": 248,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-config (rollout #177)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/248",
+            "updatedAt": "2026-08-04T22:33:23Z"
           },
           {
             "number": 243,
@@ -787,10 +787,10 @@
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 36,
+      "mergedPrs30d": 38,
       "commits7d": 13,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T22:13:25Z",
+      "lastActivityAt": "2026-08-04T22:57:21Z",
       "progress": {
         "percent": 60,
         "label": "M7 · Integración piloto con Turno: 3/5"
@@ -803,7 +803,7 @@
         },
         {
           "label": "Global",
-          "closed": 102,
+          "closed": 104,
           "total": 110
         }
       ],
