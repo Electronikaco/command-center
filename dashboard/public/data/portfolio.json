@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T14:00:38.549Z",
+  "generatedAt": "2026-08-04T14:30:37.532Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -42,6 +42,13 @@
         "closedIssues": 2,
         "issues": [
           {
+            "number": 450,
+            "title": "UC-DM-BE-57 · Contrato de storage + paquete @dosmentes/storage (upload con hash SHA-256)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/450",
+            "updatedAt": "2026-08-04T14:10:03Z"
+          },
+          {
             "number": 452,
             "title": "UC-DM-BE-59 · Piloto de render PDF: consentimiento (Formato 5) vía Gotenberg con doble modo",
             "state": "OPEN",
@@ -54,13 +61,6 @@
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/451",
             "updatedAt": "2026-08-04T01:04:50Z"
-          },
-          {
-            "number": 450,
-            "title": "UC-DM-BE-57 · Contrato de storage + paquete @dosmentes/storage (upload con hash SHA-256)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/450",
-            "updatedAt": "2026-08-04T01:04:48Z"
           },
           {
             "number": 435,
