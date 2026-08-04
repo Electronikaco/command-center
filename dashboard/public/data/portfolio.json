@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T20:30:36.494Z",
+  "generatedAt": "2026-08-04T21:00:38.497Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -102,15 +102,15 @@
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T20:16:28Z",
+      "lastActivityAt": "2026-08-04T20:42:12Z",
       "progress": {
-        "percent": 58,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 43/74"
+        "percent": 59,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 44/74"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 43,
+          "closed": 44,
           "total": 74
         },
         {
@@ -120,7 +120,7 @@
         },
         {
           "label": "Global",
-          "closed": 110,
+          "closed": 111,
           "total": 145
         }
       ],
@@ -128,7 +128,7 @@
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
         "totalIssues": 74,
-        "closedIssues": 43,
+        "closedIssues": 44,
         "issues": [
           {
             "number": 243,
@@ -292,13 +292,6 @@
             "updatedAt": "2026-08-04T15:21:46Z"
           },
           {
-            "number": 211,
-            "title": "INT-04 · Modo degradado con Hub caído: copia local con TTL + watermark de sync",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/211",
-            "updatedAt": "2026-08-04T15:20:16Z"
-          },
-          {
             "number": 210,
             "title": "INT-03 · Modelo de autorización runtime: PEP en BFF + PDP local sobre copias Hub",
             "state": "OPEN",
@@ -346,6 +339,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/153",
             "updatedAt": "2026-07-30T20:53:29Z"
+          },
+          {
+            "number": 211,
+            "title": "INT-04 · Modo degradado con Hub caído: copia local con TTL + watermark de sync",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/211",
+            "updatedAt": "2026-08-04T20:42:27Z"
           },
           {
             "number": 183,
@@ -496,10 +496,10 @@
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 40,
-      "commits7d": 25,
+      "mergedPrs30d": 43,
+      "commits7d": 27,
       "commits30d": 30,
-      "lastActivityAt": "2026-07-31T20:30:36Z",
+      "lastActivityAt": "2026-08-04T20:45:35Z",
       "progress": {
         "percent": 52,
         "label": "13/25 issues"
@@ -523,18 +523,18 @@
         "closedIssues": 13,
         "issues": [
           {
+            "number": 29,
+            "title": "Unificación WhatsApp↔DDD Nivel 2: Migración parcial (CredentialService + ContactResolution + OutboundPipeline)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/29",
+            "updatedAt": "2026-08-04T20:30:50Z"
+          },
+          {
             "number": 30,
             "title": "Unificación WhatsApp↔DDD Nivel 3: Migración completa (InboundMessagePipeline + eliminar legacy)",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/30",
             "updatedAt": "2026-07-21T15:43:11Z"
-          },
-          {
-            "number": 29,
-            "title": "Unificación WhatsApp↔DDD Nivel 2: Migración parcial (CredentialService + ContactResolution + OutboundPipeline)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/29",
-            "updatedAt": "2026-07-21T15:43:08Z"
           },
           {
             "number": 5,
@@ -738,10 +738,10 @@
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 31,
-      "commits7d": 24,
+      "mergedPrs30d": 32,
+      "commits7d": 19,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T20:27:33Z",
+      "lastActivityAt": "2026-08-04T20:46:20Z",
       "progress": {
         "percent": 60,
         "label": "M7 · Integración piloto con Turno: 3/5"
