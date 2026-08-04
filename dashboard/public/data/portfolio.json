@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T18:00:47.329Z",
+  "generatedAt": "2026-08-04T18:30:36.199Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -102,16 +102,16 @@
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T17:21:31Z",
+      "lastActivityAt": "2026-08-04T18:20:58Z",
       "progress": {
-        "percent": 56,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 41/73"
+        "percent": 57,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 42/74"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 41,
-          "total": 73
+          "closed": 42,
+          "total": 74
         },
         {
           "label": "Épicas",
@@ -120,29 +120,29 @@
         },
         {
           "label": "Global",
-          "closed": 108,
-          "total": 144
+          "closed": 109,
+          "total": 145
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
-        "totalIssues": 73,
-        "closedIssues": 41,
+        "totalIssues": 74,
+        "closedIssues": 42,
         "issues": [
+          {
+            "number": 243,
+            "title": "CONV · Tenancy · Hardening de la extensión de filtro: findUnique/upsert + gate de despliegue (D11, follow-up #177)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/243",
+            "updatedAt": "2026-08-04T18:22:44Z"
+          },
           {
             "number": 185,
             "title": "CONV · Sync/Eventos · Extender el patrón outbox al resto de productores (D4)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/185",
             "updatedAt": "2026-08-04T15:44:35Z"
-          },
-          {
-            "number": 177,
-            "title": "CONV · Org/Tenancy · Extensión de Prisma que inyecta filtro de tenant + suite CI (D11)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/177",
-            "updatedAt": "2026-08-04T15:44:31Z"
           },
           {
             "number": 160,
@@ -355,6 +355,13 @@
             "updatedAt": "2026-07-30T20:53:29Z"
           },
           {
+            "number": 177,
+            "title": "CONV · Org/Tenancy · Extensión de Prisma que inyecta filtro de tenant + suite CI (D11)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/177",
+            "updatedAt": "2026-08-04T18:22:00Z"
+          },
+          {
             "number": 182,
             "title": "CONV · Org/Tenancy · Normalizar tipo del discriminador a CHAR(36) ascii_bin (D11)",
             "state": "CLOSED",
@@ -472,13 +479,6 @@
             "state": "CLOSED",
             "url": "https://github.com/Electronikaco/civok-back/issues/199",
             "updatedAt": "2026-08-04T15:21:12Z"
-          },
-          {
-            "number": 196,
-            "title": "CONV · Licencias · Contrato 1→N licencias + ciclo consecutivo, cobro delegado (D18)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/196",
-            "updatedAt": "2026-08-04T15:21:11Z"
           }
         ],
         "truncated": true
@@ -497,7 +497,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 40,
-      "commits7d": 30,
+      "commits7d": 29,
       "commits30d": 30,
       "lastActivityAt": "2026-07-31T20:30:36Z",
       "progress": {
