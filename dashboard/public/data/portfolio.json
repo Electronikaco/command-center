@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T20:00:35.319Z",
+  "generatedAt": "2026-08-04T20:30:36.494Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 15,
+      "commits7d": 13,
       "commits30d": 30,
       "lastActivityAt": "2026-08-04T18:58:06Z",
       "progress": {
@@ -102,15 +102,15 @@
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T18:20:58Z",
+      "lastActivityAt": "2026-08-04T20:16:28Z",
       "progress": {
-        "percent": 57,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 42/74"
+        "percent": 58,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 43/74"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 42,
+          "closed": 43,
           "total": 74
         },
         {
@@ -120,7 +120,7 @@
         },
         {
           "label": "Global",
-          "closed": 109,
+          "closed": 110,
           "total": 145
         }
       ],
@@ -128,7 +128,7 @@
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
         "totalIssues": 74,
-        "closedIssues": 42,
+        "closedIssues": 43,
         "issues": [
           {
             "number": 243,
@@ -178,13 +178,6 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/188",
             "updatedAt": "2026-08-04T15:22:53Z"
-          },
-          {
-            "number": 183,
-            "title": "CONV · Sync/Eventos · Topología de colas hub-{recurso}.{app} con fan-out (D2)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/183",
-            "updatedAt": "2026-08-04T15:22:49Z"
           },
           {
             "number": 198,
@@ -355,6 +348,13 @@
             "updatedAt": "2026-07-30T20:53:29Z"
           },
           {
+            "number": 183,
+            "title": "CONV · Sync/Eventos · Topología de colas hub-{recurso}.{app} con fan-out (D2)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/183",
+            "updatedAt": "2026-08-04T20:16:34Z"
+          },
+          {
             "number": 177,
             "title": "CONV · Org/Tenancy · Extensión de Prisma que inyecta filtro de tenant + suite CI (D11)",
             "state": "CLOSED",
@@ -497,7 +497,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 40,
-      "commits7d": 27,
+      "commits7d": 25,
       "commits30d": 30,
       "lastActivityAt": "2026-07-31T20:30:36Z",
       "progress": {
@@ -738,10 +738,10 @@
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 30,
+      "mergedPrs30d": 31,
       "commits7d": 24,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T19:12:36Z",
+      "lastActivityAt": "2026-08-04T20:27:33Z",
       "progress": {
         "percent": 60,
         "label": "M7 · Integración piloto con Turno: 3/5"
@@ -754,8 +754,8 @@
         },
         {
           "label": "Global",
-          "closed": 98,
-          "total": 109
+          "closed": 100,
+          "total": 110
         }
       ],
       "highlights": [],
@@ -769,14 +769,14 @@
             "title": "INT-04 · Prueba de degradación con Hub caído — **criterio de salida de R1**",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/96",
-            "updatedAt": "2026-08-03T20:25:23Z"
+            "updatedAt": "2026-08-04T20:23:37Z"
           },
           {
             "number": 95,
             "title": "INT-03 · Autorización local en Turno, sin consultar a Hub por operación",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/95",
-            "updatedAt": "2026-08-03T20:25:20Z"
+            "updatedAt": "2026-08-04T20:23:36Z"
           },
           {
             "number": 94,
