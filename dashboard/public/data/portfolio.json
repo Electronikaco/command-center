@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T01:00:40.257Z",
+  "generatedAt": "2026-08-04T01:30:37.546Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,77 +11,77 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 16,
+      "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T00:57:08Z",
+      "lastActivityAt": "2026-08-04T01:17:24Z",
       "progress": {
-        "percent": 83,
-        "label": "S12 · Quick wins UX — feedback stakeholder (EPIC-R): 5/6"
+        "percent": 0,
+        "label": "BE5 · Infra documental: MinIO + Gotenberg (EPIC-S): 0/6"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 5,
+          "closed": 0,
           "total": 6
         },
         {
           "label": "Épicas",
-          "closed": 16,
+          "closed": 17,
           "total": 26
         },
         {
           "label": "Global",
-          "closed": 183,
+          "closed": 184,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "S12 · Quick wins UX — feedback stakeholder (EPIC-R)",
+        "label": "BE5 · Infra documental: MinIO + Gotenberg (EPIC-S)",
         "totalIssues": 6,
-        "closedIssues": 5,
+        "closedIssues": 0,
         "issues": [
           {
-            "number": 434,
-            "title": "[EPIC-R] Quick wins UX — feedback stakeholder",
+            "number": 449,
+            "title": "UC-DM-BE-56 · Gotenberg en docker-compose como motor de render PDF",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/434",
-            "updatedAt": "2026-08-03T22:34:45Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/449",
+            "updatedAt": "2026-08-04T01:16:46Z"
           },
           {
-            "number": 447,
-            "title": "UC-DM-S12-05 · Fix: selector «perito responsable» vacío al crear caso",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/447",
-            "updatedAt": "2026-08-03T22:58:59Z"
+            "number": 448,
+            "title": "UC-DM-BE-55 · MinIO en docker-compose como object storage compartido (buckets por dominio)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/448",
+            "updatedAt": "2026-08-04T01:16:45Z"
           },
           {
-            "number": 446,
-            "title": "UC-DM-S12-04 · Campo «Tarjeta profesional» y tipo de identificación para rol perito (registro de personas)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/446",
-            "updatedAt": "2026-08-03T22:53:37Z"
+            "number": 452,
+            "title": "UC-DM-BE-59 · Piloto de render PDF: consentimiento (Formato 5) vía Gotenberg con doble modo",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/452",
+            "updatedAt": "2026-08-04T01:04:51Z"
           },
           {
-            "number": 445,
-            "title": "UC-DM-S12-03 · Renombrar «Material inicial» → «Carpeta procesal» (wizard nuevo caso)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/445",
-            "updatedAt": "2026-08-03T22:47:52Z"
+            "number": 451,
+            "title": "UC-DM-BE-58 · Piloto de storage real: evidencias de casos vía MinIO",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/451",
+            "updatedAt": "2026-08-04T01:04:50Z"
           },
           {
-            "number": 444,
-            "title": "UC-DM-S12-02 · Renombrar «Pregunta pericial» → «Conducta jurídicamente relevante» (wizard nuevo caso, paso 5)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/444",
-            "updatedAt": "2026-08-03T22:47:50Z"
+            "number": 450,
+            "title": "UC-DM-BE-57 · Contrato de storage + paquete @dosmentes/storage (upload con hash SHA-256)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/450",
+            "updatedAt": "2026-08-04T01:04:48Z"
           },
           {
-            "number": 443,
-            "title": "UC-DM-S12-01 · Renombrar «Pregunta pericial» → «Solicitud de la parte» (pestaña solicitud del caso)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/443",
-            "updatedAt": "2026-08-03T22:47:48Z"
+            "number": 435,
+            "title": "[EPIC-S] Infra documental: MinIO + Gotenberg",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/435",
+            "updatedAt": "2026-08-04T01:03:25Z"
           }
         ],
         "truncated": false
