@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T15:30:37.755Z",
+  "generatedAt": "2026-08-04T16:00:43.815Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -102,15 +102,15 @@
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T15:17:24Z",
+      "lastActivityAt": "2026-08-04T15:55:58Z",
       "progress": {
-        "percent": 41,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 25/61"
+        "percent": 44,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 27/61"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 25,
+          "closed": 27,
           "total": 61
         },
         {
@@ -120,7 +120,7 @@
         },
         {
           "label": "Global",
-          "closed": 92,
+          "closed": 94,
           "total": 132
         }
       ],
@@ -128,56 +128,42 @@
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
         "totalIssues": 61,
-        "closedIssues": 25,
+        "closedIssues": 27,
         "issues": [
           {
-            "number": 160,
-            "title": "CONV · Auth/Sesión · Canjear API Key de servicio por token de servicio corto (D7)",
+            "number": 185,
+            "title": "CONV · Sync/Eventos · Extender el patrón outbox al resto de productores (D4)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/160",
-            "updatedAt": "2026-08-04T15:23:15Z"
-          },
-          {
-            "number": 182,
-            "title": "CONV · Org/Tenancy · Normalizar tipo del discriminador a CHAR(36) ascii_bin (D11)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/182",
-            "updatedAt": "2026-08-04T15:23:14Z"
-          },
-          {
-            "number": 177,
-            "title": "CONV · Org/Tenancy · Extensión de Prisma que inyecta filtro de tenant + suite CI (D11)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/177",
-            "updatedAt": "2026-08-04T15:23:12Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/185",
+            "updatedAt": "2026-08-04T15:44:35Z"
           },
           {
             "number": 176,
             "title": "CONV · Org/Tenancy · Discriminador orgUid + workspaceUid en todas las tablas (D11)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/176",
-            "updatedAt": "2026-08-04T15:23:10Z"
+            "updatedAt": "2026-08-04T15:44:34Z"
           },
           {
-            "number": 189,
-            "title": "CONV · Sync/Eventos · Retención 2 meses + reporte mensual + purga 2 años (D25)",
+            "number": 182,
+            "title": "CONV · Org/Tenancy · Normalizar tipo del discriminador a CHAR(36) ascii_bin (D11)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/189",
-            "updatedAt": "2026-08-04T15:23:09Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/182",
+            "updatedAt": "2026-08-04T15:44:32Z"
           },
           {
-            "number": 187,
-            "title": "CONV · Sync/Eventos · ID funcional PREFIJO-NNNNNN (6 díg.) (D9)",
+            "number": 177,
+            "title": "CONV · Org/Tenancy · Extensión de Prisma que inyecta filtro de tenant + suite CI (D11)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/187",
-            "updatedAt": "2026-08-04T15:23:08Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/177",
+            "updatedAt": "2026-08-04T15:44:31Z"
           },
           {
-            "number": 185,
-            "title": "CONV · Sync/Eventos · Extender el patrón outbox al resto de productores (D4)",
+            "number": 160,
+            "title": "CONV · Auth/Sesión · Canjear API Key de servicio por token de servicio corto (D7)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/185",
-            "updatedAt": "2026-08-04T15:23:07Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/160",
+            "updatedAt": "2026-08-04T15:44:28Z"
           },
           {
             "number": 168,
@@ -381,6 +367,20 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/153",
             "updatedAt": "2026-07-30T20:53:29Z"
+          },
+          {
+            "number": 189,
+            "title": "CONV · Sync/Eventos · Retención 2 meses + reporte mensual + purga 2 años (D25)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/189",
+            "updatedAt": "2026-08-04T15:56:02Z"
+          },
+          {
+            "number": 187,
+            "title": "CONV · Sync/Eventos · ID funcional PREFIJO-NNNNNN (6 díg.) (D9)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/187",
+            "updatedAt": "2026-08-04T15:46:41Z"
           },
           {
             "number": 199,
