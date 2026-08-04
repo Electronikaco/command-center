@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T22:00:38.365Z",
+  "generatedAt": "2026-08-04T22:30:36.368Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 14,
+      "commits7d": 13,
       "commits30d": 30,
       "lastActivityAt": "2026-08-04T21:47:40Z",
       "progress": {
@@ -147,20 +147,20 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T20:42:12Z",
+      "lastActivityAt": "2026-08-04T22:26:00Z",
       "progress": {
-        "percent": 59,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 44/74"
+        "percent": 53,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 45/85"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 44,
-          "total": 74
+          "closed": 45,
+          "total": 85
         },
         {
           "label": "Épicas",
@@ -169,22 +169,92 @@
         },
         {
           "label": "Global",
-          "closed": 111,
-          "total": 145
+          "closed": 112,
+          "total": 156
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
-        "totalIssues": 74,
-        "closedIssues": 44,
+        "totalIssues": 85,
+        "closedIssues": 45,
         "issues": [
           {
-            "number": 243,
-            "title": "CONV · Tenancy · Hardening de la extensión de filtro: findUnique/upsert + gate de despliegue (D11, follow-up #177)",
+            "number": 258,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-audit (rollout #177)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/243",
-            "updatedAt": "2026-08-04T18:22:44Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/258",
+            "updatedAt": "2026-08-04T22:27:38Z"
+          },
+          {
+            "number": 257,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-data-connect (rollout #177)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/257",
+            "updatedAt": "2026-08-04T22:27:37Z"
+          },
+          {
+            "number": 256,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-connectors (rollout #177)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/256",
+            "updatedAt": "2026-08-04T22:27:35Z"
+          },
+          {
+            "number": 255,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-storage (rollout #177)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/255",
+            "updatedAt": "2026-08-04T22:27:34Z"
+          },
+          {
+            "number": 254,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-kiosk (rollout #177)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/254",
+            "updatedAt": "2026-08-04T22:27:33Z"
+          },
+          {
+            "number": 253,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-video-attention (rollout #177)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/253",
+            "updatedAt": "2026-08-04T22:27:31Z"
+          },
+          {
+            "number": 252,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-devices (rollout #177)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/252",
+            "updatedAt": "2026-08-04T22:27:30Z"
+          },
+          {
+            "number": 251,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-attention (rollout #177)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/251",
+            "updatedAt": "2026-08-04T22:27:29Z"
+          },
+          {
+            "number": 250,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-reservations (rollout #177)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/250",
+            "updatedAt": "2026-08-04T22:27:28Z"
+          },
+          {
+            "number": 249,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-reports (rollout #177)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/249",
+            "updatedAt": "2026-08-04T22:27:26Z"
+          },
+          {
+            "number": 248,
+            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-config (rollout #177)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/248",
+            "updatedAt": "2026-08-04T22:27:25Z"
           },
           {
             "number": 185,
@@ -390,6 +460,13 @@
             "updatedAt": "2026-07-30T20:53:29Z"
           },
           {
+            "number": 243,
+            "title": "CONV · Tenancy · Hardening de la extensión de filtro: findUnique/upsert + gate de despliegue (D11, follow-up #177)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/243",
+            "updatedAt": "2026-08-04T22:26:59Z"
+          },
+          {
             "number": 211,
             "title": "INT-04 · Modo degradado con Hub caído: copia local con TTL + watermark de sync",
             "state": "CLOSED",
@@ -451,83 +528,6 @@
             "state": "CLOSED",
             "url": "https://github.com/Electronikaco/civok-back/issues/226",
             "updatedAt": "2026-08-04T17:11:25Z"
-          },
-          {
-            "number": 225,
-            "title": "CONV · Tenancy · service-video-attention: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/225",
-            "updatedAt": "2026-08-04T17:07:55Z"
-          },
-          {
-            "number": 224,
-            "title": "CONV · Tenancy · service-devices: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/224",
-            "updatedAt": "2026-08-04T17:04:24Z"
-          },
-          {
-            "number": 223,
-            "title": "CONV · Tenancy · service-attention: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/223",
-            "updatedAt": "2026-08-04T17:00:50Z"
-          },
-          {
-            "number": 222,
-            "title": "CONV · Tenancy · service-audit: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/222",
-            "updatedAt": "2026-08-04T16:56:29Z"
-          },
-          {
-            "number": 221,
-            "title": "CONV · Tenancy · service-connectors: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/221",
-            "updatedAt": "2026-08-04T16:51:40Z"
-          },
-          {
-            "number": 220,
-            "title": "CONV · Tenancy · service-data-connect: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/220",
-            "updatedAt": "2026-08-04T16:45:03Z"
-          },
-          {
-            "number": 219,
-            "title": "CONV · Tenancy · service-config: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/219",
-            "updatedAt": "2026-08-04T16:35:46Z"
-          },
-          {
-            "number": 218,
-            "title": "CONV · Tenancy · [FOUNDATION] Convención discriminador orgUid/workspaceUid + mapeo tenant→(orgUid,workspaceUid) (D11 · #176)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/218",
-            "updatedAt": "2026-08-04T16:22:05Z"
-          },
-          {
-            "number": 189,
-            "title": "CONV · Sync/Eventos · Retención 2 meses + reporte mensual + purga 2 años (D25)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/189",
-            "updatedAt": "2026-08-04T15:56:02Z"
-          },
-          {
-            "number": 187,
-            "title": "CONV · Sync/Eventos · ID funcional PREFIJO-NNNNNN (6 díg.) (D9)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/187",
-            "updatedAt": "2026-08-04T15:46:41Z"
-          },
-          {
-            "number": 199,
-            "title": "CONV · Licencias · UID UUIDv7 + ID funcional LIC-/CTR-/PLN-/PKG-/ADD- (D3/D9)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/199",
-            "updatedAt": "2026-08-04T15:21:12Z"
           }
         ],
         "truncated": true
@@ -787,10 +787,10 @@
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 35,
-      "commits7d": 15,
+      "mergedPrs30d": 36,
+      "commits7d": 13,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T21:59:46Z",
+      "lastActivityAt": "2026-08-04T22:13:25Z",
       "progress": {
         "percent": 60,
         "label": "M7 · Integración piloto con Turno: 3/5"
@@ -803,7 +803,7 @@
         },
         {
           "label": "Global",
-          "closed": 101,
+          "closed": 102,
           "total": 110
         }
       ],
@@ -978,6 +978,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 0
+    "totalOpenPrs": 1
   }
 }
