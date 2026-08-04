@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T18:30:36.199Z",
+  "generatedAt": "2026-08-04T19:00:41.999Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,17 +11,17 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 15,
+      "commits7d": 16,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T15:11:45Z",
+      "lastActivityAt": "2026-08-04T18:58:06Z",
       "progress": {
-        "percent": 50,
-        "label": "BE5 · Infra documental: MinIO + Gotenberg (EPIC-S): 3/6"
+        "percent": 67,
+        "label": "BE5 · Infra documental: MinIO + Gotenberg (EPIC-S): 4/6"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 3,
+          "closed": 4,
           "total": 6
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 187,
+          "closed": 188,
           "total": 200
         }
       ],
@@ -39,21 +39,14 @@
       "issueBreakdown": {
         "label": "BE5 · Infra documental: MinIO + Gotenberg (EPIC-S)",
         "totalIssues": 6,
-        "closedIssues": 3,
+        "closedIssues": 4,
         "issues": [
-          {
-            "number": 451,
-            "title": "UC-DM-BE-58 · Piloto de storage real: evidencias de casos vía MinIO",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/451",
-            "updatedAt": "2026-08-04T15:20:21Z"
-          },
           {
             "number": 452,
             "title": "UC-DM-BE-59 · Piloto de render PDF: consentimiento (Formato 5) vía Gotenberg con doble modo",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/452",
-            "updatedAt": "2026-08-04T01:04:51Z"
+            "updatedAt": "2026-08-04T18:59:44Z"
           },
           {
             "number": 435,
@@ -61,6 +54,13 @@
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/435",
             "updatedAt": "2026-08-04T01:03:25Z"
+          },
+          {
+            "number": 451,
+            "title": "UC-DM-BE-58 · Piloto de storage real: evidencias de casos vía MinIO",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/451",
+            "updatedAt": "2026-08-04T18:58:19Z"
           },
           {
             "number": 450,
