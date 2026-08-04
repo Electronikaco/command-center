@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T17:00:41.083Z",
+  "generatedAt": "2026-08-04T17:30:39.920Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 17,
+      "commits7d": 16,
       "commits30d": 30,
       "lastActivityAt": "2026-08-04T15:11:45Z",
       "progress": {
@@ -102,15 +102,15 @@
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T16:56:25Z",
+      "lastActivityAt": "2026-08-04T17:21:31Z",
       "progress": {
-        "percent": 44,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 32/73"
+        "percent": 56,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 41/73"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 32,
+          "closed": 41,
           "total": 73
         },
         {
@@ -120,7 +120,7 @@
         },
         {
           "label": "Global",
-          "closed": 99,
+          "closed": 108,
           "total": 144
         }
       ],
@@ -128,77 +128,14 @@
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
         "totalIssues": 73,
-        "closedIssues": 32,
+        "closedIssues": 41,
         "issues": [
-          {
-            "number": 176,
-            "title": "CONV · Org/Tenancy · Discriminador orgUid + workspaceUid en todas las tablas (D11)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/176",
-            "updatedAt": "2026-08-04T16:13:25Z"
-          },
-          {
-            "number": 229,
-            "title": "CONV · Tenancy · service-storage: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/229",
-            "updatedAt": "2026-08-04T16:13:00Z"
-          },
-          {
-            "number": 228,
-            "title": "CONV · Tenancy · service-reservations: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/228",
-            "updatedAt": "2026-08-04T16:12:52Z"
-          },
-          {
-            "number": 227,
-            "title": "CONV · Tenancy · service-reports: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/227",
-            "updatedAt": "2026-08-04T16:12:51Z"
-          },
-          {
-            "number": 226,
-            "title": "CONV · Tenancy · service-kiosk: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/226",
-            "updatedAt": "2026-08-04T16:12:50Z"
-          },
-          {
-            "number": 225,
-            "title": "CONV · Tenancy · service-video-attention: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/225",
-            "updatedAt": "2026-08-04T16:12:48Z"
-          },
-          {
-            "number": 224,
-            "title": "CONV · Tenancy · service-devices: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/224",
-            "updatedAt": "2026-08-04T16:12:47Z"
-          },
-          {
-            "number": 223,
-            "title": "CONV · Tenancy · service-attention: discriminador orgUid/workspaceUid (D11 · #176)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/223",
-            "updatedAt": "2026-08-04T16:12:45Z"
-          },
           {
             "number": 185,
             "title": "CONV · Sync/Eventos · Extender el patrón outbox al resto de productores (D4)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/185",
             "updatedAt": "2026-08-04T15:44:35Z"
-          },
-          {
-            "number": 182,
-            "title": "CONV · Org/Tenancy · Normalizar tipo del discriminador a CHAR(36) ascii_bin (D11)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/182",
-            "updatedAt": "2026-08-04T15:44:32Z"
           },
           {
             "number": 177,
@@ -416,6 +353,69 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/153",
             "updatedAt": "2026-07-30T20:53:29Z"
+          },
+          {
+            "number": 182,
+            "title": "CONV · Org/Tenancy · Normalizar tipo del discriminador a CHAR(36) ascii_bin (D11)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/182",
+            "updatedAt": "2026-08-04T17:22:05Z"
+          },
+          {
+            "number": 176,
+            "title": "CONV · Org/Tenancy · Discriminador orgUid + workspaceUid en todas las tablas (D11)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/176",
+            "updatedAt": "2026-08-04T17:22:04Z"
+          },
+          {
+            "number": 229,
+            "title": "CONV · Tenancy · service-storage: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/229",
+            "updatedAt": "2026-08-04T17:21:35Z"
+          },
+          {
+            "number": 228,
+            "title": "CONV · Tenancy · service-reservations: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/228",
+            "updatedAt": "2026-08-04T17:18:11Z"
+          },
+          {
+            "number": 227,
+            "title": "CONV · Tenancy · service-reports: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/227",
+            "updatedAt": "2026-08-04T17:14:50Z"
+          },
+          {
+            "number": 226,
+            "title": "CONV · Tenancy · service-kiosk: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/226",
+            "updatedAt": "2026-08-04T17:11:25Z"
+          },
+          {
+            "number": 225,
+            "title": "CONV · Tenancy · service-video-attention: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/225",
+            "updatedAt": "2026-08-04T17:07:55Z"
+          },
+          {
+            "number": 224,
+            "title": "CONV · Tenancy · service-devices: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/224",
+            "updatedAt": "2026-08-04T17:04:24Z"
+          },
+          {
+            "number": 223,
+            "title": "CONV · Tenancy · service-attention: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/223",
+            "updatedAt": "2026-08-04T17:00:50Z"
           },
           {
             "number": 222,
