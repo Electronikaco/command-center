@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T16:00:43.815Z",
+  "generatedAt": "2026-08-04T16:30:37.689Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 19,
+      "commits7d": 18,
       "commits30d": 30,
       "lastActivityAt": "2026-08-04T15:11:45Z",
       "progress": {
@@ -102,16 +102,16 @@
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T15:55:58Z",
+      "lastActivityAt": "2026-08-04T16:22:02Z",
       "progress": {
-        "percent": 44,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 27/61"
+        "percent": 38,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 28/73"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 27,
-          "total": 61
+          "closed": 28,
+          "total": 73
         },
         {
           "label": "Épicas",
@@ -120,29 +120,106 @@
         },
         {
           "label": "Global",
-          "closed": 94,
-          "total": 132
+          "closed": 95,
+          "total": 144
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
-        "totalIssues": 61,
-        "closedIssues": 27,
+        "totalIssues": 73,
+        "closedIssues": 28,
         "issues": [
+          {
+            "number": 176,
+            "title": "CONV · Org/Tenancy · Discriminador orgUid + workspaceUid en todas las tablas (D11)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/176",
+            "updatedAt": "2026-08-04T16:13:25Z"
+          },
+          {
+            "number": 229,
+            "title": "CONV · Tenancy · service-storage: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/229",
+            "updatedAt": "2026-08-04T16:13:00Z"
+          },
+          {
+            "number": 228,
+            "title": "CONV · Tenancy · service-reservations: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/228",
+            "updatedAt": "2026-08-04T16:12:52Z"
+          },
+          {
+            "number": 227,
+            "title": "CONV · Tenancy · service-reports: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/227",
+            "updatedAt": "2026-08-04T16:12:51Z"
+          },
+          {
+            "number": 226,
+            "title": "CONV · Tenancy · service-kiosk: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/226",
+            "updatedAt": "2026-08-04T16:12:50Z"
+          },
+          {
+            "number": 225,
+            "title": "CONV · Tenancy · service-video-attention: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/225",
+            "updatedAt": "2026-08-04T16:12:48Z"
+          },
+          {
+            "number": 224,
+            "title": "CONV · Tenancy · service-devices: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/224",
+            "updatedAt": "2026-08-04T16:12:47Z"
+          },
+          {
+            "number": 223,
+            "title": "CONV · Tenancy · service-attention: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/223",
+            "updatedAt": "2026-08-04T16:12:45Z"
+          },
+          {
+            "number": 222,
+            "title": "CONV · Tenancy · service-audit: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/222",
+            "updatedAt": "2026-08-04T16:12:44Z"
+          },
+          {
+            "number": 221,
+            "title": "CONV · Tenancy · service-connectors: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/221",
+            "updatedAt": "2026-08-04T16:12:42Z"
+          },
+          {
+            "number": 220,
+            "title": "CONV · Tenancy · service-data-connect: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/220",
+            "updatedAt": "2026-08-04T16:12:41Z"
+          },
+          {
+            "number": 219,
+            "title": "CONV · Tenancy · service-config: discriminador orgUid/workspaceUid (D11 · #176)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/219",
+            "updatedAt": "2026-08-04T16:12:39Z"
+          },
           {
             "number": 185,
             "title": "CONV · Sync/Eventos · Extender el patrón outbox al resto de productores (D4)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/185",
             "updatedAt": "2026-08-04T15:44:35Z"
-          },
-          {
-            "number": 176,
-            "title": "CONV · Org/Tenancy · Discriminador orgUid + workspaceUid en todas las tablas (D11)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/176",
-            "updatedAt": "2026-08-04T15:44:34Z"
           },
           {
             "number": 182,
@@ -369,6 +446,13 @@
             "updatedAt": "2026-07-30T20:53:29Z"
           },
           {
+            "number": 218,
+            "title": "CONV · Tenancy · [FOUNDATION] Convención discriminador orgUid/workspaceUid + mapeo tenant→(orgUid,workspaceUid) (D11 · #176)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/218",
+            "updatedAt": "2026-08-04T16:22:05Z"
+          },
+          {
             "number": 189,
             "title": "CONV · Sync/Eventos · Retención 2 meses + reporte mensual + purga 2 años (D25)",
             "state": "CLOSED",
@@ -395,90 +479,6 @@
             "state": "CLOSED",
             "url": "https://github.com/Electronikaco/civok-back/issues/196",
             "updatedAt": "2026-08-04T15:21:11Z"
-          },
-          {
-            "number": 195,
-            "title": "CONV · Licencias · Separar Plan / Add-on / Paquete (D27)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/195",
-            "updatedAt": "2026-08-04T15:21:09Z"
-          },
-          {
-            "number": 192,
-            "title": "CONV · Licencias · Máquina de estados de licencia (Borrador→…→Free) (D14)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/192",
-            "updatedAt": "2026-08-04T15:21:08Z"
-          },
-          {
-            "number": 175,
-            "title": "CONV · Personas · Normalizar nombre físico del consentimiento de publicidad (D29)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/175",
-            "updatedAt": "2026-08-04T15:21:06Z"
-          },
-          {
-            "number": 174,
-            "title": "CONV · Personas · Trazabilidad de consentimiento (habeas data) (D29)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/174",
-            "updatedAt": "2026-08-04T15:21:05Z"
-          },
-          {
-            "number": 171,
-            "title": "CONV · Personas · Relación Persona–Organización de primera clase (consentimientos) (D29)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/171",
-            "updatedAt": "2026-08-04T15:21:03Z"
-          },
-          {
-            "number": 181,
-            "title": "CONV · Org/Tenancy · UUIDv7 + ID funcional ORG-/WSP- (D3/D9)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/181",
-            "updatedAt": "2026-08-04T15:21:01Z"
-          },
-          {
-            "number": 180,
-            "title": "CONV · Org/Tenancy · Jerarquía Ciudad → (Territorio) → Sede (D-R1)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/180",
-            "updatedAt": "2026-08-04T15:20:59Z"
-          },
-          {
-            "number": 179,
-            "title": "CONV · Org/Tenancy · countryCode NOT NULL + displayName editable + description (D17)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/179",
-            "updatedAt": "2026-08-04T15:20:58Z"
-          },
-          {
-            "number": 178,
-            "title": "CONV · Org/Tenancy · Unicidad país↔workspace (orgUid, countryCode) (D17)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/178",
-            "updatedAt": "2026-08-04T15:20:56Z"
-          },
-          {
-            "number": 167,
-            "title": "CONV · Roles/ABAC · Equipos con herencia de roles (conjunto de roles) (D21)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/167",
-            "updatedAt": "2026-08-04T15:20:54Z"
-          },
-          {
-            "number": 166,
-            "title": "CONV · Roles/ABAC · Granularidad por módulo en roles/permisos de app (D22)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/166",
-            "updatedAt": "2026-08-04T15:20:52Z"
-          },
-          {
-            "number": 165,
-            "title": "CONV · Roles/ABAC · Alinear vocabulario de roles ROL-* con D20 (D20)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/165",
-            "updatedAt": "2026-08-04T15:20:51Z"
           }
         ],
         "truncated": true
