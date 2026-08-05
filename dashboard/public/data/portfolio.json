@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T12:30:31.071Z",
+  "generatedAt": "2026-08-05T13:00:37.008Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -151,15 +151,15 @@
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T23:07:21Z",
+      "lastActivityAt": "2026-08-05T12:59:42Z",
       "progress": {
-        "percent": 66,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 56/85"
+        "percent": 67,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 57/85"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 56,
+          "closed": 57,
           "total": 85
         },
         {
@@ -169,7 +169,7 @@
         },
         {
           "label": "Global",
-          "closed": 123,
+          "closed": 124,
           "total": 156
         }
       ],
@@ -177,7 +177,7 @@
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
         "totalIssues": 85,
-        "closedIssues": 56,
+        "closedIssues": 57,
         "issues": [
           {
             "number": 185,
@@ -206,13 +206,6 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/162",
             "updatedAt": "2026-08-04T15:22:56Z"
-          },
-          {
-            "number": 190,
-            "title": "CONV · Sync/Eventos · Contrato oficial de consulta de auditoría (federación) (D19)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/190",
-            "updatedAt": "2026-08-04T15:22:55Z"
           },
           {
             "number": 188,
@@ -381,6 +374,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/153",
             "updatedAt": "2026-07-30T20:53:29Z"
+          },
+          {
+            "number": 190,
+            "title": "CONV · Sync/Eventos · Contrato oficial de consulta de auditoría (federación) (D19)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/190",
+            "updatedAt": "2026-08-05T12:59:46Z"
           },
           {
             "number": 258,
