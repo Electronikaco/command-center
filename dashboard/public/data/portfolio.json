@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T17:30:32.094Z",
+  "generatedAt": "2026-08-05T18:00:38.379Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,18 +11,18 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 11,
+      "commits7d": 13,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-05T14:07:18Z",
+      "lastActivityAt": "2026-08-05T17:42:32Z",
       "progress": {
-        "percent": 83,
-        "label": "BE5 · Infra documental: MinIO + Gotenberg (EPIC-S): 5/6"
+        "percent": 10,
+        "label": "S14 · Consentimientos y contrato (EPIC-U): 1/10"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 5,
-          "total": 6
+          "closed": 1,
+          "total": 10
         },
         {
           "label": "Épicas",
@@ -31,57 +31,85 @@
         },
         {
           "label": "Global",
-          "closed": 155,
+          "closed": 157,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "BE5 · Infra documental: MinIO + Gotenberg (EPIC-S)",
-        "totalIssues": 6,
-        "closedIssues": 5,
+        "label": "S14 · Consentimientos y contrato (EPIC-U)",
+        "totalIssues": 10,
+        "closedIssues": 1,
         "issues": [
           {
-            "number": 435,
-            "title": "[EPIC-S] Infra documental: MinIO + Gotenberg",
+            "number": 471,
+            "title": "UC-DM-U-02 · Sección condicional de menores (representante legal + asentimiento) + anonimización por siglas en informes",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/435",
-            "updatedAt": "2026-08-04T01:03:25Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/471",
+            "updatedAt": "2026-08-05T17:47:25Z"
           },
           {
-            "number": 452,
-            "title": "UC-DM-BE-59 · Piloto de render PDF: consentimiento (Formato 5) vía Gotenberg con doble modo",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/452",
-            "updatedAt": "2026-08-05T14:07:33Z"
+            "number": 437,
+            "title": "[EPIC-U] Consentimientos y contrato",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/437",
+            "updatedAt": "2026-08-04T21:56:11Z"
           },
           {
-            "number": 451,
-            "title": "UC-DM-BE-58 · Piloto de storage real: evidencias de casos vía MinIO",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/451",
-            "updatedAt": "2026-08-04T18:58:19Z"
+            "number": 478,
+            "title": "UC-DM-U-09 · Mecanismo transversal de supresión de bloques internos en `modo_entrega` (extraído para reutilización explícita con EPIC-X)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/478",
+            "updatedAt": "2026-08-04T21:54:34Z"
           },
           {
-            "number": 450,
-            "title": "UC-DM-BE-57 · Contrato de storage + paquete @dosmentes/storage (upload con hash SHA-256)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/450",
-            "updatedAt": "2026-08-04T15:11:58Z"
+            "number": 477,
+            "title": "UC-DM-U-08 · Anexos vinculados del contrato (cronograma generado por el sistema + consentimientos por referencia)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/477",
+            "updatedAt": "2026-08-04T21:54:33Z"
           },
           {
-            "number": 449,
-            "title": "UC-DM-BE-56 · Gotenberg en docker-compose como motor de render PDF",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/449",
-            "updatedAt": "2026-08-04T01:38:22Z"
+            "number": 476,
+            "title": "UC-DM-U-07 · Cronograma de cuotas + equivalencia en SMLMV (cálculo, congelamiento y pérdida de congelamiento por mora)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/476",
+            "updatedAt": "2026-08-04T21:54:31Z"
           },
           {
-            "number": 448,
-            "title": "UC-DM-BE-55 · MinIO en docker-compose como object storage compartido (buckets por dominio)",
+            "number": 475,
+            "title": "UC-DM-U-06 · Contrato de peritaje (Formato 7): consecutivo automático + catálogo de tipo de servicio que enruta el/los Formato(s) de informe 1-4",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/475",
+            "updatedAt": "2026-08-04T21:54:30Z"
+          },
+          {
+            "number": 474,
+            "title": "UC-DM-U-05 · Casillas de autorización como datos estructurados (`ConsentDecision`, modelo transversal reutilizado por U-01/02/03/04/06)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/474",
+            "updatedAt": "2026-08-04T21:54:28Z"
+          },
+          {
+            "number": 473,
+            "title": "UC-DM-U-04 · Consentimiento colateral (Formato 6), 1:N por caso, vinculado a la tabla de identificación de fuentes",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/473",
+            "updatedAt": "2026-08-04T21:54:27Z"
+          },
+          {
+            "number": 472,
+            "title": "UC-DM-U-03 · Casilla de grabación → anexo de grabaciones condicional del Formato 1",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/472",
+            "updatedAt": "2026-08-04T21:54:25Z"
+          },
+          {
+            "number": 470,
+            "title": "UC-DM-U-01 · Generar y gatear el consentimiento EPF (Formato 5): render + bloqueo real de entrevistas/pruebas/Formato 1 + indicador de estado por caso",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/448",
-            "updatedAt": "2026-08-04T01:38:19Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/470",
+            "updatedAt": "2026-08-05T17:43:16Z"
           }
         ],
         "truncated": false
@@ -102,7 +130,7 @@
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-05T17:27:41Z",
+      "lastActivityAt": "2026-08-05T17:38:57Z",
       "progress": {
         "percent": 72,
         "label": "Fase 7 · Turno consumidor de Cívok Hub: 62/86"
@@ -120,8 +148,8 @@
         },
         {
           "label": "Global",
-          "closed": 133,
-          "total": 159
+          "closed": 134,
+          "total": 160
         }
       ],
       "highlights": [],
