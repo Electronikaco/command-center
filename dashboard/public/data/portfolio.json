@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T22:00:37.026Z",
+  "generatedAt": "2026-08-05T22:30:31.881Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -524,18 +524,18 @@
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 46,
-      "commits7d": 25,
+      "mergedPrs30d": 47,
+      "commits7d": 26,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-05T21:05:47Z",
+      "lastActivityAt": "2026-08-05T22:23:19Z",
       "progress": {
-        "percent": 53,
-        "label": "16/30 issues"
+        "percent": 57,
+        "label": "17/30 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 16,
+          "closed": 17,
           "total": 30
         },
         {
@@ -548,15 +548,8 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 30,
-        "closedIssues": 16,
+        "closedIssues": 17,
         "issues": [
-          {
-            "number": 71,
-            "title": "Unificación de canales B: unificar user_hash de conversación (32 vs 40 chars)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/71",
-            "updatedAt": "2026-08-05T21:06:25Z"
-          },
           {
             "number": 30,
             "title": "Unificación WhatsApp↔DDD Nivel 3: Migración completa (InboundMessagePipeline + eliminar legacy)",
@@ -647,6 +640,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/2",
             "updatedAt": "2026-07-09T20:03:49Z"
+          },
+          {
+            "number": 71,
+            "title": "Unificación de canales B: unificar user_hash de conversación (32 vs 40 chars)",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/71",
+            "updatedAt": "2026-08-05T22:23:35Z"
           },
           {
             "number": 72,
@@ -778,12 +778,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 14,
-      "commits7d": 5,
+      "commits7d": 3,
       "commits30d": 30,
       "lastActivityAt": "2026-07-31T22:13:06Z",
       "progress": {
         "percent": null,
-        "label": "5 commits / 7d (develop)"
+        "label": "3 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
@@ -800,39 +800,53 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
-      "mergedPrs30d": 46,
+      "openPrs": 0,
+      "mergedPrs30d": 47,
       "commits7d": 13,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-05T21:48:25Z",
+      "lastActivityAt": "2026-08-05T22:07:19Z",
       "progress": {
-        "percent": 0,
-        "label": "R2 · Hub → microservicios core: 0/1"
+        "percent": 33,
+        "label": "R2 · BFF del Hub (front door): 1/3"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 0,
-          "total": 1
+          "closed": 1,
+          "total": 3
         },
         {
           "label": "Global",
-          "closed": 108,
-          "total": 119
+          "closed": 109,
+          "total": 120
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "R2 · Hub → microservicios core",
-        "totalIssues": 1,
-        "closedIssues": 0,
+        "label": "R2 · BFF del Hub (front door)",
+        "totalIssues": 3,
+        "closedIssues": 1,
         "issues": [
           {
-            "number": 166,
-            "title": "BFF-03 · Descomponer hub-api en microservicios core (fase mayor)",
+            "number": 165,
+            "title": "BFF-02 · Consolidar el PAD detrás del hub-bff",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/166",
-            "updatedAt": "2026-08-05T21:29:57Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/165",
+            "updatedAt": "2026-08-05T21:29:55Z"
+          },
+          {
+            "number": 163,
+            "title": "[EPIC] Hub → estándar BFF + microservicios (front door único)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/163",
+            "updatedAt": "2026-08-05T21:29:53Z"
+          },
+          {
+            "number": 164,
+            "title": "BFF-01 · Scaffold apps/hub-bff (front door delgado, sin BD)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/164",
+            "updatedAt": "2026-08-05T22:07:21Z"
           }
         ],
         "truncated": false
@@ -901,6 +915,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 1
   }
 }
