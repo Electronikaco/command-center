@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T16:00:42.525Z",
+  "generatedAt": "2026-08-05T16:30:38.554Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 13,
+      "commits7d": 12,
       "commits30d": 30,
       "lastActivityAt": "2026-08-05T14:07:18Z",
       "progress": {
@@ -496,18 +496,18 @@
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 43,
-      "commits7d": 24,
+      "mergedPrs30d": 44,
+      "commits7d": 25,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T20:45:35Z",
+      "lastActivityAt": "2026-08-05T16:06:37Z",
       "progress": {
-        "percent": 52,
-        "label": "13/25 issues"
+        "percent": 56,
+        "label": "14/25 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 13,
+          "closed": 14,
           "total": 25
         },
         {
@@ -520,15 +520,8 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 25,
-        "closedIssues": 13,
+        "closedIssues": 14,
         "issues": [
-          {
-            "number": 29,
-            "title": "Unificación WhatsApp↔DDD Nivel 2: Migración parcial (CredentialService + ContactResolution + OutboundPipeline)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/29",
-            "updatedAt": "2026-08-04T20:30:50Z"
-          },
           {
             "number": 30,
             "title": "Unificación WhatsApp↔DDD Nivel 3: Migración completa (InboundMessagePipeline + eliminar legacy)",
@@ -605,6 +598,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/2",
             "updatedAt": "2026-07-09T20:03:49Z"
+          },
+          {
+            "number": 29,
+            "title": "Unificación WhatsApp↔DDD Nivel 2: Migración parcial (CredentialService + ContactResolution + OutboundPipeline)",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/29",
+            "updatedAt": "2026-08-05T16:07:02Z"
           },
           {
             "number": 7,
@@ -715,12 +715,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 14,
-      "commits7d": 16,
+      "commits7d": 15,
       "commits30d": 30,
       "lastActivityAt": "2026-07-31T22:13:06Z",
       "progress": {
         "percent": null,
-        "label": "16 commits / 7d (develop)"
+        "label": "15 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
