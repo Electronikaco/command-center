@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T19:00:37.948Z",
+  "generatedAt": "2026-08-05T19:30:30.840Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -163,7 +163,7 @@
             "title": "CONV · Gate de autorización: PDP/PEP local por personUid/sub sobre copia de roles del Hub",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/207",
-            "updatedAt": "2026-08-05T18:50:32Z"
+            "updatedAt": "2026-08-05T19:16:31Z"
           },
           {
             "number": 280,
@@ -331,7 +331,7 @@
             "title": "CONV · Infra · Bootstrap del bus Hub↔Turno en dev (hub-worker + Redis compartido + wiring)",
             "state": "CLOSED",
             "url": "https://github.com/Electronikaco/civok-back/issues/286",
-            "updatedAt": "2026-08-05T18:40:03Z"
+            "updatedAt": "2026-08-05T19:16:31Z"
           },
           {
             "number": 210,
