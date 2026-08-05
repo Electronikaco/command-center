@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T15:30:35.226Z",
+  "generatedAt": "2026-08-05T16:00:42.525Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -98,11 +98,11 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-05T15:21:54Z",
+      "lastActivityAt": "2026-08-05T15:38:36Z",
       "progress": {
         "percent": 72,
         "label": "Fase 7 · Turno consumidor de Cívok Hub: 61/85"
@@ -497,7 +497,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 43,
-      "commits7d": 26,
+      "commits7d": 24,
       "commits30d": 30,
       "lastActivityAt": "2026-08-04T20:45:35Z",
       "progress": {
@@ -738,10 +738,10 @@
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 40,
+      "mergedPrs30d": 41,
       "commits7d": 13,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-05T01:43:25Z",
+      "lastActivityAt": "2026-08-05T15:49:45Z",
       "progress": {
         "percent": 60,
         "label": "M7 · Integración piloto con Turno: 3/5"
@@ -754,8 +754,8 @@
         },
         {
           "label": "Global",
-          "closed": 106,
-          "total": 112
+          "closed": 107,
+          "total": 113
         }
       ],
       "highlights": [],
@@ -815,18 +815,18 @@
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 38,
+      "mergedPrs30d": 39,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-03T21:10:49Z",
+      "lastActivityAt": "2026-08-05T15:58:21Z",
       "progress": {
-        "percent": 10,
-        "label": "M8 · Migración Turno: dashboard (8101): 1/10"
+        "percent": 20,
+        "label": "M8 · Migración Turno: dashboard (8101): 2/10"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 1,
+          "closed": 2,
           "total": 10
         },
         {
@@ -836,7 +836,7 @@
         },
         {
           "label": "Global",
-          "closed": 20,
+          "closed": 21,
           "total": 45
         }
       ],
@@ -844,15 +844,8 @@
       "issueBreakdown": {
         "label": "M8 · Migración Turno: dashboard (8101)",
         "totalIssues": 10,
-        "closedIssues": 1,
+        "closedIssues": 2,
         "issues": [
-          {
-            "number": 37,
-            "title": "DASH-01 · 🔴 D7: sacar secretos del bundle (public/config.ts) — BLOQUEANTE",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/37",
-            "updatedAt": "2026-08-05T14:39:05Z"
-          },
           {
             "number": 44,
             "title": "DASH-08 · i18n: extraer strings hardcodeados",
@@ -910,6 +903,13 @@
             "updatedAt": "2026-07-27T19:57:51Z"
           },
           {
+            "number": 37,
+            "title": "DASH-01 · 🔴 D7: sacar secretos del bundle (public/config.ts) — BLOQUEANTE",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/37",
+            "updatedAt": "2026-08-05T15:58:20Z"
+          },
+          {
             "number": 58,
             "title": "chore · Arreglar verify roto: import colgante DataDebugger en apps/dashboard",
             "state": "CLOSED",
@@ -929,6 +929,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 1
+    "totalOpenPrs": 0
   }
 }
