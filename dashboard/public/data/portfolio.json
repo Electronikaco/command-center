@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:00:34.901Z",
+  "generatedAt": "2026-08-05T21:30:32.042Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 14,
+      "commits7d": 13,
       "commits30d": 30,
       "lastActivityAt": "2026-08-05T18:38:37Z",
       "progress": {
@@ -149,7 +149,7 @@
         {
           "label": "Global",
           "closed": 140,
-          "total": 165
+          "total": 166
         }
       ],
       "highlights": [],
@@ -524,18 +524,18 @@
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 45,
-      "commits7d": 24,
+      "mergedPrs30d": 46,
+      "commits7d": 25,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-05T17:13:11Z",
+      "lastActivityAt": "2026-08-05T21:05:47Z",
       "progress": {
-        "percent": 50,
-        "label": "15/30 issues"
+        "percent": 53,
+        "label": "16/30 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 15,
+          "closed": 16,
           "total": 30
         },
         {
@@ -548,21 +548,14 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 30,
-        "closedIssues": 15,
+        "closedIssues": 16,
         "issues": [
-          {
-            "number": 72,
-            "title": "Unificación de canales C: Instagram/Messenger pierden mensajes — inbound sin cola durable",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/72",
-            "updatedAt": "2026-08-05T20:16:39Z"
-          },
           {
             "number": 71,
             "title": "Unificación de canales B: unificar user_hash de conversación (32 vs 40 chars)",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/71",
-            "updatedAt": "2026-08-05T20:16:37Z"
+            "updatedAt": "2026-08-05T21:06:25Z"
           },
           {
             "number": 30,
@@ -654,6 +647,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/2",
             "updatedAt": "2026-07-09T20:03:49Z"
+          },
+          {
+            "number": 72,
+            "title": "Unificación de canales C: Instagram/Messenger pierden mensajes — inbound sin cola durable",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/72",
+            "updatedAt": "2026-08-05T21:06:05Z"
           },
           {
             "number": 70,
@@ -778,12 +778,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 14,
-      "commits7d": 8,
+      "commits7d": 7,
       "commits30d": 30,
       "lastActivityAt": "2026-07-31T22:13:06Z",
       "progress": {
         "percent": null,
-        "label": "8 commits / 7d (develop)"
+        "label": "7 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
@@ -801,66 +801,38 @@
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 45,
+      "mergedPrs30d": 46,
       "commits7d": 13,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-05T19:59:35Z",
+      "lastActivityAt": "2026-08-05T21:05:06Z",
       "progress": {
-        "percent": 60,
-        "label": "M7 · Integración piloto con Turno: 3/5"
+        "percent": 0,
+        "label": "R2 · Hub → microservicios core: 0/1"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 3,
-          "total": 5
+          "closed": 0,
+          "total": 1
         },
         {
           "label": "Global",
           "closed": 108,
-          "total": 115
+          "total": 119
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "M7 · Integración piloto con Turno",
-        "totalIssues": 5,
-        "closedIssues": 3,
+        "label": "R2 · Hub → microservicios core",
+        "totalIssues": 1,
+        "closedIssues": 0,
         "issues": [
           {
-            "number": 96,
-            "title": "INT-04 · Prueba de degradación con Hub caído — **criterio de salida de R1**",
+            "number": 166,
+            "title": "BFF-03 · Descomponer hub-api en microservicios core (fase mayor)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/96",
-            "updatedAt": "2026-08-05T17:16:04Z"
-          },
-          {
-            "number": 95,
-            "title": "INT-03 · Autorización local en Turno, sin consultar a Hub por operación",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/95",
-            "updatedAt": "2026-08-05T17:16:03Z"
-          },
-          {
-            "number": 94,
-            "title": "INT-02 · Integración del SDK en Turno y sincronización inicial completa",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/94",
-            "updatedAt": "2026-07-30T21:23:33Z"
-          },
-          {
-            "number": 97,
-            "title": "INT-05 · Pruebas críticas: fan-out con dos consumidores, propagación de revocación y aislamiento entre organizaciones",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/97",
-            "updatedAt": "2026-07-27T19:47:55Z"
-          },
-          {
-            "number": 93,
-            "title": "INT-01 · Alta de Turno en Hub: registro en el catálogo, árbol de autorización y emisión de licencia",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/93",
-            "updatedAt": "2026-07-27T19:47:54Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/166",
+            "updatedAt": "2026-08-05T21:29:57Z"
           }
         ],
         "truncated": false
@@ -883,14 +855,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-08-05T17:03:57Z",
       "progress": {
-        "percent": 20,
-        "label": "M8 · Migración Turno: dashboard (8101): 2/10"
+        "percent": 0,
+        "label": "Hub BFF · front door: 0/1"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 2,
-          "total": 10
+          "closed": 0,
+          "total": 1
         },
         {
           "label": "Épicas",
@@ -900,84 +872,21 @@
         {
           "label": "Global",
           "closed": 21,
-          "total": 45
+          "total": 46
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "M8 · Migración Turno: dashboard (8101)",
-        "totalIssues": 10,
-        "closedIssues": 2,
+        "label": "Hub BFF · front door",
+        "totalIssues": 1,
+        "closedIssues": 0,
         "issues": [
           {
-            "number": 44,
-            "title": "DASH-08 · i18n: extraer strings hardcodeados",
+            "number": 87,
+            "title": "hub-console · consumir SOLO el hub-bff (no hub-api ni PAD directo)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/44",
-            "updatedAt": "2026-07-30T19:38:32Z"
-          },
-          {
-            "number": 43,
-            "title": "DASH-07 · FSD + troceo de páginas monolíticas + naming",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/43",
-            "updatedAt": "2026-07-30T19:38:30Z"
-          },
-          {
-            "number": 42,
-            "title": "DASH-06 · Formularios: RHF + zod (FormField-kit)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/42",
-            "updatedAt": "2026-07-30T19:38:28Z"
-          },
-          {
-            "number": 41,
-            "title": "DASH-05 · Datos: TanStack Query + hooks por entidad sobre el BFF",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/41",
-            "updatedAt": "2026-07-30T19:38:26Z"
-          },
-          {
-            "number": 40,
-            "title": "DASH-04 · UI: consumir @civok/ui, retirar shadcn/radix sueltos, DataTable, lucide",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/40",
-            "updatedAt": "2026-07-30T19:38:23Z"
-          },
-          {
-            "number": 39,
-            "title": "DASH-03 · Estilo: preset de @civok/tokens y erradicar hex",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/39",
-            "updatedAt": "2026-07-30T19:38:21Z"
-          },
-          {
-            "number": 38,
-            "title": "DASH-02 · Adoptar @civok/config (ESLint FSD+anti-hex) y tsconfig compartido",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/38",
-            "updatedAt": "2026-07-30T19:38:19Z"
-          },
-          {
-            "number": 29,
-            "title": "EPIC · Dashboard de Turno a FSD (8101)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/29",
-            "updatedAt": "2026-07-27T19:57:51Z"
-          },
-          {
-            "number": 37,
-            "title": "DASH-01 · 🔴 D7: sacar secretos del bundle (public/config.ts) — BLOQUEANTE",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/37",
-            "updatedAt": "2026-08-05T15:58:20Z"
-          },
-          {
-            "number": 58,
-            "title": "chore · Arreglar verify roto: import colgante DataDebugger en apps/dashboard",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/58",
-            "updatedAt": "2026-07-30T22:55:18Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/87",
+            "updatedAt": "2026-08-05T21:29:58Z"
           }
         ],
         "truncated": false
