@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T14:00:45.692Z",
+  "generatedAt": "2026-08-05T14:30:35.365Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,18 +11,18 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 12,
+      "commits7d": 13,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-04T21:47:40Z",
+      "lastActivityAt": "2026-08-05T14:07:18Z",
       "progress": {
-        "percent": 0,
-        "label": "S17 · Informe pericial y biblioteca (EPIC-X): 0/13"
+        "percent": 83,
+        "label": "BE5 · Infra documental: MinIO + Gotenberg (EPIC-S): 5/6"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 0,
-          "total": 13
+          "closed": 5,
+          "total": 6
         },
         {
           "label": "Épicas",
@@ -31,106 +31,57 @@
         },
         {
           "label": "Global",
-          "closed": 154,
+          "closed": 155,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "S17 · Informe pericial y biblioteca (EPIC-X)",
-        "totalIssues": 13,
-        "closedIssues": 0,
+        "label": "BE5 · Infra documental: MinIO + Gotenberg (EPIC-S)",
+        "totalIssues": 6,
+        "closedIssues": 5,
         "issues": [
           {
-            "number": 440,
-            "title": "[EPIC-X] Informe pericial y biblioteca",
+            "number": 435,
+            "title": "[EPIC-S] Infra documental: MinIO + Gotenberg",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/440",
-            "updatedAt": "2026-08-04T21:56:13Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/435",
+            "updatedAt": "2026-08-04T01:03:25Z"
           },
           {
-            "number": 497,
-            "title": "UC-DM-X-12 · Sesión de decisiones de producto con el stakeholder",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/497",
-            "updatedAt": "2026-08-04T21:55:09Z"
+            "number": 452,
+            "title": "UC-DM-BE-59 · Piloto de render PDF: consentimiento (Formato 5) vía Gotenberg con doble modo",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/452",
+            "updatedAt": "2026-08-05T14:07:33Z"
           },
           {
-            "number": 496,
-            "title": "UC-DM-X-11 · Diccionarios de estilo bloqueantes (términos prohibidos en discusión/formulación/conclusiones: \"se demuestra\", \"es culpable\", \"miente\", etc.)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/496",
-            "updatedAt": "2026-08-04T21:55:08Z"
+            "number": 451,
+            "title": "UC-DM-BE-58 · Piloto de storage real: evidencias de casos vía MinIO",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/451",
+            "updatedAt": "2026-08-04T18:58:19Z"
           },
           {
-            "number": 495,
-            "title": "UC-DM-X-10 · Motor de anexos condicionados al repositorio del caso (bloquea export si falta anexo obligatorio: consentimiento, grabación, soportes)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/495",
-            "updatedAt": "2026-08-04T21:55:07Z"
+            "number": 450,
+            "title": "UC-DM-BE-57 · Contrato de storage + paquete @dosmentes/storage (upload con hash SHA-256)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/450",
+            "updatedAt": "2026-08-04T15:11:58Z"
           },
           {
-            "number": 494,
-            "title": "UC-DM-X-09 · Servicio de biblioteca: normalización APA 7 + verificación DOI + bloqueo cita-sin-referencia",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/494",
-            "updatedAt": "2026-08-04T21:55:05Z"
+            "number": 449,
+            "title": "UC-DM-BE-56 · Gotenberg en docker-compose como motor de render PDF",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/449",
+            "updatedAt": "2026-08-04T01:38:22Z"
           },
           {
-            "number": 493,
-            "title": "UC-DM-X-08 · Checklist de calidad del informe revisado en FT-META (§6.8, verificación de forma/metodología/cumplimiento normativo)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/493",
-            "updatedAt": "2026-08-04T21:55:04Z"
-          },
-          {
-            "number": 492,
-            "title": "UC-DM-X-07 · Bloque de declaraciones art. 226 CGP (10 declaraciones, autoinsertadas desde el perfil del perito)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/492",
-            "updatedAt": "2026-08-04T21:55:02Z"
-          },
-          {
-            "number": 491,
-            "title": "UC-DM-X-06 · Bloque condicional de registro audiovisual (`tiene_registro_magnetico`): obligatorio y bloqueante en FT-CRED, opcional y degradante de alcance en FT-META",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/491",
-            "updatedAt": "2026-08-04T21:55:00Z"
-          },
-          {
-            "number": 490,
-            "title": "UC-DM-X-05 · Selector de nivel de alcance I/II/III en FT-ILUS",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/490",
-            "updatedAt": "2026-08-04T21:54:58Z"
-          },
-          {
-            "number": 489,
-            "title": "UC-DM-X-04 · Módulo CBCA con escala 0-1-2 (19 criterios, suma /38, rangos interpretativos de Raskin)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/489",
-            "updatedAt": "2026-08-04T21:54:57Z"
-          },
-          {
-            "number": 488,
-            "title": "UC-DM-X-03 · Módulo de hipótesis del encargo (H1/H0 por objetivo, confirmación de que H0 es la negación lógica de H1, resolución confirmada/rechazada/parcial)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/488",
-            "updatedAt": "2026-08-04T21:54:55Z"
-          },
-          {
-            "number": 487,
-            "title": "UC-DM-X-02 · Catálogo de instrumentos psicométricos (bloquea selección sin baremo, alerta baremo no colombiano)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/487",
-            "updatedAt": "2026-08-04T21:54:54Z"
-          },
-          {
-            "number": 486,
-            "title": "UC-DM-X-01 · Motor de plantillas FT-* (portada + ficha técnica + apartados + ANEXO A/B) con doble modo `trabajo`/`judicial` vía Gotenberg",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/486",
-            "updatedAt": "2026-08-04T21:54:53Z"
+            "number": 448,
+            "title": "UC-DM-BE-55 · MinIO en docker-compose como object storage compartido (buckets por dominio)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/448",
+            "updatedAt": "2026-08-04T01:38:19Z"
           }
         ],
         "truncated": false
