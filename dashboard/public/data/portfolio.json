@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T21:00:39.166Z",
+  "generatedAt": "2026-08-06T21:30:33.626Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -109,7 +109,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-06T17:30:44Z",
+      "lastActivityAt": "2026-08-06T21:03:31Z",
       "progress": {
         "percent": 77,
         "label": "Fase 7 · Turno consumidor de Cívok Hub: 69/90"
@@ -783,7 +783,7 @@
       "mergedPrs30d": 50,
       "commits7d": 13,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-06T19:54:02Z",
+      "lastActivityAt": "2026-08-06T21:03:25Z",
       "progress": {
         "percent": 0,
         "label": "R2 · Hub → microservicios core: 0/7"
@@ -871,10 +871,10 @@
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
       "openPrs": 1,
-      "mergedPrs30d": 43,
+      "mergedPrs30d": 44,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-06T18:25:08Z",
+      "lastActivityAt": "2026-08-06T21:03:38Z",
       "progress": {
         "percent": 0,
         "label": "Hub BFF · front door: 0/1"
