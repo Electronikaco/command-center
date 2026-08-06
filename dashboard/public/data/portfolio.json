@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T16:00:36.364Z",
+  "generatedAt": "2026-08-06T16:30:34.029Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -130,7 +130,7 @@
       "mergedPrs30d": 50,
       "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-06T13:09:20Z",
+      "lastActivityAt": "2026-08-06T16:22:26Z",
       "progress": {
         "percent": 77,
         "label": "Fase 7 · Turno consumidor de Cívok Hub: 69/90"
@@ -525,7 +525,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 47,
-      "commits7d": 23,
+      "commits7d": 18,
       "commits30d": 30,
       "lastActivityAt": "2026-08-05T22:23:19Z",
       "progress": {
@@ -800,11 +800,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
-      "mergedPrs30d": 49,
+      "openPrs": 3,
+      "mergedPrs30d": 50,
       "commits7d": 13,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-06T15:55:54Z",
+      "lastActivityAt": "2026-08-06T16:26:14Z",
       "progress": {
         "percent": 0,
         "label": "R2 · Hub → microservicios core: 0/7"
@@ -892,10 +892,10 @@
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
       "openPrs": 1,
-      "mergedPrs30d": 40,
+      "mergedPrs30d": 42,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-05T17:03:57Z",
+      "lastActivityAt": "2026-08-06T16:22:30Z",
       "progress": {
         "percent": 0,
         "label": "Hub BFF · front door: 0/1"
@@ -943,6 +943,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 4
   }
 }
