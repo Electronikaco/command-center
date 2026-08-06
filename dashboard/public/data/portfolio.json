@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T00:01:06.168Z",
+  "generatedAt": "2026-08-06T00:30:33.155Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,18 +11,18 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 13,
+      "commits7d": 14,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-05T18:38:37Z",
+      "lastActivityAt": "2026-08-06T00:20:59Z",
       "progress": {
-        "percent": 20,
-        "label": "S14 · Consentimientos y contrato (EPIC-U): 2/10"
+        "percent": 43,
+        "label": "S13 · Perfil e historial del perito (EPIC-T): 3/7"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 2,
-          "total": 10
+          "closed": 3,
+          "total": 7
         },
         {
           "label": "Épicas",
@@ -31,85 +31,64 @@
         },
         {
           "label": "Global",
-          "closed": 159,
+          "closed": 160,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "S14 · Consentimientos y contrato (EPIC-U)",
-        "totalIssues": 10,
-        "closedIssues": 2,
+        "label": "S13 · Perfil e historial del perito (EPIC-T)",
+        "totalIssues": 7,
+        "closedIssues": 3,
         "issues": [
           {
-            "number": 437,
-            "title": "[EPIC-U] Consentimientos y contrato",
+            "number": 436,
+            "title": "[EPIC-T] Perfil e historial del perito",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/437",
-            "updatedAt": "2026-08-04T21:56:11Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/436",
+            "updatedAt": "2026-08-04T21:56:10Z"
           },
           {
-            "number": 478,
-            "title": "UC-DM-U-09 · Mecanismo transversal de supresión de bloques internos en `modo_entrega` (extraído para reutilización explícita con EPIC-X)",
+            "number": 469,
+            "title": "UC-DM-T-06 · Autoinserción de perfil + historial en informes/anexos (checklist art. 226)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/478",
-            "updatedAt": "2026-08-04T21:54:34Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/469",
+            "updatedAt": "2026-08-04T21:54:14Z"
           },
           {
-            "number": 477,
-            "title": "UC-DM-U-08 · Anexos vinculados del contrato (cronograma generado por el sistema + consentimientos por referencia)",
+            "number": 468,
+            "title": "UC-DM-T-05 · Gestión y vista manual del historial (alta/edición manual, `DataTable`, filtro \"últimos 4 años\")",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/477",
-            "updatedAt": "2026-08-04T21:54:33Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/468",
+            "updatedAt": "2026-08-04T21:54:13Z"
           },
           {
-            "number": 476,
-            "title": "UC-DM-U-07 · Cronograma de cuotas + equivalencia en SMLMV (cálculo, congelamiento y pérdida de congelamiento por mora)",
+            "number": 465,
+            "title": "UC-DM-T-02 · Catálogo de publicaciones del perito (alta/edición, cita APA)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/476",
-            "updatedAt": "2026-08-04T21:54:31Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/465",
+            "updatedAt": "2026-08-04T21:54:09Z"
           },
           {
-            "number": 475,
-            "title": "UC-DM-U-06 · Contrato de peritaje (Formato 7): consecutivo automático + catálogo de tipo de servicio que enruta el/los Formato(s) de informe 1-4",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/475",
-            "updatedAt": "2026-08-04T21:54:30Z"
-          },
-          {
-            "number": 474,
-            "title": "UC-DM-U-05 · Casillas de autorización como datos estructurados (`ConsentDecision`, modelo transversal reutilizado por U-01/02/03/04/06)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/474",
-            "updatedAt": "2026-08-04T21:54:28Z"
-          },
-          {
-            "number": 473,
-            "title": "UC-DM-U-04 · Consentimiento colateral (Formato 6), 1:N por caso, vinculado a la tabla de identificación de fuentes",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/473",
-            "updatedAt": "2026-08-04T21:54:27Z"
-          },
-          {
-            "number": 472,
-            "title": "UC-DM-U-03 · Casilla de grabación → anexo de grabaciones condicional del Formato 1",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/472",
-            "updatedAt": "2026-08-04T21:54:25Z"
-          },
-          {
-            "number": 471,
-            "title": "UC-DM-U-02 · Sección condicional de menores (representante legal + asentimiento) + anonimización por siglas en informes",
+            "number": 467,
+            "title": "UC-DM-T-04 · Import de historial pericial desde Excel (mapeo de 7 columnas, split fecha/estado, normalización TEMA→`EngagementType`, preview editable, dedupe+upsert por lote, auditoría)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/471",
-            "updatedAt": "2026-08-05T18:38:40Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/467",
+            "updatedAt": "2026-08-06T00:21:00Z"
           },
           {
-            "number": 470,
-            "title": "UC-DM-U-01 · Generar y gatear el consentimiento EPF (Formato 5): render + bloqueo real de entrevistas/pruebas/Formato 1 + indicador de estado por caso",
+            "number": 466,
+            "title": "UC-DM-T-03 · Soportes documentales del perito con cadena de custodia (reutiliza `@dosmentes/storage`, flujo de dos pasos)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/470",
-            "updatedAt": "2026-08-05T17:43:16Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/466",
+            "updatedAt": "2026-08-05T18:38:39Z"
+          },
+          {
+            "number": 464,
+            "title": "UC-DM-T-01 · Perfil del perito: identidad + datos profesionales (formación, HV narrativa, contacto, persona jurídica opcional)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/464",
+            "updatedAt": "2026-08-05T17:43:14Z"
           }
         ],
         "truncated": false
