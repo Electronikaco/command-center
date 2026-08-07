@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T00:30:34.397Z",
+  "generatedAt": "2026-08-07T01:00:42.003Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,77 +11,84 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 22,
+      "commits7d": 24,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-07T00:00:37Z",
+      "lastActivityAt": "2026-08-07T00:51:58Z",
       "progress": {
-        "percent": 50,
-        "label": "BE6 · Backend perito (identity-tenant): 3/6"
+        "percent": 71,
+        "label": "S13 · Perfil e historial del perito (EPIC-T): 5/7"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 3,
-          "total": 6
+          "closed": 5,
+          "total": 7
         },
         {
           "label": "Épicas",
-          "closed": 17,
+          "closed": 18,
           "total": 27
         },
         {
           "label": "Global",
-          "closed": 160,
+          "closed": 163,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "BE6 · Backend perito (identity-tenant)",
-        "totalIssues": 6,
-        "closedIssues": 3,
+        "label": "S13 · Perfil e historial del perito (EPIC-T)",
+        "totalIssues": 7,
+        "closedIssues": 5,
         "issues": [
           {
-            "number": 512,
-            "title": "UC-DM-BE-62 · Soportes documentales del perito real (custodia MinIO vía @dosmentes/storage)",
+            "number": 436,
+            "title": "[EPIC-T] Perfil e historial del perito",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/512",
-            "updatedAt": "2026-08-06T23:30:51Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/436",
+            "updatedAt": "2026-08-04T21:56:10Z"
           },
           {
-            "number": 514,
-            "title": "UC-DM-BE-64 · Aislamiento multi-tenant e2e del dominio perito + paridad contrato-backend-mock",
+            "number": 469,
+            "title": "UC-DM-T-06 · Autoinserción de perfil + historial en informes/anexos (checklist art. 226)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/514",
-            "updatedAt": "2026-08-06T22:29:27Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/469",
+            "updatedAt": "2026-08-04T21:54:14Z"
           },
           {
-            "number": 509,
-            "title": "[BE6] Backend perito real (identity-tenant)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/509",
-            "updatedAt": "2026-08-06T22:28:56Z"
-          },
-          {
-            "number": 513,
-            "title": "UC-DM-BE-63 · Historial manual real (POST/PATCH/DELETE /peritos/profile/history)",
+            "number": 465,
+            "title": "UC-DM-T-02 · Catálogo de publicaciones del perito (alta/edición, cita APA)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/513",
-            "updatedAt": "2026-08-07T00:01:07Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/465",
+            "updatedAt": "2026-08-06T17:41:42Z"
           },
           {
-            "number": 511,
-            "title": "UC-DM-BE-61 · Publicaciones del perito real (POST/PATCH/DELETE /peritos/profile/publications)",
+            "number": 468,
+            "title": "UC-DM-T-05 · Gestión y vista manual del historial (alta/edición manual, `DataTable`, filtro \"últimos 4 años\")",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/511",
-            "updatedAt": "2026-08-06T23:29:57Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/468",
+            "updatedAt": "2026-08-06T15:16:29Z"
           },
           {
-            "number": 510,
-            "title": "UC-DM-BE-60 · Perfil del perito real (PeritoProfile): modelo Prisma + RLS + GET/PATCH /peritos/profile/me",
+            "number": 467,
+            "title": "UC-DM-T-04 · Import de historial pericial desde Excel (mapeo de 7 columnas, split fecha/estado, normalización TEMA→`EngagementType`, preview editable, dedupe+upsert por lote, auditoría)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/510",
-            "updatedAt": "2026-08-06T23:03:00Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/467",
+            "updatedAt": "2026-08-06T00:21:00Z"
+          },
+          {
+            "number": 466,
+            "title": "UC-DM-T-03 · Soportes documentales del perito con cadena de custodia (reutiliza `@dosmentes/storage`, flujo de dos pasos)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/466",
+            "updatedAt": "2026-08-05T18:38:39Z"
+          },
+          {
+            "number": 464,
+            "title": "UC-DM-T-01 · Perfil del perito: identidad + datos profesionales (formación, HV narrativa, contacto, persona jurídica opcional)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/464",
+            "updatedAt": "2026-08-05T17:43:14Z"
           }
         ],
         "truncated": false
