@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T16:30:32.440Z",
+  "generatedAt": "2026-08-08T17:00:34.238Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -783,40 +783,33 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 5,
+      "commits7d": 4,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-08T16:25:56Z",
+      "lastActivityAt": "2026-08-08T16:34:37Z",
       "progress": {
-        "percent": 14,
-        "label": "R2 · Hub → microservicios core: 1/7"
+        "percent": 29,
+        "label": "R2 · Hub → microservicios core: 2/7"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 1,
+          "closed": 2,
           "total": 7
         },
         {
           "label": "Global",
-          "closed": 119,
-          "total": 132
+          "closed": 120,
+          "total": 134
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "R2 · Hub → microservicios core",
         "totalIssues": 7,
-        "closedIssues": 1,
+        "closedIssues": 2,
         "issues": [
-          {
-            "number": 173,
-            "title": "MS-B · Extraer hub-licensing (licencias/planes/addons/paquetes/contratos/flags)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/173",
-            "updatedAt": "2026-08-08T15:25:13Z"
-          },
           {
             "number": 177,
             "title": "MS-F · Extraer hub-personas (maestro de Persona + documentos/contactos/direcciones)",
@@ -853,6 +846,13 @@
             "updatedAt": "2026-08-06T15:07:37Z"
           },
           {
+            "number": 173,
+            "title": "MS-B · Extraer hub-licensing (licencias/planes/addons/paquetes/contratos/flags)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/173",
+            "updatedAt": "2026-08-08T16:34:59Z"
+          },
+          {
             "number": 172,
             "title": "MS-A · Fundaciones: BFF como router + librerías transversales + contratos S2S",
             "state": "CLOSED",
@@ -876,7 +876,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 4,
+      "commits7d": 2,
       "commits30d": 30,
       "lastActivityAt": "2026-08-08T15:52:56Z",
       "progress": {
@@ -989,6 +989,6 @@
     "healthy": 5,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 1
+    "totalOpenPrs": 0
   }
 }
