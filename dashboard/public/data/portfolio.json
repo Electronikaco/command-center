@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T14:30:31.613Z",
+  "generatedAt": "2026-08-08T15:00:37.301Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -109,15 +109,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-08T14:24:15Z",
+      "lastActivityAt": "2026-08-08T14:43:36Z",
       "progress": {
-        "percent": 78,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 70/90"
+        "percent": 79,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 71/90"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 70,
+          "closed": 71,
           "total": 90
         },
         {
@@ -127,7 +127,7 @@
         },
         {
           "label": "Global",
-          "closed": 144,
+          "closed": 145,
           "total": 166
         }
       ],
@@ -135,15 +135,8 @@
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
         "totalIssues": 90,
-        "closedIssues": 70,
+        "closedIssues": 71,
         "issues": [
-          {
-            "number": 160,
-            "title": "CONV · Auth/Sesión · Canjear API Key de servicio por token de servicio corto (D7)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/160",
-            "updatedAt": "2026-08-08T14:00:50Z"
-          },
           {
             "number": 292,
             "title": "CONV · Sync/Eventos · Envelope canónico en rutas INTERNAS + BFF (parte no-breaking de #188)",
@@ -276,6 +269,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/151",
             "updatedAt": "2026-07-30T22:08:28Z"
+          },
+          {
+            "number": 160,
+            "title": "CONV · Auth/Sesión · Canjear API Key de servicio por token de servicio corto (D7)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/160",
+            "updatedAt": "2026-08-08T14:43:36Z"
           },
           {
             "number": 155,
@@ -787,7 +787,7 @@
       "mergedPrs30d": 50,
       "commits7d": 5,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-08T14:28:56Z",
+      "lastActivityAt": "2026-08-08T14:46:50Z",
       "progress": {
         "percent": 14,
         "label": "R2 · Hub → microservicios core: 1/7"
@@ -800,8 +800,8 @@
         },
         {
           "label": "Global",
-          "closed": 117,
-          "total": 130
+          "closed": 118,
+          "total": 131
         }
       ],
       "highlights": [],
@@ -875,19 +875,19 @@
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 46,
+      "mergedPrs30d": 47,
       "commits7d": 4,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-08T14:07:23Z",
+      "lastActivityAt": "2026-08-08T14:38:44Z",
       "progress": {
-        "percent": 20,
-        "label": "M8 · Migración Turno: dashboard (8101): 2/10"
+        "percent": 29,
+        "label": "M2 · Hub Console: auth y shell: 2/7"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
           "closed": 2,
-          "total": 10
+          "total": 7
         },
         {
           "label": "Épicas",
@@ -896,85 +896,64 @@
         },
         {
           "label": "Global",
-          "closed": 23,
+          "closed": 24,
           "total": 46
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "M8 · Migración Turno: dashboard (8101)",
-        "totalIssues": 10,
+        "label": "M2 · Hub Console: auth y shell",
+        "totalIssues": 7,
         "closedIssues": 2,
         "issues": [
           {
-            "number": 44,
-            "title": "DASH-08 · i18n: extraer strings hardcodeados",
+            "number": 23,
+            "title": "CON-07 · @civok/i18n es/en desde el inicio (según DEC-01/D6)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/44",
-            "updatedAt": "2026-07-30T19:38:32Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/23",
+            "updatedAt": "2026-08-08T14:29:52Z"
           },
           {
-            "number": 43,
-            "title": "DASH-07 · FSD + troceo de páginas monolíticas + naming",
+            "number": 22,
+            "title": "CON-06 · Receta de desarrollo local: subdominios, seeds y CORS",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/43",
-            "updatedAt": "2026-07-30T19:38:30Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/22",
+            "updatedAt": "2026-08-08T14:29:52Z"
           },
           {
-            "number": 42,
-            "title": "DASH-06 · Formularios: RHF + zod (FormField-kit)",
+            "number": 21,
+            "title": "CON-05 · AppShell del Hub con selector organización/workspace",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/42",
-            "updatedAt": "2026-07-30T19:38:28Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/21",
+            "updatedAt": "2026-08-08T14:29:51Z"
           },
           {
-            "number": 41,
-            "title": "DASH-05 · Datos: TanStack Query + hooks por entidad sobre el BFF",
+            "number": 20,
+            "title": "CON-04 · middleware.ts server-side y guards por plano (plataforma/organización)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/41",
-            "updatedAt": "2026-07-30T19:38:26Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/20",
+            "updatedAt": "2026-08-08T14:29:50Z"
           },
           {
-            "number": 40,
-            "title": "DASH-04 · UI: consumir @civok/ui, retirar shadcn/radix sueltos, DataTable, lucide",
+            "number": 19,
+            "title": "CON-03 · @civok/auth + flujo completo de sesión contra hub-api",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/40",
-            "updatedAt": "2026-07-30T19:38:23Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/19",
+            "updatedAt": "2026-08-08T14:29:49Z"
           },
           {
-            "number": 39,
-            "title": "DASH-03 · Estilo: preset de @civok/tokens y erradicar hex",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/39",
-            "updatedAt": "2026-07-30T19:38:21Z"
-          },
-          {
-            "number": 38,
-            "title": "DASH-02 · Adoptar @civok/config (ESLint FSD+anti-hex) y tsconfig compartido",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/38",
-            "updatedAt": "2026-07-30T19:38:19Z"
-          },
-          {
-            "number": 29,
-            "title": "EPIC · Dashboard de Turno a FSD (8101)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/29",
-            "updatedAt": "2026-07-27T19:57:51Z"
-          },
-          {
-            "number": 37,
-            "title": "DASH-01 · 🔴 D7: sacar secretos del bundle (public/config.ts) — BLOQUEANTE",
+            "number": 18,
+            "title": "CON-02 · @civok/api-client + contratos de hub-api (según DEC-04)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/37",
-            "updatedAt": "2026-08-05T15:58:20Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/18",
+            "updatedAt": "2026-08-08T14:38:46Z"
           },
           {
-            "number": 58,
-            "title": "chore · Arreglar verify roto: import colgante DataDebugger en apps/dashboard",
+            "number": 17,
+            "title": "CON-01 · Andamiaje FSD de apps/hub-console",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/58",
-            "updatedAt": "2026-07-30T22:55:18Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/17",
+            "updatedAt": "2026-07-30T22:50:40Z"
           }
         ],
         "truncated": false
