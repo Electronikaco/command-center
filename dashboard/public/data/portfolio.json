@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:30:29.551Z",
+  "generatedAt": "2026-08-08T14:00:34.338Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -783,11 +783,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 5,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-07T00:07:08Z",
+      "lastActivityAt": "2026-08-08T13:51:12Z",
       "progress": {
         "percent": 14,
         "label": "R2 · Hub → microservicios core: 1/7"
@@ -874,11 +874,11 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 1,
-      "mergedPrs30d": 44,
+      "openPrs": 0,
+      "mergedPrs30d": 45,
       "commits7d": 4,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-06T21:03:38Z",
+      "lastActivityAt": "2026-08-08T13:51:15Z",
       "progress": {
         "percent": 0,
         "label": "Hub BFF · front door: 0/1"
@@ -896,7 +896,7 @@
         },
         {
           "label": "Global",
-          "closed": 21,
+          "closed": 22,
           "total": 46
         }
       ],
@@ -926,6 +926,6 @@
     "healthy": 5,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 0
   }
 }
