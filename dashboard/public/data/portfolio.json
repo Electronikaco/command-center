@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T21:00:34.879Z",
+  "generatedAt": "2026-08-10T21:30:32.694Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -785,7 +785,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 2,
+      "commits7d": 0,
       "commits30d": 30,
       "lastActivityAt": "2026-08-08T18:15:26Z",
       "progress": {
@@ -876,18 +876,18 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 1,
+      "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-08T15:52:56Z",
+      "lastActivityAt": "2026-08-10T21:30:08Z",
       "progress": {
-        "percent": 0,
-        "label": "Front Hub · Estándar frontend-nextjs (skill): 0/6"
+        "percent": 20,
+        "label": "M8 · Migración Turno: dashboard (8101): 2/10"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 0,
-          "total": 6
+          "closed": 2,
+          "total": 10
         },
         {
           "label": "Épicas",
@@ -896,57 +896,85 @@
         },
         {
           "label": "Global",
-          "closed": 29,
+          "closed": 35,
           "total": 52
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "Front Hub · Estándar frontend-nextjs (skill)",
-        "totalIssues": 6,
-        "closedIssues": 0,
+        "label": "M8 · Migración Turno: dashboard (8101)",
+        "totalIssues": 10,
+        "closedIssues": 2,
         "issues": [
           {
-            "number": 104,
-            "title": "HUB-STD-06 · Estructura docs/ del front",
+            "number": 44,
+            "title": "DASH-08 · i18n: extraer strings hardcodeados",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/104",
-            "updatedAt": "2026-08-10T20:19:13Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/44",
+            "updatedAt": "2026-07-30T19:38:32Z"
           },
           {
-            "number": 103,
-            "title": "HUB-STD-05 · Auditoría BFF anti over-fetching (documentada)",
+            "number": 43,
+            "title": "DASH-07 · FSD + troceo de páginas monolíticas + naming",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/103",
-            "updatedAt": "2026-08-10T20:19:12Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/43",
+            "updatedAt": "2026-07-30T19:38:30Z"
           },
           {
-            "number": 102,
-            "title": "HUB-STD-04 · Logger estandarizado + /api/log + rotación 7 días",
+            "number": 42,
+            "title": "DASH-06 · Formularios: RHF + zod (FormField-kit)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/102",
-            "updatedAt": "2026-08-10T20:19:11Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/42",
+            "updatedAt": "2026-07-30T19:38:28Z"
           },
           {
-            "number": 101,
-            "title": "HUB-STD-03 · Contenedor Docker con salud + PM2",
+            "number": 41,
+            "title": "DASH-05 · Datos: TanStack Query + hooks por entidad sobre el BFF",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/101",
-            "updatedAt": "2026-08-10T20:19:10Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/41",
+            "updatedAt": "2026-07-30T19:38:26Z"
           },
           {
-            "number": 100,
-            "title": "HUB-STD-02 · Runner de pruebas manuales interactivo (test:manual)",
+            "number": 40,
+            "title": "DASH-04 · UI: consumir @civok/ui, retirar shadcn/radix sueltos, DataTable, lucide",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/100",
-            "updatedAt": "2026-08-10T20:19:09Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/40",
+            "updatedAt": "2026-07-30T19:38:23Z"
           },
           {
-            "number": 99,
-            "title": "HUB-STD-01 · E2E Playwright de flujos completos de usuario final",
+            "number": 39,
+            "title": "DASH-03 · Estilo: preset de @civok/tokens y erradicar hex",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/99",
-            "updatedAt": "2026-08-10T20:19:08Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/39",
+            "updatedAt": "2026-07-30T19:38:21Z"
+          },
+          {
+            "number": 38,
+            "title": "DASH-02 · Adoptar @civok/config (ESLint FSD+anti-hex) y tsconfig compartido",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/38",
+            "updatedAt": "2026-07-30T19:38:19Z"
+          },
+          {
+            "number": 29,
+            "title": "EPIC · Dashboard de Turno a FSD (8101)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/29",
+            "updatedAt": "2026-07-27T19:57:51Z"
+          },
+          {
+            "number": 37,
+            "title": "DASH-01 · 🔴 D7: sacar secretos del bundle (public/config.ts) — BLOQUEANTE",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/37",
+            "updatedAt": "2026-08-05T15:58:20Z"
+          },
+          {
+            "number": 58,
+            "title": "chore · Arreglar verify roto: import colgante DataDebugger en apps/dashboard",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/58",
+            "updatedAt": "2026-07-30T22:55:18Z"
           }
         ],
         "truncated": false
