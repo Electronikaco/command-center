@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T23:00:34.712Z",
+  "generatedAt": "2026-08-11T23:30:31.178Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -42,6 +42,13 @@
         "closedIssues": 4,
         "issues": [
           {
+            "number": 475,
+            "title": "UC-DM-U-06 · Contrato de peritaje (Formato 7): consecutivo automático + catálogo de tipo de servicio que enruta el/los Formato(s) de informe 1-4",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/475",
+            "updatedAt": "2026-08-11T23:14:31Z"
+          },
+          {
             "number": 437,
             "title": "[EPIC-U] Consentimientos y contrato",
             "state": "OPEN",
@@ -68,13 +75,6 @@
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/476",
             "updatedAt": "2026-08-04T21:54:31Z"
-          },
-          {
-            "number": 475,
-            "title": "UC-DM-U-06 · Contrato de peritaje (Formato 7): consecutivo automático + catálogo de tipo de servicio que enruta el/los Formato(s) de informe 1-4",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/475",
-            "updatedAt": "2026-08-04T21:54:30Z"
           },
           {
             "number": 472,
