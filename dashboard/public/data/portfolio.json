@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T21:30:37.489Z",
+  "generatedAt": "2026-08-11T22:00:41.207Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 17,
+      "commits7d": 16,
       "commits30d": 30,
       "lastActivityAt": "2026-08-07T00:51:58Z",
       "progress": {
@@ -130,15 +130,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 20,
-      "lastActivityAt": "2026-08-11T16:52:50Z",
+      "lastActivityAt": "2026-08-11T21:35:11Z",
       "progress": {
-        "percent": 88,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 84/96"
+        "percent": 89,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 85/96"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 84,
+          "closed": 85,
           "total": 96
         },
         {
@@ -148,7 +148,7 @@
         },
         {
           "label": "Global",
-          "closed": 158,
+          "closed": 159,
           "total": 172
         }
       ],
@@ -156,7 +156,7 @@
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
         "totalIssues": 96,
-        "closedIssues": 84,
+        "closedIssues": 85,
         "issues": [
           {
             "number": 316,
@@ -164,13 +164,6 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/316",
             "updatedAt": "2026-08-11T20:57:40Z"
-          },
-          {
-            "number": 315,
-            "title": "TH-02 · Repuntar JWKS_URI + issuer de los verificadores al Hub",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/315",
-            "updatedAt": "2026-08-11T20:57:24Z"
           },
           {
             "number": 318,
@@ -241,6 +234,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/151",
             "updatedAt": "2026-07-30T22:08:28Z"
+          },
+          {
+            "number": 315,
+            "title": "TH-02 · Repuntar JWKS_URI + issuer de los verificadores al Hub",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/315",
+            "updatedAt": "2026-08-11T21:35:17Z"
           },
           {
             "number": 314,
@@ -906,7 +906,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-11T20:24:40Z",
+      "lastActivityAt": "2026-08-11T21:38:59Z",
       "progress": {
         "percent": 14,
         "label": "M6 · Hub Console: cierre R1-front: 1/7"
