@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T20:00:39.451Z",
+  "generatedAt": "2026-08-11T20:30:36.943Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -810,75 +810,82 @@
       "commits30d": 30,
       "lastActivityAt": "2026-08-08T18:15:26Z",
       "progress": {
-        "percent": 29,
-        "label": "R2 · Hub → microservicios core: 2/7"
+        "percent": 0,
+        "label": "CRM del Hub · Personas/visitantes: 0/8"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 2,
-          "total": 7
+          "closed": 0,
+          "total": 8
         },
         {
           "label": "Global",
           "closed": 121,
-          "total": 136
+          "total": 144
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "R2 · Hub → microservicios core",
-        "totalIssues": 7,
-        "closedIssues": 2,
+        "label": "CRM del Hub · Personas/visitantes",
+        "totalIssues": 8,
+        "closedIssues": 0,
         "issues": [
           {
-            "number": 177,
-            "title": "MS-F · Extraer hub-personas (maestro de Persona + documentos/contactos/direcciones)",
+            "number": 199,
+            "title": "[EPIC] F1 · CRM lectura de personas/visitantes (por organización + consentimiento)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/177",
-            "updatedAt": "2026-08-06T15:19:36Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/199",
+            "updatedAt": "2026-08-11T20:29:22Z"
           },
           {
-            "number": 176,
-            "title": "MS-E · Extraer hub-auth (SSO/sesiones/JWKS + usuarios + apikeys + registro)",
+            "number": 201,
+            "title": "CRM-02 · Front door en hub-bff + S2S (contrato público)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/176",
-            "updatedAt": "2026-08-06T15:19:34Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/201",
+            "updatedAt": "2026-08-11T20:29:21Z"
           },
           {
-            "number": 166,
-            "title": "BFF-03 · Descomponer hub-api en microservicios core (fase mayor)",
+            "number": 200,
+            "title": "CRM-01 · Scaffold del microservicio service-crm (skill backend-microservicios)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/166",
-            "updatedAt": "2026-08-06T15:19:34Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/200",
+            "updatedAt": "2026-08-11T20:29:20Z"
           },
           {
-            "number": 175,
-            "title": "MS-D · Extraer hub-org (organización/territorial/workspaces/equipos + maestro de tenant)",
+            "number": 206,
+            "title": "[EPIC] F2 · Interacción por app en el CRM (Turno primero)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/175",
-            "updatedAt": "2026-08-06T15:07:38Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/206",
+            "updatedAt": "2026-08-11T20:11:15Z"
           },
           {
-            "number": 174,
-            "title": "MS-C · Extraer hub-authz (roles/permisos/acciones + catálogo de apps)",
+            "number": 205,
+            "title": "CRM-06 · Consumo por apps consumidoras (alcance por app, read-only)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/174",
-            "updatedAt": "2026-08-06T15:07:37Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/205",
+            "updatedAt": "2026-08-11T20:10:52Z"
           },
           {
-            "number": 173,
-            "title": "MS-B · Extraer hub-licensing (licencias/planes/addons/paquetes/contratos/flags)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/173",
-            "updatedAt": "2026-08-08T16:34:59Z"
+            "number": 203,
+            "title": "CRM-04 · Vista 360 mínima de la persona (read-only, privacidad by design)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/203",
+            "updatedAt": "2026-08-11T20:10:51Z"
           },
           {
-            "number": 172,
-            "title": "MS-A · Fundaciones: BFF como router + librerías transversales + contratos S2S",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/172",
-            "updatedAt": "2026-08-07T00:07:29Z"
+            "number": 204,
+            "title": "CRM-05 · 'Apps usadas' por la persona (proyección básica en el CRM)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/204",
+            "updatedAt": "2026-08-11T20:10:51Z"
+          },
+          {
+            "number": 202,
+            "title": "CRM-03 · Lectura de visitantes por organización + consentimiento (fail-closed)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/202",
+            "updatedAt": "2026-08-11T20:10:50Z"
           }
         ],
         "truncated": false
@@ -899,16 +906,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-11T19:58:48Z",
+      "lastActivityAt": "2026-08-11T20:24:40Z",
       "progress": {
-        "percent": 50,
-        "label": "M4 · Hub Console: personas, usuarios y roles: 2/4"
+        "percent": 14,
+        "label": "M6 · Hub Console: cierre R1-front: 1/7"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 2,
-          "total": 4
+          "closed": 1,
+          "total": 7
         },
         {
           "label": "Épicas",
@@ -917,43 +924,64 @@
         },
         {
           "label": "Global",
-          "closed": 37,
-          "total": 61
+          "closed": 39,
+          "total": 62
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "M4 · Hub Console: personas, usuarios y roles",
-        "totalIssues": 4,
-        "closedIssues": 2,
+        "label": "M6 · Hub Console: cierre R1-front",
+        "totalIssues": 7,
+        "closedIssues": 1,
         "issues": [
           {
-            "number": 108,
-            "title": "CONV-03 · Portar Sedes y Territorios a develop (FSD/i18n)",
+            "number": 114,
+            "title": "Planes y Licencias dan 404: la consola pide a hub-api endpoints inexistentes",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/108",
-            "updatedAt": "2026-08-11T16:31:43Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/114",
+            "updatedAt": "2026-08-11T19:09:55Z"
           },
           {
-            "number": 25,
-            "title": "EPIC · Personas, usuarios y roles (fase H3)",
+            "number": 27,
+            "title": "EPIC · Cierre R1-front: flags, API keys, sesiones y plantilla (fase H5)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/25",
-            "updatedAt": "2026-08-11T15:26:34Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/27",
+            "updatedAt": "2026-08-11T15:26:35Z"
           },
           {
-            "number": 107,
-            "title": "CONV-02 · Portar Roles + Sincronizar permisos a develop (FSD/i18n)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/107",
-            "updatedAt": "2026-08-11T19:58:50Z"
+            "number": 113,
+            "title": "CONV-08 · Capítulo-plantilla doc-21 (hub-console de referencia)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/113",
+            "updatedAt": "2026-08-11T15:26:04Z"
           },
           {
-            "number": 106,
-            "title": "CONV-01 · Portar Usuarios a develop (FSD/i18n)",
+            "number": 112,
+            "title": "CONV-07 · Gestión de sesiones activas (nuevo)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/112",
+            "updatedAt": "2026-08-11T15:26:03Z"
+          },
+          {
+            "number": 111,
+            "title": "CONV-06 · API keys, Identity providers y Equipos (nuevo)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/111",
+            "updatedAt": "2026-08-11T15:26:02Z"
+          },
+          {
+            "number": 110,
+            "title": "CONV-05 · Feature-flags con killswitch (nuevo, doc 12)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/110",
+            "updatedAt": "2026-08-11T15:26:01Z"
+          },
+          {
+            "number": 109,
+            "title": "CONV-04 · Portar Aplicaciones y Licencias a develop (paridad)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/106",
-            "updatedAt": "2026-08-11T19:48:37Z"
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/109",
+            "updatedAt": "2026-08-11T20:24:42Z"
           }
         ],
         "truncated": false
