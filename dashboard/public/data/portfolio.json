@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T21:00:37.569Z",
+  "generatedAt": "2026-08-11T21:30:37.489Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -808,20 +808,20 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-11T20:58:21Z",
+      "lastActivityAt": "2026-08-11T21:28:03Z",
       "progress": {
-        "percent": 13,
-        "label": "CRM del Hub · Personas/visitantes: 1/8"
+        "percent": 25,
+        "label": "CRM del Hub · Personas/visitantes: 2/8"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 1,
+          "closed": 2,
           "total": 8
         },
         {
           "label": "Global",
-          "closed": 123,
+          "closed": 124,
           "total": 148
         }
       ],
@@ -829,7 +829,7 @@
       "issueBreakdown": {
         "label": "CRM del Hub · Personas/visitantes",
         "totalIssues": 8,
-        "closedIssues": 1,
+        "closedIssues": 2,
         "issues": [
           {
             "number": 199,
@@ -837,13 +837,6 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/199",
             "updatedAt": "2026-08-11T20:29:22Z"
-          },
-          {
-            "number": 201,
-            "title": "CRM-02 · Front door en hub-bff + S2S (contrato público)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/201",
-            "updatedAt": "2026-08-11T20:29:21Z"
           },
           {
             "number": 206,
@@ -879,6 +872,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/202",
             "updatedAt": "2026-08-11T20:10:50Z"
+          },
+          {
+            "number": 201,
+            "title": "CRM-02 · Front door en hub-bff + S2S (contrato público)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/201",
+            "updatedAt": "2026-08-11T21:27:42Z"
           },
           {
             "number": 200,
