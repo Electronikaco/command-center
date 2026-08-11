@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T19:00:47.807Z",
+  "generatedAt": "2026-08-11T19:30:36.714Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -895,20 +895,20 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-11T13:01:29Z",
+      "lastActivityAt": "2026-08-11T19:29:51Z",
       "progress": {
         "percent": 0,
-        "label": "M6 · Hub Console: cierre R1-front: 0/6"
+        "label": "M6 · Hub Console: cierre R1-front: 0/7"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
           "closed": 0,
-          "total": 6
+          "total": 7
         },
         {
           "label": "Épicas",
@@ -918,13 +918,13 @@
         {
           "label": "Global",
           "closed": 35,
-          "total": 60
+          "total": 61
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "M6 · Hub Console: cierre R1-front",
-        "totalIssues": 6,
+        "totalIssues": 7,
         "closedIssues": 0,
         "issues": [
           {
@@ -932,7 +932,14 @@
             "title": "CONV-04 · Portar Aplicaciones y Licencias a develop (paridad)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-frontend/issues/109",
-            "updatedAt": "2026-08-11T16:31:45Z"
+            "updatedAt": "2026-08-11T19:10:12Z"
+          },
+          {
+            "number": 114,
+            "title": "Planes y Licencias dan 404: la consola pide a hub-api endpoints inexistentes",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-frontend/issues/114",
+            "updatedAt": "2026-08-11T19:09:55Z"
           },
           {
             "number": 27,
@@ -982,6 +989,6 @@
     "healthy": 5,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 0
+    "totalOpenPrs": 1
   }
 }
