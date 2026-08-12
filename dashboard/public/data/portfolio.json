@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T01:30:33.412Z",
+  "generatedAt": "2026-08-12T02:00:36.558Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,17 +11,17 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 16,
+      "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-07T00:51:58Z",
+      "lastActivityAt": "2026-08-12T01:48:21Z",
       "progress": {
-        "percent": 40,
-        "label": "S14 · Consentimientos y contrato (EPIC-U): 4/10"
+        "percent": 50,
+        "label": "S14 · Consentimientos y contrato (EPIC-U): 5/10"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 4,
+          "closed": 5,
           "total": 10
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 164,
+          "closed": 165,
           "total": 200
         }
       ],
@@ -39,15 +39,8 @@
       "issueBreakdown": {
         "label": "S14 · Consentimientos y contrato (EPIC-U)",
         "totalIssues": 10,
-        "closedIssues": 4,
+        "closedIssues": 5,
         "issues": [
-          {
-            "number": 475,
-            "title": "UC-DM-U-06 · Contrato de peritaje (Formato 7): consecutivo automático + catálogo de tipo de servicio que enruta el/los Formato(s) de informe 1-4",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/475",
-            "updatedAt": "2026-08-11T23:14:31Z"
-          },
           {
             "number": 437,
             "title": "[EPIC-U] Consentimientos y contrato",
@@ -82,6 +75,13 @@
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/472",
             "updatedAt": "2026-08-04T21:54:25Z"
+          },
+          {
+            "number": 475,
+            "title": "UC-DM-U-06 · Contrato de peritaje (Formato 7): consecutivo automático + catálogo de tipo de servicio que enruta el/los Formato(s) de informe 1-4",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/475",
+            "updatedAt": "2026-08-12T01:48:35Z"
           },
           {
             "number": 474,
