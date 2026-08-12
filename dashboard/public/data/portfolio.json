@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T20:00:36.889Z",
+  "generatedAt": "2026-08-12T20:30:32.884Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -117,18 +117,18 @@
         "closedIssues": 86,
         "issues": [
           {
+            "number": 317,
+            "title": "TH-04 · Sync inicial (bootstrap de las copias read-only)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/317",
+            "updatedAt": "2026-08-12T20:26:02Z"
+          },
+          {
             "number": 318,
             "title": "TH-05 · Desplegar consumidores a la Turno en ejecución + activar gates",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/318",
             "updatedAt": "2026-08-11T20:46:05Z"
-          },
-          {
-            "number": 317,
-            "title": "TH-04 · Sync inicial (bootstrap de las copias read-only)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/317",
-            "updatedAt": "2026-08-11T20:46:04Z"
           },
           {
             "number": 313,
