@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T21:00:37.581Z",
+  "generatedAt": "2026-08-12T21:30:38.620Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -88,16 +88,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 16,
-      "lastActivityAt": "2026-08-12T20:59:57Z",
+      "lastActivityAt": "2026-08-12T21:17:17Z",
       "progress": {
         "percent": 90,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 88/98"
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 89/99"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 88,
-          "total": 98
+          "closed": 89,
+          "total": 99
         },
         {
           "label": "Épicas",
@@ -106,29 +106,29 @@
         },
         {
           "label": "Global",
-          "closed": 162,
-          "total": 174
+          "closed": 163,
+          "total": 175
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
-        "totalIssues": 98,
-        "closedIssues": 88,
+        "totalIssues": 99,
+        "closedIssues": 89,
         "issues": [
+          {
+            "number": 326,
+            "title": "INT-04 · seguimiento: cablear rolePip degraded en runtime + e2e del borde",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/326",
+            "updatedAt": "2026-08-12T21:17:20Z"
+          },
           {
             "number": 318,
             "title": "TH-05 · Desplegar consumidores a la Turno en ejecución + activar gates",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/318",
             "updatedAt": "2026-08-12T20:47:02Z"
-          },
-          {
-            "number": 323,
-            "title": "INT-04 · Modo degradado con Hub caído (criterio de salida R1)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/323",
-            "updatedAt": "2026-08-12T20:42:33Z"
           },
           {
             "number": 313,
@@ -185,6 +185,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/151",
             "updatedAt": "2026-07-30T22:08:28Z"
+          },
+          {
+            "number": 323,
+            "title": "INT-04 · Modo degradado con Hub caído (criterio de salida R1)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/323",
+            "updatedAt": "2026-08-12T21:17:19Z"
           },
           {
             "number": 322,
@@ -458,13 +465,6 @@
             "state": "CLOSED",
             "url": "https://github.com/Electronikaco/civok-back/issues/252",
             "updatedAt": "2026-08-04T22:45:17Z"
-          },
-          {
-            "number": 251,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-attention (rollout #177)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/251",
-            "updatedAt": "2026-08-04T22:42:40Z"
           }
         ],
         "truncated": true
@@ -483,7 +483,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 46,
-      "commits7d": 2,
+      "commits7d": 1,
       "commits30d": 30,
       "lastActivityAt": "2026-08-05T22:23:19Z",
       "progress": {
@@ -858,9 +858,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 3,
+      "commits7d": 4,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-12T20:49:23Z",
+      "lastActivityAt": "2026-08-12T21:28:27Z",
       "progress": {
         "percent": 14,
         "label": "M6 · Hub Console: cierre R1-front: 1/7"
@@ -893,7 +893,7 @@
             "title": "Planes y Licencias dan 404: la consola pide a hub-api endpoints inexistentes",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-frontend/issues/114",
-            "updatedAt": "2026-08-12T19:49:23Z"
+            "updatedAt": "2026-08-12T21:28:58Z"
           },
           {
             "number": 27,
