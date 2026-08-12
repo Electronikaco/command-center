@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T14:30:41.412Z",
+  "generatedAt": "2026-08-12T15:00:46.474Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,17 +11,17 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 16,
+      "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-12T01:48:21Z",
+      "lastActivityAt": "2026-08-12T14:57:05Z",
       "progress": {
-        "percent": 50,
-        "label": "S14 · Consentimientos y contrato (EPIC-U): 5/10"
+        "percent": 70,
+        "label": "S14 · Consentimientos y contrato (EPIC-U): 7/10"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 5,
+          "closed": 7,
           "total": 10
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 165,
+          "closed": 167,
           "total": 200
         }
       ],
@@ -39,7 +39,7 @@
       "issueBreakdown": {
         "label": "S14 · Consentimientos y contrato (EPIC-U)",
         "totalIssues": 10,
-        "closedIssues": 5,
+        "closedIssues": 7,
         "issues": [
           {
             "number": 437,
@@ -56,25 +56,25 @@
             "updatedAt": "2026-08-04T21:54:34Z"
           },
           {
-            "number": 477,
-            "title": "UC-DM-U-08 · Anexos vinculados del contrato (cronograma generado por el sistema + consentimientos por referencia)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/477",
-            "updatedAt": "2026-08-04T21:54:33Z"
-          },
-          {
-            "number": 476,
-            "title": "UC-DM-U-07 · Cronograma de cuotas + equivalencia en SMLMV (cálculo, congelamiento y pérdida de congelamiento por mora)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/476",
-            "updatedAt": "2026-08-04T21:54:31Z"
-          },
-          {
             "number": 472,
             "title": "UC-DM-U-03 · Casilla de grabación → anexo de grabaciones condicional del Formato 1",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/472",
             "updatedAt": "2026-08-04T21:54:25Z"
+          },
+          {
+            "number": 477,
+            "title": "UC-DM-U-08 · Anexos vinculados del contrato (cronograma generado por el sistema + consentimientos por referencia)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/477",
+            "updatedAt": "2026-08-12T14:57:32Z"
+          },
+          {
+            "number": 476,
+            "title": "UC-DM-U-07 · Cronograma de cuotas + equivalencia en SMLMV (cálculo, congelamiento y pérdida de congelamiento por mora)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/476",
+            "updatedAt": "2026-08-12T14:57:29Z"
           },
           {
             "number": 475,
