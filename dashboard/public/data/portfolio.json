@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T17:00:41.354Z",
+  "generatedAt": "2026-08-12T17:30:36.815Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -525,7 +525,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 46,
-      "commits7d": 3,
+      "commits7d": 2,
       "commits30d": 30,
       "lastActivityAt": "2026-08-05T22:23:19Z",
       "progress": {
@@ -778,17 +778,15 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 14,
-      "commits7d": 0,
+      "commits7d": 1,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-12T16:59:36Z",
+      "lastActivityAt": "2026-08-12T17:10:39Z",
       "progress": {
         "percent": null,
-        "label": "0 commits / 7d (develop)"
+        "label": "1 commits / 7d (develop)"
       },
       "progressMeters": [],
-      "highlights": [
-        "Sin commits en los últimos 7 días"
-      ],
+      "highlights": [],
       "issueBreakdown": null,
       "links": {
         "github": "https://github.com/electronikatm/civok-agentik"
