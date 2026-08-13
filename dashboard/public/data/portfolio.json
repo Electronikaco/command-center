@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T14:30:39.126Z",
+  "generatedAt": "2026-08-13T15:00:44.121Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -95,15 +95,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-08-12T21:17:17Z",
+      "lastActivityAt": "2026-08-13T14:41:00Z",
       "progress": {
-        "percent": 90,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 89/99"
+        "percent": 91,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 90/99"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 89,
+          "closed": 90,
           "total": 99
         },
         {
@@ -113,7 +113,7 @@
         },
         {
           "label": "Global",
-          "closed": 163,
+          "closed": 164,
           "total": 175
         }
       ],
@@ -121,15 +121,8 @@
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
         "totalIssues": 99,
-        "closedIssues": 89,
+        "closedIssues": 90,
         "issues": [
-          {
-            "number": 326,
-            "title": "INT-04 · seguimiento: cablear rolePip degraded en runtime + e2e del borde",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/326",
-            "updatedAt": "2026-08-13T13:54:26Z"
-          },
           {
             "number": 318,
             "title": "TH-05 · Desplegar consumidores a la Turno en ejecución + activar gates",
@@ -192,6 +185,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/151",
             "updatedAt": "2026-07-30T22:08:28Z"
+          },
+          {
+            "number": 326,
+            "title": "INT-04 · seguimiento: cablear rolePip degraded en runtime + e2e del borde",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/326",
+            "updatedAt": "2026-08-13T14:41:13Z"
           },
           {
             "number": 323,
@@ -783,7 +783,7 @@
         {
           "label": "Global",
           "closed": 125,
-          "total": 148
+          "total": 149
         }
       ],
       "highlights": [],
