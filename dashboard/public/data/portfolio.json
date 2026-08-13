@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T20:30:38.339Z",
+  "generatedAt": "2026-08-13T21:00:43.239Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 169,
+          "closed": 168,
           "total": 200
         }
       ],
@@ -488,20 +488,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 2,
-      "mergedPrs30d": 45,
-      "commits7d": 3,
+      "openPrs": 0,
+      "mergedPrs30d": 48,
+      "commits7d": 6,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T20:11:12Z",
+      "lastActivityAt": "2026-08-13T20:52:49Z",
       "progress": {
-        "percent": 31,
-        "label": "17/54 issues"
+        "percent": 36,
+        "label": "20/56 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 17,
-          "total": 54
+          "closed": 20,
+          "total": 56
         },
         {
           "label": "Épicas",
@@ -512,22 +512,43 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 54,
-        "closedIssues": 17,
+        "totalIssues": 56,
+        "closedIssues": 20,
         "issues": [
           {
-            "number": 85,
-            "title": "EPIC-15-05 · assertTenantOwnership en conversations, messages y stream",
+            "number": 86,
+            "title": "EPIC-15-06 · assertTenantOwnership en contacts y whatsappIntegrations",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/85",
-            "updatedAt": "2026-08-13T20:12:33Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/86",
+            "updatedAt": "2026-08-13T20:53:50Z"
           },
           {
-            "number": 82,
-            "title": "EPIC-15-02 · Conectar rbac.middleware a gestion de usuarios y roles de tenant",
+            "number": 83,
+            "title": "EPIC-15-03 · requireSuperAdmin en system-admins y cerrar el bootstrap reactivable",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/82",
-            "updatedAt": "2026-08-13T20:12:01Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/83",
+            "updatedAt": "2026-08-13T20:53:47Z"
+          },
+          {
+            "number": 78,
+            "title": "[EPIC] Cerrar la superficie de aislamiento multi-tenant y autorizacion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/78",
+            "updatedAt": "2026-08-13T20:53:04Z"
+          },
+          {
+            "number": 106,
+            "title": "IDOR: el estado de un job de audio se consulta sin comprobar el tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/106",
+            "updatedAt": "2026-08-13T20:47:08Z"
+          },
+          {
+            "number": 105,
+            "title": "CRITICO: el catalogo global de planes y precios es escribible por cualquier usuario autenticado",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/105",
+            "updatedAt": "2026-08-13T20:47:06Z"
           },
           {
             "number": 103,
@@ -565,25 +586,11 @@
             "updatedAt": "2026-08-13T19:48:33Z"
           },
           {
-            "number": 81,
-            "title": "EPIC-15-01 · Autenticacion y rol en gestion de tenants de auth (rutas hoy publicas)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/81",
-            "updatedAt": "2026-08-13T18:10:56Z"
-          },
-          {
             "number": 88,
             "title": "EPIC-15-08 · JWT en Socket.IO y validar pertenencia de la conversacion al unir room",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/88",
             "updatedAt": "2026-08-13T17:56:09Z"
-          },
-          {
-            "number": 83,
-            "title": "EPIC-15-03 · requireSuperAdmin en system-admins y cerrar el bootstrap reactivable",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/83",
-            "updatedAt": "2026-08-13T17:56:08Z"
           },
           {
             "number": 80,
@@ -600,25 +607,11 @@
             "updatedAt": "2026-08-13T17:00:04Z"
           },
           {
-            "number": 78,
-            "title": "[EPIC] Cerrar la superficie de aislamiento multi-tenant y autorizacion",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/78",
-            "updatedAt": "2026-08-13T17:00:01Z"
-          },
-          {
             "number": 89,
             "title": "EPIC-15-09 · Test de contrato: ningun router de tenant sin assertTenantOwnership",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/89",
             "updatedAt": "2026-08-13T16:59:51Z"
-          },
-          {
-            "number": 86,
-            "title": "EPIC-15-06 · assertTenantOwnership en contacts y whatsappIntegrations",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/86",
-            "updatedAt": "2026-08-13T16:59:49Z"
           },
           {
             "number": 96,
@@ -775,6 +768,27 @@
             "updatedAt": "2026-07-09T20:03:49Z"
           },
           {
+            "number": 85,
+            "title": "EPIC-15-05 · assertTenantOwnership en conversations, messages y stream",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/85",
+            "updatedAt": "2026-08-13T20:53:04Z"
+          },
+          {
+            "number": 82,
+            "title": "EPIC-15-02 · Conectar rbac.middleware a gestion de usuarios y roles de tenant",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/82",
+            "updatedAt": "2026-08-13T20:39:01Z"
+          },
+          {
+            "number": 81,
+            "title": "EPIC-15-01 · Autenticacion y rol en gestion de tenants de auth (rutas hoy publicas)",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/81",
+            "updatedAt": "2026-08-13T20:38:59Z"
+          },
+          {
             "number": 71,
             "title": "Unificación de canales B: unificar user_hash de conversación (32 vs 40 chars)",
             "state": "CLOSED",
@@ -850,20 +864,6 @@
             "state": "CLOSED",
             "url": "https://github.com/ia-saas/miliia_back/issues/28",
             "updatedAt": "2026-07-21T17:53:39Z"
-          },
-          {
-            "number": 4,
-            "title": "[EPIC] Recibir y mostrar imagenes, documentos y plantillas en el chat",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/4",
-            "updatedAt": "2026-07-17T20:21:04Z"
-          },
-          {
-            "number": 22,
-            "title": "EPIC-06-04 · Filtros restantes GET /api/conversations (contact_source, paginacion)",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/22",
-            "updatedAt": "2026-07-16T15:25:51Z"
           }
         ],
         "truncated": true
@@ -1083,6 +1083,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 3
+    "totalOpenPrs": 1
   }
 }
