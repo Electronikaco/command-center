@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T20:00:41.636Z",
+  "generatedAt": "2026-08-13T20:30:38.339Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -42,6 +42,13 @@
         "closedIssues": 1,
         "issues": [
           {
+            "number": 483,
+            "title": "UC-DM-S16-02 · Checklist de examen mental por 11 funciones (fase intermedia, catálogo reutilizable)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/483",
+            "updatedAt": "2026-08-13T20:00:16Z"
+          },
+          {
             "number": 439,
             "title": "[EPIC-W] Metodología y procedimientos",
             "state": "OPEN",
@@ -61,13 +68,6 @@
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/484",
             "updatedAt": "2026-08-04T21:54:48Z"
-          },
-          {
-            "number": 483,
-            "title": "UC-DM-S16-02 · Checklist de examen mental por 11 funciones (fase intermedia, catálogo reutilizable)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/483",
-            "updatedAt": "2026-08-04T21:54:47Z"
           },
           {
             "number": 482,
@@ -488,11 +488,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 2,
       "mergedPrs30d": 45,
       "commits7d": 3,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T18:10:09Z",
+      "lastActivityAt": "2026-08-13T20:11:12Z",
       "progress": {
         "percent": 31,
         "label": "17/54 issues"
@@ -515,6 +515,20 @@
         "totalIssues": 54,
         "closedIssues": 17,
         "issues": [
+          {
+            "number": 85,
+            "title": "EPIC-15-05 · assertTenantOwnership en conversations, messages y stream",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/85",
+            "updatedAt": "2026-08-13T20:12:33Z"
+          },
+          {
+            "number": 82,
+            "title": "EPIC-15-02 · Conectar rbac.middleware a gestion de usuarios y roles de tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/82",
+            "updatedAt": "2026-08-13T20:12:01Z"
+          },
           {
             "number": 103,
             "title": "Declarar bearerAuth en securitySchemes del swagger de auth",
@@ -549,13 +563,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/99",
             "updatedAt": "2026-08-13T19:48:33Z"
-          },
-          {
-            "number": 82,
-            "title": "EPIC-15-02 · Conectar rbac.middleware a gestion de usuarios y roles de tenant",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/82",
-            "updatedAt": "2026-08-13T18:11:04Z"
           },
           {
             "number": 81,
@@ -668,13 +675,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/87",
             "updatedAt": "2026-08-13T16:59:23Z"
-          },
-          {
-            "number": 85,
-            "title": "EPIC-15-05 · assertTenantOwnership en conversations, messages y stream",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/85",
-            "updatedAt": "2026-08-13T16:59:19Z"
           },
           {
             "number": 84,
@@ -1083,6 +1083,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 3
   }
 }
