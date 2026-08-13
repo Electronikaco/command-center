@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T15:30:38.152Z",
+  "generatedAt": "2026-08-13T16:00:38.804Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -865,9 +865,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 4,
+      "commits7d": 5,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-12T21:28:27Z",
+      "lastActivityAt": "2026-08-13T15:54:52Z",
       "progress": {
         "percent": 60,
         "label": "M4 · Hub Console: personas, usuarios y roles: 3/5"
