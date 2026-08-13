@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T15:00:44.121Z",
+  "generatedAt": "2026-08-13T15:30:38.152Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 14,
+      "commits7d": 12,
       "commits30d": 30,
       "lastActivityAt": "2026-08-13T13:50:10Z",
       "progress": {
@@ -46,7 +46,7 @@
             "title": "Retiro de PsychTest (legado) tras la migración a AppliedTest (UC-DM-V-03)",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/524",
-            "updatedAt": "2026-08-13T13:50:37Z"
+            "updatedAt": "2026-08-13T15:10:51Z"
           },
           {
             "number": 438,
@@ -489,7 +489,7 @@
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 46,
+      "mergedPrs30d": 44,
       "commits7d": 0,
       "commits30d": 30,
       "lastActivityAt": "2026-08-05T22:23:19Z",
