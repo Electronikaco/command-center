@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T17:30:40.697Z",
+  "generatedAt": "2026-08-13T18:00:43.673Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 12,
+      "commits7d": 11,
       "commits30d": 30,
       "lastActivityAt": "2026-08-13T13:50:10Z",
       "progress": {
@@ -490,9 +490,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 44,
-      "commits7d": 2,
+      "commits7d": 3,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T17:00:38Z",
+      "lastActivityAt": "2026-08-13T17:55:42Z",
       "progress": {
         "percent": 35,
         "label": "17/49 issues"
@@ -515,6 +515,27 @@
         "totalIssues": 49,
         "closedIssues": 17,
         "issues": [
+          {
+            "number": 88,
+            "title": "EPIC-15-08 · JWT en Socket.IO y validar pertenencia de la conversacion al unir room",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/88",
+            "updatedAt": "2026-08-13T17:56:09Z"
+          },
+          {
+            "number": 83,
+            "title": "EPIC-15-03 · requireSuperAdmin en system-admins y cerrar el bootstrap reactivable",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/83",
+            "updatedAt": "2026-08-13T17:56:08Z"
+          },
+          {
+            "number": 81,
+            "title": "EPIC-15-01 · Autenticacion y rol en gestion de tenants de auth (rutas hoy publicas)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/81",
+            "updatedAt": "2026-08-13T17:51:49Z"
+          },
           {
             "number": 80,
             "title": "[EPIC] Durabilidad de mensajes: no perder inbound ni outbound en silencio",
@@ -600,13 +621,6 @@
             "updatedAt": "2026-08-13T16:59:27Z"
           },
           {
-            "number": 88,
-            "title": "EPIC-15-08 · JWT en Socket.IO y validar pertenencia de la conversacion al unir room",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/88",
-            "updatedAt": "2026-08-13T16:59:24Z"
-          },
-          {
             "number": 87,
             "title": "EPIC-15-07 · requireSystemAdmin en tenants de configuracion y en cronjobs globales",
             "state": "OPEN",
@@ -628,25 +642,11 @@
             "updatedAt": "2026-08-13T16:59:18Z"
           },
           {
-            "number": 83,
-            "title": "EPIC-15-03 · requireSuperAdmin en system-admins y cerrar el bootstrap reactivable",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/83",
-            "updatedAt": "2026-08-13T16:59:16Z"
-          },
-          {
             "number": 82,
             "title": "EPIC-15-02 · Conectar rbac.middleware a gestion de usuarios y roles de tenant",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/82",
             "updatedAt": "2026-08-13T16:59:14Z"
-          },
-          {
-            "number": 81,
-            "title": "EPIC-15-01 · Autenticacion y rol en gestion de tenants de auth (rutas hoy publicas)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/81",
-            "updatedAt": "2026-08-13T16:59:13Z"
           },
           {
             "number": 30,
