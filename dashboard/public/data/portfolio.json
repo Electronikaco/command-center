@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T23:00:41.865Z",
+  "generatedAt": "2026-08-13T23:30:34.767Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 11,
+      "commits7d": 9,
       "commits30d": 30,
       "lastActivityAt": "2026-08-13T22:25:42Z",
       "progress": {
@@ -490,18 +490,18 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 11,
+      "commits7d": 12,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T22:37:07Z",
+      "lastActivityAt": "2026-08-13T23:05:28Z",
       "progress": {
-        "percent": 40,
-        "label": "24/60 issues"
+        "percent": 38,
+        "label": "25/66 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 24,
-          "total": 60
+          "closed": 25,
+          "total": 66
         },
         {
           "label": "Épicas",
@@ -512,22 +512,64 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 60,
-        "closedIssues": 24,
+        "totalIssues": 66,
+        "closedIssues": 25,
         "issues": [
           {
-            "number": 84,
-            "title": "EPIC-15-04 · Cerrar IDOR cross-tenant en tenant-roles",
+            "number": 123,
+            "title": "assertTenantOwnership en el modulo de voz (6 rutas)",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/84",
-            "updatedAt": "2026-08-13T22:37:36Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/123",
+            "updatedAt": "2026-08-13T23:21:50Z"
+          },
+          {
+            "number": 122,
+            "title": "assertTenantOwnership en vectorStores, googleCalendar y onboarding (17 rutas)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/122",
+            "updatedAt": "2026-08-13T23:21:48Z"
+          },
+          {
+            "number": 121,
+            "title": "assertTenantOwnership en assistants (22 rutas)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/121",
+            "updatedAt": "2026-08-13T23:21:47Z"
+          },
+          {
+            "number": 89,
+            "title": "EPIC-15-09 · Test de contrato: ningun router de tenant sin assertTenantOwnership",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/89",
+            "updatedAt": "2026-08-13T23:05:56Z"
           },
           {
             "number": 78,
             "title": "[EPIC] Cerrar la superficie de aislamiento multi-tenant y autorizacion",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/78",
-            "updatedAt": "2026-08-13T22:37:21Z"
+            "updatedAt": "2026-08-13T23:05:42Z"
+          },
+          {
+            "number": 119,
+            "title": "El bootstrap de usuario de tenant es publico y crea el OWNER de cualquier tenant sin usuarios",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/119",
+            "updatedAt": "2026-08-13T23:03:13Z"
+          },
+          {
+            "number": 118,
+            "title": "Defensa en profundidad: TenantRoleService y su repositorio no filtran por tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/118",
+            "updatedAt": "2026-08-13T23:03:12Z"
+          },
+          {
+            "number": 117,
+            "title": "Un OWNER puede renombrar o borrar su propio rol OWNER y dejar el tenant sin gestion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/117",
+            "updatedAt": "2026-08-13T23:03:10Z"
           },
           {
             "number": 115,
@@ -619,13 +661,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/79",
             "updatedAt": "2026-08-13T17:00:04Z"
-          },
-          {
-            "number": 89,
-            "title": "EPIC-15-09 · Test de contrato: ningun router de tenant sin assertTenantOwnership",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/89",
-            "updatedAt": "2026-08-13T16:59:51Z"
           },
           {
             "number": 96,
@@ -768,6 +803,13 @@
             "updatedAt": "2026-07-09T20:03:49Z"
           },
           {
+            "number": 84,
+            "title": "EPIC-15-04 · Cerrar IDOR cross-tenant en tenant-roles",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/84",
+            "updatedAt": "2026-08-13T23:05:42Z"
+          },
+          {
             "number": 83,
             "title": "EPIC-15-03 · requireSuperAdmin en system-admins y cerrar el bootstrap reactivable",
             "state": "CLOSED",
@@ -822,48 +864,6 @@
             "state": "CLOSED",
             "url": "https://github.com/ia-saas/miliia_back/issues/71",
             "updatedAt": "2026-08-05T22:23:35Z"
-          },
-          {
-            "number": 72,
-            "title": "Unificación de canales C: Instagram/Messenger pierden mensajes — inbound sin cola durable",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/72",
-            "updatedAt": "2026-08-05T21:06:05Z"
-          },
-          {
-            "number": 70,
-            "title": "Unificación de canales A: tronco común de ingesta de webhooks (idempotencia + parseo normalizado)",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/70",
-            "updatedAt": "2026-08-05T17:13:32Z"
-          },
-          {
-            "number": 29,
-            "title": "Unificación WhatsApp↔DDD Nivel 2: Migración parcial (CredentialService + ContactResolution + OutboundPipeline)",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/29",
-            "updatedAt": "2026-08-05T16:07:02Z"
-          },
-          {
-            "number": 7,
-            "title": "[EPIC] Integracion con Facebook Messenger (paridad con Instagram)",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/7",
-            "updatedAt": "2026-07-30T14:47:58Z"
-          },
-          {
-            "number": 40,
-            "title": "chore(epic-07): documentar MEDIA_WORKER_ENABLED y activarlo por entorno (media inbound off silencioso)",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/40",
-            "updatedAt": "2026-07-22T16:52:22Z"
-          },
-          {
-            "number": 38,
-            "title": "fix(epic-07): visión IA no respeta el handoff humano (responde sobre imágenes durante turno de asesor)",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/38",
-            "updatedAt": "2026-07-22T16:51:52Z"
           }
         ],
         "truncated": true
