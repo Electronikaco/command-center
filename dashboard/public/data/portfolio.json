@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T22:00:43.456Z",
+  "generatedAt": "2026-08-13T22:30:36.500Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,15 +13,15 @@
       "mergedPrs30d": 50,
       "commits7d": 11,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T21:11:46Z",
+      "lastActivityAt": "2026-08-13T22:25:42Z",
       "progress": {
-        "percent": 20,
-        "label": "S16 · Metodología y procedimientos (EPIC-W): 1/5"
+        "percent": 40,
+        "label": "S16 · Metodología y procedimientos (EPIC-W): 2/5"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 1,
+          "closed": 2,
           "total": 5
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 168,
+          "closed": 169,
           "total": 200
         }
       ],
@@ -39,14 +39,14 @@
       "issueBreakdown": {
         "label": "S16 · Metodología y procedimientos (EPIC-W)",
         "totalIssues": 5,
-        "closedIssues": 1,
+        "closedIssues": 2,
         "issues": [
           {
-            "number": 483,
-            "title": "UC-DM-S16-02 · Checklist de examen mental por 11 funciones (fase intermedia, catálogo reutilizable)",
+            "number": 484,
+            "title": "UC-DM-S16-03 · Selección de metodología por tipo de encargo + checklist de fases verificable en el caso (integrado a `case-methodology`)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/483",
-            "updatedAt": "2026-08-13T20:00:16Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/484",
+            "updatedAt": "2026-08-13T22:26:49Z"
           },
           {
             "number": 439,
@@ -63,11 +63,11 @@
             "updatedAt": "2026-08-04T21:54:49Z"
           },
           {
-            "number": 484,
-            "title": "UC-DM-S16-03 · Selección de metodología por tipo de encargo + checklist de fases verificable en el caso (integrado a `case-methodology`)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/484",
-            "updatedAt": "2026-08-04T21:54:48Z"
+            "number": 483,
+            "title": "UC-DM-S16-02 · Checklist de examen mental por 11 funciones (fase intermedia, catálogo reutilizable)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/483",
+            "updatedAt": "2026-08-13T22:25:56Z"
           },
           {
             "number": 482,
@@ -516,6 +516,13 @@
         "closedIssues": 23,
         "issues": [
           {
+            "number": 83,
+            "title": "EPIC-15-03 · requireSuperAdmin en system-admins y cerrar el bootstrap reactivable",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/83",
+            "updatedAt": "2026-08-13T22:00:48Z"
+          },
+          {
             "number": 112,
             "title": "Fuga de lectura: cualquier autenticado enumera la cartera completa de tenants",
             "state": "OPEN",
@@ -528,13 +535,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/78",
             "updatedAt": "2026-08-13T21:53:19Z"
-          },
-          {
-            "number": 83,
-            "title": "EPIC-15-03 · requireSuperAdmin en system-admins y cerrar el bootstrap reactivable",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/83",
-            "updatedAt": "2026-08-13T21:16:05Z"
           },
           {
             "number": 106,
@@ -883,12 +883,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 14,
-      "commits7d": 4,
+      "commits7d": 5,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T21:38:23Z",
+      "lastActivityAt": "2026-08-13T22:19:21Z",
       "progress": {
         "percent": null,
-        "label": "4 commits / 7d (develop)"
+        "label": "5 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
