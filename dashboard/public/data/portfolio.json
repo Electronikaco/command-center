@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T22:30:36.500Z",
+  "generatedAt": "2026-08-13T23:00:41.865Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -490,18 +490,18 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 10,
+      "commits7d": 11,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T21:52:58Z",
+      "lastActivityAt": "2026-08-13T22:37:07Z",
       "progress": {
         "percent": 40,
-        "label": "23/57 issues"
+        "label": "24/60 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 23,
-          "total": 57
+          "closed": 24,
+          "total": 60
         },
         {
           "label": "Épicas",
@@ -512,15 +512,43 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 57,
-        "closedIssues": 23,
+        "totalIssues": 60,
+        "closedIssues": 24,
         "issues": [
           {
-            "number": 83,
-            "title": "EPIC-15-03 · requireSuperAdmin en system-admins y cerrar el bootstrap reactivable",
+            "number": 84,
+            "title": "EPIC-15-04 · Cerrar IDOR cross-tenant en tenant-roles",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/83",
-            "updatedAt": "2026-08-13T22:00:48Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/84",
+            "updatedAt": "2026-08-13T22:37:36Z"
+          },
+          {
+            "number": 78,
+            "title": "[EPIC] Cerrar la superficie de aislamiento multi-tenant y autorizacion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/78",
+            "updatedAt": "2026-08-13T22:37:21Z"
+          },
+          {
+            "number": 115,
+            "title": "Carrera entre la comprobacion y la creacion en el bootstrap de system admin",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/115",
+            "updatedAt": "2026-08-13T22:30:59Z"
+          },
+          {
+            "number": 114,
+            "title": "No hay via por API para promover un segundo super admin",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/114",
+            "updatedAt": "2026-08-13T22:30:58Z"
+          },
+          {
+            "number": 113,
+            "title": "URGENTE: la llave privada RS256 de firma de JWT esta versionada en git",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/113",
+            "updatedAt": "2026-08-13T22:30:56Z"
           },
           {
             "number": 112,
@@ -528,13 +556,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/112",
             "updatedAt": "2026-08-13T21:53:21Z"
-          },
-          {
-            "number": 78,
-            "title": "[EPIC] Cerrar la superficie de aislamiento multi-tenant y autorizacion",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/78",
-            "updatedAt": "2026-08-13T21:53:19Z"
           },
           {
             "number": 106,
@@ -656,13 +677,6 @@
             "updatedAt": "2026-08-13T16:59:27Z"
           },
           {
-            "number": 84,
-            "title": "EPIC-15-04 · Cerrar IDOR cross-tenant en tenant-roles",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/84",
-            "updatedAt": "2026-08-13T16:59:18Z"
-          },
-          {
             "number": 30,
             "title": "Unificación WhatsApp↔DDD Nivel 3: Migración completa (InboundMessagePipeline + eliminar legacy)",
             "state": "OPEN",
@@ -754,6 +768,13 @@
             "updatedAt": "2026-07-09T20:03:49Z"
           },
           {
+            "number": 83,
+            "title": "EPIC-15-03 · requireSuperAdmin en system-admins y cerrar el bootstrap reactivable",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/83",
+            "updatedAt": "2026-08-13T22:37:21Z"
+          },
+          {
             "number": 87,
             "title": "EPIC-15-07 · requireSystemAdmin en tenants de configuracion y en cronjobs globales",
             "state": "CLOSED",
@@ -843,27 +864,6 @@
             "state": "CLOSED",
             "url": "https://github.com/ia-saas/miliia_back/issues/38",
             "updatedAt": "2026-07-22T16:51:52Z"
-          },
-          {
-            "number": 34,
-            "title": "EPIC-08-01 (follow-up) · Media outbound Instagram end-to-end (pipeline + operador dashboard)",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/34",
-            "updatedAt": "2026-07-21T21:00:13Z"
-          },
-          {
-            "number": 33,
-            "title": "EPIC-08-03 (follow-up) · Read receipts Instagram: cablear mark_seen y corregir recipient (PSID)",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/33",
-            "updatedAt": "2026-07-21T20:59:57Z"
-          },
-          {
-            "number": 6,
-            "title": "[EPIC] Instagram: outbound media, AI auto-respuesta y typing indicators",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/6",
-            "updatedAt": "2026-07-21T20:59:38Z"
           }
         ],
         "truncated": true
@@ -883,12 +883,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 14,
-      "commits7d": 5,
+      "commits7d": 7,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T22:19:21Z",
+      "lastActivityAt": "2026-08-13T22:54:33Z",
       "progress": {
         "percent": null,
-        "label": "5 commits / 7d (develop)"
+        "label": "7 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
