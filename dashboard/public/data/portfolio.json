@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:30:35.625Z",
+  "generatedAt": "2026-08-13T20:00:41.636Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,17 +11,17 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 10,
+      "commits7d": 11,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T13:50:10Z",
+      "lastActivityAt": "2026-08-13T19:57:51Z",
       "progress": {
-        "percent": 40,
-        "label": "S15 · Módulo de pruebas (EPIC-V): 2/5"
+        "percent": 20,
+        "label": "S16 · Metodología y procedimientos (EPIC-W): 1/5"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 2,
+          "closed": 1,
           "total": 5
         },
         {
@@ -31,50 +31,50 @@
         },
         {
           "label": "Global",
-          "closed": 168,
+          "closed": 169,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "S15 · Módulo de pruebas (EPIC-V)",
+        "label": "S16 · Metodología y procedimientos (EPIC-W)",
         "totalIssues": 5,
-        "closedIssues": 2,
+        "closedIssues": 1,
         "issues": [
           {
-            "number": 524,
-            "title": "Retiro de PsychTest (legado) tras la migración a AppliedTest (UC-DM-V-03)",
+            "number": 439,
+            "title": "[EPIC-W] Metodología y procedimientos",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/524",
-            "updatedAt": "2026-08-13T15:10:51Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/439",
+            "updatedAt": "2026-08-04T21:56:13Z"
           },
           {
-            "number": 438,
-            "title": "[EPIC-V] Módulo de pruebas",
+            "number": 485,
+            "title": "UC-DM-S16-04 · Verificación de transcripción/grabación de la entrevista como paso del procedimiento (enlaza con `case-transcription`, EPIC-D, ya construido)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/438",
-            "updatedAt": "2026-08-04T21:56:12Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/485",
+            "updatedAt": "2026-08-04T21:54:49Z"
           },
           {
-            "number": 480,
-            "title": "UC-DM-V-02 · Catálogo/enum de categorías de pruebas (editable, con \"Otras\" libre)",
+            "number": 484,
+            "title": "UC-DM-S16-03 · Selección de metodología por tipo de encargo + checklist de fases verificable en el caso (integrado a `case-methodology`)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/480",
-            "updatedAt": "2026-08-04T21:54:41Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/484",
+            "updatedAt": "2026-08-04T21:54:48Z"
           },
           {
-            "number": 481,
-            "title": "UC-DM-V-03 · Aplicación de prueba en un caso: resultado + interpretación extensa + calificación manual + adjuntos con custodia",
+            "number": 483,
+            "title": "UC-DM-S16-02 · Checklist de examen mental por 11 funciones (fase intermedia, catálogo reutilizable)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/483",
+            "updatedAt": "2026-08-04T21:54:47Z"
+          },
+          {
+            "number": 482,
+            "title": "UC-DM-S16-01 · Catálogo de metodologías/procedimientos tipados (`MethodologyTemplate`, fases INMLCF + 13 pasos)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/481",
-            "updatedAt": "2026-08-13T13:50:23Z"
-          },
-          {
-            "number": 479,
-            "title": "UC-DM-V-01 · Catálogo maestro de instrumentos psicométricos (ficha técnica, compartido con EPIC-X)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/479",
-            "updatedAt": "2026-08-12T19:39:29Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/482",
+            "updatedAt": "2026-08-13T19:58:05Z"
           }
         ],
         "truncated": false
@@ -494,14 +494,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-08-13T18:10:09Z",
       "progress": {
-        "percent": 35,
-        "label": "17/49 issues"
+        "percent": 31,
+        "label": "17/54 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 17,
-          "total": 49
+          "total": 54
         },
         {
           "label": "Épicas",
@@ -512,9 +512,44 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 49,
+        "totalIssues": 54,
         "closedIssues": 17,
         "issues": [
+          {
+            "number": 103,
+            "title": "Declarar bearerAuth en securitySchemes del swagger de auth",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/103",
+            "updatedAt": "2026-08-13T19:48:38Z"
+          },
+          {
+            "number": 102,
+            "title": "resend-invitation devuelve el token de invitacion en el cuerpo de la respuesta",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/102",
+            "updatedAt": "2026-08-13T19:48:37Z"
+          },
+          {
+            "number": 101,
+            "title": "TOCTOU en hasSingleActiveOwner: dos degradaciones concurrentes pueden dejar un tenant sin OWNER",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/101",
+            "updatedAt": "2026-08-13T19:48:36Z"
+          },
+          {
+            "number": 100,
+            "title": "Cambio de email propio en tenant-users sin reverificacion del correo nuevo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/100",
+            "updatedAt": "2026-08-13T19:48:34Z"
+          },
+          {
+            "number": 99,
+            "title": "Trazabilidad: las operaciones privilegiadas de tenants (auth) no registran al actor real",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/99",
+            "updatedAt": "2026-08-13T19:48:33Z"
+          },
           {
             "number": 82,
             "title": "EPIC-15-02 · Conectar rbac.middleware a gestion de usuarios y roles de tenant",
@@ -829,37 +864,9 @@
             "state": "CLOSED",
             "url": "https://github.com/ia-saas/miliia_back/issues/22",
             "updatedAt": "2026-07-16T15:25:51Z"
-          },
-          {
-            "number": 21,
-            "title": "EPIC-06-03 · Filtros en GET /api/contacts (source, fechas, tags, interest_level, has_more)",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/21",
-            "updatedAt": "2026-07-16T15:25:51Z"
-          },
-          {
-            "number": 20,
-            "title": "EPIC-06-02 · Ampliar ENUM Conversation.channel + agregar contact_id a conversations",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/20",
-            "updatedAt": "2026-07-16T15:25:50Z"
-          },
-          {
-            "number": 19,
-            "title": "EPIC-06-01 · Ampliar ENUM Contact.source a 9 valores + mapeo provider->source",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/19",
-            "updatedAt": "2026-07-16T15:25:50Z"
-          },
-          {
-            "number": 3,
-            "title": "[EPIC] Estados de conversacion + sistema multi-agent con cola y escalacion",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/3",
-            "updatedAt": "2026-07-16T13:52:04Z"
           }
         ],
-        "truncated": false
+        "truncated": true
       },
       "links": {
         "github": "https://github.com/ia-saas/miliia_back",
