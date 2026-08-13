@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T18:00:43.673Z",
+  "generatedAt": "2026-08-13T18:30:35.396Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 11,
+      "commits7d": 10,
       "commits30d": 30,
       "lastActivityAt": "2026-08-13T13:50:10Z",
       "progress": {
@@ -488,11 +488,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 0,
-      "mergedPrs30d": 44,
+      "openPrs": 1,
+      "mergedPrs30d": 45,
       "commits7d": 3,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T17:55:42Z",
+      "lastActivityAt": "2026-08-13T18:10:09Z",
       "progress": {
         "percent": 35,
         "label": "17/49 issues"
@@ -516,6 +516,20 @@
         "closedIssues": 17,
         "issues": [
           {
+            "number": 82,
+            "title": "EPIC-15-02 · Conectar rbac.middleware a gestion de usuarios y roles de tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/82",
+            "updatedAt": "2026-08-13T18:11:04Z"
+          },
+          {
+            "number": 81,
+            "title": "EPIC-15-01 · Autenticacion y rol en gestion de tenants de auth (rutas hoy publicas)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/81",
+            "updatedAt": "2026-08-13T18:10:56Z"
+          },
+          {
             "number": 88,
             "title": "EPIC-15-08 · JWT en Socket.IO y validar pertenencia de la conversacion al unir room",
             "state": "OPEN",
@@ -528,13 +542,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/83",
             "updatedAt": "2026-08-13T17:56:08Z"
-          },
-          {
-            "number": 81,
-            "title": "EPIC-15-01 · Autenticacion y rol en gestion de tenants de auth (rutas hoy publicas)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/81",
-            "updatedAt": "2026-08-13T17:51:49Z"
           },
           {
             "number": 80,
@@ -640,13 +647,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/84",
             "updatedAt": "2026-08-13T16:59:18Z"
-          },
-          {
-            "number": 82,
-            "title": "EPIC-15-02 · Conectar rbac.middleware a gestion de usuarios y roles de tenant",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/82",
-            "updatedAt": "2026-08-13T16:59:14Z"
           },
           {
             "number": 30,
@@ -1076,6 +1076,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 1
+    "totalOpenPrs": 2
   }
 }
