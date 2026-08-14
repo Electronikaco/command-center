@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T19:30:37.608Z",
+  "generatedAt": "2026-08-14T20:00:48.816Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -46,7 +46,7 @@
             "title": "[E2E] Aislamiento multi-tenant vía UI (RLS)",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/530",
-            "updatedAt": "2026-08-14T15:23:24Z"
+            "updatedAt": "2026-08-14T19:38:47Z"
           },
           {
             "number": 535,
