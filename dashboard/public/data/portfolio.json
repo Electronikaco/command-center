@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T00:01:19.873Z",
+  "generatedAt": "2026-08-14T00:30:37.238Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 9,
+      "commits7d": 8,
       "commits30d": 30,
       "lastActivityAt": "2026-08-13T22:25:42Z",
       "progress": {
@@ -490,18 +490,18 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 12,
+      "commits7d": 13,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T23:05:28Z",
+      "lastActivityAt": "2026-08-14T00:05:39Z",
       "progress": {
-        "percent": 36,
-        "label": "25/69 issues"
+        "percent": 37,
+        "label": "26/70 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 25,
-          "total": 69
+          "closed": 26,
+          "total": 70
         },
         {
           "label": "Épicas",
@@ -512,9 +512,30 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 69,
-        "closedIssues": 25,
+        "totalIssues": 70,
+        "closedIssues": 26,
         "issues": [
+          {
+            "number": 128,
+            "title": "La firma de ePayco no cubre x_id_invoice: un webhook interceptado puede reapuntarse a otra factura",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/128",
+            "updatedAt": "2026-08-14T00:27:36Z"
+          },
+          {
+            "number": 90,
+            "title": "EPIC-16-01 · Validar x_amount contra el total de la factura antes de marcar PAID",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/90",
+            "updatedAt": "2026-08-14T00:06:26Z"
+          },
+          {
+            "number": 78,
+            "title": "[EPIC] Cerrar la superficie de aislamiento multi-tenant y autorizacion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/78",
+            "updatedAt": "2026-08-14T00:05:55Z"
+          },
           {
             "number": 126,
             "title": "Se loguea la firma del webhook de ePayco, contra la regla explicita de AGENTS.md",
@@ -563,20 +584,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/121",
             "updatedAt": "2026-08-13T23:21:47Z"
-          },
-          {
-            "number": 89,
-            "title": "EPIC-15-09 · Test de contrato: ningun router de tenant sin assertTenantOwnership",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/89",
-            "updatedAt": "2026-08-13T23:05:56Z"
-          },
-          {
-            "number": 78,
-            "title": "[EPIC] Cerrar la superficie de aislamiento multi-tenant y autorizacion",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/78",
-            "updatedAt": "2026-08-13T23:05:42Z"
           },
           {
             "number": 119,
@@ -726,13 +733,6 @@
             "updatedAt": "2026-08-13T16:59:28Z"
           },
           {
-            "number": 90,
-            "title": "EPIC-16-01 · Validar x_amount contra el total de la factura antes de marcar PAID",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/90",
-            "updatedAt": "2026-08-13T16:59:27Z"
-          },
-          {
             "number": 30,
             "title": "Unificación WhatsApp↔DDD Nivel 3: Migración completa (InboundMessagePipeline + eliminar legacy)",
             "state": "OPEN",
@@ -824,6 +824,13 @@
             "updatedAt": "2026-07-09T20:03:49Z"
           },
           {
+            "number": 89,
+            "title": "EPIC-15-09 · Test de contrato: ningun router de tenant sin assertTenantOwnership",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/89",
+            "updatedAt": "2026-08-14T00:05:55Z"
+          },
+          {
             "number": 84,
             "title": "EPIC-15-04 · Cerrar IDOR cross-tenant en tenant-roles",
             "state": "CLOSED",
@@ -857,13 +864,6 @@
             "state": "CLOSED",
             "url": "https://github.com/ia-saas/miliia_back/issues/86",
             "updatedAt": "2026-08-13T21:15:20Z"
-          },
-          {
-            "number": 85,
-            "title": "EPIC-15-05 · assertTenantOwnership en conversations, messages y stream",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/85",
-            "updatedAt": "2026-08-13T20:53:04Z"
           }
         ],
         "truncated": true
@@ -883,12 +883,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 14,
-      "commits7d": 7,
+      "commits7d": 8,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T22:54:33Z",
+      "lastActivityAt": "2026-08-14T00:15:44Z",
       "progress": {
         "percent": null,
-        "label": "7 commits / 7d (develop)"
+        "label": "8 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
