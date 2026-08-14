@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T18:00:43.890Z",
+  "generatedAt": "2026-08-14T18:30:36.615Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,9 +11,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 9,
+      "commits7d": 10,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-14T17:44:15Z",
+      "lastActivityAt": "2026-08-14T18:22:53Z",
       "progress": {
         "percent": 0,
         "label": "QA · Cobertura E2E (Playwright): 0/6"
@@ -1026,60 +1026,13 @@
           "total": 5
         },
         {
-          "label": "Épicas",
-          "closed": 2,
-          "total": 11
-        },
-        {
           "label": "Global",
           "closed": 39,
           "total": 63
         }
       ],
       "highlights": [],
-      "issueBreakdown": {
-        "label": "M4 · Hub Console: personas, usuarios y roles",
-        "totalIssues": 5,
-        "closedIssues": 3,
-        "issues": [
-          {
-            "number": 126,
-            "title": "M4-FE-01 · Completar UI Usuarios/Personas: filtro por app, alta con apps licenciadas, sidebar persona",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/126",
-            "updatedAt": "2026-08-13T13:55:32Z"
-          },
-          {
-            "number": 25,
-            "title": "EPIC · Personas, usuarios y roles (fase H3)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/25",
-            "updatedAt": "2026-08-11T15:26:34Z"
-          },
-          {
-            "number": 108,
-            "title": "CONV-03 · Portar Sedes y Territorios a develop (FSD/i18n)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/108",
-            "updatedAt": "2026-08-11T20:17:13Z"
-          },
-          {
-            "number": 107,
-            "title": "CONV-02 · Portar Roles + Sincronizar permisos a develop (FSD/i18n)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/107",
-            "updatedAt": "2026-08-11T19:58:50Z"
-          },
-          {
-            "number": 106,
-            "title": "CONV-01 · Portar Usuarios a develop (FSD/i18n)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-frontend/issues/106",
-            "updatedAt": "2026-08-11T19:48:37Z"
-          }
-        ],
-        "truncated": false
-      },
+      "issueBreakdown": null,
       "links": {
         "github": "https://github.com/Electronikaco/civok-frontend"
       }
