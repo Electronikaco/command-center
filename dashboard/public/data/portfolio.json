@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T00:30:37.238Z",
+  "generatedAt": "2026-08-14T01:00:42.791Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 8,
+      "commits7d": 6,
       "commits30d": 30,
       "lastActivityAt": "2026-08-13T22:25:42Z",
       "progress": {
@@ -490,18 +490,18 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 13,
+      "commits7d": 14,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-14T00:05:39Z",
+      "lastActivityAt": "2026-08-14T00:46:54Z",
       "progress": {
-        "percent": 37,
-        "label": "26/70 issues"
+        "percent": 38,
+        "label": "27/71 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 26,
-          "total": 70
+          "closed": 27,
+          "total": 71
         },
         {
           "label": "Épicas",
@@ -512,22 +512,36 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 70,
-        "closedIssues": 26,
+        "totalIssues": 71,
+        "closedIssues": 27,
         "issues": [
+          {
+            "number": 130,
+            "title": "Doble cobro de creditos al reintentar un job de mensaje o audio",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/130",
+            "updatedAt": "2026-08-14T01:00:16Z"
+          },
+          {
+            "number": 91,
+            "title": "EPIC-16-02 · Aplicar cuota y deduccion de creditos en la vision de imagenes de WhatsApp",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/91",
+            "updatedAt": "2026-08-14T00:47:34Z"
+          },
+          {
+            "number": 79,
+            "title": "[EPIC] Integridad de cobro y control de consumo de IA",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/79",
+            "updatedAt": "2026-08-14T00:47:10Z"
+          },
           {
             "number": 128,
             "title": "La firma de ePayco no cubre x_id_invoice: un webhook interceptado puede reapuntarse a otra factura",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/128",
             "updatedAt": "2026-08-14T00:27:36Z"
-          },
-          {
-            "number": 90,
-            "title": "EPIC-16-01 · Validar x_amount contra el total de la factura antes de marcar PAID",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/90",
-            "updatedAt": "2026-08-14T00:06:26Z"
           },
           {
             "number": 78,
@@ -684,13 +698,6 @@
             "updatedAt": "2026-08-13T17:00:05Z"
           },
           {
-            "number": 79,
-            "title": "[EPIC] Integridad de cobro y control de consumo de IA",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/79",
-            "updatedAt": "2026-08-13T17:00:04Z"
-          },
-          {
             "number": 96,
             "title": "EPIC-17-04 · Impedir que una cuenta de Instagram quede conectada a dos tenants",
             "state": "OPEN",
@@ -724,13 +731,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/92",
             "updatedAt": "2026-08-13T16:59:29Z"
-          },
-          {
-            "number": 91,
-            "title": "EPIC-16-02 · Aplicar cuota y deduccion de creditos en la vision de imagenes de WhatsApp",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/91",
-            "updatedAt": "2026-08-13T16:59:28Z"
           },
           {
             "number": 30,
@@ -824,6 +824,13 @@
             "updatedAt": "2026-07-09T20:03:49Z"
           },
           {
+            "number": 90,
+            "title": "EPIC-16-01 · Validar x_amount contra el total de la factura antes de marcar PAID",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/90",
+            "updatedAt": "2026-08-14T00:47:10Z"
+          },
+          {
             "number": 89,
             "title": "EPIC-15-09 · Test de contrato: ningun router de tenant sin assertTenantOwnership",
             "state": "CLOSED",
@@ -857,13 +864,6 @@
             "state": "CLOSED",
             "url": "https://github.com/ia-saas/miliia_back/issues/105",
             "updatedAt": "2026-08-13T21:53:19Z"
-          },
-          {
-            "number": 86,
-            "title": "EPIC-15-06 · assertTenantOwnership en contacts y whatsappIntegrations",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/86",
-            "updatedAt": "2026-08-13T21:15:20Z"
           }
         ],
         "truncated": true
@@ -883,12 +883,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 14,
-      "commits7d": 8,
+      "commits7d": 9,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-14T00:15:44Z",
+      "lastActivityAt": "2026-08-14T00:33:58Z",
       "progress": {
         "percent": null,
-        "label": "8 commits / 7d (develop)"
+        "label": "9 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
