@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T23:30:34.767Z",
+  "generatedAt": "2026-08-14T00:01:19.873Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -494,14 +494,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-08-13T23:05:28Z",
       "progress": {
-        "percent": 38,
-        "label": "25/66 issues"
+        "percent": 36,
+        "label": "25/69 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 25,
-          "total": 66
+          "total": 69
         },
         {
           "label": "Épicas",
@@ -512,9 +512,37 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 66,
+        "totalIssues": 69,
         "closedIssues": 25,
         "issues": [
+          {
+            "number": 126,
+            "title": "Se loguea la firma del webhook de ePayco, contra la regla explicita de AGENTS.md",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/126",
+            "updatedAt": "2026-08-13T23:56:20Z"
+          },
+          {
+            "number": 125,
+            "title": "/health expone internos de infraestructura sin autenticacion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/125",
+            "updatedAt": "2026-08-13T23:38:49Z"
+          },
+          {
+            "number": 88,
+            "title": "EPIC-15-08 · JWT en Socket.IO y validar pertenencia de la conversacion al unir room",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/88",
+            "updatedAt": "2026-08-13T23:38:48Z"
+          },
+          {
+            "number": 124,
+            "title": "El state de OAuth de Instagram y Messenger puede firmarse con una constante publica del repo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/124",
+            "updatedAt": "2026-08-13T23:38:27Z"
+          },
           {
             "number": 123,
             "title": "assertTenantOwnership en el modulo de voz (6 rutas)",
@@ -640,13 +668,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/99",
             "updatedAt": "2026-08-13T19:48:33Z"
-          },
-          {
-            "number": 88,
-            "title": "EPIC-15-08 · JWT en Socket.IO y validar pertenencia de la conversacion al unir room",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/88",
-            "updatedAt": "2026-08-13T17:56:09Z"
           },
           {
             "number": 80,
@@ -843,27 +864,6 @@
             "state": "CLOSED",
             "url": "https://github.com/ia-saas/miliia_back/issues/85",
             "updatedAt": "2026-08-13T20:53:04Z"
-          },
-          {
-            "number": 82,
-            "title": "EPIC-15-02 · Conectar rbac.middleware a gestion de usuarios y roles de tenant",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/82",
-            "updatedAt": "2026-08-13T20:39:01Z"
-          },
-          {
-            "number": 81,
-            "title": "EPIC-15-01 · Autenticacion y rol en gestion de tenants de auth (rutas hoy publicas)",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/81",
-            "updatedAt": "2026-08-13T20:38:59Z"
-          },
-          {
-            "number": 71,
-            "title": "Unificación de canales B: unificar user_hash de conversación (32 vs 40 chars)",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/71",
-            "updatedAt": "2026-08-05T22:23:35Z"
           }
         ],
         "truncated": true
