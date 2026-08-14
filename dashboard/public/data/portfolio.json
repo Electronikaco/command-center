@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T14:30:37.241Z",
+  "generatedAt": "2026-08-14T15:00:43.183Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 7,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-14T14:28:37Z",
+      "lastActivityAt": "2026-08-14T14:58:10Z",
       "progress": {
         "percent": 60,
         "label": "S16 · Metodología y procedimientos (EPIC-W): 3/5"
@@ -94,7 +94,7 @@
       "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 11,
+      "commits30d": 10,
       "lastActivityAt": "2026-08-13T14:41:00Z",
       "progress": {
         "percent": 91,
