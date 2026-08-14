@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T14:00:44.458Z",
+  "generatedAt": "2026-08-14T14:30:37.241Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,17 +11,17 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 6,
+      "commits7d": 7,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-13T22:25:42Z",
+      "lastActivityAt": "2026-08-14T14:28:37Z",
       "progress": {
-        "percent": 40,
-        "label": "S16 · Metodología y procedimientos (EPIC-W): 2/5"
+        "percent": 60,
+        "label": "S16 · Metodología y procedimientos (EPIC-W): 3/5"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 2,
+          "closed": 3,
           "total": 5
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 169,
+          "closed": 170,
           "total": 200
         }
       ],
@@ -39,14 +39,14 @@
       "issueBreakdown": {
         "label": "S16 · Metodología y procedimientos (EPIC-W)",
         "totalIssues": 5,
-        "closedIssues": 2,
+        "closedIssues": 3,
         "issues": [
           {
-            "number": 484,
-            "title": "UC-DM-S16-03 · Selección de metodología por tipo de encargo + checklist de fases verificable en el caso (integrado a `case-methodology`)",
+            "number": 485,
+            "title": "UC-DM-S16-04 · Verificación de transcripción/grabación de la entrevista como paso del procedimiento (enlaza con `case-transcription`, EPIC-D, ya construido)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/484",
-            "updatedAt": "2026-08-13T22:26:49Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/485",
+            "updatedAt": "2026-08-14T14:29:43Z"
           },
           {
             "number": 439,
@@ -56,11 +56,11 @@
             "updatedAt": "2026-08-04T21:56:13Z"
           },
           {
-            "number": 485,
-            "title": "UC-DM-S16-04 · Verificación de transcripción/grabación de la entrevista como paso del procedimiento (enlaza con `case-transcription`, EPIC-D, ya construido)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/485",
-            "updatedAt": "2026-08-04T21:54:49Z"
+            "number": 484,
+            "title": "UC-DM-S16-03 · Selección de metodología por tipo de encargo + checklist de fases verificable en el caso (integrado a `case-methodology`)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/484",
+            "updatedAt": "2026-08-14T14:28:51Z"
           },
           {
             "number": 483,
