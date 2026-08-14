@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T15:00:43.183Z",
+  "generatedAt": "2026-08-14T15:30:37.194Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,18 +11,18 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 7,
+      "commits7d": 8,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-14T14:58:10Z",
+      "lastActivityAt": "2026-08-14T15:10:09Z",
       "progress": {
-        "percent": 60,
-        "label": "S16 · Metodología y procedimientos (EPIC-W): 3/5"
+        "percent": 0,
+        "label": "QA · Cobertura E2E (Playwright): 0/6"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 3,
-          "total": 5
+          "closed": 0,
+          "total": 6
         },
         {
           "label": "Épicas",
@@ -31,50 +31,57 @@
         },
         {
           "label": "Global",
-          "closed": 170,
+          "closed": 162,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "S16 · Metodología y procedimientos (EPIC-W)",
-        "totalIssues": 5,
-        "closedIssues": 3,
+        "label": "QA · Cobertura E2E (Playwright)",
+        "totalIssues": 6,
+        "closedIssues": 0,
         "issues": [
           {
-            "number": 485,
-            "title": "UC-DM-S16-04 · Verificación de transcripción/grabación de la entrevista como paso del procedimiento (enlaza con `case-transcription`, EPIC-D, ya construido)",
+            "number": 530,
+            "title": "[E2E] Aislamiento multi-tenant vía UI (RLS)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/485",
-            "updatedAt": "2026-08-14T14:29:43Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/530",
+            "updatedAt": "2026-08-14T15:23:24Z"
           },
           {
-            "number": 439,
-            "title": "[EPIC-W] Metodología y procedimientos",
+            "number": 535,
+            "title": "[E2E] Estados human-in-the-loop persisten contra backend real",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/439",
-            "updatedAt": "2026-08-04T21:56:13Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/535",
+            "updatedAt": "2026-08-14T15:23:21Z"
           },
           {
-            "number": 484,
-            "title": "UC-DM-S16-03 · Selección de metodología por tipo de encargo + checklist de fases verificable en el caso (integrado a `case-methodology`)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/484",
-            "updatedAt": "2026-08-14T14:28:51Z"
+            "number": 534,
+            "title": "[E2E] Guards de ruta sin sesión",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/534",
+            "updatedAt": "2026-08-14T15:23:19Z"
           },
           {
-            "number": 483,
-            "title": "UC-DM-S16-02 · Checklist de examen mental por 11 funciones (fase intermedia, catálogo reutilizable)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/483",
-            "updatedAt": "2026-08-13T22:25:56Z"
+            "number": 533,
+            "title": "[E2E] Refresh token real ante 401",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/533",
+            "updatedAt": "2026-08-14T15:23:18Z"
           },
           {
-            "number": 482,
-            "title": "UC-DM-S16-01 · Catálogo de metodologías/procedimientos tipados (`MethodologyTemplate`, fases INMLCF + 13 pasos)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/482",
-            "updatedAt": "2026-08-13T19:58:05Z"
+            "number": 532,
+            "title": "[E2E] Flujo completo de un caso: creación + primer módulo del pipeline",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/532",
+            "updatedAt": "2026-08-14T15:23:16Z"
+          },
+          {
+            "number": 531,
+            "title": "[E2E] RBAC por rol vía UI",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/531",
+            "updatedAt": "2026-08-14T15:23:15Z"
           }
         ],
         "truncated": false
