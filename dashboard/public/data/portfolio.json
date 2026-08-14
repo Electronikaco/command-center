@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T01:00:42.791Z",
+  "generatedAt": "2026-08-14T01:30:34.111Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -490,18 +490,18 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 14,
+      "commits7d": 15,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-14T00:46:54Z",
+      "lastActivityAt": "2026-08-14T01:15:12Z",
       "progress": {
         "percent": 38,
-        "label": "27/71 issues"
+        "label": "28/73 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 27,
-          "total": 71
+          "closed": 28,
+          "total": 73
         },
         {
           "label": "Épicas",
@@ -512,29 +512,43 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 71,
-        "closedIssues": 27,
+        "totalIssues": 73,
+        "closedIssues": 28,
         "issues": [
           {
-            "number": 130,
-            "title": "Doble cobro de creditos al reintentar un job de mensaje o audio",
+            "number": 92,
+            "title": "EPIC-16-03 · Verificar propiedad de openai_vector_store_id al crear vector stores",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/130",
-            "updatedAt": "2026-08-14T01:00:16Z"
-          },
-          {
-            "number": 91,
-            "title": "EPIC-16-02 · Aplicar cuota y deduccion de creditos en la vision de imagenes de WhatsApp",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/91",
-            "updatedAt": "2026-08-14T00:47:34Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/92",
+            "updatedAt": "2026-08-14T01:15:33Z"
           },
           {
             "number": 79,
             "title": "[EPIC] Integridad de cobro y control de consumo de IA",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/79",
-            "updatedAt": "2026-08-14T00:47:10Z"
+            "updatedAt": "2026-08-14T01:15:27Z"
+          },
+          {
+            "number": 132,
+            "title": "Subcobro de dos ordenes de magnitud al estimar tokens de vision sin usage_metadata",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/132",
+            "updatedAt": "2026-08-14T01:08:24Z"
+          },
+          {
+            "number": 131,
+            "title": "El guard de cuota no mira el balance del wallet: con saldo 0 se sigue llamando a OpenAI",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/131",
+            "updatedAt": "2026-08-14T01:08:23Z"
+          },
+          {
+            "number": 130,
+            "title": "Doble cobro de creditos al reintentar un job de mensaje o audio",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/130",
+            "updatedAt": "2026-08-14T01:00:16Z"
           },
           {
             "number": 128,
@@ -726,13 +740,6 @@
             "updatedAt": "2026-08-13T16:59:31Z"
           },
           {
-            "number": 92,
-            "title": "EPIC-16-03 · Verificar propiedad de openai_vector_store_id al crear vector stores",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/92",
-            "updatedAt": "2026-08-13T16:59:29Z"
-          },
-          {
             "number": 30,
             "title": "Unificación WhatsApp↔DDD Nivel 3: Migración completa (InboundMessagePipeline + eliminar legacy)",
             "state": "OPEN",
@@ -824,6 +831,13 @@
             "updatedAt": "2026-07-09T20:03:49Z"
           },
           {
+            "number": 91,
+            "title": "EPIC-16-02 · Aplicar cuota y deduccion de creditos en la vision de imagenes de WhatsApp",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/91",
+            "updatedAt": "2026-08-14T01:15:27Z"
+          },
+          {
             "number": 90,
             "title": "EPIC-16-01 · Validar x_amount contra el total de la factura antes de marcar PAID",
             "state": "CLOSED",
@@ -850,20 +864,6 @@
             "state": "CLOSED",
             "url": "https://github.com/ia-saas/miliia_back/issues/83",
             "updatedAt": "2026-08-13T22:37:21Z"
-          },
-          {
-            "number": 87,
-            "title": "EPIC-15-07 · requireSystemAdmin en tenants de configuracion y en cronjobs globales",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/87",
-            "updatedAt": "2026-08-13T21:53:20Z"
-          },
-          {
-            "number": 105,
-            "title": "CRITICO: el catalogo global de planes y precios es escribible por cualquier usuario autenticado",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/105",
-            "updatedAt": "2026-08-13T21:53:19Z"
           }
         ],
         "truncated": true
