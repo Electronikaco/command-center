@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T17:00:37.447Z",
+  "generatedAt": "2026-08-15T17:30:32.449Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -151,33 +151,33 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 3,
-      "lastActivityAt": "2026-08-15T15:40:20Z",
+      "lastActivityAt": "2026-08-15T17:16:02Z",
       "progress": {
-        "percent": 91,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 90/99"
+        "percent": 92,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 92/100"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 90,
-          "total": 99
+          "closed": 92,
+          "total": 100
         },
         {
           "label": "Épicas",
-          "closed": 17,
+          "closed": 18,
           "total": 23
         },
         {
           "label": "Global",
-          "closed": 164,
+          "closed": 166,
           "total": 176
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
-        "totalIssues": 99,
-        "closedIssues": 90,
+        "totalIssues": 100,
+        "closedIssues": 92,
         "issues": [
           {
             "number": 318,
@@ -229,18 +229,25 @@
             "updatedAt": "2026-08-04T15:20:11Z"
           },
           {
-            "number": 205,
-            "title": "[EPIC] Integración runtime con Hub (INT-03 autorización, INT-04 modo degradado)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/205",
-            "updatedAt": "2026-08-04T15:18:40Z"
-          },
-          {
             "number": 151,
             "title": "[EPIC] Convergencia · Sincronización / Eventos / Identificadores / Envelope / Retención",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/151",
             "updatedAt": "2026-07-30T22:08:28Z"
+          },
+          {
+            "number": 328,
+            "title": "marca: “Cívok” → “Civok” sin tilde en fuente de civok-back (+ arreglar guard CI)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/328",
+            "updatedAt": "2026-08-15T17:16:02Z"
+          },
+          {
+            "number": 205,
+            "title": "[EPIC] Integración runtime con Hub (INT-03 autorización, INT-04 modo degradado)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/205",
+            "updatedAt": "2026-08-15T17:05:27Z"
           },
           {
             "number": 326,
@@ -521,13 +528,6 @@
             "state": "CLOSED",
             "url": "https://github.com/Electronikaco/civok-back/issues/253",
             "updatedAt": "2026-08-04T22:48:02Z"
-          },
-          {
-            "number": 252,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-devices (rollout #177)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/252",
-            "updatedAt": "2026-08-04T22:45:17Z"
           }
         ],
         "truncated": true
@@ -965,20 +965,20 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-15T16:51:20Z",
+      "lastActivityAt": "2026-08-15T17:20:46Z",
       "progress": {
-        "percent": 50,
-        "label": "R2 · BFF del Hub (front door): 2/4"
+        "percent": 75,
+        "label": "R2 · BFF del Hub (front door): 3/4"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 2,
+          "closed": 3,
           "total": 4
         },
         {
           "label": "Global",
-          "closed": 125,
+          "closed": 129,
           "total": 150
         }
       ],
@@ -986,21 +986,21 @@
       "issueBreakdown": {
         "label": "R2 · BFF del Hub (front door)",
         "totalIssues": 4,
-        "closedIssues": 2,
+        "closedIssues": 3,
         "issues": [
-          {
-            "number": 216,
-            "title": "hub-bff (API Gateway): rate-limiting + CORS por origen + S2S a cada service-*",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/216",
-            "updatedAt": "2026-08-15T16:59:02Z"
-          },
           {
             "number": 163,
             "title": "[EPIC] Hub → estándar BFF + microservicios (front door único)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/163",
             "updatedAt": "2026-08-15T16:50:36Z"
+          },
+          {
+            "number": 216,
+            "title": "hub-bff (API Gateway): rate-limiting + CORS por origen + S2S a cada service-*",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/216",
+            "updatedAt": "2026-08-15T17:20:47Z"
           },
           {
             "number": 165,
