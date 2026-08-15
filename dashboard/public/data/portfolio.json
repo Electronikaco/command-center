@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T14:00:38.382Z",
+  "generatedAt": "2026-08-15T14:30:32.451Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -170,7 +170,7 @@
         {
           "label": "Global",
           "closed": 164,
-          "total": 175
+          "total": 176
         }
       ],
       "highlights": [],
@@ -1061,9 +1061,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 5,
+      "commits7d": 6,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-15T13:35:43Z",
+      "lastActivityAt": "2026-08-15T14:23:26Z",
       "progress": {
         "percent": 43,
         "label": "M6 · Hub Console: cierre R1-front: 3/7"
