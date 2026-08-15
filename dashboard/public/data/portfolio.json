@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T15:30:31.784Z",
+  "generatedAt": "2026-08-15T16:00:42.029Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -150,8 +150,8 @@
       "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 5,
-      "lastActivityAt": "2026-08-13T14:41:00Z",
+      "commits30d": 4,
+      "lastActivityAt": "2026-08-15T15:40:20Z",
       "progress": {
         "percent": 91,
         "label": "Fase 7 · Turno consumidor de Cívok Hub: 90/99"
@@ -965,7 +965,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-11T21:28:03Z",
+      "lastActivityAt": "2026-08-15T15:39:45Z",
       "progress": {
         "percent": 25,
         "label": "CRM del Hub · Personas/visitantes: 2/8"
@@ -1061,9 +1061,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 6,
+      "commits7d": 7,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-15T15:22:24Z",
+      "lastActivityAt": "2026-08-15T15:40:44Z",
       "progress": {
         "percent": 80,
         "label": "M4 · Hub Console: personas, usuarios y roles: 4/5"
@@ -1076,8 +1076,8 @@
         },
         {
           "label": "Global",
-          "closed": 44,
-          "total": 65
+          "closed": 45,
+          "total": 66
         }
       ],
       "highlights": [],
