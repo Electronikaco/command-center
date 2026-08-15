@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T14:30:32.451Z",
+  "generatedAt": "2026-08-15T15:00:38.247Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -1059,25 +1059,25 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 6,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-15T14:23:26Z",
+      "lastActivityAt": "2026-08-15T14:58:20Z",
       "progress": {
-        "percent": 43,
-        "label": "M6 · Hub Console: cierre R1-front: 3/7"
+        "percent": 57,
+        "label": "M6 · Hub Console: cierre R1-front: 4/7"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 3,
+          "closed": 4,
           "total": 7
         },
         {
           "label": "Global",
-          "closed": 41,
-          "total": 63
+          "closed": 42,
+          "total": 64
         }
       ],
       "highlights": [],
@@ -1092,6 +1092,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 3
+    "totalOpenPrs": 4
   }
 }
