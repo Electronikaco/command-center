@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T16:30:35.058Z",
+  "generatedAt": "2026-08-15T17:00:37.447Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -150,7 +150,7 @@
       "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 4,
+      "commits30d": 3,
       "lastActivityAt": "2026-08-15T15:40:20Z",
       "progress": {
         "percent": 91,
@@ -965,84 +965,56 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-15T15:39:45Z",
+      "lastActivityAt": "2026-08-15T16:51:20Z",
       "progress": {
-        "percent": 25,
-        "label": "CRM del Hub · Personas/visitantes: 2/8"
+        "percent": 50,
+        "label": "R2 · BFF del Hub (front door): 2/4"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
           "closed": 2,
-          "total": 8
+          "total": 4
         },
         {
           "label": "Global",
           "closed": 125,
-          "total": 149
+          "total": 150
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "CRM del Hub · Personas/visitantes",
-        "totalIssues": 8,
+        "label": "R2 · BFF del Hub (front door)",
+        "totalIssues": 4,
         "closedIssues": 2,
         "issues": [
           {
-            "number": 199,
-            "title": "[EPIC] F1 · CRM lectura de personas/visitantes (por organización + consentimiento)",
+            "number": 216,
+            "title": "hub-bff (API Gateway): rate-limiting + CORS por origen + S2S a cada service-*",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/199",
-            "updatedAt": "2026-08-11T20:29:22Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/216",
+            "updatedAt": "2026-08-15T16:59:02Z"
           },
           {
-            "number": 206,
-            "title": "[EPIC] F2 · Interacción por app en el CRM (Turno primero)",
+            "number": 163,
+            "title": "[EPIC] Hub → estándar BFF + microservicios (front door único)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/206",
-            "updatedAt": "2026-08-11T20:11:15Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/163",
+            "updatedAt": "2026-08-15T16:50:36Z"
           },
           {
-            "number": 205,
-            "title": "CRM-06 · Consumo por apps consumidoras (alcance por app, read-only)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/205",
-            "updatedAt": "2026-08-11T20:10:52Z"
-          },
-          {
-            "number": 203,
-            "title": "CRM-04 · Vista 360 mínima de la persona (read-only, privacidad by design)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/203",
-            "updatedAt": "2026-08-11T20:10:51Z"
-          },
-          {
-            "number": 204,
-            "title": "CRM-05 · 'Apps usadas' por la persona (proyección básica en el CRM)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/204",
-            "updatedAt": "2026-08-11T20:10:51Z"
-          },
-          {
-            "number": 202,
-            "title": "CRM-03 · Lectura de visitantes por organización + consentimiento (fail-closed)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/202",
-            "updatedAt": "2026-08-11T20:10:50Z"
-          },
-          {
-            "number": 201,
-            "title": "CRM-02 · Front door en hub-bff + S2S (contrato público)",
+            "number": 165,
+            "title": "BFF-02 · Consolidar el PAD detrás del hub-bff",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/201",
-            "updatedAt": "2026-08-11T21:27:42Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/165",
+            "updatedAt": "2026-08-06T12:37:58Z"
           },
           {
-            "number": 200,
-            "title": "CRM-01 · Scaffold del microservicio service-crm (skill backend-microservicios)",
+            "number": 164,
+            "title": "BFF-01 · Scaffold apps/hub-bff (front door delgado, sin BD)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/200",
-            "updatedAt": "2026-08-11T20:50:34Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/164",
+            "updatedAt": "2026-08-05T22:07:21Z"
           }
         ],
         "truncated": false
