@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:00:39.168Z",
+  "generatedAt": "2026-08-17T13:30:44.643Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -939,15 +939,17 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 14,
-      "commits7d": 12,
+      "commits7d": 0,
       "commits30d": 30,
       "lastActivityAt": "2026-08-14T21:21:16Z",
       "progress": {
         "percent": null,
-        "label": "12 commits / 7d (develop)"
+        "label": "0 commits / 7d (develop)"
       },
       "progressMeters": [],
-      "highlights": [],
+      "highlights": [
+        "Sin commits en los últimos 7 días"
+      ],
       "issueBreakdown": null,
       "links": {
         "github": "https://github.com/electronikatm/civok-agentik"
@@ -1030,28 +1032,18 @@
       "ghRepo": "Electronikaco/civok-frontend",
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
-      "health": "ok",
+      "health": "error",
+      "healthReason": "Command failed: gh api repos/Electronikaco/civok-frontend\ngh: Not Found (HTTP 404)\n",
       "openPrs": 0,
-      "mergedPrs30d": 50,
-      "commits7d": 8,
-      "commits30d": 30,
-      "lastActivityAt": "2026-08-15T16:28:31Z",
+      "mergedPrs30d": 0,
+      "commits7d": 0,
+      "commits30d": 0,
+      "lastActivityAt": null,
       "progress": {
-        "percent": 80,
-        "label": "M4 · Hub Console: personas, usuarios y roles: 4/5"
+        "percent": null,
+        "label": "—"
       },
-      "progressMeters": [
-        {
-          "label": "Épica activa",
-          "closed": 4,
-          "total": 5
-        },
-        {
-          "label": "Global",
-          "closed": 45,
-          "total": 66
-        }
-      ],
+      "progressMeters": [],
       "highlights": [],
       "issueBreakdown": null,
       "links": {
@@ -1061,9 +1053,9 @@
   ],
   "summary": {
     "totalProjects": 6,
-    "healthy": 6,
+    "healthy": 5,
     "degraded": 0,
-    "error": 0,
+    "error": 1,
     "totalOpenPrs": 3
   }
 }
