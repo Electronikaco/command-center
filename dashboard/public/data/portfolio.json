@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T15:31:21.040Z",
+  "generatedAt": "2026-08-17T16:01:13.141Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -12,7 +12,7 @@
       "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 0,
+      "commits30d": 30,
       "lastActivityAt": "2026-08-15T00:41:10Z",
       "progress": {
         "percent": 15,
@@ -938,7 +938,7 @@
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 0,
+      "mergedPrs30d": 14,
       "commits7d": 0,
       "commits30d": 0,
       "lastActivityAt": "2026-08-14T21:21:16Z",
@@ -962,7 +962,7 @@
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 0,
+      "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
       "lastActivityAt": "2026-08-15T17:20:46Z",
@@ -975,10 +975,50 @@
           "label": "Épica activa",
           "closed": 3,
           "total": 4
+        },
+        {
+          "label": "Global",
+          "closed": 129,
+          "total": 150
         }
       ],
       "highlights": [],
-      "issueBreakdown": null,
+      "issueBreakdown": {
+        "label": "R2 · BFF del Hub (front door)",
+        "totalIssues": 4,
+        "closedIssues": 3,
+        "issues": [
+          {
+            "number": 163,
+            "title": "[EPIC] Hub → estándar BFF + microservicios (front door único)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/163",
+            "updatedAt": "2026-08-15T16:50:36Z"
+          },
+          {
+            "number": 216,
+            "title": "hub-bff (API Gateway): rate-limiting + CORS por origen + S2S a cada service-*",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/216",
+            "updatedAt": "2026-08-15T17:20:47Z"
+          },
+          {
+            "number": 165,
+            "title": "BFF-02 · Consolidar el PAD detrás del hub-bff",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/165",
+            "updatedAt": "2026-08-06T12:37:58Z"
+          },
+          {
+            "number": 164,
+            "title": "BFF-01 · Scaffold apps/hub-bff (front door delgado, sin BD)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/164",
+            "updatedAt": "2026-08-05T22:07:21Z"
+          }
+        ],
+        "truncated": false
+      },
       "links": {
         "github": "https://github.com/Electronikaco/civok-hub"
       }
@@ -992,7 +1032,7 @@
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 0,
+      "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
       "lastActivityAt": "2026-08-15T16:28:31Z",
@@ -1005,6 +1045,11 @@
           "label": "Épica activa",
           "closed": 4,
           "total": 5
+        },
+        {
+          "label": "Global",
+          "closed": 45,
+          "total": 66
         }
       ],
       "highlights": [],
