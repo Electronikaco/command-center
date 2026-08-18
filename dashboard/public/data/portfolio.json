@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T14:30:37.335Z",
+  "generatedAt": "2026-08-18T15:00:43.563Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -965,20 +965,20 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-18T14:29:05Z",
+      "lastActivityAt": "2026-08-18T14:48:48Z",
       "progress": {
-        "percent": 27,
-        "label": "R2 · Hub → microservicios core: 3/11"
+        "percent": 45,
+        "label": "R2 · Hub → microservicios core: 5/11"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 3,
+          "closed": 5,
           "total": 11
         },
         {
           "label": "Global",
-          "closed": 130,
+          "closed": 132,
           "total": 154
         }
       ],
@@ -986,28 +986,14 @@
       "issueBreakdown": {
         "label": "R2 · Hub → microservicios core",
         "totalIssues": 11,
-        "closedIssues": 3,
+        "closedIssues": 5,
         "issues": [
-          {
-            "number": 224,
-            "title": "MS-C3 · Outbox + S2S de service-authz",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/224",
-            "updatedAt": "2026-08-18T13:52:08Z"
-          },
           {
             "number": 225,
             "title": "MS-C4 · Split de BD de authz + romper lectura residual a usuarios (S2S/copia)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/225",
             "updatedAt": "2026-08-18T13:51:57Z"
-          },
-          {
-            "number": 223,
-            "title": "MS-C2 · Enrutar authz por el hub-bff (SERVICE_ROUTES → service-authz)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/223",
-            "updatedAt": "2026-08-18T13:51:54Z"
           },
           {
             "number": 174,
@@ -1043,6 +1029,20 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/166",
             "updatedAt": "2026-08-06T15:19:34Z"
+          },
+          {
+            "number": 224,
+            "title": "MS-C3 · Outbox + S2S de service-authz",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/224",
+            "updatedAt": "2026-08-18T14:48:49Z"
+          },
+          {
+            "number": 223,
+            "title": "MS-C2 · Enrutar authz por el hub-bff (SERVICE_ROUTES → service-authz)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/223",
+            "updatedAt": "2026-08-18T14:36:11Z"
           },
           {
             "number": 222,
