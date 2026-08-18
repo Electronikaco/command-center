@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T15:30:42.138Z",
+  "generatedAt": "2026-08-18T16:00:42.125Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -546,18 +546,18 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 17,
+      "commits7d": 19,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-14T21:21:07Z",
+      "lastActivityAt": "2026-08-18T15:49:31Z",
       "progress": {
-        "percent": 39,
-        "label": "30/76 issues"
+        "percent": 42,
+        "label": "32/77 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 30,
-          "total": 76
+          "closed": 32,
+          "total": 77
         },
         {
           "label": "Épicas",
@@ -568,9 +568,30 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 76,
-        "closedIssues": 30,
+        "totalIssues": 77,
+        "closedIssues": 32,
         "issues": [
+          {
+            "number": 96,
+            "title": "EPIC-17-04 · Impedir que una cuenta de Instagram quede conectada a dos tenants",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/96",
+            "updatedAt": "2026-08-18T15:49:57Z"
+          },
+          {
+            "number": 80,
+            "title": "[EPIC] Durabilidad de mensajes: no perder inbound ni outbound en silencio",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/80",
+            "updatedAt": "2026-08-18T15:49:46Z"
+          },
+          {
+            "number": 140,
+            "title": "turn_id generado al vuelo en chatService puede duplicar filas en vez de deduplicar",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/140",
+            "updatedAt": "2026-08-18T15:39:39Z"
+          },
           {
             "number": 138,
             "title": "La DLQ de salida no la lee nadie y sus registros quedan en failed, que el replay saltaria",
@@ -591,20 +612,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/136",
             "updatedAt": "2026-08-18T15:25:07Z"
-          },
-          {
-            "number": 94,
-            "title": "EPIC-17-02 · Reintentos reales en OutboundMessagePipeline y DLQ que si se alimenta",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/94",
-            "updatedAt": "2026-08-14T21:22:29Z"
-          },
-          {
-            "number": 80,
-            "title": "[EPIC] Durabilidad de mensajes: no perder inbound ni outbound en silencio",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/80",
-            "updatedAt": "2026-08-14T21:21:44Z"
           },
           {
             "number": 79,
@@ -789,20 +796,6 @@
             "updatedAt": "2026-08-13T19:48:33Z"
           },
           {
-            "number": 96,
-            "title": "EPIC-17-04 · Impedir que una cuenta de Instagram quede conectada a dos tenants",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/96",
-            "updatedAt": "2026-08-13T16:59:36Z"
-          },
-          {
-            "number": 95,
-            "title": "EPIC-17-03 · Pasar turn_id en la rama sin IA activa del messageWorker",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/95",
-            "updatedAt": "2026-08-13T16:59:35Z"
-          },
-          {
             "number": 30,
             "title": "Unificación WhatsApp↔DDD Nivel 3: Migración completa (InboundMessagePipeline + eliminar legacy)",
             "state": "OPEN",
@@ -894,6 +887,20 @@
             "updatedAt": "2026-07-09T20:03:49Z"
           },
           {
+            "number": 95,
+            "title": "EPIC-17-03 · Pasar turn_id en la rama sin IA activa del messageWorker",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/95",
+            "updatedAt": "2026-08-18T15:49:47Z"
+          },
+          {
+            "number": 94,
+            "title": "EPIC-17-02 · Reintentos reales en OutboundMessagePipeline y DLQ que si se alimenta",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/94",
+            "updatedAt": "2026-08-18T15:32:59Z"
+          },
+          {
             "number": 93,
             "title": "EPIC-17-01 · Persistir el evento de webhook antes de responder 200 a Meta",
             "state": "CLOSED",
@@ -913,13 +920,6 @@
             "state": "CLOSED",
             "url": "https://github.com/ia-saas/miliia_back/issues/91",
             "updatedAt": "2026-08-14T01:15:27Z"
-          },
-          {
-            "number": 90,
-            "title": "EPIC-16-01 · Validar x_amount contra el total de la factura antes de marcar PAID",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/90",
-            "updatedAt": "2026-08-14T00:47:10Z"
           }
         ],
         "truncated": true
@@ -939,12 +939,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 14,
-      "commits7d": 12,
+      "commits7d": 13,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-14T21:21:16Z",
+      "lastActivityAt": "2026-08-18T15:58:20Z",
       "progress": {
         "percent": null,
-        "label": "12 commits / 7d (develop)"
+        "label": "13 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
