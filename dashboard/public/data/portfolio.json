@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T17:00:41.323Z",
+  "generatedAt": "2026-08-18T17:30:37.609Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -153,14 +153,14 @@
       "commits30d": 1,
       "lastActivityAt": "2026-08-15T17:16:02Z",
       "progress": {
-        "percent": 92,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 92/100"
+        "percent": 91,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 92/101"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
           "closed": 92,
-          "total": 100
+          "total": 101
         },
         {
           "label": "Épicas",
@@ -170,28 +170,35 @@
         {
           "label": "Global",
           "closed": 166,
-          "total": 176
+          "total": 177
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
-        "totalIssues": 100,
+        "totalIssues": 101,
         "closedIssues": 92,
         "issues": [
+          {
+            "number": 313,
+            "title": "[EPIC] Encender la conexión Turno↔Hub (activar el consumo)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/313",
+            "updatedAt": "2026-08-18T17:18:59Z"
+          },
+          {
+            "number": 331,
+            "title": "CONV · BFF /session/context consume el /me del Hub (D10) — retirar partial:true + matriz local",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/331",
+            "updatedAt": "2026-08-18T17:17:53Z"
+          },
           {
             "number": 318,
             "title": "TH-05 · Desplegar consumidores a la Turno en ejecución + activar gates",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/318",
             "updatedAt": "2026-08-12T20:47:02Z"
-          },
-          {
-            "number": 313,
-            "title": "[EPIC] Encender la conexión Turno↔Hub (activar el consumo)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/313",
-            "updatedAt": "2026-08-11T20:46:01Z"
           },
           {
             "number": 148,
@@ -521,13 +528,6 @@
             "state": "CLOSED",
             "url": "https://github.com/Electronikaco/civok-back/issues/254",
             "updatedAt": "2026-08-04T22:50:53Z"
-          },
-          {
-            "number": 253,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-video-attention (rollout #177)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/253",
-            "updatedAt": "2026-08-04T22:48:02Z"
           }
         ],
         "truncated": true
@@ -979,7 +979,7 @@
         {
           "label": "Global",
           "closed": 132,
-          "total": 154
+          "total": 155
         }
       ],
       "highlights": [],
