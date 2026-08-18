@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T17:30:37.609Z",
+  "generatedAt": "2026-08-18T18:00:41.851Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -180,18 +180,18 @@
         "closedIssues": 92,
         "issues": [
           {
+            "number": 331,
+            "title": "CONV · BFF /session/context consume el /me del Hub (D10) — retirar partial:true + matriz local",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/331",
+            "updatedAt": "2026-08-18T17:35:51Z"
+          },
+          {
             "number": 313,
             "title": "[EPIC] Encender la conexión Turno↔Hub (activar el consumo)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/313",
             "updatedAt": "2026-08-18T17:18:59Z"
-          },
-          {
-            "number": 331,
-            "title": "CONV · BFF /session/context consume el /me del Hub (D10) — retirar partial:true + matriz local",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/331",
-            "updatedAt": "2026-08-18T17:17:53Z"
           },
           {
             "number": 318,
@@ -544,20 +544,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 20,
+      "commits7d": 21,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-18T16:48:33Z",
+      "lastActivityAt": "2026-08-18T17:45:29Z",
       "progress": {
         "percent": 41,
-        "label": "33/80 issues"
+        "label": "34/82 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 33,
-          "total": 80
+          "closed": 34,
+          "total": 82
         },
         {
           "label": "Épicas",
@@ -568,15 +568,22 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 80,
-        "closedIssues": 33,
+        "totalIssues": 82,
+        "closedIssues": 34,
         "issues": [
           {
-            "number": 112,
-            "title": "Fuga de lectura: cualquier autenticado enumera la cartera completa de tenants",
+            "number": 148,
+            "title": "Oraculo de existencia de tenants: validateTenant devuelve 404 y assertTenantOwnership 403",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/112",
-            "updatedAt": "2026-08-18T16:18:37Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/148",
+            "updatedAt": "2026-08-18T17:46:12Z"
+          },
+          {
+            "number": 147,
+            "title": "Los validadores de tenants usan check(), que barre el query: la autorizacion decide sobre un valor influible por el cliente",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/147",
+            "updatedAt": "2026-08-18T17:46:11Z"
           },
           {
             "number": 80,
@@ -901,25 +908,18 @@
             "updatedAt": "2026-07-09T20:03:49Z"
           },
           {
+            "number": 112,
+            "title": "Fuga de lectura: cualquier autenticado enumera la cartera completa de tenants",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/112",
+            "updatedAt": "2026-08-18T17:45:45Z"
+          },
+          {
             "number": 96,
             "title": "EPIC-17-04 · Impedir que una cuenta de Instagram quede conectada a dos tenants",
             "state": "CLOSED",
             "url": "https://github.com/ia-saas/miliia_back/issues/96",
             "updatedAt": "2026-08-18T16:16:44Z"
-          },
-          {
-            "number": 95,
-            "title": "EPIC-17-03 · Pasar turn_id en la rama sin IA activa del messageWorker",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/95",
-            "updatedAt": "2026-08-18T15:49:47Z"
-          },
-          {
-            "number": 94,
-            "title": "EPIC-17-02 · Reintentos reales en OutboundMessagePipeline y DLQ que si se alimenta",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/94",
-            "updatedAt": "2026-08-18T15:32:59Z"
           }
         ],
         "truncated": true
@@ -965,7 +965,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-18T14:48:48Z",
+      "lastActivityAt": "2026-08-18T17:35:06Z",
       "progress": {
         "percent": 45,
         "label": "R2 · Hub → microservicios core: 5/11"
@@ -978,7 +978,7 @@
         },
         {
           "label": "Global",
-          "closed": 132,
+          "closed": 133,
           "total": 155
         }
       ],
@@ -1113,6 +1113,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 3
   }
 }
