@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T15:00:43.563Z",
+  "generatedAt": "2026-08-18T15:30:42.138Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -550,14 +550,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-08-14T21:21:07Z",
       "progress": {
-        "percent": 41,
-        "label": "30/73 issues"
+        "percent": 39,
+        "label": "30/76 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 30,
-          "total": 73
+          "total": 76
         },
         {
           "label": "Épicas",
@@ -568,9 +568,30 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 73,
+        "totalIssues": 76,
         "closedIssues": 30,
         "issues": [
+          {
+            "number": 138,
+            "title": "La DLQ de salida no la lee nadie y sus registros quedan en failed, que el replay saltaria",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/138",
+            "updatedAt": "2026-08-18T15:25:11Z"
+          },
+          {
+            "number": 137,
+            "title": "El rate limit propio consume los reintentos y convierte un limite de tasa en perdida de mensajes",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/137",
+            "updatedAt": "2026-08-18T15:25:09Z"
+          },
+          {
+            "number": 136,
+            "title": "Doble entrega de mensajes salientes: hasta 9 envios por comando y check-then-act sin atomicidad",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/136",
+            "updatedAt": "2026-08-18T15:25:07Z"
+          },
           {
             "number": 94,
             "title": "EPIC-17-02 · Reintentos reales en OutboundMessagePipeline y DLQ que si se alimenta",
@@ -899,27 +920,6 @@
             "state": "CLOSED",
             "url": "https://github.com/ia-saas/miliia_back/issues/90",
             "updatedAt": "2026-08-14T00:47:10Z"
-          },
-          {
-            "number": 89,
-            "title": "EPIC-15-09 · Test de contrato: ningun router de tenant sin assertTenantOwnership",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/89",
-            "updatedAt": "2026-08-14T00:05:55Z"
-          },
-          {
-            "number": 84,
-            "title": "EPIC-15-04 · Cerrar IDOR cross-tenant en tenant-roles",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/84",
-            "updatedAt": "2026-08-13T23:05:42Z"
-          },
-          {
-            "number": 83,
-            "title": "EPIC-15-03 · requireSuperAdmin en system-admins y cerrar el bootstrap reactivable",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/83",
-            "updatedAt": "2026-08-13T22:37:21Z"
           }
         ],
         "truncated": true
