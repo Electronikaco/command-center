@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T00:01:07.022Z",
+  "generatedAt": "2026-08-19T00:30:35.263Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,17 +11,17 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 19,
+      "commits7d": 20,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-18T20:24:19Z",
+      "lastActivityAt": "2026-08-19T00:04:40Z",
       "progress": {
-        "percent": 31,
-        "label": "S17 · Informe pericial y biblioteca (EPIC-X): 4/13"
+        "percent": 38,
+        "label": "S17 · Informe pericial y biblioteca (EPIC-X): 5/13"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 4,
+          "closed": 5,
           "total": 13
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 165,
+          "closed": 166,
           "total": 200
         }
       ],
@@ -39,14 +39,14 @@
       "issueBreakdown": {
         "label": "S17 · Informe pericial y biblioteca (EPIC-X)",
         "totalIssues": 13,
-        "closedIssues": 4,
+        "closedIssues": 5,
         "issues": [
           {
-            "number": 489,
-            "title": "UC-DM-X-04 · Módulo CBCA con escala 0-1-2 (19 criterios, suma /38, rangos interpretativos de Raskin)",
+            "number": 491,
+            "title": "UC-DM-X-06 · Bloque condicional de registro audiovisual (`tiene_registro_magnetico`): obligatorio y bloqueante en FT-CRED, opcional y degradante de alcance en FT-META",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/489",
-            "updatedAt": "2026-08-18T20:25:43Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/491",
+            "updatedAt": "2026-08-19T00:05:23Z"
           },
           {
             "number": 497,
@@ -77,13 +77,6 @@
             "updatedAt": "2026-08-04T21:55:02Z"
           },
           {
-            "number": 491,
-            "title": "UC-DM-X-06 · Bloque condicional de registro audiovisual (`tiene_registro_magnetico`): obligatorio y bloqueante en FT-CRED, opcional y degradante de alcance en FT-META",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/491",
-            "updatedAt": "2026-08-04T21:55:00Z"
-          },
-          {
             "number": 490,
             "title": "UC-DM-X-05 · Selector de nivel de alcance I/II/III en FT-ILUS",
             "state": "OPEN",
@@ -103,6 +96,13 @@
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/487",
             "updatedAt": "2026-08-04T21:54:54Z"
+          },
+          {
+            "number": 489,
+            "title": "UC-DM-X-04 · Módulo CBCA con escala 0-1-2 (19 criterios, suma /38, rangos interpretativos de Raskin)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/489",
+            "updatedAt": "2026-08-19T00:04:54Z"
           },
           {
             "number": 496,
