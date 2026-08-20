@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T17:00:36.522Z",
+  "generatedAt": "2026-08-20T17:30:38.857Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -546,7 +546,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 29,
+      "commits7d": 28,
       "commits30d": 30,
       "lastActivityAt": "2026-08-19T15:53:24Z",
       "progress": {
@@ -965,7 +965,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-18T17:35:06Z",
+      "lastActivityAt": "2026-08-20T17:07:50Z",
       "progress": {
         "percent": 45,
         "label": "R2 · Hub → microservicios core: 5/11"
