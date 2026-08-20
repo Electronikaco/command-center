@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T14:30:38.806Z",
+  "generatedAt": "2026-08-20T15:00:44.960Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -1084,20 +1084,20 @@
       "mergedPrs30d": 50,
       "commits7d": 4,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-15T16:28:31Z",
+      "lastActivityAt": "2026-08-20T14:36:44Z",
       "progress": {
-        "percent": 63,
-        "label": "M6 · Hub Console: cierre R1-front: 5/8"
+        "percent": 75,
+        "label": "M6 · Hub Console: cierre R1-front: 6/8"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 5,
+          "closed": 6,
           "total": 8
         },
         {
           "label": "Global",
-          "closed": 45,
+          "closed": 46,
           "total": 67
         }
       ],
