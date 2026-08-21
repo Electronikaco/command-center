@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T20:00:44.434Z",
+  "generatedAt": "2026-08-21T20:30:37.094Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,9 +11,9 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 21,
+      "commits7d": 22,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T19:54:44Z",
+      "lastActivityAt": "2026-08-21T20:11:36Z",
       "progress": {
         "percent": 0,
         "label": "S18 · Dashboard: audiencias y métricas (EPIC-Y): 0/3"
@@ -476,18 +476,18 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 16,
+      "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T19:57:04Z",
+      "lastActivityAt": "2026-08-21T20:18:46Z",
       "progress": {
         "percent": 44,
-        "label": "37/85 issues"
+        "label": "38/86 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 37,
-          "total": 85
+          "closed": 38,
+          "total": 86
         },
         {
           "label": "Épicas",
@@ -498,15 +498,22 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 85,
-        "closedIssues": 37,
+        "totalIssues": 86,
+        "closedIssues": 38,
         "issues": [
           {
-            "number": 130,
-            "title": "Doble cobro de creditos al reintentar un job de mensaje o audio",
+            "number": 131,
+            "title": "El guard de cuota no mira el balance del wallet: con saldo 0 se sigue llamando a OpenAI",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/130",
-            "updatedAt": "2026-08-21T19:57:47Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/131",
+            "updatedAt": "2026-08-21T20:23:10Z"
+          },
+          {
+            "number": 162,
+            "title": "El STT se cobra dos veces al cliente cuando se reintenta un job de audio",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/162",
+            "updatedAt": "2026-08-21T20:17:55Z"
           },
           {
             "number": 117,
@@ -626,13 +633,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/132",
             "updatedAt": "2026-08-14T01:08:24Z"
-          },
-          {
-            "number": 131,
-            "title": "El guard de cuota no mira el balance del wallet: con saldo 0 se sigue llamando a OpenAI",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/131",
-            "updatedAt": "2026-08-14T01:08:23Z"
           },
           {
             "number": 128,
@@ -838,18 +838,18 @@
             "updatedAt": "2026-07-09T20:03:49Z"
           },
           {
+            "number": 130,
+            "title": "Doble cobro de creditos al reintentar un job de mensaje o audio",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/130",
+            "updatedAt": "2026-08-21T20:18:50Z"
+          },
+          {
             "number": 123,
             "title": "assertTenantOwnership en el modulo de voz (6 rutas)",
             "state": "CLOSED",
             "url": "https://github.com/ia-saas/miliia_back/issues/123",
             "updatedAt": "2026-08-21T19:57:09Z"
-          },
-          {
-            "number": 121,
-            "title": "assertTenantOwnership en assistants (22 rutas)",
-            "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/121",
-            "updatedAt": "2026-08-21T15:48:21Z"
           }
         ],
         "truncated": true
