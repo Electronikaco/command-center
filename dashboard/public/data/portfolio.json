@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T21:30:38.073Z",
+  "generatedAt": "2026-08-21T22:00:42.791Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 22,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T20:41:59Z",
+      "lastActivityAt": "2026-08-21T21:38:11Z",
       "progress": {
         "percent": 22,
         "label": "BE7 · Backend Fase 2 (consentimientos/pruebas/metodología/informe): 4/18"
@@ -583,16 +583,16 @@
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T21:07:05Z",
+      "lastActivityAt": "2026-08-21T21:49:48Z",
       "progress": {
-        "percent": 46,
-        "label": "41/89 issues"
+        "percent": 47,
+        "label": "43/91 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 41,
-          "total": 89
+          "closed": 43,
+          "total": 91
         },
         {
           "label": "Épicas",
@@ -603,22 +603,29 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 89,
-        "closedIssues": 41,
+        "totalIssues": 91,
+        "closedIssues": 43,
         "issues": [
           {
-            "number": 164,
-            "title": "credit_wallets.balance es BIGINT: los costes por turno menores de 0,5 creditos no descuentan nada",
+            "number": 119,
+            "title": "El bootstrap de usuario de tenant es publico y crea el OWNER de cualquier tenant sin usuarios",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/164",
-            "updatedAt": "2026-08-21T21:07:37Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/119",
+            "updatedAt": "2026-08-21T21:49:56Z"
           },
           {
-            "number": 117,
-            "title": "Un OWNER puede renombrar o borrar su propio rol OWNER y dejar el tenant sin gestion",
+            "number": 172,
+            "title": "Defensa en profundidad en tenant-roles: TOCTOU en la guarda y repositorio sin filtro de tenant",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/117",
-            "updatedAt": "2026-08-21T21:07:34Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/172",
+            "updatedAt": "2026-08-21T21:49:34Z"
+          },
+          {
+            "number": 171,
+            "title": "Los tenants creados por TenantService nacen sin ningun rol que gestione roles",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/171",
+            "updatedAt": "2026-08-21T21:49:33Z"
           },
           {
             "number": 166,
@@ -782,13 +789,6 @@
             "updatedAt": "2026-08-13T23:38:27Z"
           },
           {
-            "number": 119,
-            "title": "El bootstrap de usuario de tenant es publico y crea el OWNER de cualquier tenant sin usuarios",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/119",
-            "updatedAt": "2026-08-13T23:03:13Z"
-          },
-          {
             "number": 118,
             "title": "Defensa en profundidad: TenantRoleService y su repositorio no filtran por tenant",
             "state": "OPEN",
@@ -943,18 +943,18 @@
             "updatedAt": "2026-07-09T20:03:49Z"
           },
           {
-            "number": 80,
-            "title": "[EPIC] Durabilidad de mensajes: no perder inbound ni outbound en silencio",
+            "number": 117,
+            "title": "Un OWNER puede renombrar o borrar su propio rol OWNER y dejar el tenant sin gestion",
             "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/80",
-            "updatedAt": "2026-08-21T21:06:48Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/117",
+            "updatedAt": "2026-08-21T21:49:49Z"
           },
           {
-            "number": 79,
-            "title": "[EPIC] Integridad de cobro y control de consumo de IA",
+            "number": 164,
+            "title": "credit_wallets.balance es BIGINT: los costes por turno menores de 0,5 creditos no descuentan nada",
             "state": "CLOSED",
-            "url": "https://github.com/ia-saas/miliia_back/issues/79",
-            "updatedAt": "2026-08-21T21:06:46Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/164",
+            "updatedAt": "2026-08-21T21:33:59Z"
           }
         ],
         "truncated": true
@@ -974,12 +974,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 12,
-      "commits7d": 10,
+      "commits7d": 11,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T20:52:00Z",
+      "lastActivityAt": "2026-08-21T21:41:34Z",
       "progress": {
         "percent": null,
-        "label": "10 commits / 7d (develop)"
+        "label": "11 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
@@ -996,11 +996,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T21:28:29Z",
+      "lastActivityAt": "2026-08-21T21:33:31Z",
       "progress": {
         "percent": 45,
         "label": "R2 · Hub → microservicios core: 5/11"
@@ -1013,7 +1013,7 @@
         },
         {
           "label": "Global",
-          "closed": 136,
+          "closed": 137,
           "total": 164
         }
       ],
