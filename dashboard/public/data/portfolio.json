@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T14:30:35.791Z",
+  "generatedAt": "2026-08-21T15:00:48.396Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,9 +11,9 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 19,
+      "commits7d": 20,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-20T21:46:08Z",
+      "lastActivityAt": "2026-08-21T14:58:54Z",
       "progress": {
         "percent": 0,
         "label": "BE7 · Backend Fase 2 (consentimientos/pruebas/metodología/informe): 0/18"
@@ -607,6 +607,20 @@
         "closedIssues": 34,
         "issues": [
           {
+            "number": 122,
+            "title": "assertTenantOwnership en vectorStores, googleCalendar y onboarding (17 rutas)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/122",
+            "updatedAt": "2026-08-21T14:52:43Z"
+          },
+          {
+            "number": 113,
+            "title": "URGENTE: la llave privada RS256 de firma de JWT esta versionada en git",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/113",
+            "updatedAt": "2026-08-21T14:52:34Z"
+          },
+          {
             "number": 148,
             "title": "Oraculo de existencia de tenants: validateTenant devuelve 404 y assertTenantOwnership 403",
             "state": "OPEN",
@@ -682,13 +696,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/79",
             "updatedAt": "2026-08-14T01:46:23Z"
-          },
-          {
-            "number": 122,
-            "title": "assertTenantOwnership en vectorStores, googleCalendar y onboarding (17 rutas)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/122",
-            "updatedAt": "2026-08-14T01:39:30Z"
           },
           {
             "number": 132,
@@ -801,13 +808,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/114",
             "updatedAt": "2026-08-13T22:30:58Z"
-          },
-          {
-            "number": 113,
-            "title": "URGENTE: la llave privada RS256 de firma de JWT esta versionada en git",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/113",
-            "updatedAt": "2026-08-13T22:30:56Z"
           },
           {
             "number": 106,
