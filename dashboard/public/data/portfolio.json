@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T21:00:43.267Z",
+  "generatedAt": "2026-08-21T21:30:38.073Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -581,22 +581,22 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 18,
+      "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T20:59:52Z",
+      "lastActivityAt": "2026-08-21T21:07:05Z",
       "progress": {
-        "percent": 44,
-        "label": "39/89 issues"
+        "percent": 46,
+        "label": "41/89 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 39,
+          "closed": 41,
           "total": 89
         },
         {
           "label": "Épicas",
-          "closed": 4,
+          "closed": 6,
           "total": 17
         }
       ],
@@ -604,8 +604,22 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 89,
-        "closedIssues": 39,
+        "closedIssues": 41,
         "issues": [
+          {
+            "number": 164,
+            "title": "credit_wallets.balance es BIGINT: los costes por turno menores de 0,5 creditos no descuentan nada",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/164",
+            "updatedAt": "2026-08-21T21:07:37Z"
+          },
+          {
+            "number": 117,
+            "title": "Un OWNER puede renombrar o borrar su propio rol OWNER y dejar el tenant sin gestion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/117",
+            "updatedAt": "2026-08-21T21:07:34Z"
+          },
           {
             "number": 166,
             "title": "Los audios de WhatsApp nunca crean fila de inbound, ni en el camino feliz",
@@ -621,25 +635,11 @@
             "updatedAt": "2026-08-21T20:49:10Z"
           },
           {
-            "number": 164,
-            "title": "credit_wallets.balance es BIGINT: los costes por turno menores de 0,5 creditos no descuentan nada",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/164",
-            "updatedAt": "2026-08-21T20:49:09Z"
-          },
-          {
             "number": 162,
             "title": "El STT se cobra dos veces al cliente cuando se reintenta un job de audio",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/162",
             "updatedAt": "2026-08-21T20:17:55Z"
-          },
-          {
-            "number": 117,
-            "title": "Un OWNER puede renombrar o borrar su propio rol OWNER y dejar el tenant sin gestion",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/117",
-            "updatedAt": "2026-08-21T19:57:45Z"
           },
           {
             "number": 160,
@@ -682,13 +682,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/147",
             "updatedAt": "2026-08-18T17:46:11Z"
-          },
-          {
-            "number": 80,
-            "title": "[EPIC] Durabilidad de mensajes: no perder inbound ni outbound en silencio",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/80",
-            "updatedAt": "2026-08-18T16:16:44Z"
           },
           {
             "number": 144,
@@ -738,13 +731,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/136",
             "updatedAt": "2026-08-18T15:25:07Z"
-          },
-          {
-            "number": 79,
-            "title": "[EPIC] Integridad de cobro y control de consumo de IA",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/79",
-            "updatedAt": "2026-08-14T01:46:23Z"
           },
           {
             "number": 132,
@@ -955,6 +941,20 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/2",
             "updatedAt": "2026-07-09T20:03:49Z"
+          },
+          {
+            "number": 80,
+            "title": "[EPIC] Durabilidad de mensajes: no perder inbound ni outbound en silencio",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/80",
+            "updatedAt": "2026-08-21T21:06:48Z"
+          },
+          {
+            "number": 79,
+            "title": "[EPIC] Integridad de cobro y control de consumo de IA",
+            "state": "CLOSED",
+            "url": "https://github.com/ia-saas/miliia_back/issues/79",
+            "updatedAt": "2026-08-21T21:06:46Z"
           }
         ],
         "truncated": true
@@ -974,12 +974,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 12,
-      "commits7d": 11,
+      "commits7d": 10,
       "commits30d": 30,
       "lastActivityAt": "2026-08-21T20:52:00Z",
       "progress": {
         "percent": null,
-        "label": "11 commits / 7d (develop)"
+        "label": "10 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
@@ -996,11 +996,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T18:09:09Z",
+      "lastActivityAt": "2026-08-21T21:28:29Z",
       "progress": {
         "percent": 45,
         "label": "R2 · Hub → microservicios core: 5/11"
@@ -1014,7 +1014,7 @@
         {
           "label": "Global",
           "closed": 136,
-          "total": 163
+          "total": 164
         }
       ],
       "highlights": [],
@@ -1148,6 +1148,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 3
   }
 }
