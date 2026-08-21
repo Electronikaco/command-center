@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T17:30:39.366Z",
+  "generatedAt": "2026-08-21T18:00:49.775Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,19 +9,19 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 20,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T17:14:23Z",
+      "lastActivityAt": "2026-08-21T17:44:41Z",
       "progress": {
-        "percent": 6,
-        "label": "BE7 · Backend Fase 2 (consentimientos/pruebas/metodología/informe): 1/18"
+        "percent": 11,
+        "label": "BE7 · Backend Fase 2 (consentimientos/pruebas/metodología/informe): 2/18"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 1,
+          "closed": 2,
           "total": 18
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 156,
+          "closed": 157,
           "total": 200
         }
       ],
@@ -39,14 +39,14 @@
       "issueBreakdown": {
         "label": "BE7 · Backend Fase 2 (consentimientos/pruebas/metodología/informe)",
         "totalIssues": 18,
-        "closedIssues": 1,
+        "closedIssues": 2,
         "issues": [
           {
-            "number": 560,
-            "title": "UC-DM-BE-66 · Gating server-side real de entrevistas/pruebas/informe sin consentimiento firmado",
+            "number": 561,
+            "title": "UC-DM-BE-67 · Consentimiento colateral real (Formato 6), 1:N por caso",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/560",
-            "updatedAt": "2026-08-21T16:22:15Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/561",
+            "updatedAt": "2026-08-21T17:44:50Z"
           },
           {
             "number": 575,
@@ -147,18 +147,18 @@
             "updatedAt": "2026-08-20T21:39:42Z"
           },
           {
-            "number": 561,
-            "title": "UC-DM-BE-67 · Consentimiento colateral real (Formato 6), 1:N por caso",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/561",
-            "updatedAt": "2026-08-20T21:39:41Z"
-          },
-          {
             "number": 558,
             "title": "[BE7] Backend Fase 2: consentimientos, pruebas, metodología e informe pericial",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/558",
             "updatedAt": "2026-08-20T21:38:57Z"
+          },
+          {
+            "number": 560,
+            "title": "UC-DM-BE-66 · Gating server-side real de entrevistas/pruebas/informe sin consentimiento firmado",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/560",
+            "updatedAt": "2026-08-21T17:44:48Z"
           },
           {
             "number": 559,
@@ -996,11 +996,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T17:27:40Z",
+      "lastActivityAt": "2026-08-21T17:45:21Z",
       "progress": {
         "percent": 45,
         "label": "R2 · Hub → microservicios core: 5/11"
@@ -1013,7 +1013,7 @@
         },
         {
           "label": "Global",
-          "closed": 133,
+          "closed": 135,
           "total": 163
         }
       ],
@@ -1148,6 +1148,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 2
   }
 }
