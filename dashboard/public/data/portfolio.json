@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T18:30:39.622Z",
+  "generatedAt": "2026-08-21T19:00:38.265Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,18 +11,18 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 19,
+      "commits7d": 20,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T18:13:51Z",
+      "lastActivityAt": "2026-08-21T18:36:17Z",
       "progress": {
-        "percent": 80,
-        "label": "S15 · Módulo de pruebas (EPIC-V): 4/5"
+        "percent": 50,
+        "label": "QA · Cobertura E2E (Playwright): 3/6"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 4,
-          "total": 5
+          "closed": 3,
+          "total": 6
         },
         {
           "label": "Épicas",
@@ -31,50 +31,57 @@
         },
         {
           "label": "Global",
-          "closed": 166,
+          "closed": 167,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "S15 · Módulo de pruebas (EPIC-V)",
-        "totalIssues": 5,
-        "closedIssues": 4,
+        "label": "QA · Cobertura E2E (Playwright)",
+        "totalIssues": 6,
+        "closedIssues": 3,
         "issues": [
           {
-            "number": 524,
-            "title": "Retiro de PsychTest (legado) tras la migración a AppliedTest (UC-DM-V-03)",
+            "number": 533,
+            "title": "[E2E] Refresh token real ante 401",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/524",
-            "updatedAt": "2026-08-21T17:58:08Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/533",
+            "updatedAt": "2026-08-14T21:52:34Z"
           },
           {
-            "number": 438,
-            "title": "[EPIC-V] Módulo de pruebas",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/438",
-            "updatedAt": "2026-08-21T18:16:52Z"
+            "number": 535,
+            "title": "[E2E] Estados human-in-the-loop persisten contra backend real",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/535",
+            "updatedAt": "2026-08-14T15:23:21Z"
           },
           {
-            "number": 480,
-            "title": "UC-DM-V-02 · Catálogo/enum de categorías de pruebas (editable, con \"Otras\" libre)",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/480",
-            "updatedAt": "2026-08-21T15:14:10Z"
+            "number": 534,
+            "title": "[E2E] Guards de ruta sin sesión",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/534",
+            "updatedAt": "2026-08-14T15:23:19Z"
           },
           {
-            "number": 481,
-            "title": "UC-DM-V-03 · Aplicación de prueba en un caso: resultado + interpretación extensa + calificación manual + adjuntos con custodia",
+            "number": 532,
+            "title": "[E2E] Flujo completo de un caso: creación + primer módulo del pipeline",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/481",
-            "updatedAt": "2026-08-13T13:50:23Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/532",
+            "updatedAt": "2026-08-21T18:14:50Z"
           },
           {
-            "number": 479,
-            "title": "UC-DM-V-01 · Catálogo maestro de instrumentos psicométricos (ficha técnica, compartido con EPIC-X)",
+            "number": 531,
+            "title": "[E2E] RBAC por rol vía UI",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/479",
-            "updatedAt": "2026-08-12T19:39:29Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/531",
+            "updatedAt": "2026-08-21T18:14:48Z"
+          },
+          {
+            "number": 530,
+            "title": "[E2E] Aislamiento multi-tenant vía UI (RLS)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/530",
+            "updatedAt": "2026-08-21T18:14:47Z"
           }
         ],
         "truncated": false
