@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T12:30:33.340Z",
+  "generatedAt": "2026-08-22T13:00:37.831Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-22T11:07:54Z",
+      "lastActivityAt": "2026-08-22T13:00:08Z",
       "progress": {
         "percent": 83,
         "label": "BE7 · Backend Fase 2 (consentimientos/pruebas/metodología/informe): 15/18"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 181,
+          "closed": 182,
           "total": 200
         }
       ],
