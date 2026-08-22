@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T20:30:32.464Z",
+  "generatedAt": "2026-08-22T21:00:36.025Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-22T18:45:57Z",
+      "lastActivityAt": "2026-08-22T20:52:26Z",
       "progress": {
         "percent": 0,
         "label": "S20 · Calendario e integración Google Calendar: 0/3"
@@ -27,11 +27,11 @@
         {
           "label": "Épicas",
           "closed": 25,
-          "total": 29
+          "total": 30
         },
         {
           "label": "Global",
-          "closed": 182,
+          "closed": 178,
           "total": 200
         }
       ],
@@ -46,7 +46,7 @@
             "title": "UC-DM-CAL-01 · Motor de calendario + conexión Google + sync on-demand (front-first/MSW + contrato)",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/606",
-            "updatedAt": "2026-08-22T18:53:48Z"
+            "updatedAt": "2026-08-22T20:48:00Z"
           },
           {
             "number": 605,
