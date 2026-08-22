@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T10:30:36.686Z",
+  "generatedAt": "2026-08-22T11:00:35.067Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-22T10:06:08Z",
+      "lastActivityAt": "2026-08-22T10:53:25Z",
       "progress": {
         "percent": 78,
         "label": "BE7 · Backend Fase 2 (consentimientos/pruebas/metodología/informe): 14/18"
@@ -1148,6 +1148,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 3
   }
 }
