@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T23:30:33.757Z",
+  "generatedAt": "2026-08-22T00:01:02.239Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,17 +11,17 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 23,
+      "commits7d": 24,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T23:12:04Z",
+      "lastActivityAt": "2026-08-21T23:57:07Z",
       "progress": {
-        "percent": 28,
-        "label": "BE7 · Backend Fase 2 (consentimientos/pruebas/metodología/informe): 5/18"
+        "percent": 33,
+        "label": "BE7 · Backend Fase 2 (consentimientos/pruebas/metodología/informe): 6/18"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 5,
+          "closed": 6,
           "total": 18
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 168,
+          "closed": 169,
           "total": 200
         }
       ],
@@ -39,14 +39,14 @@
       "issueBreakdown": {
         "label": "BE7 · Backend Fase 2 (consentimientos/pruebas/metodología/informe)",
         "totalIssues": 18,
-        "closedIssues": 5,
+        "closedIssues": 6,
         "issues": [
           {
-            "number": 564,
-            "title": "UC-DM-BE-70 · Catálogo/enum real de categorías de pruebas (editable, con 'Otras' libre)",
+            "number": 565,
+            "title": "UC-DM-BE-71 · AppliedTest real: migra PsychTest, calificación manual, adjuntos múltiples con custodia",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/564",
-            "updatedAt": "2026-08-21T22:39:14Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/565",
+            "updatedAt": "2026-08-21T23:42:37Z"
           },
           {
             "number": 575,
@@ -119,18 +119,18 @@
             "updatedAt": "2026-08-20T21:39:48Z"
           },
           {
-            "number": 565,
-            "title": "UC-DM-BE-71 · AppliedTest real: migra PsychTest, calificación manual, adjuntos múltiples con custodia",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/565",
-            "updatedAt": "2026-08-20T21:39:47Z"
-          },
-          {
             "number": 558,
             "title": "[BE7] Backend Fase 2: consentimientos, pruebas, metodología e informe pericial",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/558",
             "updatedAt": "2026-08-20T21:38:57Z"
+          },
+          {
+            "number": 564,
+            "title": "UC-DM-BE-70 · Catálogo/enum real de categorías de pruebas (editable, con 'Otras' libre)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/564",
+            "updatedAt": "2026-08-21T23:42:36Z"
           },
           {
             "number": 563,
