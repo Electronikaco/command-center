@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T04:00:40.043Z",
+  "generatedAt": "2026-08-23T04:30:35.395Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-23T03:56:18Z",
+      "lastActivityAt": "2026-08-23T04:21:10Z",
       "progress": {
         "percent": 50,
         "label": "QA · Cobertura E2E (Playwright): 3/6"
@@ -26,12 +26,12 @@
         },
         {
           "label": "Épicas",
-          "closed": 26,
+          "closed": 27,
           "total": 30
         },
         {
           "label": "Global",
-          "closed": 183,
+          "closed": 185,
           "total": 200
         }
       ],
