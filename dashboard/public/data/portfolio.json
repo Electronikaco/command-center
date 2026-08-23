@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T00:01:15.651Z",
+  "generatedAt": "2026-08-23T00:30:36.182Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-22T23:40:16Z",
+      "lastActivityAt": "2026-08-23T00:21:55Z",
       "progress": {
         "percent": 33,
         "label": "S20 · Calendario e integración Google Calendar: 1/3"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 179,
+          "closed": 180,
           "total": 200
         }
       ],
