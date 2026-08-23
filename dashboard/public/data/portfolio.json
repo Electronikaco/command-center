@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T03:30:33.118Z",
+  "generatedAt": "2026-08-23T04:00:40.043Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-23T01:11:24Z",
+      "lastActivityAt": "2026-08-23T03:56:18Z",
       "progress": {
         "percent": 50,
         "label": "QA · Cobertura E2E (Playwright): 3/6"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 182,
+          "closed": 183,
           "total": 200
         }
       ],
