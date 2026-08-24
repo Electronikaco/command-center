@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:00:38.048Z",
+  "generatedAt": "2026-08-24T14:30:40.504Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -501,14 +501,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-08-21T23:24:46Z",
       "progress": {
-        "percent": 46,
-        "label": "44/96 issues"
+        "percent": 45,
+        "label": "44/98 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 44,
-          "total": 96
+          "total": 98
         },
         {
           "label": "Épicas",
@@ -519,9 +519,23 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 96,
+        "totalIssues": 98,
         "closedIssues": 44,
         "issues": [
+          {
+            "number": 180,
+            "title": "Google Calendar: el state lanza RangeError si la firma tiene otra longitud, y su secreto no se exige al arrancar",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/180",
+            "updatedAt": "2026-08-24T14:18:55Z"
+          },
+          {
+            "number": 179,
+            "title": "El state de OAuth de Instagram y Messenger no caduca ni se consume una sola vez",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/179",
+            "updatedAt": "2026-08-24T14:18:54Z"
+          },
           {
             "number": 124,
             "title": "El state de OAuth de Instagram y Messenger puede firmarse con una constante publica del repo",
@@ -857,20 +871,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/11",
             "updatedAt": "2026-07-09T20:04:46Z"
-          },
-          {
-            "number": 10,
-            "title": "[EPIC] Integracion con Siigo para facturacion electronica (DIAN/CUFE)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/10",
-            "updatedAt": "2026-07-09T20:04:43Z"
-          },
-          {
-            "number": 9,
-            "title": "[EPIC] Gestion avanzada de citas: reagendar, confirmar, actualizar, notificaciones",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/9",
-            "updatedAt": "2026-07-09T20:04:40Z"
           }
         ],
         "truncated": true
@@ -912,11 +912,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T13:47:13Z",
+      "lastActivityAt": "2026-08-24T14:25:20Z",
       "progress": {
         "percent": 45,
         "label": "R2 · Hub → microservicios core: 5/11"
@@ -929,8 +929,8 @@
         },
         {
           "label": "Global",
-          "closed": 145,
-          "total": 170
+          "closed": 146,
+          "total": 171
         }
       ],
       "highlights": [],
@@ -1064,6 +1064,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 3
   }
 }
