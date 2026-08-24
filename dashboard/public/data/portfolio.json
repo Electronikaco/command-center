@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:30:40.504Z",
+  "generatedAt": "2026-08-24T15:00:46.727Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -499,15 +499,15 @@
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T23:24:46Z",
+      "lastActivityAt": "2026-08-24T14:49:16Z",
       "progress": {
-        "percent": 45,
-        "label": "44/98 issues"
+        "percent": 46,
+        "label": "45/98 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 44,
+          "closed": 45,
           "total": 98
         },
         {
@@ -520,8 +520,22 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 98,
-        "closedIssues": 44,
+        "closedIssues": 45,
         "issues": [
+          {
+            "number": 137,
+            "title": "El rate limit propio consume los reintentos y convierte un limite de tasa en perdida de mensajes",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/137",
+            "updatedAt": "2026-08-24T14:50:02Z"
+          },
+          {
+            "number": 136,
+            "title": "Doble entrega de mensajes salientes: hasta 9 envios por comando y check-then-act sin atomicidad",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/136",
+            "updatedAt": "2026-08-24T14:50:00Z"
+          },
           {
             "number": 180,
             "title": "Google Calendar: el state lanza RangeError si la firma tiene otra longitud, y su secreto no se exige al arrancar",
@@ -535,13 +549,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/179",
             "updatedAt": "2026-08-24T14:18:54Z"
-          },
-          {
-            "number": 124,
-            "title": "El state de OAuth de Instagram y Messenger puede firmarse con una constante publica del repo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/124",
-            "updatedAt": "2026-08-21T23:25:22Z"
           },
           {
             "number": 177,
@@ -689,20 +696,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/138",
             "updatedAt": "2026-08-18T15:25:11Z"
-          },
-          {
-            "number": 137,
-            "title": "El rate limit propio consume los reintentos y convierte un limite de tasa en perdida de mensajes",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/137",
-            "updatedAt": "2026-08-18T15:25:09Z"
-          },
-          {
-            "number": 136,
-            "title": "Doble entrega de mensajes salientes: hasta 9 envios por comando y check-then-act sin atomicidad",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/136",
-            "updatedAt": "2026-08-18T15:25:07Z"
           },
           {
             "number": 132,
@@ -871,6 +864,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/11",
             "updatedAt": "2026-07-09T20:04:46Z"
+          },
+          {
+            "number": 10,
+            "title": "[EPIC] Integracion con Siigo para facturacion electronica (DIAN/CUFE)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/10",
+            "updatedAt": "2026-07-09T20:04:43Z"
           }
         ],
         "truncated": true
@@ -890,12 +890,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 10,
-      "commits7d": 14,
+      "commits7d": 15,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-21T22:41:31Z",
+      "lastActivityAt": "2026-08-24T14:49:21Z",
       "progress": {
         "percent": null,
-        "label": "14 commits / 7d (develop)"
+        "label": "15 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
@@ -916,7 +916,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T14:25:20Z",
+      "lastActivityAt": "2026-08-24T14:58:53Z",
       "progress": {
         "percent": 45,
         "label": "R2 · Hub → microservicios core: 5/11"
@@ -929,8 +929,8 @@
         },
         {
           "label": "Global",
-          "closed": 146,
-          "total": 171
+          "closed": 148,
+          "total": 173
         }
       ],
       "highlights": [],
