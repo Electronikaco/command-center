@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T23:00:41.097Z",
+  "generatedAt": "2026-08-24T23:30:35.498Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -548,16 +548,16 @@
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T22:28:36Z",
+      "lastActivityAt": "2026-08-24T23:27:24Z",
       "progress": {
-        "percent": 43,
-        "label": "49/113 issues"
+        "percent": 44,
+        "label": "51/116 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 49,
-          "total": 113
+          "closed": 51,
+          "total": 116
         },
         {
           "label": "Épicas",
@@ -568,9 +568,51 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 113,
-        "closedIssues": 49,
+        "totalIssues": 116,
+        "closedIssues": 51,
         "issues": [
+          {
+            "number": 165,
+            "title": "Cuatro superficies mas siguen llamando a OpenAI sin comprobar el saldo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/165",
+            "updatedAt": "2026-08-24T23:27:59Z"
+          },
+          {
+            "number": 159,
+            "title": "webhooks-ack-durabilidad.test.ts es flaky bajo carga: espera un setTimeout fijo de 20ms",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/159",
+            "updatedAt": "2026-08-24T23:27:52Z"
+          },
+          {
+            "number": 204,
+            "title": "Se loguean 100 caracteres de cada nota de voz, y los logs se guardan 14 dias",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/204",
+            "updatedAt": "2026-08-24T23:22:57Z"
+          },
+          {
+            "number": 203,
+            "title": "El LLM se cobra dos veces si el mismo audio se encola dos veces: el turnId sale del jobId, no del wamid",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/203",
+            "updatedAt": "2026-08-24T23:22:56Z"
+          },
+          {
+            "number": 106,
+            "title": "IDOR: el estado de un job de audio se consulta sin comprobar el tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/106",
+            "updatedAt": "2026-08-24T23:22:29Z"
+          },
+          {
+            "number": 201,
+            "title": "Limpieza de voice-auth: quitar el parametro auth? sin llamadores, y arreglar la tabla de codigos del doc",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/201",
+            "updatedAt": "2026-08-24T23:02:09Z"
+          },
           {
             "number": 199,
             "title": "Un segundo WebSocket sobre el mismo callId cruza sesiones y puede cortar una llamada ajena del mismo tenant",
@@ -584,13 +626,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/200",
             "updatedAt": "2026-08-24T22:47:34Z"
-          },
-          {
-            "number": 160,
-            "title": "Endurecer el WebSocket de voz: la comparacion de tenant es codigo muerto y falta deny-by-default",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/160",
-            "updatedAt": "2026-08-24T22:29:06Z"
           },
           {
             "number": 197,
@@ -754,27 +789,6 @@
             "updatedAt": "2026-08-21T20:58:58Z"
           },
           {
-            "number": 165,
-            "title": "Cuatro superficies mas siguen llamando a OpenAI sin comprobar el saldo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/165",
-            "updatedAt": "2026-08-21T20:49:10Z"
-          },
-          {
-            "number": 162,
-            "title": "El STT se cobra dos veces al cliente cuando se reintenta un job de audio",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/162",
-            "updatedAt": "2026-08-21T20:17:55Z"
-          },
-          {
-            "number": 159,
-            "title": "webhooks-ack-durabilidad.test.ts es flaky bajo carga: espera un setTimeout fijo de 20ms",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/159",
-            "updatedAt": "2026-08-21T15:47:52Z"
-          },
-          {
             "number": 158,
             "title": "Los handlers de appointments leen el tenant del header en vez del contexto validado",
             "state": "OPEN",
@@ -887,13 +901,6 @@
             "updatedAt": "2026-08-13T22:30:58Z"
           },
           {
-            "number": 106,
-            "title": "IDOR: el estado de un job de audio se consulta sin comprobar el tenant",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/106",
-            "updatedAt": "2026-08-13T20:47:08Z"
-          },
-          {
             "number": 103,
             "title": "Declarar bearerAuth en securitySchemes del swagger de auth",
             "state": "OPEN",
@@ -913,13 +920,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/101",
             "updatedAt": "2026-08-13T19:48:36Z"
-          },
-          {
-            "number": 100,
-            "title": "Cambio de email propio en tenant-users sin reverificacion del correo nuevo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/100",
-            "updatedAt": "2026-08-13T19:48:34Z"
           }
         ],
         "truncated": true
@@ -939,12 +939,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 10,
-      "commits7d": 18,
+      "commits7d": 20,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T22:28:56Z",
+      "lastActivityAt": "2026-08-24T23:27:26Z",
       "progress": {
         "percent": null,
-        "label": "18 commits / 7d (develop)"
+        "label": "20 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
