@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T19:30:40.171Z",
+  "generatedAt": "2026-08-24T20:00:43.014Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -499,15 +499,15 @@
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T15:56:03Z",
+      "lastActivityAt": "2026-08-24T19:40:57Z",
       "progress": {
-        "percent": 44,
-        "label": "47/107 issues"
+        "percent": 45,
+        "label": "48/107 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 47,
+          "closed": 48,
           "total": 107
         },
         {
@@ -520,8 +520,15 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 107,
-        "closedIssues": 47,
+        "closedIssues": 48,
         "issues": [
+          {
+            "number": 147,
+            "title": "Los validadores de tenants usan check(), que barre el query: la autorizacion decide sobre un valor influible por el cliente",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/147",
+            "updatedAt": "2026-08-24T19:42:27Z"
+          },
           {
             "number": 191,
             "title": "Las compensaciones de alta de WhatsApp no revocan las credenciales: queda un token activo de una integracion borrada",
@@ -556,13 +563,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/187",
             "updatedAt": "2026-08-24T16:58:44Z"
-          },
-          {
-            "number": 143,
-            "title": "Un mismo phone_number_id de WhatsApp puede quedar en dos tenants: misma clase de bug que #96, otra tabla",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/143",
-            "updatedAt": "2026-08-24T15:56:55Z"
           },
           {
             "number": 185,
@@ -710,13 +710,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/148",
             "updatedAt": "2026-08-18T17:46:12Z"
-          },
-          {
-            "number": 147,
-            "title": "Los validadores de tenants usan check(), que barre el query: la autorizacion decide sobre un valor influible por el cliente",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/147",
-            "updatedAt": "2026-08-18T17:46:11Z"
           },
           {
             "number": 144,
@@ -871,6 +864,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/73",
             "updatedAt": "2026-08-05T16:38:30Z"
+          },
+          {
+            "number": 5,
+            "title": "[EPIC] Filtros por canal de adquisicion y agente en contactos y conversaciones",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/5",
+            "updatedAt": "2026-07-16T15:25:53Z"
           }
         ],
         "truncated": true
@@ -890,12 +890,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 10,
-      "commits7d": 16,
+      "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T15:56:13Z",
+      "lastActivityAt": "2026-08-24T19:41:05Z",
       "progress": {
         "percent": null,
-        "label": "16 commits / 7d (develop)"
+        "label": "17 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
