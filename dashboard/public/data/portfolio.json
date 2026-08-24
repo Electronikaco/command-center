@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T15:30:40.428Z",
+  "generatedAt": "2026-08-24T16:00:42.766Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -499,16 +499,16 @@
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T14:49:16Z",
+      "lastActivityAt": "2026-08-24T15:56:03Z",
       "progress": {
-        "percent": 45,
-        "label": "45/101 issues"
+        "percent": 46,
+        "label": "47/102 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 45,
-          "total": 101
+          "closed": 47,
+          "total": 102
         },
         {
           "label": "Épicas",
@@ -519,43 +519,43 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 101,
-        "closedIssues": 45,
+        "totalIssues": 102,
+        "closedIssues": 47,
         "issues": [
           {
-            "number": 184,
-            "title": "El aplazamiento infinito de #137 compite con el limitador global de 120/min y degrada a los demas tenants",
+            "number": 143,
+            "title": "Un mismo phone_number_id de WhatsApp puede quedar en dos tenants: misma clase de bug que #96, otra tabla",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/184",
-            "updatedAt": "2026-08-24T15:20:21Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/143",
+            "updatedAt": "2026-08-24T15:56:55Z"
           },
           {
-            "number": 183,
-            "title": "El claim atomico no cubre la ventana en vuelo: un job recuperado como stalled reenvia el mensaje",
+            "number": 185,
+            "title": "Residuos de la validacion de CHANNEL_RATE_LIMIT_PER_MINUTE: cadena vacia, sin cota superior y un regex de test laxo",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/183",
-            "updatedAt": "2026-08-24T15:20:19Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/185",
+            "updatedAt": "2026-08-24T15:37:45Z"
           },
           {
             "number": 182,
             "title": "Un tenant permanentemente saturado reencola su mensaje sin tope ni alerta",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/182",
-            "updatedAt": "2026-08-24T15:12:19Z"
+            "updatedAt": "2026-08-24T15:37:18Z"
           },
           {
-            "number": 137,
-            "title": "El rate limit propio consume los reintentos y convierte un limite de tasa en perdida de mensajes",
+            "number": 183,
+            "title": "El claim atomico no cubre la ventana en vuelo: un job recuperado como stalled reenvia el mensaje",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/137",
-            "updatedAt": "2026-08-24T14:50:02Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/183",
+            "updatedAt": "2026-08-24T15:37:17Z"
           },
           {
-            "number": 136,
-            "title": "Doble entrega de mensajes salientes: hasta 9 envios por comando y check-then-act sin atomicidad",
+            "number": 184,
+            "title": "El aplazamiento infinito de #137 compite con el limitador global de 120/min y degrada a los demas tenants",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/136",
-            "updatedAt": "2026-08-24T14:50:00Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/184",
+            "updatedAt": "2026-08-24T15:20:21Z"
           },
           {
             "number": 180,
@@ -689,13 +689,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/144",
             "updatedAt": "2026-08-18T16:10:22Z"
-          },
-          {
-            "number": 143,
-            "title": "Un mismo phone_number_id de WhatsApp puede quedar en dos tenants: misma clase de bug que #96, otra tabla",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/143",
-            "updatedAt": "2026-08-18T16:10:20Z"
           },
           {
             "number": 142,
@@ -871,6 +864,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/13",
             "updatedAt": "2026-07-09T20:04:52Z"
+          },
+          {
+            "number": 12,
+            "title": "[EPIC] Sistema de reportes: financieros, CRM, conversaciones y agentes",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/12",
+            "updatedAt": "2026-07-09T20:04:49Z"
           }
         ],
         "truncated": true
@@ -890,12 +890,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 10,
-      "commits7d": 15,
+      "commits7d": 16,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T14:49:21Z",
+      "lastActivityAt": "2026-08-24T15:56:13Z",
       "progress": {
         "percent": null,
-        "label": "15 commits / 7d (develop)"
+        "label": "16 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
