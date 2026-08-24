@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T22:30:37.355Z",
+  "generatedAt": "2026-08-24T23:00:41.097Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -550,14 +550,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-08-24T22:28:36Z",
       "progress": {
-        "percent": 44,
-        "label": "49/111 issues"
+        "percent": 43,
+        "label": "49/113 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 49,
-          "total": 111
+          "total": 113
         },
         {
           "label": "Épicas",
@@ -568,9 +568,23 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 111,
+        "totalIssues": 113,
         "closedIssues": 49,
         "issues": [
+          {
+            "number": 199,
+            "title": "Un segundo WebSocket sobre el mismo callId cruza sesiones y puede cortar una llamada ajena del mismo tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/199",
+            "updatedAt": "2026-08-24T22:54:56Z"
+          },
+          {
+            "number": 200,
+            "title": "El upgrade del WebSocket de voz no valida Origin: defensa en profundidad que falta",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/200",
+            "updatedAt": "2026-08-24T22:47:34Z"
+          },
           {
             "number": 160,
             "title": "Endurecer el WebSocket de voz: la comparacion de tenant es codigo muerto y falta deny-by-default",
@@ -906,20 +920,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/100",
             "updatedAt": "2026-08-13T19:48:34Z"
-          },
-          {
-            "number": 99,
-            "title": "Trazabilidad: las operaciones privilegiadas de tenants (auth) no registran al actor real",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/99",
-            "updatedAt": "2026-08-13T19:48:33Z"
-          },
-          {
-            "number": 30,
-            "title": "Unificación WhatsApp↔DDD Nivel 3: Migración completa (InboundMessagePipeline + eliminar legacy)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/30",
-            "updatedAt": "2026-08-05T16:39:01Z"
           }
         ],
         "truncated": true
