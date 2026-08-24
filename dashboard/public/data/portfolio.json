@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T17:00:47.838Z",
+  "generatedAt": "2026-08-24T17:30:38.309Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -501,14 +501,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-08-24T15:56:03Z",
       "progress": {
-        "percent": 46,
-        "label": "47/103 issues"
+        "percent": 44,
+        "label": "47/106 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 47,
-          "total": 103
+          "total": 106
         },
         {
           "label": "Épicas",
@@ -519,9 +519,30 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 103,
+        "totalIssues": 106,
         "closedIssues": 47,
         "issues": [
+          {
+            "number": 190,
+            "title": "npm run migrate falla en una base de datos nueva: dos migraciones existentes producen prosa ejecutable",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/190",
+            "updatedAt": "2026-08-24T17:03:53Z"
+          },
+          {
+            "number": 189,
+            "title": "Un registro ambiguo puede monopolizar el lote del barrido de recuperables",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/189",
+            "updatedAt": "2026-08-24T17:02:23Z"
+          },
+          {
+            "number": 188,
+            "title": "El fallback por waba_id es el mismo bug de enrutado en una tercera tabla",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/188",
+            "updatedAt": "2026-08-24T17:02:21Z"
+          },
           {
             "number": 187,
             "title": "Cuando se aplique el indice unico, la carrera volvera a degradarse a warn: el predicado no reconoce SequelizeUniqueConstraintError",
@@ -850,27 +871,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/5",
             "updatedAt": "2026-07-16T15:25:53Z"
-          },
-          {
-            "number": 15,
-            "title": "[EPIC] Integracion con Civok - Miliia (a definir)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/15",
-            "updatedAt": "2026-07-09T20:04:58Z"
-          },
-          {
-            "number": 14,
-            "title": "[EPIC] Integracion con TikTok Business Messaging (mensajeria directa)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/14",
-            "updatedAt": "2026-07-09T20:04:55Z"
-          },
-          {
-            "number": 13,
-            "title": "[EPIC] Dashboard de planes, programa de afiliados, reseller y whitelabel",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/13",
-            "updatedAt": "2026-07-09T20:04:52Z"
           }
         ],
         "truncated": true
