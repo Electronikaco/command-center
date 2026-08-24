@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T21:00:41.308Z",
+  "generatedAt": "2026-08-24T21:30:37.623Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,16 +13,16 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-23T04:21:10Z",
+      "lastActivityAt": "2026-08-24T21:24:43Z",
       "progress": {
-        "percent": 50,
-        "label": "QA · Cobertura E2E (Playwright): 3/6"
+        "percent": 69,
+        "label": "S17 · Informe pericial y biblioteca (EPIC-X): 9/13"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 3,
-          "total": 6
+          "closed": 9,
+          "total": 13
         },
         {
           "label": "Épicas",
@@ -31,57 +31,106 @@
         },
         {
           "label": "Global",
-          "closed": 184,
+          "closed": 185,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "QA · Cobertura E2E (Playwright)",
-        "totalIssues": 6,
-        "closedIssues": 3,
+        "label": "S17 · Informe pericial y biblioteca (EPIC-X)",
+        "totalIssues": 13,
+        "closedIssues": 9,
         "issues": [
           {
-            "number": 533,
-            "title": "[E2E] Refresh token real ante 401",
+            "number": 492,
+            "title": "UC-DM-X-07 · Bloque de declaraciones art. 226 CGP (10 declaraciones, autoinsertadas desde el perfil del perito)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/533",
-            "updatedAt": "2026-08-14T21:52:34Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/492",
+            "updatedAt": "2026-08-24T21:08:26Z"
           },
           {
-            "number": 535,
-            "title": "[E2E] Estados human-in-the-loop persisten contra backend real",
+            "number": 490,
+            "title": "UC-DM-X-05 · Selector de nivel de alcance I/II/III en FT-ILUS",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/535",
-            "updatedAt": "2026-08-14T15:23:21Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/490",
+            "updatedAt": "2026-08-24T21:08:26Z"
           },
           {
-            "number": 534,
-            "title": "[E2E] Guards de ruta sin sesión",
+            "number": 488,
+            "title": "UC-DM-X-03 · Módulo de hipótesis del encargo (H1/H0 por objetivo, confirmación de que H0 es la negación lógica de H1, resolución confirmada/rechazada/parcial)",
             "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/534",
-            "updatedAt": "2026-08-14T15:23:19Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/488",
+            "updatedAt": "2026-08-24T21:08:25Z"
           },
           {
-            "number": 532,
-            "title": "[E2E] Flujo completo de un caso: creación + primer módulo del pipeline",
-            "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/532",
-            "updatedAt": "2026-08-21T18:14:50Z"
+            "number": 440,
+            "title": "[EPIC-X] Informe pericial y biblioteca",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/440",
+            "updatedAt": "2026-08-04T21:56:13Z"
           },
           {
-            "number": 531,
-            "title": "[E2E] RBAC por rol vía UI",
+            "number": 497,
+            "title": "UC-DM-X-12 · Sesión de decisiones de producto con el stakeholder",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/531",
-            "updatedAt": "2026-08-21T18:14:48Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/497",
+            "updatedAt": "2026-08-24T21:07:45Z"
           },
           {
-            "number": 530,
-            "title": "[E2E] Aislamiento multi-tenant vía UI (RLS)",
+            "number": 487,
+            "title": "UC-DM-X-02 · Catálogo de instrumentos psicométricos (bloquea selección sin baremo, alerta baremo no colombiano)",
             "state": "CLOSED",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/530",
-            "updatedAt": "2026-08-21T18:14:47Z"
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/487",
+            "updatedAt": "2026-08-20T16:38:10Z"
+          },
+          {
+            "number": 493,
+            "title": "UC-DM-X-08 · Checklist de calidad del informe revisado en FT-META (§6.8, verificación de forma/metodología/cumplimiento normativo)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/493",
+            "updatedAt": "2026-08-19T20:41:36Z"
+          },
+          {
+            "number": 491,
+            "title": "UC-DM-X-06 · Bloque condicional de registro audiovisual (`tiene_registro_magnetico`): obligatorio y bloqueante en FT-CRED, opcional y degradante de alcance en FT-META",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/491",
+            "updatedAt": "2026-08-19T14:48:03Z"
+          },
+          {
+            "number": 489,
+            "title": "UC-DM-X-04 · Módulo CBCA con escala 0-1-2 (19 criterios, suma /38, rangos interpretativos de Raskin)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/489",
+            "updatedAt": "2026-08-19T00:04:54Z"
+          },
+          {
+            "number": 496,
+            "title": "UC-DM-X-11 · Diccionarios de estilo bloqueantes (términos prohibidos en discusión/formulación/conclusiones: \"se demuestra\", \"es culpable\", \"miente\", etc.)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/496",
+            "updatedAt": "2026-08-18T19:41:09Z"
+          },
+          {
+            "number": 495,
+            "title": "UC-DM-X-10 · Motor de anexos condicionados al repositorio del caso (bloquea export si falta anexo obligatorio: consentimiento, grabación, soportes)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/495",
+            "updatedAt": "2026-08-18T14:04:26Z"
+          },
+          {
+            "number": 494,
+            "title": "UC-DM-X-09 · Servicio de biblioteca: normalización APA 7 + verificación DOI + bloqueo cita-sin-referencia",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/494",
+            "updatedAt": "2026-08-15T00:41:15Z"
+          },
+          {
+            "number": 486,
+            "title": "UC-DM-X-01 · Motor de plantillas FT-* (portada + ficha técnica + apartados + ANEXO A/B) con doble modo `trabajo`/`judicial` vía Gotenberg",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/486",
+            "updatedAt": "2026-08-14T20:54:37Z"
           }
         ],
         "truncated": false
@@ -495,11 +544,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T20:40:14Z",
+      "lastActivityAt": "2026-08-24T21:11:36Z",
       "progress": {
         "percent": 45,
         "label": "48/107 issues"
@@ -527,7 +576,7 @@
             "title": "Los validadores de tenants usan check(), que barre el query: la autorizacion decide sobre un valor influible por el cliente",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/147",
-            "updatedAt": "2026-08-24T20:40:34Z"
+            "updatedAt": "2026-08-24T21:29:02Z"
           },
           {
             "number": 191,
@@ -912,11 +961,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T20:38:40Z",
+      "lastActivityAt": "2026-08-24T21:26:39Z",
       "progress": {
         "percent": 45,
         "label": "R2 · Hub → microservicios core: 5/11"
@@ -940,18 +989,18 @@
         "closedIssues": 5,
         "issues": [
           {
+            "number": 225,
+            "title": "MS-C4 · Split de BD de authz + romper lectura residual a usuarios (S2S/copia)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/225",
+            "updatedAt": "2026-08-24T21:09:31Z"
+          },
+          {
             "number": 175,
             "title": "MS-D · Extraer service-org (organización/territorial/workspaces/equipos + maestro de tenant)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/175",
             "updatedAt": "2026-08-21T17:07:35Z"
-          },
-          {
-            "number": 225,
-            "title": "MS-C4 · Split de BD de authz + romper lectura residual a usuarios (S2S/copia)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/225",
-            "updatedAt": "2026-08-21T16:12:05Z"
           },
           {
             "number": 176,
