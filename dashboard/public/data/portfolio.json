@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T22:00:38.946Z",
+  "generatedAt": "2026-08-24T22:30:37.355Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -548,16 +548,16 @@
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T21:11:36Z",
+      "lastActivityAt": "2026-08-24T22:28:36Z",
       "progress": {
-        "percent": 45,
-        "label": "48/107 issues"
+        "percent": 44,
+        "label": "49/111 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 48,
-          "total": 107
+          "closed": 49,
+          "total": 111
         },
         {
           "label": "Épicas",
@@ -568,15 +568,43 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 107,
-        "closedIssues": 48,
+        "totalIssues": 111,
+        "closedIssues": 49,
         "issues": [
           {
-            "number": 147,
-            "title": "Los validadores de tenants usan check(), que barre el query: la autorizacion decide sobre un valor influible por el cliente",
+            "number": 160,
+            "title": "Endurecer el WebSocket de voz: la comparacion de tenant es codigo muerto y falta deny-by-default",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/147",
-            "updatedAt": "2026-08-24T21:38:37Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/160",
+            "updatedAt": "2026-08-24T22:29:06Z"
+          },
+          {
+            "number": 197,
+            "title": "PUT /api/tenants/:id acepta cualquier cadena como plan, y su camino de escritura no tiene cobertura",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/197",
+            "updatedAt": "2026-08-24T22:27:54Z"
+          },
+          {
+            "number": 196,
+            "title": "Nueve parametros de ruta llegan al controlador sin validacion de formato",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/196",
+            "updatedAt": "2026-08-24T22:27:53Z"
+          },
+          {
+            "number": 195,
+            "title": "controllers/contacts.ts mezcla req.params.id y matchedData en el mismo fichero",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/195",
+            "updatedAt": "2026-08-24T22:24:22Z"
+          },
+          {
+            "number": 194,
+            "title": "Clase hermana de #147: check() sobre campos de query permite sobrescribirlos desde el body",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/194",
+            "updatedAt": "2026-08-24T22:14:44Z"
           },
           {
             "number": 191,
@@ -724,13 +752,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/162",
             "updatedAt": "2026-08-21T20:17:55Z"
-          },
-          {
-            "number": 160,
-            "title": "Endurecer el WebSocket de voz: la comparacion de tenant es codigo muerto y falta deny-by-default",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/160",
-            "updatedAt": "2026-08-21T19:56:16Z"
           },
           {
             "number": 159,
@@ -899,27 +920,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/30",
             "updatedAt": "2026-08-05T16:39:01Z"
-          },
-          {
-            "number": 74,
-            "title": "Unificación de canales E: retirar MetaWebhookRouterService, MetaProvider y modelos legacy de WhatsApp",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/74",
-            "updatedAt": "2026-08-05T16:38:49Z"
-          },
-          {
-            "number": 73,
-            "title": "Unificación de canales D: WhatsApp inbound por InboundMessagePipeline (tras flag)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/73",
-            "updatedAt": "2026-08-05T16:38:30Z"
-          },
-          {
-            "number": 5,
-            "title": "[EPIC] Filtros por canal de adquisicion y agente en contactos y conversaciones",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/5",
-            "updatedAt": "2026-07-16T15:25:53Z"
           }
         ],
         "truncated": true
@@ -939,12 +939,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 10,
-      "commits7d": 17,
+      "commits7d": 18,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T19:41:05Z",
+      "lastActivityAt": "2026-08-24T22:28:56Z",
       "progress": {
         "percent": null,
-        "label": "17 commits / 7d (develop)"
+        "label": "18 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
