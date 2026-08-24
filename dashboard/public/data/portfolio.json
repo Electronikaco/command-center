@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T16:30:46.900Z",
+  "generatedAt": "2026-08-24T17:00:47.838Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -502,13 +502,13 @@
       "lastActivityAt": "2026-08-24T15:56:03Z",
       "progress": {
         "percent": 46,
-        "label": "47/102 issues"
+        "label": "47/103 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 47,
-          "total": 102
+          "total": 103
         },
         {
           "label": "Épicas",
@@ -519,9 +519,16 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 102,
+        "totalIssues": 103,
         "closedIssues": 47,
         "issues": [
+          {
+            "number": 187,
+            "title": "Cuando se aplique el indice unico, la carrera volvera a degradarse a warn: el predicado no reconoce SequelizeUniqueConstraintError",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/187",
+            "updatedAt": "2026-08-24T16:58:44Z"
+          },
           {
             "number": 143,
             "title": "Un mismo phone_number_id de WhatsApp puede quedar en dos tenants: misma clase de bug que #96, otra tabla",
@@ -864,13 +871,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/13",
             "updatedAt": "2026-07-09T20:04:52Z"
-          },
-          {
-            "number": 12,
-            "title": "[EPIC] Sistema de reportes: financieros, CRM, conversaciones y agentes",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/12",
-            "updatedAt": "2026-07-09T20:04:49Z"
           }
         ],
         "truncated": true
@@ -930,7 +930,7 @@
         {
           "label": "Global",
           "closed": 151,
-          "total": 175
+          "total": 176
         }
       ],
       "highlights": [],
