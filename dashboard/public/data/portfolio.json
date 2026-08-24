@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T19:00:41.278Z",
+  "generatedAt": "2026-08-24T19:30:40.171Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -502,13 +502,13 @@
       "lastActivityAt": "2026-08-24T15:56:03Z",
       "progress": {
         "percent": 44,
-        "label": "47/106 issues"
+        "label": "47/107 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 47,
-          "total": 106
+          "total": 107
         },
         {
           "label": "Épicas",
@@ -519,9 +519,16 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 106,
+        "totalIssues": 107,
         "closedIssues": 47,
         "issues": [
+          {
+            "number": 191,
+            "title": "Las compensaciones de alta de WhatsApp no revocan las credenciales: queda un token activo de una integracion borrada",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/191",
+            "updatedAt": "2026-08-24T19:22:05Z"
+          },
           {
             "number": 190,
             "title": "npm run migrate falla en una base de datos nueva: dos migraciones existentes producen prosa ejecutable",
@@ -864,13 +871,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/73",
             "updatedAt": "2026-08-05T16:38:30Z"
-          },
-          {
-            "number": 5,
-            "title": "[EPIC] Filtros por canal de adquisicion y agente en contactos y conversaciones",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/5",
-            "updatedAt": "2026-07-16T15:25:53Z"
           }
         ],
         "truncated": true
@@ -912,11 +912,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T16:11:26Z",
+      "lastActivityAt": "2026-08-24T19:12:40Z",
       "progress": {
         "percent": 45,
         "label": "R2 · Hub → microservicios core: 5/11"
@@ -1064,6 +1064,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 3
   }
 }
