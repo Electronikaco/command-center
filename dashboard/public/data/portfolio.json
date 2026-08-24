@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T20:30:39.245Z",
+  "generatedAt": "2026-08-24T21:00:41.308Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 185,
+          "closed": 184,
           "total": 200
         }
       ],
@@ -495,11 +495,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T19:40:57Z",
+      "lastActivityAt": "2026-08-24T20:40:14Z",
       "progress": {
         "percent": 45,
         "label": "48/107 issues"
@@ -527,7 +527,7 @@
             "title": "Los validadores de tenants usan check(), que barre el query: la autorizacion decide sobre un valor influible por el cliente",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/147",
-            "updatedAt": "2026-08-24T19:42:27Z"
+            "updatedAt": "2026-08-24T20:40:34Z"
           },
           {
             "number": 191,
@@ -912,11 +912,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T19:12:40Z",
+      "lastActivityAt": "2026-08-24T20:38:40Z",
       "progress": {
         "percent": 45,
         "label": "R2 · Hub → microservicios core: 5/11"
@@ -929,7 +929,7 @@
         },
         {
           "label": "Global",
-          "closed": 151,
+          "closed": 152,
           "total": 176
         }
       ],
@@ -1035,7 +1035,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-20T21:29:49Z",
+      "lastActivityAt": "2026-08-24T20:55:42Z",
       "progress": {
         "percent": 75,
         "label": "M6 · Hub Console: cierre R1-front: 6/8"
