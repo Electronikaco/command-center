@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:00:43.906Z",
+  "generatedAt": "2026-08-25T21:30:37.550Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T20:50:06Z",
+      "lastActivityAt": "2026-08-25T21:07:52Z",
       "progress": {
         "percent": 69,
         "label": "S17 · Informe pericial y biblioteca (EPIC-X): 9/13"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 185,
+          "closed": 186,
           "total": 200
         }
       ],
@@ -41,6 +41,13 @@
         "totalIssues": 13,
         "closedIssues": 9,
         "issues": [
+          {
+            "number": 488,
+            "title": "UC-DM-X-03 · Módulo de hipótesis del encargo (H1/H0 por objetivo, confirmación de que H0 es la negación lógica de H1, resolución confirmada/rechazada/parcial)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/488",
+            "updatedAt": "2026-08-25T21:24:47Z"
+          },
           {
             "number": 492,
             "title": "UC-DM-X-07 · Bloque de declaraciones art. 226 CGP (10 declaraciones, autoinsertadas desde el perfil del perito)",
@@ -54,13 +61,6 @@
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/490",
             "updatedAt": "2026-08-24T21:08:26Z"
-          },
-          {
-            "number": 488,
-            "title": "UC-DM-X-03 · Módulo de hipótesis del encargo (H1/H0 por objetivo, confirmación de que H0 es la negación lógica de H1, resolución confirmada/rechazada/parcial)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/488",
-            "updatedAt": "2026-08-24T21:08:25Z"
           },
           {
             "number": 440,
@@ -572,6 +572,13 @@
         "closedIssues": 60,
         "issues": [
           {
+            "number": 206,
+            "title": "La subida a vector stores no tiene cuota por plan: va incluida en el plan, pero sin techo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/206",
+            "updatedAt": "2026-08-25T21:06:07Z"
+          },
+          {
             "number": 88,
             "title": "EPIC-15-08 · JWT en Socket.IO y validar pertenencia de la conversacion al unir room",
             "state": "OPEN",
@@ -682,13 +689,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/207",
             "updatedAt": "2026-08-25T00:03:15Z"
-          },
-          {
-            "number": 206,
-            "title": "Quinta superficie sin piso de saldo: la subida a vector stores llama a OpenAI y nunca cobra",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/206",
-            "updatedAt": "2026-08-24T23:53:01Z"
           },
           {
             "number": 204,
@@ -979,7 +979,7 @@
         {
           "label": "Global",
           "closed": 161,
-          "total": 181
+          "total": 182
         }
       ],
       "highlights": [],
@@ -1113,6 +1113,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 6
+    "totalOpenPrs": 5
   }
 }
