@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T23:30:35.498Z",
+  "generatedAt": "2026-08-25T00:01:09.131Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -551,13 +551,13 @@
       "lastActivityAt": "2026-08-24T23:27:24Z",
       "progress": {
         "percent": 44,
-        "label": "51/116 issues"
+        "label": "51/117 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 51,
-          "total": 116
+          "total": 117
         },
         {
           "label": "Épicas",
@@ -568,9 +568,16 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 116,
+        "totalIssues": 117,
         "closedIssues": 51,
         "issues": [
+          {
+            "number": 206,
+            "title": "Quinta superficie sin piso de saldo: la subida a vector stores llama a OpenAI y nunca cobra",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/206",
+            "updatedAt": "2026-08-24T23:53:01Z"
+          },
           {
             "number": 165,
             "title": "Cuatro superficies mas siguen llamando a OpenAI sin comprobar el saldo",
@@ -913,13 +920,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/102",
             "updatedAt": "2026-08-13T19:48:37Z"
-          },
-          {
-            "number": 101,
-            "title": "TOCTOU en hasSingleActiveOwner: dos degradaciones concurrentes pueden dejar un tenant sin OWNER",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/101",
-            "updatedAt": "2026-08-13T19:48:36Z"
           }
         ],
         "truncated": true
