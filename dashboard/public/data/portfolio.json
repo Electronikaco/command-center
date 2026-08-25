@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T03:30:34.205Z",
+  "generatedAt": "2026-08-25T04:00:38.469Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -548,7 +548,7 @@
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T03:25:52Z",
+      "lastActivityAt": "2026-08-25T03:57:53Z",
       "progress": {
         "percent": 45,
         "label": "59/131 issues"
@@ -572,18 +572,18 @@
         "closedIssues": 59,
         "issues": [
           {
+            "number": 226,
+            "title": "Escritura cross-tenant via la cache de handoff sin namespacing: se extiende la ventana de servicio de WhatsApp de otro tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/226",
+            "updatedAt": "2026-08-25T03:57:19Z"
+          },
+          {
             "number": 227,
             "title": "MediaProcessingService lee el contenido de un mensaje sin acotar por tenant y lo inyecta en el prompt de vision",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/227",
             "updatedAt": "2026-08-25T03:26:46Z"
-          },
-          {
-            "number": 226,
-            "title": "Escritura cross-tenant via la cache de handoff sin namespacing: se extiende la ventana de servicio de WhatsApp de otro tenant",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/226",
-            "updatedAt": "2026-08-25T03:26:27Z"
           },
           {
             "number": 217,
