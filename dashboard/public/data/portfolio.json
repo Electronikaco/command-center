@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T00:01:09.131Z",
+  "generatedAt": "2026-08-25T00:30:43.673Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -548,16 +548,16 @@
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T23:27:24Z",
+      "lastActivityAt": "2026-08-25T00:23:20Z",
       "progress": {
         "percent": 44,
-        "label": "51/117 issues"
+        "label": "53/121 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 51,
-          "total": 117
+          "closed": 53,
+          "total": 121
         },
         {
           "label": "Épicas",
@@ -568,22 +568,50 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 117,
-        "closedIssues": 51,
+        "totalIssues": 121,
+        "closedIssues": 53,
         "issues": [
+          {
+            "number": 171,
+            "title": "Los tenants creados por TenantService nacen sin ningun rol que gestione roles",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/171",
+            "updatedAt": "2026-08-25T00:24:26Z"
+          },
+          {
+            "number": 210,
+            "title": "getConversationHistory lee mensajes sin filtrar por tenant: hoy lo contiene un throw posterior",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/210",
+            "updatedAt": "2026-08-25T00:24:16Z"
+          },
+          {
+            "number": 212,
+            "title": "Residuos del pipeline de audio: oraculo por temporizacion y un assistant ajeno leido antes de rechazarlo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/212",
+            "updatedAt": "2026-08-25T00:23:43Z"
+          },
+          {
+            "number": 209,
+            "title": "Cinco advertencias de los gates al cerrar #165: el 402 en workers, en SSE y en el widget",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/209",
+            "updatedAt": "2026-08-25T00:04:37Z"
+          },
+          {
+            "number": 207,
+            "title": "GET /health/openai expone parte de la API key sin autenticacion y dispara llamadas al proveedor",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/207",
+            "updatedAt": "2026-08-25T00:03:15Z"
+          },
           {
             "number": 206,
             "title": "Quinta superficie sin piso de saldo: la subida a vector stores llama a OpenAI y nunca cobra",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/206",
             "updatedAt": "2026-08-24T23:53:01Z"
-          },
-          {
-            "number": 165,
-            "title": "Cuatro superficies mas siguen llamando a OpenAI sin comprobar el saldo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/165",
-            "updatedAt": "2026-08-24T23:27:59Z"
           },
           {
             "number": 159,
@@ -605,13 +633,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/203",
             "updatedAt": "2026-08-24T23:22:56Z"
-          },
-          {
-            "number": 106,
-            "title": "IDOR: el estado de un job de audio se consulta sin comprobar el tenant",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/106",
-            "updatedAt": "2026-08-24T23:22:29Z"
           },
           {
             "number": 201,
@@ -782,13 +803,6 @@
             "updatedAt": "2026-08-21T21:49:34Z"
           },
           {
-            "number": 171,
-            "title": "Los tenants creados por TenantService nacen sin ningun rol que gestione roles",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/171",
-            "updatedAt": "2026-08-21T21:49:33Z"
-          },
-          {
             "number": 166,
             "title": "Los audios de WhatsApp nunca crean fila de inbound, ni en el camino feliz",
             "state": "OPEN",
@@ -906,20 +920,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/114",
             "updatedAt": "2026-08-13T22:30:58Z"
-          },
-          {
-            "number": 103,
-            "title": "Declarar bearerAuth en securitySchemes del swagger de auth",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/103",
-            "updatedAt": "2026-08-13T19:48:38Z"
-          },
-          {
-            "number": 102,
-            "title": "resend-invitation devuelve el token de invitacion en el cuerpo de la respuesta",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/102",
-            "updatedAt": "2026-08-13T19:48:37Z"
           }
         ],
         "truncated": true
@@ -939,12 +939,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 10,
-      "commits7d": 20,
+      "commits7d": 21,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T23:27:26Z",
+      "lastActivityAt": "2026-08-25T00:05:01Z",
       "progress": {
         "percent": null,
-        "label": "20 commits / 7d (develop)"
+        "label": "21 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
