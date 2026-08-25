@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T00:30:43.673Z",
+  "generatedAt": "2026-08-25T01:00:40.056Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -548,16 +548,16 @@
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T00:23:20Z",
+      "lastActivityAt": "2026-08-25T00:53:36Z",
       "progress": {
         "percent": 44,
-        "label": "53/121 issues"
+        "label": "54/123 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 53,
-          "total": 121
+          "closed": 54,
+          "total": 123
         },
         {
           "label": "Épicas",
@@ -568,15 +568,29 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 121,
-        "closedIssues": 53,
+        "totalIssues": 123,
+        "closedIssues": 54,
         "issues": [
           {
-            "number": 171,
-            "title": "Los tenants creados por TenantService nacen sin ningun rol que gestione roles",
+            "number": 173,
+            "title": "Dos tokens de bootstrap vivos a la vez esquivan la serializacion y permiten dos OWNER",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/171",
-            "updatedAt": "2026-08-25T00:24:26Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/173",
+            "updatedAt": "2026-08-25T00:54:09Z"
+          },
+          {
+            "number": 213,
+            "title": "TenantRole.createDefaultRole siembra EMPLOYEE y no tiene llamadores: reabriria el bug de #171",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/213",
+            "updatedAt": "2026-08-25T00:52:34Z"
+          },
+          {
+            "number": 214,
+            "title": "deleteRole no comprueba si el rol tiene usuarios asignados: se puede borrar OWNER con el dueno dentro",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/214",
+            "updatedAt": "2026-08-25T00:50:48Z"
           },
           {
             "number": 210,
@@ -789,13 +803,6 @@
             "updatedAt": "2026-08-21T22:48:01Z"
           },
           {
-            "number": 173,
-            "title": "Dos tokens de bootstrap vivos a la vez esquivan la serializacion y permiten dos OWNER",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/173",
-            "updatedAt": "2026-08-21T22:48:00Z"
-          },
-          {
             "number": 172,
             "title": "Defensa en profundidad en tenant-roles: TOCTOU en la guarda y repositorio sin filtro de tenant",
             "state": "OPEN",
@@ -913,13 +920,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/115",
             "updatedAt": "2026-08-13T22:30:59Z"
-          },
-          {
-            "number": 114,
-            "title": "No hay via por API para promover un segundo super admin",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/114",
-            "updatedAt": "2026-08-13T22:30:58Z"
           }
         ],
         "truncated": true
