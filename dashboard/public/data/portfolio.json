@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T02:30:34.413Z",
+  "generatedAt": "2026-08-25T03:00:44.085Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -548,16 +548,16 @@
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T01:27:13Z",
+      "lastActivityAt": "2026-08-25T02:34:28Z",
       "progress": {
         "percent": 44,
-        "label": "55/126 issues"
+        "label": "56/127 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 55,
-          "total": 126
+          "closed": 56,
+          "total": 127
         },
         {
           "label": "Épicas",
@@ -568,29 +568,36 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 126,
-        "closedIssues": 55,
+        "totalIssues": 127,
+        "closedIssues": 56,
         "issues": [
           {
-            "number": 159,
-            "title": "webhooks-ack-durabilidad.test.ts es flaky bajo carga: espera un setTimeout fijo de 20ms",
+            "number": 221,
+            "title": "Residuo de #143: tres findOne globales por phone_number_id en el outbound pueden usar credenciales del tenant equivocado",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/159",
-            "updatedAt": "2026-08-25T02:26:24Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/221",
+            "updatedAt": "2026-08-25T02:58:47Z"
+          },
+          {
+            "number": 188,
+            "title": "El fallback por waba_id es el mismo bug de enrutado en una tercera tabla",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/188",
+            "updatedAt": "2026-08-25T02:35:09Z"
           },
           {
             "number": 219,
             "title": "No hay barrido de filas queued sin job vivo: un mensaje atascado es invisible para siempre",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/219",
-            "updatedAt": "2026-08-25T01:48:13Z"
+            "updatedAt": "2026-08-25T02:33:34Z"
           },
           {
-            "number": 183,
-            "title": "El claim atomico no cubre la ventana en vuelo: un job recuperado como stalled reenvia el mensaje",
+            "number": 159,
+            "title": "webhooks-ack-durabilidad.test.ts es flaky bajo carga: espera un setTimeout fijo de 20ms",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/183",
-            "updatedAt": "2026-08-25T01:27:25Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/159",
+            "updatedAt": "2026-08-25T02:33:34Z"
           },
           {
             "number": 217,
@@ -738,13 +745,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/189",
             "updatedAt": "2026-08-24T17:02:23Z"
-          },
-          {
-            "number": 188,
-            "title": "El fallback por waba_id es el mismo bug de enrutado en una tercera tabla",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/188",
-            "updatedAt": "2026-08-24T17:02:21Z"
           },
           {
             "number": 187,
@@ -939,12 +939,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 10,
-      "commits7d": 21,
+      "commits7d": 22,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T00:05:01Z",
+      "lastActivityAt": "2026-08-25T02:34:30Z",
       "progress": {
         "percent": null,
-        "label": "21 commits / 7d (develop)"
+        "label": "22 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
