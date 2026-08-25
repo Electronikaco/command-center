@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T20:30:41.978Z",
+  "generatedAt": "2026-08-25T21:00:43.906Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T20:24:32Z",
+      "lastActivityAt": "2026-08-25T20:50:06Z",
       "progress": {
         "percent": 69,
         "label": "S17 · Informe pericial y biblioteca (EPIC-X): 9/13"
