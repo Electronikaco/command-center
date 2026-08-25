@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T16:00:45.364Z",
+  "generatedAt": "2026-08-25T16:30:41.858Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -544,11 +544,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 2,
       "mergedPrs30d": 50,
-      "commits7d": 15,
+      "commits7d": 14,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T14:29:56Z",
+      "lastActivityAt": "2026-08-25T16:26:16Z",
       "progress": {
         "percent": 45,
         "label": "60/132 issues"
@@ -571,6 +571,20 @@
         "totalIssues": 132,
         "closedIssues": 60,
         "issues": [
+          {
+            "number": 88,
+            "title": "EPIC-15-08 · JWT en Socket.IO y validar pertenencia de la conversacion al unir room",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/88",
+            "updatedAt": "2026-08-25T16:27:22Z"
+          },
+          {
+            "number": 113,
+            "title": "URGENTE: la llave privada RS256 de firma de JWT esta versionada en git",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/113",
+            "updatedAt": "2026-08-25T16:26:57Z"
+          },
           {
             "number": 230,
             "title": "El INSERT en messages no tiene guard de tenant: el residual de #226 depende de una sola capa",
@@ -852,13 +866,6 @@
             "updatedAt": "2026-08-21T15:47:51Z"
           },
           {
-            "number": 113,
-            "title": "URGENTE: la llave privada RS256 de firma de JWT esta versionada en git",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/113",
-            "updatedAt": "2026-08-21T14:52:34Z"
-          },
-          {
             "number": 148,
             "title": "Oraculo de existencia de tenants: validateTenant devuelve 404 y assertTenantOwnership 403",
             "state": "OPEN",
@@ -913,13 +920,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/126",
             "updatedAt": "2026-08-13T23:56:20Z"
-          },
-          {
-            "number": 125,
-            "title": "/health expone internos de infraestructura sin autenticacion",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/125",
-            "updatedAt": "2026-08-13T23:38:49Z"
           }
         ],
         "truncated": true
@@ -937,14 +937,14 @@
       "type": "github",
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 10,
-      "commits7d": 23,
+      "commits7d": 21,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T03:25:54Z",
+      "lastActivityAt": "2026-08-25T16:19:04Z",
       "progress": {
         "percent": null,
-        "label": "23 commits / 7d (develop)"
+        "label": "21 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
@@ -965,7 +965,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T15:57:39Z",
+      "lastActivityAt": "2026-08-25T16:30:14Z",
       "progress": {
         "percent": 82,
         "label": "R2 · Hub → microservicios core: 9/11"
@@ -978,7 +978,7 @@
         },
         {
           "label": "Global",
-          "closed": 159,
+          "closed": 161,
           "total": 180
         }
       ],
@@ -993,7 +993,7 @@
             "title": "MS-F · Extraer service-personas (maestro de Persona + documentos/contactos/direcciones)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/177",
-            "updatedAt": "2026-08-25T15:09:40Z"
+            "updatedAt": "2026-08-25T16:16:12Z"
           },
           {
             "number": 166,
@@ -1113,6 +1113,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 2
+    "totalOpenPrs": 4
   }
 }
