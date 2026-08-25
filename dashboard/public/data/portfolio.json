@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T01:00:40.056Z",
+  "generatedAt": "2026-08-25T01:30:37.770Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -548,16 +548,16 @@
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T00:53:36Z",
+      "lastActivityAt": "2026-08-25T01:27:13Z",
       "progress": {
         "percent": 44,
-        "label": "54/123 issues"
+        "label": "55/125 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 54,
-          "total": 123
+          "closed": 55,
+          "total": 125
         },
         {
           "label": "Épicas",
@@ -568,15 +568,29 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 123,
-        "closedIssues": 54,
+        "totalIssues": 125,
+        "closedIssues": 55,
         "issues": [
           {
-            "number": 173,
-            "title": "Dos tokens de bootstrap vivos a la vez esquivan la serializacion y permiten dos OWNER",
+            "number": 183,
+            "title": "El claim atomico no cubre la ventana en vuelo: un job recuperado como stalled reenvia el mensaje",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/173",
-            "updatedAt": "2026-08-25T00:54:09Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/183",
+            "updatedAt": "2026-08-25T01:27:25Z"
+          },
+          {
+            "number": 217,
+            "title": "Residuos de #173: la via de Google sin guardia de regresion, y la invariante sin respaldo de esquema",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/217",
+            "updatedAt": "2026-08-25T01:26:27Z"
+          },
+          {
+            "number": 216,
+            "title": "emitirTokenBootstrap comprueba los usuarios fuera del cerrojo: puede entregar un token que ya no sirve",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/216",
+            "updatedAt": "2026-08-25T01:10:40Z"
           },
           {
             "number": 213,
@@ -747,13 +761,6 @@
             "updatedAt": "2026-08-24T15:37:18Z"
           },
           {
-            "number": 183,
-            "title": "El claim atomico no cubre la ventana en vuelo: un job recuperado como stalled reenvia el mensaje",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/183",
-            "updatedAt": "2026-08-24T15:37:17Z"
-          },
-          {
             "number": 184,
             "title": "El aplazamiento infinito de #137 compite con el limitador global de 120/min y degrada a los demas tenants",
             "state": "OPEN",
@@ -913,13 +920,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/118",
             "updatedAt": "2026-08-13T23:03:12Z"
-          },
-          {
-            "number": 115,
-            "title": "Carrera entre la comprobacion y la creacion en el bootstrap de system admin",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/115",
-            "updatedAt": "2026-08-13T22:30:59Z"
           }
         ],
         "truncated": true
