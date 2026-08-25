@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T13:30:36.499Z",
+  "generatedAt": "2026-08-25T14:00:43.200Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -965,7 +965,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-24T21:45:48Z",
+      "lastActivityAt": "2026-08-25T13:39:19Z",
       "progress": {
         "percent": 55,
         "label": "R2 · Hub → microservicios core: 6/11"
@@ -978,7 +978,7 @@
         },
         {
           "label": "Global",
-          "closed": 153,
+          "closed": 154,
           "total": 176
         }
       ],
