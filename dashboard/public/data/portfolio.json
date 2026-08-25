@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T03:00:44.085Z",
+  "generatedAt": "2026-08-25T03:30:34.205Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -548,42 +548,70 @@
       "mergedPrs30d": 50,
       "commits7d": 17,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T02:34:28Z",
+      "lastActivityAt": "2026-08-25T03:25:52Z",
       "progress": {
-        "percent": 44,
-        "label": "56/127 issues"
+        "percent": 45,
+        "label": "59/131 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 56,
-          "total": 127
+          "closed": 59,
+          "total": 131
         },
         {
           "label": "Épicas",
-          "closed": 6,
+          "closed": 7,
           "total": 17
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 127,
-        "closedIssues": 56,
+        "totalIssues": 131,
+        "closedIssues": 59,
         "issues": [
           {
-            "number": 221,
-            "title": "Residuo de #143: tres findOne globales por phone_number_id en el outbound pueden usar credenciales del tenant equivocado",
+            "number": 227,
+            "title": "MediaProcessingService lee el contenido de un mensaje sin acotar por tenant y lo inyecta en el prompt de vision",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/221",
-            "updatedAt": "2026-08-25T02:58:47Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/227",
+            "updatedAt": "2026-08-25T03:26:46Z"
           },
           {
-            "number": 188,
-            "title": "El fallback por waba_id es el mismo bug de enrutado en una tercera tabla",
+            "number": 226,
+            "title": "Escritura cross-tenant via la cache de handoff sin namespacing: se extiende la ventana de servicio de WhatsApp de otro tenant",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/188",
-            "updatedAt": "2026-08-25T02:35:09Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/226",
+            "updatedAt": "2026-08-25T03:26:27Z"
+          },
+          {
+            "number": 217,
+            "title": "Residuos de #173: la via de Google sin guardia de regresion, y la invariante sin respaldo de esquema",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/217",
+            "updatedAt": "2026-08-25T03:14:21Z"
+          },
+          {
+            "number": 224,
+            "title": "Los eventos de plantilla de una WABA compartida se pierden: el auto-pause de campanas es cumplimiento, no sync",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/224",
+            "updatedAt": "2026-08-25T03:11:58Z"
+          },
+          {
+            "number": 223,
+            "title": "Residuos de #188: una integracion offboardeada deja la WABA ambigua para siempre, y cuatro mas",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/223",
+            "updatedAt": "2026-08-25T03:11:58Z"
+          },
+          {
+            "number": 221,
+            "title": "Residuo de #143: dos findOne globales por phone_number_id en el outbound hacen fallar el envio con un error que miente",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/221",
+            "updatedAt": "2026-08-25T03:11:19Z"
           },
           {
             "number": 219,
@@ -598,13 +626,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/159",
             "updatedAt": "2026-08-25T02:33:34Z"
-          },
-          {
-            "number": 217,
-            "title": "Residuos de #173: la via de Google sin guardia de regresion, y la invariante sin respaldo de esquema",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/217",
-            "updatedAt": "2026-08-25T01:26:27Z"
           },
           {
             "number": 216,
@@ -626,13 +647,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/214",
             "updatedAt": "2026-08-25T00:50:48Z"
-          },
-          {
-            "number": 210,
-            "title": "getConversationHistory lee mensajes sin filtrar por tenant: hoy lo contiene un throw posterior",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/210",
-            "updatedAt": "2026-08-25T00:24:16Z"
           },
           {
             "number": 212,
@@ -894,13 +908,6 @@
             "updatedAt": "2026-08-14T00:27:36Z"
           },
           {
-            "number": 78,
-            "title": "[EPIC] Cerrar la superficie de aislamiento multi-tenant y autorizacion",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/78",
-            "updatedAt": "2026-08-14T00:05:55Z"
-          },
-          {
             "number": 126,
             "title": "Se loguea la firma del webhook de ePayco, contra la regla explicita de AGENTS.md",
             "state": "OPEN",
@@ -913,13 +920,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/125",
             "updatedAt": "2026-08-13T23:38:49Z"
-          },
-          {
-            "number": 88,
-            "title": "EPIC-15-08 · JWT en Socket.IO y validar pertenencia de la conversacion al unir room",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/88",
-            "updatedAt": "2026-08-13T23:38:48Z"
           }
         ],
         "truncated": true
@@ -939,12 +939,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 10,
-      "commits7d": 22,
+      "commits7d": 24,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T02:34:30Z",
+      "lastActivityAt": "2026-08-25T03:25:54Z",
       "progress": {
         "percent": null,
-        "label": "22 commits / 7d (develop)"
+        "label": "24 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
