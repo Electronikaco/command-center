@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T01:30:37.770Z",
+  "generatedAt": "2026-08-25T02:00:45.126Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -551,13 +551,13 @@
       "lastActivityAt": "2026-08-25T01:27:13Z",
       "progress": {
         "percent": 44,
-        "label": "55/125 issues"
+        "label": "55/126 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 55,
-          "total": 125
+          "total": 126
         },
         {
           "label": "Épicas",
@@ -568,9 +568,16 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 125,
+        "totalIssues": 126,
         "closedIssues": 55,
         "issues": [
+          {
+            "number": 219,
+            "title": "No hay barrido de filas queued sin job vivo: un mensaje atascado es invisible para siempre",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/219",
+            "updatedAt": "2026-08-25T01:48:13Z"
+          },
           {
             "number": 183,
             "title": "El claim atomico no cubre la ventana en vuelo: un job recuperado como stalled reenvia el mensaje",
@@ -913,13 +920,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/88",
             "updatedAt": "2026-08-13T23:38:48Z"
-          },
-          {
-            "number": 118,
-            "title": "Defensa en profundidad: TenantRoleService y su repositorio no filtran por tenant",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/118",
-            "updatedAt": "2026-08-13T23:03:12Z"
           }
         ],
         "truncated": true
