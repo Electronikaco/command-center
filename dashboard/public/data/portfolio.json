@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T14:30:42.247Z",
+  "generatedAt": "2026-08-25T15:00:45.181Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -550,14 +550,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-08-25T14:29:56Z",
       "progress": {
-        "percent": 46,
-        "label": "60/131 issues"
+        "percent": 45,
+        "label": "60/132 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 60,
-          "total": 131
+          "total": 132
         },
         {
           "label": "Épicas",
@@ -568,9 +568,16 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 131,
+        "totalIssues": 132,
         "closedIssues": 60,
         "issues": [
+          {
+            "number": 230,
+            "title": "El INSERT en messages no tiene guard de tenant: el residual de #226 depende de una sola capa",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/230",
+            "updatedAt": "2026-08-25T14:30:45Z"
+          },
           {
             "number": 227,
             "title": "MediaProcessingService lee el contenido de un mensaje sin acotar por tenant y lo inyecta en el prompt de vision",
@@ -913,13 +920,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/125",
             "updatedAt": "2026-08-13T23:38:49Z"
-          },
-          {
-            "number": 88,
-            "title": "EPIC-15-08 · JWT en Socket.IO y validar pertenencia de la conversacion al unir room",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/88",
-            "updatedAt": "2026-08-13T23:38:48Z"
           }
         ],
         "truncated": true
@@ -967,18 +967,18 @@
       "commits30d": 30,
       "lastActivityAt": "2026-08-25T13:39:19Z",
       "progress": {
-        "percent": 55,
-        "label": "R2 · Hub → microservicios core: 6/11"
+        "percent": 82,
+        "label": "R2 · Hub → microservicios core: 9/11"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 6,
+          "closed": 9,
           "total": 11
         },
         {
           "label": "Global",
-          "closed": 154,
+          "closed": 158,
           "total": 177
         }
       ],
@@ -986,29 +986,8 @@
       "issueBreakdown": {
         "label": "R2 · Hub → microservicios core",
         "totalIssues": 11,
-        "closedIssues": 6,
+        "closedIssues": 9,
         "issues": [
-          {
-            "number": 175,
-            "title": "MS-D · Extraer service-org (organización/territorial/workspaces/equipos + maestro de tenant)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/175",
-            "updatedAt": "2026-08-21T17:07:35Z"
-          },
-          {
-            "number": 176,
-            "title": "MS-E · Extraer service-auth (SSO/sesiones/JWKS + usuarios + apikeys + registro)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/176",
-            "updatedAt": "2026-08-21T16:12:04Z"
-          },
-          {
-            "number": 174,
-            "title": "MS-C · Extraer service-authz (roles/permisos/acciones + catálogo de apps)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/174",
-            "updatedAt": "2026-08-18T13:51:28Z"
-          },
           {
             "number": 177,
             "title": "MS-F · Extraer service-personas (maestro de Persona + documentos/contactos/direcciones)",
@@ -1022,6 +1001,27 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/166",
             "updatedAt": "2026-08-06T15:19:34Z"
+          },
+          {
+            "number": 176,
+            "title": "MS-E · Extraer service-auth (SSO/sesiones/JWKS + usuarios + apikeys + registro)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/176",
+            "updatedAt": "2026-08-25T14:38:11Z"
+          },
+          {
+            "number": 175,
+            "title": "MS-D · Extraer service-org (organización/territorial/workspaces/equipos + maestro de tenant)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/175",
+            "updatedAt": "2026-08-25T14:38:09Z"
+          },
+          {
+            "number": 174,
+            "title": "MS-C · Extraer service-authz (roles/permisos/acciones + catálogo de apps)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/174",
+            "updatedAt": "2026-08-25T14:38:07Z"
           },
           {
             "number": 225,
