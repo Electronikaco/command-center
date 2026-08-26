@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T22:00:42.407Z",
+  "generatedAt": "2026-08-26T22:30:41.936Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -938,7 +938,7 @@
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "ok",
       "openPrs": 1,
-      "mergedPrs30d": 10,
+      "mergedPrs30d": 8,
       "commits7d": 20,
       "commits30d": 30,
       "lastActivityAt": "2026-08-25T16:19:04Z",
