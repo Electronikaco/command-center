@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T14:00:47.873Z",
+  "generatedAt": "2026-08-26T14:30:37.111Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -46,7 +46,7 @@
             "title": "UC-DM-X-05 · Selector de nivel de alcance I/II/III en FT-ILUS",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/490",
-            "updatedAt": "2026-08-26T13:56:42Z"
+            "updatedAt": "2026-08-26T14:06:43Z"
           },
           {
             "number": 492,
