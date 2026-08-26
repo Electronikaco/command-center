@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T16:30:39.716Z",
+  "generatedAt": "2026-08-26T17:00:41.259Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -961,11 +961,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-26T15:59:38Z",
+      "lastActivityAt": "2026-08-26T16:47:29Z",
       "progress": {
         "percent": 82,
         "label": "R2 · Hub → microservicios core: 9/11"
@@ -978,7 +978,7 @@
         },
         {
           "label": "Global",
-          "closed": 164,
+          "closed": 165,
           "total": 186
         }
       ],
@@ -1113,6 +1113,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 5
   }
 }
