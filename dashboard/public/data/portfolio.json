@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T13:30:37.816Z",
+  "generatedAt": "2026-08-26T14:00:47.873Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -46,7 +46,7 @@
             "title": "UC-DM-X-05 · Selector de nivel de alcance I/II/III en FT-ILUS",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/490",
-            "updatedAt": "2026-08-26T03:38:01Z"
+            "updatedAt": "2026-08-26T13:56:42Z"
           },
           {
             "number": 492,
@@ -961,11 +961,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-26T13:30:26Z",
+      "lastActivityAt": "2026-08-26T13:49:16Z",
       "progress": {
         "percent": 82,
         "label": "R2 · Hub → microservicios core: 9/11"
@@ -979,7 +979,7 @@
         {
           "label": "Global",
           "closed": 163,
-          "total": 182
+          "total": 183
         }
       ],
       "highlights": [],
@@ -1113,6 +1113,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 5
   }
 }
