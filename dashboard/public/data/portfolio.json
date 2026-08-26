@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T23:30:39.676Z",
+  "generatedAt": "2026-08-26T00:01:10.885Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,15 +13,15 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-25T23:17:07Z",
+      "lastActivityAt": "2026-08-25T23:53:51Z",
       "progress": {
-        "percent": 67,
-        "label": "QA · Cobertura E2E (Playwright): 4/6"
+        "percent": 83,
+        "label": "QA · Cobertura E2E (Playwright): 5/6"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 4,
+          "closed": 5,
           "total": 6
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 187,
+          "closed": 188,
           "total": 200
         }
       ],
@@ -39,21 +39,21 @@
       "issueBreakdown": {
         "label": "QA · Cobertura E2E (Playwright)",
         "totalIssues": 6,
-        "closedIssues": 4,
+        "closedIssues": 5,
         "issues": [
-          {
-            "number": 535,
-            "title": "[E2E] Estados human-in-the-loop persisten contra backend real",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/535",
-            "updatedAt": "2026-08-25T22:12:04Z"
-          },
           {
             "number": 533,
             "title": "[E2E] Refresh token real ante 401",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/533",
             "updatedAt": "2026-08-25T22:11:59Z"
+          },
+          {
+            "number": 535,
+            "title": "[E2E] Estados human-in-the-loop persisten contra backend real",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/535",
+            "updatedAt": "2026-08-25T23:54:03Z"
           },
           {
             "number": 534,
