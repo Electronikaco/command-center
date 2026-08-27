@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T15:30:37.461Z",
+  "generatedAt": "2026-08-27T16:00:45.687Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -967,18 +967,18 @@
       "commits30d": 30,
       "lastActivityAt": "2026-08-27T15:30:01Z",
       "progress": {
-        "percent": 71,
-        "label": "R2 · Hub → microservicios core: 10/14"
+        "percent": 79,
+        "label": "R2 · Hub → microservicios core: 11/14"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 10,
+          "closed": 11,
           "total": 14
         },
         {
           "label": "Global",
-          "closed": 167,
+          "closed": 168,
           "total": 188
         }
       ],
@@ -986,28 +986,21 @@
       "issueBreakdown": {
         "label": "R2 · Hub → microservicios core",
         "totalIssues": 14,
-        "closedIssues": 10,
+        "closedIssues": 11,
         "issues": [
-          {
-            "number": 301,
-            "title": "#297·1c · service-personas requireAdmin: resolver de permisos local → aplicar patrón S2S (#290) antes de F4",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/301",
-            "updatedAt": "2026-08-26T20:04:52Z"
-          },
           {
             "number": 297,
             "title": "Read-side cross-dominio S2S — completar + auditar (GATE de F4 · endurece splits A-E)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/297",
-            "updatedAt": "2026-08-26T20:04:49Z"
+            "updatedAt": "2026-08-27T15:31:16Z"
           },
           {
             "number": 177,
             "title": "MS-F · Extraer service-personas (maestro de Persona + documentos/contactos/direcciones)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/177",
-            "updatedAt": "2026-08-26T20:02:17Z"
+            "updatedAt": "2026-08-27T15:30:37Z"
           },
           {
             "number": 166,
@@ -1015,6 +1008,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/166",
             "updatedAt": "2026-08-06T15:19:34Z"
+          },
+          {
+            "number": 301,
+            "title": "#297·1c · service-personas requireAdmin: resolver de permisos local → aplicar patrón S2S (#290) antes de F4",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/301",
+            "updatedAt": "2026-08-27T15:30:34Z"
           },
           {
             "number": 300,
