@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T13:00:42.936Z",
+  "generatedAt": "2026-08-27T13:30:36.617Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -993,7 +993,7 @@
             "title": "hardening(auth): acotar el OTP-bombing de MFA cross-challenge (cap por-usuario/destino)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/190",
-            "updatedAt": "2026-08-26T20:17:59Z"
+            "updatedAt": "2026-08-27T13:09:22Z"
           },
           {
             "number": 278,
