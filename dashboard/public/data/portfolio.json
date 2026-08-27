@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T21:30:37.170Z",
+  "generatedAt": "2026-08-27T22:00:46.231Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -964,24 +964,24 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 15,
-      "lastActivityAt": "2026-08-27T21:28:05Z",
+      "lastActivityAt": "2026-08-27T21:58:20Z",
       "progress": {
-        "percent": 25,
-        "label": "R2 · Endurecimiento y cierre del split: 2/8"
+        "percent": 38,
+        "label": "R2 · Endurecimiento y cierre del split: 3/8"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 2,
+          "closed": 3,
           "total": 8
         },
         {
           "label": "Global",
-          "closed": 169,
+          "closed": 170,
           "total": 188
         }
       ],
@@ -989,7 +989,7 @@
       "issueBreakdown": {
         "label": "R2 · Endurecimiento y cierre del split",
         "totalIssues": 8,
-        "closedIssues": 2,
+        "closedIssues": 3,
         "issues": [
           {
             "number": 190,
@@ -1020,18 +1020,18 @@
             "updatedAt": "2026-08-26T20:05:07Z"
           },
           {
-            "number": 197,
-            "title": "refine(roles): paginación del selector con filter[appUid] al incluir RolCatalogo",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/197",
-            "updatedAt": "2026-08-26T20:05:06Z"
-          },
-          {
             "number": 295,
             "title": "🔒 Hardening de seguridad del split — gate de producción (2 ALTO + 3 MEDIO · auditoría)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/295",
             "updatedAt": "2026-08-26T20:04:59Z"
+          },
+          {
+            "number": 197,
+            "title": "refine(roles): paginación del selector con filter[appUid] al incluir RolCatalogo",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/197",
+            "updatedAt": "2026-08-27T21:32:51Z"
           },
           {
             "number": 195,
@@ -1098,6 +1098,6 @@
     "healthy": 4,
     "degraded": 2,
     "error": 0,
-    "totalOpenPrs": 6
+    "totalOpenPrs": 7
   }
 }
