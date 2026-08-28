@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T15:30:37.870Z",
+  "generatedAt": "2026-08-28T16:00:40.860Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -491,7 +491,7 @@
       "healthReason": "PRs estancados",
       "openPrs": 2,
       "mergedPrs30d": 50,
-      "commits7d": 4,
+      "commits7d": 3,
       "commits30d": 30,
       "lastActivityAt": "2026-08-25T16:26:16Z",
       "progress": {
@@ -908,11 +908,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 8,
+      "openPrs": 9,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-08-28T15:28:39Z",
+      "lastActivityAt": "2026-08-28T15:38:13Z",
       "progress": {
         "percent": 65,
         "label": "R2 · Hub → microservicios core: 11/17"
@@ -936,6 +936,13 @@
         "closedIssues": 11,
         "issues": [
           {
+            "number": 322,
+            "title": "#297·2c · service-org: validateRole (WSP-02) por S2S al catálogo de roles de authz",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/322",
+            "updatedAt": "2026-08-28T15:38:42Z"
+          },
+          {
             "number": 321,
             "title": "#297·2b · service-auth: romper por S2S/copia las 3 lecturas residuales del alta (persona/workspace/clientId)",
             "state": "OPEN",
@@ -955,13 +962,6 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/297",
             "updatedAt": "2026-08-28T14:54:50Z"
-          },
-          {
-            "number": 322,
-            "title": "#297·2c · service-org: validateRole (WSP-02) por S2S al catálogo de roles de authz",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/322",
-            "updatedAt": "2026-08-28T14:54:29Z"
           },
           {
             "number": 177,
@@ -1105,6 +1105,6 @@
     "healthy": 4,
     "degraded": 2,
     "error": 0,
-    "totalOpenPrs": 13
+    "totalOpenPrs": 14
   }
 }
