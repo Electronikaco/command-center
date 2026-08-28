@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T15:00:42.577Z",
+  "generatedAt": "2026-08-28T15:30:37.870Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -491,7 +491,7 @@
       "healthReason": "PRs estancados",
       "openPrs": 2,
       "mergedPrs30d": 50,
-      "commits7d": 5,
+      "commits7d": 4,
       "commits30d": 30,
       "lastActivityAt": "2026-08-25T16:26:16Z",
       "progress": {
@@ -886,12 +886,12 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 8,
-      "commits7d": 20,
+      "commits7d": 17,
       "commits30d": 30,
       "lastActivityAt": "2026-08-25T16:19:04Z",
       "progress": {
         "percent": null,
-        "label": "20 commits / 7d (develop)"
+        "label": "17 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
@@ -908,11 +908,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 6,
+      "openPrs": 8,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-08-28T14:51:00Z",
+      "lastActivityAt": "2026-08-28T15:28:39Z",
       "progress": {
         "percent": 65,
         "label": "R2 · Hub → microservicios core: 11/17"
@@ -936,6 +936,20 @@
         "closedIssues": 11,
         "issues": [
           {
+            "number": 321,
+            "title": "#297·2b · service-auth: romper por S2S/copia las 3 lecturas residuales del alta (persona/workspace/clientId)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/321",
+            "updatedAt": "2026-08-28T15:29:13Z"
+          },
+          {
+            "number": 320,
+            "title": "#297·2a · service-authz: lecturas de LICENCIA (apps contratadas · D27) por S2S a hub-licensing — PRIORITARIO",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/320",
+            "updatedAt": "2026-08-28T15:09:37Z"
+          },
+          {
             "number": 297,
             "title": "Read-side cross-dominio S2S — completar + auditar (GATE de F4 · endurece splits A-E)",
             "state": "OPEN",
@@ -948,20 +962,6 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/322",
             "updatedAt": "2026-08-28T14:54:29Z"
-          },
-          {
-            "number": 321,
-            "title": "#297·2b · service-auth: romper por S2S/copia las 3 lecturas residuales del alta (persona/workspace/clientId)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/321",
-            "updatedAt": "2026-08-28T14:54:27Z"
-          },
-          {
-            "number": 320,
-            "title": "#297·2a · service-authz: lecturas de LICENCIA (apps contratadas · D27) por S2S a hub-licensing — PRIORITARIO",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/320",
-            "updatedAt": "2026-08-28T14:54:26Z"
           },
           {
             "number": 177,
@@ -1105,6 +1105,6 @@
     "healthy": 4,
     "degraded": 2,
     "error": 0,
-    "totalOpenPrs": 11
+    "totalOpenPrs": 13
   }
 }
