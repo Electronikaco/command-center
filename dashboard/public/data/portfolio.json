@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T10:00:35.444Z",
+  "generatedAt": "2026-08-28T10:30:34.247Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -912,20 +912,20 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-08-27T23:34:34Z",
+      "lastActivityAt": "2026-08-28T10:13:39Z",
       "progress": {
-        "percent": 27,
-        "label": "R2 · Endurecimiento y cierre del split: 3/11"
+        "percent": 36,
+        "label": "R2 · Endurecimiento y cierre del split: 4/11"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 3,
+          "closed": 4,
           "total": 11
         },
         {
           "label": "Global",
-          "closed": 171,
+          "closed": 172,
           "total": 191
         }
       ],
@@ -933,15 +933,8 @@
       "issueBreakdown": {
         "label": "R2 · Endurecimiento y cierre del split",
         "totalIssues": 11,
-        "closedIssues": 3,
+        "closedIssues": 4,
         "issues": [
-          {
-            "number": 318,
-            "title": "Investigar por qué el split físico vacía civok_hub (catálogo + licenciamiento) — pérdida recurrente",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/318",
-            "updatedAt": "2026-08-28T09:58:27Z"
-          },
           {
             "number": 317,
             "title": "El push del árbol debe UPSERTEAR la app (PAD→Hub cachea) para auto-sanar sin registro manual",
@@ -990,6 +983,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/295",
             "updatedAt": "2026-08-26T20:04:59Z"
+          },
+          {
+            "number": 318,
+            "title": "Investigar por qué el split físico vacía civok_hub (catálogo + licenciamiento) — pérdida recurrente",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/318",
+            "updatedAt": "2026-08-28T10:13:42Z"
           },
           {
             "number": 197,
