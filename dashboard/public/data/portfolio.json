@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T17:30:38.581Z",
+  "generatedAt": "2026-08-28T18:00:43.272Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -908,109 +908,116 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 9,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-08-28T15:38:13Z",
+      "lastActivityAt": "2026-08-28T17:42:08Z",
       "progress": {
-        "percent": 36,
-        "label": "CRM del Hub · Personas/visitantes: 4/11"
+        "percent": 33,
+        "label": "R2 · Endurecimiento y cierre del split: 4/12"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
           "closed": 4,
-          "total": 11
+          "total": 12
         },
         {
           "label": "Global",
           "closed": 173,
-          "total": 194
+          "total": 195
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "CRM del Hub · Personas/visitantes",
-        "totalIssues": 11,
+        "label": "R2 · Endurecimiento y cierre del split",
+        "totalIssues": 12,
         "closedIssues": 4,
         "issues": [
           {
-            "number": 210,
-            "title": "hardening(service-crm): privacy-by-design en logs para CRM-03+ (query string, err.message, wrong-key test)",
+            "number": 326,
+            "title": "Re-seed idempotente del LICENCIAMIENTO de civok_hub desde las adquisiciones aprobadas del PAD (recuperación del incidente + salvaguarda) — PRIORITARIO",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/210",
-            "updatedAt": "2026-08-26T20:04:56Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/326",
+            "updatedAt": "2026-08-28T17:50:45Z"
           },
           {
-            "number": 209,
-            "title": "CONV · Verificar/asegurar emisión de eventos de recursos consumidos por Turno",
+            "number": 198,
+            "title": "hardening(authz): revalidar contrato de app en el ENFORCEMENT tras revocación (roles de catálogo/personalizados)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/209",
-            "updatedAt": "2026-08-26T20:04:54Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/198",
+            "updatedAt": "2026-08-28T17:34:44Z"
           },
           {
-            "number": 205,
-            "title": "CRM-06 · Consumo por apps consumidoras (alcance por app, read-only)",
+            "number": 317,
+            "title": "El push del árbol debe UPSERTEAR la app (PAD→Hub cachea) para auto-sanar sin registro manual",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/205",
-            "updatedAt": "2026-08-26T20:02:15Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/317",
+            "updatedAt": "2026-08-28T09:58:25Z"
           },
           {
-            "number": 204,
-            "title": "CRM-05 · 'Apps usadas' por la persona (proyección básica en el CRM)",
+            "number": 316,
+            "title": "Cablear el camino S2S del PAD post-split (canje→service-auth + push→hub-api) — desbloquea publicar vitrina de Turno",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/204",
-            "updatedAt": "2026-08-26T20:02:12Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/316",
+            "updatedAt": "2026-08-28T09:57:56Z"
           },
           {
-            "number": 203,
-            "title": "CRM-04 · Vista 360 mínima de la persona (read-only, privacidad by design)",
+            "number": 190,
+            "title": "hardening(auth): acotar el OTP-bombing de MFA cross-challenge (cap por-usuario/destino)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/203",
-            "updatedAt": "2026-08-26T20:02:11Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/190",
+            "updatedAt": "2026-08-27T13:09:22Z"
           },
           {
-            "number": 199,
-            "title": "[EPIC] F1 · CRM lectura de personas/visitantes (por organización + consentimiento)",
+            "number": 278,
+            "title": "Bug (dev-infra): segfault nativo intermitente de service-org/auth bajo carga de registro (exit 139 · ~Prisma engine)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/199",
-            "updatedAt": "2026-08-11T20:29:22Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/278",
+            "updatedAt": "2026-08-26T20:05:10Z"
           },
           {
-            "number": 206,
-            "title": "[EPIC] F2 · Interacción por app en el CRM (Turno primero)",
+            "number": 214,
+            "title": "S2S para PAD · exponer licencia por org (estado/serial/fechas) y roles del cliente por app",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/206",
-            "updatedAt": "2026-08-11T20:11:15Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/214",
+            "updatedAt": "2026-08-26T20:05:09Z"
           },
           {
-            "number": 202,
-            "title": "CRM-03 · Lectura de visitantes por organización + consentimiento (fail-closed)",
+            "number": 295,
+            "title": "🔒 Hardening de seguridad del split — gate de producción (2 ALTO + 3 MEDIO · auditoría)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/295",
+            "updatedAt": "2026-08-26T20:04:59Z"
+          },
+          {
+            "number": 318,
+            "title": "Investigar por qué el split físico vacía civok_hub (catálogo + licenciamiento) — pérdida recurrente",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/202",
-            "updatedAt": "2026-08-28T16:05:04Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/318",
+            "updatedAt": "2026-08-28T10:13:42Z"
           },
           {
-            "number": 211,
-            "title": "chore(service-crm): empaquetado de despliegue (Dockerfile + PM2/compose + CHANGELOG)",
+            "number": 197,
+            "title": "refine(roles): paginación del selector con filter[appUid] al incluir RolCatalogo",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/211",
-            "updatedAt": "2026-08-27T22:03:04Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/197",
+            "updatedAt": "2026-08-27T21:32:51Z"
           },
           {
-            "number": 201,
-            "title": "CRM-02 · Front door en hub-bff + S2S (contrato público)",
+            "number": 195,
+            "title": "chore(licensing-core): mover los test-fakes a un subpath @civok-hub/licensing-core/testing",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/201",
-            "updatedAt": "2026-08-11T21:27:42Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/195",
+            "updatedAt": "2026-08-27T21:23:08Z"
           },
           {
-            "number": 200,
-            "title": "CRM-01 · Scaffold del microservicio service-crm (skill backend-microservicios)",
+            "number": 185,
+            "title": "chore(supply-chain): propagar `--frozen-lockfile` a los Dockerfiles de hub-api y hub-worker",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/200",
-            "updatedAt": "2026-08-11T20:50:34Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/185",
+            "updatedAt": "2026-08-26T20:07:33Z"
           }
         ],
         "truncated": false
@@ -1063,6 +1070,6 @@
     "healthy": 4,
     "degraded": 2,
     "error": 0,
-    "totalOpenPrs": 14
+    "totalOpenPrs": 6
   }
 }
