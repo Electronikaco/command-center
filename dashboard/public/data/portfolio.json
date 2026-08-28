@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T21:00:43.017Z",
+  "generatedAt": "2026-08-28T21:30:38.670Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -885,7 +885,7 @@
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "ok",
       "openPrs": 1,
-      "mergedPrs30d": 5,
+      "mergedPrs30d": 4,
       "commits7d": 14,
       "commits30d": 30,
       "lastActivityAt": "2026-08-25T16:19:04Z",
@@ -908,33 +908,40 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-08-28T17:42:08Z",
+      "lastActivityAt": "2026-08-28T21:23:18Z",
       "progress": {
-        "percent": 33,
-        "label": "R2 · Endurecimiento y cierre del split: 4/12"
+        "percent": 31,
+        "label": "R2 · Endurecimiento y cierre del split: 4/13"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
           "closed": 4,
-          "total": 12
+          "total": 13
         },
         {
           "label": "Global",
           "closed": 173,
-          "total": 195
+          "total": 196
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "R2 · Endurecimiento y cierre del split",
-        "totalIssues": 12,
+        "totalIssues": 13,
         "closedIssues": 4,
         "issues": [
+          {
+            "number": 327,
+            "title": "BUG · hub-licensing quedó fuera de la migración del directorio de tenant (#282/#288) → 500 TENANT_ISOLATION en TODOS sus endpoints",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/327",
+            "updatedAt": "2026-08-28T21:20:43Z"
+          },
           {
             "number": 326,
             "title": "Re-seed idempotente del LICENCIAMIENTO de civok_hub desde las adquisiciones aprobadas del PAD (recuperación del incidente + salvaguarda) — PRIORITARIO",
@@ -1070,6 +1077,6 @@
     "healthy": 4,
     "degraded": 2,
     "error": 0,
-    "totalOpenPrs": 6
+    "totalOpenPrs": 8
   }
 }
