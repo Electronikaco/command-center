@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T19:30:40.836Z",
+  "generatedAt": "2026-08-28T20:00:45.387Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -491,7 +491,7 @@
       "healthReason": "PRs estancados",
       "openPrs": 2,
       "mergedPrs30d": 50,
-      "commits7d": 3,
+      "commits7d": 2,
       "commits30d": 30,
       "lastActivityAt": "2026-08-25T16:26:16Z",
       "progress": {
@@ -885,13 +885,13 @@
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "ok",
       "openPrs": 1,
-      "mergedPrs30d": 6,
-      "commits7d": 17,
+      "mergedPrs30d": 5,
+      "commits7d": 16,
       "commits30d": 30,
       "lastActivityAt": "2026-08-25T16:19:04Z",
       "progress": {
         "percent": null,
-        "label": "17 commits / 7d (develop)"
+        "label": "16 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
