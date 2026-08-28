@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T16:00:40.860Z",
+  "generatedAt": "2026-08-28T16:30:39.215Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -914,145 +914,103 @@
       "commits30d": 13,
       "lastActivityAt": "2026-08-28T15:38:13Z",
       "progress": {
-        "percent": 65,
-        "label": "R2 · Hub → microservicios core: 11/17"
+        "percent": 36,
+        "label": "CRM del Hub · Personas/visitantes: 4/11"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 11,
-          "total": 17
+          "closed": 4,
+          "total": 11
         },
         {
           "label": "Global",
-          "closed": 172,
+          "closed": 173,
           "total": 194
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "R2 · Hub → microservicios core",
-        "totalIssues": 17,
-        "closedIssues": 11,
+        "label": "CRM del Hub · Personas/visitantes",
+        "totalIssues": 11,
+        "closedIssues": 4,
         "issues": [
           {
-            "number": 322,
-            "title": "#297·2c · service-org: validateRole (WSP-02) por S2S al catálogo de roles de authz",
+            "number": 210,
+            "title": "hardening(service-crm): privacy-by-design en logs para CRM-03+ (query string, err.message, wrong-key test)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/322",
-            "updatedAt": "2026-08-28T15:38:42Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/210",
+            "updatedAt": "2026-08-26T20:04:56Z"
           },
           {
-            "number": 321,
-            "title": "#297·2b · service-auth: romper por S2S/copia las 3 lecturas residuales del alta (persona/workspace/clientId)",
+            "number": 209,
+            "title": "CONV · Verificar/asegurar emisión de eventos de recursos consumidos por Turno",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/321",
-            "updatedAt": "2026-08-28T15:29:13Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/209",
+            "updatedAt": "2026-08-26T20:04:54Z"
           },
           {
-            "number": 320,
-            "title": "#297·2a · service-authz: lecturas de LICENCIA (apps contratadas · D27) por S2S a hub-licensing — PRIORITARIO",
+            "number": 205,
+            "title": "CRM-06 · Consumo por apps consumidoras (alcance por app, read-only)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/320",
-            "updatedAt": "2026-08-28T15:09:37Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/205",
+            "updatedAt": "2026-08-26T20:02:15Z"
           },
           {
-            "number": 297,
-            "title": "Read-side cross-dominio S2S — completar + auditar (GATE de F4 · endurece splits A-E)",
+            "number": 204,
+            "title": "CRM-05 · 'Apps usadas' por la persona (proyección básica en el CRM)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/297",
-            "updatedAt": "2026-08-28T14:54:50Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/204",
+            "updatedAt": "2026-08-26T20:02:12Z"
           },
           {
-            "number": 177,
-            "title": "MS-F · Extraer service-personas (maestro de Persona + documentos/contactos/direcciones)",
+            "number": 203,
+            "title": "CRM-04 · Vista 360 mínima de la persona (read-only, privacidad by design)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/177",
-            "updatedAt": "2026-08-27T15:30:37Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/203",
+            "updatedAt": "2026-08-26T20:02:11Z"
           },
           {
-            "number": 166,
-            "title": "BFF-03 · Descomponer hub-api en microservicios core (fase mayor)",
+            "number": 199,
+            "title": "[EPIC] F1 · CRM lectura de personas/visitantes (por organización + consentimiento)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/166",
-            "updatedAt": "2026-08-06T15:19:34Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/199",
+            "updatedAt": "2026-08-11T20:29:22Z"
           },
           {
-            "number": 301,
-            "title": "#297·1c · service-personas requireAdmin: resolver de permisos local → aplicar patrón S2S (#290) antes de F4",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/301",
-            "updatedAt": "2026-08-27T15:30:34Z"
+            "number": 206,
+            "title": "[EPIC] F2 · Interacción por app en el CRM (Turno primero)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/206",
+            "updatedAt": "2026-08-11T20:11:15Z"
           },
           {
-            "number": 300,
-            "title": "#297·1b · service-auth LOGIN: workspaceAccess + resolveOrgSubdominio leen ORG → romper por S2S",
+            "number": 202,
+            "title": "CRM-03 · Lectura de visitantes por organización + consentimiento (fail-closed)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/300",
-            "updatedAt": "2026-08-27T15:21:17Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/202",
+            "updatedAt": "2026-08-28T16:05:04Z"
           },
           {
-            "number": 176,
-            "title": "MS-E · Extraer service-auth (SSO/sesiones/JWKS + usuarios + apikeys + registro)",
+            "number": 211,
+            "title": "chore(service-crm): empaquetado de despliegue (Dockerfile + PM2/compose + CHANGELOG)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/176",
-            "updatedAt": "2026-08-25T14:38:11Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/211",
+            "updatedAt": "2026-08-27T22:03:04Z"
           },
           {
-            "number": 175,
-            "title": "MS-D · Extraer service-org (organización/territorial/workspaces/equipos + maestro de tenant)",
+            "number": 201,
+            "title": "CRM-02 · Front door en hub-bff + S2S (contrato público)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/175",
-            "updatedAt": "2026-08-25T14:38:09Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/201",
+            "updatedAt": "2026-08-11T21:27:42Z"
           },
           {
-            "number": 174,
-            "title": "MS-C · Extraer service-authz (roles/permisos/acciones + catálogo de apps)",
+            "number": 200,
+            "title": "CRM-01 · Scaffold del microservicio service-crm (skill backend-microservicios)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/174",
-            "updatedAt": "2026-08-25T14:38:07Z"
-          },
-          {
-            "number": 225,
-            "title": "MS-C4 · Split de BD de authz + romper lectura residual a usuarios (S2S/copia)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/225",
-            "updatedAt": "2026-08-24T21:34:18Z"
-          },
-          {
-            "number": 224,
-            "title": "MS-C3 · Outbox + S2S de service-authz",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/224",
-            "updatedAt": "2026-08-18T14:48:49Z"
-          },
-          {
-            "number": 223,
-            "title": "MS-C2 · Enrutar authz por el hub-bff (SERVICE_ROUTES → service-authz)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/223",
-            "updatedAt": "2026-08-18T14:36:11Z"
-          },
-          {
-            "number": 222,
-            "title": "MS-C1 · Scaffold apps/service-authz consumiendo authz-core",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/222",
-            "updatedAt": "2026-08-18T14:28:46Z"
-          },
-          {
-            "number": 173,
-            "title": "MS-B · Extraer hub-licensing (licencias/planes/addons/paquetes/contratos/flags)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/173",
-            "updatedAt": "2026-08-08T16:34:59Z"
-          },
-          {
-            "number": 172,
-            "title": "MS-A · Fundaciones: BFF como router + librerías transversales + contratos S2S",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/172",
-            "updatedAt": "2026-08-07T00:07:29Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/200",
+            "updatedAt": "2026-08-11T20:50:34Z"
           }
         ],
         "truncated": false
