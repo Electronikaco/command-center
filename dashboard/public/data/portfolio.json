@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T18:00:34.011Z",
+  "generatedAt": "2026-08-30T18:30:32.535Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -1043,9 +1043,9 @@
       "health": "degraded",
       "healthReason": "PRs estancados",
       "openPrs": 2,
-      "mergedPrs30d": 44,
+      "mergedPrs30d": 43,
       "commits7d": 0,
-      "commits30d": 19,
+      "commits30d": 17,
       "lastActivityAt": "2026-08-29T14:08:06Z",
       "progress": {
         "percent": 75,
