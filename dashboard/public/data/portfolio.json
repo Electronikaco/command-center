@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T17:00:43.840Z",
+  "generatedAt": "2026-08-31T17:30:37.710Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,17 +11,17 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 22,
+      "commits7d": 24,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-31T16:52:18Z",
+      "lastActivityAt": "2026-08-31T17:29:25Z",
       "progress": {
-        "percent": 40,
-        "label": "S19 · Onboarding y ayuda (EPIC-Z): 2/5"
+        "percent": 60,
+        "label": "S19 · Onboarding y ayuda (EPIC-Z): 3/5"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 2,
+          "closed": 3,
           "total": 5
         },
         {
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 188,
+          "closed": 189,
           "total": 200
         }
       ],
@@ -39,15 +39,8 @@
       "issueBreakdown": {
         "label": "S19 · Onboarding y ayuda (EPIC-Z)",
         "totalIssues": 5,
-        "closedIssues": 2,
+        "closedIssues": 3,
         "issues": [
-          {
-            "number": 644,
-            "title": "UC-DM-Z-03 · Cutover incremental de mocks por dominio (facturacion → casos → knowledge-library)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/644",
-            "updatedAt": "2026-08-31T16:52:09Z"
-          },
           {
             "number": 645,
             "title": "UC-DM-Z-04 · Convención MSW dev-only + estado vivo de cutover",
@@ -61,6 +54,13 @@
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/442",
             "updatedAt": "2026-08-03T22:34:55Z"
+          },
+          {
+            "number": 644,
+            "title": "UC-DM-Z-03 · Cutover incremental de mocks por dominio (facturacion → casos → knowledge-library)",
+            "state": "CLOSED",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/644",
+            "updatedAt": "2026-08-31T17:29:43Z"
           },
           {
             "number": 643,
