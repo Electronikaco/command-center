@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T16:30:40.320Z",
+  "generatedAt": "2026-08-31T17:00:43.840Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,9 +11,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 19,
+      "commits7d": 22,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-31T16:11:40Z",
+      "lastActivityAt": "2026-08-31T16:52:18Z",
       "progress": {
         "percent": 40,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 2/5"
@@ -42,18 +42,18 @@
         "closedIssues": 2,
         "issues": [
           {
+            "number": 644,
+            "title": "UC-DM-Z-03 · Cutover incremental de mocks por dominio (facturacion → casos → knowledge-library)",
+            "state": "OPEN",
+            "url": "https://github.com/electronikatm/dosmentes-front/issues/644",
+            "updatedAt": "2026-08-31T16:52:09Z"
+          },
+          {
             "number": 645,
             "title": "UC-DM-Z-04 · Convención MSW dev-only + estado vivo de cutover",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/645",
             "updatedAt": "2026-08-27T22:06:36Z"
-          },
-          {
-            "number": 644,
-            "title": "UC-DM-Z-03 · Cutover incremental de mocks por dominio (facturacion → casos → knowledge-library)",
-            "state": "OPEN",
-            "url": "https://github.com/electronikatm/dosmentes-front/issues/644",
-            "updatedAt": "2026-08-27T22:06:34Z"
           },
           {
             "number": 442,
@@ -911,7 +911,7 @@
       "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 5,
+      "commits30d": 4,
       "lastActivityAt": "2026-08-31T13:38:51Z",
       "progress": {
         "percent": 78,
@@ -1080,7 +1080,7 @@
       "openPrs": 1,
       "mergedPrs30d": 42,
       "commits7d": 0,
-      "commits30d": 12,
+      "commits30d": 10,
       "lastActivityAt": "2026-08-31T13:39:01Z",
       "progress": {
         "percent": 75,
