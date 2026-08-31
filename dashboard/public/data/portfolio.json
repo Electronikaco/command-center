@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T19:30:39.052Z",
+  "generatedAt": "2026-08-31T20:00:46.573Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,9 +11,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 24,
+      "commits7d": 25,
       "commits30d": 30,
-      "lastActivityAt": "2026-08-31T17:29:25Z",
+      "lastActivityAt": "2026-08-31T19:53:44Z",
       "progress": {
         "percent": 60,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 3/5"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 189,
+          "closed": 188,
           "total": 200
         }
       ],
@@ -46,7 +46,7 @@
             "title": "UC-DM-Z-04 · Convención MSW dev-only + estado vivo de cutover",
             "state": "OPEN",
             "url": "https://github.com/electronikatm/dosmentes-front/issues/645",
-            "updatedAt": "2026-08-27T22:06:36Z"
+            "updatedAt": "2026-08-31T19:54:04Z"
           },
           {
             "number": 442,
@@ -886,12 +886,12 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 0,
-      "commits7d": 8,
+      "commits7d": 7,
       "commits30d": 30,
       "lastActivityAt": "2026-08-25T16:19:04Z",
       "progress": {
         "percent": null,
-        "label": "8 commits / 7d (develop)"
+        "label": "7 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
