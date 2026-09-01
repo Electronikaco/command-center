@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T22:30:37.698Z",
+  "generatedAt": "2026-09-01T23:00:47.359Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -95,15 +95,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-01T20:07:15Z",
+      "lastActivityAt": "2026-09-01T22:55:08Z",
       "progress": {
         "percent": 92,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 97/106"
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 98/106"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 97,
+          "closed": 98,
           "total": 106
         },
         {
@@ -113,7 +113,7 @@
         },
         {
           "label": "Global",
-          "closed": 171,
+          "closed": 172,
           "total": 182
         }
       ],
@@ -121,15 +121,8 @@
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
         "totalIssues": 106,
-        "closedIssues": 97,
+        "closedIssues": 98,
         "issues": [
-          {
-            "number": 352,
-            "title": "CONV · Sync/Eventos · Extraer outbox-health a bullmq-utils + exponerlo en service-config y service-attention (D4)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/352",
-            "updatedAt": "2026-09-01T20:08:00Z"
-          },
           {
             "number": 188,
             "title": "CONV · Sync/Eventos · Envelope canónico {success, data, meta} + helper en packages/types (D10)",
@@ -185,6 +178,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/151",
             "updatedAt": "2026-07-30T22:08:28Z"
+          },
+          {
+            "number": 352,
+            "title": "CONV · Sync/Eventos · Extraer outbox-health a bullmq-utils + exponerlo en service-config y service-attention (D4)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/352",
+            "updatedAt": "2026-09-01T22:55:10Z"
           },
           {
             "number": 350,
@@ -1046,11 +1046,11 @@
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "degraded",
       "healthReason": "PRs estancados",
-      "openPrs": 1,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 10,
-      "lastActivityAt": "2026-09-01T20:08:27Z",
+      "lastActivityAt": "2026-09-01T22:58:37Z",
       "progress": {
         "percent": 70,
         "label": "M8 · Migración Turno: dashboard (8101): 7/10"
@@ -1081,6 +1081,6 @@
     "healthy": 3,
     "degraded": 3,
     "error": 0,
-    "totalOpenPrs": 11
+    "totalOpenPrs": 12
   }
 }
