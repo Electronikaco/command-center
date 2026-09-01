@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T02:00:40.302Z",
+  "generatedAt": "2026-09-01T02:30:41.192Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -91,11 +91,11 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-01T01:56:07Z",
+      "lastActivityAt": "2026-09-01T02:24:58Z",
       "progress": {
         "percent": 92,
         "label": "Fase 7 · Turno consumidor de Cívok Hub: 93/101"
@@ -128,7 +128,7 @@
             "title": "CONV · Sync/Eventos · Envelope canónico {success, data, meta} + helper en packages/types (D10)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/188",
-            "updatedAt": "2026-09-01T01:41:50Z"
+            "updatedAt": "2026-09-01T02:02:28Z"
           },
           {
             "number": 313,
@@ -1112,6 +1112,6 @@
     "healthy": 4,
     "degraded": 2,
     "error": 0,
-    "totalOpenPrs": 8
+    "totalOpenPrs": 7
   }
 }
