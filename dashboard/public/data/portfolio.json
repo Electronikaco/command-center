@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T20:00:44.726Z",
+  "generatedAt": "2026-09-01T20:30:40.697Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-01T19:47:39Z",
+      "lastActivityAt": "2026-09-01T20:16:09Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -95,16 +95,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-01T19:55:19Z",
+      "lastActivityAt": "2026-09-01T20:07:15Z",
       "progress": {
         "percent": 92,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 96/104"
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 97/106"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 96,
-          "total": 104
+          "closed": 97,
+          "total": 106
         },
         {
           "label": "Épicas",
@@ -113,16 +113,23 @@
         },
         {
           "label": "Global",
-          "closed": 170,
-          "total": 180
+          "closed": 171,
+          "total": 182
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
-        "totalIssues": 104,
-        "closedIssues": 96,
+        "totalIssues": 106,
+        "closedIssues": 97,
         "issues": [
+          {
+            "number": 352,
+            "title": "CONV · Sync/Eventos · Extraer outbox-health a bullmq-utils + exponerlo en service-config y service-attention (D4)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/352",
+            "updatedAt": "2026-09-01T20:08:00Z"
+          },
           {
             "number": 188,
             "title": "CONV · Sync/Eventos · Envelope canónico {success, data, meta} + helper en packages/types (D10)",
@@ -178,6 +185,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/151",
             "updatedAt": "2026-07-30T22:08:28Z"
+          },
+          {
+            "number": 350,
+            "title": "CONV · Sync/Eventos · Observabilidad del backlog del outbox en service-queue (D4)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/350",
+            "updatedAt": "2026-09-01T20:07:18Z"
           },
           {
             "number": 348,
@@ -458,20 +472,6 @@
             "state": "CLOSED",
             "url": "https://github.com/Electronikaco/civok-back/issues/190",
             "updatedAt": "2026-08-05T12:59:46Z"
-          },
-          {
-            "number": 258,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-audit (rollout #177)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/258",
-            "updatedAt": "2026-08-04T23:07:24Z"
-          },
-          {
-            "number": 257,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-data-connect (rollout #177)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/257",
-            "updatedAt": "2026-08-04T23:02:10Z"
           }
         ],
         "truncated": true
@@ -912,11 +912,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 6,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 4,
-      "lastActivityAt": "2026-09-01T19:46:32Z",
+      "lastActivityAt": "2026-09-01T20:16:35Z",
       "progress": {
         "percent": 54,
         "label": "R2 · Endurecimiento y cierre del split: 7/13"
@@ -1047,10 +1047,10 @@
       "health": "degraded",
       "healthReason": "PRs estancados",
       "openPrs": 1,
-      "mergedPrs30d": 49,
+      "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 10,
-      "lastActivityAt": "2026-09-01T19:42:16Z",
+      "lastActivityAt": "2026-09-01T20:08:27Z",
       "progress": {
         "percent": 70,
         "label": "M8 · Migración Turno: dashboard (8101): 7/10"
@@ -1063,7 +1063,7 @@
         },
         {
           "label": "Global",
-          "closed": 52,
+          "closed": 53,
           "total": 81
         }
       ],
@@ -1081,6 +1081,6 @@
     "healthy": 3,
     "degraded": 3,
     "error": 0,
-    "totalOpenPrs": 10
+    "totalOpenPrs": 13
   }
 }
