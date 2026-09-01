@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T20:30:40.697Z",
+  "generatedAt": "2026-09-01T21:00:42.365Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-01T20:16:09Z",
+      "lastActivityAt": "2026-09-01T20:56:24Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 190,
+          "closed": 191,
           "total": 200
         }
       ],
@@ -1081,6 +1081,6 @@
     "healthy": 3,
     "degraded": 3,
     "error": 0,
-    "totalOpenPrs": 13
+    "totalOpenPrs": 12
   }
 }
