@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T16:00:49.642Z",
+  "generatedAt": "2026-09-01T16:30:42.772Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -883,7 +883,8 @@
       "ghRepo": "electronikatm/civok-agentik",
       "type": "github",
       "description": "Frontend agente IA — Next.js + Firebase",
-      "health": "ok",
+      "health": "degraded",
+      "healthReason": "Inactivo >7d",
       "openPrs": 1,
       "mergedPrs30d": 0,
       "commits7d": 0,
@@ -895,6 +896,7 @@
       },
       "progressMeters": [],
       "highlights": [
+        "Sin actividad hace 7d (umbral 7d)",
         "Sin commits en los últimos 7 días"
       ],
       "issueBreakdown": null,
@@ -1076,8 +1078,8 @@
   ],
   "summary": {
     "totalProjects": 6,
-    "healthy": 4,
-    "degraded": 2,
+    "healthy": 3,
+    "degraded": 3,
     "error": 0,
     "totalOpenPrs": 7
   }
