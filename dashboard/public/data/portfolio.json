@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T01:30:37.959Z",
+  "generatedAt": "2026-09-01T02:00:40.302Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -91,11 +91,11 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-08-20T20:56:53Z",
+      "lastActivityAt": "2026-09-01T01:56:07Z",
       "progress": {
         "percent": 92,
         "label": "Fase 7 · Turno consumidor de Cívok Hub: 93/101"
@@ -124,6 +124,13 @@
         "closedIssues": 93,
         "issues": [
           {
+            "number": 188,
+            "title": "CONV · Sync/Eventos · Envelope canónico {success, data, meta} + helper en packages/types (D10)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/188",
+            "updatedAt": "2026-09-01T01:41:50Z"
+          },
+          {
             "number": 313,
             "title": "[EPIC] Encender la conexión Turno↔Hub (activar el consumo)",
             "state": "OPEN",
@@ -143,13 +150,6 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/148",
             "updatedAt": "2026-08-11T16:42:04Z"
-          },
-          {
-            "number": 188,
-            "title": "CONV · Sync/Eventos · Envelope canónico {success, data, meta} + helper en packages/types (D10)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/188",
-            "updatedAt": "2026-08-05T20:13:51Z"
           },
           {
             "number": 293,
@@ -912,7 +912,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 4,
-      "lastActivityAt": "2026-08-31T13:38:51Z",
+      "lastActivityAt": "2026-09-01T01:56:08Z",
       "progress": {
         "percent": 78,
         "label": "R2 · Hub → microservicios core: 14/18"
@@ -925,8 +925,8 @@
         },
         {
           "label": "Global",
-          "closed": 177,
-          "total": 198
+          "closed": 178,
+          "total": 199
         }
       ],
       "highlights": [],
@@ -1078,23 +1078,23 @@
       "health": "degraded",
       "healthReason": "PRs estancados",
       "openPrs": 1,
-      "mergedPrs30d": 42,
+      "mergedPrs30d": 43,
       "commits7d": 0,
       "commits30d": 10,
-      "lastActivityAt": "2026-08-31T13:39:01Z",
+      "lastActivityAt": "2026-09-01T01:54:52Z",
       "progress": {
-        "percent": 75,
-        "label": "M6 · Hub Console: cierre R1-front: 6/8"
+        "percent": 30,
+        "label": "M8 · Migración Turno: dashboard (8101): 3/10"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 6,
-          "total": 8
+          "closed": 3,
+          "total": 10
         },
         {
           "label": "Global",
-          "closed": 46,
+          "closed": 47,
           "total": 67
         }
       ],
@@ -1112,6 +1112,6 @@
     "healthy": 4,
     "degraded": 2,
     "error": 0,
-    "totalOpenPrs": 7
+    "totalOpenPrs": 8
   }
 }
