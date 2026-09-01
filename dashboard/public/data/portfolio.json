@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T02:30:41.192Z",
+  "generatedAt": "2026-09-01T03:00:42.560Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -95,7 +95,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-01T02:24:58Z",
+      "lastActivityAt": "2026-09-01T03:00:05Z",
       "progress": {
         "percent": 92,
         "label": "Fase 7 · Turno consumidor de Cívok Hub: 93/101"
@@ -886,12 +886,12 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 0,
-      "commits7d": 3,
+      "commits7d": 2,
       "commits30d": 30,
       "lastActivityAt": "2026-08-25T16:19:04Z",
       "progress": {
         "percent": null,
-        "label": "3 commits / 7d (develop)"
+        "label": "2 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
