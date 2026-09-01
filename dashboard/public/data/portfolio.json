@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T19:30:40.934Z",
+  "generatedAt": "2026-09-01T20:00:44.726Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-01T19:11:04Z",
+      "lastActivityAt": "2026-09-01T19:47:39Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -91,20 +91,20 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-01T19:28:56Z",
+      "lastActivityAt": "2026-09-01T19:55:19Z",
       "progress": {
-        "percent": 90,
-        "label": "Fase 7 · Turno consumidor de Cívok Hub: 93/103"
+        "percent": 92,
+        "label": "Fase 7 · Turno consumidor de Cívok Hub: 96/104"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 93,
-          "total": 103
+          "closed": 96,
+          "total": 104
         },
         {
           "label": "Épicas",
@@ -113,30 +113,16 @@
         },
         {
           "label": "Global",
-          "closed": 167,
-          "total": 179
+          "closed": 170,
+          "total": 180
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Fase 7 · Turno consumidor de Cívok Hub",
-        "totalIssues": 103,
-        "closedIssues": 93,
+        "totalIssues": 104,
+        "closedIssues": 96,
         "issues": [
-          {
-            "number": 345,
-            "title": "TH-07 · Observabilidad hub-sync: completar /health/sync de service-auth (roles+licenses+security)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/345",
-            "updatedAt": "2026-09-01T19:24:54Z"
-          },
-          {
-            "number": 344,
-            "title": "TH-06 · Observabilidad hub-sync: exponer /health/sync en service-people (recurso persons)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/344",
-            "updatedAt": "2026-09-01T19:24:52Z"
-          },
           {
             "number": 188,
             "title": "CONV · Sync/Eventos · Envelope canónico {success, data, meta} + helper en packages/types (D10)",
@@ -192,6 +178,27 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/151",
             "updatedAt": "2026-07-30T22:08:28Z"
+          },
+          {
+            "number": 348,
+            "title": "TH-08 · hub-sync: alinear clave de política 'personas'→'persons' (empareja el watermark real)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/348",
+            "updatedAt": "2026-09-01T19:55:22Z"
+          },
+          {
+            "number": 345,
+            "title": "TH-07 · Observabilidad hub-sync: completar /health/sync de service-auth (roles+licenses+security)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/345",
+            "updatedAt": "2026-09-01T19:41:48Z"
+          },
+          {
+            "number": 344,
+            "title": "TH-06 · Observabilidad hub-sync: exponer /health/sync en service-people (recurso persons)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/344",
+            "updatedAt": "2026-09-01T19:32:01Z"
           },
           {
             "number": 331,
@@ -465,13 +472,6 @@
             "state": "CLOSED",
             "url": "https://github.com/Electronikaco/civok-back/issues/257",
             "updatedAt": "2026-08-04T23:02:10Z"
-          },
-          {
-            "number": 256,
-            "title": "CONV · Tenancy · Aplicar extensión de filtro de tenant en service-connectors (rollout #177)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/256",
-            "updatedAt": "2026-08-04T22:57:54Z"
           }
         ],
         "truncated": true
@@ -912,11 +912,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 4,
-      "lastActivityAt": "2026-09-01T14:48:25Z",
+      "lastActivityAt": "2026-09-01T19:46:32Z",
       "progress": {
         "percent": 54,
         "label": "R2 · Endurecimiento y cierre del split: 7/13"
@@ -929,7 +929,7 @@
         },
         {
           "label": "Global",
-          "closed": 178,
+          "closed": 177,
           "total": 200
         }
       ],
@@ -1047,10 +1047,10 @@
       "health": "degraded",
       "healthReason": "PRs estancados",
       "openPrs": 1,
-      "mergedPrs30d": 48,
+      "mergedPrs30d": 49,
       "commits7d": 0,
       "commits30d": 10,
-      "lastActivityAt": "2026-09-01T04:11:37Z",
+      "lastActivityAt": "2026-09-01T19:42:16Z",
       "progress": {
         "percent": 70,
         "label": "M8 · Migración Turno: dashboard (8101): 7/10"
@@ -1063,8 +1063,8 @@
         },
         {
           "label": "Global",
-          "closed": 51,
-          "total": 78
+          "closed": 52,
+          "total": 81
         }
       ],
       "highlights": [
@@ -1081,6 +1081,6 @@
     "healthy": 3,
     "degraded": 3,
     "error": 0,
-    "totalOpenPrs": 9
+    "totalOpenPrs": 10
   }
 }
