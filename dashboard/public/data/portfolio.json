@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T03:00:42.560Z",
+  "generatedAt": "2026-09-01T03:30:37.138Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -95,7 +95,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-01T03:00:05Z",
+      "lastActivityAt": "2026-09-01T03:29:50Z",
       "progress": {
         "percent": 92,
         "label": "Fase 7 · Turno consumidor de Cívok Hub: 93/101"
@@ -886,15 +886,17 @@
       "health": "ok",
       "openPrs": 1,
       "mergedPrs30d": 0,
-      "commits7d": 2,
+      "commits7d": 0,
       "commits30d": 30,
       "lastActivityAt": "2026-08-25T16:19:04Z",
       "progress": {
         "percent": null,
-        "label": "2 commits / 7d (develop)"
+        "label": "0 commits / 7d (develop)"
       },
       "progressMeters": [],
-      "highlights": [],
+      "highlights": [
+        "Sin commits en los últimos 7 días"
+      ],
       "issueBreakdown": null,
       "links": {
         "github": "https://github.com/electronikatm/civok-agentik"
@@ -908,11 +910,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 4,
-      "lastActivityAt": "2026-09-01T01:56:08Z",
+      "lastActivityAt": "2026-09-01T03:04:49Z",
       "progress": {
         "percent": 78,
         "label": "R2 · Hub → microservicios core: 14/18"
@@ -1078,23 +1080,23 @@
       "health": "degraded",
       "healthReason": "PRs estancados",
       "openPrs": 1,
-      "mergedPrs30d": 43,
+      "mergedPrs30d": 44,
       "commits7d": 0,
       "commits30d": 10,
-      "lastActivityAt": "2026-09-01T01:54:52Z",
+      "lastActivityAt": "2026-09-01T03:14:13Z",
       "progress": {
-        "percent": 30,
-        "label": "M8 · Migración Turno: dashboard (8101): 3/10"
+        "percent": 40,
+        "label": "M8 · Migración Turno: dashboard (8101): 4/10"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 3,
+          "closed": 4,
           "total": 10
         },
         {
           "label": "Global",
-          "closed": 47,
+          "closed": 48,
           "total": 67
         }
       ],
@@ -1112,6 +1114,6 @@
     "healthy": 4,
     "degraded": 2,
     "error": 0,
-    "totalOpenPrs": 7
+    "totalOpenPrs": 9
   }
 }
