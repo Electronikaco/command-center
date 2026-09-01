@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T17:30:41.626Z",
+  "generatedAt": "2026-09-01T18:00:42.299Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-01T16:39:42Z",
+      "lastActivityAt": "2026-09-01T17:41:40Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 191,
+          "closed": 190,
           "total": 200
         }
       ],
