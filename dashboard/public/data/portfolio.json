@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T15:00:47.838Z",
+  "generatedAt": "2026-09-02T15:30:37.508Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -806,13 +806,12 @@
       "ghRepo": "Electronikaco/civok-frontend",
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
-      "health": "degraded",
-      "healthReason": "PRs estancados",
-      "openPrs": 1,
+      "health": "ok",
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 10,
-      "lastActivityAt": "2026-09-02T13:56:54Z",
+      "commits30d": 9,
+      "lastActivityAt": "2026-09-02T15:26:08Z",
       "progress": {
         "percent": 67,
         "label": "M6 · Hub Console: cierre R1-front: 8/12"
@@ -829,9 +828,7 @@
           "total": 97
         }
       ],
-      "highlights": [
-        "1 PR(s) estancado(s) >7d"
-      ],
+      "highlights": [],
       "issueBreakdown": null,
       "links": {
         "github": "https://github.com/Electronikaco/civok-frontend"
@@ -840,9 +837,9 @@
   ],
   "summary": {
     "totalProjects": 6,
-    "healthy": 3,
-    "degraded": 3,
+    "healthy": 4,
+    "degraded": 2,
     "error": 0,
-    "totalOpenPrs": 9
+    "totalOpenPrs": 8
   }
 }
