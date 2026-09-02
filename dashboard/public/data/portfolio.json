@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T23:30:34.763Z",
+  "generatedAt": "2026-09-02T00:01:14.380Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -1050,7 +1050,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 10,
-      "lastActivityAt": "2026-09-01T23:21:46Z",
+      "lastActivityAt": "2026-09-01T23:52:08Z",
       "progress": {
         "percent": 70,
         "label": "M8 · Migración Turno: dashboard (8101): 7/10"
@@ -1063,7 +1063,7 @@
         },
         {
           "label": "Global",
-          "closed": 55,
+          "closed": 57,
           "total": 82
         }
       ],
