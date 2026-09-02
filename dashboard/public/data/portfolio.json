@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T21:00:42.291Z",
+  "generatedAt": "2026-09-02T21:30:39.136Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 29,
+      "commits7d": 27,
       "commits30d": 30,
       "lastActivityAt": "2026-09-02T01:58:04Z",
       "progress": {
@@ -621,7 +621,7 @@
       "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 2,
+      "commits30d": 0,
       "lastActivityAt": "2026-09-02T17:56:37Z",
       "progress": {
         "percent": 86,
@@ -810,8 +810,8 @@
       "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 9,
-      "lastActivityAt": "2026-09-02T20:10:23Z",
+      "commits30d": 8,
+      "lastActivityAt": "2026-09-02T21:09:02Z",
       "progress": {
         "percent": 67,
         "label": "M6 · Hub Console: cierre R1-front: 8/12"
