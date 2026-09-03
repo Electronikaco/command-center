@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T22:00:37.742Z",
+  "generatedAt": "2026-09-03T22:30:39.180Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -201,13 +201,13 @@
       "commits30d": 30,
       "lastActivityAt": "2026-09-03T21:21:01Z",
       "progress": {
-        "percent": 45,
-        "label": "60/132 issues"
+        "percent": 46,
+        "label": "61/132 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 60,
+          "closed": 61,
           "total": 132
         },
         {
@@ -222,8 +222,29 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 132,
-        "closedIssues": 60,
+        "closedIssues": 61,
         "issues": [
+          {
+            "number": 2,
+            "title": "[EPIC] Pipeline CI/CD para Auth/Config con Docker + GHCR",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/2",
+            "updatedAt": "2026-09-03T22:08:52Z"
+          },
+          {
+            "number": 74,
+            "title": "Unificación de canales E: retirar MetaWebhookRouterService, MetaProvider y modelos legacy de WhatsApp",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/74",
+            "updatedAt": "2026-09-03T22:08:51Z"
+          },
+          {
+            "number": 73,
+            "title": "Unificación de canales D: WhatsApp inbound por InboundMessagePipeline (tras flag)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/73",
+            "updatedAt": "2026-09-03T22:08:50Z"
+          },
           {
             "number": 88,
             "title": "EPIC-15-08 · JWT en Socket.IO y validar pertenencia de la conversacion al unir room",
@@ -552,27 +573,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/138",
             "updatedAt": "2026-08-18T15:25:11Z"
-          },
-          {
-            "number": 132,
-            "title": "Subcobro de dos ordenes de magnitud al estimar tokens de vision sin usage_metadata",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/132",
-            "updatedAt": "2026-08-14T01:08:24Z"
-          },
-          {
-            "number": 128,
-            "title": "La firma de ePayco no cubre x_id_invoice: un webhook interceptado puede reapuntarse a otra factura",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/128",
-            "updatedAt": "2026-08-14T00:27:36Z"
-          },
-          {
-            "number": 126,
-            "title": "Se loguea la firma del webhook de ePayco, contra la regla explicita de AGENTS.md",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/126",
-            "updatedAt": "2026-08-13T23:56:20Z"
           }
         ],
         "truncated": true
