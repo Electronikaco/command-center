@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T18:00:43.903Z",
+  "generatedAt": "2026-09-03T18:30:37.875Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -755,7 +755,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 8,
-      "lastActivityAt": "2026-09-03T13:14:27Z",
+      "lastActivityAt": "2026-09-03T18:11:54Z",
       "progress": {
         "percent": 67,
         "label": "M6 · Hub Console: cierre R1-front: 8/12"
