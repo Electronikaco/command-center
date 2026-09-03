@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T21:00:48.119Z",
+  "generatedAt": "2026-09-03T21:30:37.889Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -199,7 +199,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-03T20:55:02Z",
+      "lastActivityAt": "2026-09-03T21:21:01Z",
       "progress": {
         "percent": 45,
         "label": "60/132 issues"
@@ -590,7 +590,7 @@
       "type": "github",
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 2,
       "commits7d": 2,
       "commits30d": 30,
@@ -747,11 +747,11 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 8,
-      "lastActivityAt": "2026-09-03T20:30:40Z",
+      "lastActivityAt": "2026-09-03T21:19:58Z",
       "progress": {
         "percent": 67,
         "label": "M6 · Hub Console: cierre R1-front: 8/12"
