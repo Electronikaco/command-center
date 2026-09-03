@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T14:00:40.766Z",
+  "generatedAt": "2026-09-03T14:30:42.818Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -618,11 +618,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 5,
+      "openPrs": 4,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-03T13:14:35Z",
+      "lastActivityAt": "2026-09-03T14:08:10Z",
       "progress": {
         "percent": 77,
         "label": "R2 · Endurecimiento y cierre del split: 10/13"
@@ -784,6 +784,6 @@
     "healthy": 4,
     "degraded": 2,
     "error": 0,
-    "totalOpenPrs": 10
+    "totalOpenPrs": 9
   }
 }
