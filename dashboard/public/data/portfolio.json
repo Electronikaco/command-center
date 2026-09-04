@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T15:30:38.364Z",
+  "generatedAt": "2026-09-04T16:00:48.628Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -607,7 +607,7 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 5,
+      "openPrs": 6,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
@@ -717,6 +717,6 @@
     "healthy": 5,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 10
+    "totalOpenPrs": 11
   }
 }
