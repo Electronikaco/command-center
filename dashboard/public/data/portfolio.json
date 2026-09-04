@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T17:00:47.310Z",
+  "generatedAt": "2026-09-04T17:30:40.598Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -128,14 +128,14 @@
             "title": "MOVER-02 · Mover \"gestión de personal\" (Slot) al dominio Usuarios (backend)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/368",
-            "updatedAt": "2026-09-04T14:39:04Z"
+            "updatedAt": "2026-09-04T17:26:56Z"
           },
           {
             "number": 367,
             "title": "MOVER-01 · Mover \"Motivos de Pausa\" al dominio Usuarios (backend)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/367",
-            "updatedAt": "2026-09-04T14:39:03Z"
+            "updatedAt": "2026-09-04T17:26:55Z"
           },
           {
             "number": 366,
@@ -607,11 +607,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 8,
+      "openPrs": 9,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-04T16:33:39Z",
+      "lastActivityAt": "2026-09-04T17:24:17Z",
       "progress": {
         "percent": 0,
         "label": "Sedes maestro del Hub (horarios · import CSV · pausa con motivos · QR): 0/5"
@@ -717,6 +717,6 @@
     "healthy": 5,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 13
+    "totalOpenPrs": 14
   }
 }
