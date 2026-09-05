@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T12:30:36.680Z",
+  "generatedAt": "2026-09-05T13:00:40.091Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -92,7 +92,7 @@
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 48,
+      "mergedPrs30d": 47,
       "commits7d": 0,
       "commits30d": 0,
       "lastActivityAt": "2026-09-04T15:29:37Z",
@@ -128,14 +128,14 @@
             "title": "MOVER-02 · Mover \"gestión de personal\" (Slot) al dominio Usuarios (backend)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/368",
-            "updatedAt": "2026-09-04T17:30:41Z"
+            "updatedAt": "2026-09-05T12:54:17Z"
           },
           {
             "number": 367,
             "title": "MOVER-01 · Mover \"Motivos de Pausa\" al dominio Usuarios (backend)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/367",
-            "updatedAt": "2026-09-04T17:30:40Z"
+            "updatedAt": "2026-09-05T12:54:16Z"
           },
           {
             "number": 366,
@@ -639,7 +639,7 @@
             "title": "SEDE-HUB-04 · QR de sede en el maestro (generar/almacenar/exponer)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/376",
-            "updatedAt": "2026-09-04T17:41:55Z"
+            "updatedAt": "2026-09-05T12:54:18Z"
           },
           {
             "number": 372,
