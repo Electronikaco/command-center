@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T16:00:36.865Z",
+  "generatedAt": "2026-09-05T16:30:36.793Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -92,10 +92,10 @@
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 49,
+      "mergedPrs30d": 48,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-05T13:39:23Z",
+      "lastActivityAt": "2026-09-05T16:18:19Z",
       "progress": {
         "percent": 71,
         "label": "Turno · Pisos y Áreas + consumo de Sedes del Hub: 5/7"
@@ -113,7 +113,7 @@
         },
         {
           "label": "Global",
-          "closed": 181,
+          "closed": 182,
           "total": 195
         }
       ],
@@ -607,11 +607,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 4,
+      "openPrs": 6,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-05T14:33:54Z",
+      "lastActivityAt": "2026-09-05T16:29:02Z",
       "progress": {
         "percent": 60,
         "label": "Sedes maestro del Hub (horarios · import CSV · pausa con motivos · QR): 3/5"
@@ -624,7 +624,7 @@
         },
         {
           "label": "Global",
-          "closed": 179,
+          "closed": 177,
           "total": 200
         }
       ],
@@ -717,6 +717,6 @@
     "healthy": 5,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 8
+    "totalOpenPrs": 10
   }
 }
