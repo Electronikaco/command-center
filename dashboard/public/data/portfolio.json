@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T04:00:42.226Z",
+  "generatedAt": "2026-09-06T04:30:36.786Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -92,19 +92,19 @@
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 47,
+      "mergedPrs30d": 49,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-05T16:59:06Z",
+      "lastActivityAt": "2026-09-06T04:27:41Z",
       "progress": {
-        "percent": 71,
-        "label": "Turno · Pisos y Áreas + consumo de Sedes del Hub: 5/7"
+        "percent": 58,
+        "label": "Turno · Pisos y Áreas + consumo de Sedes del Hub: 7/12"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 5,
-          "total": 7
+          "closed": 7,
+          "total": 12
         },
         {
           "label": "Épicas",
@@ -113,16 +113,37 @@
         },
         {
           "label": "Global",
-          "closed": 182,
-          "total": 196
+          "closed": 184,
+          "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Turno · Pisos y Áreas + consumo de Sedes del Hub",
-        "totalIssues": 7,
-        "closedIssues": 5,
+        "totalIssues": 12,
+        "closedIssues": 7,
         "issues": [
+          {
+            "number": 383,
+            "title": "TERR-03 · Exponer por el BFF la cascada país→div.principal→div.local→sede filtrada por workspace (#380)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/383",
+            "updatedAt": "2026-09-06T04:27:54Z"
+          },
+          {
+            "number": 380,
+            "title": "[EPIC] Turno · consumir jerarquía territorial del Hub (país→sede) + filtro por país en Pisos y Áreas (#148)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/380",
+            "updatedAt": "2026-09-06T04:10:39Z"
+          },
+          {
+            "number": 384,
+            "title": "TERR-04 · Consumidor hub-org.turno: poblar la réplica territorial desde eventos del Hub (idempotente por versión) (#380)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/384",
+            "updatedAt": "2026-09-06T04:10:22Z"
+          },
           {
             "number": 366,
             "title": "SEDE-CONSUMO-01 · Consumir Sedes del Hub (read-only) y retirar propiedad local",
@@ -136,6 +157,20 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/362",
             "updatedAt": "2026-09-04T14:37:01Z"
+          },
+          {
+            "number": 382,
+            "title": "TERR-02 · workspaceUid (país) como dimensión de filtro en consultas de sedes/pisos (service-config) (#380)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/382",
+            "updatedAt": "2026-09-06T04:27:42Z"
+          },
+          {
+            "number": 381,
+            "title": "TERR-01 · Réplica read-only de la jerarquía territorial del Hub en service-config (modelo + refs aditivas en Sede) (#380)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/381",
+            "updatedAt": "2026-09-06T04:20:37Z"
           },
           {
             "number": 368,
@@ -607,67 +642,109 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 4,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-05T17:15:40Z",
+      "lastActivityAt": "2026-09-06T04:28:45Z",
       "progress": {
-        "percent": 60,
-        "label": "Sedes maestro del Hub (horarios · import CSV · pausa con motivos · QR): 3/5"
+        "percent": 82,
+        "label": "CRM del Hub · Personas/visitantes: 9/11"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 3,
-          "total": 5
+          "closed": 9,
+          "total": 11
         },
         {
           "label": "Global",
-          "closed": 179,
+          "closed": 184,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "Sedes maestro del Hub (horarios · import CSV · pausa con motivos · QR)",
-        "totalIssues": 5,
-        "closedIssues": 3,
+        "label": "CRM del Hub · Personas/visitantes",
+        "totalIssues": 11,
+        "closedIssues": 9,
         "issues": [
           {
-            "number": 376,
-            "title": "SEDE-HUB-04 · QR de sede en el maestro (generar/almacenar/exponer)",
+            "number": 199,
+            "title": "[EPIC] F1 · CRM lectura de personas/visitantes (por organización + consentimiento)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/376",
-            "updatedAt": "2026-09-05T12:54:18Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/199",
+            "updatedAt": "2026-09-05T13:24:43Z"
           },
           {
-            "number": 372,
-            "title": "[EPIC] Sedes como maestro del Hub (horarios · import CSV · pausa · QR)",
+            "number": 206,
+            "title": "[EPIC] F2 · Interacción por app en el CRM (Turno primero)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/372",
-            "updatedAt": "2026-09-04T14:36:58Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/206",
+            "updatedAt": "2026-08-11T20:11:15Z"
           },
           {
-            "number": 375,
-            "title": "SEDE-HUB-03 · Import masivo de sedes por CSV (plantilla + bulk)",
+            "number": 205,
+            "title": "CRM-06 · Consumo por apps consumidoras (alcance por app, read-only)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/375",
-            "updatedAt": "2026-09-04T18:01:19Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/205",
+            "updatedAt": "2026-09-06T04:03:23Z"
           },
           {
-            "number": 374,
-            "title": "SEDE-HUB-02 · Pausar sede con motivos (catálogo + detalle + otro)",
+            "number": 203,
+            "title": "CRM-04 · Vista 360 mínima de la persona (read-only, privacidad by design)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/374",
-            "updatedAt": "2026-09-04T17:39:50Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/203",
+            "updatedAt": "2026-09-06T04:03:21Z"
           },
           {
-            "number": 373,
-            "title": "SEDE-HUB-01 · Horarios de sede (modelo SedeHorario + endpoints)",
+            "number": 210,
+            "title": "hardening(service-crm): privacy-by-design en logs para CRM-03+ (query string, err.message, wrong-key test)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/373",
-            "updatedAt": "2026-09-04T17:39:48Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/210",
+            "updatedAt": "2026-09-02T23:09:24Z"
+          },
+          {
+            "number": 209,
+            "title": "CONV · Verificar/asegurar emisión de eventos de recursos consumidos por Turno",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/209",
+            "updatedAt": "2026-09-02T23:09:21Z"
+          },
+          {
+            "number": 204,
+            "title": "CRM-05 · 'Apps usadas' por la persona (proyección básica en el CRM)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/204",
+            "updatedAt": "2026-09-02T16:12:35Z"
+          },
+          {
+            "number": 201,
+            "title": "CRM-02 · Front door en hub-bff + S2S (contrato público)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/201",
+            "updatedAt": "2026-09-01T20:17:03Z"
+          },
+          {
+            "number": 202,
+            "title": "CRM-03 · Lectura de visitantes por organización + consentimiento (fail-closed)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/202",
+            "updatedAt": "2026-08-28T16:05:04Z"
+          },
+          {
+            "number": 211,
+            "title": "chore(service-crm): empaquetado de despliegue (Dockerfile + PM2/compose + CHANGELOG)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/211",
+            "updatedAt": "2026-08-27T22:03:04Z"
+          },
+          {
+            "number": 200,
+            "title": "CRM-01 · Scaffold del microservicio service-crm (skill backend-microservicios)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/200",
+            "updatedAt": "2026-08-11T20:50:34Z"
           }
         ],
         "truncated": false
@@ -717,6 +794,6 @@
     "healthy": 5,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 8
+    "totalOpenPrs": 4
   }
 }
