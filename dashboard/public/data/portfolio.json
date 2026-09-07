@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T15:30:36.943Z",
+  "generatedAt": "2026-09-07T16:00:42.894Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,7 +11,7 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 24,
+      "commits7d": 23,
       "commits30d": 30,
       "lastActivityAt": "2026-09-04T15:28:57Z",
       "progress": {
@@ -92,7 +92,7 @@
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
       "openPrs": 0,
-      "mergedPrs30d": 49,
+      "mergedPrs30d": 46,
       "commits7d": 0,
       "commits30d": 0,
       "lastActivityAt": "2026-09-07T13:50:28Z",
@@ -646,7 +646,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-06T05:20:10Z",
+      "lastActivityAt": "2026-09-07T15:55:47Z",
       "progress": {
         "percent": 82,
         "label": "CRM del Hub · Personas/visitantes: 9/11"
