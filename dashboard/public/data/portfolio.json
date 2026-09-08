@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T17:00:43.435Z",
+  "generatedAt": "2026-09-08T17:30:41.683Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -765,7 +765,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 8,
-      "lastActivityAt": "2026-09-08T16:48:14Z",
+      "lastActivityAt": "2026-09-08T17:22:13Z",
       "progress": {
         "percent": 80,
         "label": "Hub Console · Sedes (horarios · import CSV · pausa · QR): 4/5"
