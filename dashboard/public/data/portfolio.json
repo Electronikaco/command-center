@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T21:30:35.343Z",
+  "generatedAt": "2026-09-08T22:00:41.150Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -646,7 +646,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-08T20:32:42Z",
+      "lastActivityAt": "2026-09-08T21:58:52Z",
       "progress": {
         "percent": 82,
         "label": "CRM del Hub · Personas/visitantes: 9/11"
@@ -765,7 +765,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 8,
-      "lastActivityAt": "2026-09-08T21:30:20Z",
+      "lastActivityAt": "2026-09-08T21:55:03Z",
       "progress": {
         "percent": 80,
         "label": "Hub Console · Sedes (horarios · import CSV · pausa · QR): 4/5"
