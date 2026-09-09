@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T22:30:37.410Z",
+  "generatedAt": "2026-09-09T23:00:36.274Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -646,7 +646,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-09T22:23:30Z",
+      "lastActivityAt": "2026-09-09T22:37:47Z",
       "progress": {
         "percent": 82,
         "label": "CRM del Hub · Personas/visitantes: 9/11"
@@ -659,7 +659,7 @@
         },
         {
           "label": "Global",
-          "closed": 182,
+          "closed": 183,
           "total": 200
         }
       ],
@@ -761,11 +761,11 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 8,
-      "lastActivityAt": "2026-09-09T22:27:02Z",
+      "lastActivityAt": "2026-09-09T22:38:01Z",
       "progress": {
         "percent": 80,
         "label": "Hub Console · Sedes (horarios · import CSV · pausa · QR): 4/5"
@@ -794,6 +794,6 @@
     "healthy": 5,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 5
+    "totalOpenPrs": 4
   }
 }
