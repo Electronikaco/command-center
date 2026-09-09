@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T15:30:43.240Z",
+  "generatedAt": "2026-09-09T16:00:44.573Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -23,11 +23,6 @@
           "label": "Épica activa",
           "closed": 4,
           "total": 5
-        },
-        {
-          "label": "Épicas",
-          "closed": 27,
-          "total": 31
         },
         {
           "label": "Global",
@@ -95,7 +90,7 @@
       "mergedPrs30d": 45,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-09T15:30:12Z",
+      "lastActivityAt": "2026-09-09T15:32:00Z",
       "progress": {
         "percent": 75,
         "label": "Turno · Pisos y Áreas + consumo de Sedes del Hub: 9/12"
