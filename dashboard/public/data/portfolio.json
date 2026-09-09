@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T16:30:38.803Z",
+  "generatedAt": "2026-09-09T17:00:40.271Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -646,7 +646,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-09T16:28:02Z",
+      "lastActivityAt": "2026-09-09T16:49:43Z",
       "progress": {
         "percent": 82,
         "label": "CRM del Hub · Personas/visitantes: 9/11"
