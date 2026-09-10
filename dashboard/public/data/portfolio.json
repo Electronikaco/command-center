@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T17:00:47.241Z",
+  "generatedAt": "2026-09-10T17:30:47.683Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -646,7 +646,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-10T15:54:42Z",
+      "lastActivityAt": "2026-09-10T17:24:41Z",
       "progress": {
         "percent": 67,
         "label": "Sedes maestro del Hub (horarios · import CSV · pausa con motivos · QR): 4/6"
@@ -659,7 +659,7 @@
         },
         {
           "label": "Global",
-          "closed": 182,
+          "closed": 181,
           "total": 200
         }
       ],
@@ -730,7 +730,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 8,
-      "lastActivityAt": "2026-09-10T16:57:01Z",
+      "lastActivityAt": "2026-09-10T17:25:01Z",
       "progress": {
         "percent": 44,
         "label": "M4 · Hub Console: personas, usuarios y roles: 4/9"
@@ -744,7 +744,7 @@
         {
           "label": "Global",
           "closed": 81,
-          "total": 116
+          "total": 117
         }
       ],
       "highlights": [],
