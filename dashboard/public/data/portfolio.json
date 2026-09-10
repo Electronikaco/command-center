@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T19:00:41.739Z",
+  "generatedAt": "2026-09-10T19:30:37.201Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -642,11 +642,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-10T17:36:45Z",
+      "lastActivityAt": "2026-09-10T19:24:21Z",
       "progress": {
         "percent": 67,
         "label": "Sedes maestro del Hub (horarios · import CSV · pausa con motivos · QR): 4/6"
@@ -759,6 +759,6 @@
     "healthy": 5,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 5
   }
 }
