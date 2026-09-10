@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T14:30:44.423Z",
+  "generatedAt": "2026-09-10T15:00:46.389Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -664,91 +664,7 @@
         }
       ],
       "highlights": [],
-      "issueBreakdown": {
-        "label": "CRM del Hub · Personas/visitantes",
-        "totalIssues": 11,
-        "closedIssues": 9,
-        "issues": [
-          {
-            "number": 199,
-            "title": "[EPIC] F1 · CRM lectura de personas/visitantes (por organización + consentimiento)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/199",
-            "updatedAt": "2026-09-05T13:24:43Z"
-          },
-          {
-            "number": 206,
-            "title": "[EPIC] F2 · Interacción por app en el CRM (Turno primero)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/206",
-            "updatedAt": "2026-08-11T20:11:15Z"
-          },
-          {
-            "number": 205,
-            "title": "CRM-06 · Consumo por apps consumidoras (alcance por app, read-only)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/205",
-            "updatedAt": "2026-09-06T04:03:23Z"
-          },
-          {
-            "number": 203,
-            "title": "CRM-04 · Vista 360 mínima de la persona (read-only, privacidad by design)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/203",
-            "updatedAt": "2026-09-06T04:03:21Z"
-          },
-          {
-            "number": 210,
-            "title": "hardening(service-crm): privacy-by-design en logs para CRM-03+ (query string, err.message, wrong-key test)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/210",
-            "updatedAt": "2026-09-02T23:09:24Z"
-          },
-          {
-            "number": 209,
-            "title": "CONV · Verificar/asegurar emisión de eventos de recursos consumidos por Turno",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/209",
-            "updatedAt": "2026-09-02T23:09:21Z"
-          },
-          {
-            "number": 204,
-            "title": "CRM-05 · 'Apps usadas' por la persona (proyección básica en el CRM)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/204",
-            "updatedAt": "2026-09-02T16:12:35Z"
-          },
-          {
-            "number": 201,
-            "title": "CRM-02 · Front door en hub-bff + S2S (contrato público)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/201",
-            "updatedAt": "2026-09-01T20:17:03Z"
-          },
-          {
-            "number": 202,
-            "title": "CRM-03 · Lectura de visitantes por organización + consentimiento (fail-closed)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/202",
-            "updatedAt": "2026-08-28T16:05:04Z"
-          },
-          {
-            "number": 211,
-            "title": "chore(service-crm): empaquetado de despliegue (Dockerfile + PM2/compose + CHANGELOG)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/211",
-            "updatedAt": "2026-08-27T22:03:04Z"
-          },
-          {
-            "number": 200,
-            "title": "CRM-01 · Scaffold del microservicio service-crm (skill backend-microservicios)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/200",
-            "updatedAt": "2026-08-11T20:50:34Z"
-          }
-        ],
-        "truncated": false
-      },
+      "issueBreakdown": null,
       "links": {
         "github": "https://github.com/Electronikaco/civok-hub"
       }
