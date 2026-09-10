@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T15:00:46.389Z",
+  "generatedAt": "2026-09-10T15:30:42.303Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -642,29 +642,78 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-10T14:11:26Z",
+      "lastActivityAt": "2026-09-10T15:29:52Z",
       "progress": {
-        "percent": 82,
-        "label": "CRM del Hub · Personas/visitantes: 9/11"
+        "percent": 67,
+        "label": "Sedes maestro del Hub (horarios · import CSV · pausa con motivos · QR): 4/6"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 9,
-          "total": 11
+          "closed": 4,
+          "total": 6
         },
         {
           "label": "Global",
-          "closed": 183,
+          "closed": 182,
           "total": 200
         }
       ],
       "highlights": [],
-      "issueBreakdown": null,
+      "issueBreakdown": {
+        "label": "Sedes maestro del Hub (horarios · import CSV · pausa con motivos · QR)",
+        "totalIssues": 6,
+        "closedIssues": 4,
+        "issues": [
+          {
+            "number": 418,
+            "title": "SEDE-HUB-01 fix · Montar horarios de sede en hub-api (front recibía 404)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/418",
+            "updatedAt": "2026-09-10T15:29:38Z"
+          },
+          {
+            "number": 372,
+            "title": "[EPIC] Sedes como maestro del Hub (horarios · import CSV · pausa · QR)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/372",
+            "updatedAt": "2026-09-04T14:36:58Z"
+          },
+          {
+            "number": 376,
+            "title": "SEDE-HUB-04 · QR de sede en el maestro (generar/almacenar/exponer)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/376",
+            "updatedAt": "2026-09-06T04:03:19Z"
+          },
+          {
+            "number": 375,
+            "title": "SEDE-HUB-03 · Import masivo de sedes por CSV (plantilla + bulk)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/375",
+            "updatedAt": "2026-09-04T18:01:19Z"
+          },
+          {
+            "number": 374,
+            "title": "SEDE-HUB-02 · Pausar sede con motivos (catálogo + detalle + otro)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/374",
+            "updatedAt": "2026-09-04T17:39:50Z"
+          },
+          {
+            "number": 373,
+            "title": "SEDE-HUB-01 · Horarios de sede (modelo SedeHorario + endpoints)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/373",
+            "updatedAt": "2026-09-04T17:39:48Z"
+          }
+        ],
+        "truncated": false
+      },
       "links": {
         "github": "https://github.com/Electronikaco/civok-hub"
       }
@@ -677,25 +726,25 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 8,
-      "lastActivityAt": "2026-09-10T14:27:45Z",
+      "lastActivityAt": "2026-09-10T15:29:46Z",
       "progress": {
-        "percent": 77,
-        "label": "M6 · Hub Console: cierre R1-front: 10/13"
+        "percent": 50,
+        "label": "M4 · Hub Console: personas, usuarios y roles: 4/8"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 10,
-          "total": 13
+          "closed": 4,
+          "total": 8
         },
         {
           "label": "Global",
           "closed": 81,
-          "total": 113
+          "total": 114
         }
       ],
       "highlights": [],
@@ -710,6 +759,6 @@
     "healthy": 5,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 6
   }
 }
