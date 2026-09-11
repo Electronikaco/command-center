@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T19:30:37.118Z",
+  "generatedAt": "2026-09-11T20:00:40.285Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,16 +226,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T19:30:13Z",
+      "lastActivityAt": "2026-09-11T19:56:41Z",
       "progress": {
         "percent": 53,
-        "label": "77/144 issues"
+        "label": "78/146 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 77,
-          "total": 144
+          "closed": 78,
+          "total": 146
         },
         {
           "label": "Épicas",
@@ -246,9 +246,37 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 144,
-        "closedIssues": 77,
+        "totalIssues": 146,
+        "closedIssues": 78,
         "issues": [
+          {
+            "number": 176,
+            "title": "requireRole y requireAnyRole autorizan contra el claim del JWT en vez del rol de base de datos",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/176",
+            "updatedAt": "2026-09-11T19:57:16Z"
+          },
+          {
+            "number": 174,
+            "title": "createTenant no es transaccional: un fallo tardio deja el tenant a medias",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/174",
+            "updatedAt": "2026-09-11T19:56:49Z"
+          },
+          {
+            "number": 267,
+            "title": "Redis sin commandTimeout: una caída silenciosa retiene las peticiones sin límite",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/267",
+            "updatedAt": "2026-09-11T19:30:50Z"
+          },
+          {
+            "number": 266,
+            "title": "Nonces OAuth: consumir con leer-comparar-borrar atómico (carrera en Google Calendar, tenant sin comparar en Meta)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/266",
+            "updatedAt": "2026-09-11T19:30:28Z"
+          },
           {
             "number": 264,
             "title": "Contrato de parámetros: exigir que el param() vaya detrás de los guards de tenant/admin",
@@ -558,20 +586,6 @@
             "updatedAt": "2026-09-11T02:05:23Z"
           },
           {
-            "number": 177,
-            "title": "El alta con Google sostiene el FOR UPDATE del token de bootstrap durante una llamada de red a Google",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/177",
-            "updatedAt": "2026-09-11T02:04:54Z"
-          },
-          {
-            "number": 176,
-            "title": "requireRole y requireAnyRole autorizan contra el claim del JWT en vez del rol de base de datos",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/176",
-            "updatedAt": "2026-09-11T02:04:53Z"
-          },
-          {
             "number": 175,
             "title": "Varios handlers de tenants.ts devuelven el error crudo de MySQL al cliente",
             "state": "OPEN",
@@ -579,25 +593,11 @@
             "updatedAt": "2026-09-11T02:04:51Z"
           },
           {
-            "number": 174,
-            "title": "createTenant no es transaccional: un fallo tardio deja el tenant a medias",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/174",
-            "updatedAt": "2026-09-11T02:04:49Z"
-          },
-          {
             "number": 172,
             "title": "Defensa en profundidad en tenant-roles: TOCTOU en la guarda y repositorio sin filtro de tenant",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/172",
             "updatedAt": "2026-09-11T02:04:47Z"
-          },
-          {
-            "number": 166,
-            "title": "Los audios de WhatsApp nunca crean fila de inbound, ni en el camino feliz",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/166",
-            "updatedAt": "2026-09-11T02:04:45Z"
           }
         ],
         "truncated": true
@@ -615,14 +615,14 @@
       "type": "github",
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "ok",
-      "openPrs": 10,
-      "mergedPrs30d": 5,
-      "commits7d": 2,
+      "openPrs": 0,
+      "mergedPrs30d": 15,
+      "commits7d": 23,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T18:55:03Z",
+      "lastActivityAt": "2026-09-11T19:52:34Z",
       "progress": {
         "percent": null,
-        "label": "2 commits / 7d (develop)"
+        "label": "23 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
@@ -789,7 +789,7 @@
       "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 7,
+      "commits30d": 6,
       "lastActivityAt": "2026-09-11T18:38:04Z",
       "progress": {
         "percent": 40,
@@ -819,6 +819,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 15
+    "totalOpenPrs": 5
   }
 }
