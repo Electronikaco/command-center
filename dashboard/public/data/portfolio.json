@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T19:00:40.575Z",
+  "generatedAt": "2026-09-11T19:30:37.118Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -222,20 +222,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 4,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T18:58:48Z",
+      "lastActivityAt": "2026-09-11T19:30:13Z",
       "progress": {
-        "percent": 52,
-        "label": "75/143 issues"
+        "percent": 53,
+        "label": "77/144 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 75,
-          "total": 143
+          "closed": 77,
+          "total": 144
         },
         {
           "label": "Épicas",
@@ -246,15 +246,22 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 143,
-        "closedIssues": 75,
+        "totalIssues": 144,
+        "closedIssues": 77,
         "issues": [
           {
-            "number": 196,
-            "title": "Nueve parametros de ruta llegan al controlador sin validacion de formato",
+            "number": 264,
+            "title": "Contrato de parámetros: exigir que el param() vaya detrás de los guards de tenant/admin",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/196",
-            "updatedAt": "2026-09-11T18:43:11Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/264",
+            "updatedAt": "2026-09-11T19:02:41Z"
+          },
+          {
+            "number": 212,
+            "title": "Residuos del pipeline de audio: oraculo por temporizacion y un assistant ajeno leido antes de rechazarlo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/212",
+            "updatedAt": "2026-09-11T19:02:40Z"
           },
           {
             "number": 262,
@@ -516,13 +523,6 @@
             "updatedAt": "2026-09-11T02:05:38Z"
           },
           {
-            "number": 212,
-            "title": "Residuos del pipeline de audio: oraculo por temporizacion y un assistant ajeno leido antes de rechazarlo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/212",
-            "updatedAt": "2026-09-11T02:05:33Z"
-          },
-          {
             "number": 209,
             "title": "Cinco advertencias de los gates al cerrar #165: el 402 en workers, en SSE y en el widget",
             "state": "OPEN",
@@ -558,13 +558,6 @@
             "updatedAt": "2026-09-11T02:05:23Z"
           },
           {
-            "number": 179,
-            "title": "El state de OAuth de Instagram y Messenger no caduca ni se consume una sola vez",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/179",
-            "updatedAt": "2026-09-11T02:04:56Z"
-          },
-          {
             "number": 177,
             "title": "El alta con Google sostiene el FOR UPDATE del token de bootstrap durante una llamada de red a Google",
             "state": "OPEN",
@@ -598,6 +591,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/172",
             "updatedAt": "2026-09-11T02:04:47Z"
+          },
+          {
+            "number": 166,
+            "title": "Los audios de WhatsApp nunca crean fila de inbound, ni en el camino feliz",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/166",
+            "updatedAt": "2026-09-11T02:04:45Z"
           }
         ],
         "truncated": true
@@ -819,6 +819,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 16
+    "totalOpenPrs": 15
   }
 }
