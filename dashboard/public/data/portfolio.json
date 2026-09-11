@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T05:00:41.637Z",
+  "generatedAt": "2026-09-11T05:30:36.513Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -223,19 +223,19 @@
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "degraded",
       "healthReason": "PRs estancados",
-      "openPrs": 2,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T04:35:53Z",
+      "lastActivityAt": "2026-09-11T05:28:30Z",
       "progress": {
-        "percent": 49,
-        "label": "66/135 issues"
+        "percent": 50,
+        "label": "67/135 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 66,
+          "closed": 67,
           "total": 135
         },
         {
@@ -250,14 +250,21 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 135,
-        "closedIssues": 66,
+        "closedIssues": 67,
         "issues": [
           {
+            "number": 184,
+            "title": "El aplazamiento infinito de #137 compite con el limitador global de 120/min y degrada a los demas tenants",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/184",
+            "updatedAt": "2026-09-11T05:28:51Z"
+          },
+          {
             "number": 206,
-            "title": "La subida a vector stores no cobra créditos ni exige piso de saldo (llamada a OpenAI por metadata)",
+            "title": "Subida a vector stores: decisiones en conflicto — ¿cobro con piso de saldo (11-sep) o cuota por plan (25-ago)?",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/206",
-            "updatedAt": "2026-09-11T04:36:57Z"
+            "updatedAt": "2026-09-11T05:02:46Z"
           },
           {
             "number": 241,
@@ -547,20 +554,6 @@
             "updatedAt": "2026-09-11T02:05:10Z"
           },
           {
-            "number": 185,
-            "title": "Residuos de la validacion de CHANNEL_RATE_LIMIT_PER_MINUTE: cadena vacia, sin cota superior y un regex de test laxo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/185",
-            "updatedAt": "2026-09-11T02:05:01Z"
-          },
-          {
-            "number": 184,
-            "title": "El aplazamiento infinito de #137 compite con el limitador global de 120/min y degrada a los demas tenants",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/184",
-            "updatedAt": "2026-09-11T02:04:59Z"
-          },
-          {
             "number": 180,
             "title": "Google Calendar: el state lanza RangeError si la firma tiene otra longitud, y su secreto no se exige al arrancar",
             "state": "OPEN",
@@ -601,6 +594,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/174",
             "updatedAt": "2026-09-11T02:04:49Z"
+          },
+          {
+            "number": 172,
+            "title": "Defensa en profundidad en tenant-roles: TOCTOU en la guarda y repositorio sin filtro de tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/172",
+            "updatedAt": "2026-09-11T02:04:47Z"
           }
         ],
         "truncated": true
@@ -763,6 +763,6 @@
     "healthy": 4,
     "degraded": 2,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 5
   }
 }
