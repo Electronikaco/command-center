@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T05:30:36.513Z",
+  "generatedAt": "2026-09-11T06:00:41.323Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -227,16 +227,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T05:28:30Z",
+      "lastActivityAt": "2026-09-11T05:54:23Z",
       "progress": {
         "percent": 50,
-        "label": "67/135 issues"
+        "label": "68/136 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 67,
-          "total": 135
+          "closed": 68,
+          "total": 136
         },
         {
           "label": "Épicas",
@@ -249,15 +249,29 @@
       ],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 135,
-        "closedIssues": 67,
+        "totalIssues": 136,
+        "closedIssues": 68,
         "issues": [
           {
-            "number": 184,
-            "title": "El aplazamiento infinito de #137 compite con el limitador global de 120/min y degrada a los demas tenants",
+            "number": 187,
+            "title": "Cuando se aplique el indice unico, la carrera volvera a degradarse a warn: el predicado no reconoce SequelizeUniqueConstraintError",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/184",
-            "updatedAt": "2026-09-11T05:28:51Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/187",
+            "updatedAt": "2026-09-11T05:54:58Z"
+          },
+          {
+            "number": 182,
+            "title": "Un tenant permanentemente saturado reencola su mensaje sin tope ni alerta",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/182",
+            "updatedAt": "2026-09-11T05:54:47Z"
+          },
+          {
+            "number": 246,
+            "title": "Redis puede arrancar sin contraseña (REDIS_PASSWORD opcional y requirepass vacío en los compose)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/246",
+            "updatedAt": "2026-09-11T05:54:13Z"
           },
           {
             "number": 206,
@@ -335,20 +349,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/237",
             "updatedAt": "2026-09-11T02:25:27Z"
-          },
-          {
-            "number": 187,
-            "title": "Cuando se aplique el indice unico, la carrera volvera a degradarse a warn: el predicado no reconoce SequelizeUniqueConstraintError",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/187",
-            "updatedAt": "2026-09-11T02:23:25Z"
-          },
-          {
-            "number": 182,
-            "title": "Un tenant permanentemente saturado reencola su mensaje sin tope ni alerta",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/182",
-            "updatedAt": "2026-09-11T02:23:24Z"
           },
           {
             "number": 144,
