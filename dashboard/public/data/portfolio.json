@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T20:30:37.840Z",
+  "generatedAt": "2026-09-11T21:00:43.204Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 4,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T20:24:27Z",
+      "lastActivityAt": "2026-09-11T20:47:09Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -92,7 +92,7 @@
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
       "openPrs": 1,
-      "mergedPrs30d": 44,
+      "mergedPrs30d": 42,
       "commits7d": 0,
       "commits30d": 0,
       "lastActivityAt": "2026-09-10T14:12:11Z",
@@ -222,20 +222,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 4,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T20:27:39Z",
+      "lastActivityAt": "2026-09-11T20:33:53Z",
       "progress": {
         "percent": 54,
-        "label": "79/147 issues"
+        "label": "80/149 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 79,
-          "total": 147
+          "closed": 80,
+          "total": 149
         },
         {
           "label": "Épicas",
@@ -246,15 +246,29 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 147,
-        "closedIssues": 79,
+        "totalIssues": 149,
+        "closedIssues": 80,
         "issues": [
           {
-            "number": 175,
-            "title": "Varios handlers de tenants.ts devuelven el error crudo de MySQL al cliente",
+            "number": 174,
+            "title": "createTenant no es transaccional: un fallo tardio deja el tenant a medias",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/175",
-            "updatedAt": "2026-09-11T20:12:00Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/174",
+            "updatedAt": "2026-09-11T20:34:46Z"
+          },
+          {
+            "number": 273,
+            "title": "PUT/PATCH/DELETE /api/tenants/:id sobre un tenant inexistente responden 200 con data null/false",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/273",
+            "updatedAt": "2026-09-11T20:34:14Z"
+          },
+          {
+            "number": 272,
+            "title": "auth: servicios meten error.message crudo en AppError y handleControllerError lo devuelve (incluye reset-password público y bootstrap)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/272",
+            "updatedAt": "2026-09-11T20:34:08Z"
           },
           {
             "number": 270,
@@ -262,13 +276,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/270",
             "updatedAt": "2026-09-11T20:10:19Z"
-          },
-          {
-            "number": 174,
-            "title": "createTenant no es transaccional: un fallo tardio deja el tenant a medias",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/174",
-            "updatedAt": "2026-09-11T19:56:49Z"
           },
           {
             "number": 267,
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/201",
             "updatedAt": "2026-09-11T02:05:23Z"
-          },
-          {
-            "number": 172,
-            "title": "Defensa en profundidad en tenant-roles: TOCTOU en la guarda y repositorio sin filtro de tenant",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/172",
-            "updatedAt": "2026-09-11T02:04:47Z"
           }
         ],
         "truncated": true
@@ -789,7 +789,7 @@
       "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 6,
+      "commits30d": 5,
       "lastActivityAt": "2026-09-11T18:38:04Z",
       "progress": {
         "percent": 40,
@@ -819,6 +819,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 5
+    "totalOpenPrs": 4
   }
 }
