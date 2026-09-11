@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T08:00:39.685Z",
+  "generatedAt": "2026-09-11T08:30:35.162Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,7 +226,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T07:57:36Z",
+      "lastActivityAt": "2026-09-11T08:13:54Z",
       "progress": {
         "percent": 51,
         "label": "70/138 issues"
@@ -254,7 +254,7 @@
             "title": "npm run migrate falla en una base de datos nueva: dos migraciones existentes producen prosa ejecutable",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/190",
-            "updatedAt": "2026-09-11T07:38:51Z"
+            "updatedAt": "2026-09-11T08:02:25Z"
           },
           {
             "number": 250,
