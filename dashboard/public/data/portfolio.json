@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T16:30:38.783Z",
+  "generatedAt": "2026-09-11T17:00:44.913Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 187,
+          "closed": 186,
           "total": 200
         }
       ],
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T16:15:52Z",
+      "lastActivityAt": "2026-09-11T16:48:31Z",
       "progress": {
-        "percent": 51,
-        "label": "71/139 issues"
+        "percent": 52,
+        "label": "72/139 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 71,
+          "closed": 72,
           "total": 139
         },
         {
@@ -247,14 +247,14 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 139,
-        "closedIssues": 71,
+        "closedIssues": 72,
         "issues": [
           {
-            "number": 191,
-            "title": "Las compensaciones de alta de WhatsApp no revocan las credenciales: queda un token activo de una integracion borrada",
+            "number": 182,
+            "title": "Un tenant permanentemente saturado reencola su mensaje sin tope ni alerta",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/191",
-            "updatedAt": "2026-09-11T16:17:01Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/182",
+            "updatedAt": "2026-09-11T16:49:00Z"
           },
           {
             "number": 252,
@@ -276,13 +276,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/248",
             "updatedAt": "2026-09-11T06:34:16Z"
-          },
-          {
-            "number": 182,
-            "title": "Un tenant permanentemente saturado reencola su mensaje sin tope ni alerta",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/182",
-            "updatedAt": "2026-09-11T05:54:47Z"
           },
           {
             "number": 246,
@@ -598,6 +591,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/172",
             "updatedAt": "2026-09-11T02:04:47Z"
+          },
+          {
+            "number": 166,
+            "title": "Los audios de WhatsApp nunca crean fila de inbound, ni en el camino feliz",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/166",
+            "updatedAt": "2026-09-11T02:04:45Z"
           }
         ],
         "truncated": true
@@ -647,112 +647,133 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-11T15:44:38Z",
+      "lastActivityAt": "2026-09-11T16:57:58Z",
       "progress": {
-        "percent": 75,
-        "label": "CRM del Hub · Personas/visitantes: 9/12"
+        "percent": 73,
+        "label": "R2 · Endurecimiento y cierre del split: 11/15"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 9,
-          "total": 12
+          "closed": 11,
+          "total": 15
         },
         {
           "label": "Global",
-          "closed": 179,
+          "closed": 178,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "CRM del Hub · Personas/visitantes",
-        "totalIssues": 12,
-        "closedIssues": 9,
+        "label": "R2 · Endurecimiento y cierre del split",
+        "totalIssues": 15,
+        "closedIssues": 11,
         "issues": [
           {
-            "number": 426,
-            "title": "service-crm: alinear auth de dominio al TOKEN de servicio (requireService) y andamiaje de arranque dev",
+            "number": 428,
+            "title": "Modal de Roles vacío: hardening del gate autz (fail-closed sin 500 en cascada) + split-brain del catálogo de apps (Turno) en service-authz",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/426",
-            "updatedAt": "2026-09-11T15:34:48Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/428",
+            "updatedAt": "2026-09-11T16:48:47Z"
           },
           {
-            "number": 199,
-            "title": "[EPIC] F1 · CRM lectura de personas/visitantes (por organización + consentimiento)",
+            "number": 424,
+            "title": "Robustez del registro/reactivación multi-organización (R1/R2/R2b + split-brain del hint de correo)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/199",
-            "updatedAt": "2026-09-05T13:24:43Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/424",
+            "updatedAt": "2026-09-11T15:32:29Z"
           },
           {
-            "number": 206,
-            "title": "[EPIC] F2 · Interacción por app en el CRM (Turno primero)",
+            "number": 295,
+            "title": "🔒 Hardening de seguridad del split — gate de producción (2 ALTO + 3 MEDIO · auditoría)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/206",
-            "updatedAt": "2026-08-11T20:11:15Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/295",
+            "updatedAt": "2026-09-02T17:12:49Z"
           },
           {
-            "number": 205,
-            "title": "CRM-06 · Consumo por apps consumidoras (alcance por app, read-only)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/205",
-            "updatedAt": "2026-09-06T04:03:23Z"
+            "number": 278,
+            "title": "Bug (dev-infra): segfault nativo intermitente de service-org/auth bajo carga de registro (exit 139 · ~Prisma engine)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/278",
+            "updatedAt": "2026-08-26T20:05:10Z"
           },
           {
-            "number": 203,
-            "title": "CRM-04 · Vista 360 mínima de la persona (read-only, privacidad by design)",
+            "number": 316,
+            "title": "Cablear el camino S2S del PAD post-split (canje→service-auth + push→hub-api) — desbloquea publicar vitrina de Turno",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/203",
-            "updatedAt": "2026-09-06T04:03:21Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/316",
+            "updatedAt": "2026-09-04T17:48:22Z"
           },
           {
-            "number": 210,
-            "title": "hardening(service-crm): privacy-by-design en logs para CRM-03+ (query string, err.message, wrong-key test)",
+            "number": 214,
+            "title": "S2S para PAD · exponer licencia por org (estado/serial/fechas) y roles del cliente por app",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/210",
-            "updatedAt": "2026-09-02T23:09:24Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/214",
+            "updatedAt": "2026-09-02T23:09:27Z"
           },
           {
-            "number": 209,
-            "title": "CONV · Verificar/asegurar emisión de eventos de recursos consumidos por Turno",
+            "number": 198,
+            "title": "hardening(authz): revalidar contrato de app en el ENFORCEMENT tras revocación (roles de catálogo/personalizados)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/209",
-            "updatedAt": "2026-09-02T23:09:21Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/198",
+            "updatedAt": "2026-09-02T23:09:18Z"
           },
           {
-            "number": 204,
-            "title": "CRM-05 · 'Apps usadas' por la persona (proyección básica en el CRM)",
+            "number": 190,
+            "title": "hardening(auth): acotar el OTP-bombing de MFA cross-challenge (cap por-usuario/destino)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/204",
-            "updatedAt": "2026-09-02T16:12:35Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/190",
+            "updatedAt": "2026-09-02T17:47:08Z"
           },
           {
-            "number": 201,
-            "title": "CRM-02 · Front door en hub-bff + S2S (contrato público)",
+            "number": 326,
+            "title": "Re-seed idempotente del LICENCIAMIENTO de civok_hub desde las adquisiciones aprobadas del PAD (recuperación del incidente + salvaguarda) — PRIORITARIO",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/201",
-            "updatedAt": "2026-09-01T20:17:03Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/326",
+            "updatedAt": "2026-09-01T14:50:18Z"
           },
           {
-            "number": 202,
-            "title": "CRM-03 · Lectura de visitantes por organización + consentimiento (fail-closed)",
+            "number": 317,
+            "title": "El push del árbol debe UPSERTEAR la app (PAD→Hub cachea) para auto-sanar sin registro manual",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/202",
-            "updatedAt": "2026-08-28T16:05:04Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/317",
+            "updatedAt": "2026-09-01T14:50:16Z"
           },
           {
-            "number": 211,
-            "title": "chore(service-crm): empaquetado de despliegue (Dockerfile + PM2/compose + CHANGELOG)",
+            "number": 327,
+            "title": "BUG · hub-licensing quedó fuera de la migración del directorio de tenant (#282/#288) → 500 TENANT_ISOLATION en TODOS sus endpoints",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/211",
-            "updatedAt": "2026-08-27T22:03:04Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/327",
+            "updatedAt": "2026-08-29T16:57:49Z"
           },
           {
-            "number": 200,
-            "title": "CRM-01 · Scaffold del microservicio service-crm (skill backend-microservicios)",
+            "number": 318,
+            "title": "Investigar por qué el split físico vacía civok_hub (catálogo + licenciamiento) — pérdida recurrente",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/200",
-            "updatedAt": "2026-08-11T20:50:34Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/318",
+            "updatedAt": "2026-08-28T10:13:42Z"
+          },
+          {
+            "number": 197,
+            "title": "refine(roles): paginación del selector con filter[appUid] al incluir RolCatalogo",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/197",
+            "updatedAt": "2026-08-27T21:32:51Z"
+          },
+          {
+            "number": 195,
+            "title": "chore(licensing-core): mover los test-fakes a un subpath @civok-hub/licensing-core/testing",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/195",
+            "updatedAt": "2026-08-27T21:23:08Z"
+          },
+          {
+            "number": 185,
+            "title": "chore(supply-chain): propagar `--frozen-lockfile` a los Dockerfiles de hub-api y hub-worker",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/185",
+            "updatedAt": "2026-08-26T20:07:33Z"
           }
         ],
         "truncated": false
