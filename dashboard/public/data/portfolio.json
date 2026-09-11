@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T04:30:35.803Z",
+  "generatedAt": "2026-09-11T05:00:41.637Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -227,16 +227,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T02:52:47Z",
+      "lastActivityAt": "2026-09-11T04:35:53Z",
       "progress": {
         "percent": 49,
-        "label": "65/133 issues"
+        "label": "66/135 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 65,
-          "total": 133
+          "closed": 66,
+          "total": 135
         },
         {
           "label": "Épicas",
@@ -249,22 +249,29 @@
       ],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 133,
-        "closedIssues": 65,
+        "totalIssues": 135,
+        "closedIssues": 66,
         "issues": [
           {
             "number": 206,
-            "title": "La subida a vector stores no tiene cuota por plan: va incluida en el plan, pero sin techo",
+            "title": "La subida a vector stores no cobra créditos ni exige piso de saldo (llamada a OpenAI por metadata)",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/206",
-            "updatedAt": "2026-09-11T02:27:42Z"
+            "updatedAt": "2026-09-11T04:36:57Z"
           },
           {
-            "number": 199,
-            "title": "Un segundo WebSocket sobre el mismo callId cruza sesiones y puede cortar una llamada ajena del mismo tenant",
+            "number": 241,
+            "title": "Voz: ciclo de vida de la llamada, límites de reconexión y robustez del handshake (seguimiento de #199)",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/199",
-            "updatedAt": "2026-09-11T02:27:41Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/241",
+            "updatedAt": "2026-09-11T04:35:56Z"
+          },
+          {
+            "number": 239,
+            "title": "Una URL mal formada en el upgrade del WebSocket de voz tumba configuracion antes de autenticar",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/239",
+            "updatedAt": "2026-09-11T04:34:24Z"
           },
           {
             "number": 213,
@@ -594,13 +601,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/174",
             "updatedAt": "2026-09-11T02:04:49Z"
-          },
-          {
-            "number": 172,
-            "title": "Defensa en profundidad en tenant-roles: TOCTOU en la guarda y repositorio sin filtro de tenant",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/172",
-            "updatedAt": "2026-09-11T02:04:47Z"
           }
         ],
         "truncated": true
