@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T16:00:45.576Z",
+  "generatedAt": "2026-09-11T16:30:38.783Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -26,7 +26,7 @@
         },
         {
           "label": "Épicas",
-          "closed": 27,
+          "closed": 28,
           "total": 31
         },
         {
@@ -92,7 +92,7 @@
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
       "openPrs": 1,
-      "mergedPrs30d": 45,
+      "mergedPrs30d": 44,
       "commits7d": 0,
       "commits30d": 0,
       "lastActivityAt": "2026-09-10T14:12:11Z",
@@ -222,20 +222,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T08:13:54Z",
+      "lastActivityAt": "2026-09-11T16:15:52Z",
       "progress": {
         "percent": 51,
-        "label": "70/138 issues"
+        "label": "71/139 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 70,
-          "total": 138
+          "closed": 71,
+          "total": 139
         },
         {
           "label": "Épicas",
@@ -246,15 +246,22 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 138,
-        "closedIssues": 70,
+        "totalIssues": 139,
+        "closedIssues": 71,
         "issues": [
           {
-            "number": 190,
-            "title": "npm run migrate falla en una base de datos nueva: dos migraciones existentes producen prosa ejecutable",
+            "number": 191,
+            "title": "Las compensaciones de alta de WhatsApp no revocan las credenciales: queda un token activo de una integracion borrada",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/190",
-            "updatedAt": "2026-09-11T08:02:25Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/191",
+            "updatedAt": "2026-09-11T16:17:01Z"
+          },
+          {
+            "number": 252,
+            "title": "Migración base: npm run migrate no puede completar sobre una base vacía porque ninguna migración crea las tablas base",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/252",
+            "updatedAt": "2026-09-11T16:16:44Z"
           },
           {
             "number": 250,
@@ -544,13 +551,6 @@
             "updatedAt": "2026-09-11T02:05:12Z"
           },
           {
-            "number": 191,
-            "title": "Las compensaciones de alta de WhatsApp no revocan las credenciales: queda un token activo de una integracion borrada",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/191",
-            "updatedAt": "2026-09-11T02:05:10Z"
-          },
-          {
             "number": 180,
             "title": "Google Calendar: el state lanza RangeError si la firma tiene otra longitud, y su secreto no se exige al arrancar",
             "state": "OPEN",
@@ -802,6 +802,6 @@
     "healthy": 5,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 5
+    "totalOpenPrs": 4
   }
 }
