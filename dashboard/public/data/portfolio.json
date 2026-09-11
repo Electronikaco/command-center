@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T17:00:44.913Z",
+  "generatedAt": "2026-09-11T17:30:36.327Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 186,
+          "closed": 185,
           "total": 200
         }
       ],
@@ -222,19 +222,19 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 4,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T16:48:31Z",
+      "lastActivityAt": "2026-09-11T17:26:05Z",
       "progress": {
-        "percent": 52,
-        "label": "72/139 issues"
+        "percent": 53,
+        "label": "73/139 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 72,
+          "closed": 73,
           "total": 139
         },
         {
@@ -247,14 +247,28 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 139,
-        "closedIssues": 72,
+        "closedIssues": 73,
         "issues": [
           {
-            "number": 182,
-            "title": "Un tenant permanentemente saturado reencola su mensaje sin tope ni alerta",
+            "number": 194,
+            "title": "Clase hermana de #147: check() sobre campos de query permite sobrescribirlos desde el body",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/182",
-            "updatedAt": "2026-09-11T16:49:00Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/194",
+            "updatedAt": "2026-09-11T17:28:44Z"
+          },
+          {
+            "number": 180,
+            "title": "Google Calendar: el state lanza RangeError si la firma tiene otra longitud, y su secreto no se exige al arrancar",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/180",
+            "updatedAt": "2026-09-11T17:28:34Z"
+          },
+          {
+            "number": 144,
+            "title": "Nadie se entera de los inbound_webhook_events en failed por ambiguedad de cuenta",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/144",
+            "updatedAt": "2026-09-11T17:12:49Z"
           },
           {
             "number": 252,
@@ -353,13 +367,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/237",
             "updatedAt": "2026-09-11T02:25:27Z"
-          },
-          {
-            "number": 144,
-            "title": "Nadie se entera de los inbound_webhook_events en failed por ambiguedad de cuenta",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/144",
-            "updatedAt": "2026-09-11T02:23:22Z"
           },
           {
             "number": 128,
@@ -537,20 +544,6 @@
             "updatedAt": "2026-09-11T02:05:14Z"
           },
           {
-            "number": 194,
-            "title": "Clase hermana de #147: check() sobre campos de query permite sobrescribirlos desde el body",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/194",
-            "updatedAt": "2026-09-11T02:05:12Z"
-          },
-          {
-            "number": 180,
-            "title": "Google Calendar: el state lanza RangeError si la firma tiene otra longitud, y su secreto no se exige al arrancar",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/180",
-            "updatedAt": "2026-09-11T02:04:58Z"
-          },
-          {
             "number": 179,
             "title": "El state de OAuth de Instagram y Messenger no caduca ni se consume una sola vez",
             "state": "OPEN",
@@ -598,6 +591,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/166",
             "updatedAt": "2026-09-11T02:04:45Z"
+          },
+          {
+            "number": 159,
+            "title": "webhooks-ack-durabilidad.test.ts es flaky bajo carga: espera un setTimeout fijo de 20ms",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/159",
+            "updatedAt": "2026-09-11T02:04:43Z"
           }
         ],
         "truncated": true
@@ -615,19 +615,19 @@
       "type": "github",
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "degraded",
-      "healthReason": "Inactivo >7d",
-      "openPrs": 1,
+      "healthReason": "PRs estancados",
+      "openPrs": 2,
       "mergedPrs30d": 2,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-03T20:54:57Z",
+      "lastActivityAt": "2026-09-11T17:05:00Z",
       "progress": {
         "percent": null,
         "label": "0 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [
-        "Sin actividad hace 7d (umbral 7d)",
+        "1 PR(s) estancado(s) >7d",
         "Sin commits en los últimos 7 días"
       ],
       "issueBreakdown": null,
@@ -823,6 +823,6 @@
     "healthy": 5,
     "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 7
   }
 }
