@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T07:30:38.412Z",
+  "generatedAt": "2026-09-11T08:00:39.685Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -221,21 +221,20 @@
       "ghRepo": "ia-saas/miliia_back",
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
-      "health": "degraded",
-      "healthReason": "PRs estancados",
-      "openPrs": 4,
+      "health": "ok",
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T07:03:28Z",
+      "lastActivityAt": "2026-09-11T07:57:36Z",
       "progress": {
-        "percent": 50,
-        "label": "69/138 issues"
+        "percent": 51,
+        "label": "70/138 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 69,
+          "closed": 70,
           "total": 138
         },
         {
@@ -244,27 +243,25 @@
           "total": 17
         }
       ],
-      "highlights": [
-        "1 PR(s) estancado(s) >7d"
-      ],
+      "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 138,
-        "closedIssues": 69,
+        "closedIssues": 70,
         "issues": [
+          {
+            "number": 190,
+            "title": "npm run migrate falla en una base de datos nueva: dos migraciones existentes producen prosa ejecutable",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/190",
+            "updatedAt": "2026-09-11T07:38:51Z"
+          },
           {
             "number": 250,
             "title": "verifyAssistantWhatsAppLink no comprueba que el asistente del link pertenezca al tenant dueño del número",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/250",
-            "updatedAt": "2026-09-11T07:11:34Z"
-          },
-          {
-            "number": 189,
-            "title": "Un registro ambiguo puede monopolizar el lote del barrido de recuperables",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/189",
-            "updatedAt": "2026-09-11T06:34:41Z"
+            "updatedAt": "2026-09-11T07:35:38Z"
           },
           {
             "number": 248,
@@ -412,13 +409,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/219",
             "updatedAt": "2026-09-11T02:16:25Z"
-          },
-          {
-            "number": 190,
-            "title": "npm run migrate falla en una base de datos nueva: dos migraciones existentes producen prosa ejecutable",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/190",
-            "updatedAt": "2026-09-11T02:16:20Z"
           },
           {
             "number": 138,
@@ -601,6 +591,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/174",
             "updatedAt": "2026-09-11T02:04:49Z"
+          },
+          {
+            "number": 172,
+            "title": "Defensa en profundidad en tenant-roles: TOCTOU en la guarda y repositorio sin filtro de tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/172",
+            "updatedAt": "2026-09-11T02:04:47Z"
           }
         ],
         "truncated": true
@@ -760,9 +757,9 @@
   ],
   "summary": {
     "totalProjects": 6,
-    "healthy": 4,
-    "degraded": 2,
+    "healthy": 5,
+    "degraded": 1,
     "error": 0,
-    "totalOpenPrs": 6
+    "totalOpenPrs": 5
   }
 }
