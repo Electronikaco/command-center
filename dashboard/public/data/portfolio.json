@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T18:30:41.475Z",
+  "generatedAt": "2026-09-11T19:00:40.575Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 1,
       "mergedPrs30d": 50,
-      "commits7d": 3,
+      "commits7d": 4,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T18:28:56Z",
+      "lastActivityAt": "2026-09-11T18:56:26Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -222,20 +222,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 4,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T18:21:28Z",
+      "lastActivityAt": "2026-09-11T18:58:48Z",
       "progress": {
         "percent": 52,
-        "label": "74/142 issues"
+        "label": "75/143 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 74,
-          "total": 142
+          "closed": 75,
+          "total": 143
         },
         {
           "label": "Épicas",
@@ -246,15 +246,22 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 142,
-        "closedIssues": 74,
+        "totalIssues": 143,
+        "closedIssues": 75,
         "issues": [
           {
-            "number": 195,
-            "title": "controllers/contacts.ts mezcla req.params.id y matchedData en el mismo fichero",
+            "number": 196,
+            "title": "Nueve parametros de ruta llegan al controlador sin validacion de formato",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/195",
-            "updatedAt": "2026-09-11T18:22:01Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/196",
+            "updatedAt": "2026-09-11T18:43:11Z"
+          },
+          {
+            "number": 262,
+            "title": "connectMessengerPages: pageIds sin validar por elemento ni con tope de tamaño",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/262",
+            "updatedAt": "2026-09-11T18:42:12Z"
           },
           {
             "number": 260,
@@ -551,13 +558,6 @@
             "updatedAt": "2026-09-11T02:05:23Z"
           },
           {
-            "number": 196,
-            "title": "Nueve parametros de ruta llegan al controlador sin validacion de formato",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/196",
-            "updatedAt": "2026-09-11T02:05:15Z"
-          },
-          {
             "number": 179,
             "title": "El state de OAuth de Instagram y Messenger no caduca ni se consume una sola vez",
             "state": "OPEN",
@@ -615,11 +615,11 @@
       "type": "github",
       "description": "Frontend agente IA — Next.js + Firebase",
       "health": "ok",
-      "openPrs": 6,
+      "openPrs": 10,
       "mergedPrs30d": 5,
       "commits7d": 2,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T18:29:58Z",
+      "lastActivityAt": "2026-09-11T18:55:03Z",
       "progress": {
         "percent": null,
         "label": "2 commits / 7d (develop)"
@@ -639,11 +639,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-11T18:29:57Z",
+      "lastActivityAt": "2026-09-11T18:37:42Z",
       "progress": {
         "percent": 73,
         "label": "R2 · Endurecimiento y cierre del split: 11/15"
@@ -786,11 +786,11 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 7,
-      "lastActivityAt": "2026-09-11T18:20:00Z",
+      "lastActivityAt": "2026-09-11T18:38:04Z",
       "progress": {
         "percent": 40,
         "label": "M4 · Hub Console: personas, usuarios y roles: 4/10"
@@ -819,6 +819,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 14
+    "totalOpenPrs": 16
   }
 }
