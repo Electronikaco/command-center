@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T17:30:36.327Z",
+  "generatedAt": "2026-09-11T18:00:44.841Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 185,
+          "closed": 184,
           "total": 200
         }
       ],
@@ -222,20 +222,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 4,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T17:26:05Z",
+      "lastActivityAt": "2026-09-11T17:31:29Z",
       "progress": {
-        "percent": 53,
-        "label": "73/139 issues"
+        "percent": 52,
+        "label": "73/141 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 73,
-          "total": 139
+          "total": 141
         },
         {
           "label": "Épicas",
@@ -246,9 +246,30 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 139,
+        "totalIssues": 141,
         "closedIssues": 73,
         "issues": [
+          {
+            "number": 126,
+            "title": "Se loguea la firma del webhook de ePayco, contra la regla explicita de AGENTS.md",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/126",
+            "updatedAt": "2026-09-11T17:32:14Z"
+          },
+          {
+            "number": 258,
+            "title": "Comparaciones de firmas y tokens de webhook sin tiempo constante o con fuga en logs (ePayco, PayU, Meta)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/258",
+            "updatedAt": "2026-09-11T17:31:52Z"
+          },
+          {
+            "number": 257,
+            "title": "Open redirect en el callback público de Google Calendar: redirectTo sale del state antes de verificar la firma",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/257",
+            "updatedAt": "2026-09-11T17:31:40Z"
+          },
           {
             "number": 194,
             "title": "Clase hermana de #147: check() sobre campos de query permite sobrescribirlos desde el body",
@@ -460,13 +481,6 @@
             "updatedAt": "2026-09-11T02:05:52Z"
           },
           {
-            "number": 126,
-            "title": "Se loguea la firma del webhook de ePayco, contra la regla explicita de AGENTS.md",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/126",
-            "updatedAt": "2026-09-11T02:05:48Z"
-          },
-          {
             "number": 221,
             "title": "Residuo de #143: dos findOne globales por phone_number_id en el outbound hacen fallar el envio con un error que miente",
             "state": "OPEN",
@@ -584,20 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/172",
             "updatedAt": "2026-09-11T02:04:47Z"
-          },
-          {
-            "number": 166,
-            "title": "Los audios de WhatsApp nunca crean fila de inbound, ni en el camino feliz",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/166",
-            "updatedAt": "2026-09-11T02:04:45Z"
-          },
-          {
-            "number": 159,
-            "title": "webhooks-ack-durabilidad.test.ts es flaky bajo carga: espera un setTimeout fijo de 20ms",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/159",
-            "updatedAt": "2026-09-11T02:04:43Z"
           }
         ],
         "truncated": true
@@ -614,22 +614,18 @@
       "ghRepo": "electronikatm/civok-agentik",
       "type": "github",
       "description": "Frontend agente IA — Next.js + Firebase",
-      "health": "degraded",
-      "healthReason": "PRs estancados",
-      "openPrs": 2,
-      "mergedPrs30d": 2,
-      "commits7d": 0,
+      "health": "ok",
+      "openPrs": 1,
+      "mergedPrs30d": 5,
+      "commits7d": 2,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T17:05:00Z",
+      "lastActivityAt": "2026-09-11T17:47:58Z",
       "progress": {
         "percent": null,
-        "label": "0 commits / 7d (develop)"
+        "label": "2 commits / 7d (develop)"
       },
       "progressMeters": [],
-      "highlights": [
-        "1 PR(s) estancado(s) >7d",
-        "Sin commits en los últimos 7 días"
-      ],
+      "highlights": [],
       "issueBreakdown": null,
       "links": {
         "github": "https://github.com/electronikatm/civok-agentik"
@@ -820,9 +816,9 @@
   ],
   "summary": {
     "totalProjects": 6,
-    "healthy": 5,
-    "degraded": 1,
+    "healthy": 6,
+    "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 7
+    "totalOpenPrs": 5
   }
 }
