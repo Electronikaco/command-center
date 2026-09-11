@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T06:30:35.876Z",
+  "generatedAt": "2026-09-11T07:00:46.169Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -223,20 +223,20 @@
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "degraded",
       "healthReason": "PRs estancados",
-      "openPrs": 4,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T06:26:05Z",
+      "lastActivityAt": "2026-09-11T06:34:03Z",
       "progress": {
         "percent": 50,
-        "label": "68/136 issues"
+        "label": "69/137 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 68,
-          "total": 136
+          "closed": 69,
+          "total": 137
         },
         {
           "label": "Épicas",
@@ -249,15 +249,22 @@
       ],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 136,
-        "closedIssues": 68,
+        "totalIssues": 137,
+        "closedIssues": 69,
         "issues": [
           {
-            "number": 187,
-            "title": "Cuando se aplique el indice unico, la carrera volvera a degradarse a warn: el predicado no reconoce SequelizeUniqueConstraintError",
+            "number": 189,
+            "title": "Un registro ambiguo puede monopolizar el lote del barrido de recuperables",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/187",
-            "updatedAt": "2026-09-11T05:54:58Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/189",
+            "updatedAt": "2026-09-11T06:34:41Z"
+          },
+          {
+            "number": 248,
+            "title": "Antes de promover el índice único de números: escrituras que aún responderían 500 y restos de #187",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/248",
+            "updatedAt": "2026-09-11T06:34:16Z"
           },
           {
             "number": 182,
@@ -300,13 +307,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/213",
             "updatedAt": "2026-09-11T02:26:41Z"
-          },
-          {
-            "number": 189,
-            "title": "Un registro ambiguo puede monopolizar el lote del barrido de recuperables",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/189",
-            "updatedAt": "2026-09-11T02:26:39Z"
           },
           {
             "number": 148,
@@ -763,6 +763,6 @@
     "healthy": 4,
     "degraded": 2,
     "error": 0,
-    "totalOpenPrs": 6
+    "totalOpenPrs": 5
   }
 }
