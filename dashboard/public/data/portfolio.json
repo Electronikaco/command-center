@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T09:00:37.293Z",
+  "generatedAt": "2026-09-12T09:30:35.465Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -228,14 +228,14 @@
       "commits30d": 30,
       "lastActivityAt": "2026-09-12T08:52:01Z",
       "progress": {
-        "percent": 55,
-        "label": "96/176 issues"
+        "percent": 54,
+        "label": "96/178 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 96,
-          "total": 176
+          "total": 178
         },
         {
           "label": "Épicas",
@@ -246,9 +246,23 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 176,
+        "totalIssues": 178,
         "closedIssues": 96,
         "issues": [
+          {
+            "number": 316,
+            "title": "El token de invitacion de tenant users es un token de reset reutilizado, sin tipo ni revocacion propios",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/316",
+            "updatedAt": "2026-09-12T09:27:36Z"
+          },
+          {
+            "number": 317,
+            "title": "invite y resend-invitation no tienen limite propio: con el correo encendido son una primitiva de envio",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/317",
+            "updatedAt": "2026-09-12T09:27:29Z"
+          },
           {
             "number": 102,
             "title": "resend-invitation devuelve el token de invitacion en el cuerpo de la respuesta",
@@ -584,20 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/241",
             "updatedAt": "2026-09-11T04:35:56Z"
-          },
-          {
-            "number": 239,
-            "title": "Una URL mal formada en el upgrade del WebSocket de voz tumba configuracion antes de autenticar",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/239",
-            "updatedAt": "2026-09-11T04:34:24Z"
-          },
-          {
-            "number": 223,
-            "title": "Residuos de #188: una integracion offboardeada deja la WABA ambigua para siempre, y cuatro mas",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/223",
-            "updatedAt": "2026-09-11T02:25:33Z"
           }
         ],
         "truncated": true
