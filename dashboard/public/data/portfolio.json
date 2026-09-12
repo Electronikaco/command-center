@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T10:30:37.047Z",
+  "generatedAt": "2026-09-12T11:00:37.472Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -229,13 +229,13 @@
       "lastActivityAt": "2026-09-12T09:38:16Z",
       "progress": {
         "percent": 54,
-        "label": "98/180 issues"
+        "label": "98/181 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 98,
-          "total": 180
+          "total": 181
         },
         {
           "label": "Épicas",
@@ -246,15 +246,22 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 180,
+        "totalIssues": 181,
         "closedIssues": 98,
         "issues": [
+          {
+            "number": 321,
+            "title": "createUser y createInvitedUser asignan el rol sin revalidarlo dentro de la transaccion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/321",
+            "updatedAt": "2026-09-12T10:51:48Z"
+          },
           {
             "number": 320,
             "title": "revokeAllUserTokens recibe la transaccion y la ignora: los estaticos ni la aceptan",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/320",
-            "updatedAt": "2026-09-12T10:30:08Z"
+            "updatedAt": "2026-09-12T10:47:19Z"
           },
           {
             "number": 214,
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/246",
             "updatedAt": "2026-09-11T05:54:13Z"
-          },
-          {
-            "number": 206,
-            "title": "Subida a vector stores: decisiones en conflicto — ¿cobro con piso de saldo (11-sep) o cuota por plan (25-ago)?",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/206",
-            "updatedAt": "2026-09-11T05:02:46Z"
           }
         ],
         "truncated": true
