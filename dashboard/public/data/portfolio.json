@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T05:30:33.327Z",
+  "generatedAt": "2026-09-12T06:00:41.974Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -222,20 +222,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 4,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-12T05:08:17Z",
+      "lastActivityAt": "2026-09-12T05:43:31Z",
       "progress": {
         "percent": 55,
-        "label": "92/166 issues"
+        "label": "92/167 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 92,
-          "total": 166
+          "total": 167
         },
         {
           "label": "Épicas",
@@ -246,9 +246,30 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 166,
+        "totalIssues": 167,
         "closedIssues": 92,
         "issues": [
+          {
+            "number": 303,
+            "title": "Endpoint de depuración devuelve access_token y appsecret_proof en claro, protegido solo por NODE_ENV",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/303",
+            "updatedAt": "2026-09-12T05:52:41Z"
+          },
+          {
+            "number": 281,
+            "title": "Flaky nuevo: whatsapp-inbound-recovery-cron-flag.test.ts depende del orden dentro del propio fichero",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/281",
+            "updatedAt": "2026-09-12T05:43:04Z"
+          },
+          {
+            "number": 258,
+            "title": "Comparaciones de firmas y tokens de webhook sin tiempo constante o con fuga en logs (ePayco, PayU, Meta)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/258",
+            "updatedAt": "2026-09-12T05:43:03Z"
+          },
           {
             "number": 126,
             "title": "Se loguea la firma del webhook de ePayco, contra la regla explicita de AGENTS.md",
@@ -348,13 +369,6 @@
             "updatedAt": "2026-09-12T00:14:08Z"
           },
           {
-            "number": 281,
-            "title": "Flaky nuevo: whatsapp-inbound-recovery-cron-flag.test.ts depende del orden dentro del propio fichero",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/281",
-            "updatedAt": "2026-09-11T23:56:33Z"
-          },
-          {
             "number": 279,
             "title": "Traza de audios de WhatsApp: reentrega de Meta degrada la fila y la transcripción no se vuelca (seguimiento de #166)",
             "state": "OPEN",
@@ -451,13 +465,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/260",
             "updatedAt": "2026-09-11T18:20:35Z"
-          },
-          {
-            "number": 258,
-            "title": "Comparaciones de firmas y tokens de webhook sin tiempo constante o con fuga en logs (ePayco, PayU, Meta)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/258",
-            "updatedAt": "2026-09-11T17:31:52Z"
           },
           {
             "number": 257,
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/219",
             "updatedAt": "2026-09-11T02:16:25Z"
-          },
-          {
-            "number": 138,
-            "title": "La DLQ de salida no la lee nadie y sus registros quedan en failed, que el replay saltaria",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/138",
-            "updatedAt": "2026-09-11T02:16:18Z"
           }
         ],
         "truncated": true
@@ -819,6 +819,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 8
+    "totalOpenPrs": 9
   }
 }
