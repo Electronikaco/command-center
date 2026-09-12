@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T03:00:41.510Z",
+  "generatedAt": "2026-09-12T03:30:34.122Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,16 +226,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-12T02:32:53Z",
+      "lastActivityAt": "2026-09-12T03:28:40Z",
       "progress": {
-        "percent": 56,
-        "label": "88/158 issues"
+        "percent": 55,
+        "label": "88/159 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 88,
-          "total": 158
+          "total": 159
         },
         {
           "label": "Épicas",
@@ -246,9 +246,16 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 158,
+        "totalIssues": 159,
         "closedIssues": 88,
         "issues": [
+          {
+            "number": 292,
+            "title": "El gateway de voz no rota currentTurnId al interrumpir: el turno interrumpido sigue recibiendo las frases siguientes",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/292",
+            "updatedAt": "2026-09-12T03:12:30Z"
+          },
           {
             "number": 140,
             "title": "turn_id generado al vuelo en chatService puede duplicar filas en vez de deduplicar",
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/221",
             "updatedAt": "2026-09-11T02:05:43Z"
-          },
-          {
-            "number": 217,
-            "title": "Residuos de #173: la via de Google sin guardia de regresion, y la invariante sin respaldo de esquema",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/217",
-            "updatedAt": "2026-09-11T02:05:40Z"
           }
         ],
         "truncated": true
