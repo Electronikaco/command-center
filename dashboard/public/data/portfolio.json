@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T06:30:34.589Z",
+  "generatedAt": "2026-09-12T07:00:40.987Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -222,20 +222,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 4,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-12T05:43:31Z",
+      "lastActivityAt": "2026-09-12T06:39:35Z",
       "progress": {
         "percent": 55,
-        "label": "92/167 issues"
+        "label": "93/169 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 92,
-          "total": 167
+          "closed": 93,
+          "total": 169
         },
         {
           "label": "Épicas",
@@ -246,9 +246,30 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 167,
-        "closedIssues": 92,
+        "totalIssues": 169,
+        "closedIssues": 93,
         "issues": [
+          {
+            "number": 115,
+            "title": "Carrera entre la comprobacion y la creacion en el bootstrap de system admin",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/115",
+            "updatedAt": "2026-09-12T06:40:23Z"
+          },
+          {
+            "number": 305,
+            "title": "sanitizarUrlParaLog: una cadena con userinfo y sin esquema deja pasar la contraseña",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/305",
+            "updatedAt": "2026-09-12T06:39:44Z"
+          },
+          {
+            "number": 304,
+            "title": "AIProvider.handleError acepta LogOptions con firma de índice abierta: el contrato de logs no puede vigilarlo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/304",
+            "updatedAt": "2026-09-12T06:30:47Z"
+          },
           {
             "number": 303,
             "title": "Endpoint de depuración devuelve access_token y appsecret_proof en claro, protegido solo por NODE_ENV",
@@ -269,13 +290,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/258",
             "updatedAt": "2026-09-12T05:43:03Z"
-          },
-          {
-            "number": 126,
-            "title": "Se loguea la firma del webhook de ePayco, contra la regla explicita de AGENTS.md",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/126",
-            "updatedAt": "2026-09-12T05:09:01Z"
           },
           {
             "number": 301,
@@ -584,20 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/214",
             "updatedAt": "2026-09-11T02:19:52Z"
-          },
-          {
-            "number": 102,
-            "title": "resend-invitation devuelve el token de invitacion en el cuerpo de la respuesta",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/102",
-            "updatedAt": "2026-09-11T02:19:49Z"
-          },
-          {
-            "number": 219,
-            "title": "No hay barrido de filas queued sin job vivo: un mensaje atascado es invisible para siempre",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/219",
-            "updatedAt": "2026-09-11T02:16:25Z"
           }
         ],
         "truncated": true
@@ -819,6 +819,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 9
+    "totalOpenPrs": 8
   }
 }
