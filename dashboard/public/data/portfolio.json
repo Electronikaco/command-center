@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T11:00:37.472Z",
+  "generatedAt": "2026-09-12T11:30:38.528Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,16 +226,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-12T09:38:16Z",
+      "lastActivityAt": "2026-09-12T11:05:21Z",
       "progress": {
         "percent": 54,
-        "label": "98/181 issues"
+        "label": "99/182 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 98,
-          "total": 181
+          "closed": 99,
+          "total": 182
         },
         {
           "label": "Épicas",
@@ -246,9 +246,23 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 181,
-        "closedIssues": 98,
+        "totalIssues": 182,
+        "closedIssues": 99,
         "issues": [
+          {
+            "number": 323,
+            "title": "Un token de verificacion emitido a la direccion anterior sigue vivo tras cambiar el email",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/323",
+            "updatedAt": "2026-09-12T11:26:38Z"
+          },
+          {
+            "number": 100,
+            "title": "Cambio de email propio en tenant-users sin reverificacion del correo nuevo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/100",
+            "updatedAt": "2026-09-12T11:06:36Z"
+          },
           {
             "number": 321,
             "title": "createUser y createInvitedUser asignan el rol sin revalidarlo dentro de la transaccion",
@@ -269,13 +283,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/214",
             "updatedAt": "2026-09-12T10:13:27Z"
-          },
-          {
-            "number": 101,
-            "title": "TOCTOU en hasSingleActiveOwner: dos degradaciones concurrentes pueden dejar un tenant sin OWNER",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/101",
-            "updatedAt": "2026-09-12T09:41:09Z"
           },
           {
             "number": 316,
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/248",
             "updatedAt": "2026-09-11T06:34:16Z"
-          },
-          {
-            "number": 246,
-            "title": "Redis puede arrancar sin contraseña (REDIS_PASSWORD opcional y requirepass vacío en los compose)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/246",
-            "updatedAt": "2026-09-11T05:54:13Z"
           }
         ],
         "truncated": true
