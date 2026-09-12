@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T10:00:42.067Z",
+  "generatedAt": "2026-09-12T10:30:37.047Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -229,13 +229,13 @@
       "lastActivityAt": "2026-09-12T09:38:16Z",
       "progress": {
         "percent": 54,
-        "label": "97/178 issues"
+        "label": "98/180 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 97,
-          "total": 178
+          "closed": 98,
+          "total": 180
         },
         {
           "label": "Épicas",
@@ -246,9 +246,23 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 178,
-        "closedIssues": 97,
+        "totalIssues": 180,
+        "closedIssues": 98,
         "issues": [
+          {
+            "number": 320,
+            "title": "revokeAllUserTokens recibe la transaccion y la ignora: los estaticos ni la aceptan",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/320",
+            "updatedAt": "2026-09-12T10:30:08Z"
+          },
+          {
+            "number": 214,
+            "title": "deleteRole no comprueba si el rol tiene usuarios asignados: se puede borrar OWNER con el dueno dentro",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/214",
+            "updatedAt": "2026-09-12T10:13:27Z"
+          },
           {
             "number": 101,
             "title": "TOCTOU en hasSingleActiveOwner: dos degradaciones concurrentes pueden dejar un tenant sin OWNER",
@@ -584,20 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/206",
             "updatedAt": "2026-09-11T05:02:46Z"
-          },
-          {
-            "number": 241,
-            "title": "Voz: ciclo de vida de la llamada, límites de reconexión y robustez del handshake (seguimiento de #199)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/241",
-            "updatedAt": "2026-09-11T04:35:56Z"
-          },
-          {
-            "number": 239,
-            "title": "Una URL mal formada en el upgrade del WebSocket de voz tumba configuracion antes de autenticar",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/239",
-            "updatedAt": "2026-09-11T04:34:24Z"
           }
         ],
         "truncated": true
