@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T03:30:34.122Z",
+  "generatedAt": "2026-09-12T04:00:47.078Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,16 +226,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-12T03:28:40Z",
+      "lastActivityAt": "2026-09-12T03:57:26Z",
       "progress": {
-        "percent": 55,
-        "label": "88/159 issues"
+        "percent": 56,
+        "label": "90/161 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 88,
-          "total": 159
+          "closed": 90,
+          "total": 161
         },
         {
           "label": "Épicas",
@@ -246,22 +246,36 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 159,
-        "closedIssues": 88,
+        "totalIssues": 161,
+        "closedIssues": 90,
         "issues": [
+          {
+            "number": 294,
+            "title": "chatService.images es una opción muerta: sin productor, sin reescalado y sin piso de tokens de visión",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/294",
+            "updatedAt": "2026-09-12T03:57:09Z"
+          },
+          {
+            "number": 132,
+            "title": "Subcobro de dos ordenes de magnitud al estimar tokens de vision sin usage_metadata",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/132",
+            "updatedAt": "2026-09-12T03:39:48Z"
+          },
+          {
+            "number": 293,
+            "title": "chatService: que el origen de la clave de idempotencia lo exija el tipo, no un booleano opcional",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/293",
+            "updatedAt": "2026-09-12T03:35:38Z"
+          },
           {
             "number": 292,
             "title": "El gateway de voz no rota currentTurnId al interrumpir: el turno interrumpido sigue recibiendo las frases siguientes",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/292",
             "updatedAt": "2026-09-12T03:12:30Z"
-          },
-          {
-            "number": 140,
-            "title": "turn_id generado al vuelo en chatService puede duplicar filas en vez de deduplicar",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/140",
-            "updatedAt": "2026-09-12T01:59:24Z"
           },
           {
             "number": 290,
@@ -572,25 +586,11 @@
             "updatedAt": "2026-09-11T02:06:05Z"
           },
           {
-            "number": 230,
-            "title": "El INSERT en messages no tiene guard de tenant: el residual de #226 depende de una sola capa",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/230",
-            "updatedAt": "2026-09-11T02:05:57Z"
-          },
-          {
             "number": 227,
             "title": "MediaProcessingService lee el contenido de un mensaje sin acotar por tenant y lo inyecta en el prompt de vision",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/227",
             "updatedAt": "2026-09-11T02:05:55Z"
-          },
-          {
-            "number": 132,
-            "title": "Subcobro de dos ordenes de magnitud al estimar tokens de vision sin usage_metadata",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/132",
-            "updatedAt": "2026-09-11T02:05:52Z"
           },
           {
             "number": 221,
