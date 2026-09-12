@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T04:30:38.510Z",
+  "generatedAt": "2026-09-12T05:00:38.160Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,16 +226,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-12T04:29:38Z",
+      "lastActivityAt": "2026-09-12T04:57:35Z",
       "progress": {
         "percent": 55,
-        "label": "91/164 issues"
+        "label": "91/165 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 91,
-          "total": 164
+          "total": 165
         },
         {
           "label": "Épicas",
@@ -246,9 +246,16 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 164,
+        "totalIssues": 165,
         "closedIssues": 91,
         "issues": [
+          {
+            "number": 300,
+            "title": "Alerta de plataforma cuando una confirmación de ePayco no se puede validar (caída de la pasarela)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/300",
+            "updatedAt": "2026-09-12T04:37:34Z"
+          },
           {
             "number": 298,
             "title": "processPaymentConfirmation (camino PayU) está vivo y sin llamadores, sin las protecciones de #90 ni #128",
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/138",
             "updatedAt": "2026-09-11T02:16:18Z"
-          },
-          {
-            "number": 2,
-            "title": "[EPIC] Pipeline CI/CD para Auth/Config con Docker + GHCR",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/2",
-            "updatedAt": "2026-09-11T02:06:05Z"
           }
         ],
         "truncated": true
