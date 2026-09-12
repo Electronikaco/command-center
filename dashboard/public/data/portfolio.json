@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T01:00:37.233Z",
+  "generatedAt": "2026-09-12T01:30:36.141Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -222,20 +222,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 4,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-12T00:49:59Z",
+      "lastActivityAt": "2026-09-12T01:29:16Z",
       "progress": {
         "percent": 55,
-        "label": "86/156 issues"
+        "label": "86/157 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 86,
-          "total": 156
+          "total": 157
         },
         {
           "label": "Épicas",
@@ -246,9 +246,16 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 156,
+        "totalIssues": 157,
         "closedIssues": 86,
         "issues": [
+          {
+            "number": 288,
+            "title": "configuracion/.env.example: faltan las envs de alertas de plataforma (#182 y #144)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/288",
+            "updatedAt": "2026-09-12T01:08:29Z"
+          },
           {
             "number": 144,
             "title": "Nadie se entera de los inbound_webhook_events en failed por ambiguedad de cuenta",
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/221",
             "updatedAt": "2026-09-11T02:05:43Z"
-          },
-          {
-            "number": 217,
-            "title": "Residuos de #173: la via de Google sin guardia de regresion, y la invariante sin respaldo de esquema",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/217",
-            "updatedAt": "2026-09-11T02:05:40Z"
           }
         ],
         "truncated": true
@@ -819,6 +819,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 8
+    "totalOpenPrs": 9
   }
 }
