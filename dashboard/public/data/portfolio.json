@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T08:30:33.546Z",
+  "generatedAt": "2026-09-12T09:00:37.293Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,16 +226,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-12T07:28:35Z",
+      "lastActivityAt": "2026-09-12T08:52:01Z",
       "progress": {
         "percent": 55,
-        "label": "94/171 issues"
+        "label": "96/176 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 94,
-          "total": 171
+          "closed": 96,
+          "total": 176
         },
         {
           "label": "Épicas",
@@ -246,22 +246,57 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 171,
-        "closedIssues": 94,
+        "totalIssues": 176,
+        "closedIssues": 96,
         "issues": [
+          {
+            "number": 102,
+            "title": "resend-invitation devuelve el token de invitacion en el cuerpo de la respuesta",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/102",
+            "updatedAt": "2026-09-12T08:52:51Z"
+          },
+          {
+            "number": 312,
+            "title": "Cuatro $ref del swagger de auth apuntan a esquemas que no existen",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/312",
+            "updatedAt": "2026-09-12T08:51:02Z"
+          },
+          {
+            "number": 314,
+            "title": "/api-docs de auth es publico y sin rate limit: la unica defensa es una regla de Caddy",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/314",
+            "updatedAt": "2026-09-12T08:49:12Z"
+          },
+          {
+            "number": 313,
+            "title": "El swagger de auth declara mal la seguridad por operacion: el security de operacion REEMPLAZA al global",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/313",
+            "updatedAt": "2026-09-12T08:42:54Z"
+          },
+          {
+            "number": 310,
+            "title": "toAppError publica el mensaje del driver de MySQL en el cuerpo HTTP",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/310",
+            "updatedAt": "2026-09-12T08:31:59Z"
+          },
+          {
+            "number": 309,
+            "title": "Codigo muerto en SystemAdmin.model que puede reabrir la guarda del ultimo super admin (#114)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/309",
+            "updatedAt": "2026-09-12T08:31:24Z"
+          },
           {
             "number": 308,
             "title": "PUT /api/system-admins/{id} guarda la contrasena en claro y la vuelca a auth_events",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/308",
-            "updatedAt": "2026-09-12T08:10:42Z"
-          },
-          {
-            "number": 114,
-            "title": "No hay via por API para promover un segundo super admin",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/114",
-            "updatedAt": "2026-09-12T07:29:24Z"
+            "updatedAt": "2026-09-12T08:30:43Z"
           },
           {
             "number": 307,
@@ -563,41 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/223",
             "updatedAt": "2026-09-11T02:25:33Z"
-          },
-          {
-            "number": 200,
-            "title": "El upgrade del WebSocket de voz no valida Origin: defensa en profundidad que falta",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/200",
-            "updatedAt": "2026-09-11T02:25:32Z"
-          },
-          {
-            "number": 197,
-            "title": "PUT /api/tenants/:id acepta cualquier cadena como plan, y su camino de escritura no tiene cobertura",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/197",
-            "updatedAt": "2026-09-11T02:25:30Z"
-          },
-          {
-            "number": 237,
-            "title": "Residuos de #223 (puntos 3-5): re-resolución en account_update, índice en waba_id y clave externa de ingesta",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/237",
-            "updatedAt": "2026-09-11T02:25:27Z"
-          },
-          {
-            "number": 100,
-            "title": "Cambio de email propio en tenant-users sin reverificacion del correo nuevo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/100",
-            "updatedAt": "2026-09-11T02:23:18Z"
-          },
-          {
-            "number": 224,
-            "title": "Los eventos de plantilla de una WABA compartida se pierden: el auto-pause de campanas es cumplimiento, no sync",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/224",
-            "updatedAt": "2026-09-11T02:19:53Z"
           }
         ],
         "truncated": true
