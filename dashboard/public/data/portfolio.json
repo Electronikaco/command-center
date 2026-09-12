@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T00:30:34.036Z",
+  "generatedAt": "2026-09-12T01:00:37.233Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,16 +226,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-12T00:22:17Z",
+      "lastActivityAt": "2026-09-12T00:49:59Z",
       "progress": {
         "percent": 55,
-        "label": "85/155 issues"
+        "label": "86/156 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 85,
-          "total": 155
+          "closed": 86,
+          "total": 156
         },
         {
           "label": "Épicas",
@@ -246,15 +246,22 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 155,
-        "closedIssues": 85,
+        "totalIssues": 156,
+        "closedIssues": 86,
         "issues": [
           {
-            "number": 148,
-            "title": "Oraculo de existencia de tenants: validateTenant devuelve 404 y assertTenantOwnership 403",
+            "number": 144,
+            "title": "Nadie se entera de los inbound_webhook_events en failed por ambiguedad de cuenta",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/148",
-            "updatedAt": "2026-09-12T00:22:59Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/144",
+            "updatedAt": "2026-09-12T00:50:53Z"
+          },
+          {
+            "number": 286,
+            "title": "Tenancy: la clave de caché de validateTenant no se normaliza ni tiene tope, y nada impide montar validateTenant en una ruta pública",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/286",
+            "updatedAt": "2026-09-12T00:48:43Z"
           },
           {
             "number": 284,
@@ -402,13 +409,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/180",
             "updatedAt": "2026-09-11T17:28:34Z"
-          },
-          {
-            "number": 144,
-            "title": "Nadie se entera de los inbound_webhook_events en failed por ambiguedad de cuenta",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/144",
-            "updatedAt": "2026-09-11T17:12:49Z"
           },
           {
             "number": 252,
