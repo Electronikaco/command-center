@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T11:30:38.528Z",
+  "generatedAt": "2026-09-12T12:00:42.809Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -254,7 +254,7 @@
             "title": "Un token de verificacion emitido a la direccion anterior sigue vivo tras cambiar el email",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/323",
-            "updatedAt": "2026-09-12T11:26:38Z"
+            "updatedAt": "2026-09-12T11:32:36Z"
           },
           {
             "number": 100,
