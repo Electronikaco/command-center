@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T08:00:37.685Z",
+  "generatedAt": "2026-09-12T08:30:33.546Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -229,13 +229,13 @@
       "lastActivityAt": "2026-09-12T07:28:35Z",
       "progress": {
         "percent": 55,
-        "label": "94/170 issues"
+        "label": "94/171 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 94,
-          "total": 170
+          "total": 171
         },
         {
           "label": "Épicas",
@@ -246,9 +246,16 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 170,
+        "totalIssues": 171,
         "closedIssues": 94,
         "issues": [
+          {
+            "number": 308,
+            "title": "PUT /api/system-admins/{id} guarda la contrasena en claro y la vuelca a auth_events",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/308",
+            "updatedAt": "2026-09-12T08:10:42Z"
+          },
           {
             "number": 114,
             "title": "No hay via por API para promover un segundo super admin",
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/224",
             "updatedAt": "2026-09-11T02:19:53Z"
-          },
-          {
-            "number": 214,
-            "title": "deleteRole no comprueba si el rol tiene usuarios asignados: se puede borrar OWNER con el dueno dentro",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/214",
-            "updatedAt": "2026-09-11T02:19:52Z"
           }
         ],
         "truncated": true
