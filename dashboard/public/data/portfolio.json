@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T07:00:40.987Z",
+  "generatedAt": "2026-09-12T07:30:38.633Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,16 +226,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-12T06:39:35Z",
+      "lastActivityAt": "2026-09-12T07:28:35Z",
       "progress": {
         "percent": 55,
-        "label": "93/169 issues"
+        "label": "94/170 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 93,
-          "total": 169
+          "closed": 94,
+          "total": 170
         },
         {
           "label": "Épicas",
@@ -246,15 +246,22 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 169,
-        "closedIssues": 93,
+        "totalIssues": 170,
+        "closedIssues": 94,
         "issues": [
           {
-            "number": 115,
-            "title": "Carrera entre la comprobacion y la creacion en el bootstrap de system admin",
+            "number": 114,
+            "title": "No hay via por API para promover un segundo super admin",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/115",
-            "updatedAt": "2026-09-12T06:40:23Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/114",
+            "updatedAt": "2026-09-12T07:29:24Z"
+          },
+          {
+            "number": 307,
+            "title": "createAdmin y BaseRepository vuelcan el objeto de error entero al log: sql y parameters con PII y el hash",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/307",
+            "updatedAt": "2026-09-12T07:27:37Z"
           },
           {
             "number": 305,
@@ -563,13 +570,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/197",
             "updatedAt": "2026-09-11T02:25:30Z"
-          },
-          {
-            "number": 114,
-            "title": "No hay via por API para promover un segundo super admin",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/114",
-            "updatedAt": "2026-09-11T02:25:29Z"
           },
           {
             "number": 237,
