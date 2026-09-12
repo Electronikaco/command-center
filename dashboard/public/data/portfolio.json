@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T04:00:47.078Z",
+  "generatedAt": "2026-09-12T04:30:38.510Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,16 +226,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-12T03:57:26Z",
+      "lastActivityAt": "2026-09-12T04:29:38Z",
       "progress": {
-        "percent": 56,
-        "label": "90/161 issues"
+        "percent": 55,
+        "label": "91/164 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 90,
-          "total": 161
+          "closed": 91,
+          "total": 164
         },
         {
           "label": "Épicas",
@@ -246,22 +246,43 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 161,
-        "closedIssues": 90,
+        "totalIssues": 164,
+        "closedIssues": 91,
         "issues": [
+          {
+            "number": 298,
+            "title": "processPaymentConfirmation (camino PayU) está vivo y sin llamadores, sin las protecciones de #90 ni #128",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/298",
+            "updatedAt": "2026-09-12T04:29:17Z"
+          },
+          {
+            "number": 297,
+            "title": "La página de retorno de ePayco expone datos de cualquier factura sin firma, y duerme 5 s en una ruta pública",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/297",
+            "updatedAt": "2026-09-12T04:29:16Z"
+          },
+          {
+            "number": 128,
+            "title": "La firma de ePayco no cubre x_id_invoice: un webhook interceptado puede reapuntarse a otra factura",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/128",
+            "updatedAt": "2026-09-12T04:06:46Z"
+          },
+          {
+            "number": 296,
+            "title": "extractTokenUsage trata un usage de 0/0 como 'sin medición', y ahora eso cuesta 1.100 tokens",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/296",
+            "updatedAt": "2026-09-12T04:04:13Z"
+          },
           {
             "number": 294,
             "title": "chatService.images es una opción muerta: sin productor, sin reescalado y sin piso de tokens de visión",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/294",
-            "updatedAt": "2026-09-12T03:57:09Z"
-          },
-          {
-            "number": 132,
-            "title": "Subcobro de dos ordenes de magnitud al estimar tokens de vision sin usage_metadata",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/132",
-            "updatedAt": "2026-09-12T03:39:48Z"
+            "updatedAt": "2026-09-12T04:04:11Z"
           },
           {
             "number": 293,
@@ -530,13 +551,6 @@
             "updatedAt": "2026-09-11T02:25:27Z"
           },
           {
-            "number": 128,
-            "title": "La firma de ePayco no cubre x_id_invoice: un webhook interceptado puede reapuntarse a otra factura",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/128",
-            "updatedAt": "2026-09-11T02:23:20Z"
-          },
-          {
             "number": 100,
             "title": "Cambio de email propio en tenant-users sin reverificacion del correo nuevo",
             "state": "OPEN",
@@ -584,20 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/2",
             "updatedAt": "2026-09-11T02:06:05Z"
-          },
-          {
-            "number": 227,
-            "title": "MediaProcessingService lee el contenido de un mensaje sin acotar por tenant y lo inyecta en el prompt de vision",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/227",
-            "updatedAt": "2026-09-11T02:05:55Z"
-          },
-          {
-            "number": 221,
-            "title": "Residuo de #143: dos findOne globales por phone_number_id en el outbound hacen fallar el envio con un error que miente",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/221",
-            "updatedAt": "2026-09-11T02:05:43Z"
           }
         ],
         "truncated": true
