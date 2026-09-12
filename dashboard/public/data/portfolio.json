@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T00:00:59.514Z",
+  "generatedAt": "2026-09-12T00:30:34.036Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,16 +226,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T23:56:24Z",
+      "lastActivityAt": "2026-09-12T00:22:17Z",
       "progress": {
         "percent": 55,
-        "label": "84/153 issues"
+        "label": "85/155 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 84,
-          "total": 153
+          "closed": 85,
+          "total": 155
         },
         {
           "label": "Épicas",
@@ -246,15 +246,29 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 153,
-        "closedIssues": 84,
+        "totalIssues": 155,
+        "closedIssues": 85,
         "issues": [
           {
-            "number": 158,
-            "title": "Los handlers de appointments leen el tenant del header en vez del contexto validado",
+            "number": 148,
+            "title": "Oraculo de existencia de tenants: validateTenant devuelve 404 y assertTenantOwnership 403",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/158",
-            "updatedAt": "2026-09-11T23:57:24Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/148",
+            "updatedAt": "2026-09-12T00:22:59Z"
+          },
+          {
+            "number": 284,
+            "title": "Endurecer el contrato de la cabecera de tenant: no ve destructuring ni literal indirecto",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/284",
+            "updatedAt": "2026-09-12T00:22:26Z"
+          },
+          {
+            "number": 282,
+            "title": "auth: resend de verificación de email lee el header del tenant además del contexto validado",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/282",
+            "updatedAt": "2026-09-12T00:14:08Z"
           },
           {
             "number": 281,
@@ -446,13 +460,6 @@
             "updatedAt": "2026-09-11T04:34:24Z"
           },
           {
-            "number": 148,
-            "title": "Oraculo de existencia de tenants: validateTenant devuelve 404 y assertTenantOwnership 403",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/148",
-            "updatedAt": "2026-09-11T02:26:37Z"
-          },
-          {
             "number": 223,
             "title": "Residuos de #188: una integracion offboardeada deja la WABA ambigua para siempre, y cuatro mas",
             "state": "OPEN",
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/217",
             "updatedAt": "2026-09-11T02:05:40Z"
-          },
-          {
-            "number": 216,
-            "title": "emitirTokenBootstrap comprueba los usuarios fuera del cerrojo: puede entregar un token que ya no sirve",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/216",
-            "updatedAt": "2026-09-11T02:05:38Z"
           }
         ],
         "truncated": true
