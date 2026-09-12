@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T05:00:38.160Z",
+  "generatedAt": "2026-09-12T05:30:33.327Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -222,20 +222,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 4,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-12T04:57:35Z",
+      "lastActivityAt": "2026-09-12T05:08:17Z",
       "progress": {
         "percent": 55,
-        "label": "91/165 issues"
+        "label": "92/166 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 91,
-          "total": 165
+          "closed": 92,
+          "total": 166
         },
         {
           "label": "Épicas",
@@ -246,9 +246,23 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 165,
-        "closedIssues": 91,
+        "totalIssues": 166,
+        "closedIssues": 92,
         "issues": [
+          {
+            "number": 126,
+            "title": "Se loguea la firma del webhook de ePayco, contra la regla explicita de AGENTS.md",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/126",
+            "updatedAt": "2026-09-12T05:09:01Z"
+          },
+          {
+            "number": 301,
+            "title": "La discrepancia de estado con ePayco puede producir un bucle de 503 sin convergencia ni tope",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/301",
+            "updatedAt": "2026-09-12T05:03:08Z"
+          },
           {
             "number": 300,
             "title": "Alerta de plataforma cuando una confirmación de ePayco no se puede validar (caída de la pasarela)",
@@ -269,13 +283,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/297",
             "updatedAt": "2026-09-12T04:29:16Z"
-          },
-          {
-            "number": 128,
-            "title": "La firma de ePayco no cubre x_id_invoice: un webhook interceptado puede reapuntarse a otra factura",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/128",
-            "updatedAt": "2026-09-12T04:06:46Z"
           },
           {
             "number": 296,
@@ -444,13 +451,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/260",
             "updatedAt": "2026-09-11T18:20:35Z"
-          },
-          {
-            "number": 126,
-            "title": "Se loguea la firma del webhook de ePayco, contra la regla explicita de AGENTS.md",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/126",
-            "updatedAt": "2026-09-11T17:32:14Z"
           },
           {
             "number": 258,
@@ -819,6 +819,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 9
+    "totalOpenPrs": 8
   }
 }
