@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T23:30:36.788Z",
+  "generatedAt": "2026-09-12T00:00:59.514Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,16 +226,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-11T22:27:02Z",
+      "lastActivityAt": "2026-09-11T23:56:24Z",
       "progress": {
         "percent": 55,
-        "label": "83/152 issues"
+        "label": "84/153 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 83,
-          "total": 152
+          "closed": 84,
+          "total": 153
         },
         {
           "label": "Épicas",
@@ -246,15 +246,22 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 152,
-        "closedIssues": 83,
+        "totalIssues": 153,
+        "closedIssues": 84,
         "issues": [
           {
-            "number": 159,
-            "title": "webhooks-ack-durabilidad.test.ts es flaky bajo carga: espera un setTimeout fijo de 20ms",
+            "number": 158,
+            "title": "Los handlers de appointments leen el tenant del header en vez del contexto validado",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/159",
-            "updatedAt": "2026-09-11T22:27:32Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/158",
+            "updatedAt": "2026-09-11T23:57:24Z"
+          },
+          {
+            "number": 281,
+            "title": "Flaky nuevo: whatsapp-inbound-recovery-cron-flag.test.ts depende del orden dentro del propio fichero",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/281",
+            "updatedAt": "2026-09-11T23:56:33Z"
           },
           {
             "number": 279,
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/216",
             "updatedAt": "2026-09-11T02:05:38Z"
-          },
-          {
-            "number": 209,
-            "title": "Cinco advertencias de los gates al cerrar #165: el 402 en workers, en SSE y en el widget",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/209",
-            "updatedAt": "2026-09-11T02:05:31Z"
           }
         ],
         "truncated": true
