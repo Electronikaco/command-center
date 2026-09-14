@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T17:00:48.919Z",
+  "generatedAt": "2026-09-14T17:30:40.080Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -91,11 +91,11 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 1,
-      "mergedPrs30d": 41,
+      "openPrs": 2,
+      "mergedPrs30d": 40,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-14T16:30:24Z",
+      "lastActivityAt": "2026-09-14T17:20:01Z",
       "progress": {
         "percent": 93,
         "label": "Fase 7 · Turno consumidor de Civok Hub: 99/107"
@@ -516,11 +516,25 @@
         "closedIssues": 102,
         "issues": [
           {
+            "number": 308,
+            "title": "PUT /api/system-admins/{id} guarda la contrasena en claro y la vuelca a auth_events",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/308",
+            "updatedAt": "2026-09-14T17:29:27Z"
+          },
+          {
+            "number": 206,
+            "title": "Subida a vector stores: decisiones en conflicto — ¿cobro con piso de saldo (11-sep) o cuota por plan (25-ago)?",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/206",
+            "updatedAt": "2026-09-14T17:29:26Z"
+          },
+          {
             "number": 197,
             "title": "PUT /api/tenants/:id acepta cualquier cadena como plan, y su camino de escritura no tiene cobertura",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/197",
-            "updatedAt": "2026-09-14T16:59:42Z"
+            "updatedAt": "2026-09-14T17:29:10Z"
           },
           {
             "number": 326,
@@ -612,13 +626,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/309",
             "updatedAt": "2026-09-12T08:31:24Z"
-          },
-          {
-            "number": 308,
-            "title": "PUT /api/system-admins/{id} guarda la contrasena en claro y la vuelca a auth_events",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/308",
-            "updatedAt": "2026-09-12T08:30:43Z"
           },
           {
             "number": 307,
@@ -857,13 +864,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/180",
             "updatedAt": "2026-09-11T17:28:34Z"
-          },
-          {
-            "number": 252,
-            "title": "Migración base: npm run migrate no puede completar sobre una base vacía porque ninguna migración crea las tablas base",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/252",
-            "updatedAt": "2026-09-11T16:16:44Z"
           }
         ],
         "truncated": true
@@ -1134,6 +1134,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 6
+    "totalOpenPrs": 7
   }
 }
