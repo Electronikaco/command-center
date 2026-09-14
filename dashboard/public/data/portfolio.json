@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T19:30:43.568Z",
+  "generatedAt": "2026-09-14T20:00:45.306Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -516,18 +516,18 @@
         "closedIssues": 102,
         "issues": [
           {
+            "number": 197,
+            "title": "PUT /api/tenants/:id acepta cualquier cadena como plan, y su camino de escritura no tiene cobertura",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/197",
+            "updatedAt": "2026-09-14T19:55:24Z"
+          },
+          {
             "number": 330,
             "title": "Plantillas de email de CRM y billing interpolan datos en HTML sin escapar",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/330",
             "updatedAt": "2026-09-14T17:57:55Z"
-          },
-          {
-            "number": 197,
-            "title": "PUT /api/tenants/:id acepta cualquier cadena como plan, y su camino de escritura no tiene cobertura",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/197",
-            "updatedAt": "2026-09-14T17:49:33Z"
           },
           {
             "number": 329,
