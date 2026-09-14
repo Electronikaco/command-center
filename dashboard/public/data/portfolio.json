@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T14:30:43.515Z",
+  "generatedAt": "2026-09-14T15:00:47.798Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,16 +226,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-14T14:23:44Z",
+      "lastActivityAt": "2026-09-14T14:57:39Z",
       "progress": {
         "percent": 55,
-        "label": "100/182 issues"
+        "label": "101/184 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 100,
-          "total": 182
+          "closed": 101,
+          "total": 184
         },
         {
           "label": "Épicas",
@@ -246,15 +246,29 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 182,
-        "closedIssues": 100,
+        "totalIssues": 184,
+        "closedIssues": 101,
         "issues": [
           {
-            "number": 99,
-            "title": "Trazabilidad: las operaciones privilegiadas de tenants (auth) no registran al actor real",
+            "number": 138,
+            "title": "La DLQ de salida no la lee nadie y sus registros quedan en failed, que el replay saltaria",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/99",
-            "updatedAt": "2026-09-14T14:27:00Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/138",
+            "updatedAt": "2026-09-14T14:58:44Z"
+          },
+          {
+            "number": 326,
+            "title": "DELETE /api/tenants/:id responde data:true en vez del tenant, y 200 aunque el tenant no exista",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/326",
+            "updatedAt": "2026-09-14T14:52:29Z"
+          },
+          {
+            "number": 325,
+            "title": "PATCH /api/tenants/:id/status sin cuerpo revienta con un TypeError y responde 400 con el mensaje equivocado",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/325",
+            "updatedAt": "2026-09-14T14:52:17Z"
           },
           {
             "number": 323,
@@ -584,20 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/252",
             "updatedAt": "2026-09-11T16:16:44Z"
-          },
-          {
-            "number": 250,
-            "title": "verifyAssistantWhatsAppLink no comprueba que el asistente del link pertenezca al tenant dueño del número",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/250",
-            "updatedAt": "2026-09-11T07:35:38Z"
-          },
-          {
-            "number": 248,
-            "title": "Antes de promover el índice único de números: escrituras que aún responderían 500 y restos de #187",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/248",
-            "updatedAt": "2026-09-11T06:34:16Z"
           }
         ],
         "truncated": true
