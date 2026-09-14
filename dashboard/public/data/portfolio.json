@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T22:00:40.736Z",
+  "generatedAt": "2026-09-14T22:30:41.099Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -149,16 +149,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-14T21:52:23Z",
+      "lastActivityAt": "2026-09-14T22:11:10Z",
       "progress": {
         "percent": 55,
-        "label": "104/188 issues"
+        "label": "105/190 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 104,
-          "total": 188
+          "closed": 105,
+          "total": 190
         },
         {
           "label": "Épicas",
@@ -169,15 +169,29 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 188,
-        "closedIssues": 104,
+        "totalIssues": 190,
+        "closedIssues": 105,
         "issues": [
           {
-            "number": 201,
-            "title": "Limpieza de voice-auth: quitar el parametro auth? sin llamadores, y arreglar la tabla de codigos del doc",
+            "number": 337,
+            "title": "Decision: si el router legacy debe pasar el wamid al encolar audio (enciende automatizaciones y metricas de campana)",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/201",
-            "updatedAt": "2026-09-14T21:53:52Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/337",
+            "updatedAt": "2026-09-14T22:23:45Z"
+          },
+          {
+            "number": 203,
+            "title": "El LLM se cobra dos veces si el mismo audio se encola dos veces: el turnId sale del jobId, no del wamid",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/203",
+            "updatedAt": "2026-09-14T22:12:09Z"
+          },
+          {
+            "number": 335,
+            "title": "extractTokenFromHandshake: dos casos limite del Authorization que hoy dan 401 a un cliente legitimo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/335",
+            "updatedAt": "2026-09-14T22:10:13Z"
           },
           {
             "number": 333,
@@ -507,20 +521,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/266",
             "updatedAt": "2026-09-11T19:30:28Z"
-          },
-          {
-            "number": 264,
-            "title": "Contrato de parámetros: exigir que el param() vaya detrás de los guards de tenant/admin",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/264",
-            "updatedAt": "2026-09-11T19:02:41Z"
-          },
-          {
-            "number": 212,
-            "title": "Residuos del pipeline de audio: oraculo por temporizacion y un assistant ajeno leido antes de rechazarlo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/212",
-            "updatedAt": "2026-09-11T19:02:40Z"
           }
         ],
         "truncated": true
