@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T13:30:41.457Z",
+  "generatedAt": "2026-09-14T14:00:44.600Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -23,11 +23,6 @@
           "label": "Épica activa",
           "closed": 4,
           "total": 5
-        },
-        {
-          "label": "Épicas",
-          "closed": 28,
-          "total": 31
         },
         {
           "label": "Global",
@@ -105,6 +100,11 @@
           "label": "Épica activa",
           "closed": 9,
           "total": 12
+        },
+        {
+          "label": "Épicas",
+          "closed": 18,
+          "total": 25
         },
         {
           "label": "Global",
@@ -656,119 +656,7 @@
         }
       ],
       "highlights": [],
-      "issueBreakdown": {
-        "label": "R2 · Endurecimiento y cierre del split",
-        "totalIssues": 15,
-        "closedIssues": 11,
-        "issues": [
-          {
-            "number": 428,
-            "title": "Modal de Roles vacío: hardening del gate autz (fail-closed sin 500 en cascada) + split-brain del catálogo de apps (Turno) en service-authz",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/428",
-            "updatedAt": "2026-09-11T16:48:47Z"
-          },
-          {
-            "number": 424,
-            "title": "Robustez del registro/reactivación multi-organización (R1/R2/R2b + split-brain del hint de correo)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/424",
-            "updatedAt": "2026-09-11T15:32:29Z"
-          },
-          {
-            "number": 295,
-            "title": "🔒 Hardening de seguridad del split — gate de producción (2 ALTO + 3 MEDIO · auditoría)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/295",
-            "updatedAt": "2026-09-02T17:12:49Z"
-          },
-          {
-            "number": 278,
-            "title": "Bug (dev-infra): segfault nativo intermitente de service-org/auth bajo carga de registro (exit 139 · ~Prisma engine)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/278",
-            "updatedAt": "2026-08-26T20:05:10Z"
-          },
-          {
-            "number": 316,
-            "title": "Cablear el camino S2S del PAD post-split (canje→service-auth + push→hub-api) — desbloquea publicar vitrina de Turno",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/316",
-            "updatedAt": "2026-09-04T17:48:22Z"
-          },
-          {
-            "number": 214,
-            "title": "S2S para PAD · exponer licencia por org (estado/serial/fechas) y roles del cliente por app",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/214",
-            "updatedAt": "2026-09-02T23:09:27Z"
-          },
-          {
-            "number": 198,
-            "title": "hardening(authz): revalidar contrato de app en el ENFORCEMENT tras revocación (roles de catálogo/personalizados)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/198",
-            "updatedAt": "2026-09-02T23:09:18Z"
-          },
-          {
-            "number": 190,
-            "title": "hardening(auth): acotar el OTP-bombing de MFA cross-challenge (cap por-usuario/destino)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/190",
-            "updatedAt": "2026-09-02T17:47:08Z"
-          },
-          {
-            "number": 326,
-            "title": "Re-seed idempotente del LICENCIAMIENTO de civok_hub desde las adquisiciones aprobadas del PAD (recuperación del incidente + salvaguarda) — PRIORITARIO",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/326",
-            "updatedAt": "2026-09-01T14:50:18Z"
-          },
-          {
-            "number": 317,
-            "title": "El push del árbol debe UPSERTEAR la app (PAD→Hub cachea) para auto-sanar sin registro manual",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/317",
-            "updatedAt": "2026-09-01T14:50:16Z"
-          },
-          {
-            "number": 327,
-            "title": "BUG · hub-licensing quedó fuera de la migración del directorio de tenant (#282/#288) → 500 TENANT_ISOLATION en TODOS sus endpoints",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/327",
-            "updatedAt": "2026-08-29T16:57:49Z"
-          },
-          {
-            "number": 318,
-            "title": "Investigar por qué el split físico vacía civok_hub (catálogo + licenciamiento) — pérdida recurrente",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/318",
-            "updatedAt": "2026-08-28T10:13:42Z"
-          },
-          {
-            "number": 197,
-            "title": "refine(roles): paginación del selector con filter[appUid] al incluir RolCatalogo",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/197",
-            "updatedAt": "2026-08-27T21:32:51Z"
-          },
-          {
-            "number": 195,
-            "title": "chore(licensing-core): mover los test-fakes a un subpath @civok-hub/licensing-core/testing",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/195",
-            "updatedAt": "2026-08-27T21:23:08Z"
-          },
-          {
-            "number": 185,
-            "title": "chore(supply-chain): propagar `--frozen-lockfile` a los Dockerfiles de hub-api y hub-worker",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/185",
-            "updatedAt": "2026-08-26T20:07:33Z"
-          }
-        ],
-        "truncated": false
-      },
+      "issueBreakdown": null,
       "links": {
         "github": "https://github.com/Electronikaco/civok-hub"
       }
