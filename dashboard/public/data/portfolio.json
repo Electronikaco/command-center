@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T04:00:43.576Z",
+  "generatedAt": "2026-09-15T04:30:40.005Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -149,7 +149,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-15T03:48:03Z",
+      "lastActivityAt": "2026-09-15T04:13:40Z",
       "progress": {
         "percent": 56,
         "label": "112/200 issues"
@@ -173,11 +173,18 @@
         "closedIssues": 112,
         "issues": [
           {
-            "number": 216,
-            "title": "emitirTokenBootstrap comprueba los usuarios fuera del cerrojo: puede entregar un token que ya no sirve",
+            "number": 357,
+            "title": "Residuos menores de #173: revocarTokens es codigo muerto y bloquearParaActualizar borra la senal de reintentable",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/216",
-            "updatedAt": "2026-09-15T03:49:39Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/357",
+            "updatedAt": "2026-09-15T04:18:33Z"
+          },
+          {
+            "number": 217,
+            "title": "Residuos de #173: la via de Google sin guardia de regresion, y la invariante sin respaldo de esquema",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/217",
+            "updatedAt": "2026-09-15T04:14:58Z"
           },
           {
             "number": 354,
@@ -514,13 +521,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/286",
             "updatedAt": "2026-09-12T00:48:43Z"
-          },
-          {
-            "number": 284,
-            "title": "Endurecer el contrato de la cabecera de tenant: no ve destructuring ni literal indirecto",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/284",
-            "updatedAt": "2026-09-12T00:22:26Z"
           }
         ],
         "truncated": true
