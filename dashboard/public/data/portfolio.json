@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T00:30:38.401Z",
+  "generatedAt": "2026-09-15T01:00:46.429Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,9 +11,9 @@
       "health": "ok",
       "openPrs": 2,
       "mergedPrs30d": 50,
-      "commits7d": 7,
+      "commits7d": 8,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-14T23:22:56Z",
+      "lastActivityAt": "2026-09-15T00:50:53Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -27,11 +27,11 @@
         {
           "label": "Épicas",
           "closed": 28,
-          "total": 31
+          "total": 35
         },
         {
           "label": "Global",
-          "closed": 181,
+          "closed": 136,
           "total": 200
         }
       ],
@@ -145,19 +145,19 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 4,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-15T00:13:11Z",
+      "lastActivityAt": "2026-09-15T00:35:23Z",
       "progress": {
-        "percent": 55,
-        "label": "107/194 issues"
+        "percent": 56,
+        "label": "108/194 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 107,
+          "closed": 108,
           "total": 194
         },
         {
@@ -170,8 +170,15 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 194,
-        "closedIssues": 107,
+        "closedIssues": 108,
         "issues": [
+          {
+            "number": 209,
+            "title": "Cinco advertencias de los gates al cerrar #165: el 402 en workers, en SSE y en el widget",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/209",
+            "updatedAt": "2026-09-15T00:36:40Z"
+          },
           {
             "number": 344,
             "title": "Superficie publica fuera de /api: la raiz y GET /api describen la API sin token, y /health* no tiene rate limit",
@@ -185,13 +192,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/342",
             "updatedAt": "2026-09-15T00:04:56Z"
-          },
-          {
-            "number": 207,
-            "title": "GET /health/openai expone parte de la API key sin autenticacion y dispara llamadas al proveedor",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/207",
-            "updatedAt": "2026-09-14T23:44:19Z"
           },
           {
             "number": 341,
@@ -644,6 +644,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 9
+    "totalOpenPrs": 8
   }
 }
