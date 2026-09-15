@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T17:00:52.524Z",
+  "generatedAt": "2026-09-15T17:30:41.571Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -113,7 +113,7 @@
         },
         {
           "label": "Global",
-          "closed": 185,
+          "closed": 186,
           "total": 200
         }
       ],
@@ -911,194 +911,194 @@
       "commits30d": 0,
       "lastActivityAt": "2026-09-15T16:47:35Z",
       "progress": {
-        "percent": 83,
-        "label": "R2 · Hub → microservicios core: 20/24"
+        "percent": 75,
+        "label": "R2 · Endurecimiento y cierre del split: 18/24"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 20,
+          "closed": 18,
           "total": 24
         },
         {
           "label": "Global",
-          "closed": 178,
+          "closed": 183,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "R2 · Hub → microservicios core",
+        "label": "R2 · Endurecimiento y cierre del split",
         "totalIssues": 24,
-        "closedIssues": 20,
+        "closedIssues": 18,
         "issues": [
           {
-            "number": 460,
-            "title": "Publicar GET /roles/:uid/uso — hoy el front cuenta los usuarios con N+1 y un techo de 500",
+            "number": 444,
+            "title": "Segfaults recurrentes (exit 139) en los microservicios dev bajo ts-node",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/460",
-            "updatedAt": "2026-09-15T03:49:18Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/444",
+            "updatedAt": "2026-09-15T04:33:40Z"
           },
           {
-            "number": 371,
-            "title": "Creación de usuario: reutilizar Persona existente (no duplicar) al crear un usuario",
+            "number": 401,
+            "title": "ÉPICA · Superadmin → Propietario: rename de código + rol por app + protecciones del propietario",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/371",
-            "updatedAt": "2026-09-14T21:04:04Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/401",
+            "updatedAt": "2026-09-14T21:04:01Z"
           },
           {
-            "number": 330,
-            "title": "AUZ · Aceptar y persistir 'modulos' (visibilidad de módulo por rol) en el push del árbol",
+            "number": 355,
+            "title": "SEC-2 (ops) · CUTOVER de las API keys S2S por servicio: provisionar, rotar y retirar la clave compartida",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/330",
-            "updatedAt": "2026-08-29T14:25:25Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/355",
+            "updatedAt": "2026-09-14T15:34:12Z"
           },
           {
-            "number": 166,
-            "title": "BFF-03 · Descomponer hub-api en microservicios core (fase mayor)",
+            "number": 350,
+            "title": "hardening(auth): enriquecer el evento REFRESH_REUSE_GRACE con IP/UA/fingerprint (detectabilidad SOC)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/166",
-            "updatedAt": "2026-08-06T15:19:34Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/350",
+            "updatedAt": "2026-09-14T15:33:49Z"
           },
           {
-            "number": 400,
-            "title": "Exponer lista interna de usuarios de la org consumible por apps (Turno read-only)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/400",
-            "updatedAt": "2026-09-15T04:31:51Z"
+            "number": 295,
+            "title": "🔒 Hardening de seguridad del split — gate de producción (2 ALTO + 3 MEDIO · auditoría)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/295",
+            "updatedAt": "2026-09-02T17:12:49Z"
           },
           {
-            "number": 177,
-            "title": "MS-F · Extraer service-personas (maestro de Persona + documentos/contactos/direcciones)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/177",
-            "updatedAt": "2026-09-14T15:33:04Z"
+            "number": 278,
+            "title": "Bug (dev-infra): segfault nativo intermitente de service-org/auth bajo carga de registro (exit 139 · ~Prisma engine)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/278",
+            "updatedAt": "2026-08-26T20:05:10Z"
           },
           {
-            "number": 348,
-            "title": "MS-F4 · Split físico de BD de persona (civok_person) + permisos S2S (PERSONAS_PERMISOS_S2S)",
+            "number": 334,
+            "title": "security(authz): workspace-memberships permite colar rol de SISTEMA por workspace (escalada a ADMIN_TOTAL)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/348",
-            "updatedAt": "2026-09-02T18:04:38Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/334",
+            "updatedAt": "2026-09-15T17:28:15Z"
           },
           {
-            "number": 297,
-            "title": "Read-side cross-dominio S2S — completar + auditar (GATE de F4 · endurece splits A-E)",
+            "number": 391,
+            "title": "SEC · authz de workspace: validar membresía del usuario en x-workspace-id (cross-workspace intra-org)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/297",
-            "updatedAt": "2026-09-02T17:47:06Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/391",
+            "updatedAt": "2026-09-15T17:28:14Z"
           },
           {
-            "number": 347,
-            "title": "MS-F2-cutover · Enrutar personas en el bff + re-encender AUTH_CROSSDOMAIN_S2S en service-auth",
+            "number": 397,
+            "title": "SEC · Guards legacy hacen fail-open con el scope OAuth-style de las keys S2S por-servicio (#361/#362)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/347",
-            "updatedAt": "2026-09-02T13:16:33Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/397",
+            "updatedAt": "2026-09-15T17:28:12Z"
           },
           {
-            "number": 346,
-            "title": "MS-F1-op · Levantar service-personas en dev (systemd unit + env · health :8096)",
+            "number": 424,
+            "title": "Robustez del registro/reactivación multi-organización (R1/R2/R2b + split-brain del hint de correo)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/346",
-            "updatedAt": "2026-09-02T02:51:36Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/424",
+            "updatedAt": "2026-09-14T15:33:58Z"
           },
           {
-            "number": 322,
-            "title": "#297·2c · service-org: validateRole (WSP-02) por S2S al catálogo de roles de authz",
+            "number": 428,
+            "title": "Modal de Roles vacío: hardening del gate autz (fail-closed sin 500 en cascada) + split-brain del catálogo de apps (Turno) en service-authz",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/322",
-            "updatedAt": "2026-08-31T13:41:21Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/428",
+            "updatedAt": "2026-09-14T15:33:56Z"
           },
           {
-            "number": 321,
-            "title": "#297·2b · service-auth: romper por S2S/copia las 3 lecturas residuales del alta (persona/workspace/clientId)",
+            "number": 430,
+            "title": "feat(authz/auth): asignar rol de Hub + gating de acceso sin rol + guarda de correo no confirmado",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/321",
-            "updatedAt": "2026-08-31T13:41:19Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/430",
+            "updatedAt": "2026-09-14T15:33:54Z"
           },
           {
-            "number": 320,
-            "title": "#297·2a · service-authz: lecturas de LICENCIA (apps contratadas · D27) por S2S a hub-licensing — PRIORITARIO",
+            "number": 426,
+            "title": "service-crm: alinear auth de dominio al TOKEN de servicio (requireService) y andamiaje de arranque dev",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/320",
-            "updatedAt": "2026-08-31T13:41:17Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/426",
+            "updatedAt": "2026-09-14T15:33:52Z"
           },
           {
-            "number": 301,
-            "title": "#297·1c · service-personas requireAdmin: resolver de permisos local → aplicar patrón S2S (#290) antes de F4",
+            "number": 316,
+            "title": "Cablear el camino S2S del PAD post-split (canje→service-auth + push→hub-api) — desbloquea publicar vitrina de Turno",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/301",
-            "updatedAt": "2026-08-27T15:30:34Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/316",
+            "updatedAt": "2026-09-04T17:48:22Z"
           },
           {
-            "number": 300,
-            "title": "#297·1b · service-auth LOGIN: workspaceAccess + resolveOrgSubdominio leen ORG → romper por S2S",
+            "number": 214,
+            "title": "S2S para PAD · exponer licencia por org (estado/serial/fechas) y roles del cliente por app",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/300",
-            "updatedAt": "2026-08-27T15:21:17Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/214",
+            "updatedAt": "2026-09-02T23:09:27Z"
           },
           {
-            "number": 176,
-            "title": "MS-E · Extraer service-auth (SSO/sesiones/JWKS + usuarios + apikeys + registro)",
+            "number": 198,
+            "title": "hardening(authz): revalidar contrato de app en el ENFORCEMENT tras revocación (roles de catálogo/personalizados)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/176",
-            "updatedAt": "2026-08-25T14:38:11Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/198",
+            "updatedAt": "2026-09-02T23:09:18Z"
           },
           {
-            "number": 175,
-            "title": "MS-D · Extraer service-org (organización/territorial/workspaces/equipos + maestro de tenant)",
+            "number": 190,
+            "title": "hardening(auth): acotar el OTP-bombing de MFA cross-challenge (cap por-usuario/destino)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/175",
-            "updatedAt": "2026-08-25T14:38:09Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/190",
+            "updatedAt": "2026-09-02T17:47:08Z"
           },
           {
-            "number": 174,
-            "title": "MS-C · Extraer service-authz (roles/permisos/acciones + catálogo de apps)",
+            "number": 326,
+            "title": "Re-seed idempotente del LICENCIAMIENTO de civok_hub desde las adquisiciones aprobadas del PAD (recuperación del incidente + salvaguarda) — PRIORITARIO",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/174",
-            "updatedAt": "2026-08-25T14:38:07Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/326",
+            "updatedAt": "2026-09-01T14:50:18Z"
           },
           {
-            "number": 225,
-            "title": "MS-C4 · Split de BD de authz + romper lectura residual a usuarios (S2S/copia)",
+            "number": 317,
+            "title": "El push del árbol debe UPSERTEAR la app (PAD→Hub cachea) para auto-sanar sin registro manual",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/225",
-            "updatedAt": "2026-08-24T21:34:18Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/317",
+            "updatedAt": "2026-09-01T14:50:16Z"
           },
           {
-            "number": 224,
-            "title": "MS-C3 · Outbox + S2S de service-authz",
+            "number": 327,
+            "title": "BUG · hub-licensing quedó fuera de la migración del directorio de tenant (#282/#288) → 500 TENANT_ISOLATION en TODOS sus endpoints",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/224",
-            "updatedAt": "2026-08-18T14:48:49Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/327",
+            "updatedAt": "2026-08-29T16:57:49Z"
           },
           {
-            "number": 223,
-            "title": "MS-C2 · Enrutar authz por el hub-bff (SERVICE_ROUTES → service-authz)",
+            "number": 318,
+            "title": "Investigar por qué el split físico vacía civok_hub (catálogo + licenciamiento) — pérdida recurrente",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/223",
-            "updatedAt": "2026-08-18T14:36:11Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/318",
+            "updatedAt": "2026-08-28T10:13:42Z"
           },
           {
-            "number": 222,
-            "title": "MS-C1 · Scaffold apps/service-authz consumiendo authz-core",
+            "number": 197,
+            "title": "refine(roles): paginación del selector con filter[appUid] al incluir RolCatalogo",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/222",
-            "updatedAt": "2026-08-18T14:28:46Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/197",
+            "updatedAt": "2026-08-27T21:32:51Z"
           },
           {
-            "number": 173,
-            "title": "MS-B · Extraer hub-licensing (licencias/planes/addons/paquetes/contratos/flags)",
+            "number": 195,
+            "title": "chore(licensing-core): mover los test-fakes a un subpath @civok-hub/licensing-core/testing",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/173",
-            "updatedAt": "2026-08-08T16:34:59Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/195",
+            "updatedAt": "2026-08-27T21:23:08Z"
           },
           {
-            "number": 172,
-            "title": "MS-A · Fundaciones: BFF como router + librerías transversales + contratos S2S",
+            "number": 185,
+            "title": "chore(supply-chain): propagar `--frozen-lockfile` a los Dockerfiles de hub-api y hub-worker",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/172",
-            "updatedAt": "2026-08-07T00:07:29Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/185",
+            "updatedAt": "2026-08-26T20:07:33Z"
           }
         ],
         "truncated": false
@@ -1115,14 +1115,14 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
       "lastActivityAt": "2026-09-15T16:48:09Z",
       "progress": {
         "percent": 14,
-        "label": "Hub Console · Ajustes del owner (2026-09-14): 1/7"
+        "label": "Hub Console · Plataforma y deuda técnica: 1/7"
       },
       "progressMeters": [
         {
@@ -1132,7 +1132,7 @@
         },
         {
           "label": "Global",
-          "closed": 101,
+          "closed": 108,
           "total": 120
         }
       ],
@@ -1148,6 +1148,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 6
+    "totalOpenPrs": 5
   }
 }
