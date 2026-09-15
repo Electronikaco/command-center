@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T06:00:43.372Z",
+  "generatedAt": "2026-09-15T06:30:40.115Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -492,15 +492,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-15T04:54:45Z",
+      "lastActivityAt": "2026-09-15T06:10:16Z",
       "progress": {
         "percent": 56,
-        "label": "111/200 issues"
+        "label": "112/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 111,
+          "closed": 112,
           "total": 200
         },
         {
@@ -513,7 +513,7 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 111,
+        "closedIssues": 112,
         "issues": [
           {
             "number": 360,
@@ -521,13 +521,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/360",
             "updatedAt": "2026-09-15T05:42:36Z"
-          },
-          {
-            "number": 219,
-            "title": "No hay barrido de filas queued sin job vivo: un mensaje atascado es invisible para siempre",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/219",
-            "updatedAt": "2026-09-15T04:55:54Z"
           },
           {
             "number": 358,
@@ -864,6 +857,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/290",
             "updatedAt": "2026-09-12T01:57:53Z"
+          },
+          {
+            "number": 288,
+            "title": "configuracion/.env.example: faltan las envs de alertas de plataforma (#182 y #144)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/288",
+            "updatedAt": "2026-09-12T01:08:29Z"
           }
         ],
         "truncated": true
