@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T17:30:41.571Z",
+  "generatedAt": "2026-09-15T18:00:39.790Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 138,
+          "closed": 136,
           "total": 200
         }
       ],
@@ -91,390 +91,89 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 44,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-15T16:48:29Z",
+      "lastActivityAt": "2026-09-15T17:48:24Z",
       "progress": {
-        "percent": 93,
-        "label": "Fase 7 · Turno consumidor de Civok Hub: 100/107"
+        "percent": 0,
+        "label": "Turno · Consumo del Hub: contrato real y aislamiento: 0/7"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 100,
-          "total": 107
+          "closed": 0,
+          "total": 7
         },
         {
           "label": "Épicas",
-          "closed": 18,
-          "total": 25
+          "closed": 19,
+          "total": 26
         },
         {
           "label": "Global",
-          "closed": 186,
+          "closed": 179,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "Fase 7 · Turno consumidor de Civok Hub",
-        "totalIssues": 107,
-        "closedIssues": 100,
+        "label": "Turno · Consumo del Hub: contrato real y aislamiento",
+        "totalIssues": 7,
+        "closedIssues": 0,
         "issues": [
           {
-            "number": 145,
-            "title": "[EPIC] Fase 7 — Turno consumidor de Civok Hub (tracking)",
+            "number": 402,
+            "title": "Fuga entre organizaciones: /territorial/paises devolvía la réplica completa sin acotar por tenant",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/145",
-            "updatedAt": "2026-09-14T15:36:35Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/402",
+            "updatedAt": "2026-09-15T17:59:15Z"
           },
           {
-            "number": 188,
-            "title": "CONV · Sync/Eventos · Envelope canónico {success, data, meta} + helper en packages/types (D10)",
+            "number": 413,
+            "title": "Backfill + auditoría de réplicas por-organización tratadas como catálogo global (deuda de #402)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/188",
-            "updatedAt": "2026-09-01T03:42:12Z"
-          },
-          {
-            "number": 313,
-            "title": "[EPIC] Encender la conexión Turno↔Hub (activar el consumo)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/313",
-            "updatedAt": "2026-08-18T17:18:59Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/413",
+            "updatedAt": "2026-09-15T17:59:04Z"
           },
           {
             "number": 318,
             "title": "TH-05 · Desplegar consumidores a la Turno en ejecución + activar gates",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/318",
-            "updatedAt": "2026-08-12T20:47:02Z"
+            "updatedAt": "2026-09-15T17:58:36Z"
           },
           {
-            "number": 148,
-            "title": "[EPIC] Tenancy propio de Turno (discriminador + aislamiento cross-tenant)",
+            "number": 313,
+            "title": "[EPIC] Encender la conexión Turno↔Hub (activar el consumo)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/148",
-            "updatedAt": "2026-08-11T16:42:04Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/313",
+            "updatedAt": "2026-09-15T17:58:34Z"
           },
           {
             "number": 293,
             "title": "CONV · Sync/Eventos · Cutover del envelope en rutas EXTERNAS (coordinar frontend) — parte de #188",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/293",
-            "updatedAt": "2026-08-05T20:13:50Z"
+            "updatedAt": "2026-09-15T17:58:33Z"
           },
           {
-            "number": 151,
-            "title": "[EPIC] Convergencia · Sincronización / Eventos / Identificadores / Envelope / Retención",
+            "number": 399,
+            "title": "Los consumidores escuchan colas con nombres que el Hub no emite (org, persons, roles, licenses, security)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/151",
-            "updatedAt": "2026-07-30T22:08:28Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/399",
+            "updatedAt": "2026-09-15T17:58:29Z"
           },
           {
-            "number": 392,
-            "title": "BFF: endpoint read-only de Usuarios consumiendo el Hub (habilitar listado en Turno)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/392",
-            "updatedAt": "2026-09-15T04:31:52Z"
-          },
-          {
-            "number": 208,
-            "title": "CONV · Consumir Organización/Territorial de hub-org.turno (réplica read-only)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/208",
-            "updatedAt": "2026-09-14T15:36:46Z"
-          },
-          {
-            "number": 352,
-            "title": "CONV · Sync/Eventos · Extraer outbox-health a bullmq-utils + exponerlo en service-config y service-attention (D4)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/352",
-            "updatedAt": "2026-09-01T22:55:10Z"
-          },
-          {
-            "number": 350,
-            "title": "CONV · Sync/Eventos · Observabilidad del backlog del outbox en service-queue (D4)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/350",
-            "updatedAt": "2026-09-01T20:07:18Z"
-          },
-          {
-            "number": 348,
-            "title": "TH-08 · hub-sync: alinear clave de política 'personas'→'persons' (empareja el watermark real)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/348",
-            "updatedAt": "2026-09-01T19:55:22Z"
-          },
-          {
-            "number": 345,
-            "title": "TH-07 · Observabilidad hub-sync: completar /health/sync de service-auth (roles+licenses+security)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/345",
-            "updatedAt": "2026-09-01T19:41:48Z"
-          },
-          {
-            "number": 344,
-            "title": "TH-06 · Observabilidad hub-sync: exponer /health/sync en service-people (recurso persons)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/344",
-            "updatedAt": "2026-09-01T19:32:01Z"
-          },
-          {
-            "number": 331,
-            "title": "CONV · BFF /session/context consume el /me del Hub (D10) — retirar partial:true + matriz local",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/331",
-            "updatedAt": "2026-08-18T19:29:55Z"
-          },
-          {
-            "number": 328,
-            "title": "marca: “Cívok” → “Civok” sin tilde en fuente de civok-back (+ arreglar guard CI)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/328",
-            "updatedAt": "2026-08-15T17:16:02Z"
-          },
-          {
-            "number": 205,
-            "title": "[EPIC] Integración runtime con Hub (INT-03 autorización, INT-04 modo degradado)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/205",
-            "updatedAt": "2026-08-15T17:05:27Z"
-          },
-          {
-            "number": 326,
-            "title": "INT-04 · seguimiento: cablear rolePip degraded en runtime + e2e del borde",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/326",
-            "updatedAt": "2026-08-13T14:41:13Z"
-          },
-          {
-            "number": 323,
-            "title": "INT-04 · Modo degradado con Hub caído (criterio de salida R1)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/323",
-            "updatedAt": "2026-08-12T21:17:19Z"
-          },
-          {
-            "number": 322,
-            "title": "INT-03 · Modelo de autorización runtime (PEP en BFF/gateway + PDP local)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/322",
-            "updatedAt": "2026-08-12T20:55:46Z"
-          },
-          {
-            "number": 317,
-            "title": "TH-04 · Sync inicial (bootstrap de las copias read-only)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/317",
-            "updatedAt": "2026-08-12T20:35:19Z"
-          },
-          {
-            "number": 316,
-            "title": "TH-03 · Cablear el env de Turno al Hub en dev",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/316",
-            "updatedAt": "2026-08-12T16:19:48Z"
-          },
-          {
-            "number": 315,
-            "title": "TH-02 · Repuntar JWKS_URI + issuer de los verificadores al Hub",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/315",
-            "updatedAt": "2026-08-11T21:35:17Z"
-          },
-          {
-            "number": 314,
-            "title": "TH-01 · Provisionar credencial S2S de Turno (API key Hub → service-token)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/314",
-            "updatedAt": "2026-08-11T20:49:42Z"
-          },
-          {
-            "number": 292,
-            "title": "CONV · Sync/Eventos · Envelope canónico en rutas INTERNAS + BFF (parte no-breaking de #188)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/292",
-            "updatedAt": "2026-08-11T16:52:50Z"
-          },
-          {
-            "number": 150,
-            "title": "[EPIC] Entitlements: consumir licencia/feature-flags del Hub + enforcement local",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/150",
-            "updatedAt": "2026-08-11T16:43:25Z"
-          },
-          {
-            "number": 149,
-            "title": "[EPIC] Personas: consumidor del maestro de Hub (personUid, visibilidad, proyección)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/149",
-            "updatedAt": "2026-08-11T16:43:24Z"
-          },
-          {
-            "number": 147,
-            "title": "[EPIC] Gate ligero de autorización (roles sincronizados del Hub)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/147",
-            "updatedAt": "2026-08-11T16:42:02Z"
-          },
-          {
-            "number": 146,
-            "title": "[EPIC] Auth runtime como consumidor del SSO de Hub (token sin autz, denylist, S2S)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/146",
-            "updatedAt": "2026-08-11T16:42:00Z"
-          },
-          {
-            "number": 209,
-            "title": "CONV · Consumir entitlements/feature-flags de hub-licenses.turno (suscripción a la copia)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/209",
-            "updatedAt": "2026-08-08T16:22:07Z"
-          },
-          {
-            "number": 198,
-            "title": "CONV · Entitlements · Eliminar copia local del contrato en service-auth (consumir del Hub)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/198",
-            "updatedAt": "2026-08-08T16:14:31Z"
-          },
-          {
-            "number": 194,
-            "title": "CONV · Entitlements · Enforcement local de límites hard/soft de la licencia consumida",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/194",
-            "updatedAt": "2026-08-08T16:10:24Z"
-          },
-          {
-            "number": 193,
-            "title": "CONV · Entitlements · Aplicar estado de licencia consumido: degradación a Free + bloqueo",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/193",
-            "updatedAt": "2026-08-08T16:06:16Z"
-          },
-          {
-            "number": 173,
-            "title": "CONV · Personas · Proyección/filtrado de campos sensibles al consumir del Hub",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/173",
-            "updatedAt": "2026-08-08T15:58:28Z"
-          },
-          {
-            "number": 172,
-            "title": "CONV · Personas · Visibilidad por interacción sobre personas consumidas (personUid, orgUid)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/172",
-            "updatedAt": "2026-08-08T15:53:31Z"
-          },
-          {
-            "number": 170,
-            "title": "CONV · Personas · Turno como consumidor del maestro de Personas de Hub (D8/D29)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/170",
-            "updatedAt": "2026-08-08T15:45:39Z"
-          },
-          {
-            "number": 160,
-            "title": "CONV · Auth/Sesión · Canjear API Key de servicio por token de servicio corto (D7)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/160",
-            "updatedAt": "2026-08-08T14:43:36Z"
-          },
-          {
-            "number": 155,
-            "title": "CONV · Auth · Consumir denylist de sesiones de hub-security (revocación propagada)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/155",
-            "updatedAt": "2026-08-08T14:24:21Z"
-          },
-          {
-            "number": 280,
-            "title": "INT-04 · Modo degradado con Hub caído (criterio de salida R1)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/280",
-            "updatedAt": "2026-08-06T13:09:23Z"
-          },
-          {
-            "number": 207,
-            "title": "CONV · Gate de autorización: PDP/PEP local por personUid/sub sobre copia de roles del Hub",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/207",
-            "updatedAt": "2026-08-06T12:40:17Z"
-          },
-          {
-            "number": 197,
-            "title": "CONV · Licencias · Feature flags licenciado ∧ flag por catálogo (D15)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/197",
-            "updatedAt": "2026-08-05T19:37:29Z"
-          },
-          {
-            "number": 191,
-            "title": "CONV · Licencias · Invertir propiedad: consumir Licencia sincronizada desde Hub (D14-D18/D27)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/191",
-            "updatedAt": "2026-08-05T19:37:27Z"
-          },
-          {
-            "number": 168,
-            "title": "CONV · Roles · El PIP no lee req.user.rol; resuelve por personUid/sub sobre copia Hub",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/168",
-            "updatedAt": "2026-08-05T19:37:26Z"
-          },
-          {
-            "number": 286,
-            "title": "CONV · Infra · Bootstrap del bus Hub↔Turno en dev (hub-worker + Redis compartido + wiring)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/286",
-            "updatedAt": "2026-08-05T19:16:31Z"
-          },
-          {
-            "number": 210,
-            "title": "INT-03 · Modelo de autorización runtime: PEP en BFF + PDP local sobre copias Hub",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/210",
-            "updatedAt": "2026-08-05T18:30:28Z"
-          },
-          {
-            "number": 287,
-            "title": "CONV · Infra · Wiring + runbook del bus Hub↔Turno (parte civok-back de #286)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/287",
-            "updatedAt": "2026-08-05T18:11:28Z"
-          },
-          {
-            "number": 169,
-            "title": "CONV · Personas · personUid (UUIDv7) como identidad global (D3/D29)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/169",
-            "updatedAt": "2026-08-05T15:21:58Z"
-          },
-          {
-            "number": 162,
-            "title": "CONV · Roles/ABAC · Roles como copia sincronizada desde Hub, no catálogo propio (D22/D28)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/162",
-            "updatedAt": "2026-08-05T15:09:28Z"
-          },
-          {
-            "number": 153,
-            "title": "CONV · Auth · Quitar rol y ámbito territorial del JWT (D5/D28)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/153",
-            "updatedAt": "2026-08-05T15:08:40Z"
-          },
-          {
-            "number": 185,
-            "title": "CONV · Sync/Eventos · Extender el patrón outbox al resto de productores (D4)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/185",
-            "updatedAt": "2026-08-05T13:20:21Z"
+            "number": 411,
+            "title": "SEG · Las 107 revocaciones de sesión están en la cola y Turno no las aplica: consumidor con envelope mal leído + service-auth de julio sin el consumidor",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/411",
+            "updatedAt": "2026-09-15T17:57:20Z"
           }
         ],
-        "truncated": true
+        "truncated": false
       },
       "links": {
         "github": "https://github.com/Electronikaco/civok-back"
@@ -905,200 +604,67 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-15T16:47:35Z",
+      "lastActivityAt": "2026-09-15T17:51:29Z",
       "progress": {
-        "percent": 75,
-        "label": "R2 · Endurecimiento y cierre del split: 18/24"
+        "percent": 60,
+        "label": "R2 · BFF del Hub (front door): 3/5"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 18,
-          "total": 24
+          "closed": 3,
+          "total": 5
         },
         {
           "label": "Global",
-          "closed": 183,
+          "closed": 180,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "R2 · Endurecimiento y cierre del split",
-        "totalIssues": 24,
-        "closedIssues": 18,
+        "label": "R2 · BFF del Hub (front door)",
+        "totalIssues": 5,
+        "closedIssues": 3,
         "issues": [
           {
-            "number": 444,
-            "title": "Segfaults recurrentes (exit 139) en los microservicios dev bajo ts-node",
+            "number": 466,
+            "title": "crm falta en SERVICE_ROUTES de staging (404 por catch-all) y /crm/visitantes pagina con page_size fuera del contrato",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/444",
-            "updatedAt": "2026-09-15T04:33:40Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/466",
+            "updatedAt": "2026-09-15T18:00:12Z"
           },
           {
-            "number": 401,
-            "title": "ÉPICA · Superadmin → Propietario: rename de código + rol por app + protecciones del propietario",
+            "number": 163,
+            "title": "[EPIC] Hub → estándar BFF + microservicios (front door único)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/401",
-            "updatedAt": "2026-09-14T21:04:01Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/163",
+            "updatedAt": "2026-08-15T16:50:36Z"
           },
           {
-            "number": 355,
-            "title": "SEC-2 (ops) · CUTOVER de las API keys S2S por servicio: provisionar, rotar y retirar la clave compartida",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/355",
-            "updatedAt": "2026-09-14T15:34:12Z"
-          },
-          {
-            "number": 350,
-            "title": "hardening(auth): enriquecer el evento REFRESH_REUSE_GRACE con IP/UA/fingerprint (detectabilidad SOC)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/350",
-            "updatedAt": "2026-09-14T15:33:49Z"
-          },
-          {
-            "number": 295,
-            "title": "🔒 Hardening de seguridad del split — gate de producción (2 ALTO + 3 MEDIO · auditoría)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/295",
-            "updatedAt": "2026-09-02T17:12:49Z"
-          },
-          {
-            "number": 278,
-            "title": "Bug (dev-infra): segfault nativo intermitente de service-org/auth bajo carga de registro (exit 139 · ~Prisma engine)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/278",
-            "updatedAt": "2026-08-26T20:05:10Z"
-          },
-          {
-            "number": 334,
-            "title": "security(authz): workspace-memberships permite colar rol de SISTEMA por workspace (escalada a ADMIN_TOTAL)",
+            "number": 216,
+            "title": "hub-bff (API Gateway): rate-limiting + CORS por origen + S2S a cada service-*",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/334",
-            "updatedAt": "2026-09-15T17:28:15Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/216",
+            "updatedAt": "2026-08-15T17:20:47Z"
           },
           {
-            "number": 391,
-            "title": "SEC · authz de workspace: validar membresía del usuario en x-workspace-id (cross-workspace intra-org)",
+            "number": 165,
+            "title": "BFF-02 · Consolidar el PAD detrás del hub-bff",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/391",
-            "updatedAt": "2026-09-15T17:28:14Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/165",
+            "updatedAt": "2026-08-06T12:37:58Z"
           },
           {
-            "number": 397,
-            "title": "SEC · Guards legacy hacen fail-open con el scope OAuth-style de las keys S2S por-servicio (#361/#362)",
+            "number": 164,
+            "title": "BFF-01 · Scaffold apps/hub-bff (front door delgado, sin BD)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/397",
-            "updatedAt": "2026-09-15T17:28:12Z"
-          },
-          {
-            "number": 424,
-            "title": "Robustez del registro/reactivación multi-organización (R1/R2/R2b + split-brain del hint de correo)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/424",
-            "updatedAt": "2026-09-14T15:33:58Z"
-          },
-          {
-            "number": 428,
-            "title": "Modal de Roles vacío: hardening del gate autz (fail-closed sin 500 en cascada) + split-brain del catálogo de apps (Turno) en service-authz",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/428",
-            "updatedAt": "2026-09-14T15:33:56Z"
-          },
-          {
-            "number": 430,
-            "title": "feat(authz/auth): asignar rol de Hub + gating de acceso sin rol + guarda de correo no confirmado",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/430",
-            "updatedAt": "2026-09-14T15:33:54Z"
-          },
-          {
-            "number": 426,
-            "title": "service-crm: alinear auth de dominio al TOKEN de servicio (requireService) y andamiaje de arranque dev",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/426",
-            "updatedAt": "2026-09-14T15:33:52Z"
-          },
-          {
-            "number": 316,
-            "title": "Cablear el camino S2S del PAD post-split (canje→service-auth + push→hub-api) — desbloquea publicar vitrina de Turno",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/316",
-            "updatedAt": "2026-09-04T17:48:22Z"
-          },
-          {
-            "number": 214,
-            "title": "S2S para PAD · exponer licencia por org (estado/serial/fechas) y roles del cliente por app",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/214",
-            "updatedAt": "2026-09-02T23:09:27Z"
-          },
-          {
-            "number": 198,
-            "title": "hardening(authz): revalidar contrato de app en el ENFORCEMENT tras revocación (roles de catálogo/personalizados)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/198",
-            "updatedAt": "2026-09-02T23:09:18Z"
-          },
-          {
-            "number": 190,
-            "title": "hardening(auth): acotar el OTP-bombing de MFA cross-challenge (cap por-usuario/destino)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/190",
-            "updatedAt": "2026-09-02T17:47:08Z"
-          },
-          {
-            "number": 326,
-            "title": "Re-seed idempotente del LICENCIAMIENTO de civok_hub desde las adquisiciones aprobadas del PAD (recuperación del incidente + salvaguarda) — PRIORITARIO",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/326",
-            "updatedAt": "2026-09-01T14:50:18Z"
-          },
-          {
-            "number": 317,
-            "title": "El push del árbol debe UPSERTEAR la app (PAD→Hub cachea) para auto-sanar sin registro manual",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/317",
-            "updatedAt": "2026-09-01T14:50:16Z"
-          },
-          {
-            "number": 327,
-            "title": "BUG · hub-licensing quedó fuera de la migración del directorio de tenant (#282/#288) → 500 TENANT_ISOLATION en TODOS sus endpoints",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/327",
-            "updatedAt": "2026-08-29T16:57:49Z"
-          },
-          {
-            "number": 318,
-            "title": "Investigar por qué el split físico vacía civok_hub (catálogo + licenciamiento) — pérdida recurrente",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/318",
-            "updatedAt": "2026-08-28T10:13:42Z"
-          },
-          {
-            "number": 197,
-            "title": "refine(roles): paginación del selector con filter[appUid] al incluir RolCatalogo",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/197",
-            "updatedAt": "2026-08-27T21:32:51Z"
-          },
-          {
-            "number": 195,
-            "title": "chore(licensing-core): mover los test-fakes a un subpath @civok-hub/licensing-core/testing",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/195",
-            "updatedAt": "2026-08-27T21:23:08Z"
-          },
-          {
-            "number": 185,
-            "title": "chore(supply-chain): propagar `--frozen-lockfile` a los Dockerfiles de hub-api y hub-worker",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/185",
-            "updatedAt": "2026-08-26T20:07:33Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/164",
+            "updatedAt": "2026-08-05T22:07:21Z"
           }
         ],
         "truncated": false
@@ -1115,24 +681,24 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-15T16:48:09Z",
+      "lastActivityAt": "2026-09-15T17:56:13Z",
       "progress": {
-        "percent": 14,
-        "label": "Hub Console · Plataforma y deuda técnica: 1/7"
+        "percent": 86,
+        "label": "Hub Console · Sedes (horarios · import CSV · pausa · QR): 6/7"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 1,
+          "closed": 6,
           "total": 7
         },
         {
           "label": "Global",
-          "closed": 108,
+          "closed": 110,
           "total": 120
         }
       ],
@@ -1148,6 +714,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 5
+    "totalOpenPrs": 10
   }
 }
