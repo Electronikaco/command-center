@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T12:30:40.245Z",
+  "generatedAt": "2026-09-15T13:00:52.754Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -105,11 +105,6 @@
           "label": "Épica activa",
           "closed": 100,
           "total": 107
-        },
-        {
-          "label": "Épicas",
-          "closed": 18,
-          "total": 25
         },
         {
           "label": "Global",
