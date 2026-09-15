@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T22:00:39.167Z",
+  "generatedAt": "2026-09-15T22:30:35.620Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,9 +11,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 21,
+      "commits7d": 22,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-15T20:47:44Z",
+      "lastActivityAt": "2026-09-15T22:29:06Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 138,
+          "closed": 139,
           "total": 200
         }
       ],
@@ -622,7 +622,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-15T19:16:15Z",
+      "lastActivityAt": "2026-09-15T22:09:48Z",
       "progress": {
         "percent": 75,
         "label": "R2 · Hub → microservicios core: 21/28"
