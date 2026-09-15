@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T02:30:35.647Z",
+  "generatedAt": "2026-09-15T03:00:48.842Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,9 +11,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 11,
+      "commits7d": 12,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-15T01:19:05Z",
+      "lastActivityAt": "2026-09-15T02:58:13Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 135,
+          "closed": 136,
           "total": 200
         }
       ],
@@ -145,20 +145,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 4,
+      "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-15T02:24:56Z",
+      "lastActivityAt": "2026-09-15T02:54:43Z",
       "progress": {
         "percent": 56,
-        "label": "109/196 issues"
+        "label": "111/198 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 109,
-          "total": 196
+          "closed": 111,
+          "total": 198
         },
         {
           "label": "Épicas",
@@ -169,22 +169,36 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 196,
-        "closedIssues": 109,
+        "totalIssues": 198,
+        "closedIssues": 111,
         "issues": [
+          {
+            "number": 214,
+            "title": "deleteRole no comprueba si el rol tiene usuarios asignados: se puede borrar OWNER con el dueno dentro",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/214",
+            "updatedAt": "2026-09-15T02:57:08Z"
+          },
+          {
+            "number": 351,
+            "title": "GET /api/tenant/users/pending-invitations devuelve 500: require() en linea dentro de un modulo ESM",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/351",
+            "updatedAt": "2026-09-15T02:53:38Z"
+          },
+          {
+            "number": 349,
+            "title": "Seis metodos estaticos muertos en TenantRole.model: inertes, pero nadie los llama",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/349",
+            "updatedAt": "2026-09-15T02:51:08Z"
+          },
           {
             "number": 347,
             "title": "El worker de texto lee un assistant ajeno (messageWorker.ts:512), y el enqueue de audio del widget no valida el assistant_id",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/347",
-            "updatedAt": "2026-09-15T02:21:22Z"
-          },
-          {
-            "number": 212,
-            "title": "Residuos del pipeline de audio: oraculo por temporizacion y un assistant ajeno leido antes de rechazarlo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/212",
-            "updatedAt": "2026-09-15T01:19:28Z"
+            "updatedAt": "2026-09-15T02:40:42Z"
           },
           {
             "number": 345,
@@ -311,13 +325,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/320",
             "updatedAt": "2026-09-12T10:47:19Z"
-          },
-          {
-            "number": 214,
-            "title": "deleteRole no comprueba si el rol tiene usuarios asignados: se puede borrar OWNER con el dueno dentro",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/214",
-            "updatedAt": "2026-09-12T10:13:27Z"
           },
           {
             "number": 316,
@@ -509,13 +516,6 @@
             "updatedAt": "2026-09-11T22:26:36Z"
           },
           {
-            "number": 213,
-            "title": "TenantRole.createDefaultRole siembra EMPLOYEE y no tiene llamadores: reabriria el bug de #171",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/213",
-            "updatedAt": "2026-09-11T21:57:20Z"
-          },
-          {
             "number": 277,
             "title": "tenant-roles: getRoleById sin filtro de tenant y auditoría con SubjectType y fallo post-commit incorrectos",
             "state": "OPEN",
@@ -562,11 +562,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-15T01:15:17Z",
+      "lastActivityAt": "2026-09-15T02:38:06Z",
       "progress": {
         "percent": 0,
         "label": "Estándares transversales del ecosistema: 0/2"
@@ -618,11 +618,11 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-15T01:47:36Z",
+      "lastActivityAt": "2026-09-15T02:38:09Z",
       "progress": {
         "percent": 14,
         "label": "Hub Console · Ajustes del owner (2026-09-14): 1/7"
@@ -651,6 +651,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 5
+    "totalOpenPrs": 6
   }
 }
