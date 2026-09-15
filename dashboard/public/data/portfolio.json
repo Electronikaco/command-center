@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T16:30:41.136Z",
+  "generatedAt": "2026-09-15T17:00:52.524Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -91,11 +91,11 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 1,
-      "mergedPrs30d": 43,
+      "openPrs": 0,
+      "mergedPrs30d": 44,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-15T04:59:33Z",
+      "lastActivityAt": "2026-09-15T16:48:29Z",
       "progress": {
         "percent": 93,
         "label": "Fase 7 · Turno consumidor de Civok Hub: 100/107"
@@ -905,11 +905,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-15T13:48:00Z",
+      "lastActivityAt": "2026-09-15T16:47:35Z",
       "progress": {
         "percent": 83,
         "label": "R2 · Hub → microservicios core: 20/24"
@@ -1115,11 +1115,11 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 4,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-15T13:48:50Z",
+      "lastActivityAt": "2026-09-15T16:48:09Z",
       "progress": {
         "percent": 14,
         "label": "Hub Console · Ajustes del owner (2026-09-14): 1/7"
@@ -1148,6 +1148,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 11
+    "totalOpenPrs": 6
   }
 }
