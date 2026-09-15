@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T00:00:57.757Z",
+  "generatedAt": "2026-09-15T00:30:38.401Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -145,20 +145,20 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 4,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-14T23:42:55Z",
+      "lastActivityAt": "2026-09-15T00:13:11Z",
       "progress": {
-        "percent": 56,
-        "label": "107/192 issues"
+        "percent": 55,
+        "label": "107/194 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 107,
-          "total": 192
+          "total": 194
         },
         {
           "label": "Épicas",
@@ -169,9 +169,23 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 192,
+        "totalIssues": 194,
         "closedIssues": 107,
         "issues": [
+          {
+            "number": 344,
+            "title": "Superficie publica fuera de /api: la raiz y GET /api describen la API sin token, y /health* no tiene rate limit",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/344",
+            "updatedAt": "2026-09-15T00:29:43Z"
+          },
+          {
+            "number": 342,
+            "title": "audio-job-ownership.test.ts es intermitente: compara TODAS las cabeceras, date incluida",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/342",
+            "updatedAt": "2026-09-15T00:04:56Z"
+          },
           {
             "number": 207,
             "title": "GET /health/openai expone parte de la API key sin autenticacion y dispara llamadas al proveedor",
@@ -507,20 +521,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/273",
             "updatedAt": "2026-09-11T20:34:14Z"
-          },
-          {
-            "number": 272,
-            "title": "auth: servicios meten error.message crudo en AppError y handleControllerError lo devuelve (incluye reset-password público y bootstrap)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/272",
-            "updatedAt": "2026-09-11T20:34:08Z"
-          },
-          {
-            "number": 270,
-            "title": "Los roles de un SYSTEM_ADMIN salen del claim del JWT: un admin degradado conserva permisos hasta que caduca el token",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/270",
-            "updatedAt": "2026-09-11T20:10:19Z"
           }
         ],
         "truncated": true
@@ -644,6 +644,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 8
+    "totalOpenPrs": 9
   }
 }
