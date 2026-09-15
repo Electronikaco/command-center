@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T05:30:36.644Z",
+  "generatedAt": "2026-09-15T06:00:43.372Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -495,12 +495,12 @@
       "lastActivityAt": "2026-09-15T04:54:45Z",
       "progress": {
         "percent": 56,
-        "label": "112/200 issues"
+        "label": "111/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 112,
+          "closed": 111,
           "total": 200
         },
         {
@@ -513,8 +513,15 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 112,
+        "closedIssues": 111,
         "issues": [
+          {
+            "number": 360,
+            "title": "La consulta del barrido de salida no tiene indice: full scan cada pasada sobre una tabla que crece con cada mensaje",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/360",
+            "updatedAt": "2026-09-15T05:42:36Z"
+          },
           {
             "number": 219,
             "title": "No hay barrido de filas queued sin job vivo: un mensaje atascado es invisible para siempre",
@@ -857,13 +864,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/290",
             "updatedAt": "2026-09-12T01:57:53Z"
-          },
-          {
-            "number": 288,
-            "title": "configuracion/.env.example: faltan las envs de alertas de plataforma (#182 y #144)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/288",
-            "updatedAt": "2026-09-12T01:08:29Z"
           }
         ],
         "truncated": true
