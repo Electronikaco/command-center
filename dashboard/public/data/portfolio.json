@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T03:00:48.842Z",
+  "generatedAt": "2026-09-15T03:30:38.022Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -152,13 +152,13 @@
       "lastActivityAt": "2026-09-15T02:54:43Z",
       "progress": {
         "percent": 56,
-        "label": "111/198 issues"
+        "label": "111/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
           "closed": 111,
-          "total": 198
+          "total": 200
         },
         {
           "label": "Épicas",
@@ -169,9 +169,30 @@
       "highlights": [],
       "issueBreakdown": {
         "label": "Issues",
-        "totalIssues": 198,
+        "totalIssues": 200,
         "closedIssues": 111,
         "issues": [
+          {
+            "number": 354,
+            "title": "createUser y createInvitedUser toman cerrojos por FK en orden inverso a la cadena tenants -> tenant_roles -> tenant_users",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/354",
+            "updatedAt": "2026-09-15T03:26:15Z"
+          },
+          {
+            "number": 352,
+            "title": "Ni el restore de un usuario ni activateUser revalidan que su rol siga vivo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/352",
+            "updatedAt": "2026-09-15T03:25:58Z"
+          },
+          {
+            "number": 353,
+            "title": "UpdateTenantRoleSchema acepta isActive y el controlador lo descarta en silencio",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/353",
+            "updatedAt": "2026-09-15T03:16:52Z"
+          },
           {
             "number": 214,
             "title": "deleteRole no comprueba si el rol tiene usuarios asignados: se puede borrar OWNER con el dueno dentro",
@@ -500,27 +521,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/284",
             "updatedAt": "2026-09-12T00:22:26Z"
-          },
-          {
-            "number": 282,
-            "title": "auth: resend de verificación de email lee el header del tenant además del contexto validado",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/282",
-            "updatedAt": "2026-09-12T00:14:08Z"
-          },
-          {
-            "number": 279,
-            "title": "Traza de audios de WhatsApp: reentrega de Meta degrada la fila y la transcripción no se vuelca (seguimiento de #166)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/279",
-            "updatedAt": "2026-09-11T22:26:36Z"
-          },
-          {
-            "number": 277,
-            "title": "tenant-roles: getRoleById sin filtro de tenant y auditoría con SubjectType y fallo post-commit incorrectos",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/277",
-            "updatedAt": "2026-09-11T21:56:52Z"
           }
         ],
         "truncated": true
