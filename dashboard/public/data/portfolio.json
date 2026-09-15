@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T15:00:53.453Z",
+  "generatedAt": "2026-09-15T15:30:49.338Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 139,
+          "closed": 137,
           "total": 200
         }
       ],
