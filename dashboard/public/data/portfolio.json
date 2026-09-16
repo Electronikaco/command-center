@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T17:00:44.881Z",
+  "generatedAt": "2026-09-16T17:30:40.735Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -91,20 +91,20 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-16T16:18:55Z",
+      "lastActivityAt": "2026-09-16T17:28:33Z",
       "progress": {
-        "percent": 63,
-        "label": "Turno funcional E2E · solicitud→atención→tiempo real: 5/8"
+        "percent": 56,
+        "label": "Turno funcional E2E · solicitud→atención→tiempo real: 5/9"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
           "closed": 5,
-          "total": 8
+          "total": 9
         },
         {
           "label": "Épicas",
@@ -113,14 +113,14 @@
         },
         {
           "label": "Global",
-          "closed": 187,
+          "closed": 183,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Turno funcional E2E · solicitud→atención→tiempo real",
-        "totalIssues": 8,
+        "totalIssues": 9,
         "closedIssues": 5,
         "issues": [
           {
@@ -128,7 +128,14 @@
             "title": "service-realtime como BFF de su canal, detrás del gateway (hoy está expuesto directo y el front door no habla WebSocket)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/432",
-            "updatedAt": "2026-09-16T14:38:31Z"
+            "updatedAt": "2026-09-16T17:27:14Z"
+          },
+          {
+            "number": 451,
+            "title": "service-realtime: un token S2S (typ:service) es aceptado como cliente del WebSocket y queda SIN tenant atado",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/451",
+            "updatedAt": "2026-09-16T17:26:50Z"
           },
           {
             "number": 408,
@@ -145,6 +152,20 @@
             "updatedAt": "2026-09-15T17:48:00Z"
           },
           {
+            "number": 407,
+            "title": "Turno E2E · Realtime: contrato de cliente del WS de service-realtime para el front (rooms + JWKS + eventos)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/407",
+            "updatedAt": "2026-09-16T17:27:13Z"
+          },
+          {
+            "number": 406,
+            "title": "Turno E2E · BFF: exponer al front el ciclo de vida del turno (solicitar/llamar/atender/redirigir/posponer/finalizar + cola)",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/406",
+            "updatedAt": "2026-09-16T17:25:21Z"
+          },
+          {
             "number": 424,
             "title": "migrate deploy está roto en config: 12 migraciones del repo sin registrar y 5 registradas que no existen en el repo",
             "state": "CLOSED",
@@ -157,20 +178,6 @@
             "state": "CLOSED",
             "url": "https://github.com/Electronikaco/civok-back/issues/422",
             "updatedAt": "2026-09-16T15:18:23Z"
-          },
-          {
-            "number": 407,
-            "title": "Turno E2E · Realtime: contrato de cliente del WS de service-realtime para el front (rooms + JWKS + eventos)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/407",
-            "updatedAt": "2026-09-16T14:44:42Z"
-          },
-          {
-            "number": 406,
-            "title": "Turno E2E · BFF: exponer al front el ciclo de vida del turno (solicitar/llamar/atender/redirigir/posponer/finalizar + cola)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/406",
-            "updatedAt": "2026-09-16T14:39:24Z"
           },
           {
             "number": 405,
@@ -198,15 +205,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-16T16:48:06Z",
+      "lastActivityAt": "2026-09-16T17:11:19Z",
       "progress": {
-        "percent": 56,
-        "label": "113/200 issues"
+        "percent": 57,
+        "label": "114/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 113,
+          "closed": 114,
           "total": 200
         },
         {
@@ -219,21 +226,28 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 113,
+        "closedIssues": 114,
         "issues": [
+          {
+            "number": 371,
+            "title": "MediaProcessingService lee y escribe MessageAttachment por id global, y ese id SI viaja en el job",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/371",
+            "updatedAt": "2026-09-16T17:17:57Z"
+          },
+          {
+            "number": 239,
+            "title": "Una URL mal formada en el upgrade del WebSocket de voz tumba configuracion antes de autenticar",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/239",
+            "updatedAt": "2026-09-16T17:12:27Z"
+          },
           {
             "number": 370,
             "title": "models/Message expone cuatro metodos con tenantId opcional, y el controlador les pasa undefined",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/370",
             "updatedAt": "2026-09-16T16:50:49Z"
-          },
-          {
-            "number": 227,
-            "title": "MediaProcessingService lee el contenido de un mensaje sin acotar por tenant y lo inyecta en el prompt de vision",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/227",
-            "updatedAt": "2026-09-16T16:49:00Z"
           },
           {
             "number": 368,
@@ -563,13 +577,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/300",
             "updatedAt": "2026-09-12T04:37:34Z"
-          },
-          {
-            "number": 298,
-            "title": "processPaymentConfirmation (camino PayU) está vivo y sin llamadores, sin las protecciones de #90 ni #128",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/298",
-            "updatedAt": "2026-09-12T04:29:17Z"
           }
         ],
         "truncated": true
@@ -882,6 +889,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 10
+    "totalOpenPrs": 11
   }
 }
