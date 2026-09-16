@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T14:00:44.801Z",
+  "generatedAt": "2026-09-16T14:30:47.757Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -91,20 +91,25 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 0,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-16T13:57:13Z",
+      "lastActivityAt": "2026-09-16T14:00:36Z",
       "progress": {
-        "percent": 36,
-        "label": "Turno · Consumo del Hub: contrato real y aislamiento: 4/11"
+        "percent": 14,
+        "label": "Turno funcional E2E · solicitud→atención→tiempo real: 1/7"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 4,
-          "total": 11
+          "closed": 1,
+          "total": 7
+        },
+        {
+          "label": "Épicas",
+          "closed": 24,
+          "total": 26
         },
         {
           "label": "Global",
@@ -114,86 +119,58 @@
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "Turno · Consumo del Hub: contrato real y aislamiento",
-        "totalIssues": 11,
-        "closedIssues": 4,
+        "label": "Turno funcional E2E · solicitud→atención→tiempo real",
+        "totalIssues": 7,
+        "closedIssues": 1,
         "issues": [
           {
-            "number": 425,
-            "title": "SEG · El discriminador orgUid no está aplicado en 6 bases (audit, people, storage, kiosk, video_attention, reservations)",
+            "number": 406,
+            "title": "Turno E2E · BFF: exponer al front el ciclo de vida del turno (solicitar/llamar/atender/redirigir/posponer/finalizar + cola)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/425",
-            "updatedAt": "2026-09-15T23:28:57Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/406",
+            "updatedAt": "2026-09-16T14:28:52Z"
           },
           {
-            "number": 428,
-            "title": "DECISIÓN · Contratos de réplica de licencias y personas: lo que el Hub emite no es lo que Turno espera",
+            "number": 424,
+            "title": "migrate deploy está roto en config: 12 migraciones del repo sin registrar y 5 registradas que no existen en el repo",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/428",
-            "updatedAt": "2026-09-15T23:04:10Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/424",
+            "updatedAt": "2026-09-16T14:28:50Z"
           },
           {
-            "number": 418,
-            "title": "Otras 7 colas del Hub atascadas por nombres que no casan (159 eventos) — el Hub publica en singular/español, Turno escucha en plural/inglés",
+            "number": 422,
+            "title": "10 de 20 bases de Turno no tienen esquema y 3 lo tienen sin registrar: convertir las migraciones manuales en migraciones de verdad",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/418",
-            "updatedAt": "2026-09-15T23:03:33Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/422",
+            "updatedAt": "2026-09-16T14:28:45Z"
           },
           {
-            "number": 318,
-            "title": "TH-05 · Desplegar consumidores a la Turno en ejecución + activar gates",
+            "number": 407,
+            "title": "Turno E2E · Realtime: contrato de cliente del WS de service-realtime para el front (rooms + JWKS + eventos)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/318",
-            "updatedAt": "2026-09-15T20:56:14Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/407",
+            "updatedAt": "2026-09-16T14:18:49Z"
           },
           {
-            "number": 413,
-            "title": "Backfill + auditoría de réplicas por-organización tratadas como catálogo global (deuda de #402)",
+            "number": 408,
+            "title": "Turno E2E · Verificación extremo-a-extremo de un tenant (solicitar→cola→llamar→atender→cerrar + TVPanel en vivo)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/413",
-            "updatedAt": "2026-09-15T17:59:04Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/408",
+            "updatedAt": "2026-09-15T17:48:26Z"
           },
           {
-            "number": 293,
-            "title": "CONV · Sync/Eventos · Cutover del envelope en rutas EXTERNAS (coordinar frontend) — parte de #188",
+            "number": 409,
+            "title": "[EPIC] Turno funcional end-to-end (nuevo): solicitud → atención → tiempo real",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/293",
-            "updatedAt": "2026-09-15T17:58:33Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/409",
+            "updatedAt": "2026-09-15T17:48:00Z"
           },
           {
-            "number": 399,
-            "title": "Los consumidores escuchan colas con nombres que el Hub no emite (org, persons, roles, licenses, security)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/399",
-            "updatedAt": "2026-09-15T17:58:29Z"
-          },
-          {
-            "number": 426,
-            "title": "URGENTE · service-audit pierde eventos: lee emittedAt en vez de occurredAt y marca procesado ANTES de escribir",
+            "number": 405,
+            "title": "Turno E2E · Desplegar service-attention (atenciones) en dev + wiring del BFF",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/426",
-            "updatedAt": "2026-09-15T23:28:36Z"
-          },
-          {
-            "number": 411,
-            "title": "SEG · Las 107 revocaciones de sesión están en la cola y Turno no las aplica: consumidor con envelope mal leído + service-auth de julio sin el consumidor",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/411",
-            "updatedAt": "2026-09-15T21:03:59Z"
-          },
-          {
-            "number": 402,
-            "title": "Fuga entre organizaciones: /territorial/paises devolvía la réplica completa sin acotar por tenant",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/402",
-            "updatedAt": "2026-09-15T20:56:20Z"
-          },
-          {
-            "number": 313,
-            "title": "[EPIC] Encender la conexión Turno↔Hub (activar el consumo)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/313",
-            "updatedAt": "2026-09-15T20:56:15Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/405",
+            "updatedAt": "2026-09-16T14:00:43Z"
           }
         ],
         "truncated": false
@@ -242,7 +219,7 @@
             "title": "Residuos de #188: una integracion offboardeada deja la WABA ambigua para siempre, y cuatro mas",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/223",
-            "updatedAt": "2026-09-16T13:57:05Z"
+            "updatedAt": "2026-09-16T14:29:43Z"
           },
           {
             "number": 362,
@@ -644,7 +621,7 @@
         },
         {
           "label": "Global",
-          "closed": 180,
+          "closed": 179,
           "total": 200
         }
       ],
@@ -655,32 +632,32 @@
         "closedIssues": 23,
         "issues": [
           {
-            "number": 471,
-            "title": "Alta de usuario: resolver Persona por correo + unicidad de clave natural en BD (follow-up de #371)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/471",
-            "updatedAt": "2026-09-15T21:05:03Z"
-          },
-          {
-            "number": 470,
-            "title": "Unificar semántica de url_acceso entre service-authz y hub-api (follow-up de #452)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/470",
-            "updatedAt": "2026-09-15T18:01:58Z"
-          },
-          {
             "number": 330,
             "title": "AUZ · Aceptar y persistir 'modulos' (visibilidad de módulo por rol) en el push del árbol",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/330",
-            "updatedAt": "2026-09-15T18:01:10Z"
+            "updatedAt": "2026-09-16T14:18:21Z"
           },
           {
             "number": 460,
             "title": "Publicar GET /roles/:uid/uso — hoy el front cuenta los usuarios con N+1 y un techo de 500",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/460",
-            "updatedAt": "2026-09-15T18:01:09Z"
+            "updatedAt": "2026-09-16T14:18:20Z"
+          },
+          {
+            "number": 470,
+            "title": "Unificar semántica de url_acceso entre service-authz y hub-api (follow-up de #452)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/470",
+            "updatedAt": "2026-09-16T14:18:15Z"
+          },
+          {
+            "number": 471,
+            "title": "Alta de usuario: resolver Persona por correo + unicidad de clave natural en BD (follow-up de #371)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/471",
+            "updatedAt": "2026-09-16T14:18:14Z"
           },
           {
             "number": 166,
@@ -898,6 +875,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 4
+    "totalOpenPrs": 3
   }
 }
