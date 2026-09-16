@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T22:30:41.337Z",
+  "generatedAt": "2026-09-16T23:00:37.072Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-16T21:35:10Z",
+      "lastActivityAt": "2026-09-16T22:59:28Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 143,
+          "closed": 144,
           "total": 200
         }
       ],
@@ -236,19 +236,19 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 4,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-16T22:17:33Z",
+      "lastActivityAt": "2026-09-16T22:54:01Z",
       "progress": {
-        "percent": 57,
-        "label": "115/200 issues"
+        "percent": 56,
+        "label": "113/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 115,
+          "closed": 113,
           "total": 200
         },
         {
@@ -261,14 +261,35 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 115,
+        "closedIssues": 113,
         "issues": [
+          {
+            "number": 248,
+            "title": "Antes de promover el índice único de números: escrituras que aún responderían 500 y restos de #187",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/248",
+            "updatedAt": "2026-09-16T22:55:36Z"
+          },
           {
             "number": 246,
             "title": "Redis puede arrancar sin contraseña (REDIS_PASSWORD opcional y requirepass vacío en los compose)",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/246",
-            "updatedAt": "2026-09-16T22:21:37Z"
+            "updatedAt": "2026-09-16T22:55:08Z"
+          },
+          {
+            "number": 384,
+            "title": "Sin Redis, auth deja de comprobar el nonce de un solo uso de los tokens de reset e invitacion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/384",
+            "updatedAt": "2026-09-16T22:47:56Z"
+          },
+          {
+            "number": 383,
+            "title": "El compose de configuracion publica MySQL en todas las interfaces, con credenciales quemadas, y el override de produccion no lo corrige",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/383",
+            "updatedAt": "2026-09-16T22:47:43Z"
           },
           {
             "number": 351,
@@ -591,27 +612,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/307",
             "updatedAt": "2026-09-12T07:27:37Z"
-          },
-          {
-            "number": 305,
-            "title": "sanitizarUrlParaLog: una cadena con userinfo y sin esquema deja pasar la contraseña",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/305",
-            "updatedAt": "2026-09-12T06:39:44Z"
-          },
-          {
-            "number": 304,
-            "title": "AIProvider.handleError acepta LogOptions con firma de índice abierta: el contrato de logs no puede vigilarlo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/304",
-            "updatedAt": "2026-09-12T06:30:47Z"
-          },
-          {
-            "number": 303,
-            "title": "Endpoint de depuración devuelve access_token y appsecret_proof en claro, protegido solo por NODE_ENV",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/303",
-            "updatedAt": "2026-09-12T05:52:41Z"
           }
         ],
         "truncated": true
@@ -777,6 +777,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 12
+    "totalOpenPrs": 13
   }
 }
