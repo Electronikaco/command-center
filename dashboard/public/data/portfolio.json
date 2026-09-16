@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T18:00:46.145Z",
+  "generatedAt": "2026-09-16T18:30:38.696Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 28,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-16T17:59:01Z",
+      "lastActivityAt": "2026-09-16T18:01:14Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -95,15 +95,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-16T17:42:42Z",
+      "lastActivityAt": "2026-09-16T18:19:47Z",
       "progress": {
-        "percent": 50,
-        "label": "Turno funcional E2E · solicitud→atención→tiempo real: 5/10"
+        "percent": 60,
+        "label": "Turno funcional E2E · solicitud→atención→tiempo real: 6/10"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 5,
+          "closed": 6,
           "total": 10
         },
         {
@@ -113,7 +113,7 @@
         },
         {
           "label": "Global",
-          "closed": 182,
+          "closed": 183,
           "total": 200
         }
       ],
@@ -121,7 +121,7 @@
       "issueBreakdown": {
         "label": "Turno funcional E2E · solicitud→atención→tiempo real",
         "totalIssues": 10,
-        "closedIssues": 5,
+        "closedIssues": 6,
         "issues": [
           {
             "number": 452,
@@ -138,13 +138,6 @@
             "updatedAt": "2026-09-16T17:27:14Z"
           },
           {
-            "number": 451,
-            "title": "service-realtime: un token S2S (typ:service) es aceptado como cliente del WebSocket y queda SIN tenant atado",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/451",
-            "updatedAt": "2026-09-16T17:26:50Z"
-          },
-          {
             "number": 408,
             "title": "Turno E2E · Verificación extremo-a-extremo de un tenant (solicitar→cola→llamar→atender→cerrar + TVPanel en vivo)",
             "state": "OPEN",
@@ -157,6 +150,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/409",
             "updatedAt": "2026-09-15T17:48:00Z"
+          },
+          {
+            "number": 451,
+            "title": "service-realtime: un token S2S (typ:service) es aceptado como cliente del WebSocket y queda SIN tenant atado",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/451",
+            "updatedAt": "2026-09-16T18:09:03Z"
           },
           {
             "number": 407,
@@ -212,15 +212,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-16T17:51:49Z",
+      "lastActivityAt": "2026-09-16T18:29:15Z",
       "progress": {
-        "percent": 57,
-        "label": "115/200 issues"
+        "percent": 58,
+        "label": "116/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 115,
+          "closed": 116,
           "total": 200
         },
         {
@@ -233,14 +233,21 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 115,
+        "closedIssues": 116,
         "issues": [
           {
-            "number": 239,
-            "title": "Una URL mal formada en el upgrade del WebSocket de voz tumba configuracion antes de autenticar",
+            "number": 375,
+            "title": "El gateway de voz escribe una entrada de log por peticion rechazada sin autenticar y sin tope",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/239",
-            "updatedAt": "2026-09-16T17:12:27Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/375",
+            "updatedAt": "2026-09-16T18:28:32Z"
+          },
+          {
+            "number": 374,
+            "title": "El socket crudo del upgrade de voz no tiene oyente de error antes de escribir la respuesta",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/374",
+            "updatedAt": "2026-09-16T18:28:23Z"
           },
           {
             "number": 370,
@@ -577,13 +584,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/300",
             "updatedAt": "2026-09-12T04:37:34Z"
-          },
-          {
-            "number": 298,
-            "title": "processPaymentConfirmation (camino PayU) está vivo y sin llamadores, sin las protecciones de #90 ni #128",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/298",
-            "updatedAt": "2026-09-12T04:29:17Z"
           }
         ],
         "truncated": true
@@ -631,222 +631,75 @@
       "commits30d": 0,
       "lastActivityAt": "2026-09-16T15:06:55Z",
       "progress": {
-        "percent": 82,
-        "label": "R2 · Hub → microservicios core: 23/28"
+        "percent": 14,
+        "label": "Estándares transversales del ecosistema: 1/7"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 23,
-          "total": 28
+          "closed": 1,
+          "total": 7
         },
         {
           "label": "Global",
-          "closed": 179,
+          "closed": 174,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "R2 · Hub → microservicios core",
-        "totalIssues": 28,
-        "closedIssues": 23,
+        "label": "Estándares transversales del ecosistema",
+        "totalIssues": 7,
+        "closedIssues": 1,
         "issues": [
           {
-            "number": 330,
-            "title": "AUZ · Aceptar y persistir 'modulos' (visibilidad de módulo por rol) en el push del árbol",
+            "number": 483,
+            "title": "[EPIC] Convención de nombres en inglés (piloto Hub) · MS <dominio>-service + BD [ms]-civok-hub",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/330",
-            "updatedAt": "2026-09-16T14:18:21Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/483",
+            "updatedAt": "2026-09-16T18:06:47Z"
           },
           {
-            "number": 460,
-            "title": "Publicar GET /roles/:uid/uso — hoy el front cuenta los usuarios con N+1 y un techo de 500",
+            "number": 487,
+            "title": "Ejecución del Hub: compose hub-<entorno> + PM2 por MS + MS suelto (naming)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/460",
-            "updatedAt": "2026-09-16T14:18:20Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/487",
+            "updatedAt": "2026-09-16T18:06:17Z"
           },
           {
-            "number": 470,
-            "title": "Unificar semántica de url_acceso entre service-authz y hub-api (follow-up de #452)",
+            "number": 486,
+            "title": "Tablas y columnas del Hub en inglés + comentario por columna",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/470",
-            "updatedAt": "2026-09-16T14:18:15Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/486",
+            "updatedAt": "2026-09-16T18:06:14Z"
           },
           {
-            "number": 471,
-            "title": "Alta de usuario: resolver Persona por correo + unicidad de clave natural en BD (follow-up de #371)",
+            "number": 485,
+            "title": "Rename BD del Hub: civok_<dominio> → [ms]-civok-hub (inglés)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/471",
-            "updatedAt": "2026-09-16T14:18:14Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/485",
+            "updatedAt": "2026-09-16T18:06:12Z"
           },
           {
-            "number": 166,
-            "title": "BFF-03 · Descomponer hub-api en microservicios core (fase mayor)",
+            "number": 484,
+            "title": "Rename MS del Hub: service-<dominio> → <dominio>-service (inglés)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/166",
-            "updatedAt": "2026-08-06T15:19:34Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/484",
+            "updatedAt": "2026-09-16T18:06:10Z"
           },
           {
-            "number": 464,
-            "title": "El parámetro q se parsea y se IGNORA en los 13 endpoints: responde 200 con todo — bloquea todos los buscadores de la consola",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/464",
-            "updatedAt": "2026-09-16T13:47:35Z"
+            "number": 453,
+            "title": "Las bases del Hub viven dentro del servidor MariaDB de Turno — deben ser propias",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/453",
+            "updatedAt": "2026-09-15T22:11:02Z"
           },
           {
-            "number": 465,
-            "title": "Cinco repositorios paginan SIN orden por defecto: la página 2 puede repetir u omitir filas",
+            "number": 455,
+            "title": "hub-api ejecuta sus tests desde un dist que puede quedar obsoleto: 2 tests llevaban 6 días en falso rojo",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/465",
-            "updatedAt": "2026-09-15T23:18:49Z"
-          },
-          {
-            "number": 371,
-            "title": "Creación de usuario: reutilizar Persona existente (no duplicar) al crear un usuario",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/371",
-            "updatedAt": "2026-09-15T19:12:05Z"
-          },
-          {
-            "number": 400,
-            "title": "Exponer lista interna de usuarios de la org consumible por apps (Turno read-only)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/400",
-            "updatedAt": "2026-09-15T04:31:51Z"
-          },
-          {
-            "number": 177,
-            "title": "MS-F · Extraer service-personas (maestro de Persona + documentos/contactos/direcciones)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/177",
-            "updatedAt": "2026-09-14T15:33:04Z"
-          },
-          {
-            "number": 348,
-            "title": "MS-F4 · Split físico de BD de persona (civok_person) + permisos S2S (PERSONAS_PERMISOS_S2S)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/348",
-            "updatedAt": "2026-09-02T18:04:38Z"
-          },
-          {
-            "number": 297,
-            "title": "Read-side cross-dominio S2S — completar + auditar (GATE de F4 · endurece splits A-E)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/297",
-            "updatedAt": "2026-09-02T17:47:06Z"
-          },
-          {
-            "number": 347,
-            "title": "MS-F2-cutover · Enrutar personas en el bff + re-encender AUTH_CROSSDOMAIN_S2S en service-auth",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/347",
-            "updatedAt": "2026-09-02T13:16:33Z"
-          },
-          {
-            "number": 346,
-            "title": "MS-F1-op · Levantar service-personas en dev (systemd unit + env · health :8096)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/346",
-            "updatedAt": "2026-09-02T02:51:36Z"
-          },
-          {
-            "number": 322,
-            "title": "#297·2c · service-org: validateRole (WSP-02) por S2S al catálogo de roles de authz",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/322",
-            "updatedAt": "2026-08-31T13:41:21Z"
-          },
-          {
-            "number": 321,
-            "title": "#297·2b · service-auth: romper por S2S/copia las 3 lecturas residuales del alta (persona/workspace/clientId)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/321",
-            "updatedAt": "2026-08-31T13:41:19Z"
-          },
-          {
-            "number": 320,
-            "title": "#297·2a · service-authz: lecturas de LICENCIA (apps contratadas · D27) por S2S a hub-licensing — PRIORITARIO",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/320",
-            "updatedAt": "2026-08-31T13:41:17Z"
-          },
-          {
-            "number": 301,
-            "title": "#297·1c · service-personas requireAdmin: resolver de permisos local → aplicar patrón S2S (#290) antes de F4",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/301",
-            "updatedAt": "2026-08-27T15:30:34Z"
-          },
-          {
-            "number": 300,
-            "title": "#297·1b · service-auth LOGIN: workspaceAccess + resolveOrgSubdominio leen ORG → romper por S2S",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/300",
-            "updatedAt": "2026-08-27T15:21:17Z"
-          },
-          {
-            "number": 176,
-            "title": "MS-E · Extraer service-auth (SSO/sesiones/JWKS + usuarios + apikeys + registro)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/176",
-            "updatedAt": "2026-08-25T14:38:11Z"
-          },
-          {
-            "number": 175,
-            "title": "MS-D · Extraer service-org (organización/territorial/workspaces/equipos + maestro de tenant)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/175",
-            "updatedAt": "2026-08-25T14:38:09Z"
-          },
-          {
-            "number": 174,
-            "title": "MS-C · Extraer service-authz (roles/permisos/acciones + catálogo de apps)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/174",
-            "updatedAt": "2026-08-25T14:38:07Z"
-          },
-          {
-            "number": 225,
-            "title": "MS-C4 · Split de BD de authz + romper lectura residual a usuarios (S2S/copia)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/225",
-            "updatedAt": "2026-08-24T21:34:18Z"
-          },
-          {
-            "number": 224,
-            "title": "MS-C3 · Outbox + S2S de service-authz",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/224",
-            "updatedAt": "2026-08-18T14:48:49Z"
-          },
-          {
-            "number": 223,
-            "title": "MS-C2 · Enrutar authz por el hub-bff (SERVICE_ROUTES → service-authz)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/223",
-            "updatedAt": "2026-08-18T14:36:11Z"
-          },
-          {
-            "number": 222,
-            "title": "MS-C1 · Scaffold apps/service-authz consumiendo authz-core",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/222",
-            "updatedAt": "2026-08-18T14:28:46Z"
-          },
-          {
-            "number": 173,
-            "title": "MS-B · Extraer hub-licensing (licencias/planes/addons/paquetes/contratos/flags)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/173",
-            "updatedAt": "2026-08-08T16:34:59Z"
-          },
-          {
-            "number": 172,
-            "title": "MS-A · Fundaciones: BFF como router + librerías transversales + contratos S2S",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/172",
-            "updatedAt": "2026-08-07T00:07:29Z"
+            "url": "https://github.com/Electronikaco/civok-hub/issues/455",
+            "updatedAt": "2026-09-15T17:28:11Z"
           }
         ],
         "truncated": false
@@ -869,19 +722,19 @@
       "commits30d": 0,
       "lastActivityAt": "2026-09-16T15:08:14Z",
       "progress": {
-        "percent": 23,
-        "label": "Hub Console · Plataforma y deuda técnica: 3/13"
+        "percent": 21,
+        "label": "Hub Console · Plataforma y deuda técnica: 3/14"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
           "closed": 3,
-          "total": 13
+          "total": 14
         },
         {
           "label": "Global",
           "closed": 112,
-          "total": 126
+          "total": 127
         }
       ],
       "highlights": [],
