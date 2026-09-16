@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T18:30:38.696Z",
+  "generatedAt": "2026-09-16T19:00:42.093Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -235,6 +235,13 @@
         "totalIssues": 200,
         "closedIssues": 116,
         "issues": [
+          {
+            "number": 241,
+            "title": "Voz: ciclo de vida de la llamada, límites de reconexión y robustez del handshake (seguimiento de #199)",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/241",
+            "updatedAt": "2026-09-16T18:32:02Z"
+          },
           {
             "number": 375,
             "title": "El gateway de voz escribe una entrada de log por peticion rechazada sin autenticar y sin tope",
@@ -577,13 +584,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/301",
             "updatedAt": "2026-09-12T05:03:08Z"
-          },
-          {
-            "number": 300,
-            "title": "Alerta de plataforma cuando una confirmación de ePayco no se puede validar (caída de la pasarela)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/300",
-            "updatedAt": "2026-09-12T04:37:34Z"
           }
         ],
         "truncated": true
