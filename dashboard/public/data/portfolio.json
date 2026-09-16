@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T13:30:45.945Z",
+  "generatedAt": "2026-09-16T14:00:44.801Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,9 +11,9 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 50,
-      "commits7d": 26,
+      "commits7d": 27,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-16T10:42:04Z",
+      "lastActivityAt": "2026-09-16T13:57:09Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 143,
+          "closed": 144,
           "total": 200
         }
       ],
@@ -91,11 +91,11 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 0,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-15T23:22:42Z",
+      "lastActivityAt": "2026-09-16T13:57:13Z",
       "progress": {
         "percent": 36,
         "label": "Turno · Consumo del Hub: contrato real y aislamiento: 4/11"
@@ -105,11 +105,6 @@
           "label": "Épica activa",
           "closed": 4,
           "total": 11
-        },
-        {
-          "label": "Épicas",
-          "closed": 24,
-          "total": 26
         },
         {
           "label": "Global",
@@ -219,7 +214,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-15T06:10:16Z",
+      "lastActivityAt": "2026-09-16T13:56:07Z",
       "progress": {
         "percent": 56,
         "label": "112/200 issues"
@@ -243,11 +238,18 @@
         "closedIssues": 112,
         "issues": [
           {
-            "number": 221,
-            "title": "Residuo de #143: dos findOne globales por phone_number_id en el outbound hacen fallar el envio con un error que miente",
+            "number": 223,
+            "title": "Residuos de #188: una integracion offboardeada deja la WABA ambigua para siempre, y cuatro mas",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/221",
-            "updatedAt": "2026-09-16T13:22:46Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/223",
+            "updatedAt": "2026-09-16T13:57:05Z"
+          },
+          {
+            "number": 362,
+            "title": "Tercer residuo de #143: getAssistantWhatsAppLink devuelve al cliente la fila del numero sin re-validar tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/362",
+            "updatedAt": "2026-09-16T13:51:48Z"
           },
           {
             "number": 360,
@@ -584,13 +586,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/292",
             "updatedAt": "2026-09-12T03:12:30Z"
-          },
-          {
-            "number": 290,
-            "title": "OAuth de Instagram: el cuerpo crudo de error de Meta y profile_raw acaban en logs, y el token largo se descarta sin revocar",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/290",
-            "updatedAt": "2026-09-12T01:57:53Z"
           }
         ],
         "truncated": true
@@ -636,20 +631,20 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-15T23:18:10Z",
+      "lastActivityAt": "2026-09-16T13:46:56Z",
       "progress": {
-        "percent": 79,
-        "label": "R2 · Hub → microservicios core: 22/28"
+        "percent": 82,
+        "label": "R2 · Hub → microservicios core: 23/28"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 22,
+          "closed": 23,
           "total": 28
         },
         {
           "label": "Global",
-          "closed": 179,
+          "closed": 180,
           "total": 200
         }
       ],
@@ -657,7 +652,7 @@
       "issueBreakdown": {
         "label": "R2 · Hub → microservicios core",
         "totalIssues": 28,
-        "closedIssues": 22,
+        "closedIssues": 23,
         "issues": [
           {
             "number": 471,
@@ -688,18 +683,18 @@
             "updatedAt": "2026-09-15T18:01:09Z"
           },
           {
-            "number": 464,
-            "title": "El parámetro q se parsea y se IGNORA en los 13 endpoints: responde 200 con todo — bloquea todos los buscadores de la consola",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/464",
-            "updatedAt": "2026-09-15T17:59:33Z"
-          },
-          {
             "number": 166,
             "title": "BFF-03 · Descomponer hub-api en microservicios core (fase mayor)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/166",
             "updatedAt": "2026-08-06T15:19:34Z"
+          },
+          {
+            "number": 464,
+            "title": "El parámetro q se parsea y se IGNORA en los 13 endpoints: responde 200 con todo — bloquea todos los buscadores de la consola",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/464",
+            "updatedAt": "2026-09-16T13:47:35Z"
           },
           {
             "number": 465,
@@ -903,6 +898,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 3
+    "totalOpenPrs": 4
   }
 }
