@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T19:00:42.093Z",
+  "generatedAt": "2026-09-16T19:30:39.248Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -657,7 +657,14 @@
             "title": "[EPIC] Convención de nombres en inglés (piloto Hub) · MS <dominio>-service + BD [ms]-civok-hub",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/483",
-            "updatedAt": "2026-09-16T18:06:47Z"
+            "updatedAt": "2026-09-16T19:12:51Z"
+          },
+          {
+            "number": 485,
+            "title": "Rename BD del Hub: civok_<dominio> → [ms]-civok-hub (inglés)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-hub/issues/485",
+            "updatedAt": "2026-09-16T19:12:49Z"
           },
           {
             "number": 487,
@@ -672,13 +679,6 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-hub/issues/486",
             "updatedAt": "2026-09-16T18:06:14Z"
-          },
-          {
-            "number": 485,
-            "title": "Rename BD del Hub: civok_<dominio> → [ms]-civok-hub (inglés)",
-            "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-hub/issues/485",
-            "updatedAt": "2026-09-16T18:06:12Z"
           },
           {
             "number": 484,
