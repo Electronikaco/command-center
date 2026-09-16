@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T17:30:40.735Z",
+  "generatedAt": "2026-09-16T18:00:46.145Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 28,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-16T16:14:56Z",
+      "lastActivityAt": "2026-09-16T17:59:01Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -91,20 +91,20 @@
       "type": "github",
       "description": "Backend SaaS — migración Express+Prisma por microservicio",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-16T17:28:33Z",
+      "lastActivityAt": "2026-09-16T17:42:42Z",
       "progress": {
-        "percent": 56,
-        "label": "Turno funcional E2E · solicitud→atención→tiempo real: 5/9"
+        "percent": 50,
+        "label": "Turno funcional E2E · solicitud→atención→tiempo real: 5/10"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
           "closed": 5,
-          "total": 9
+          "total": 10
         },
         {
           "label": "Épicas",
@@ -113,16 +113,23 @@
         },
         {
           "label": "Global",
-          "closed": 183,
+          "closed": 182,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Turno funcional E2E · solicitud→atención→tiempo real",
-        "totalIssues": 9,
+        "totalIssues": 10,
         "closedIssues": 5,
         "issues": [
+          {
+            "number": 452,
+            "title": "Las colas de dominio se usan como pub/sub pero son colas de trabajo: los servicios COMPITEN por los eventos y cada uno recibe sólo una fracción",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/452",
+            "updatedAt": "2026-09-16T17:31:54Z"
+          },
           {
             "number": 432,
             "title": "service-realtime como BFF de su canal, detrás del gateway (hoy está expuesto directo y el front door no habla WebSocket)",
@@ -205,15 +212,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-16T17:11:19Z",
+      "lastActivityAt": "2026-09-16T17:51:49Z",
       "progress": {
         "percent": 57,
-        "label": "114/200 issues"
+        "label": "115/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 114,
+          "closed": 115,
           "total": 200
         },
         {
@@ -226,15 +233,8 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 114,
+        "closedIssues": 115,
         "issues": [
-          {
-            "number": 371,
-            "title": "MediaProcessingService lee y escribe MessageAttachment por id global, y ese id SI viaja en el job",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/371",
-            "updatedAt": "2026-09-16T17:17:57Z"
-          },
           {
             "number": 239,
             "title": "Una URL mal formada en el upgrade del WebSocket de voz tumba configuracion antes de autenticar",
@@ -577,6 +577,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/300",
             "updatedAt": "2026-09-12T04:37:34Z"
+          },
+          {
+            "number": 298,
+            "title": "processPaymentConfirmation (camino PayU) está vivo y sin llamadores, sin las protecciones de #90 ni #128",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/298",
+            "updatedAt": "2026-09-12T04:29:17Z"
           }
         ],
         "truncated": true
@@ -889,6 +896,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 11
+    "totalOpenPrs": 10
   }
 }
