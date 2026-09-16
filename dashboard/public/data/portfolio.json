@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T21:00:40.240Z",
+  "generatedAt": "2026-09-16T21:30:36.410Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -11,9 +11,9 @@
       "health": "ok",
       "openPrs": 2,
       "mergedPrs30d": 50,
-      "commits7d": 29,
+      "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-16T20:39:04Z",
+      "lastActivityAt": "2026-09-16T21:29:34Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 142,
+          "closed": 143,
           "total": 200
         }
       ],
@@ -95,16 +95,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-16T18:19:47Z",
+      "lastActivityAt": "2026-09-16T21:26:52Z",
       "progress": {
-        "percent": 60,
-        "label": "Turno funcional E2E · solicitud→atención→tiempo real: 6/10"
+        "percent": 43,
+        "label": "Turno funcional E2E · solicitud→atención→tiempo real: 6/14"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
           "closed": 6,
-          "total": 10
+          "total": 14
         },
         {
           "label": "Épicas",
@@ -113,16 +113,44 @@
         },
         {
           "label": "Global",
-          "closed": 183,
+          "closed": 178,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Turno funcional E2E · solicitud→atención→tiempo real",
-        "totalIssues": 10,
+        "totalIssues": 14,
         "closedIssues": 6,
         "issues": [
+          {
+            "number": 461,
+            "title": "dashboard/summary envía al front un Decimal de Prisma en crudo donde va un número",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/461",
+            "updatedAt": "2026-09-16T21:28:36Z"
+          },
+          {
+            "number": 460,
+            "title": "service-audit no registra nada de Turno: sus colas están excluidas de la configuración y le falta una migración",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/460",
+            "updatedAt": "2026-09-16T21:28:35Z"
+          },
+          {
+            "number": 458,
+            "title": "SEG · El arreglo de la fuga del WebSocket (#451) no se ha ejercitado en runtime: el servicio corre en modo dev-sin-jwks",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/458",
+            "updatedAt": "2026-09-16T21:28:05Z"
+          },
+          {
+            "number": 457,
+            "title": "El histórico de reportes no se escribe: el evento se descarta en silencio, y aunque se arregle viajaría sin los nombres (bloquea #415)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/457",
+            "updatedAt": "2026-09-16T21:27:32Z"
+          },
           {
             "number": 452,
             "title": "Las colas de dominio se usan como pub/sub pero son colas de trabajo: los servicios COMPITEN por los eventos y cada uno recibe sólo una fracción",
@@ -716,11 +744,11 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 4,
+      "openPrs": 5,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-16T15:08:14Z",
+      "lastActivityAt": "2026-09-16T21:23:54Z",
       "progress": {
         "percent": 21,
         "label": "Hub Console · Plataforma y deuda técnica: 3/14"
@@ -734,7 +762,7 @@
         {
           "label": "Global",
           "closed": 112,
-          "total": 127
+          "total": 128
         }
       ],
       "highlights": [],
@@ -749,6 +777,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 12
+    "totalOpenPrs": 13
   }
 }
