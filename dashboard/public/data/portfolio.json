@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T15:00:54.493Z",
+  "generatedAt": "2026-09-16T15:30:46.300Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -95,16 +95,16 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-16T14:59:48Z",
+      "lastActivityAt": "2026-09-16T15:18:22Z",
       "progress": {
-        "percent": 92,
-        "label": "Turno · Pisos y Áreas + consumo de Sedes del Hub: 12/13"
+        "percent": 50,
+        "label": "Turno funcional E2E · solicitud→atención→tiempo real: 4/8"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 12,
-          "total": 13
+          "closed": 4,
+          "total": 8
         },
         {
           "label": "Épicas",
@@ -113,106 +113,71 @@
         },
         {
           "label": "Global",
-          "closed": 181,
+          "closed": 185,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
-        "label": "Turno · Pisos y Áreas + consumo de Sedes del Hub",
-        "totalIssues": 13,
-        "closedIssues": 12,
+        "label": "Turno funcional E2E · solicitud→atención→tiempo real",
+        "totalIssues": 8,
+        "closedIssues": 4,
         "issues": [
           {
-            "number": 362,
-            "title": "[EPIC] Turno · Pisos y Áreas + consumo de Sedes del Hub",
+            "number": 432,
+            "title": "service-realtime como BFF de su canal, detrás del gateway (hoy está expuesto directo y el front door no habla WebSocket)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/362",
-            "updatedAt": "2026-09-15T20:56:11Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/432",
+            "updatedAt": "2026-09-16T14:38:31Z"
           },
           {
-            "number": 412,
-            "title": "SEDE-CONSUMO-02 · Retirar la propiedad local de la Sede (write → read-only)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/412",
-            "updatedAt": "2026-09-16T14:53:57Z"
+            "number": 424,
+            "title": "migrate deploy está roto en config: 12 migraciones del repo sin registrar y 5 registradas que no existen en el repo",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/424",
+            "updatedAt": "2026-09-16T14:28:50Z"
           },
           {
-            "number": 380,
-            "title": "[EPIC] Turno · consumir jerarquía territorial del Hub (país→sede) + filtro por país en Pisos y Áreas (#148)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/380",
-            "updatedAt": "2026-09-15T20:56:13Z"
+            "number": 408,
+            "title": "Turno E2E · Verificación extremo-a-extremo de un tenant (solicitar→cola→llamar→atender→cerrar + TVPanel en vivo)",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/408",
+            "updatedAt": "2026-09-15T17:48:26Z"
           },
           {
-            "number": 366,
-            "title": "SEDE-CONSUMO-01 · Consumir Sedes del Hub (read-only) y retirar propiedad local",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/366",
-            "updatedAt": "2026-09-15T20:56:10Z"
+            "number": 409,
+            "title": "[EPIC] Turno funcional end-to-end (nuevo): solicitud → atención → tiempo real",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/409",
+            "updatedAt": "2026-09-15T17:48:00Z"
           },
           {
-            "number": 384,
-            "title": "TERR-04 · Consumidor hub-org.turno: poblar la réplica territorial desde eventos del Hub (idempotente por versión) (#380)",
+            "number": 422,
+            "title": "10 de 20 bases de Turno no tienen esquema y 3 lo tienen sin registrar: convertir las migraciones manuales en migraciones de verdad",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/384",
-            "updatedAt": "2026-09-07T13:50:29Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/422",
+            "updatedAt": "2026-09-16T15:18:23Z"
           },
           {
-            "number": 383,
-            "title": "TERR-03 · Exponer por el BFF la cascada país→div.principal→div.local→sede filtrada por workspace (#380)",
+            "number": 407,
+            "title": "Turno E2E · Realtime: contrato de cliente del WS de service-realtime para el front (rooms + JWKS + eventos)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/383",
-            "updatedAt": "2026-09-06T04:41:41Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/407",
+            "updatedAt": "2026-09-16T14:44:42Z"
           },
           {
-            "number": 382,
-            "title": "TERR-02 · workspaceUid (país) como dimensión de filtro en consultas de sedes/pisos (service-config) (#380)",
+            "number": 406,
+            "title": "Turno E2E · BFF: exponer al front el ciclo de vida del turno (solicitar/llamar/atender/redirigir/posponer/finalizar + cola)",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/382",
-            "updatedAt": "2026-09-06T04:27:42Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/406",
+            "updatedAt": "2026-09-16T14:39:24Z"
           },
           {
-            "number": 381,
-            "title": "TERR-01 · Réplica read-only de la jerarquía territorial del Hub en service-config (modelo + refs aditivas en Sede) (#380)",
+            "number": 405,
+            "title": "Turno E2E · Desplegar service-attention (atenciones) en dev + wiring del BFF",
             "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/381",
-            "updatedAt": "2026-09-06T04:20:37Z"
-          },
-          {
-            "number": 368,
-            "title": "MOVER-02 · Mover \"gestión de personal\" (Slot) al dominio Usuarios (backend)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/368",
-            "updatedAt": "2026-09-05T13:25:42Z"
-          },
-          {
-            "number": 367,
-            "title": "MOVER-01 · Mover \"Motivos de Pausa\" al dominio Usuarios (backend)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/367",
-            "updatedAt": "2026-09-05T13:10:37Z"
-          },
-          {
-            "number": 365,
-            "title": "PISO-02 · Replicar pisos entre sedes / crear piso para otra sede (bulk)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/365",
-            "updatedAt": "2026-09-04T15:29:40Z"
-          },
-          {
-            "number": 364,
-            "title": "AREA-01 · FIX contrato de crear Área (front envía 4, backend exige ~12)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/364",
-            "updatedAt": "2026-09-04T15:13:46Z"
-          },
-          {
-            "number": 363,
-            "title": "PISO-01 · Modelo HorarioPiso + endpoints (heredar de sede o personalizado)",
-            "state": "CLOSED",
-            "url": "https://github.com/Electronikaco/civok-back/issues/363",
-            "updatedAt": "2026-09-04T15:02:01Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/405",
+            "updatedAt": "2026-09-16T14:00:43Z"
           }
         ],
         "truncated": false
@@ -261,7 +226,7 @@
             "title": "Los eventos de plantilla de una WABA compartida se pierden: el auto-pause de campanas es cumplimiento, no sync",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/224",
-            "updatedAt": "2026-09-16T15:00:09Z"
+            "updatedAt": "2026-09-16T15:01:06Z"
           },
           {
             "number": 223,
@@ -646,11 +611,11 @@
       "type": "github",
       "description": "Base del ecosistema de las apps de civok",
       "health": "ok",
-      "openPrs": 1,
+      "openPrs": 2,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-16T14:39:52Z",
+      "lastActivityAt": "2026-09-16T15:06:55Z",
       "progress": {
         "percent": 82,
         "label": "R2 · Hub → microservicios core: 23/28"
@@ -884,11 +849,11 @@
       "type": "github",
       "description": "Monorepo de frontends civok — FSD, hub-console primero",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 4,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-16T14:59:09Z",
+      "lastActivityAt": "2026-09-16T15:08:14Z",
       "progress": {
         "percent": 23,
         "label": "Hub Console · Plataforma y deuda técnica: 3/13"
@@ -917,6 +882,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 8
+    "totalOpenPrs": 11
   }
 }
