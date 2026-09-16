@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T13:00:47.862Z",
+  "generatedAt": "2026-09-16T13:30:45.945Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -242,6 +242,13 @@
         "totalIssues": 200,
         "closedIssues": 112,
         "issues": [
+          {
+            "number": 221,
+            "title": "Residuo de #143: dos findOne globales por phone_number_id en el outbound hacen fallar el envio con un error que miente",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/221",
+            "updatedAt": "2026-09-16T13:22:46Z"
+          },
           {
             "number": 360,
             "title": "La consulta del barrido de salida no tiene indice: full scan cada pasada sobre una tabla que crece con cada mensaje",
@@ -584,13 +591,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/290",
             "updatedAt": "2026-09-12T01:57:53Z"
-          },
-          {
-            "number": 288,
-            "title": "configuracion/.env.example: faltan las envs de alertas de plataforma (#182 y #144)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/288",
-            "updatedAt": "2026-09-12T01:08:29Z"
           }
         ],
         "truncated": true
