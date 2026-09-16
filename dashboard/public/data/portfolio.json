@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T16:30:39.942Z",
+  "generatedAt": "2026-09-16T17:00:44.881Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -198,15 +198,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-16T16:12:11Z",
+      "lastActivityAt": "2026-09-16T16:48:06Z",
       "progress": {
         "percent": 56,
-        "label": "112/200 issues"
+        "label": "113/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 112,
+          "closed": 113,
           "total": 200
         },
         {
@@ -219,14 +219,35 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 112,
+        "closedIssues": 113,
         "issues": [
           {
-            "number": 224,
-            "title": "Los eventos de plantilla de una WABA compartida se pierden: el auto-pause de campanas es cumplimiento, no sync",
+            "number": 370,
+            "title": "models/Message expone cuatro metodos con tenantId opcional, y el controlador les pasa undefined",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/224",
-            "updatedAt": "2026-09-16T16:12:44Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/370",
+            "updatedAt": "2026-09-16T16:50:49Z"
+          },
+          {
+            "number": 227,
+            "title": "MediaProcessingService lee el contenido de un mensaje sin acotar por tenant y lo inyecta en el prompt de vision",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/227",
+            "updatedAt": "2026-09-16T16:49:00Z"
+          },
+          {
+            "number": 368,
+            "title": "Falta la alarma sobre whatsapp_waba.ambiguous_global_lookup para los eventos que siguen fallando cerrado",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/368",
+            "updatedAt": "2026-09-16T16:39:23Z"
+          },
+          {
+            "number": 367,
+            "title": "El reproceso de un evento de plantilla duplica versiones de auditoria en los tenants que ya habian ido bien",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/367",
+            "updatedAt": "2026-09-16T16:39:10Z"
           },
           {
             "number": 366,
@@ -549,27 +570,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/298",
             "updatedAt": "2026-09-12T04:29:17Z"
-          },
-          {
-            "number": 297,
-            "title": "La página de retorno de ePayco expone datos de cualquier factura sin firma, y duerme 5 s en una ruta pública",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/297",
-            "updatedAt": "2026-09-12T04:29:16Z"
-          },
-          {
-            "number": 296,
-            "title": "extractTokenUsage trata un usage de 0/0 como 'sin medición', y ahora eso cuesta 1.100 tokens",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/296",
-            "updatedAt": "2026-09-12T04:04:13Z"
-          },
-          {
-            "number": 294,
-            "title": "chatService.images es una opción muerta: sin productor, sin reescalado y sin piso de tokens de visión",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/294",
-            "updatedAt": "2026-09-12T04:04:11Z"
           }
         ],
         "truncated": true
