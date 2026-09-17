@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T22:30:36.179Z",
+  "generatedAt": "2026-09-17T23:00:41.956Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-17T21:59:43Z",
+      "lastActivityAt": "2026-09-17T22:40:29Z",
       "progress": {
         "percent": 51,
-        "label": "102/200 issues"
+        "label": "101/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 102,
+          "closed": 101,
           "total": 200
         },
         {
@@ -247,14 +247,28 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 102,
+        "closedIssues": 101,
         "issues": [
           {
-            "number": 360,
-            "title": "La consulta del barrido de salida no tiene indice: full scan cada pasada sobre una tabla que crece con cada mensaje",
+            "number": 399,
+            "title": "Residuo vivo de #180: el middleware de firma distingue 'Invalid signature format' de 'Invalid signature' en la ruta que sirve trafico real",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/360",
-            "updatedAt": "2026-09-17T21:59:54Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/399",
+            "updatedAt": "2026-09-17T22:40:45Z"
+          },
+          {
+            "number": 423,
+            "title": "syncDatabase() emite DDL en arranque con la unica guarda de NODE_ENV, y staging corre sobre copia de produccion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/423",
+            "updatedAt": "2026-09-17T22:35:07Z"
+          },
+          {
+            "number": 422,
+            "title": "Aplicar la migracion del indice del barrido de salida: EXPLAIN pendiente y aviso del template por retirar",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/422",
+            "updatedAt": "2026-09-17T22:31:03Z"
           },
           {
             "number": 420,
@@ -367,13 +381,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/400",
             "updatedAt": "2026-09-17T17:55:53Z"
-          },
-          {
-            "number": 399,
-            "title": "Residuo vivo de #180: el middleware de firma distingue 'Invalid signature format' de 'Invalid signature' en la ruta que sirve trafico real",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/399",
-            "updatedAt": "2026-09-17T17:55:41Z"
           },
           {
             "number": 366,
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/331",
             "updatedAt": "2026-09-14T21:01:35Z"
-          },
-          {
-            "number": 330,
-            "title": "Plantillas de email de CRM y billing interpolan datos en HTML sin escapar",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/330",
-            "updatedAt": "2026-09-14T17:57:55Z"
           }
         ],
         "truncated": true
