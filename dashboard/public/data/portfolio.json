@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T03:00:41.013Z",
+  "generatedAt": "2026-09-17T03:30:36.350Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -95,61 +95,75 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 0,
-      "lastActivityAt": "2026-09-16T21:26:52Z",
+      "lastActivityAt": "2026-09-17T03:28:06Z",
       "progress": {
-        "percent": 43,
-        "label": "Turno funcional E2E · solicitud→atención→tiempo real: 6/14"
+        "percent": 41,
+        "label": "Turno funcional E2E · solicitud→atención→tiempo real: 7/17"
       },
       "progressMeters": [
         {
           "label": "Épica activa",
-          "closed": 6,
-          "total": 14
+          "closed": 7,
+          "total": 17
         },
         {
           "label": "Épicas",
           "closed": 24,
-          "total": 26
+          "total": 27
         },
         {
           "label": "Global",
-          "closed": 178,
+          "closed": 176,
           "total": 200
         }
       ],
       "highlights": [],
       "issueBreakdown": {
         "label": "Turno funcional E2E · solicitud→atención→tiempo real",
-        "totalIssues": 14,
-        "closedIssues": 6,
+        "totalIssues": 17,
+        "closedIssues": 7,
         "issues": [
           {
-            "number": 461,
-            "title": "dashboard/summary envía al front un Decimal de Prisma en crudo donde va un número",
+            "number": 465,
+            "title": "Otros 14 servicios declaran JWKS_URI y no la tienen: el bootstrap solo rellena al crear el .env, nunca al que ya existía",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/461",
-            "updatedAt": "2026-09-16T21:28:36Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/465",
+            "updatedAt": "2026-09-17T03:28:53Z"
           },
           {
-            "number": 460,
-            "title": "service-audit no registra nada de Turno: sus colas están excluidas de la configuración y le falta una migración",
+            "number": 464,
+            "title": "El JWKS se descarga una vez y no se refresca: si service-auth reinicia, realtime rechaza a TODOS los clientes con el health en verde",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/460",
-            "updatedAt": "2026-09-16T21:28:35Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/464",
+            "updatedAt": "2026-09-17T03:28:51Z"
           },
           {
-            "number": 458,
-            "title": "SEG · El arreglo de la fuga del WebSocket (#451) no se ha ejercitado en runtime: el servicio corre en modo dev-sin-jwks",
+            "number": 462,
+            "title": "[EPIC] Reporte de turno: historial de estados con hora + trayectoria completa («solicitado 10:02 → llamado 10:14 → atención 10:30 → …», actor por transición, inmutable §8b/§8c)",
             "state": "OPEN",
-            "url": "https://github.com/Electronikaco/civok-back/issues/458",
-            "updatedAt": "2026-09-16T21:28:05Z"
+            "url": "https://github.com/Electronikaco/civok-back/issues/462",
+            "updatedAt": "2026-09-17T03:25:24Z"
           },
           {
             "number": 457,
             "title": "El histórico de reportes no se escribe: el evento se descarta en silencio, y aunque se arregle viajaría sin los nombres (bloquea #415)",
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/457",
-            "updatedAt": "2026-09-16T21:27:32Z"
+            "updatedAt": "2026-09-17T03:23:40Z"
+          },
+          {
+            "number": 460,
+            "title": "service-audit no registra nada de Turno: sus colas están excluidas de la configuración y le falta una migración",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/460",
+            "updatedAt": "2026-09-17T03:20:56Z"
+          },
+          {
+            "number": 461,
+            "title": "dashboard/summary envía al front un Decimal de Prisma en crudo donde va un número",
+            "state": "OPEN",
+            "url": "https://github.com/Electronikaco/civok-back/issues/461",
+            "updatedAt": "2026-09-16T21:28:36Z"
           },
           {
             "number": 452,
@@ -178,6 +192,13 @@
             "state": "OPEN",
             "url": "https://github.com/Electronikaco/civok-back/issues/409",
             "updatedAt": "2026-09-15T17:48:00Z"
+          },
+          {
+            "number": 458,
+            "title": "SEG · El arreglo de la fuga del WebSocket (#451) no se ha ejercitado en runtime: el servicio corre en modo dev-sin-jwks",
+            "state": "CLOSED",
+            "url": "https://github.com/Electronikaco/civok-back/issues/458",
+            "updatedAt": "2026-09-17T03:29:22Z"
           },
           {
             "number": 451,
