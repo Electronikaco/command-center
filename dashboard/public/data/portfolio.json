@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T18:00:44.843Z",
+  "generatedAt": "2026-09-17T18:30:40.273Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -228,13 +228,13 @@
       "commits30d": 13,
       "lastActivityAt": "2026-09-17T17:56:53Z",
       "progress": {
-        "percent": 55,
-        "label": "110/200 issues"
+        "percent": 54,
+        "label": "108/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 110,
+          "closed": 108,
           "total": 200
         },
         {
@@ -247,8 +247,22 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 110,
+        "closedIssues": 108,
         "issues": [
+          {
+            "number": 403,
+            "title": "Swagger de los links assistant-WhatsApp: el POST documenta un 404 que en realidad es 422 y el DELETE no esta documentado",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/403",
+            "updatedAt": "2026-09-17T18:24:40Z"
+          },
+          {
+            "number": 402,
+            "title": "Doble codificacion UTF-8 en 9 ficheros: mensajes de error que llegan al cliente como 'ConversaciÃ³n no encontrada'",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/402",
+            "updatedAt": "2026-09-17T18:24:14Z"
+          },
           {
             "number": 362,
             "title": "Tercer residuo de #143: getAssistantWhatsAppLink devuelve al cliente la fila del numero sin re-validar tenant",
@@ -584,20 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/321",
             "updatedAt": "2026-09-12T10:51:48Z"
-          },
-          {
-            "number": 320,
-            "title": "revokeAllUserTokens recibe la transaccion y la ignora: los estaticos ni la aceptan",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/320",
-            "updatedAt": "2026-09-12T10:47:19Z"
-          },
-          {
-            "number": 316,
-            "title": "El token de invitacion de tenant users es un token de reset reutilizado, sin tipo ni revocacion propios",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/316",
-            "updatedAt": "2026-09-12T09:27:36Z"
           }
         ],
         "truncated": true
