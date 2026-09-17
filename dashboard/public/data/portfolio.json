@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T17:30:38.242Z",
+  "generatedAt": "2026-09-17T18:00:44.843Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -225,8 +225,8 @@
       "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 14,
-      "lastActivityAt": "2026-09-17T17:06:51Z",
+      "commits30d": 13,
+      "lastActivityAt": "2026-09-17T17:56:53Z",
       "progress": {
         "percent": 55,
         "label": "110/200 issues"
@@ -250,11 +250,25 @@
         "closedIssues": 110,
         "issues": [
           {
-            "number": 258,
-            "title": "Comparaciones de firmas y tokens de webhook sin tiempo constante o con fuga en logs (ePayco, PayU, Meta)",
+            "number": 362,
+            "title": "Tercer residuo de #143: getAssistantWhatsAppLink devuelve al cliente la fila del numero sin re-validar tenant",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/258",
-            "updatedAt": "2026-09-17T17:07:37Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/362",
+            "updatedAt": "2026-09-17T17:57:09Z"
+          },
+          {
+            "number": 400,
+            "title": "verifyChallenge de Meta no acepta MESSENGER_WEBHOOK_VERIFY_TOKEN; el controlador que sirve la ruta si",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/400",
+            "updatedAt": "2026-09-17T17:55:53Z"
+          },
+          {
+            "number": 399,
+            "title": "Residuo vivo de #180: el middleware de firma distingue 'Invalid signature format' de 'Invalid signature' en la ruta que sirve trafico real",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/399",
+            "updatedAt": "2026-09-17T17:55:41Z"
           },
           {
             "number": 366,
@@ -432,13 +446,6 @@
             "updatedAt": "2026-09-16T14:52:18Z"
           },
           {
-            "number": 362,
-            "title": "Tercer residuo de #143: getAssistantWhatsAppLink devuelve al cliente la fila del numero sin re-validar tenant",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/362",
-            "updatedAt": "2026-09-16T13:51:48Z"
-          },
-          {
             "number": 360,
             "title": "La consulta del barrido de salida no tiene indice: full scan cada pasada sobre una tabla que crece con cada mensaje",
             "state": "OPEN",
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/316",
             "updatedAt": "2026-09-12T09:27:36Z"
-          },
-          {
-            "number": 317,
-            "title": "invite y resend-invitation no tienen limite propio: con el correo encendido son una primitiva de envio",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/317",
-            "updatedAt": "2026-09-12T09:27:29Z"
           }
         ],
         "truncated": true
