@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T21:30:38.696Z",
+  "generatedAt": "2026-09-17T22:00:44.462Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -9,11 +9,11 @@
       "type": "github",
       "description": "Frontend forense multi-tenant — épicas UC-FE/UC-DM por milestone",
       "health": "ok",
-      "openPrs": 2,
+      "openPrs": 1,
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-17T21:13:50Z",
+      "lastActivityAt": "2026-09-17T21:40:11Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 140,
+          "closed": 141,
           "total": 200
         }
       ],
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-17T20:58:32Z",
+      "lastActivityAt": "2026-09-17T21:59:43Z",
       "progress": {
         "percent": 51,
-        "label": "101/200 issues"
+        "label": "102/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 101,
+          "closed": 102,
           "total": 200
         },
         {
@@ -247,8 +247,22 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 101,
+        "closedIssues": 102,
         "issues": [
+          {
+            "number": 360,
+            "title": "La consulta del barrido de salida no tiene indice: full scan cada pasada sobre una tabla que crece con cada mensaje",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/360",
+            "updatedAt": "2026-09-17T21:59:54Z"
+          },
+          {
+            "number": 420,
+            "title": "updateUser cambia el email con un check-then-act sin el cerrojo del tenant: la tercera via de la clase que cerro #354",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/420",
+            "updatedAt": "2026-09-17T21:56:11Z"
+          },
           {
             "number": 418,
             "title": "markAsJoined escribe fuera de su propia transaccion y se auto-bloquea: aceptar una invitacion puede colgarse hasta el timeout de InnoDB",
@@ -276,13 +290,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/415",
             "updatedAt": "2026-09-17T20:59:19Z"
-          },
-          {
-            "number": 354,
-            "title": "createUser y createInvitedUser toman cerrojos por FK en orden inverso a la cadena tenants -> tenant_roles -> tenant_users",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/354",
-            "updatedAt": "2026-09-17T20:59:00Z"
           },
           {
             "number": 345,
@@ -530,20 +537,6 @@
             "updatedAt": "2026-09-16T14:52:18Z"
           },
           {
-            "number": 360,
-            "title": "La consulta del barrido de salida no tiene indice: full scan cada pasada sobre una tabla que crece con cada mensaje",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/360",
-            "updatedAt": "2026-09-15T05:42:36Z"
-          },
-          {
-            "number": 358,
-            "title": "El modelo declara un unico GLOBAL de email y el codigo cita un indice que no existe en el DDL",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/358",
-            "updatedAt": "2026-09-15T04:51:28Z"
-          },
-          {
             "number": 357,
             "title": "Residuos menores de #173: revocarTokens es codigo muerto y bloquearParaActualizar borra la senal de reintentable",
             "state": "OPEN",
@@ -598,6 +591,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/331",
             "updatedAt": "2026-09-14T21:01:35Z"
+          },
+          {
+            "number": 330,
+            "title": "Plantillas de email de CRM y billing interpolan datos en HTML sin escapar",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/330",
+            "updatedAt": "2026-09-14T17:57:55Z"
           }
         ],
         "truncated": true
@@ -763,6 +763,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 13
+    "totalOpenPrs": 12
   }
 }
