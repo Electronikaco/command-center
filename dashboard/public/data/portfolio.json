@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T13:30:39.161Z",
+  "generatedAt": "2026-09-17T14:00:42.973Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -250,6 +250,13 @@
         "closedIssues": 114,
         "issues": [
           {
+            "number": 351,
+            "title": "GET /api/tenant/users/pending-invitations devuelve 500: require() en linea dentro de un modulo ESM",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/351",
+            "updatedAt": "2026-09-17T13:36:51Z"
+          },
+          {
             "number": 246,
             "title": "Redis puede arrancar sin contraseña (REDIS_PASSWORD opcional y requirepass vacío en los compose)",
             "state": "OPEN",
@@ -269,13 +276,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/383",
             "updatedAt": "2026-09-16T22:47:43Z"
-          },
-          {
-            "number": 351,
-            "title": "GET /api/tenant/users/pending-invitations devuelve 500: require() en linea dentro de un modulo ESM",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/351",
-            "updatedAt": "2026-09-16T20:58:42Z"
           },
           {
             "number": 349,
