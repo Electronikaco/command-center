@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T23:00:41.956Z",
+  "generatedAt": "2026-09-17T23:30:33.446Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,7 +226,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-17T22:40:29Z",
+      "lastActivityAt": "2026-09-17T23:17:48Z",
       "progress": {
         "percent": 51,
         "label": "101/200 issues"
@@ -250,11 +250,18 @@
         "closedIssues": 101,
         "issues": [
           {
-            "number": 399,
-            "title": "Residuo vivo de #180: el middleware de firma distingue 'Invalid signature format' de 'Invalid signature' en la ruta que sirve trafico real",
+            "number": 400,
+            "title": "verifyChallenge de Meta no acepta MESSENGER_WEBHOOK_VERIFY_TOKEN; el controlador que sirve la ruta si",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/399",
-            "updatedAt": "2026-09-17T22:40:45Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/400",
+            "updatedAt": "2026-09-17T23:17:59Z"
+          },
+          {
+            "number": 425,
+            "title": "El compose sustituido de configuracion fija NODE_ENV=development, que es la unica via a aceptar webhooks SIN FIRMAR",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/425",
+            "updatedAt": "2026-09-17T23:10:33Z"
           },
           {
             "number": 423,
@@ -374,13 +381,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/402",
             "updatedAt": "2026-09-17T18:24:14Z"
-          },
-          {
-            "number": 400,
-            "title": "verifyChallenge de Meta no acepta MESSENGER_WEBHOOK_VERIFY_TOKEN; el controlador que sirve la ruta si",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/400",
-            "updatedAt": "2026-09-17T17:55:53Z"
           },
           {
             "number": 366,
