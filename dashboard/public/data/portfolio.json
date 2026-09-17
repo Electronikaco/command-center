@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T23:30:33.976Z",
+  "generatedAt": "2026-09-17T00:00:58.679Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -240,15 +240,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-16T22:54:01Z",
+      "lastActivityAt": "2026-09-16T23:45:32Z",
       "progress": {
-        "percent": 56,
-        "label": "113/200 issues"
+        "percent": 57,
+        "label": "114/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 113,
+          "closed": 114,
           "total": 200
         },
         {
@@ -261,15 +261,8 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 113,
+        "closedIssues": 114,
         "issues": [
-          {
-            "number": 248,
-            "title": "Antes de promover el índice único de números: escrituras que aún responderían 500 y restos de #187",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/248",
-            "updatedAt": "2026-09-16T22:55:36Z"
-          },
           {
             "number": 246,
             "title": "Redis puede arrancar sin contraseña (REDIS_PASSWORD opcional y requirepass vacío en los compose)",
@@ -612,6 +605,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/307",
             "updatedAt": "2026-09-12T07:27:37Z"
+          },
+          {
+            "number": 305,
+            "title": "sanitizarUrlParaLog: una cadena con userinfo y sin esquema deja pasar la contraseña",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/305",
+            "updatedAt": "2026-09-12T06:39:44Z"
           }
         ],
         "truncated": true
