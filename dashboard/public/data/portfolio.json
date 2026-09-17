@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T16:00:50.385Z",
+  "generatedAt": "2026-09-17T16:30:40.725Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-17T15:55:07Z",
+      "lastActivityAt": "2026-09-17T16:19:44Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -225,16 +225,16 @@
       "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 15,
-      "lastActivityAt": "2026-09-17T15:17:29Z",
+      "commits30d": 14,
+      "lastActivityAt": "2026-09-17T16:15:42Z",
       "progress": {
         "percent": 56,
-        "label": "112/200 issues"
+        "label": "111/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 112,
+          "closed": 111,
           "total": 200
         },
         {
@@ -247,14 +247,28 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 112,
+        "closedIssues": 111,
         "issues": [
           {
-            "number": 250,
-            "title": "verifyAssistantWhatsAppLink no comprueba que el asistente del link pertenezca al tenant dueño del número",
+            "number": 257,
+            "title": "Open redirect en el callback público de Google Calendar: redirectTo sale del state antes de verificar la firma",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/250",
-            "updatedAt": "2026-09-17T15:18:39Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/257",
+            "updatedAt": "2026-09-17T16:16:32Z"
+          },
+          {
+            "number": 394,
+            "title": "recordReceived devuelve la fila de otro tenant y markMany le escribe encima sin filtrar por tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/394",
+            "updatedAt": "2026-09-17T16:11:28Z"
+          },
+          {
+            "number": 393,
+            "title": "La clave de lote de messageQueue no lleva tenant: al fusionar se conservan el tenantId y el assistantId del lote pendiente",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/393",
+            "updatedAt": "2026-09-17T16:05:41Z"
           },
           {
             "number": 391,
@@ -584,20 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/314",
             "updatedAt": "2026-09-12T08:49:12Z"
-          },
-          {
-            "number": 313,
-            "title": "El swagger de auth declara mal la seguridad por operacion: el security de operacion REEMPLAZA al global",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/313",
-            "updatedAt": "2026-09-12T08:42:54Z"
-          },
-          {
-            "number": 310,
-            "title": "toAppError publica el mensaje del driver de MySQL en el cuerpo HTTP",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/310",
-            "updatedAt": "2026-09-12T08:31:59Z"
           }
         ],
         "truncated": true
