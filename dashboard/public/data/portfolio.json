@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T15:00:43.966Z",
+  "generatedAt": "2026-09-17T15:30:39.333Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 144,
+          "closed": 139,
           "total": 200
         }
       ],
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 17,
-      "lastActivityAt": "2026-09-17T14:18:21Z",
+      "lastActivityAt": "2026-09-17T15:17:29Z",
       "progress": {
         "percent": 56,
-        "label": "113/200 issues"
+        "label": "112/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 113,
+          "closed": 112,
           "total": 200
         },
         {
@@ -247,14 +247,28 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 113,
+        "closedIssues": 112,
         "issues": [
           {
-            "number": 347,
-            "title": "El worker de texto lee un assistant ajeno (messageWorker.ts:512), y el enqueue de audio del widget no valida el assistant_id",
+            "number": 250,
+            "title": "verifyAssistantWhatsAppLink no comprueba que el asistente del link pertenezca al tenant dueño del número",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/347",
-            "updatedAt": "2026-09-17T14:20:32Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/250",
+            "updatedAt": "2026-09-17T15:18:39Z"
+          },
+          {
+            "number": 391,
+            "title": "Decision de producto: un audio para un assistant borrado con handoff activo ya no le llega al agente humano",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/391",
+            "updatedAt": "2026-09-17T15:08:12Z"
+          },
+          {
+            "number": 390,
+            "title": "audioWorker: reasignar tempFiles descarta lo registrado al entrar y puede dejar el fichero en disco",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/390",
+            "updatedAt": "2026-09-17T15:07:59Z"
           },
           {
             "number": 388,
@@ -584,20 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/310",
             "updatedAt": "2026-09-12T08:31:59Z"
-          },
-          {
-            "number": 309,
-            "title": "Codigo muerto en SystemAdmin.model que puede reabrir la guarda del ultimo super admin (#114)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/309",
-            "updatedAt": "2026-09-12T08:31:24Z"
-          },
-          {
-            "number": 307,
-            "title": "createAdmin y BaseRepository vuelcan el objeto de error entero al log: sql y parameters con PII y el hash",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/307",
-            "updatedAt": "2026-09-12T07:27:37Z"
           }
         ],
         "truncated": true
