@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T19:30:38.014Z",
+  "generatedAt": "2026-09-18T20:00:46.455Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -26,12 +26,12 @@
         },
         {
           "label": "Épicas",
-          "closed": 28,
+          "closed": 29,
           "total": 35
         },
         {
           "label": "Global",
-          "closed": 145,
+          "closed": 146,
           "total": 200
         }
       ],
@@ -226,7 +226,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 5,
-      "lastActivityAt": "2026-09-18T16:56:23Z",
+      "lastActivityAt": "2026-09-18T19:34:39Z",
       "progress": {
         "percent": 47,
         "label": "94/200 issues"
@@ -250,18 +250,32 @@
         "closedIssues": 94,
         "issues": [
           {
+            "number": 433,
+            "title": "El patron que arreglo #405 sigue vivo en los servicios: con un numero duplicado, al tenant legitimo se le niega el suyo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/433",
+            "updatedAt": "2026-09-18T19:39:22Z"
+          },
+          {
+            "number": 478,
+            "title": "PromptService registra en el log el profile crudo del tenant, y un salto de linea parte la entrada en varias",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/478",
+            "updatedAt": "2026-09-18T19:34:28Z"
+          },
+          {
+            "number": 366,
+            "title": "Test flaky: audio-job-ownership compara la cabecera date y falla al cruzar un segundo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/366",
+            "updatedAt": "2026-09-18T19:33:25Z"
+          },
+          {
             "number": 469,
             "title": "El superRefine de los app secrets y la documentacion de WEBHOOK_ALLOW_UNSIGNED: los dos tocan plantillas de despliegue",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/469",
             "updatedAt": "2026-09-18T18:19:30Z"
-          },
-          {
-            "number": 431,
-            "title": "El nombre del assistant y del tenant se interpolan crudos en el system prompt: inyeccion indirecta de prompt",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/431",
-            "updatedAt": "2026-09-18T16:59:35Z"
           },
           {
             "number": 474,
@@ -318,13 +332,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/452",
             "updatedAt": "2026-09-18T09:46:17Z"
-          },
-          {
-            "number": 433,
-            "title": "El patron que arreglo #405 sigue vivo en los servicios: con un numero duplicado, al tenant legitimo se le niega el suyo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/433",
-            "updatedAt": "2026-09-18T08:49:26Z"
           },
           {
             "number": 408,
@@ -444,13 +451,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/403",
             "updatedAt": "2026-09-17T18:24:40Z"
-          },
-          {
-            "number": 366,
-            "title": "Test flaky: audio-job-ownership compara la cabecera date y falla al cruzar un segundo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/366",
-            "updatedAt": "2026-09-17T17:05:24Z"
           },
           {
             "number": 397,
@@ -617,12 +617,12 @@
       "health": "ok",
       "openPrs": 0,
       "mergedPrs30d": 19,
-      "commits7d": 15,
+      "commits7d": 4,
       "commits30d": 30,
       "lastActivityAt": "2026-09-15T03:48:32Z",
       "progress": {
         "percent": null,
-        "label": "15 commits / 7d (develop)"
+        "label": "4 commits / 7d (develop)"
       },
       "progressMeters": [],
       "highlights": [],
