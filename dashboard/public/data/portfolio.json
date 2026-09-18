@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T22:00:43.894Z",
+  "generatedAt": "2026-09-18T22:30:43.568Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 5,
-      "lastActivityAt": "2026-09-18T20:53:31Z",
+      "lastActivityAt": "2026-09-18T22:17:34Z",
       "progress": {
-        "percent": 47,
-        "label": "94/200 issues"
+        "percent": 48,
+        "label": "95/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 94,
+          "closed": 95,
           "total": 200
         },
         {
@@ -247,14 +247,14 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 94,
+        "closedIssues": 95,
         "issues": [
           {
-            "number": 429,
-            "title": "El front clasifica errores de Google por el TEXTO del mensaje, asi que cualquier reescritura en el backend es un cambio de contrato silencioso",
+            "number": 364,
+            "title": "Los docblocks de ownership de WhatsApp prometen un reproceso que no existe para ese proveedor",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/429",
-            "updatedAt": "2026-09-18T20:58:27Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/364",
+            "updatedAt": "2026-09-18T22:18:36Z"
           },
           {
             "number": 479,
@@ -593,11 +593,11 @@
             "updatedAt": "2026-09-16T16:39:10Z"
           },
           {
-            "number": 364,
-            "title": "Los docblocks de ownership de WhatsApp prometen un reproceso que no existe para ese proveedor",
+            "number": 357,
+            "title": "Residuos menores de #173: revocarTokens es codigo muerto y bloquearParaActualizar borra la senal de reintentable",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/364",
-            "updatedAt": "2026-09-16T14:52:18Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/357",
+            "updatedAt": "2026-09-15T04:18:33Z"
           }
         ],
         "truncated": true
