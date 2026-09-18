@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:00:38.947Z",
+  "generatedAt": "2026-09-18T13:30:37.685Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-18T12:24:05Z",
+      "lastActivityAt": "2026-09-18T13:10:43Z",
       "progress": {
         "percent": 47,
-        "label": "93/200 issues"
+        "label": "94/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 93,
+          "closed": 94,
           "total": 200
         },
         {
@@ -247,21 +247,21 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 93,
+        "closedIssues": 94,
         "issues": [
-          {
-            "number": 425,
-            "title": "Aceptar webhooks de Meta SIN FIRMAR se deducia de NODE_ENV, no de una decision explicita",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/425",
-            "updatedAt": "2026-09-18T12:51:42Z"
-          },
           {
             "number": 469,
             "title": "El superRefine de los app secrets y la documentacion de WEBHOOK_ALLOW_UNSIGNED: los dos tocan plantillas de despliegue",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/469",
-            "updatedAt": "2026-09-18T12:42:42Z"
+            "updatedAt": "2026-09-18T13:27:37Z"
+          },
+          {
+            "number": 423,
+            "title": "syncDatabase() emite DDL en arranque con la unica guarda de NODE_ENV, y staging corre sobre copia de produccion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/423",
+            "updatedAt": "2026-09-18T13:14:33Z"
           },
           {
             "number": 465,
@@ -381,13 +381,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/427",
             "updatedAt": "2026-09-17T23:38:52Z"
-          },
-          {
-            "number": 423,
-            "title": "syncDatabase() emite DDL en arranque con la unica guarda de NODE_ENV, y staging corre sobre copia de produccion",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/423",
-            "updatedAt": "2026-09-17T22:35:07Z"
           },
           {
             "number": 422,
@@ -598,6 +591,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/367",
             "updatedAt": "2026-09-16T16:39:10Z"
+          },
+          {
+            "number": 364,
+            "title": "Los docblocks de ownership de WhatsApp prometen un reproceso que no existe para ese proveedor",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/364",
+            "updatedAt": "2026-09-16T14:52:18Z"
           }
         ],
         "truncated": true
