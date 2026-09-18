@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T00:30:38.498Z",
+  "generatedAt": "2026-09-18T01:00:41.880Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-17T23:46:08Z",
+      "lastActivityAt": "2026-09-18T00:57:54Z",
       "progress": {
         "percent": 50,
-        "label": "100/200 issues"
+        "label": "99/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 100,
+          "closed": 99,
           "total": 200
         },
         {
@@ -247,21 +247,35 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 100,
+        "closedIssues": 99,
         "issues": [
+          {
+            "number": 405,
+            "title": "GET del link: una sola consulta con include en vez de findOne global + filtro, para devolverle al tenant su propia fila en caso de duplicado",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/405",
+            "updatedAt": "2026-09-18T00:58:52Z"
+          },
+          {
+            "number": 431,
+            "title": "El nombre del assistant y del tenant se interpolan crudos en el system prompt: inyeccion indirecta de prompt",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/431",
+            "updatedAt": "2026-09-18T00:57:06Z"
+          },
+          {
+            "number": 430,
+            "title": "La guarda de auth solo corre con test:unit, que no esta en la verificacion obligatoria de ese servicio",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/430",
+            "updatedAt": "2026-09-18T00:47:17Z"
+          },
           {
             "number": 429,
             "title": "El front clasifica errores de Google por el TEXTO del mensaje, asi que cualquier reescritura en el backend es un cambio de contrato silencioso",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/429",
             "updatedAt": "2026-09-18T00:22:53Z"
-          },
-          {
-            "number": 402,
-            "title": "Doble codificacion UTF-8 en 9 ficheros: mensajes de error que llegan al cliente como 'ConversaciÃ³n no encontrada'",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/402",
-            "updatedAt": "2026-09-17T23:46:25Z"
           },
           {
             "number": 427,
@@ -367,13 +381,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/407",
             "updatedAt": "2026-09-17T19:15:05Z"
-          },
-          {
-            "number": 405,
-            "title": "GET del link: una sola consulta con include en vez de findOne global + filtro, para devolverle al tenant su propia fila en caso de duplicado",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/405",
-            "updatedAt": "2026-09-17T18:36:46Z"
           },
           {
             "number": 404,
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/335",
             "updatedAt": "2026-09-14T22:10:13Z"
-          },
-          {
-            "number": 333,
-            "title": "Un callId con escape mal formado en el WS de voz tumba el proceso entero, sin autenticar",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/333",
-            "updatedAt": "2026-09-14T21:35:23Z"
           }
         ],
         "truncated": true
