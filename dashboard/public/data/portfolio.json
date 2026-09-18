@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T12:00:40.840Z",
+  "generatedAt": "2026-09-18T12:30:39.067Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-18T11:27:46Z",
+      "lastActivityAt": "2026-09-18T12:24:05Z",
       "progress": {
-        "percent": 46,
-        "label": "92/200 issues"
+        "percent": 47,
+        "label": "94/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 92,
+          "closed": 94,
           "total": 200
         },
         {
@@ -247,28 +247,21 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 92,
+        "closedIssues": 94,
         "issues": [
           {
-            "number": 466,
-            "title": "La compensacion de nonce de #461 repone sin saber si el consumo ocurrio: cerrar antes que #465",
+            "number": 425,
+            "title": "El compose sustituido de configuracion fija NODE_ENV=development, que es la unica via a aceptar webhooks SIN FIRMAR",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/466",
-            "updatedAt": "2026-09-18T11:59:52Z"
-          },
-          {
-            "number": 461,
-            "title": "resetPassword de admin quema el nonce antes de escribir: defecto LATENTE, porque hoy nadie recibe el token (#465)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/461",
-            "updatedAt": "2026-09-18T11:37:54Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/425",
+            "updatedAt": "2026-09-18T12:28:10Z"
           },
           {
             "number": 465,
             "title": "El reseteo de contrasena de admin genera un token, siembra el nonce y lo tira: nadie lo recibe",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/465",
-            "updatedAt": "2026-09-18T11:36:08Z"
+            "updatedAt": "2026-09-18T12:25:30Z"
           },
           {
             "number": 463,
@@ -381,13 +374,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/427",
             "updatedAt": "2026-09-17T23:38:52Z"
-          },
-          {
-            "number": 425,
-            "title": "El compose sustituido de configuracion fija NODE_ENV=development, que es la unica via a aceptar webhooks SIN FIRMAR",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/425",
-            "updatedAt": "2026-09-17T23:10:33Z"
           },
           {
             "number": 423,
@@ -598,6 +584,20 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/368",
             "updatedAt": "2026-09-16T16:39:23Z"
+          },
+          {
+            "number": 367,
+            "title": "El reproceso de un evento de plantilla duplica versiones de auditoria en los tenants que ya habian ido bien",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/367",
+            "updatedAt": "2026-09-16T16:39:10Z"
+          },
+          {
+            "number": 364,
+            "title": "Los docblocks de ownership de WhatsApp prometen un reproceso que no existe para ese proveedor",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/364",
+            "updatedAt": "2026-09-16T14:52:18Z"
           }
         ],
         "truncated": true
