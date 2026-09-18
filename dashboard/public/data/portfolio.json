@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:30:37.685Z",
+  "generatedAt": "2026-09-18T14:00:42.308Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,7 +226,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-18T13:10:43Z",
+      "lastActivityAt": "2026-09-18T13:55:48Z",
       "progress": {
         "percent": 47,
         "label": "94/200 issues"
@@ -250,18 +250,25 @@
         "closedIssues": 94,
         "issues": [
           {
+            "number": 412,
+            "title": "El barrido de voz falla cerrado solo si Redis cae del todo: un fallo parcial del GET se lee como 'sin señal de vida'",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/412",
+            "updatedAt": "2026-09-18T13:59:17Z"
+          },
+          {
+            "number": 471,
+            "title": "Un runbook de produccion y dos auditorias afirman que sequelize.sync() no muta el esquema, y es falso",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/471",
+            "updatedAt": "2026-09-18T13:48:20Z"
+          },
+          {
             "number": 469,
             "title": "El superRefine de los app secrets y la documentacion de WEBHOOK_ALLOW_UNSIGNED: los dos tocan plantillas de despliegue",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/469",
             "updatedAt": "2026-09-18T13:27:37Z"
-          },
-          {
-            "number": 423,
-            "title": "syncDatabase() emite DDL en arranque con la unica guarda de NODE_ENV, y staging corre sobre copia de produccion",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/423",
-            "updatedAt": "2026-09-18T13:14:33Z"
           },
           {
             "number": 465,
@@ -409,13 +416,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/345",
             "updatedAt": "2026-09-17T20:25:38Z"
-          },
-          {
-            "number": 412,
-            "title": "El barrido de voz falla cerrado solo si Redis cae del todo: un fallo parcial del GET se lee como 'sin señal de vida'",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/412",
-            "updatedAt": "2026-09-17T20:07:56Z"
           },
           {
             "number": 410,
