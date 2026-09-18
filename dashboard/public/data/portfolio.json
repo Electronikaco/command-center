@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T09:00:40.219Z",
+  "generatedAt": "2026-09-18T09:30:37.059Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,7 +226,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-18T08:53:36Z",
+      "lastActivityAt": "2026-09-18T09:08:11Z",
       "progress": {
         "percent": 49,
         "label": "97/200 issues"
@@ -251,10 +251,17 @@
         "issues": [
           {
             "number": 438,
-            "title": "AuthRefreshTokenRepository ignora su propia transaccion en revokeToken y rotateToken, y la rotacion abre una segunda anidada",
+            "title": "AuthRefreshTokenRepository: cinco callbacks ligan la transaccion y no la usan; los dos vivos son createToken y revokeAllUserTokens",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/438",
-            "updatedAt": "2026-09-18T08:58:07Z"
+            "updatedAt": "2026-09-18T09:27:01Z"
+          },
+          {
+            "number": 451,
+            "title": "TenantRoleService escribe los tres eventos de auditoria fuera de la transaccion, y el comentario que lo justifica solo es cierto en una de las dos ramas",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/451",
+            "updatedAt": "2026-09-18T09:11:35Z"
           },
           {
             "number": 437,
@@ -262,13 +269,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/437",
             "updatedAt": "2026-09-18T08:56:08Z"
-          },
-          {
-            "number": 440,
-            "title": "El bootstrap decide si crea el rol OWNER leyendo fuera de su propia transaccion",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/440",
-            "updatedAt": "2026-09-18T08:54:04Z"
           },
           {
             "number": 433,
