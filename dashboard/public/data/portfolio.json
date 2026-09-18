@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T06:30:37.422Z",
+  "generatedAt": "2026-09-18T07:00:39.848Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-18T04:52:42Z",
+      "lastActivityAt": "2026-09-18T06:57:37Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 143,
+          "closed": 144,
           "total": 200
         }
       ],
@@ -226,7 +226,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-18T06:09:24Z",
+      "lastActivityAt": "2026-09-18T06:57:14Z",
       "progress": {
         "percent": 47,
         "label": "94/200 issues"
@@ -250,18 +250,18 @@
         "closedIssues": 94,
         "issues": [
           {
-            "number": 420,
-            "title": "updateUser cambia el email con un check-then-act sin el cerrojo del tenant: la tercera via de la clase que cerro #354",
+            "number": 444,
+            "title": "changeUserRole es la gemela exacta de #420: comprueba el rol y escribe sin el cerrojo del tenant",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/420",
-            "updatedAt": "2026-09-18T06:27:17Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/444",
+            "updatedAt": "2026-09-18T06:59:26Z"
           },
           {
             "number": 442,
             "title": "TenantRole.model tiene un setAsDefault dormido que invierte la cadena de cerrojos, y dos require() en fuente ESM",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/442",
-            "updatedAt": "2026-09-18T06:09:10Z"
+            "updatedAt": "2026-09-18T06:57:48Z"
           },
           {
             "number": 440,
