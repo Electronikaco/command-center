@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T14:00:42.308Z",
+  "generatedAt": "2026-09-18T14:30:40.398Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-18T06:57:37Z",
+      "lastActivityAt": "2026-09-18T14:26:06Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 144,
+          "closed": 145,
           "total": 200
         }
       ],
@@ -229,12 +229,12 @@
       "lastActivityAt": "2026-09-18T13:55:48Z",
       "progress": {
         "percent": 47,
-        "label": "94/200 issues"
+        "label": "93/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 94,
+          "closed": 93,
           "total": 200
         },
         {
@@ -247,8 +247,15 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 94,
+        "closedIssues": 93,
         "issues": [
+          {
+            "number": 473,
+            "title": "Los cuatro llamantes de get en voice.gateway siguen confundiendo 'no pude leer la sesion' con 'no hay sesion', y dos cortan la llamada",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/473",
+            "updatedAt": "2026-09-18T14:29:13Z"
+          },
           {
             "number": 412,
             "title": "El barrido de voz falla cerrado solo si Redis cae del todo: un fallo parcial del GET se lee como 'sin señal de vida'",
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/367",
             "updatedAt": "2026-09-16T16:39:10Z"
-          },
-          {
-            "number": 364,
-            "title": "Los docblocks de ownership de WhatsApp prometen un reproceso que no existe para ese proveedor",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/364",
-            "updatedAt": "2026-09-16T14:52:18Z"
           }
         ],
         "truncated": true
