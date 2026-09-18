@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T10:30:38.044Z",
+  "generatedAt": "2026-09-18T11:00:40.605Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-18T10:23:08Z",
+      "lastActivityAt": "2026-09-18T11:00:08Z",
       "progress": {
-        "percent": 48,
-        "label": "95/200 issues"
+        "percent": 47,
+        "label": "94/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 95,
+          "closed": 94,
           "total": 200
         },
         {
@@ -247,28 +247,35 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 95,
+        "closedIssues": 94,
         "issues": [
           {
-            "number": 451,
-            "title": "TenantRoleService escribe los tres eventos de auditoria fuera de la transaccion, y el comentario que lo justifica solo es cierto en una de las dos ramas",
+            "number": 461,
+            "title": "SystemAuthService.resetPassword quema el nonce de Redis antes de escribir, y una transaccion NO lo arregla",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/451",
-            "updatedAt": "2026-09-18T10:23:38Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/461",
+            "updatedAt": "2026-09-18T10:56:52Z"
+          },
+          {
+            "number": 460,
+            "title": "changePassword no abre transaccion en ninguno de los dos servicios: un fallo tras escribir la contrasena deja vivas las sesiones que debia cerrar",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/460",
+            "updatedAt": "2026-09-18T10:52:08Z"
           },
           {
             "number": 456,
             "title": "isPasswordResetTokenValid siempre devuelve false: lee cuatro columnas que no escribe nadie",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/456",
-            "updatedAt": "2026-09-18T10:17:05Z"
+            "updatedAt": "2026-09-18T10:40:06Z"
           },
           {
-            "number": 453,
-            "title": "PasswordResetService: la contraseña nueva y la revocacion de sesiones salen por conexiones distintas en autocommit",
+            "number": 458,
+            "title": "Nada impide reproducir el defecto de #451 anadiendo transaction? a updateRole o deleteRole",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/453",
-            "updatedAt": "2026-09-18T10:12:58Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/458",
+            "updatedAt": "2026-09-18T10:36:33Z"
           },
           {
             "number": 455,
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/364",
             "updatedAt": "2026-09-16T14:52:18Z"
-          },
-          {
-            "number": 357,
-            "title": "Residuos menores de #173: revocarTokens es codigo muerto y bloquearParaActualizar borra la senal de reintentable",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/357",
-            "updatedAt": "2026-09-15T04:18:33Z"
           }
         ],
         "truncated": true
