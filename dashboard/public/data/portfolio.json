@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T07:30:36.325Z",
+  "generatedAt": "2026-09-18T08:00:40.700Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -250,6 +250,20 @@
         "closedIssues": 94,
         "issues": [
           {
+            "number": 440,
+            "title": "El bootstrap decide si crea el rol OWNER leyendo fuera de su propia transaccion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/440",
+            "updatedAt": "2026-09-18T07:55:17Z"
+          },
+          {
+            "number": 437,
+            "title": "Guarda sobre el fuente: ningun mutador de modelo en auth deberia hacer this.save() sin opciones",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/437",
+            "updatedAt": "2026-09-18T07:42:04Z"
+          },
+          {
             "number": 446,
             "title": "createTenantRole invierte la cadena de cerrojos en su rama sin transaccion, y el parametro es opcional",
             "state": "OPEN",
@@ -264,25 +278,11 @@
             "updatedAt": "2026-09-18T07:26:13Z"
           },
           {
-            "number": 437,
-            "title": "Guarda sobre el fuente: ningun mutador de modelo en auth deberia hacer this.save() sin opciones",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/437",
-            "updatedAt": "2026-09-18T07:25:28Z"
-          },
-          {
             "number": 349,
             "title": "Seis metodos estaticos muertos en TenantRole.model: inertes, pero nadie los llama",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/349",
             "updatedAt": "2026-09-18T07:17:26Z"
-          },
-          {
-            "number": 440,
-            "title": "El bootstrap decide si crea el rol OWNER leyendo fuera de su propia transaccion",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/440",
-            "updatedAt": "2026-09-18T05:29:46Z"
           },
           {
             "number": 436,
