@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T15:30:41.152Z",
+  "generatedAt": "2026-09-18T16:00:44.594Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -225,16 +225,16 @@
       "openPrs": 3,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 10,
-      "lastActivityAt": "2026-09-18T13:55:48Z",
+      "commits30d": 5,
+      "lastActivityAt": "2026-09-18T15:37:40Z",
       "progress": {
-        "percent": 46,
-        "label": "92/200 issues"
+        "percent": 47,
+        "label": "93/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 92,
+          "closed": 93,
           "total": 200
         },
         {
@@ -247,28 +247,21 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 92,
+        "closedIssues": 93,
         "issues": [
-          {
-            "number": 474,
-            "title": "El barrido de voz no distingue 'esta llamada no tiene sesion' de 'alguien vacio Redis', y en el segundo caso cierra llamadas vivas",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/474",
-            "updatedAt": "2026-09-18T15:22:58Z"
-          },
           {
             "number": 473,
             "title": "Los cuatro llamantes de get en voice.gateway siguen confundiendo 'no pude leer la sesion' con 'no hay sesion', y dos cortan la llamada",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/473",
-            "updatedAt": "2026-09-18T14:29:13Z"
+            "updatedAt": "2026-09-18T15:40:18Z"
           },
           {
-            "number": 412,
-            "title": "El barrido de voz falla cerrado solo si Redis cae del todo: un fallo parcial del GET se lee como 'sin señal de vida'",
+            "number": 474,
+            "title": "El barrido de voz no distingue 'esta llamada no tiene sesion' de 'alguien vacio Redis', y en el segundo caso cierra llamadas vivas",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/412",
-            "updatedAt": "2026-09-18T13:59:17Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/474",
+            "updatedAt": "2026-09-18T15:37:19Z"
           },
           {
             "number": 471,
@@ -598,6 +591,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/368",
             "updatedAt": "2026-09-16T16:39:23Z"
+          },
+          {
+            "number": 367,
+            "title": "El reproceso de un evento de plantilla duplica versiones de auditoria en los tenants que ya habian ido bien",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/367",
+            "updatedAt": "2026-09-16T16:39:10Z"
           }
         ],
         "truncated": true
