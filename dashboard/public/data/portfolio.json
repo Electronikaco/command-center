@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T16:30:42.014Z",
+  "generatedAt": "2026-09-18T17:00:45.774Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 5,
-      "lastActivityAt": "2026-09-18T15:37:40Z",
+      "lastActivityAt": "2026-09-18T16:56:23Z",
       "progress": {
         "percent": 47,
-        "label": "93/200 issues"
+        "label": "94/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 93,
+          "closed": 94,
           "total": 200
         },
         {
@@ -247,14 +247,14 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 93,
+        "closedIssues": 94,
         "issues": [
           {
-            "number": 473,
-            "title": "Los cuatro llamantes de get en voice.gateway siguen confundiendo 'no pude leer la sesion' con 'no hay sesion', y dos cortan la llamada",
+            "number": 431,
+            "title": "El nombre del assistant y del tenant se interpolan crudos en el system prompt: inyeccion indirecta de prompt",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/473",
-            "updatedAt": "2026-09-18T15:40:18Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/431",
+            "updatedAt": "2026-09-18T16:59:35Z"
           },
           {
             "number": 474,
@@ -318,13 +318,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/452",
             "updatedAt": "2026-09-18T09:46:17Z"
-          },
-          {
-            "number": 431,
-            "title": "El nombre del assistant y del tenant se interpolan crudos en el system prompt: inyeccion indirecta de prompt",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/431",
-            "updatedAt": "2026-09-18T09:31:21Z"
           },
           {
             "number": 433,
@@ -598,6 +591,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/367",
             "updatedAt": "2026-09-16T16:39:10Z"
+          },
+          {
+            "number": 364,
+            "title": "Los docblocks de ownership de WhatsApp prometen un reproceso que no existe para ese proveedor",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/364",
+            "updatedAt": "2026-09-16T14:52:18Z"
           }
         ],
         "truncated": true
