@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T02:30:41.775Z",
+  "generatedAt": "2026-09-18T03:00:49.779Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -229,12 +229,12 @@
       "lastActivityAt": "2026-09-18T01:59:46Z",
       "progress": {
         "percent": 47,
-        "label": "94/200 issues"
+        "label": "93/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 94,
+          "closed": 93,
           "total": 200
         },
         {
@@ -247,8 +247,36 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 94,
+        "closedIssues": 93,
         "issues": [
+          {
+            "number": 438,
+            "title": "AuthRefreshTokenRepository ignora su propia transaccion en revokeToken y rotateToken, y la rotacion abre una segunda anidada",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/438",
+            "updatedAt": "2026-09-18T02:49:28Z"
+          },
+          {
+            "number": 418,
+            "title": "markAsJoined escribe fuera de su propia transaccion y se auto-bloquea: aceptar una invitacion puede colgarse hasta el timeout de InnoDB",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/418",
+            "updatedAt": "2026-09-18T02:46:33Z"
+          },
+          {
+            "number": 437,
+            "title": "Guarda sobre el fuente: ningun mutador de modelo en auth deberia hacer this.save() sin opciones",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/437",
+            "updatedAt": "2026-09-18T02:46:32Z"
+          },
+          {
+            "number": 416,
+            "title": "TenantRoleService.createRole es la vía que queda fuera de la cadena de cerrojos: toma tenant_roles sin haber bloqueado tenants",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/416",
+            "updatedAt": "2026-09-18T02:30:52Z"
+          },
           {
             "number": 436,
             "title": "acceptInvitation acepta una transaccion y no la pasa a sus dos lecturas: la relectura devolveria la fila sin actualizar",
@@ -257,32 +285,11 @@
             "updatedAt": "2026-09-18T02:25:34Z"
           },
           {
-            "number": 418,
-            "title": "markAsJoined escribe fuera de su propia transaccion y se auto-bloquea: aceptar una invitacion puede colgarse hasta el timeout de InnoDB",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/418",
-            "updatedAt": "2026-09-18T02:22:22Z"
-          },
-          {
-            "number": 437,
-            "title": "Guarda sobre el fuente: ningun mutador de modelo en auth deberia hacer this.save() sin opciones",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/437",
-            "updatedAt": "2026-09-18T02:22:21Z"
-          },
-          {
             "number": 420,
             "title": "updateUser cambia el email con un check-then-act sin el cerrojo del tenant: la tercera via de la clase que cerro #354",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/420",
             "updatedAt": "2026-09-18T02:12:19Z"
-          },
-          {
-            "number": 416,
-            "title": "TenantRoleService.createRole es la vía que queda fuera de la cadena de cerrojos: toma tenant_roles sin haber bloqueado tenants",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/416",
-            "updatedAt": "2026-09-18T02:12:09Z"
           },
           {
             "number": 435,
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/364",
             "updatedAt": "2026-09-16T14:52:18Z"
-          },
-          {
-            "number": 357,
-            "title": "Residuos menores de #173: revocarTokens es codigo muerto y bloquearParaActualizar borra la senal de reintentable",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/357",
-            "updatedAt": "2026-09-15T04:18:33Z"
           }
         ],
         "truncated": true
