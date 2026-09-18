@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T22:30:43.568Z",
+  "generatedAt": "2026-09-18T23:00:42.184Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,7 +226,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 5,
-      "lastActivityAt": "2026-09-18T22:17:34Z",
+      "lastActivityAt": "2026-09-18T22:56:33Z",
       "progress": {
         "percent": 48,
         "label": "95/200 issues"
@@ -250,11 +250,11 @@
         "closedIssues": 95,
         "issues": [
           {
-            "number": 364,
-            "title": "Los docblocks de ownership de WhatsApp prometen un reproceso que no existe para ese proveedor",
+            "number": 482,
+            "title": "Las dos ramas de reactivacion de WhatsApp reponen una sola senal de baja, y esIntegracionViva mira dos",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/364",
-            "updatedAt": "2026-09-18T22:18:36Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/482",
+            "updatedAt": "2026-09-18T22:37:45Z"
           },
           {
             "number": 479,
