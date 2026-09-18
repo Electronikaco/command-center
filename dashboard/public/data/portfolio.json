@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:30:43.795Z",
+  "generatedAt": "2026-09-18T21:00:41.507Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,7 +226,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 5,
-      "lastActivityAt": "2026-09-18T19:34:39Z",
+      "lastActivityAt": "2026-09-18T20:53:31Z",
       "progress": {
         "percent": 47,
         "label": "94/200 issues"
@@ -250,11 +250,18 @@
         "closedIssues": 94,
         "issues": [
           {
-            "number": 433,
-            "title": "El patron que arreglo #405 sigue vivo en los servicios: con un numero duplicado, al tenant legitimo se le niega el suyo",
+            "number": 429,
+            "title": "El front clasifica errores de Google por el TEXTO del mensaje, asi que cualquier reescritura en el backend es un cambio de contrato silencioso",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/433",
-            "updatedAt": "2026-09-18T19:39:22Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/429",
+            "updatedAt": "2026-09-18T20:58:27Z"
+          },
+          {
+            "number": 479,
+            "title": "Oraculo de enumeracion en upload-to-meta: un tenant puede sondear cualquier phone_number_id y separar 'no existe' de 'es de otro'",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/479",
+            "updatedAt": "2026-09-18T20:44:46Z"
           },
           {
             "number": 478,
@@ -381,13 +388,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/407",
             "updatedAt": "2026-09-18T01:35:34Z"
-          },
-          {
-            "number": 429,
-            "title": "El front clasifica errores de Google por el TEXTO del mensaje, asi que cualquier reescritura en el backend es un cambio de contrato silencioso",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/429",
-            "updatedAt": "2026-09-18T00:22:53Z"
           },
           {
             "number": 427,
