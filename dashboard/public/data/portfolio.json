@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T09:30:37.059Z",
+  "generatedAt": "2026-09-18T10:00:44.258Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-18T09:08:11Z",
+      "lastActivityAt": "2026-09-18T09:48:52Z",
       "progress": {
-        "percent": 49,
-        "label": "97/200 issues"
+        "percent": 48,
+        "label": "96/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 97,
+          "closed": 96,
           "total": 200
         },
         {
@@ -247,28 +247,42 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 97,
+        "closedIssues": 96,
         "issues": [
-          {
-            "number": 438,
-            "title": "AuthRefreshTokenRepository: cinco callbacks ligan la transaccion y no la usan; los dos vivos son createToken y revokeAllUserTokens",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/438",
-            "updatedAt": "2026-09-18T09:27:01Z"
-          },
           {
             "number": 451,
             "title": "TenantRoleService escribe los tres eventos de auditoria fuera de la transaccion, y el comentario que lo justifica solo es cierto en una de las dos ramas",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/451",
-            "updatedAt": "2026-09-18T09:11:35Z"
+            "updatedAt": "2026-09-18T09:52:02Z"
           },
           {
             "number": 437,
             "title": "Guarda sobre el fuente: ningun mutador de modelo en auth deberia hacer this.save() sin opciones",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/437",
-            "updatedAt": "2026-09-18T08:56:08Z"
+            "updatedAt": "2026-09-18T09:49:27Z"
+          },
+          {
+            "number": 453,
+            "title": "PasswordResetService: la contraseña nueva y la revocacion de sesiones salen por conexiones distintas en autocommit",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/453",
+            "updatedAt": "2026-09-18T09:46:31Z"
+          },
+          {
+            "number": 452,
+            "title": "SystemRoleRepository.assignToAdmins: el bucle escribe N filas fuera de la transaccion, y el metodo esta muerto",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/452",
+            "updatedAt": "2026-09-18T09:46:17Z"
+          },
+          {
+            "number": 431,
+            "title": "El nombre del assistant y del tenant se interpolan crudos en el system prompt: inyeccion indirecta de prompt",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/431",
+            "updatedAt": "2026-09-18T09:31:21Z"
           },
           {
             "number": 433,
@@ -283,13 +297,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/408",
             "updatedAt": "2026-09-18T08:41:23Z"
-          },
-          {
-            "number": 431,
-            "title": "El nombre del assistant y del tenant se interpolan crudos en el system prompt: inyeccion indirecta de prompt",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/431",
-            "updatedAt": "2026-09-18T08:23:40Z"
           },
           {
             "number": 349,
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/353",
             "updatedAt": "2026-09-15T03:16:52Z"
-          },
-          {
-            "number": 341,
-            "title": "Cola de E.164 sin enmascarar en logs: WhatsAppContactService:152 y el context de sendWithRetry en messageWorker",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/341",
-            "updatedAt": "2026-09-14T23:43:24Z"
           }
         ],
         "truncated": true
