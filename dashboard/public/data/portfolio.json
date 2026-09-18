@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T07:00:39.848Z",
+  "generatedAt": "2026-09-18T07:30:36.325Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,7 +226,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-18T06:57:14Z",
+      "lastActivityAt": "2026-09-18T07:25:39Z",
       "progress": {
         "percent": 47,
         "label": "94/200 issues"
@@ -250,18 +250,32 @@
         "closedIssues": 94,
         "issues": [
           {
+            "number": 446,
+            "title": "createTenantRole invierte la cadena de cerrojos en su rama sin transaccion, y el parametro es opcional",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/446",
+            "updatedAt": "2026-09-18T07:28:05Z"
+          },
+          {
             "number": 444,
             "title": "changeUserRole es la gemela exacta de #420: comprueba el rol y escribe sin el cerrojo del tenant",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/444",
-            "updatedAt": "2026-09-18T06:59:26Z"
+            "updatedAt": "2026-09-18T07:26:13Z"
           },
           {
-            "number": 442,
-            "title": "TenantRole.model tiene un setAsDefault dormido que invierte la cadena de cerrojos, y dos require() en fuente ESM",
+            "number": 437,
+            "title": "Guarda sobre el fuente: ningun mutador de modelo en auth deberia hacer this.save() sin opciones",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/442",
-            "updatedAt": "2026-09-18T06:57:48Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/437",
+            "updatedAt": "2026-09-18T07:25:28Z"
+          },
+          {
+            "number": 349,
+            "title": "Seis metodos estaticos muertos en TenantRole.model: inertes, pero nadie los llama",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/349",
+            "updatedAt": "2026-09-18T07:17:26Z"
           },
           {
             "number": 440,
@@ -269,13 +283,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/440",
             "updatedAt": "2026-09-18T05:29:46Z"
-          },
-          {
-            "number": 437,
-            "title": "Guarda sobre el fuente: ningun mutador de modelo en auth deberia hacer this.save() sin opciones",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/437",
-            "updatedAt": "2026-09-18T05:11:23Z"
           },
           {
             "number": 436,
@@ -521,13 +528,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/383",
             "updatedAt": "2026-09-16T22:47:43Z"
-          },
-          {
-            "number": 349,
-            "title": "Seis metodos estaticos muertos en TenantRole.model: inertes, pero nadie los llama",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/349",
-            "updatedAt": "2026-09-16T20:58:41Z"
           },
           {
             "number": 378,
