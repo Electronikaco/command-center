@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T02:00:45.711Z",
+  "generatedAt": "2026-09-18T02:30:41.775Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-18T00:16:48Z",
+      "lastActivityAt": "2026-09-18T02:18:29Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
@@ -228,13 +228,13 @@
       "commits30d": 13,
       "lastActivityAt": "2026-09-18T01:59:46Z",
       "progress": {
-        "percent": 48,
-        "label": "96/200 issues"
+        "percent": 47,
+        "label": "94/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 96,
+          "closed": 94,
           "total": 200
         },
         {
@@ -247,14 +247,49 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 96,
+        "closedIssues": 94,
         "issues": [
+          {
+            "number": 436,
+            "title": "acceptInvitation acepta una transaccion y no la pasa a sus dos lecturas: la relectura devolveria la fila sin actualizar",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/436",
+            "updatedAt": "2026-09-18T02:25:34Z"
+          },
           {
             "number": 418,
             "title": "markAsJoined escribe fuera de su propia transaccion y se auto-bloquea: aceptar una invitacion puede colgarse hasta el timeout de InnoDB",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/418",
-            "updatedAt": "2026-09-18T01:59:50Z"
+            "updatedAt": "2026-09-18T02:22:22Z"
+          },
+          {
+            "number": 437,
+            "title": "Guarda sobre el fuente: ningun mutador de modelo en auth deberia hacer this.save() sin opciones",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/437",
+            "updatedAt": "2026-09-18T02:22:21Z"
+          },
+          {
+            "number": 420,
+            "title": "updateUser cambia el email con un check-then-act sin el cerrojo del tenant: la tercera via de la clase que cerro #354",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/420",
+            "updatedAt": "2026-09-18T02:12:19Z"
+          },
+          {
+            "number": 416,
+            "title": "TenantRoleService.createRole es la vía que queda fuera de la cadena de cerrojos: toma tenant_roles sin haber bloqueado tenants",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/416",
+            "updatedAt": "2026-09-18T02:12:09Z"
+          },
+          {
+            "number": 435,
+            "title": "POST del link: dos consultas a assistant_whatsapp_links sin acotar por tenant, y una de ellas RESTAURA y reescribe la fila de otro tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/435",
+            "updatedAt": "2026-09-18T02:02:22Z"
           },
           {
             "number": 405,
@@ -262,13 +297,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/405",
             "updatedAt": "2026-09-18T01:59:49Z"
-          },
-          {
-            "number": 435,
-            "title": "POST del link: dos consultas a assistant_whatsapp_links sin acotar por tenant, y una de ellas RESTAURA y reescribe la fila de otro tenant",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/435",
-            "updatedAt": "2026-09-18T01:58:37Z"
           },
           {
             "number": 433,
@@ -283,20 +311,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/434",
             "updatedAt": "2026-09-18T01:45:30Z"
-          },
-          {
-            "number": 420,
-            "title": "updateUser cambia el email con un check-then-act sin el cerrojo del tenant: la tercera via de la clase que cerro #354",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/420",
-            "updatedAt": "2026-09-18T01:40:32Z"
-          },
-          {
-            "number": 416,
-            "title": "TenantRoleService.createRole es la vía que queda fuera de la cadena de cerrojos: toma tenant_roles sin haber bloqueado tenants",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/416",
-            "updatedAt": "2026-09-18T01:39:35Z"
           },
           {
             "number": 407,
@@ -584,20 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/357",
             "updatedAt": "2026-09-15T04:18:33Z"
-          },
-          {
-            "number": 353,
-            "title": "UpdateTenantRoleSchema acepta isActive y el controlador lo descarta en silencio",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/353",
-            "updatedAt": "2026-09-15T03:16:52Z"
-          },
-          {
-            "number": 341,
-            "title": "Cola de E.164 sin enmascarar en logs: WhatsAppContactService:152 y el context de sendWithRetry en messageWorker",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/341",
-            "updatedAt": "2026-09-14T23:43:24Z"
           }
         ],
         "truncated": true
