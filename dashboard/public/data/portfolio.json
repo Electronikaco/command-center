@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T08:30:41.650Z",
+  "generatedAt": "2026-09-18T09:00:40.219Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-18T08:15:40Z",
+      "lastActivityAt": "2026-09-18T08:53:36Z",
       "progress": {
-        "percent": 48,
-        "label": "95/200 issues"
+        "percent": 49,
+        "label": "97/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 95,
+          "closed": 97,
           "total": 200
         },
         {
@@ -247,14 +247,42 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 95,
+        "closedIssues": 97,
         "issues": [
+          {
+            "number": 438,
+            "title": "AuthRefreshTokenRepository ignora su propia transaccion en revokeToken y rotateToken, y la rotacion abre una segunda anidada",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/438",
+            "updatedAt": "2026-09-18T08:58:07Z"
+          },
+          {
+            "number": 437,
+            "title": "Guarda sobre el fuente: ningun mutador de modelo en auth deberia hacer this.save() sin opciones",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/437",
+            "updatedAt": "2026-09-18T08:56:08Z"
+          },
+          {
+            "number": 440,
+            "title": "El bootstrap decide si crea el rol OWNER leyendo fuera de su propia transaccion",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/440",
+            "updatedAt": "2026-09-18T08:54:04Z"
+          },
           {
             "number": 433,
             "title": "El patron que arreglo #405 sigue vivo en los servicios: con un numero duplicado, al tenant legitimo se le niega el suyo",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/433",
-            "updatedAt": "2026-09-18T08:25:23Z"
+            "updatedAt": "2026-09-18T08:49:26Z"
+          },
+          {
+            "number": 408,
+            "title": "Deriva de TRUST_PROXY en auth: si el desplegado esta en false, el limitador de /api es un tope GLOBAL y 5 peticiones bloquean todos los bootstraps",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/408",
+            "updatedAt": "2026-09-18T08:41:23Z"
           },
           {
             "number": 431,
@@ -262,41 +290,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/431",
             "updatedAt": "2026-09-18T08:23:40Z"
-          },
-          {
-            "number": 430,
-            "title": "La guarda de auth solo corre con test:unit, que no esta en la verificacion obligatoria de ese servicio",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/430",
-            "updatedAt": "2026-09-18T08:23:29Z"
-          },
-          {
-            "number": 437,
-            "title": "Guarda sobre el fuente: ningun mutador de modelo en auth deberia hacer this.save() sin opciones",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/437",
-            "updatedAt": "2026-09-18T08:22:13Z"
-          },
-          {
-            "number": 440,
-            "title": "El bootstrap decide si crea el rol OWNER leyendo fuera de su propia transaccion",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/440",
-            "updatedAt": "2026-09-18T08:20:56Z"
-          },
-          {
-            "number": 446,
-            "title": "createTenantRole invierte la cadena de cerrojos en su rama sin transaccion, y el parametro es opcional",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/446",
-            "updatedAt": "2026-09-18T08:16:19Z"
-          },
-          {
-            "number": 438,
-            "title": "AuthRefreshTokenRepository ignora su propia transaccion en revokeToken y rotateToken, y la rotacion abre una segunda anidada",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/438",
-            "updatedAt": "2026-09-18T08:12:46Z"
           },
           {
             "number": 349,
@@ -416,13 +409,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/409",
             "updatedAt": "2026-09-17T19:16:28Z"
-          },
-          {
-            "number": 408,
-            "title": "Deriva de TRUST_PROXY en auth: si el desplegado esta en false, el limitador de /api es un tope GLOBAL y 5 peticiones bloquean todos los bootstraps",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/408",
-            "updatedAt": "2026-09-17T19:15:49Z"
           },
           {
             "number": 404,
@@ -598,6 +584,20 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/357",
             "updatedAt": "2026-09-15T04:18:33Z"
+          },
+          {
+            "number": 353,
+            "title": "UpdateTenantRoleSchema acepta isActive y el controlador lo descarta en silencio",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/353",
+            "updatedAt": "2026-09-15T03:16:52Z"
+          },
+          {
+            "number": 341,
+            "title": "Cola de E.164 sin enmascarar en logs: WhatsAppContactService:152 y el context de sendWithRetry en messageWorker",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/341",
+            "updatedAt": "2026-09-14T23:43:24Z"
           }
         ],
         "truncated": true
