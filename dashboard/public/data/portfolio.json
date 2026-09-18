@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T04:30:38.582Z",
+  "generatedAt": "2026-09-18T05:00:44.937Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -13,7 +13,7 @@
       "mergedPrs30d": 50,
       "commits7d": 30,
       "commits30d": 30,
-      "lastActivityAt": "2026-09-18T03:59:01Z",
+      "lastActivityAt": "2026-09-18T04:52:42Z",
       "progress": {
         "percent": 80,
         "label": "S19 · Onboarding y ayuda (EPIC-Z): 4/5"
