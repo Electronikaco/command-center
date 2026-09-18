@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T10:00:44.258Z",
+  "generatedAt": "2026-09-18T10:30:38.044Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-18T09:48:52Z",
+      "lastActivityAt": "2026-09-18T10:23:08Z",
       "progress": {
         "percent": 48,
-        "label": "96/200 issues"
+        "label": "95/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 96,
+          "closed": 95,
           "total": 200
         },
         {
@@ -247,28 +247,35 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 96,
+        "closedIssues": 95,
         "issues": [
           {
             "number": 451,
             "title": "TenantRoleService escribe los tres eventos de auditoria fuera de la transaccion, y el comentario que lo justifica solo es cierto en una de las dos ramas",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/451",
-            "updatedAt": "2026-09-18T09:52:02Z"
+            "updatedAt": "2026-09-18T10:23:38Z"
           },
           {
-            "number": 437,
-            "title": "Guarda sobre el fuente: ningun mutador de modelo en auth deberia hacer this.save() sin opciones",
+            "number": 456,
+            "title": "isPasswordResetTokenValid siempre devuelve false: lee cuatro columnas que no escribe nadie",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/437",
-            "updatedAt": "2026-09-18T09:49:27Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/456",
+            "updatedAt": "2026-09-18T10:17:05Z"
           },
           {
             "number": 453,
             "title": "PasswordResetService: la contraseña nueva y la revocacion de sesiones salen por conexiones distintas en autocommit",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/453",
-            "updatedAt": "2026-09-18T09:46:31Z"
+            "updatedAt": "2026-09-18T10:12:58Z"
+          },
+          {
+            "number": 455,
+            "title": "Los seis mutadores de EmailVerificationToken y PasswordResetToken: API de modelo que los repositorios duplicaron con Model.update",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/455",
+            "updatedAt": "2026-09-18T10:04:27Z"
           },
           {
             "number": 452,
@@ -591,13 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/357",
             "updatedAt": "2026-09-15T04:18:33Z"
-          },
-          {
-            "number": 353,
-            "title": "UpdateTenantRoleSchema acepta isActive y el controlador lo descarta en silencio",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/353",
-            "updatedAt": "2026-09-15T03:16:52Z"
           }
         ],
         "truncated": true
