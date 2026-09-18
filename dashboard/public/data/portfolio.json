@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T01:30:33.073Z",
+  "generatedAt": "2026-09-18T02:00:45.711Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -31,7 +31,7 @@
         },
         {
           "label": "Global",
-          "closed": 142,
+          "closed": 143,
           "total": 200
         }
       ],
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-18T00:57:54Z",
+      "lastActivityAt": "2026-09-18T01:59:46Z",
       "progress": {
-        "percent": 50,
-        "label": "99/200 issues"
+        "percent": 48,
+        "label": "96/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 99,
+          "closed": 96,
           "total": 200
         },
         {
@@ -247,14 +247,63 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 99,
+        "closedIssues": 96,
         "issues": [
+          {
+            "number": 418,
+            "title": "markAsJoined escribe fuera de su propia transaccion y se auto-bloquea: aceptar una invitacion puede colgarse hasta el timeout de InnoDB",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/418",
+            "updatedAt": "2026-09-18T01:59:50Z"
+          },
           {
             "number": 405,
             "title": "GET del link: una sola consulta con include en vez de findOne global + filtro, para devolverle al tenant su propia fila en caso de duplicado",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/405",
-            "updatedAt": "2026-09-18T00:58:52Z"
+            "updatedAt": "2026-09-18T01:59:49Z"
+          },
+          {
+            "number": 435,
+            "title": "POST del link: dos consultas a assistant_whatsapp_links sin acotar por tenant, y una de ellas RESTAURA y reescribe la fila de otro tenant",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/435",
+            "updatedAt": "2026-09-18T01:58:37Z"
+          },
+          {
+            "number": 433,
+            "title": "El patron que arreglo #405 sigue vivo en los servicios: con un numero duplicado, al tenant legitimo se le niega el suyo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/433",
+            "updatedAt": "2026-09-18T01:49:07Z"
+          },
+          {
+            "number": 434,
+            "title": "WhatsAppOwnership.integration es peso muerto: se consulta y se devuelve, y ningun llamante la usa",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/434",
+            "updatedAt": "2026-09-18T01:45:30Z"
+          },
+          {
+            "number": 420,
+            "title": "updateUser cambia el email con un check-then-act sin el cerrojo del tenant: la tercera via de la clase que cerro #354",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/420",
+            "updatedAt": "2026-09-18T01:40:32Z"
+          },
+          {
+            "number": 416,
+            "title": "TenantRoleService.createRole es la vía que queda fuera de la cadena de cerrojos: toma tenant_roles sin haber bloqueado tenants",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/416",
+            "updatedAt": "2026-09-18T01:39:35Z"
+          },
+          {
+            "number": 407,
+            "title": "El BFF del front comparte un unico cubo del limitador de /api, y el panel de compliance pide una ruta que no existe",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/407",
+            "updatedAt": "2026-09-18T01:35:34Z"
           },
           {
             "number": 431,
@@ -306,32 +355,11 @@
             "updatedAt": "2026-09-17T22:31:03Z"
           },
           {
-            "number": 420,
-            "title": "updateUser cambia el email con un check-then-act sin el cerrojo del tenant: la tercera via de la clase que cerro #354",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/420",
-            "updatedAt": "2026-09-17T21:56:11Z"
-          },
-          {
-            "number": 418,
-            "title": "markAsJoined escribe fuera de su propia transaccion y se auto-bloquea: aceptar una invitacion puede colgarse hasta el timeout de InnoDB",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/418",
-            "updatedAt": "2026-09-17T21:26:47Z"
-          },
-          {
             "number": 417,
             "title": "Falta un indice (idTenant, idTenantRole) en tenant_users: obliga a barridos por ix_tenant_users_role que bloquean filas de otros tenants",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/417",
             "updatedAt": "2026-09-17T21:25:57Z"
-          },
-          {
-            "number": 416,
-            "title": "TenantRoleService.createRole es la vía que queda fuera de la cadena de cerrojos: toma tenant_roles sin haber bloqueado tenants",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/416",
-            "updatedAt": "2026-09-17T21:25:41Z"
           },
           {
             "number": 415,
@@ -374,13 +402,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/408",
             "updatedAt": "2026-09-17T19:15:49Z"
-          },
-          {
-            "number": 407,
-            "title": "El BFF del front comparte un unico cubo del limitador de /api, y el panel de compliance pide una ruta que no existe",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/407",
-            "updatedAt": "2026-09-17T19:15:05Z"
           },
           {
             "number": 404,
@@ -577,27 +598,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/341",
             "updatedAt": "2026-09-14T23:43:24Z"
-          },
-          {
-            "number": 340,
-            "title": "providerPool loguea la clave del pool, y sus primeros 50 caracteres pueden asomar el system prompt del tenant",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/340",
-            "updatedAt": "2026-09-14T23:06:47Z"
-          },
-          {
-            "number": 337,
-            "title": "Decision: si el router legacy debe pasar el wamid al encolar audio (enciende automatizaciones y metricas de campana)",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/337",
-            "updatedAt": "2026-09-14T22:23:45Z"
-          },
-          {
-            "number": 335,
-            "title": "extractTokenFromHandshake: dos casos limite del Authorization que hoy dan 401 a un cliente legitimo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/335",
-            "updatedAt": "2026-09-14T22:10:13Z"
           }
         ],
         "truncated": true
