@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T11:00:40.605Z",
+  "generatedAt": "2026-09-18T11:30:37.630Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,7 +226,7 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 13,
-      "lastActivityAt": "2026-09-18T11:00:08Z",
+      "lastActivityAt": "2026-09-18T11:27:46Z",
       "progress": {
         "percent": 47,
         "label": "94/200 issues"
@@ -254,14 +254,14 @@
             "title": "SystemAuthService.resetPassword quema el nonce de Redis antes de escribir, y una transaccion NO lo arregla",
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/461",
-            "updatedAt": "2026-09-18T10:56:52Z"
+            "updatedAt": "2026-09-18T11:28:09Z"
           },
           {
-            "number": 460,
-            "title": "changePassword no abre transaccion en ninguno de los dos servicios: un fallo tras escribir la contrasena deja vivas las sesiones que debia cerrar",
+            "number": 463,
+            "title": "Los docblocks de auth anclan numeros de linea y se desplazan: dos afirmaciones falsas hoy en el mismo docblock",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/460",
-            "updatedAt": "2026-09-18T10:52:08Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/463",
+            "updatedAt": "2026-09-18T11:23:25Z"
           },
           {
             "number": 456,
