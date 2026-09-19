@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T01:00:44.085Z",
+  "generatedAt": "2026-09-19T01:30:37.211Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -222,11 +222,11 @@
       "type": "github",
       "description": "Backend Miliia — IA, WhatsApp, voz",
       "health": "ok",
-      "openPrs": 3,
+      "openPrs": 4,
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 5,
-      "lastActivityAt": "2026-09-18T22:56:33Z",
+      "lastActivityAt": "2026-09-19T01:09:55Z",
       "progress": {
         "percent": 48,
         "label": "95/200 issues"
@@ -250,6 +250,13 @@
         "closedIssues": 95,
         "issues": [
           {
+            "number": 366,
+            "title": "Test flaky: audio-job-ownership compara la cabecera date y falla al cruzar un segundo",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/366",
+            "updatedAt": "2026-09-19T01:13:05Z"
+          },
+          {
             "number": 482,
             "title": "Las dos ramas de reactivacion de WhatsApp reponen una sola senal de baja, y esIntegracionViva mira dos",
             "state": "OPEN",
@@ -269,13 +276,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/478",
             "updatedAt": "2026-09-18T19:34:28Z"
-          },
-          {
-            "number": 366,
-            "title": "Test flaky: audio-job-ownership compara la cabecera date y falla al cruzar un segundo",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/366",
-            "updatedAt": "2026-09-18T19:33:25Z"
           },
           {
             "number": 469,
@@ -763,6 +763,6 @@
     "healthy": 6,
     "degraded": 0,
     "error": 0,
-    "totalOpenPrs": 11
+    "totalOpenPrs": 12
   }
 }
