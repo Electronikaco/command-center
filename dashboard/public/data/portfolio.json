@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T01:30:37.211Z",
+  "generatedAt": "2026-09-19T02:00:47.029Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 5,
-      "lastActivityAt": "2026-09-19T01:09:55Z",
+      "lastActivityAt": "2026-09-19T01:44:12Z",
       "progress": {
         "percent": 48,
-        "label": "95/200 issues"
+        "label": "96/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 95,
+          "closed": 96,
           "total": 200
         },
         {
@@ -247,14 +247,14 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 95,
+        "closedIssues": 96,
         "issues": [
           {
-            "number": 366,
-            "title": "Test flaky: audio-job-ownership compara la cabecera date y falla al cruzar un segundo",
+            "number": 479,
+            "title": "Oraculo de enumeracion en upload-to-meta: un tenant puede sondear cualquier phone_number_id y separar 'no existe' de 'es de otro'",
             "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/366",
-            "updatedAt": "2026-09-19T01:13:05Z"
+            "url": "https://github.com/ia-saas/miliia_back/issues/479",
+            "updatedAt": "2026-09-19T01:44:33Z"
           },
           {
             "number": 482,
@@ -262,13 +262,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/482",
             "updatedAt": "2026-09-18T22:37:45Z"
-          },
-          {
-            "number": 479,
-            "title": "Oraculo de enumeracion en upload-to-meta: un tenant puede sondear cualquier phone_number_id y separar 'no existe' de 'es de otro'",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/479",
-            "updatedAt": "2026-09-18T20:44:46Z"
           },
           {
             "number": 478,
@@ -598,6 +591,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/357",
             "updatedAt": "2026-09-15T04:18:33Z"
+          },
+          {
+            "number": 353,
+            "title": "UpdateTenantRoleSchema acepta isActive y el controlador lo descarta en silencio",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/353",
+            "updatedAt": "2026-09-15T03:16:52Z"
           }
         ],
         "truncated": true
