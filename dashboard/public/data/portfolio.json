@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T02:30:40.961Z",
+  "generatedAt": "2026-09-19T03:00:40.809Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -226,15 +226,15 @@
       "mergedPrs30d": 50,
       "commits7d": 0,
       "commits30d": 5,
-      "lastActivityAt": "2026-09-19T01:44:12Z",
+      "lastActivityAt": "2026-09-19T02:37:41Z",
       "progress": {
-        "percent": 48,
-        "label": "96/200 issues"
+        "percent": 49,
+        "label": "97/200 issues"
       },
       "progressMeters": [
         {
           "label": "Issues",
-          "closed": 96,
+          "closed": 97,
           "total": 200
         },
         {
@@ -247,15 +247,8 @@
       "issueBreakdown": {
         "label": "Issues",
         "totalIssues": 200,
-        "closedIssues": 96,
+        "closedIssues": 97,
         "issues": [
-          {
-            "number": 479,
-            "title": "Oraculo de enumeracion en upload-to-meta: un tenant puede sondear cualquier phone_number_id y separar 'no existe' de 'es de otro'",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/479",
-            "updatedAt": "2026-09-19T01:44:33Z"
-          },
           {
             "number": 482,
             "title": "Las dos ramas de reactivacion de WhatsApp reponen una sola senal de baja, y esIntegracionViva mira dos",
@@ -598,6 +591,13 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/353",
             "updatedAt": "2026-09-15T03:16:52Z"
+          },
+          {
+            "number": 341,
+            "title": "Cola de E.164 sin enmascarar en logs: WhatsAppContactService:152 y el context de sendWithRetry en messageWorker",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/341",
+            "updatedAt": "2026-09-14T23:43:24Z"
           }
         ],
         "truncated": true
