@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T15:00:39.013Z",
+  "generatedAt": "2026-09-20T15:30:39.144Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -225,7 +225,7 @@
       "openPrs": 4,
       "mergedPrs30d": 50,
       "commits7d": 0,
-      "commits30d": 5,
+      "commits30d": 4,
       "lastActivityAt": "2026-09-19T02:37:41Z",
       "progress": {
         "percent": 49,
