@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T13:30:39.855Z",
+  "generatedAt": "2026-09-21T14:00:43.641Z",
   "projects": [
     {
       "id": "dosmentes",
@@ -291,6 +291,13 @@
         "totalIssues": 200,
         "closedIssues": 97,
         "issues": [
+          {
+            "number": 353,
+            "title": "UpdateTenantRoleSchema acepta isActive y el controlador lo descarta en silencio",
+            "state": "OPEN",
+            "url": "https://github.com/ia-saas/miliia_back/issues/353",
+            "updatedAt": "2026-09-21T13:56:39Z"
+          },
           {
             "number": 482,
             "title": "Las dos ramas de reactivacion de WhatsApp reponen una sola senal de baja, y esIntegracionViva mira dos",
@@ -626,13 +633,6 @@
             "state": "OPEN",
             "url": "https://github.com/ia-saas/miliia_back/issues/357",
             "updatedAt": "2026-09-15T04:18:33Z"
-          },
-          {
-            "number": 353,
-            "title": "UpdateTenantRoleSchema acepta isActive y el controlador lo descarta en silencio",
-            "state": "OPEN",
-            "url": "https://github.com/ia-saas/miliia_back/issues/353",
-            "updatedAt": "2026-09-15T03:16:52Z"
           },
           {
             "number": 341,
